@@ -1,0 +1,367 @@
+{
+  "id": "usa",
+  "name": "USA",
+  "desc": "Internally consistent permissive posture: broad training rights, shared infrastructure, limited observability, retained value capture, and operating-budget deployment all point in the same direction.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "US labs operate at the frontier, and the permissive environment reinforces that position rather than constraining it.",
+      "detail": "The US hosts the leading frontier labs and the capital to sustain them. Permissive data and deployment rules remove friction from scaling. This creates a self-reinforcing cycle where capability leads generate more investment. The result is a jurisdiction whose regulatory posture matches its industrial position."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "Permissive training on broad data produces general-purpose models that spread across sectors without domain restriction.",
+      "detail": "US-based frontier models are trained on internet-scale corpora spanning most domains. No regulatory filter narrows the training scope to particular sectors. This produces general-purpose capability that can be deployed commercially anywhere. The breadth is a direct consequence of the permissive rights environment."
+    },
+    "Capability Trajectory": {
+      "value": "Compute-scaling",
+      "memo": "US capability growth is driven by compute scaleup, creating deep reliance on chips, power, and hyperscaler capital.",
+      "detail": "Frontier progress in the US tracks GPU cluster size more than algorithmic breakthroughs alone. Hyperscalers commit billions to secure accelerator allocation and power capacity. This hardware-driven trajectory creates industrial dependencies below the model layer. The permissive environment lets this scaling proceed without regulatory speed bumps."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "Leading US labs use their own models to accelerate research, creating a reciprocal human-machine improvement loop.",
+      "detail": "Frontier labs routinely use AI for code generation, experiment design, and evaluation. This creates a feedback loop where better models accelerate the next generation. The dynamic remains human-led in direction but AI-assisted in execution speed. It compresses research timelines without yet reaching recursive self-improvement."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "US deployments increasingly connect models to tools, APIs, and code execution, moving beyond pure conversational use.",
+      "detail": "Major US platforms ship tool-using capabilities as standard features. Models can browse, execute code, and call external services within platform guardrails. This shifts the system from chatbot toward delegated digital action. The permissive environment allows rapid unhobbling without pre-clearance."
+    },
+    "Replication Scale": {
+      "value": "Population-scale",
+      "memo": "US platform distribution places frontier capability in the hands of hundreds of millions of concurrent users.",
+      "detail": "ChatGPT, Copilot, and Gemini each serve tens of millions of daily users. This population-scale replication amplifies both benefit and exposure simultaneously. Any capability flaw or misuse pattern propagates across the entire user base. The scale is a direct product of API-first distribution and permissive deployment."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Cloud-hosted inference compresses knowledge-work cycles well below human speed across enterprise and consumer use.",
+      "detail": "API-served models return analysis, code, and content in seconds rather than hours. This compresses professional workflows in law, finance, and engineering. The speed advantage compounds when models are chained or used in batch processing. Human oversight struggles to keep pace with the throughput."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "The dominant US AI deployment pattern remains cognitive: text, code, and analysis rather than physical-world actuation.",
+      "detail": "Most commercial US AI use stays within digital output channels. Robotics and manufacturing integration remain early-stage compared to cloud inference. This keeps the harm channel primarily informational and digital rather than kinetic. Physical extension is coming but has not yet defined the US posture."
+    },
+    "Role": {
+      "value": "Copilot/worker",
+      "memo": "US commercial AI is positioned as a copilot that receives delegated tasks while remaining bounded by platform controls.",
+      "detail": "Products like Copilot and ChatGPT frame AI as a productivity assistant within workflows. The system participates in work but does not own outcomes or bind principals. This role positioning manages liability while enabling broad commercial adoption. It reflects a deliberate product-design choice rather than a technical limitation."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "US AI systems increasingly execute consequential digital operations through tool calls, code, and API integrations.",
+      "detail": "Platform integrations let models send emails, modify documents, execute code, and call external services. This crosses the threshold from informational advice to consequential digital action. The permissive environment allows these capabilities to ship without pre-clearance. Liability and attribution remain largely unresolved at the regulatory level."
+    },
+    "Autonomy": {
+      "value": "Human-on-loop",
+      "memo": "Enterprise AI in the US typically runs with supervisory oversight rather than per-step human approval.",
+      "detail": "Copilot-style deployments let models execute tasks while humans monitor outputs periodically. This is weaker than human-in-loop but preserves a supervision channel. The trade-off favors speed and adoption over granular control. The permissive regulatory posture enables this looser supervision default."
+    },
+    "Delegated Authority": {
+      "value": "Recommend only",
+      "memo": "US AI systems overwhelmingly recommend rather than bind, keeping final authority with the human user or enterprise.",
+      "detail": "Despite growing tool access, most US deployments avoid giving AI binding authority over contracts, payments, or legal positions. The system shapes decisions through drafts and suggestions but cannot commit the principal. This preserves a liability firewall between AI output and real-world consequence. Regulatory silence rather than explicit rule maintains this default."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "US platform AI accesses external tools through permission-gated interfaces controlled by the hosting platform.",
+      "detail": "Tool access is mediated by platform-defined permission scopes and user consent flows. Models can call search, code execution, and third-party APIs within these gates. The gating is a product-design choice rather than a regulatory requirement. It provides a control surface that the permissive environment does not otherwise mandate."
+    },
+    "Response / Intervention Capability": {
+      "value": "Best-efforts",
+      "memo": "US AI incident response relies on improvisation and platform-level controls rather than defined rollback procedures.",
+      "detail": "When models produce harmful outputs or behave unexpectedly, response is ad hoc. Platforms can disable features or update system prompts, but verified rollback is rare. There is no mandated incident-response framework for civilian AI systems. The best-efforts posture matches the permissive regulatory environment."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Corporate deployers hold practical command over US AI systems, setting policies, access, and use boundaries.",
+      "detail": "The enterprise customer, not the state, determines how AI is deployed and governed. Platform terms of service substitute for regulation in defining acceptable use. This concentrates command authority in private actors with commercial incentives. Government command applies only in narrow defense and intelligence contexts."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "US AI governance operates at product-release cadence, not crisis or regulatory tempo.",
+      "detail": "New capabilities ship on quarterly product cycles with internal safety review. External regulatory pressure is minimal and rarely forces timeline changes. This product-cycle tempo allows rapid iteration but can outpace oversight capacity. The speed is a competitive advantage that the permissive posture preserves."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Product teams at US AI labs make speed-versus-safety tradeoffs with minimal external constraint or review.",
+      "detail": "Internal safety teams advise but product leadership decides what ships. No external safety body has binding authority over civilian AI releases. This concentrates tradeoff authority in teams balancing competitive position against safety review depth. The arrangement works until capability levels create externalities that product teams cannot internalize."
+    },
+    "Permission": {
+      "value": "Broad",
+      "memo": "US training permission is effectively broad: no federal opt-in requirement and fair-use arguments dominate.",
+      "detail": "No comprehensive federal law requires consent for AI training on publicly accessible data. Fair-use doctrine provides a plausible defense for most scraping and training activities. Rights holders can litigate but carry the burden of enforcement. This creates a de facto broad permission environment even without explicit statutory authorization."
+    },
+    "Regulatory Posture": {
+      "value": "Permissive",
+      "memo": "The US regulatory posture is permissive by default, with no comprehensive federal AI legislation constraining deployment.",
+      "detail": "Executive orders set voluntary commitments but lack binding enforcement mechanisms. Sector-specific rules apply in healthcare and finance but leave most AI deployment unregulated. State-level proposals remain fragmented and unevenly enforced. The result is a permissive baseline that lets capability outrun governance."
+    },
+    "Data Availability": {
+      "value": "Open/available",
+      "memo": "Internet-scale data is openly available for US-based training with minimal legal or technical barriers to access.",
+      "detail": "The Common Crawl, public web, and licensed datasets provide enormous training corpora. No data-localization or consent-gating requirement restricts access at scale. This open availability is a structural advantage for US-based frontier labs. It underpins the permissive posture by removing the data bottleneck."
+    },
+    "Provenance": {
+      "value": "Unknown",
+      "memo": "Training data provenance is largely unknown or undisclosed, with no mandatory transparency about data sources.",
+      "detail": "Frontier labs rarely publish detailed training data composition. Scraped web data mixes copyrighted, public-domain, and personal content without clear attribution. No federal requirement mandates provenance disclosure for training corpora. This opacity is a feature of the permissive environment, not a temporary gap."
+    },
+    "Model-Weight Rights": {
+      "value": "Shared access",
+      "memo": "US model access splits between hosted APIs and shared-access open-weight releases like Llama and Mistral.",
+      "detail": "Leading US labs offer both API-only access and open-weight model releases. Open-weight releases provide shared access without full ownership or modification rights. This dual distribution model maximizes reach while retaining commercial control. The shared-access tier creates competitive pressure and ecosystem breadth."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "US AI governance applies domestically, with limited extraterritorial reach beyond export controls and sanctions.",
+      "detail": "Federal AI rules apply within US borders to US-based companies and users. Extraterritorial application is limited to export controls on chips and model weights. This domestic scope contrasts sharply with the EU's extraterritorial regulatory reach. The territorial limitation means US rules do not follow capability across borders."
+    },
+    "Data Subject Exposure": {
+      "value": "Low-identifiability",
+      "memo": "Most US AI training uses low-identifiability web data, avoiding direct personal-data triggers in the absence of federal privacy law.",
+      "detail": "Without a comprehensive federal privacy statute, personal-data exposure is managed case by case. Most training corpora contain web text with low but non-zero identifiability. State privacy laws like CCPA apply unevenly and rarely reach training data specifically. The low-identifiability default reduces regulatory friction without eliminating risk."
+    },
+    "Data Sensitivity": {
+      "value": "Ordinary",
+      "memo": "The bulk of US AI training data is ordinary web content, not classified or specially regulated material.",
+      "detail": "Public web scraping produces corpora dominated by ordinary text, code, and media. Classified or specially regulated data enters AI systems only in defense and intelligence contexts. This ordinary-data default keeps most commercial AI outside sensitive-data regulatory triggers. It contributes to the permissive posture by avoiding heightened compliance obligations."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Most US commercial AI deployment sits below export-control thresholds and triggers no active control obligations.",
+      "detail": "Export controls apply to frontier chips and some model weights but not to most commercial deployments. The typical enterprise AI use case does not trigger dual-use or munitions-list concerns. This absence of control exposure is part of the permissive baseline. It changes sharply for defense applications and frontier model transfers."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "The US posture is defined by large-scale training as the dominant processing mode, not just inference.",
+      "detail": "Frontier labs run massive pre-training and post-training runs that define the capability frontier. This training-centric mode consumes the most compute, data, and capital. It creates the entanglement and exit problems that inference-only use avoids. The permissive data environment makes the US the natural home for large training runs."
+    },
+    "Derivation": {
+      "value": "Recursive derivation",
+      "memo": "US AI systems derive outputs that feed back into training, creating recursive value chains from user interaction data.",
+      "detail": "RLHF, preference data, chain-of-thought traces, and user feedback all flow back into model improvement. This recursive derivation turns interaction exhaust into competitive advantage. The value chain is self-reinforcing: better models generate better feedback data. No regulatory framework addresses the ownership or governance of these recursive derivatives."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Training data persists as entangled capability in model weights, making deletion or separation practically impossible.",
+      "detail": "Once data is trained into weights, no reliable method extracts or deletes specific contributions. The capability persists even if the underlying data license terminates. This weight entanglement is the core of the termination-trap problem. It makes exit from a training relationship structurally incomplete."
+    },
+    "Execution / Residency Environment": {
+      "value": "Public cloud",
+      "memo": "US AI runs predominantly on public cloud infrastructure shared across customers and workloads.",
+      "detail": "AWS, Azure, and GCP host the vast majority of US AI inference and training. Public cloud means shared infrastructure with logical rather than physical isolation. This reduces cost and increases flexibility but limits residency guarantees. The public-cloud default reflects the permissive posture's preference for speed over control."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Most US AI deployments share infrastructure boundaries with other tenants, relying on logical rather than physical isolation.",
+      "detail": "Multi-tenant cloud hosting is the economic default for API-served AI. Shared boundaries reduce cost but create data-proximity and side-channel concerns. No federal requirement mandates dedicated tenancy for commercial AI workloads. The shared boundary is consistent with the permissive posture's tolerance for operational risk."
+    },
+    "Deployment Surface": {
+      "value": "Public-facing",
+      "memo": "Major US AI products are public-facing consumer services reaching millions of users without access restriction.",
+      "detail": "ChatGPT, Gemini, and Claude are available to anyone with an internet connection. Public-facing deployment maximizes adoption but creates the widest possible exposure surface. Moderation and safety systems must scale to the entire user population. This deployment choice reflects commercial incentives enabled by the permissive environment."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "US AI infrastructure is overwhelmingly commercial cloud, with hyperscalers providing the compute substrate.",
+      "detail": "Microsoft, Google, and Amazon operate the physical data centers hosting frontier AI. This commercial cloud layer concentrates physical infrastructure in three providers. Capital expenditure on AI data centers now exceeds traditional enterprise IT spending. The infrastructure dependency is a structural feature of the US AI ecosystem."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "US enterprises increasingly source models from multiple providers to avoid single-vendor dependency.",
+      "detail": "Enterprise buyers evaluate OpenAI, Anthropic, Google, and open-weight alternatives simultaneously. Multi-provider sourcing reduces lock-in risk and creates competitive pressure on pricing. The strategy is enabled by API compatibility and model benchmarking culture. It reflects commercial pragmatism rather than regulatory requirement."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Frontier US AI runs on committed cloud capacity with multi-year contracts securing accelerator access.",
+      "detail": "Hyperscalers and frontier labs sign multi-billion-dollar reserved-capacity agreements. Committed capacity guarantees GPU allocation but creates financial lock-in. This contrasts with spot or rented compute used for smaller workloads. The commitment scale reflects the capital intensity of frontier training."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "US AI labs operate through preferred cloud partnerships rather than fully portable or fully captive arrangements.",
+      "detail": "OpenAI runs primarily on Azure; Anthropic has deep ties to AWS and GCP. These preferred partnerships provide priority compute access and joint go-to-market. Full portability is theoretically possible but practically costly. The dependency structure is looser than captive but tighter than genuine portability."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "US frontier AI runs overwhelmingly on Nvidia GPUs, creating a merchant silicon dependency across the ecosystem.",
+      "detail": "H100 and successor GPUs power nearly all US frontier training and most inference. CUDA's software ecosystem reinforces hardware lock-in beyond raw performance. Alternative accelerators exist but lack the software maturity for seamless substitution. This merchant GPU dependency is a structural feature of US AI infrastructure."
+    },
+    "Supply Control": {
+      "value": "Allocation rights",
+      "memo": "US AI scale depends on securing GPU allocation rights from Nvidia and hyperscaler partners.",
+      "detail": "Frontier labs compete for scarce GPU allocation from Nvidia and cloud providers. Allocation rights determine training timelines and competitive position. The supply relationship is commercial rather than strategic or state-controlled. Access depends on financial commitment and partnership standing rather than sovereign authority."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "The binding US compute constraint is accelerator supply, with GPU availability limiting frontier training scale.",
+      "detail": "Demand for frontier GPUs consistently exceeds available supply. Wait times and allocation negotiations gate when training runs can begin. Packaging, power, and interconnect add secondary bottlenecks but accelerator supply dominates. This bottleneck creates strategic vulnerability despite US market dominance."
+    },
+    "Substitutability": {
+      "value": "Expensive switch",
+      "memo": "Switching away from established US AI infrastructure is possible but expensive due to CUDA lock-in and data gravity.",
+      "detail": "Enterprises can move between cloud providers or model vendors but face migration costs. CUDA rewriting, data transfer, and workflow integration create switching friction. The cost is manageable for small deployments but prohibitive at frontier scale. This expensive-switch dynamic sustains preferred-partner relationships."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "US hyperscalers integrate cloud, model hosting, and enterprise distribution but do not control chip fabrication.",
+      "detail": "Microsoft, Google, and Amazon integrate from data center to API endpoint. None controls chip fabrication, which remains with Nvidia, TSMC, and equipment vendors. This stack integration provides commercial leverage without full vertical control. The gap at the silicon layer creates dependency on external supply chains."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "US AI capability reaches users primarily through API endpoints and application integrations.",
+      "detail": "The dominant distribution model is API-first with application embedding as secondary. This contrasts with OS-level or device-layer distribution models like Apple's. API distribution maximizes developer reach and adoption speed. It also makes capability portable across platforms, reducing distribution lock-in."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "The core US AI supply chain is domestically anchored, with model development and cloud operations inside US borders.",
+      "detail": "Frontier labs, hyperscaler data centers, and enterprise customers are predominantly US-based. This domestic anchoring reduces cross-border supply risk for the core value chain. Chip fabrication and equipment manufacturing remain the key offshore dependencies. The domestic supply jurisdiction reinforces the permissive regulatory posture."
+    },
+    "Observability": {
+      "value": "Opaque",
+      "memo": "US AI systems are operationally opaque: training data, model internals, and decision processes are rarely disclosed.",
+      "detail": "No federal mandate requires transparency about training data, model architecture, or decision logic. Voluntary disclosures vary widely across companies and are not independently verified. This opacity is consistent with the permissive posture but creates a governance gap. Stakeholders cannot verify claims about safety, bias, or compliance."
+    },
+    "Evaluation": {
+      "value": "Benchmarked",
+      "memo": "US AI evaluation relies on public benchmarks and internal testing rather than independent certification or audit.",
+      "detail": "Labs publish benchmark results and safety evaluations but set their own standards. No external body certifies model safety or fitness for deployment. Benchmark gaming and evaluation contamination are recognized but unresolved problems. The benchmarked-but-uncertified status matches the permissive environment's reliance on market discipline."
+    },
+    "Interpretability": {
+      "value": "Black box",
+      "memo": "Most deployed US AI systems operate as black boxes with no reliable mechanism for explaining specific decisions.",
+      "detail": "Transformer-based models do not provide faithful explanations of their reasoning. Chain-of-thought outputs are post-hoc rationalizations rather than mechanistic accounts. Interpretability research is active but has not yet produced deployable solutions. The black-box default is tolerated by the permissive regulatory environment."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "US AI alignment relies primarily on RLHF and prompting-based methods that do not scale cleanly to stronger systems.",
+      "detail": "Reinforcement learning from human feedback is the standard alignment technique across US frontier labs. System prompts and constitutional AI provide additional behavioral guardrails. These methods depend on human evaluators who may not detect sophisticated misalignment. The approach works at current capability but faces scaling challenges."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "US commercial AI security is enterprise-grade but not defense-grade, leaving model weights vulnerable to sophisticated actors.",
+      "detail": "Cloud platforms provide standard enterprise security controls for API access and data protection. Model weight security varies widely and some labs have experienced significant breaches. Defense-grade protection is reserved for classified programs and is not the commercial default. The enterprise-grade posture may be insufficient for strategic-value model weights."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "US AI platforms face organized criminal misuse and state-adjacent espionage targeting model weights and training data.",
+      "detail": "Frontier model weights are high-value targets for state intelligence services. Criminal actors use AI platforms for fraud, social engineering, and content generation at scale. The adversary model exceeds casual misuse but most commercial deployments do not plan for full state-actor threats. This gap between threat and posture is a recognized vulnerability."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "US frontier model weights are monitored but not airgapped, leaving them exposed to exfiltration by sophisticated actors.",
+      "detail": "Labs track access to model weights through logging and access controls. Weights are not physically airgapped and travel across cloud infrastructure. Monitoring detects some unauthorized access but cannot prevent all exfiltration. The monitored-but-accessible posture reflects commercial deployment priorities over maximum security."
+    },
+    "Access Control": {
+      "value": "API keys",
+      "memo": "US AI access control relies primarily on API keys, a simple credential mechanism without fine-grained authorization.",
+      "detail": "API keys are the standard access mechanism for commercial AI services. They provide authentication but limited authorization, scope control, or audit trail. Enterprise deployments add RBAC layers but the platform default remains key-based. This lightweight access control matches the permissive deployment posture."
+    },
+    "Monitoring Scope": {
+      "value": "Outputs",
+      "memo": "US AI monitoring typically covers outputs only, missing the internal reasoning, tool calls, and system activity.",
+      "detail": "Content moderation and safety filters operate on model outputs. Internal reasoning traces, tool-call patterns, and infrastructure activity are rarely monitored externally. This output-only scope catches surface-level violations but misses deeper misuse patterns. Broader monitoring would require infrastructure changes that the permissive posture does not mandate."
+    },
+    "Containment": {
+      "value": "Policy-only",
+      "memo": "US AI containment relies on usage policies and terms of service rather than technical enforcement or sandboxing.",
+      "detail": "Acceptable-use policies define prohibited content and applications but enforcement is reactive. No technical sandbox or network isolation constrains model behavior in most commercial deployments. Policy violations are detected through output monitoring and user reports. The policy-only containment reflects the permissive environment's preference for light-touch controls."
+    },
+    "Capability Limitation": {
+      "value": "Policy filters",
+      "memo": "US AI capability restrictions use policy-based output filters rather than targeted technical restrictions on model capability.",
+      "detail": "Content filters and refusal training limit what models will produce on request. These are policy overlays that can be circumvented through prompt engineering. No targeted capability restriction removes specific dangerous knowledge from the model. The filter-based approach is the lightest-touch option consistent with broad commercial use."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "The dominant US AI use class is civilian commercial, with dual-use and military applications treated as separate programs.",
+      "detail": "Most US AI deployment serves business productivity, consumer services, and developer tools. Military and intelligence applications operate under separate procurement and classification regimes. The civilian default keeps most commercial AI outside defense-specific regulatory requirements. Dual-use concerns arise at the frontier but do not change the dominant civilian classification."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "The primary US AI harm channel is informational: misinformation, manipulation, bias, and privacy leakage.",
+      "detail": "Most documented AI harms in the US flow through information channels rather than physical ones. Deepfakes, hallucinated content, and biased outputs dominate the public harm landscape. Cyber-enabling harms exist but are secondary to informational risks in commercial deployment. The informational harm channel matches the cognitive-only deployment pattern."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "US AI capability spreads through licensed API access and open-weight releases with varying restriction terms.",
+      "detail": "Frontier capability diffuses through commercial API licensing and managed open-weight releases. Meta's Llama and similar releases spread capability broadly under permissive licenses. This licensed diffusion is faster than contained but slower than uncontrolled proliferation. Export controls attempt to gate the most sensitive capability transfers."
+    },
+    "Strategic Lead": {
+      "value": "Decisive lead",
+      "memo": "The US holds a decisive strategic lead in frontier AI capability, infrastructure, and capital formation.",
+      "detail": "US labs produce the leading frontier models and attract the majority of AI investment. The compute infrastructure, talent pool, and capital markets are concentrated in the US. This lead is decisive rather than marginal, providing meaningful strategic advantage. Maintaining the lead depends on sustained investment and talent retention."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "US AI development faces competitive pressure from Chinese labs and open-source alternatives, compressing safety margins.",
+      "detail": "Chinese frontier models are closing the capability gap faster than expected. Open-weight releases commoditize capabilities that were recently frontier-exclusive. This competitive pressure incentivizes faster releases with less safety testing. The race dynamic is competitive rather than existential but still compresses governance timelines."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "US AI development is led by individual firms competing against each other, not a coordinated national project.",
+      "detail": "OpenAI, Anthropic, Google, and Meta compete independently for frontier position. No national coordination mechanism aligns their efforts toward shared strategic objectives. Government engagement is advisory rather than directive for civilian AI development. The single-firm structure maximizes innovation speed but fragments strategic coordination."
+    },
+    "Nonproliferation Regime": {
+      "value": "Norms",
+      "memo": "US AI nonproliferation relies on voluntary norms and export controls rather than an enforced international regime.",
+      "detail": "Voluntary safety commitments and executive orders establish behavioral norms. Export controls on chips provide some hard enforcement at the hardware layer. No international treaty or enforced regime governs AI capability proliferation. The norms-based approach is the lightest governance consistent with US commercial interests."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "US AI data value is accretive: each training cycle builds on prior data, and interaction exhaust fortifies competitive position.",
+      "detail": "Training data compounds in value as models improve and generate better feedback data. User interaction data creates a flywheel that strengthens the incumbent's position. This accretive dynamic makes early movers progressively harder to displace. The value grows rather than depletes with use, unlike extractive resource models."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "US AI training typically acquires input data at fixed prices that do not adjust for the output value generated.",
+      "detail": "Data licensing deals pay fixed fees regardless of the downstream commercial value created. This fixed pricing lets processors capture uncapped upside from training investments. Rights holders receive a one-time payment while the trained capability generates ongoing revenue. The pricing asymmetry is a structural feature of the current market."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "Output value from US AI training is retained by the model developer with no automatic sharing or return mechanism.",
+      "detail": "Model developers capture the full commercial value of trained capability without sharing with data suppliers. No contractual or regulatory mechanism allocates output value back to input providers. This retained-value default maximizes developer returns and incentivizes training investment. It creates the structural tension that drives rights-holder litigation and licensing negotiations."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "Derived value from US AI systems flows to the processor, with data suppliers excluded from downstream economics.",
+      "detail": "Interaction data, fine-tuning improvements, and capability gains accrue entirely to the model operator. Data suppliers have no contractual claim on the derived value chain. This processor-captures default is the economic complement of the permissive rights posture. It creates the wealth concentration that makes AI the highest-margin technology sector."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "US AI liability is largely disclaimed through terms of service, with no mandatory insurance or government backstop.",
+      "detail": "Commercial AI services disclaim liability for output accuracy, bias, and consequential damages. No mandatory insurance or indemnification framework covers AI-caused harms. Users bear the risk of reliance on AI outputs under current terms. This disclaimed-risk posture is enabled by the absence of comprehensive federal liability rules."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "US AI deployment is funded from operating budgets, treating AI as an operating expense rather than infrastructure investment.",
+      "detail": "Enterprise AI adoption is typically budgeted as software subscription or cloud spending. This operating-expense framing keeps commitment levels low and reversible. It contrasts with the project-finance or strategic-build approach of sovereign AI programs. The operating-budget default reflects the commercial maturity of US cloud AI."
+    },
+    "Commitment Tenor": {
+      "value": "Annual",
+      "memo": "US enterprise AI commitments are typically annual cloud contracts, short enough to preserve switching optionality.",
+      "detail": "Most enterprise AI contracts run for one to three years with annual renewal options. This tenor preserves the buyer's ability to switch providers as the market evolves. It contrasts with infrastructure-life commitments in sovereign or industrial AI contexts. The annual default reflects the fast-moving commercial market for AI services."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "AI is becoming a significant product line for US tech firms but has not yet become the core business dependency.",
+      "detail": "AI revenue is growing rapidly but remains a fraction of total revenue for most US tech companies. Microsoft, Google, and Amazon derive most revenue from cloud, advertising, and e-commerce respectively. AI is a product line that enhances existing businesses rather than replacing them. This dependency level may shift as AI revenue scales."
+    },
+    "Switching Cost": {
+      "value": "Contractual friction",
+      "memo": "US AI switching costs are moderate: contractual friction from data migration and workflow integration rather than hard lock-in.",
+      "detail": "Moving between AI providers requires data migration, prompt re-engineering, and integration rework. These costs are real but manageable for most enterprise deployments. Hard lock-in is rare because most capability is accessed through standardized APIs. The contractual friction is enough to sustain incumbency without creating true captivity."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Exit from US AI training relationships is capability-entangled: terminating data rights does not remove trained capability.",
+      "detail": "When a data license terminates, the trained capability persists in model weights. No reliable method extracts specific training data contributions from a trained model. This entanglement means legal exit does not produce practical capability separation. The problem is structural to neural network training, not a contractual gap."
+    },
+    "Acceptance Basis": {
+      "value": "Outcome-sufficient",
+      "memo": "US regulatory posture is permissive; commercial results and market adoption validate AI deployment without mandated process.",
+      "detail": "No federal framework demands articulable process for AI deployment decisions. Regulatory silence means outcomes speak louder than compliance documentation. Market traction, revenue growth, and user adoption serve as the de facto acceptance test. This outcome-sufficient basis reinforces the permissive posture by removing process friction from deployment."
+    }
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "id": "collateral",
+  "name": "Data Lien",
+  "desc": "Data and compute cash flows are pledged as security for long-term financing. The lien requires stability across processing mode, pricing, exit terms, and counterparty arrangements that AI architectures may not deliver — a security interest over an asset whose value depends on permissions that can expire.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "Financeable AI infrastructure typically involves frontier capability where the commercial value justifies the complexity of structured financial instruments.",
+      "detail": "Frontier models generate the revenue streams large enough to securitise and attract capital-market investment in the underlying data and compute arrangements. The financial structuring overhead only makes commercial sense when the underlying asset generates substantial and predictable cash flows from frontier capability. At lower capability levels, the revenue may not justify the cost of the financial architecture required for securitisation and structured finance."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Multi-domain deployment diversifies the revenue base supporting the securitised cash flows, which strengthens the collateral's financial credit quality.",
+      "detail": "Revenue from multiple domains creates a diversified cash flow portfolio that reduces the credit risk of the securitised instrument for investors. Diversification across domains means a downturn in one sector does not eliminate the entire revenue stream supporting the financial obligation to investors. Multi-domain breadth strengthens the collateral quality because the cash flows are not dependent on a single market or use case. The broader the deployment across domains, the more robust the financial instrument's credit characteristics and investor appeal."
+    },
+    "Capability Trajectory": {
+      "value": "Incremental",
+      "memo": "Stable finance requires incremental and predictable progress rather than volatile capability jumps that could disrupt the cash flow predictability investors need.",
+      "detail": "Financiers need predictable revenue growth to underwrite long-term capital commitments with defined return expectations and risk parameters. Incremental improvement supports the stable cash flow projections that securitisation structures require for credit rating and investor confidence purposes. Volatile or discontinuous capability changes create uncertainty that undermines the predictability essential to structured finance and capital-market instruments. The financial structure depends on smooth, forecasted improvement rather than the surprises that rapid capability advancement can produce."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted research improves the underlying capability over time, supporting the revenue growth projections that justify the securitisation structure to investors.",
+      "detail": "Research automation contributes to ongoing model improvement that supports the revenue trajectory financiers modelled when structuring the investment. The AI-assisted improvement loop provides a plausible growth narrative for the cash flows underlying the securitised financial instrument. Incremental capability improvement from research automation aligns with the stable growth assumptions that structured finance requires for investor confidence. Research automation contributes to the growth story without the volatility that would undermine the financial structure's credit characteristics."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Tool-using capability generates the diverse commercial revenue streams from integrations that create the cash flows securitised in the financial structure.",
+      "detail": "Tool integrations generate multiple revenue streams from different commercial applications built on the underlying model and data infrastructure. These diverse integration revenues create the cash flow portfolio that the securitisation structure packages and sells to capital-market investors. Tool-using deployment creates more revenue touchpoints than pure conversational use, strengthening the diversity and stability of securitised cash flows. The tool integration layer is where the underlying data and compute capability is converted into the monetisable services that back the financial instruments."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Many deployed copies across customers generate the aggregate revenue volume needed to support the capital-market scale of a securitised financial instrument.",
+      "detail": "The revenue base for securitisation comes from many concurrent deployments serving different customers across the deployment footprint simultaneously. Many copies create aggregate cash flows large enough to justify the fixed costs of financial structuring, credit rating, and capital-market issuance. The scale of deployment determines whether the revenue volume meets the minimum threshold for capital-market instruments to be commercially viable. Revenue durability depends on the continued operation of many copies across a diversified customer and use-case base."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Machine-speed operation generates continuous revenue from the infrastructure, creating the steady cash flow stream that services the securitised financial obligations.",
+      "detail": "The infrastructure generates revenue continuously at machine speed through automated processing of requests and delivery of services around the clock. This continuous revenue generation creates the steady, predictable cash flow stream that securitisation structures require for debt service and investor returns. Machine-speed operation means revenue is generated at rates that support the financial projections used to structure and price the capital-market instruments. The speed and continuity of revenue generation is a key credit characteristic that supports the financial instrument's quality."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Cognitive-only processing avoids the physical-world liabilities that would complicate the risk profile of the securitised financial instrument for investors.",
+      "detail": "The system operates in the cognitive domain without physical actuation that could create product liability, safety claims, or physical damage exposure. Cognitive-only extension keeps the risk profile of the securitised cash flows within boundaries that capital-market investors and credit rating agencies can assess. Physical-world risks would require additional insurance, indemnification, and risk allocation structures that would complicate the financial architecture. The cognitive boundary simplifies the risk assessment and keeps the financial instrument within established credit analysis frameworks."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "Tool-level deployment keeps the system's risk profile simple and bounded, which supports the credit analysis required for securitisation and capital-market issuance.",
+      "detail": "A tool designation implies bounded use with predictable risk characteristics that credit analysts can model and investors can evaluate confidently. The tool role avoids the additional liability, governance, and risk allocation complexity that more autonomous roles would create for the financial structure. Simpler risk profiles produce better credit characteristics and more favourable financing terms for the securitised instrument in capital markets. The tool framing supports the financial architecture by keeping the underlying asset within conventional risk assessment frameworks."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "Informational actuation creates predictable revenue from processing services without the liability exposure that transactional or physical actuation would add.",
+      "detail": "The system generates revenue through information processing rather than through financial transactions or physical operations that carry higher liability. Informational actuation keeps the underlying asset's risk profile within parameters that capital-market investors can assess without specialised expertise. The liability exposure from informational services is lower and more predictable than from systems that execute binding financial or physical actions. This actuation level supports the credit quality of the securitised cash flows by limiting the tail risk from the underlying operations."
+    },
+    "Autonomy": {
+      "value": "Human-on-loop",
+      "memo": "Human-on-loop supervision provides the operational governance layer that financiers require as evidence of responsible management of the securitised asset.",
+      "detail": "Periodic human supervision demonstrates operational governance to financing parties who need assurance of responsible asset management and risk monitoring. Human-on-loop management provides the governance narrative that credit rating agencies and investors require for confidence in the underlying operations. The supervision model must be maintained throughout the financing period as a condition of the financial covenants and reporting requirements. Financiers require evidence of human oversight as a governance safeguard for the infrastructure operations backing their investment."
+    },
+    "Delegated Authority": {
+      "value": "Limited mandate",
+      "memo": "Limited operational mandate constrains the system within parameters that preserve the stability and predictability of cash flows backing the financial instrument.",
+      "detail": "The system operates within defined parameters that ensure stable, predictable revenue generation consistent with the financial model used to structure the instrument. Its mandate is limited by financial covenants that prohibit operational changes that could destabilise cash flows or increase risk beyond underwritten levels. Changes that would affect revenue predictability or risk profile require approval from financing parties with consent rights under the financial structure."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Gated tool access creates controlled revenue streams from managed integrations that provide the predictable cash flows required by the financial structure.",
+      "detail": "Tool integrations are governed through controlled access gates that create defined, measurable revenue streams from each managed commercial integration relationship. Each gated integration produces a predictable revenue contribution that can be modelled, forecast, and included in the securitised cash flow projections. The gating provides both technical control over operations and financial visibility into the revenue-generating integrations that back the instrument. Controlled tool access creates the structured, transparent revenue architecture that capital-market instruments require for investor confidence and credit analysis."
+    },
+    "Response / Intervention Capability": {
+      "value": "Defined escalation",
+      "memo": "Defined escalation paths address operational and financial covenant triggers across the financing period with predefined response protocols.",
+      "detail": "Escalation procedures cover operational incidents, revenue disruptions, covenant breaches, and material adverse changes during the financing commitment period. These paths must handle both operational issues affecting service delivery and financial issues affecting cash flow adequacy and covenant compliance. Collateral impairment events require specific escalation to financing parties with contractual rights to intervene, restructure, or accelerate obligations. The response capability includes both operational incident management and financial covenant compliance monitoring and notification."
+    },
+    "Command Actor": {
+      "value": "Corporate board",
+      "memo": "Board-level command reflects the strategic importance of securitised obligations that affect the organisation's credit standing and balance sheet.",
+      "detail": "Securitised obligations create financial commitments that affect the organisation's overall credit profile, balance sheet presentation, and investor relations. Board oversight is appropriate for financial structures that create material obligations with capital-market counterparties and affect corporate creditworthiness. Individual operational managers cannot make decisions that might impair securitised cash flows without board-level governance and financing party consent. Board-level command provides the governance authority appropriate for financial obligations that have capital-market consequences."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Product-cycle decisions must be coordinated with financial covenant requirements that constrain operational changes affecting securitised cash flow stability.",
+      "detail": "Model updates and operational changes follow product release cycles but must be checked against financial covenant constraints before implementation. Product-cycle decisions that could affect revenue predictability require advance analysis of financial covenant implications and potentially financing party consent. The product tempo must be compatible with the financial governance requirements that prioritise cash flow stability over capability advancement. Coordination between product decisions and financial constraints adds a governance layer that slows purely product-driven decision-making."
+    },
+    "Tradeoff Authority": {
+      "value": "Safety body",
+      "memo": "A governance body manages tradeoffs between operational improvement and financial covenant compliance to protect the securitised cash flow integrity.",
+      "detail": "Operational improvements and model changes must be evaluated against their impact on the securitised cash flows and financial covenant compliance. A governance body weighs capability improvement benefits against cash flow stability requirements and financing party covenant expectations. The tradeoff authority sits at the intersection of operational management and financial obligation governance with responsibility to both. This governance body prevents product teams from making changes that could impair the financial instrument's credit characteristics."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Conditional data permission must be maintained throughout the financing period because licence loss would impair the revenue stream backing the financial instrument.",
+      "detail": "Data licences with conditional terms must remain in good standing throughout the securitisation period to maintain the revenue they support for investors. Loss of a material data licence would constitute a covenant breach or collateral impairment event under the financial structure's documentation. Conditional permission creates renewal and compliance risks that must be monitored, managed, and reported throughout the financing period as required. The financial structure converts data licence conditions into financial covenant obligations with defined consequences for breach or loss."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Conditional regulatory requirements create compliance risks that must be monitored and managed throughout the financing period as material risk factors.",
+      "detail": "Regulatory changes during the financing period could affect the permissibility or cost of operations backing the securitised cash flow stream. Conditional regulatory posture means compliance requirements may evolve, creating ongoing risk that must be disclosed to investors and monitored by servicers. The financial structure must accommodate regulatory change risk through reserves, covenant flexibility, or structural protections for investors against regulatory disruption. Regulatory risk is a material factor in the credit analysis and ongoing monitoring of the securitised instrument."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "Licensed data creates a contractual asset whose terms, renewal profile, and stability directly affect the credit quality of the securitised cash flow instrument.",
+      "detail": "Data licences are contractual assets whose value, duration, and renewal probability directly affect the revenue stream backing the financial instrument. Licensed data availability creates a documented dependency that credit analysts can evaluate and rating agencies can incorporate into credit assessments. The licence portfolio's term profile, renewal rates, and pricing stability are key inputs to the financial model that sizes and structures the securitised instrument."
+    },
+    "Provenance": {
+      "value": "Verifiable",
+      "memo": "Verifiable provenance supports the due diligence and representations required for capital-market issuance of financial instruments backed by data-derived cash flows.",
+      "detail": "Capital-market issuance requires verified representations about the underlying assets, including the provenance and legal status of the data generating revenue. Verifiable provenance supports the due diligence process that investment banks, rating agencies, and institutional investors require before participating in the instrument. Clear provenance documentation reduces legal and regulatory risk in the financial structure and supports stronger credit characteristics for the securitised instrument."
+    },
+    "Model-Weight Rights": {
+      "value": "Escrowed weights",
+      "memo": "Escrowed weights provide collateral protection for financing parties who need assurance that the model asset survives operator failure or financial default.",
+      "detail": "Model weights are escrowed with a neutral third party to protect the financial interest of investors if the operator defaults or becomes unable to continue operations. Escrowed weights ensure that the capability generating the securitised cash flows can be transferred to a replacement operator if necessary during the financing period. The escrow arrangement provides the asset-level protection that structured finance requires when the primary asset is intangible intellectual property rather than physical collateral."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "Domestic territory simplifies the legal framework for the financial structure by operating under one jurisdiction's securities, commercial, and enforcement laws.",
+      "detail": "The securitisation structure operates under one jurisdiction's legal framework, simplifying the documentation, enforcement, and investor protection mechanisms. Domestic territory avoids the cross-border legal complexity that would increase structuring costs and legal risk for the financial instrument. Single-jurisdiction operation supports cleaner credit analysis because enforcement, workout, and recovery scenarios can be modelled under one legal system. Domestic simplicity reduces the legal risk premium and structuring cost that cross-border securitisation would add to the financial instrument."
+    },
+    "Data Subject Exposure": {
+      "value": "No personal data",
+      "memo": "Absence of personal data avoids privacy-related regulatory risks that could create compliance costs or cash flow disruption affecting the securitised instrument.",
+      "detail": "The underlying data and processing do not involve personal data, eliminating privacy regulation as a risk factor for the securitised cash flows. Absence of personal data exposure removes an entire category of regulatory compliance risk from the financial instrument's credit analysis and risk assessment. Privacy-related regulatory changes, enforcement actions, or deletion requirements cannot affect the revenue stream backing the securitised obligations."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Commercially confidential data creates a high-value underlying asset but requires protective handling that adds operational cost to the securitised arrangement.",
+      "detail": "The data underlying the securitised cash flows has significant commercial value that justifies the financial structuring effort and investor interest. Commercial confidentiality requires protective handling obligations that create operational costs and compliance requirements throughout the financing period. Confidential data is more valuable as collateral but requires more rigorous operational controls and monitoring than ordinary commercial data would need. The sensitivity creates both the value that justifies securitisation and the operational burden that the financial structure must accommodate and fund."
+    },
+    "Control Exposure": {
+      "value": "Potentially controlled",
+      "memo": "Potential control classification creates regulatory risk that must be disclosed to investors and monitored throughout the financing period as a material risk factor.",
+      "detail": "The underlying technology may become subject to export controls or strategic classification during the financing period as AI regulation evolves globally. Potential control exposure creates a material risk factor that must be disclosed in the offering documents and monitored by the financial structure's servicer. Control classification during the financing period could restrict the operations generating securitised cash flows, potentially impairing investor returns significantly."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "Training-mode processing creates the capability asset that generates the cash flows being securitised, making training data access a critical credit dependency.",
+      "detail": "The revenue stream depends on capability created through training, which requires ongoing access to training data under valid licences throughout the financing period. Training mode creates a direct dependency between data licence availability and the model capability that generates the securitised cash flows for investors. If training data access is lost, the model cannot be retrained or improved, potentially degrading the capability and revenue stream backing the instrument."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Derived outputs are the revenue-generating products whose commercial performance determines whether the securitised financial obligations can be serviced.",
+      "detail": "Every model output is a derived product whose commercial value contributes to the cash flow stream backing the securitised financial instrument. The derivation process is the revenue engine: output volume, quality, and commercial value directly determine whether financial obligations can be met. Derived output performance is the key operational metric that servicers monitor and report to investors throughout the financing period."
+    },
+    "Retention / Persistence": {
+      "value": "Contract-retained",
+      "memo": "Contract-retained data creates defined obligations whose duration must align with the financing period and whose management is a covenant requirement.",
+      "detail": "Data retention obligations are defined contractually and must be managed throughout the financing period in accordance with financial covenant requirements. The retention period, handling requirements, and deletion obligations must align with the financial structure's timeline and collateral protection provisions. Contract-retained persistence creates operational obligations that the financial structure must accommodate through covenant design and servicer responsibilities. Data retention management becomes a financial governance matter rather than a purely operational one within the securitised arrangement."
+    },
+    "Execution / Residency Environment": {
+      "value": "Controlled",
+      "memo": "Controlled execution environment provides the operational security and governance that financing parties require for confidence in the securitised asset.",
+      "detail": "The infrastructure operates in a controlled environment with defined access controls, security measures, and operational procedures documented for investor review. Controlled execution provides the governance infrastructure that financing parties, rating agencies, and investors require as evidence of responsible asset management. The controlled environment supports ongoing compliance with financial covenants that require maintenance of operational standards throughout the financing period. Environmental controls are both an operational necessity and a financial covenant requirement for the securitised arrangement."
+    },
+    "Boundary": {
+      "value": "Dedicated tenant",
+      "memo": "Dedicated tenancy provides the asset isolation required for securitisation, where the collateral must be identifiable and separable from the operator's other assets.",
+      "detail": "The securitised infrastructure operates in a dedicated tenant with clear boundaries that separate the collateral from the operator's other business assets. Asset isolation is a fundamental requirement for securitisation because investors must be able to identify, value, and if necessary, recover their collateral. Dedicated tenancy provides the clean boundary that enables the legal separation between the securitised assets and the operator's general estate. The boundary design supports the bankruptcy-remote structuring that securitisation requires to protect investors from operator credit risk."
+    },
+    "Deployment Surface": {
+      "value": "Customer-facing",
+      "memo": "Customer-facing deployment generates the commercial revenue streams that constitute the cash flows securitised in the financial instrument for investors.",
+      "detail": "The model serves paying customers through commercial API and application channels that generate the revenue backing the securitised obligations. Customer-facing deployment creates the measurable, reportable revenue streams that the financial structure packages and sells to capital-market investors. The deployment surface determines the revenue geography, customer concentration, and market risk characteristics of the securitised cash flows. Customer-facing revenue from commercial operations is the ultimate source of the cash flows that service the financial instrument."
+    },
+    "Physical Infrastructure": {
+      "value": "Dedicated cluster",
+      "memo": "Dedicated cluster infrastructure provides the physical collateral and identifiable asset base that supports the securitised financial structure for investors.",
+      "detail": "The physical cluster constitutes identifiable, tangible collateral that supplements the intangible data and model assets in the securitised structure. Dedicated infrastructure with defined location, specification, and value supports the collateral package that backs the financial instrument for investors. Physical infrastructure provides more traditional collateral characteristics that supplement the novel intangible assets in the securitisation structure. The cluster adds tangible asset backing to the financial instrument, which may improve credit characteristics and investor comfort."
+    },
+    "Model Sourcing": {
+      "value": "In-house/orchestrated",
+      "memo": "In-house model orchestration provides the operational control over the revenue-generating asset that financing parties require for the securitised arrangement.",
+      "detail": "The model is developed, trained, and operated in-house rather than sourced from external providers, giving the operator full control over the core asset. In-house orchestration eliminates dependency on external model providers whose pricing, availability, or terms could affect the securitised cash flows negatively. Full control over the model supports the operational representations and covenant compliance that the financial structure requires from the operator."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Committed compute capacity provides the infrastructure stability that securitised cash flow projections require for investor confidence and credit analysis.",
+      "detail": "Compute capacity is committed for defined periods at defined prices, creating the operational cost predictability that financial models require for cash flow forecasting. Committed capacity eliminates spot-market pricing volatility that would create cash flow uncertainty undermining the financial instrument's credit characteristics. The committed compute arrangement provides the infrastructure cost stability that is a prerequisite for the predictable cash flow projections securitisation requires."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Preferred cloud partnership provides the infrastructure stability and committed capacity that the securitisation structure requires for cash flow predictability.",
+      "detail": "The cloud partnership provides committed capacity, service-level guarantees, and pricing stability that support the financial model underlying the securitised instrument. Preferred-partner arrangements create the infrastructure relationship stability that financing parties require as a foundation for long-term cash flow projections. The partnership terms must be compatible with the financial covenants and cannot be changed without financing party consent during the securitisation period."
+    },
+    "Supply Control": {
+      "value": "Allocation rights",
+      "memo": "Allocation rights secure compute access for the financing period, preventing supply disruptions that could impair the securitised cash flow stream.",
+      "detail": "Allocation rights guarantee access to defined compute resources at specified prices and availability levels throughout the financial commitment period. These rights protect the securitised cash flows from supply disruptions that could arise from compute scarcity, pricing changes, or allocation reallocation. Supply security through allocation rights is a credit-positive structural feature that provides tangible protection against infrastructure supply risk. The allocation arrangement converts uncertain market supply into contracted capacity that supports stable cash flow generation."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "Locked-in infrastructure and model dependencies mean the securitised arrangement cannot be easily restructured, creating both stability and inflexibility for investors.",
+      "detail": "The infrastructure, model, and commercial relationships underlying the securitised cash flows create deep dependencies that cannot be easily replaced or restructured. This lock-in provides cash flow stability because the arrangement resists disruption, but it also limits the ability to adapt to changing conditions. Locked-in dependency means the financial instrument is tied to specific infrastructure, providers, and commercial relationships for its entire duration."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "API distribution generates the measurable, per-transaction revenue that creates the granular cash flow data required for securitisation analysis and monitoring.",
+      "detail": "APIs generate per-call or subscription revenue that creates granular, measurable cash flow data suitable for financial modelling and investor reporting. This transaction-level data supports the detailed cash flow analysis that credit rating agencies and institutional investors require for securitised instruments. API distribution provides the revenue measurement granularity that enables accurate forecasting, monitoring, and reporting throughout the financing period. The distribution channel creates the data-rich revenue stream that structured finance requires for ongoing performance monitoring and investor reporting."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "Allied supply jurisdiction provides the geopolitical stability that long-term financial structures require for investor confidence in sustained infrastructure operations.",
+      "detail": "Infrastructure supply from allied jurisdictions provides the political stability and supply chain reliability that long-term financial commitments require. Financing parties and investors need confidence that geopolitical risks will not disrupt the infrastructure operations backing their investment over the commitment period. Allied supply jurisdiction reduces the political risk premium in the financial structure's pricing and improves credit characteristics for investors. The supply jurisdiction's stability is a material factor in the credit assessment of the long-term financial instrument."
+    },
+    "Observability": {
+      "value": "Observable",
+      "memo": "Observable operational and financial performance provides the transparency that financing parties, servicers, and investors require for ongoing monitoring of the securitised asset.",
+      "detail": "The infrastructure provides technically observable operational performance data beyond mere declarations, supporting independent verification by financing parties. Observable metrics include revenue, utilisation, model performance, and operational health indicators reported regularly to servicers and investors. Observable transparency enables the ongoing performance monitoring and early warning systems that structured finance requires throughout the investment period. The observability level supports the covenant compliance verification and investor reporting that the financial structure contractually requires."
+    },
+    "Evaluation": {
+      "value": "Certified/decision-grade",
+      "memo": "Decision-grade evaluation provides the independently verified performance evidence that capital markets require for credit analysis and ongoing certification of the securitised asset.",
+      "detail": "The underlying model and infrastructure are evaluated to decision-grade standards with independent verification suitable for capital-market due diligence purposes. Certified evaluation provides the evidence quality that rating agencies and institutional investors require for credit analysis and investment decision-making. Decision-grade assessment goes beyond internal benchmarks to provide the independently verifiable evidence standard that structured finance demands. The evaluation level matches the evidentiary standard required for capital-market instruments rather than the lower standard adequate for operational purposes."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "Behavioural evidence of model performance supports the ongoing operational monitoring that financing parties require throughout the securitisation period.",
+      "detail": "Behavioural evidence tracks model output quality, reliability, and commercial effectiveness across the deployment footprint for operational and financial monitoring. This evidence supports servicer reporting to investors about the operational health of the asset generating the securitised cash flows. Behavioural evidence provides the operational performance data that financial covenant compliance monitoring requires throughout the financing period. The interpretability level supports the ongoing performance verification that maintains investor confidence in the securitised instrument."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Human review provides the quality assurance governance that financing parties cite as evidence of responsible management of the securitised revenue-generating asset.",
+      "detail": "Human reviewers monitor the system's output quality and operational behaviour, providing governance evidence for investor and servicer reporting purposes. This review process appears in the financial structure's governance documentation as evidence of responsible operational management of the underlying asset. Human review provides durable quality assurance that persists across model transitions and operational changes during the financing period. The alignment method contributes to the governance narrative that supports investor confidence in the financial instrument's management."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Enterprise-grade security is a financial covenant requirement protecting the value of the securitised assets from operational, cyber, and physical security threats.",
+      "detail": "Security standards are maintained at enterprise grade as a financial covenant requirement, with regular audit and certification obligations during the financing period. The security posture protects the operational infrastructure and model weights that constitute the collateral backing the financial instrument for investors. Security failures could impair the securitised cash flows through service disruption, data loss, or model theft, triggering covenant breaches and investor action. Enterprise-grade security is both an operational necessity and a contractual obligation within the financial structure."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Securitised AI infrastructure may attract sophisticated adversaries because the concentration of valuable model weights and data creates a high-value target.",
+      "detail": "The securitised infrastructure concentrates valuable model weights, commercially significant data, and critical revenue-generating operations in identifiable locations. This concentration creates a high-value target that may attract criminal organisations and state-adjacent threat actors seeking competitive intelligence or disruption. The adversary model must reflect the heightened threat profile that comes from publicly identified, financially significant AI infrastructure assets. Financing parties require threat modelling that accounts for sophisticated adversaries, not just casual misuse, given the value of the securitised assets."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Monitored weight security protects the core intangible asset backing the financial instrument from theft, leakage, or unauthorised access that could impair its value.",
+      "detail": "Weight monitoring protects the model weights that constitute a primary intangible asset backing the securitised financial instrument from exfiltration and theft. Weight security failures could impair the value of the securitised asset by enabling competitors to replicate the capability without the infrastructure investment. Monitored weight security is a covenant requirement that must be maintained and audited throughout the financing period for investor protection. The monitoring provides ongoing assurance that the core intangible asset retains its competitive exclusivity and commercial value."
+    },
+    "Access Control": {
+      "value": "Multi-key signoff",
+      "memo": "Multi-key signoff provides the multi-party authorization controls that financing parties require for material operational decisions affecting the securitised asset.",
+      "detail": "Material operational decisions affecting the securitised asset require authorization from multiple parties including the operator, servicer, and potentially investor representatives. Multi-key signoff prevents unilateral decisions that could impair the collateral or destabilise the cash flows backing the financial instrument. The multi-party authorization structure provides the governance controls that structured finance requires for investor protection against operator misconduct. Access control in a securitised arrangement serves both operational security and financial governance purposes simultaneously."
+    },
+    "Monitoring Scope": {
+      "value": "Code/tool/network activity",
+      "memo": "Broad monitoring supports the operational reporting and covenant compliance verification that the securitised financial structure requires throughout the commitment.",
+      "detail": "Monitoring covers all operational layers to support the comprehensive reporting required by financing parties, servicers, and investors during the period. Broad monitoring scope generates the operational evidence base needed for financial covenant compliance verification and regular investor reporting. Code, tool, and network monitoring ensures that operational changes are visible and can be assessed for their impact on securitised cash flows. Comprehensive monitoring supports the ongoing surveillance function that structured finance requires for assets backing capital-market instruments."
+    },
+    "Containment": {
+      "value": "Dedicated enclave",
+      "memo": "Dedicated enclave containment provides the asset isolation required for securitisation where collateral must be identifiable, separable, and protectable from other claims.",
+      "detail": "The securitised infrastructure operates in a dedicated enclave with clear isolation from the operator's other business assets and operations. This containment supports the bankruptcy-remote legal structure that securitisation requires to protect investors from the operator's general credit risk. Dedicated enclave isolation ensures that the collateral can be identified, valued, and if necessary transferred to a replacement operator by financing parties. The containment architecture serves the legal and financial structuring requirements of the securitisation rather than purely operational security purposes."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Targeted restrictions preserve the model capabilities that generate the securitised revenue while limiting risks that could trigger covenant breaches or impair cash flows.",
+      "detail": "Capability restrictions are designed to preserve revenue-generating functionality while limiting operational risks that could trigger financial covenant complications. Targeted limitations allow the model to continue serving its commercial purpose while managing the risk profile within parameters acceptable to investors. The restrictions balance operational effectiveness with risk management requirements defined by the financial structure's covenant framework and risk appetite. Capability limitation in a securitised arrangement is a financial governance tool as much as an operational or safety measure."
+    },
+    "Use Class": {
+      "value": "Civilian regulated",
+      "memo": "Civilian regulated use creates compliance obligations that must be maintained throughout the financing period as a condition of the financial structure.",
+      "detail": "The system operates in a regulated civilian sector with defined compliance requirements that constitute ongoing obligations during the financing commitment period. Regulated use creates compliance costs and risks that must be accounted for in the financial model and managed throughout the securitisation period. Failure to maintain regulatory compliance could constitute a covenant breach or trigger an event of default under the financial structure's documentation."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Information-channel harm creates liability exposure that must be quantified and managed within the risk framework of the securitised financial structure.",
+      "detail": "The primary harm channel is informational, creating liability exposure from model outputs that could generate claims against the securitised operations and cash flows. Information-related liability must be quantified, reserved for, and managed within the financial structure's risk framework and covenant provisions. The harm channel affects the credit analysis through potential liability costs that could impair the cash flows backing the financial instrument."
+    },
+    "Proliferation": {
+      "value": "Contained",
+      "memo": "Contained proliferation protects the exclusivity and competitive value of the model capability that generates the securitised cash flows for investors.",
+      "detail": "The model's capability is deliberately contained within controlled distribution channels to protect the commercial exclusivity that generates securitised revenue. Contained proliferation ensures that competitors cannot access or replicate the capability without making comparable infrastructure investments of their own. The containment strategy protects the competitive moat that justifies the revenue projections underlying the financial instrument's credit characteristics. Proliferation control is a commercial strategy that directly supports the financial instrument by protecting the underlying asset's market position."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Accretive data value supports the narrative that the underlying asset improves over time, strengthening the credit characteristics of the securitised instrument.",
+      "detail": "Each additional data source and training iteration strengthens the model, supporting the thesis that the underlying asset appreciates and improves over time. Accretive value dynamics mean the collateral potentially improves during the financing period, which is a positive credit characteristic for investors. The data value trajectory supports revenue growth projections that underwrite the financial structure's return expectations and debt service coverage. Accretive value provides the growth narrative that distinguishes AI-backed securitisation from depreciating physical asset securitisation."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Fixed input pricing provides the cost predictability that securitised cash flow projections require for financial modelling and investor confidence.",
+      "detail": "Data licence costs are fixed at defined levels, creating predictable input costs that support reliable margin and cash flow forecasting for investors. Fixed pricing eliminates input cost volatility that would undermine the cash flow predictability essential to the financial instrument's credit quality. Predictable input costs combined with scalable revenue create the stable margins that make the cash flows suitable for securitisation purposes. Fixed data pricing is a structural feature that supports the financial architecture rather than merely a commercial convenience."
+    },
+    "Output Allocation": {
+      "value": "Allocated",
+      "memo": "Allocated output value is clearly assigned to defined parties through the financial structure, enabling transparent cash flow distribution to investors.",
+      "detail": "Output value is allocated through waterfall provisions in the financial structure that define priority of payments to different stakeholder classes and tranches. Clear allocation enables transparent cash flow distribution and supports the predictable investor returns that the financial instrument promises. Allocated output value provides the cash flow visibility and payment certainty that institutional investors require for capital-market instruments. The allocation mechanism is the financial architecture that converts commercial revenue into structured investor returns with defined priority."
+    },
+    "Derived Value Capture": {
+      "value": "Revenue share",
+      "memo": "Revenue-share mechanisms distribute derived value across stakeholders in the securitised structure, aligning incentives across the financing arrangement.",
+      "detail": "Derived value is shared across the financial structure's stakeholders through contractual revenue-sharing provisions that align incentives during the financing period. Revenue sharing gives data contributors, operators, and investors aligned interests in maximising the performance of the securitised cash flows. The sharing mechanism must be durable, calculable, and enforceable throughout the financing period across all commercial conditions and market environments. Revenue share provides the incentive alignment that structured finance values because all parties benefit from the underlying asset's strong performance."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Limited indemnity",
+      "memo": "Limited indemnity provides defined risk coverage within the financial structure without creating uncapped obligations that could threaten the arrangement's viability.",
+      "detail": "Risk is allocated through limited indemnity provisions that provide defined coverage for specific identified risks without creating unlimited exposure. Limited indemnity protects investors from specific loss scenarios while keeping the operator's exposure bounded and manageable within the financial structure. The indemnity coverage is sized and structured to address material risks without creating obligations that could overwhelm the operator and trigger default. Limited indemnity provides meaningful risk protection while maintaining the financial structure's overall viability and the operator's ongoing solvency."
+    },
+    "Capital": {
+      "value": "Securitised",
+      "memo": "Securitised capital is the defining financial structure of this stance: data and compute cash flows are packaged as financial instruments for capital-market investors.",
+      "detail": "The infrastructure is financed through securitisation, where future cash flows from data and compute operations are packaged into tradeable financial instruments. Securitised capital requires the stable, predictable, and observable cash flows that the previous picks describe and that the financial structure depends upon. The securitisation converts operating cash flows into capital-market instruments with defined returns, maturities, and credit characteristics for investors. This capital structure is the financial innovation that connects AI infrastructure operations to capital markets and institutional investment."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "Multi-year commitment tenor matches the securitisation period during which cash flows must remain stable enough to service financial obligations to investors.",
+      "detail": "The financing commitment spans multiple years, during which all operational, data, and infrastructure arrangements must remain stable and performing. Multi-year tenor creates exposure to technology change, regulatory evolution, and market shifts that the financial structure must accommodate through covenant design. The commitment period must be long enough to generate adequate returns for investors but short enough to manage technology obsolescence risk. Multi-year tenor balances the return requirements of capital-market investors against the technology change risks inherent in AI infrastructure."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "Core-business revenue dependency means the securitised arrangement is central to the organisation's financial health and strategic position in the market.",
+      "detail": "The securitised operations generate revenue that is strategically critical to the organisation's overall financial performance and competitive positioning. Core-business dependency means impairment of the securitised cash flows would have material consequences for the organisation's financial health and market standing. The revenue stakes make diligent management of the securitised assets a strategic priority rather than a routine operational matter for management. Core dependency aligns the operator's interests with investor interests because both parties need the cash flows to perform."
+    },
+    "Switching Cost": {
+      "value": "Captive",
+      "memo": "Captive switching costs mean the securitised arrangement cannot be restructured or replaced during the financing period without triggering financial default provisions.",
+      "detail": "The financial structure creates captive costs that lock the operator into the arrangement for the commitment period without practical exit or restructuring options. Abandoning or restructuring the securitised arrangement would trigger default provisions, accelerate obligations, and potentially impair the operator's credit standing. The operator is financially locked into the arrangement regardless of whether conditions change, technology evolves, or better options emerge during the period."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Exit is capability-entangled because the financial structure, model weights, data licences, and infrastructure commitments are inseparably intertwined for the financing period.",
+      "detail": "The securitised arrangement binds together model weights, data licences, infrastructure commitments, and customer relationships into an integrated financial obligation. No single element can be exited without affecting all others through contractual cross-default, covenant breach, and cascading financial consequences. The entanglement is both technical in the model weights and financial in the covenant structure, creating dual-layer exit barriers. Capability entanglement in the securitised context means the financial structure converts technical lock-in into binding financial lock-in."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "Stack-integrated deployment ties model, data, infrastructure, and distribution into the unified revenue-generating system that the financial instrument securitises.",
+      "detail": "The securitised arrangement integrates model, data, infrastructure, and distribution into a connected revenue-generating system that operates as one economic unit. Each layer depends on and contributes to the others in ways that the financial structure treats as an integrated whole for securitisation purposes. Stack integration creates the unified cash flow stream that the financial instrument packages, rather than separate layer-specific revenue that would be harder to securitise."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Single-firm operation concentrates control over the securitised assets in one entity, simplifying the governance structure but concentrating operator risk.",
+      "detail": "The operator controls all elements of the securitised arrangement as a single firm without consortium partners or shared governance mechanisms. Single-firm operation simplifies the governance structure and chain of command for the financial arrangement's management and investor reporting. However, concentration of operational risk in one entity means operator failure would affect all securitised assets simultaneously without diversification benefit. The single-firm structure provides governance simplicity but concentrates the operational risk that investors must evaluate and accept."
+    },
+    "Nonproliferation Regime": {
+      "value": "Norms",
+      "memo": "Norms-based governance provides the industry credibility framework that supports investor confidence in the responsible management of securitised AI assets.",
+      "detail": "Industry norms and voluntary frameworks for responsible AI development support the governance narrative that the financial structure presents to investors. Norms-based governance provides credibility without the binding constraints that could limit operational flexibility during the financing period. The normative framework supports investor confidence by demonstrating the operator's commitment to responsible practices and industry best standards. Norms provide the reputational governance layer that complements the contractual governance in the financial structure."
+    },
+    "Strategic Lead": {
+      "value": "Neck-and-neck",
+      "memo": "Competitive pressure creates technology obsolescence risk for the securitised asset that must be managed across the financing commitment period.",
+      "detail": "The competitive landscape creates ongoing technology obsolescence risk as rivals may develop superior capabilities during the financing period. Neck-and-neck competition means the securitised asset's competitive position and market share are not guaranteed for the commitment duration. Technology obsolescence risk must be managed through ongoing investment and model improvement within the financial structure's covenant framework. The competitive dynamic creates the primary commercial risk that investors must assess when evaluating the securitised instrument."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Competitive race pressure creates the performance risk that the securitised asset could lose market position and revenue during the financing commitment period.",
+      "detail": "Competition creates ongoing pressure to maintain and improve the model's capability relative to rivals throughout the financing commitment period. Race pressure means the operator must invest continuously in capability advancement while maintaining the cash flow stability that the financial structure requires. The tension between competitive investment and cash flow stability is a fundamental governance challenge for securitised AI assets. Competitive risk is a primary credit consideration because revenue loss from competitive displacement would directly impair investor returns."
+    },
+    "Acceptance Basis": {
+      "value": "Hybrid",
+      "memo": "Securitisation demands process-legitimacy from rating agencies and legal opinions alongside outcome-validated cash-flow stability.",
+      "detail": "Collateral structures require formal process-legitimacy through rating agency assessments, legal opinions, and structural documentation. These process gates are non-negotiable for capital markets acceptance. Simultaneously, the underlying asset validates through cash-flow stability and performance metrics. The dual requirement means neither process nor outcome alone is sufficient."
+    }
+  }
+}

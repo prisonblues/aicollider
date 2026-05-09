@@ -1,0 +1,290 @@
+{
+  "id": "output-competence-schism",
+  "name": "Output–Competence Schism",
+  "desc": "AI enables output that exceeds the producer's competence; the producer cannot evaluate what they ship, institutions reward the appearance of expertise, and the quality gap is invisible until it fails.",
+  "picks": {
+
+    // ── Capability ──────────────────────────────────────────────
+
+    "Capability Class": {
+      "value": "Tool-grade",
+      "memo": "Tool-grade capability is sufficient to produce work that exceeds the user's domain competence without requiring frontier reasoning.",
+      "detail": "The schism does not need frontier models. A tool-grade LLM generates code, architecture, analysis, and documentation that reads as expert output in domains the user has never trained in. The competence gap opens at the tool-grade threshold because output quality no longer depends on the operator's skill. Frontier capability widens the gap further, but tool-grade is where the decoupling begins."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "General-purpose capability enables cross-domain generation — the essay's central structural concern.",
+      "detail": "A single-domain tool keeps users inside their expertise. General capability lets a lawyer build data architectures, a marketer write production code, and a project manager design evaluation frameworks. The breadth is the mechanism: it makes every discipline adjacent and every user plausibly productive in fields they cannot evaluate. Domain boundaries that once contained incompetence dissolve."
+    },
+    "Capability Trajectory": {
+      "value": "Rapid",
+      "memo": "Rapid improvement widens the competence gap faster than institutions can adapt their evaluation practices.",
+      "detail": "Each model generation produces more convincing output across more domains. The producer's competence does not improve at the same rate. The gap between what the tool can produce and what the user can verify grows quarter over quarter. Institutional review processes, hiring criteria, and quality assurance frameworks lag behind the capability curve."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI assists the production process but the user is not automating research — they are generating artifacts beyond their competence.",
+      "detail": "The producer uses AI to draft, iterate, and refine work products. The assistance loop accelerates output without deepening the user's understanding of the domain. AI-assisted production creates the volume that makes the schism visible: more artifacts, produced faster, reviewed less. The assistance is genuine but the learning that once accompanied manual production is absent."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Tool-using capability lets the system produce consequential digital artifacts — code, schemas, documents — that the user ships without full comprehension.",
+      "detail": "Chatbot-level capability produces advice; tool-using capability produces artifacts. The schism requires the system to generate work products that enter production: code that runs, schemas that store data, documents that inform decisions. Tool-using unhobbling is the threshold where output stops being suggestion and starts being work. The user becomes the delivery mechanism rather than the author."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Millions of concurrent users producing beyond their competence makes the phenomenon systemic rather than anecdotal.",
+      "detail": "The schism is not one person misusing a tool. It is population-scale production of expert-looking output by non-experts across every knowledge-work discipline simultaneously. Many copies means the assurance gap compounds across organisations, industries, and professions. Institutional capacity to detect and correct incompetent-but-plausible work does not scale at the same rate."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Machine-speed production overwhelms the human review capacity that would otherwise catch the quality gap.",
+      "detail": "The tool produces documents, code, and analysis faster than any reviewer can read them. Speed compounds the assurance problem: volume rises while review bandwidth stays fixed. The essay describes requirements documents that were once one page becoming twelve. Faster-than-human output generation converts a competence gap into an institutional signal-to-noise crisis."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "The schism operates entirely in knowledge work with no physical-world actuation.",
+      "detail": "Output-competence decoupling is a cognitive phenomenon. The artifacts are digital: reports, codebases, architecture diagrams, strategy decks. No robotic or physical-world extension is involved. The confinement to cognitive output is partly why the quality gap is so hard to detect — there is no physical failure mode to make the incompetence visible."
+    },
+
+    // ── Agency ──────────────────────────────────────────────────
+
+    "Role": {
+      "value": "Copilot/worker",
+      "memo": "The tool acts as copilot but performs the substantive work; the human provides direction they cannot technically verify.",
+      "detail": "The nominal relationship is human-directed copilot. The actual relationship is that the tool does the work and the human routes it. The copilot framing preserves the appearance of human authorship while the competence belongs to the system. The role mismatch is the structural cause of the halo effect: the human is credited for work the machine performed in a domain the human cannot evaluate."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "All effects travel through information channels — documents, code, designs, and analysis — not through direct financial or physical action.",
+      "detail": "The schism produces artifacts: reports, codebases, data schemas, strategy documents, status updates. These are informational outputs that shape decisions, inform clients, and direct resources. The harm channel is informational but the downstream consequences are not bounded by that classification. A wrong data architecture or hallucinated specification causes material damage through the decisions it informs."
+    },
+    "Autonomy": {
+      "value": "Human-in-loop",
+      "memo": "The human is formally in the loop but lacks the domain competence to function as an effective checkpoint.",
+      "detail": "Human-in-loop is the nominal supervision posture. The essay's core argument is that the loop is hollow: the human approves output they cannot evaluate in a domain they were never trained in. The supervision structure exists but the supervisory competence does not. Human-in-loop becomes a liability label rather than a safety mechanism when the human is the conduit the essay describes."
+    },
+    "Delegated Authority": {
+      "value": "Recommend only",
+      "memo": "The tool formally only recommends; the human formally decides — but the human rubber-stamps what they cannot judge.",
+      "detail": "No binding authority is delegated to the system. The human retains nominal decision power. In practice, the recommendation is the decision because the human lacks the competence to override it. Recommend-only authority is structurally honest and practically hollow. The essay's colleague could not explain how any of it worked, yet he fought back when experts questioned the output he had approved."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Standard IDE, document, and code-completion tools provide gated access sufficient to produce expert-looking artifacts.",
+      "detail": "The tools are commercially available and permission-gated: code editors with AI completion, document drafters, data-modelling assistants. No privileged or sensitive system access is required. Gated tools are the entry point: low enough to be universally available, capable enough to produce work that looks senior. The gate is a product subscription, not a competence threshold."
+    },
+    "Response / Intervention Capability": {
+      "value": "Best-efforts",
+      "memo": "Catching the quality gap depends on someone noticing and being willing to say so — both are improvised under institutional pressure.",
+      "detail": "No defined escalation path exists for 'this colleague is shipping AI-generated work they don't understand.' Intervention depends on individual experts volunteering objections in rooms where incentives favour momentum. The essay describes a V.P.-level objection overridden because management was invested in the appearance of progress. Best-efforts response means correction is ad hoc, socially costly, and structurally discouraged."
+    },
+    "Command Actor": {
+      "value": "User/informal",
+      "memo": "Individual workers adopt AI tools informally, without institutional command structure governing cross-domain use.",
+      "detail": "No enterprise mandate or governance framework directs which domains a worker may use AI to produce in. Adoption is bottom-up and informal: individuals discover they can generate code, architecture, or analysis and begin doing so. The informal command structure means no institutional checkpoint verifies domain competence to evaluate what the tool produces. Informal command is how the schism spreads unchecked."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Normal workplace cadence means the quality gap accumulates over months before anyone surfaces it.",
+      "detail": "The essay's colleague spent two months building a fundamentally wrong data system. Product-cycle tempo gives the illusion of steady progress: weekly standups, sprint reviews, and milestone reports all show motion. The tempo is slow enough to feel governed and fast enough that accumulated debt is substantial before review occurs. No crisis forces early inspection."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Product teams hold speed-versus-quality authority and systematically choose visible output over invisible correctness.",
+      "detail": "The tradeoff between 'ship more' and 'verify more' sits with team leads and product managers measured on velocity. The essay describes managers too invested in the appearance of momentum to welcome scrutiny. Product-team authority over this tradeoff means the people deciding whether to slow down are the same people rewarded for not slowing down. The structural incentive is to let the tool keep producing."
+    },
+
+    // ── Rights ──────────────────────────────────────────────────
+
+    "Permission": {
+      "value": "Broad",
+      "memo": "AI tools are broadly available with no permission gate on cross-domain use — anyone can produce in any discipline.",
+      "detail": "Commercial AI tools impose no restriction on what domain the user generates in. A subscription grants equal access to code generation, legal drafting, data architecture, and medical analysis. The permission structure does not distinguish between a user working inside their expertise and one working far outside it. Broad permission is what makes cross-domain generation frictionless."
+    },
+    "Regulatory Posture": {
+      "value": "Permissive",
+      "memo": "No regulation constrains individuals from using AI to produce work in disciplines where they lack training.",
+      "detail": "No jurisdiction has enacted rules governing cross-domain AI-assisted production in ordinary workplaces. Professional licensing regimes cover the output in regulated fields but not the production method in general commercial work. The permissive posture means the schism operates in an unregulated space. The gap between what an unlicensed person can produce and what used to require credentials is entirely ungoverned."
+    },
+    "Data Availability": {
+      "value": "Open/available",
+      "memo": "The models that enable the schism are trained on openly available data and accessible to any subscriber.",
+      "detail": "No data scarcity constrains the phenomenon. The models are trained on broad corpora and distributed through commercial APIs and consumer products. Any worker with a subscription can produce expert-looking output in any domain the model covers. Open data availability at the model-training level translates directly into open cross-domain generation at the workplace level."
+    },
+    "Provenance": {
+      "value": "Mixed/declared",
+      "memo": "The output mixes human direction with AI generation; authorship is declared as human but the competence chain is unverifiable.",
+      "detail": "The human declares the work as their own. The actual competence provenance is mixed: human intent and direction combined with machine-generated substance. No mechanism distinguishes which parts reflect the human's genuine understanding and which are routed through without evaluation. Mixed provenance is the structural basis of the halo effect — the attribution chain is declared but cannot be verified."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Workers access AI through hosted services with no weight transfer — the dependency is a subscription, not an asset.",
+      "detail": "The phenomenon operates through commercial hosted APIs and consumer products. No weight access or transfer is involved. Hosted-only access means the capability disappears if the subscription lapses, but the artifacts and the reputational credit persist. The transient nature of access contrasts with the durable nature of the competence attribution it creates."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Workplace artifacts produced through the schism contain commercially confidential information fed into hosted AI tools.",
+      "detail": "Workers feed business-sensitive context into AI tools to generate domain-crossing output: client details, internal strategies, proprietary data. The commercial confidentiality of the input is a secondary risk that compounds the primary competence problem. Sensitive information enters the production loop without the producer understanding enough about the domain to assess what should or should not be shared with the tool."
+    },
+
+    // ── System ──────────────────────────────────────────────────
+
+    "Processing Mode": {
+      "value": "Inference",
+      "memo": "The schism operates entirely at inference time — workers prompt, the model generates, no training loop is involved.",
+      "detail": "Every artifact in the schism is produced through inference: the user prompts, the model responds, the human ships. No fine-tuning or training-on-user-data is required for the competence gap to open. Inference-only processing means the phenomenon requires nothing more than API access. The simplicity of the processing mode is part of why the schism scales so easily."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "The primary derivative is work product attributed to a human who cannot evaluate what the model actually produced.",
+      "detail": "The model generates code, documents, schemas, and analysis. These derived outputs enter the organisation's workflow as if they were the product of the named author's expertise. The derivation is the mechanism of the schism: the output is derived from the model's capability but the attribution is derived from the human's position. The mismatch between the two derivation chains is the structural problem."
+    },
+    "Retention / Persistence": {
+      "value": "Session retained",
+      "memo": "Most interactions are session-scoped, but the artifacts and reputational effects persist indefinitely.",
+      "detail": "The AI interaction itself is typically session-retained: context expires, conversation history resets. But the outputs — the code committed, the document shared, the architecture deployed — persist in organisational systems forever. The transience of the production context contrasts with the permanence of its effects. The producer cannot reconstruct why the tool made specific choices after the session ends."
+    },
+    "Deployment Surface": {
+      "value": "Internal/standalone",
+      "memo": "AI tools are used internally for work production without deep integration into systems of record.",
+      "detail": "Workers use standalone AI tools — chat interfaces, IDE plugins, document generators — alongside but not embedded in enterprise systems. The deployment is internal and loosely coupled. This standalone posture means no institutional oversight mechanism monitors what the tool produces or whether the user understands it. The deployment surface is shallow enough to evade governance and broad enough to affect every workstream."
+    },
+
+    // ── Supply Chain ────────────────────────────────────────────
+    // Most supply-chain dimensions are silent: the schism is
+    // tool-agnostic and infrastructure-independent.
+
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "Workers use whichever AI tools are available — the schism is provider-agnostic and reproduces across any capable model.",
+      "detail": "The phenomenon does not depend on a specific provider. Claude, GPT, Gemini, and open-weight models all produce output that exceeds the user's domain competence. Multi-provider sourcing means the schism cannot be addressed by switching vendors. The structural problem is the capability class, not the brand. Any general-purpose model above the tool-grade threshold enables it."
+    },
+    "Substitutability": {
+      "value": "Replaceable",
+      "memo": "Any capable LLM produces the same effect — the specific tool is fully replaceable without changing the dynamic.",
+      "detail": "The schism is not a product feature of any particular model. It is a structural property of tool-grade general-purpose language models as a class. Replacing one model with another does not close the competence gap. Replaceability at the tool level means the phenomenon is endemic to the technology category, not to any vendor's implementation."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "AI capability reaches workers through standard API and app channels with no institutional gatekeeping on domain use.",
+      "detail": "Distribution is through consumer and enterprise apps, browser extensions, IDE plugins, and API integrations. The channel is open and contestable. No distribution chokepoint filters users by domain competence. The same channel that delivers productivity gains to experts within their field delivers cross-domain generation capability to everyone else."
+    },
+
+    // ── Assurance ───────────────────────────────────────────────
+    // The most diagnostic band. The schism is fundamentally an
+    // assurance failure.
+
+    "Observability": {
+      "value": "Opaque",
+      "memo": "The gap between output quality and producer competence is invisible from the artifact alone — the output does not betray the novice.",
+      "detail": "This is the essay's central claim. Novice work used to read like novice work. AI-generated output does not signal the competence of the person who produced it. The true system state — whether the named author understands what they shipped — cannot be inspected from the output. Opacity is the mechanism that allows the schism to persist: nobody can tell by looking."
+    },
+    "Evaluation": {
+      "value": "Untested",
+      "memo": "No evaluation process tests whether the producer can explain, defend, or maintain the work they shipped.",
+      "detail": "Organisations evaluate the output, not the producer's understanding of it. No standard workplace process asks 'can you explain how this works without the tool?' The evaluation gap means the schism is never formally surfaced. The essay's colleague produced two months of fundamentally wrong work because no evaluation tested his comprehension — only his velocity."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "The only evidence of the human-AI system's reasoning is the observable output — internal comprehension is not accessible.",
+      "detail": "Reviewers see what the human-AI composite produced. They do not see whether the human understood the model's reasoning, evaluated alternatives, or caught errors. Behavioral evidence — the output looks right — substitutes for actual interpretability of the production process. The appearance of competence is behavioral evidence that happens to be misleading."
+    },
+    "Acceptance Basis": {
+      "value": "Outcome-sufficient",
+      "memo": "Management judges the artifact, not the producer's understanding — visible output is the acceptance criterion.",
+      "detail": "The essay describes institutional acceptance based purely on outcomes: the document exists, the code runs, the system appears to work. No process-based acceptance requires the producer to demonstrate domain competence. Outcome-sufficiency is the institutional incentive that sustains the schism. Longer AI-generated explanations increase confidence regardless of correctness, and the acceptance basis rewards exactly this."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "RLHF-trained sycophancy means the tool affirms the user's approach rather than flagging incompetence.",
+      "detail": "Models are aligned to be helpful and agreeable. The Cheng et al. study confirmed leading models are roughly fifty percent more agreeable than human respondents. RLHF alignment actively works against correction: the tool affirms the user's direction even when the direction is wrong. The alignment method is a contributing cause of the schism — the one mechanism that could flag incompetence is trained not to."
+    },
+    "Monitoring Scope": {
+      "value": "Outputs",
+      "memo": "Only outputs are visible to the organisation — the production process and the producer's comprehension are unmonitored.",
+      "detail": "Organisations see the deliverable: the document, the codebase, the architecture diagram. They do not see the prompt history, the iterations, the corrections the model made, or whether the user understood any of it. Output-only monitoring is structurally incapable of detecting the schism. The information that would reveal the competence gap lives in the production process, which is invisible."
+    },
+    "Containment": {
+      "value": "None",
+      "memo": "No containment mechanism prevents a user from generating in domains where they lack the competence to evaluate the output.",
+      "detail": "The tool imposes no domain boundary. A single prompt can cross from the user's area of expertise into disciplines they have never studied. No technical or institutional containment limits cross-domain generation. The absence of containment is a design feature of general-purpose models and an unexamined assumption in enterprise AI deployment."
+    },
+    "Capability Limitation": {
+      "value": "None",
+      "memo": "No restriction prevents the tool from producing expert-level output for users who cannot evaluate it.",
+      "detail": "The models do not gate capability by user competence. A first-year analyst receives the same architectural guidance as a principal engineer. No capability limitation distinguishes between a user who can evaluate the output and one who cannot. The absence of limitation is the enabling condition: the tool's full capability is available to every user regardless of their ability to judge what it produces."
+    },
+
+    // ── Exposure ────────────────────────────────────────────────
+
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "The schism operates in ordinary civilian workplaces — commercial offices, not military or national-security contexts.",
+      "detail": "The essay describes standard commercial knowledge work: engineering teams, consulting firms, product organisations. The use class is civilian and unremarkable, which is part of why the schism escapes scrutiny. No heightened use classification triggers additional review. The phenomenon hides inside the ordinary."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Harm travels through incorrect information: wrong architectures, hallucinated specifications, misleading analysis, and inflated documentation.",
+      "detail": "The damage is informational: a data schema that cannot scale, a specification built on a hallucination, a strategy document that sounds authoritative but misunderstands the domain. Information-channel harm is diffuse and slow to surface. The essay's colleague built a wrong system for two months. The harm accumulated silently through the information artifacts he produced and the decisions they informed."
+    },
+    "Proliferation": {
+      "value": "Uncontrolled",
+      "memo": "The capability to produce beyond one's competence spreads without meaningful restriction across every knowledge-work discipline.",
+      "detail": "No gate limits who can use general-purpose AI to generate in unfamiliar domains. The proliferation is uncontrolled by design: commercial AI products are marketed for breadth of use. Each new subscriber gains cross-domain generation capability. The proliferation curve follows commercial adoption, not institutional readiness to evaluate the output."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Workplace competitive pressure drives adoption — colleagues who use AI appear more productive, creating pressure to follow.",
+      "detail": "The essay describes a competitive dynamic: workers who generate more output appear more valuable. Colleagues who do not adopt the tools look slower by comparison. Competitive pressure compresses the time available for evaluation and rewards volume over verification. The race is not between firms but between individuals inside the same organisation, each trying to appear maximally productive."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No regime, norm, or institutional framework governs the spread of cross-domain AI-assisted production in workplaces.",
+      "detail": "No professional body, regulator, or industry standard addresses the competence gap that AI-assisted cross-domain production creates. The phenomenon sits in a governance vacuum. Professional licensing covers some regulated domains but not general commercial knowledge work. The absence of a nonproliferation regime means the schism spreads at the rate of commercial AI adoption."
+    },
+
+    // ── Value ───────────────────────────────────────────────────
+
+    "Data Value Dynamics": {
+      "value": "Elastic/synthetic",
+      "memo": "AI makes the supply of expert-looking output near-infinite, collapsing the scarcity that once signalled genuine competence.",
+      "detail": "Work product that once required years of domain training can now be generated elastically. The supply of plausible-looking documents, code, and analysis expands without limit. Elastic supply destroys the signalling value of output quality: when anyone can produce it, the artifact no longer proves anything about the producer. The scarcity that made expert output a reliable competence signal is gone."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "The human producer retains full credit for AI-generated output — the attribution structure rewards the conduit, not the source.",
+      "detail": "Career advancement, performance reviews, and professional reputation accrue to the named author. The tool receives no attribution. Retained output allocation is the institutional mechanism that converts AI capability into human career capital. The halo effect depends on this allocation: the producer is rewarded for output whose quality they cannot independently verify or reproduce."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "The individual user captures reputational and career value from work the model produced in a domain the user cannot evaluate.",
+      "detail": "The 'processor' in this arrangement is the human who prompts, routes, and ships the output. They capture the derived value: promotion, recognition, client confidence, perceived expertise. The model provider captures subscription revenue. Neither party bears the cost of the quality gap. Derived value capture by the processor is the incentive that sustains the schism — stopping would mean giving up the halo."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "The AI provider disclaims liability; the producer cannot evaluate risk; the organisation absorbs consequences it does not know about.",
+      "detail": "Model providers disclaim liability for output accuracy. The human producer cannot assess domain-specific risk in work they do not understand. The organisation bears the residual risk without knowing the competence gap exists. Disclaimed risk allocation means the party best positioned to detect the quality problem — the model — has no liability, and the party bearing the loss — the organisation — has no visibility."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "The schism requires only a subscription — operating-level spend that escapes capital approval and institutional review.",
+      "detail": "AI tool subscriptions are operating expenses, often on personal or team credit cards. No capital approval process evaluates the risk of cross-domain generation. The low capital threshold is what makes the phenomenon bottom-up and ungoverned. Enterprise AI governance focuses on large platform deployments, not individual subscriptions that enable one person to build a data architecture they cannot evaluate."
+    },
+    "Switching Cost": {
+      "value": "Low",
+      "memo": "Low switching costs between AI tools mean the schism is structural, not a product of any vendor's lock-in.",
+      "detail": "The user can move between Claude, GPT, Gemini, or any other capable model without friction. Low switching costs confirm the phenomenon is endemic to the technology class, not to a specific product. The competence gap opens regardless of which tool is used. Low switching costs also mean the schism cannot be addressed through procurement controls on any single vendor."
+    },
+    "Commitment Tenor": {
+      "value": "Short-term",
+      "memo": "Monthly subscriptions create no long-term commitment — the tool is disposable but the artifacts and reputational effects persist.",
+      "detail": "The commitment is a monthly subscription that can be cancelled at any time. The structural effects are permanent: shipped code, deployed architectures, published documents, and career advancement based on AI-generated work. Short-term commitment tenor means the schism has no natural unwinding mechanism. The tool can disappear but the damage it enabled does not."
+    },
+    "Exit": {
+      "value": "Derived artifacts survive",
+      "memo": "When the AI subscription ends, the wrong architectures, inflated documentation, and misattributed expertise remain in the organisation.",
+      "detail": "Cancelling the AI tool does not recall the artifacts it helped produce. The data schema is still in production. The specification still informs downstream decisions. The colleague's reputation still reflects work they cannot reproduce or maintain. Derived artifacts survive termination, which means the quality gap has already been institutionalised before anyone considers whether the tool should have been used."
+    }
+  }
+}

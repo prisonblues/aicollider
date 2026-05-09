@@ -1,0 +1,367 @@
+{
+  "id": "military-dual-use",
+  "name": "Military / dual-use",
+  "desc": "Military deployment changes command authority, actuation channel, assurance burden, exposure class, and liability allocation simultaneously, creating a signature unlike any civilian arrangement.",
+  "picks": {
+    "Capability Class": {
+      "value": "Strategic",
+      "memo": "Military AI capability matters to national power and sovereignty, placing it firmly in the strategic tier by definition.",
+      "detail": "Strategic capability means the system's performance directly affects the balance of power between states and coalitions. This elevates every downstream decision from product governance to national-command governance. Assurance, security, and containment requirements all shift upward in consequence and intensity. The commercial product framework becomes wholly inadequate once capability reaches this strategic threshold in military context."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Dual-use systems cross civilian and defence domains, creating regulatory complexity and export-control triggers that single-domain systems avoid.",
+      "detail": "Multi-domain breadth means the same system can serve intelligence analysis, logistics, targeting, and potentially civilian functions. This dual character triggers export controls, use-class distinctions, and proliferation concerns simultaneously across different regulatory regimes. Governance must accommodate both civilian oversight frameworks and military command authority structures. The breadth is what makes dual-use architecturally and legally distinct from narrow single-purpose defence tools."
+    },
+    "Capability Trajectory": {
+      "value": "Compressed",
+      "memo": "Defence adoption compresses capability timelines as adversary pressure shortens the available window for governance adaptation and safety evaluation.",
+      "detail": "Compressed trajectory reflects the strategic reality that peer adversaries are racing to deploy comparable capabilities. Normal regulatory and procurement timelines designed for incremental improvement become inadequate under this acceleration pressure. Governance frameworks built for product-cycle cadence cannot keep pace with compressed military deployment timelines. The compression is driven by external threat dynamics and race pressure, not internal product roadmaps or commercial deadlines."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "Military R&D uses AI-assisted research for intelligence analysis, simulation design, and tactical planning while humans retain strategic direction.",
+      "detail": "AI-assisted research means models contribute meaningfully to threat analysis, operational planning, and capability development workflows. Human researchers and military commanders retain overall direction-setting authority and strategic judgment. The assistance accelerates decision support and analysis cycles without creating recursive self-improvement loops. This positions military AI as a force multiplier for human expertise rather than an autonomous research engine pursuing its own objectives."
+    },
+    "Unhobbling": {
+      "value": "Agentic",
+      "memo": "Military systems require full agentic unhobbling to operate autonomously across connected sensors, weapons platforms, and logistics chains.",
+      "detail": "Agentic unhobbling means the system can pursue multi-step operational objectives across connected defence platforms and systems. This goes well beyond tool-calling into persistent autonomous action within complex operational contexts and theatres. The unhobbling is operationally necessary for the speed and coordination scale that modern military operations demand. It also creates the fundamental category change in risk that distinguishes military AI from any civilian tool."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Military deployment replicates capable systems across theatre and platforms, creating distributed operational presence that fundamentally complicates central oversight.",
+      "detail": "Many copies means identical or theatre-adapted systems operate simultaneously across multiple platforms, units, and locations. This replication multiplies the supervision burden and the consequences of any misalignment, compromise, or adversary manipulation. Each instance retains the full capability of the original model within its operational context and authority boundaries. The scale makes centralized human oversight of every instance physically impossible during active operations."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Defence operations value machine-speed decision cycles that compress engagement timelines well beyond any human reaction and review capacity.",
+      "detail": "Faster-than-human speed creates a decisive military advantage but simultaneously introduces a fundamental governance challenge. Engagement decisions in air defence, cyber operations, and electronic warfare occur in timeframes too short for meaningful human review. This creates structural tension between operational effectiveness and the principle of meaningful human control over lethal force. The speed advantage is precisely what makes military AI both strategically valuable and uniquely dangerous."
+    },
+    "Physical World Extension": {
+      "value": "Robotic support",
+      "memo": "Military AI extends into physical systems through drones, autonomous vehicles, and robotic platforms that create direct kinetic potential.",
+      "detail": "Robotic support links cognitive AI capability directly to physical-world actuation through weapons platforms and autonomous vehicles. This creates a direct pathway from algorithmic decision to material consequence that civilian systems rarely possess. The extension means errors, misalignment, or adversary manipulation can cause physical harm, not merely information harm. It is this physical connection that makes military AI categorically different from even the most consequential enterprise software."
+    },
+    "Role": {
+      "value": "Agent",
+      "memo": "Military systems function as autonomous agents pursuing operational objectives across sensors, engagement chains, and coordinated platform networks.",
+      "detail": "Agent role means the system owns execution of operational tasks rather than merely advising human operators on decisions. This is the threshold where the system acts on the physical world, not just informs about it. Military operational context demands this level of agency for the speed and scale modern warfare requires. The agent role triggers every downstream authority, liability, containment, and intervention question in the entire signature."
+    },
+    "Actuation": {
+      "value": "Physical/kinetic",
+      "memo": "Military deployment creates direct physical and kinetic actuation channels where algorithmic decisions can translate into lethal force application.",
+      "detail": "Physical/kinetic actuation is the defining exposure characteristic of military AI that separates it from all civilian applications. The system can cause material damage, injury, or death through its connected action chain and weapons integration. This is not a theoretical risk but a designed and intended capability in targeting, engagement, and weapons systems. It creates unique liability, assurance, command authority, and international law requirements found nowhere in civilian deployment."
+    },
+    "Autonomy": {
+      "value": "Human-on-loop",
+      "memo": "Military AI operates with human-on-loop supervision where commanders monitor autonomous functions rather than individually approving each operational step.",
+      "detail": "Human-on-loop reflects the practical military posture where human commanders supervise but do not individually approve every system action. This allows operational speed while maintaining a notional chain of command and accountability structure. The gap between human-on-loop and human-in-loop is precisely where the hardest accountability and attribution questions arise. Meaningful oversight requires the human to actually be able to intervene before irreversible kinetic effects occur."
+    },
+    "Delegated Authority": {
+      "value": "Operational mandate",
+      "memo": "Military systems receive operational mandates that delegate consequential authority for resource commitment within rules of engagement and command boundaries.",
+      "detail": "Operational mandate means the system can commit military resources and execute tactical decisions within an assigned operational domain. In military context this includes targeting recommendations, resource allocation, electronic warfare, and tactical manoeuvres. The mandate is bounded by rules of engagement but the system operates autonomously within those bounds. This delegation is what transforms military AI from a software procurement into a command-and-control architecture concern."
+    },
+    "Tool Access": {
+      "value": "Broad toolchain",
+      "memo": "Defence deployment connects models to the full spectrum of sensors, weapons guidance, cyber tools, logistics platforms, and communication networks.",
+      "detail": "Broad toolchain means the system interacts with the full range of military infrastructure and operational systems. This includes intelligence feeds, weapons guidance systems, electronic warfare tools, and supply chain management platforms. The breadth of access multiplies the consequences of compromise, malfunction, or adversary interference. Every connected system becomes part of the AI's effective actuation and attack surface."
+    },
+    "Response / Intervention Capability": {
+      "value": "Verified rollback/kill",
+      "memo": "Safety-critical military use demands verified kill switches and rollback procedures that can prove complete recovery to a known safe operational state.",
+      "detail": "Verified rollback/kill is the highest intervention standard because military consequences of system failure are often irreversible. A kill switch alone is insufficient if the system has already actuated physical effects or issued targeting commands. Verification means proving the system has returned to a controlled state, not merely that a stop command was sent. This requires architectural support for state verification and rollback, not just operational shutdown procedures."
+    },
+    "Command Actor": {
+      "value": "State/coalition",
+      "memo": "Military authority resides with the state or coalition command structure, fundamentally distinct from the firm that built or deployed the system.",
+      "detail": "State/coalition command means the system answers to sovereign military authority, not to corporate governance or product teams. This is a categorical distinction from enterprise AI where the deploying company retains ultimate command over system behavior. The chain of command must be architecturally unambiguous through national command authority to the operational unit. Who commands the system is entirely distinct from who owns the model or who pays for compute."
+    },
+    "Decision Tempo": {
+      "value": "War-speed",
+      "memo": "Operational pressure forces war-speed decision cycles where normal product-cycle governance and review timelines become dangerously inadequate for safety.",
+      "detail": "War-speed tempo means decisions must be made faster than normal institutional review and governance processes allow. This compresses the time available for safety review, ethical consultation, legal review, and multilateral oversight. Product-cycle governance designed for quarterly software releases cannot function under these acute operational conditions. The tempo itself becomes a design variable that determines what oversight controls are practically feasible to implement."
+    },
+    "Tradeoff Authority": {
+      "value": "National command",
+      "memo": "National command authority owns the decisive tradeoff between operational speed and safety margins in strategic military AI systems.",
+      "detail": "National command means the fundamental speed-versus-safety tradeoff belongs to sovereign authority, not to product teams or corporate safety boards. This reflects the reality that military AI decisions can directly affect national survival and international security. A private CEO or corporate board fundamentally lacks the democratic legitimacy to make these sovereign tradeoffs. The authority structure determines what risks can be accepted, by whom, and under what accountability framework."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Military use of AI capability is conditionally permitted, bounded by classification rules, export controls, use-of-force doctrine, and command authorization.",
+      "detail": "Conditional permission reflects the layered restrictions governing military AI deployment across classification, legal, and operational dimensions. Classification levels, export control regimes, international humanitarian law, and rules of engagement all create overlapping conditions. Permission is not blanket but purpose-specific, classification-gated, and authority-bounded at every level. This conditionality is enforced architecturally through access controls and containment, not merely through contractual terms."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Military AI operates under conditional regulatory posture shaped by defence procurement rules, classification requirements, and international arms control obligations.",
+      "detail": "Conditional regulation means deployment requires compliance with defence-specific procurement, testing, certification, and authorization processes. These requirements are distinct from and often substantially more demanding than civilian AI regulation. International treaty obligations and allied interoperability standards add further conditions on development, deployment, and use. The regulatory posture is conditional rather than permissive because the lethal stakes make blanket permission unacceptable."
+    },
+    "Data Availability": {
+      "value": "Proprietary owned",
+      "memo": "Military training data is proprietary, owned by the state with strict classification-based access controls and zero open availability.",
+      "detail": "Proprietary owned data reflects sovereign state control over military intelligence, targeting information, and operational data. This data cannot be licensed, shared through markets, or accessed through any open availability channel. The ownership is sovereign and the availability is entirely restricted by national security classification determinations. Data availability here is not a market or licensing question but a national security determination made by command authority."
+    },
+    "Provenance": {
+      "value": "Verifiable",
+      "memo": "Military systems demand verifiable data provenance to ensure all training inputs meet classification, integrity, and chain-of-custody requirements.",
+      "detail": "Verifiable provenance means every training input can be traced to its authorised source with a documented chain of custody. This is operationally necessary for classification compliance and to prevent adversary data poisoning or manipulation attacks. Provenance verification is a core operational security requirement, not merely a compliance checkbox or quality preference. Unverifiable data in a military training pipeline creates an attack surface that sophisticated state adversaries will actively exploit."
+    },
+    "Model-Weight Rights": {
+      "value": "Dedicated instance",
+      "memo": "Military deployment requires dedicated model instances under sovereign state control, with weights physically isolated from any commercial or shared environments.",
+      "detail": "Dedicated instance means the state controls its own model weights entirely separate from any commercial multi-tenant deployment. Shared access or hosted-only arrangements create unacceptable dependency on commercial providers and security exposure to other tenants. The weights themselves are a strategic asset requiring sovereign custody and airgapped protection at all times. This is not a contractual preference but a hard security requirement driven by the state-actor adversary model."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "Military AI must operate within domestic sovereign jurisdiction to maintain complete control over capability and comply with classification requirements.",
+      "detail": "Domestic territory keeps the system under the deploying state's sovereign jurisdiction for legal, physical, and operational security purposes. Cross-border or extraterritorial arrangements create unacceptable risk for classified military capability and command authority. Domestic operation enables physical security enforcement, clear legal authority, and unambiguous command chain accountability. The territorial constraint flows directly from classification rules, operational security requirements, and sovereign authority principles."
+    },
+    "Data Subject Exposure": {
+      "value": "Special-category/systemic",
+      "memo": "Military AI processes intelligence data involving systemic personal data exposure including biometrics, signals intelligence, and population-level surveillance inputs.",
+      "detail": "Special-category/systemic exposure reflects that military intelligence involves biometric data, communications intercepts, and population-level analytical inputs. This is the highest personal data exposure tier in the model and it applies broadly across military applications. The systemic character means entire populations may be affected by the system, not just specifically identified individuals. This exposure creates obligations under international humanitarian law that go substantially beyond ordinary data protection frameworks."
+    },
+    "Data Sensitivity": {
+      "value": "Classified/prohibited",
+      "memo": "Military AI operates on classified and prohibited-distribution data requiring the highest sensitivity controls, compartmentation, and personnel clearance.",
+      "detail": "Classified/prohibited sensitivity means the data is subject to national security classification and strict distribution prohibitions. Compromise creates direct harm to national security, military operational advantage, and intelligence sources and methods. The sensitivity level determines physical infrastructure requirements, personnel clearance levels, and containment architecture specifications. Every other architectural decision in the military signature cascades from this classification determination."
+    },
+    "Control Exposure": {
+      "value": "Controlled item active",
+      "memo": "Military AI capability is an actively controlled item under export control and nonproliferation regimes with enforced transfer and access restrictions.",
+      "detail": "Controlled item active means export controls are not theoretical future risks but operationally enforced present constraints. The system, its trained weights, its training methodology, and potentially its training data are all subject to transfer restrictions. This affects who can supply components, where the system can be deployed, and who can access any part of the stack. Control exposure turns routine architecture and procurement decisions into formal export-control compliance determinations."
+    },
+    "Processing Mode": {
+      "value": "Adaptation/fine-tuning",
+      "memo": "Military systems fine-tune base models to specific operational domains, adapting commercial foundations using classified tactical and intelligence data.",
+      "detail": "Adaptation/fine-tuning means commercial or allied base models are specialized for military tasks using classified operational data. This creates mission-specific capability while leveraging broader model foundations developed at commercial scale. The fine-tuning process itself involves classified data, making the resulting adapted weights controlled items. The processing mode determines what residual classified capability persists after any termination or change in the arrangement."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Military AI generates derived intelligence products, targeting recommendations, and operational plans whose classification flows from source material sensitivity.",
+      "detail": "Derived outputs include intelligence assessments, threat analyses, targeting packages, and operational recommendations produced by the system. These derivatives inherit classification from their source material through established derivative classification rules. The derived outputs may themselves become inputs to further military decision-making chains and operational planning cycles. This derivation chain means source data classification propagates through every downstream product the system creates."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Military fine-tuning entangles classified training data with model weights, creating learned persistence that fundamentally survives data deletion commands.",
+      "detail": "Weight-entangled retention means classified operational data persists within the model's learned capability even after source deletion. Deleting the original training data does not delete the capability or knowledge it created within the weights. This entanglement is what makes military AI a one-way function from a custody and decommissioning perspective. The persistence creates unique challenges for system retirement, capability transfer, and allied-sharing arrangements."
+    },
+    "Execution / Residency Environment": {
+      "value": "On-prem/SCIF",
+      "memo": "Military AI executes in on-premises or SCIF environments providing physical security controls commensurate with data classification requirements.",
+      "detail": "On-prem/SCIF execution ensures the system operates within physically secured and access-controlled government facilities. This is not a preference or cost optimization but a hard classification requirement for the data sensitivity level involved. The residency environment determines who has physical access and what interception or exfiltration risks remain present. SCIF execution is the architectural enforcement of the sovereignty, containment, and adversary-resistance principles."
+    },
+    "Boundary": {
+      "value": "Isolated",
+      "memo": "Military systems operate within fully isolated boundaries preventing any data or capability leakage to shared, partner, or commercial environments.",
+      "detail": "Isolated boundary means no data, capability, or telemetry crosses to external parties, shared infrastructure, or commercial environments. This isolation is the boundary enforcement of national security classification requirements at the network and system level. It prevents both inadvertent leakage through side channels and deliberate exfiltration by compromised insiders. The isolation creates operational constraints for updates and maintenance but is non-negotiable for classified military capability."
+    },
+    "Deployment Surface": {
+      "value": "Critical/infrastructure",
+      "memo": "Military AI deploys as critical defence infrastructure within command systems where failure or compromise has direct national security consequences.",
+      "detail": "Critical/infrastructure deployment means the system is embedded in operational defence capability and command structures. Failure or compromise affects national security and military operational effectiveness, not merely business operations or revenue. This deployment surface triggers the highest reliability, redundancy, availability, and assurance requirements available. The criticality level determines the risk backstop architecture and the liability allocation framework."
+    },
+    "Physical Infrastructure": {
+      "value": "Dedicated cluster",
+      "memo": "Military AI runs on dedicated compute clusters under sovereign state control, physically separate from any commercial cloud infrastructure entirely.",
+      "detail": "Dedicated cluster means purpose-built compute infrastructure owned and operated under direct state control and physical security. Commercial cloud is inadequate for classified workloads regardless of what contractual assurances or certifications the provider offers. The physical infrastructure must meet facility clearance, physical security, and emanation control standards set by classification. This is the point where data architecture decisions become concrete physical infrastructure specifications and capital commitments."
+    },
+    "Model Sourcing": {
+      "value": "In-house/orchestrated",
+      "memo": "Military deployment requires in-house model orchestration under sovereign state control, eliminating external commercial provider dependency for critical capability.",
+      "detail": "In-house/orchestrated sourcing means the state controls model selection, combination, adaptation, and deployment entirely within its authority. External provider dependency creates unacceptable supply risk and potential adversary leverage over sovereign military capability. Orchestration allows combining specialized models for different operational functions while maintaining security boundaries between them. The sourcing model is fundamentally a sovereignty and operational security question, not a procurement preference."
+    },
+    "Compute Source": {
+      "value": "Owned/custom",
+      "memo": "Military compute must be state-owned and custom-built to prevent foreign dependency and ensure classification-grade physical security throughout.",
+      "detail": "Owned/custom compute means the state controls its own accelerator infrastructure from facility to silicon to operating environment. Rented or commercially committed capacity creates dependency on providers who may be compromised, coerced, or located in exposed jurisdictions. Custom compute enables the physical security, supply assurance, and sovereign operational control that classification requires. The ownership requirement flows directly from the state-actor adversary model and classification level."
+    },
+    "Cloud Dependency": {
+      "value": "Captive/exclusive",
+      "memo": "Military operations create captive infrastructure dependency because classification and security requirements prevent any practical migration between providers.",
+      "detail": "Captive/exclusive dependency reflects the operational reality that classified military workloads cannot practically move between providers. The classification of data, model weights, and operational context creates lock-in that transcends any contractual portability provisions. Portability is not practically available when everything involved is classified and physically isolated. This captivity is accepted as the necessary cost of maintaining sovereign security and operational continuity."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Near-term military AI depends heavily on merchant Nvidia GPUs, creating a supply-chain vulnerability that custom sovereign silicon would eventually resolve.",
+      "detail": "Nvidia GPU dependence means military AI capability currently relies on a commercial supplier's product roadmap and allocation decisions. This creates a chokepoint where supply disruption, export restrictions, or allocation changes directly affect national defence capability. The merchant dependency is a transitional state that long-term strategic programmes aim to reduce or eliminate. Custom military silicon would resolve this dependency but requires massive sustained investment over many years."
+    },
+    "Supply Control": {
+      "value": "Strategic control",
+      "memo": "Military programmes require strategic control over compute supply through sovereign allocation rights, stockpiling authority, and national procurement priority.",
+      "detail": "Strategic control means guaranteed supply priority backed by sovereign procurement authority and industrial mobilization powers. This goes substantially beyond market access or commercial allocation rights to state-level supply assurance mechanisms. Military programmes cannot afford to compete with commercial buyers in allocation queues during supply constraints. Supply control is a hard prerequisite for operational continuity, capability assurance, and strategic independence."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Frontier military AI capability is directly constrained by accelerator supply, with GPU allocation determining both training scale and deployment capacity.",
+      "detail": "Accelerator supply is the binding physical constraint for military AI at operational scale today. GPU allocation determines how many models can be trained, at what parameter count, and how quickly iterations can proceed. This bottleneck sits above the deeper foundry, packaging, and lithography constraints that affect the entire semiconductor ecosystem. Military programmes must secure accelerator allocation before they can meaningfully address any other capability or deployment question."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "Certified military AI systems are deeply locked in because recertification, retraining, and operational integration create years of prohibitive switching costs.",
+      "detail": "Locked-in substitutability means military AI systems cannot be swapped without enormous cost measured in years and national security risk. Certification against operational requirements, integration with defence platforms, and operational qualification all create deep structural dependencies. The switching cost is measured in recertification timelines and capability gaps, not merely in money or engineering effort. This lock-in gives incumbent providers and architectures structural power over military customers and procurement."
+    },
+    "Vertical Integration": {
+      "value": "Full-stack",
+      "memo": "Military AI increasingly requires full-stack sovereign integration from silicon through models to operational applications under complete state control.",
+      "detail": "Full-stack integration means the military seeks sovereign control from hardware through middleware through models to application layer. Dependency at any single layer creates a vulnerability that sophisticated state adversaries can and will exploit. Full-stack control enables end-to-end security assurance that disaggregated commercial supply fundamentally cannot provide. This aspiration drives sovereign silicon programmes, national AI infrastructure investments, and industrial policy coordination."
+    },
+    "Distribution Channel": {
+      "value": "OS/device layer",
+      "memo": "Military AI capability is embedded at the operating-system and device layer of operational platforms, not distributed through commercial APIs or stores.",
+      "detail": "OS/device layer distribution means capability is integrated directly into the operational platform at a fundamental systems level. There is no commercial API endpoint or app-store distribution channel for classified military AI capability. The distribution method is itself part of the security architecture, containment boundary, and access control framework. Device-layer embedding ensures the capability operates entirely within the controlled boundary and command authority chain."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "Military AI supply must be sourced from domestic or closely allied jurisdictions to prevent adversary interdiction, coercion, or supply-chain compromise.",
+      "detail": "Domestic supply jurisdiction ensures sovereign control over the complete supply chain from silicon to software to services. Foreign-sourced components create interdiction risks, potential hardware backdoors, and coercion vulnerabilities from adversary states. The supply jurisdiction determination flows directly from the state-actor adversary model and classification requirements. Even allied supply introduces dependency that full sovereignty principles would prefer to avoid."
+    },
+    "Observability": {
+      "value": "Observable",
+      "memo": "Military operations require real-time observable system behaviour to maintain chain-of-command accountability and operational authority over autonomous functions.",
+      "detail": "Observable means the system's behaviour can be monitored in real time by authorized military operators and commanders. This is necessary for maintaining meaningful command authority over autonomous functions during active operations. Observability is distinct from interpretability; operators may see what the system does without fully understanding its internal reasoning. Operational authority requires at minimum knowing what actions the system is taking and what resources it is committing."
+    },
+    "Evaluation": {
+      "value": "Certified/decision-grade",
+      "memo": "Military systems require certified, decision-grade evaluation evidence before operational deployment in contexts where failure has lethal consequences.",
+      "detail": "Certified/decision-grade evaluation means the system has been tested to standards that support life-or-death operational reliance. This goes far beyond internal benchmarks, commercial red-teaming, or academic evaluation metrics. Certification involves operational testing under realistic adversarial conditions with formal sign-off authority and accountability. The evaluation standard must match the consequence level and use class of the intended deployment."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "Military AI assurance currently relies on behavioral evidence from operational testing because mechanistic interpretability remains insufficient for strategic systems.",
+      "detail": "Behavioral evidence means assurance comes from systematically observing what the system does in test and operational conditions. Internal/mechanistic interpretability would be strongly preferred but is not yet reliable enough for frontier military models. This creates a recognized gap between the assurance standard the military needs and what current interpretability technology delivers. The behavioral evidence posture is a pragmatic acknowledgment of this limitation rather than a preferred end state."
+    },
+    "Alignment Method": {
+      "value": "Trusted monitor models",
+      "memo": "Military AI autonomy requires trusted monitor models alongside human oversight because human supervision alone cannot reliably scale to operational speed.",
+      "detail": "Trusted monitor models are necessary because war-speed operations outpace human review and intervention capacity. Monitor models provide continuous automated oversight that humans physically cannot maintain at machine decision speed. This creates a recursive dependency on the alignment of the monitor model itself, not just the primary operational system. The military alignment problem is therefore structurally recursive in a way that civilian product applications rarely face."
+    },
+    "Security Posture": {
+      "value": "National-defense-grade",
+      "memo": "Military AI requires national-defense-grade security posture encompassing facility clearance, personnel vetting, communications security, and counter-intelligence protocols.",
+      "detail": "National-defense-grade security means the full apparatus of classified programme protection applies to every aspect of development and operation. This includes facility security clearances, personnel background investigations, communications security measures, and active counter-intelligence. The posture is qualitatively different from enterprise-grade security, not simply a stronger version of the same controls. Every aspect of development, deployment, maintenance, and operation must meet this comprehensive standard."
+    },
+    "Adversary Model": {
+      "value": "State actor",
+      "memo": "Military AI assumes state-level adversaries with full intelligence agency capabilities, including insider recruitment and sophisticated supply-chain compromise.",
+      "detail": "State actor adversary model means the threat includes national intelligence services with substantial resources and persistence. This drives security requirements far beyond what is needed to protect against casual misuse or organized criminal actors. Supply-chain attacks, insider recruitment, signals intelligence collection, and hardware tampering all become relevant active threats. The adversary model is the single most important determinant of the minimum viable security architecture."
+    },
+    "Weight Security": {
+      "value": "Airgapped/controlled",
+      "memo": "Military model weights require airgapped, controlled custody because weights trained on classified data are themselves high-value strategic assets.",
+      "detail": "Airgapped/controlled weight security means model weights are treated as classified assets requiring physical network isolation. Physical airgapping prevents any network-based exfiltration pathway regardless of software compromise or insider access. Controlled access requires multi-person authorization, comprehensive audit trail, and cleared personnel at every access point. The weights embody trained capability derived from classified intelligence, making them as operationally sensitive as the source data itself."
+    },
+    "Access Control": {
+      "value": "Multi-key signoff",
+      "memo": "Military systems require multi-key signoff ensuring no single individual can authorize system use without independent verification and command-chain approval.",
+      "detail": "Multi-key signoff means multiple independently authorized parties must approve system activation or capability access. This prevents unauthorized use, mitigates insider threats, and eliminates single-point compromise as an attack vector. The multi-key requirement reflects nuclear-weapons-style authorization principles adapted for autonomous AI systems. It is the access control expression of the national command authority and chain-of-command accountability principles."
+    },
+    "Monitoring Scope": {
+      "value": "Full cluster telemetry",
+      "memo": "Military AI requires full cluster telemetry monitoring all code execution, tool activity, network behaviour, weight access, and system resource events.",
+      "detail": "Full cluster telemetry means comprehensive monitoring of everything the system does, accesses, communicates, and consumes. This scope is necessary to detect compromise, unauthorized capability use, adversary interference, and anomalous system behavior. Monitoring only outputs or prompts is profoundly insufficient when the adversary model includes sophisticated state actors. The monitoring scope must match or exceed the adversary's capability to be operationally meaningful."
+    },
+    "Containment": {
+      "value": "Airgapped/SCIF",
+      "memo": "Military AI containment requires airgapped SCIF-level physical isolation preventing any unauthorized network, electronic, emanation, or physical access pathway.",
+      "detail": "Airgapped/SCIF containment means complete physical isolation from external networks and strict control over unauthorized physical access. This is the strongest containment posture available in the model and it is required for classified military applications. It prevents network-based attack, electromagnetic emanation exploitation, and physical tampering or exfiltration. The containment level is determined directly by the classification level, adversary model, and consequence severity."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Military AI applies targeted capability restrictions preventing the system from exceeding authorized operational boundaries, escalation limits, or use-of-force doctrine.",
+      "detail": "Targeted restriction means specific dangerous capabilities are architecturally limited rather than relying on general policy filters alone. This includes hard restrictions on target categories, escalation authorities, geographic operational boundaries, and weapons release criteria. General policy filters are insufficient when the system possesses lethal capability and operates at war speed. Targeted architectural restrictions enforce rules of engagement and use-of-force doctrine at the system design level."
+    },
+    "Use Class": {
+      "value": "Military",
+      "memo": "Military use class places AI capability inside sovereign state power, national command authority, and international humanitarian law obligation frameworks.",
+      "detail": "Military use class is a threshold determination that simultaneously transforms every other dimension of the signature. The system is no longer a commercial product but a functional component of sovereign military power and national defence. This triggers international humanitarian law, laws of armed conflict, allied interoperability standards, and nonproliferation obligations. Military use class is the single most consequential categorical pick because it changes everything downstream."
+    },
+    "Harm Channel": {
+      "value": "Physical/kinetic",
+      "memo": "Military AI can translate algorithmic decisions into physical force or kinetic effects through connected weapons platforms and robotic systems.",
+      "detail": "Physical/kinetic harm channel means the system can directly cause death, destruction, and irreversible material damage through its action chain. This is not a theoretical or remote risk but a designed and intended capability in targeting and weapons guidance systems. The harm channel determines the liability architecture, backstop requirements, and assurance standards that must be met. No civilian harm channel creates comparable irreversible consequence severity from algorithmic error or misalignment."
+    },
+    "Proliferation": {
+      "value": "Contained",
+      "memo": "Military AI proliferation must be actively contained through export controls, classification enforcement, and allied-sharing agreements with strict access limits.",
+      "detail": "Contained proliferation means deliberate state action prevents the military capability from spreading to unauthorized parties or adversaries. This involves active export controls, classification enforcement, secure allied-sharing arrangements, and counter-intelligence against theft. Proliferation of military AI capability is a direct and immediate national security threat to the deploying state. The containment posture determines what infrastructure, personnel controls, and access restrictions are architecturally necessary."
+    },
+    "Strategic Lead": {
+      "value": "Neck-and-neck",
+      "memo": "Major military powers are in a neck-and-neck competition for AI military capability, creating intense race pressure and dangerously short decision windows.",
+      "detail": "Neck-and-neck strategic lead means no single power has established a decisive or sustainable advantage in military AI capability. This proximity creates intense pressure to accelerate deployment timelines and reduce safety margins to maintain competitive position. The strategic lead window affects whether governance, oversight, and international coordination have adequate time to function. Neck-and-neck positioning is more dangerous than a decisive lead because it strongly incentivizes risk-taking and shortcuts."
+    },
+    "Race Pressure": {
+      "value": "Existential",
+      "memo": "Military AI race pressure is existential because falling behind in capability creates perceived vulnerability to adversary first-mover strategic advantages.",
+      "detail": "Existential race pressure means states perceive military AI as essential to national survival and strategic independence. This perception drives acceleration well beyond what safety, ethics, and governance considerations would independently counsel. The race dynamic actively reduces the time and institutional willingness to invest in alignment, testing, and assurance. Existential pressure is the strongest force pushing military AI toward premature deployment with inadequate safety margins."
+    },
+    "Coalition Structure": {
+      "value": "National project",
+      "memo": "Military AI development operates as a national project with direct state direction, strategic defence funding, and coordinated industrial policy.",
+      "detail": "National project structure means the state actively directs development rather than relying on market forces or commercial innovation. This involves dedicated defence funding streams, industrial mobilization programmes, and cross-agency coordination mechanisms. The coalition is national rather than single-firm because no private company has legitimate authority for sovereign military deployment. Allied participation creates an extended coalition but operational command authority remains with the deploying state."
+    },
+    "Nonproliferation Regime": {
+      "value": "Enforced regime",
+      "memo": "Military AI is subject to enforced nonproliferation through active export controls, classification, international sanctions, and allied technology-sharing agreements.",
+      "detail": "Enforced regime means nonproliferation obligations are backed by inspection mechanisms, technology denial, and international sanctions enforcement. Export controls on accelerators, model weights, training methodology, and operational data are actively monitored and enforced. This regime determines who can legally build, deploy, and access military AI capability and under what conditions. The enforcement mechanisms remain imperfect but create real and meaningful constraints on capability proliferation."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Military operational data accumulates and fortifies capability over time, with each deployment and intelligence cycle improving system performance compoundingly.",
+      "detail": "Accretive/fortifying dynamics mean operational data continuously strengthens the system with each exercise and deployment. Each operational cycle, intelligence collection, and training exercise adds to the corpus and improves model adaptation. The data does not depreciate or become obsolete in the way commercial market data often does. This accretive character means early data advantages compound over time, progressively widening capability gaps between early and late adopters."
+    },
+    "Input Price": {
+      "value": "Structural",
+      "memo": "Military AI input pricing is structural, embedded in defence budgets, industrial policy allocations, and sovereign stake frameworks rather than market pricing.",
+      "detail": "Structural pricing means the cost is determined by national defence budget priorities and strategic investment allocation processes. There is no open market price for classified military training data, sovereign compute capacity, or cleared personnel. The pricing structure reflects national priority allocation through political process rather than commercial negotiation dynamics. This makes military AI cost fundamentally a political and strategic determination, not an economic optimization."
+    },
+    "Output Allocation": {
+      "value": "Allocated",
+      "memo": "Military AI outputs are explicitly allocated to sovereign state use with classification controls architecturally preventing any commercial redistribution or reuse.",
+      "detail": "Allocated output means all system outputs belong unambiguously to the deploying state under sovereign authority. There is no contractual ambiguity about derivative ownership, commercial reuse rights, or third-party access claims. Classification rules enforce the allocation architecturally through access controls and containment, not merely through contractual provisions. Output allocation in military context is a sovereignty determination backed by law, not a licensing negotiation."
+    },
+    "Derived Value Capture": {
+      "value": "Public/international",
+      "memo": "Military AI derived value is captured at the public and international level as national defence capability rather than private commercial financial return.",
+      "detail": "Public/international value capture means the derived benefit accrues to national security and allied defence rather than private corporate profit. The state funds development through defence budgets and captures value through improved military capability and strategic position. This creates fundamentally different incentive structures from commercial AI where private value capture drives investment decisions. International value flows through allied capability-sharing arrangements and collective security frameworks."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Government backstop",
+      "memo": "Military AI risk is government-backstopped because the state bears ultimate sovereign liability for all military operations and use-of-force consequences.",
+      "detail": "Government backstop means the state accepts ultimate and final risk for military AI deployment and its operational consequences. No private insurer, contractor, or technology provider can credibly absorb the liability of military operations at scale. The backstop is implicit in sovereign military authority and the state's monopoly on legitimate use of force. This risk allocation enables deployment of systems whose potential failure consequences exceed any conceivable private indemnity."
+    },
+    "Capital": {
+      "value": "Strategic build",
+      "memo": "Military AI investment operates as strategic build capital allocated through defence budgets, industrial policy, and national mobilization programmes.",
+      "detail": "Strategic build capital means sustained long-term investment in capability infrastructure rather than annual operating expenditure. This includes purpose-built sovereign compute clusters, dedicated classified research facilities, and domestic supply chain development. The capital commitment reflects the infrastructure-life nature of military AI investment horizons and asset lifetimes. Strategic build capital is allocated through political and strategic process, not commercial return-on-investment calculation."
+    },
+    "Commitment Tenor": {
+      "value": "Infrastructure-life",
+      "memo": "Military AI commitments extend to infrastructure-life timescales that outlast individual model generations, political administrations, and procurement cycles entirely.",
+      "detail": "Infrastructure-life commitment means the investment horizon spans decades of continuous operation and modernization. Compute facilities, cleared personnel pipelines, and sovereign supply chains all take many years to build from scratch. The commitment outlasts any individual model generation, cloud contract, political administration, or data licence. This tenor creates unique governance challenges because the system and its infrastructure will outlive its original designers."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "Military AI becomes core to national defence operations, creating deep mutual dependency between technology providers and the state customer.",
+      "detail": "Core business dependency means military AI is not experimental or peripheral but central to operational defence capability. For providers, military contracts become a significant revenue stream that shapes corporate strategy and investment priorities. For the state, dependency on AI-enabled capability becomes an irreversible operational requirement across all domains. This mutual dependency creates structural lock-in and bargaining dynamics from both sides of the relationship."
+    },
+    "Switching Cost": {
+      "value": "Captive",
+      "memo": "Military AI switching costs reach captive level because classified integration, operational certification, and deep platform dependencies prevent practical migration.",
+      "detail": "Captive switching cost means migration to alternative systems is effectively impossible without rebuilding the entire capability stack. Classified data entanglement, certified platform integrations, trained cleared personnel, and operational dependencies all compound the cost. The captive cost is measured in years of recertification delay, capability gaps, and direct national security risk. This captivity is the value-layer expression of the locked-in substitutability driven by classification and certification requirements."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Military AI exit is capability-entangled because trained models retain classified learned capability that cannot be cleanly separated, deleted, or returned.",
+      "detail": "Capability entangled exit means terminating the arrangement does not and cannot terminate the capability embedded in model weights. Model weights trained on classified operational data retain that knowledge and capability even after all source training data is deleted. This creates unique decommissioning challenges, allied-sharing complications, and proliferation risks during system retirement. Exit in military AI is never clean because the trained capability persists indefinitely within the model weights."
+    },
+    "Acceptance Basis": {
+      "value": "Institutional",
+      "memo": "Chain of command legitimises deployment; institutional authority substitutes for transparency or market validation.",
+      "detail": "Military deployment accepted on the basis of institutional authority and command structure, not the system own transparency or commercial validation. The chain of command provides the legitimacy framework that civilian contexts derive from process or market. Accountability flows through established military hierarchies rather than technical explainability. This means assurance requirements serve command authority rather than public confidence."
+    }
+  }
+}

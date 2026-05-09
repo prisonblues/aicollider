@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI Collider single-stance view: inspect one AI stance as a structured visual signature across claims, dimensions, and principles.">
+  <title>AI Collider — Single Stance</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/collider.css">
+  <link rel="stylesheet" href="css/stance.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <header>
+    <button id="about-toggle" type="button" aria-label="About AI Collider">?</button>
+    <button id="theme-toggle" type="button" aria-label="Toggle theme">&#9680;</button>
+    <div class="header-copy">
+      <h1>The AI Collider</h1>
+      <p>A single-stance view of the framework. Inspect one AI claim pattern across the full grammar, the dimensions relevant to the stance, or only the selected values.</p>
+    </div>
+  </header>
+
+  <div class="stance-browser">
+    <details class="stance-browser-inner">
+      <summary>Browse stances</summary>
+      <div class="button-group" id="stance-buttons"></div>
+    </details>
+  </div>
+
+  <main>
+    <section>
+      <div class="panel info" id="summary"></div>
+      <div class="panel dimension-panel">
+        <div class="panel-head">
+          <div>
+            <p class="panel-title">Dimensions</p>
+            <p class="panel-subtitle" id="dimension-subtitle">A compact readout of the current scope.</p>
+          </div>
+          <div class="dimension-panel-actions">
+            <button class="pill" id="dimension-expand-toggle" type="button" aria-expanded="false" aria-controls="dimension-table">Expand</button>
+          </div>
+        </div>
+        <div class="dimension-filter-grid" id="principle-filter-cards"></div>
+        <div id="dimension-table"></div>
+      </div>
+    </section>
+
+    <button id="layout-resizer" type="button" aria-label="Resize cards" title="Drag to resize cards"></button>
+
+    <section>
+      <div class="panel fingerprint-panel">
+        <div class="panel-head">
+          <div>
+            <p class="panel-title">Fingerprint</p>
+            <div class="display-controls">
+              <p class="panel-title">Scope</p>
+              <div class="button-group" id="display-mode-buttons"></div>
+            </div>
+          </div>
+          <div class="fingerprint-actions" aria-label="Fingerprint controls">
+            <button class="pill" id="fingerprint-reset" type="button">Reset</button>
+            <button class="pill" id="fingerprint-save" type="button">Save PNG</button>
+            <button class="pill" id="fingerprint-copy" type="button">Copy PNG</button>
+          </div>
+        </div>
+        <div id="fingerprint-chart"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="about-backdrop" id="about-backdrop">
+    <div class="about-modal"></div>
+  </div>
+
+  <div class="tooltip" id="tooltip">
+    <div class="tooltip-band"></div>
+    <div class="tooltip-name"></div>
+    <div class="tooltip-meta"></div>
+    <div class="tooltip-desc"></div>
+  </div>
+
+  <script src="js/collider-data.js"></script>
+  <script src="js/collider-ui.js"></script>
+  <script src="js/stance.js"></script>
+</body>
+</html>

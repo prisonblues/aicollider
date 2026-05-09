@@ -1,0 +1,367 @@
+{
+  "id": "exhaust-arbitrage",
+  "name": "Exhaust Arbitrage",
+  "desc": "User prompts, feedback, usage patterns, and reasoning traces are valuable byproducts that the processor captures internally because no mature market prices them. The clause not in the contract becomes the economic centre of the deal — arbitrage on unpriced exhaust.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "Exhaust arbitrage occurs at frontier capability where interaction data from powerful models generates the most valuable unclaimed byproduct.",
+      "detail": "Frontier capability generates the richest exhaust because sophisticated model interactions produce chain-of-thought traces, preference signals, and usage patterns of highest value. The frontier position means the exhaust has no established market price because the capability creating it is novel. Frontier models generate exhaust that is qualitatively different from narrow model outputs. The capability level determines the quality and strategic value of the unclaimed byproduct."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "General domain breadth maximizes exhaust value because interaction data spans every topic and use case the model encounters across all domains.",
+      "detail": "General domain means the model produces exhaust across every subject area, creating a comprehensive dataset of human-AI interaction patterns. This breadth makes the exhaust more valuable than single-domain interaction data because it captures cross-domain intelligence. General breadth means the exhaust market is potentially larger than any single application domain. The domain breadth determines the scope and versatility of the arbitrage opportunity."
+    },
+    "Capability Trajectory": {
+      "value": "Rapid",
+      "memo": "Rapid capability trajectory increases exhaust value because each model improvement generates new interaction data that captures evolving usage patterns.",
+      "detail": "Rapid trajectory means new model versions create fresh exhaust streams as users explore improved capabilities and reveal new interaction patterns. The pace of improvement ensures that exhaust remains a continuously generating resource rather than a static dataset. Each capability improvement creates a new vintage of interaction data with distinct properties and value. Rapid trajectory drives the urgency of exhaust capture because the window for each data vintage is temporary."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted research generates high-value exhaust because model-researcher interactions produce reasoning traces and experimental feedback of exceptional quality.",
+      "detail": "AI-assisted research means human researchers using AI tools generate exhaust that captures expert reasoning, experimental design, and problem-solving approaches. This exhaust is more valuable than casual user interactions because it captures high-skill cognitive processes. The AI-assisted research context produces exhaust that directly improves subsequent model capability. Research interaction exhaust is the arbitrage opportunity with the highest per-interaction value."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Tool-using unhobbling generates exhaust from tool interactions, API calls, and workflow patterns that reveal how humans integrate AI into practical work.",
+      "detail": "Tool-using unhobbling means the model generates exhaust from real operational tool use, not just conversational interaction. Tool-use exhaust includes API call patterns, error handling approaches, and workflow integration data. This operational exhaust is more commercially valuable than conversational exhaust because it captures real work patterns. Tool-using exhaust reveals how organizations actually deploy AI capability in production environments."
+    },
+    "Replication Scale": {
+      "value": "Population-scale",
+      "memo": "Population-scale replication generates massive exhaust volumes because millions of concurrent interactions produce an enormous continuous stream of interaction data.",
+      "detail": "Population-scale means millions of users generate exhaust simultaneously, creating a dataset that no single organization could commission or purchase. The scale is what makes exhaust arbitrage economically significant rather than merely interesting. Volume enables statistical analysis, pattern detection, and preference learning that small datasets cannot support. Population-scale exhaust is the raw material from which arbitrage extracts competitive advantage."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Faster-than-human operating speed means exhaust accumulates at machine rate, generating datasets far faster than any deliberate data collection programme.",
+      "detail": "Faster-than-human speed means exhaust generation outpaces any traditional data collection or curation process. The model processes interactions and generates byproduct data continuously at rates that make manual data gathering obsolete. Speed of accumulation is a competitive advantage because early exhaust capture creates compounding data advantages. The operating speed determines how quickly the arbitrage position builds and how fast the uncaptured value accumulates."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Exhaust arbitrage operates in the cognitive domain where interaction data, preference signals, and reasoning traces are all information-layer byproducts.",
+      "detail": "Cognitive-only extension means the exhaust is purely informational, consisting of interaction patterns, preferences, and reasoning traces. There is no physical-world exhaust generation in this stance. The cognitive domain is where the most valuable AI exhaust is generated because it captures thinking patterns and decision processes. Cognitive-only focus keeps the stance cleanly about information economics rather than physical-world data collection."
+    },
+    "Role": {
+      "value": "Assistant",
+      "memo": "The assistant role generates the richest exhaust because users reveal thinking patterns, preferences, and decision processes through natural interaction with helpful AI.",
+      "detail": "Assistant role means users interact freely and reveal cognitive processes they would not expose through formal tool use or surveys. The helpful interaction context makes users comfortable sharing detailed reasoning, preferences, and decision-making approaches. Assistant interactions generate exhaust that is more authentic and valuable than data from structured collection instruments. The assistant role is the natural setting where unclaimed byproduct generation is most prolific and commercially valuable."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "Exhaust arbitrage operates through informational channels where the byproduct value lies in captured knowledge, preferences, and behavioral patterns.",
+      "detail": "Informational actuation means the exhaust consists of information artifacts rather than physical or financial actions. The value lies in what the interaction data reveals about user behavior, preferences, and reasoning processes. Informational exhaust is the most versatile byproduct because it can be applied to model improvement, product development, and market intelligence. The informational channel is where unclaimed data value accumulates most rapidly and with least visibility."
+    },
+    "Autonomy": {
+      "value": "Stateless task",
+      "memo": "Each stateless interaction generates independent exhaust, creating a continuously accumulating byproduct stream without requiring persistent autonomous system operation.",
+      "detail": "Stateless task means each user interaction independently generates exhaust without requiring the system to maintain long-term autonomous objectives. The exhaust accumulates through volume of independent interactions rather than through persistent system behavior. Stateless exhaust generation is particularly valuable because each interaction captures a complete cognitive snapshot. The stateless character means exhaust value compounds through aggregation rather than through persistent system action."
+    },
+    "Delegated Authority": {
+      "value": "None",
+      "memo": "No delegated authority is needed for exhaust capture because the byproduct is generated automatically as a side effect of normal system operation.",
+      "detail": "No delegated authority means exhaust capture occurs without any explicit delegation or authorization from the user. The user delegates nothing; the exhaust is simply generated as a technical byproduct of the interaction they initiated. This absence of explicit authority delegation is precisely what makes the exhaust unclaimed and available for arbitrage. No delegated authority is the defining characteristic that makes exhaust economically distinct from commissioned data."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Gated tool access generates exhaust from each tool interaction, with API calls and tool use patterns creating valuable byproduct data about operational workflows.",
+      "detail": "Gated tools means each tool interaction passes through interfaces that can capture usage patterns, error rates, and workflow sequences. The tool gates serve double duty as both access control and exhaust collection points. Tool-use exhaust is commercially valuable because it reveals how organizations integrate AI into production workflows. Gated tool access demonstrates that infrastructure design determines both functionality and exhaust capture capability."
+    },
+    "Response / Intervention Capability": {
+      "value": "Manual stop",
+      "memo": "Manual stop capability means users can terminate interactions but cannot retroactively prevent exhaust capture from interactions already completed.",
+      "detail": "Manual stop means the user can end their session but the exhaust from completed interactions has already been captured by the processor. This asymmetry between user control over interaction and lack of control over exhaust is fundamental to the arbitrage pattern. The user's stop capability does not extend to the byproduct their interaction generated. Manual stop demonstrates that interaction control is not the same as exhaust control."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Enterprise command means the AI provider's corporate leadership decides how to exploit exhaust, with users having no command authority over byproduct disposition.",
+      "detail": "Enterprise command means corporate governance of the AI provider controls exhaust strategy, not individual users or external parties. Users generate the exhaust but the provider's enterprise leadership decides whether to prop-trade, sell, or discard it. This command asymmetry is the governance expression of the exhaust arbitrage pattern. Enterprise command over user-generated byproduct is the structural dynamic that makes exhaust capture economically valuable."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Exhaust arbitrage decisions follow product-cycle tempo as corporate strategy evolves from internal model improvement to potential external commercialization.",
+      "detail": "Product cycle tempo means exhaust exploitation strategy evolves through normal corporate planning and product development cycles. The decision to transition from internal arbitrage to external exhaust sales typically follows established product development timelines. Product-cycle governance enables deliberate strategy development without the urgency that race dynamics create. The tempo reflects that exhaust commercialization is a strategic business decision, not an emergency response."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Product team authority makes the tradeoffs between exhaust capture, user privacy, and model improvement that determine the arbitrage strategy.",
+      "detail": "Product team authority means the engineers and product managers who build the AI system decide what exhaust to capture and how to use it. These tradeoffs between data capture scope, privacy impact, and improvement value are made within normal product development processes. The product team's decisions determine whether exhaust is used for internal model improvement, external data products, or discarded. Product team authority over exhaust strategy is appropriate at the arbitrage stage before markets or regulation develop."
+    },
+    "Permission": {
+      "value": "Silent",
+      "memo": "Exhaust capture operates under silent permission where users agree to broad terms of service without understanding that interaction data becomes a valuable byproduct.",
+      "detail": "Silent permission means the user technically consented through terms of service but has no practical understanding of exhaust capture. The permission is legally present but informationally empty, with terms of service too broad for meaningful informed consent. Silent permission is the defining rights characteristic of the arbitrage stage before transparency or regulation emerges. The silence is what enables unclaimed byproduct capture without explicit negotiation or value sharing."
+    },
+    "Regulatory Posture": {
+      "value": "Permissive",
+      "memo": "Exhaust arbitrage operates under permissive regulatory posture in the early market stage before regulation specifically addresses AI interaction data as a distinct category.",
+      "detail": "Permissive regulation reflects the early-stage reality where AI interaction data falls into regulatory gaps between existing frameworks. Data protection law may apply to personal data within exhaust but does not specifically address aggregate behavioral patterns. The permissive posture enables arbitrage without explicit regulatory authorization or prohibition. Permissive regulation is the market-formation stage where exhaust exploitation precedes specific regulatory attention."
+    },
+    "Data Availability": {
+      "value": "Proprietary owned",
+      "memo": "Exhaust is treated as proprietary data owned by the processor under terms of service, making it available only to the capturing entity for internal use.",
+      "detail": "Proprietary owned availability means the exhaust exists only within the processor's systems with no external access or market availability. The processor treats interaction data as its own proprietary asset under broad terms-of-service language. This proprietary treatment is what enables arbitrage, as no external market or licensing framework exists yet. Proprietary ownership of exhaust is the default that persists until data producers assert competing claims."
+    },
+    "Provenance": {
+      "value": "Mixed/declared",
+      "memo": "Exhaust provenance is mixed because it combines user inputs, model outputs, system metadata, and interaction patterns from diverse, poorly documented sources.",
+      "detail": "Mixed/declared provenance means the exhaust contains data from many users, interaction types, and temporal contexts without systematic attribution. The provenance is declared in aggregate terms but individual data items lack clean origin documentation. Mixed provenance complicates future claims because it is unclear which user interactions generated which valuable patterns. The mixed character is a feature of the arbitrage stage before systematic provenance tracking is commercially required."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Hosted-only model access means users interact through the provider's platform, ensuring all exhaust is captured within the provider's infrastructure boundary.",
+      "detail": "Hosted-only access means the provider controls the interaction boundary and all exhaust generation occurs within their infrastructure. Users cannot self-host, cannot inspect what exhaust is captured, and cannot prevent collection. Hosted-only is the model-weight arrangement that maximizes exhaust capture opportunity. The hosting arrangement is architecturally designed to ensure complete exhaust capture, even if that was not the stated design purpose."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Exhaust arbitrage operates cross-border because users interact from multiple jurisdictions, creating exhaust subject to diverse and potentially conflicting data regimes.",
+      "detail": "Cross-border territory means exhaust contains interaction data from users across many jurisdictions with different data protection rules. The cross-border character creates regulatory complexity because different jurisdictions may claim authority over exhaust from their residents. Prop-trading is simpler than external sales because internal use faces less jurisdictional scrutiny than commercial data distribution. Cross-border exhaust generates the diversity that makes the dataset valuable but also the regulatory complexity that future monetization must navigate."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "Exhaust contains ordinary personal data embedded in interaction patterns, preferences, and behavioral signals that are personally identifiable in aggregate.",
+      "detail": "Ordinary personal data exposure means exhaust contains interaction patterns and preferences that can identify individual users or reveal personal characteristics. Aggregate behavioral data can be re-identified even when individual messages appear anonymous. The personal data character creates data protection obligations that arbitrage may not adequately address. Ordinary personal data in exhaust is the trigger that eventually activates regulatory attention and user rights claims."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Exhaust has commercial confidential sensitivity because aggregated interaction patterns reveal competitive intelligence about user behavior and market dynamics.",
+      "detail": "Commercial confidential sensitivity means the exhaust reveals information that has significant competitive value to the processor. Aggregate usage patterns, feature adoption rates, and interaction quality metrics all constitute competitive intelligence. The commercial value of exhaust is what motivates arbitrage and what eventually attracts regulatory and competitive attention. Commercial confidential sensitivity reflects the economic reality that exhaust is strategically valuable information."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Exhaust arbitrage typically involves no export control issues because interaction data is commercially generated rather than derived from controlled technology.",
+      "detail": "No control exposure means exhaust data falls outside export control regimes because it is commercially generated interaction data. The absence of control obligations simplifies internal arbitrage by removing regulatory friction on data movement. No control issue keeps the stance focused on the commercial economics of exhaust rather than regulatory compliance. The uncontrolled character contributes to the frictionless accumulation that makes arbitrage possible."
+    },
+    "Processing Mode": {
+      "value": "Post-training/RL",
+      "memo": "Exhaust is most valuable in post-training and reinforcement learning where interaction data directly improves model capability through preference and feedback signals.",
+      "detail": "Post-training/RL processing means exhaust is used for reinforcement learning from human feedback and preference optimization. This processing mode directly converts user interaction data into model capability improvement. RLHF is the specific technical mechanism through which exhaust arbitrage creates competitive advantage. Post-training processing is where the unclaimed byproduct becomes the economic centre of the deal."
+    },
+    "Derivation": {
+      "value": "Embeddings/telemetry",
+      "memo": "Exhaust derivation creates embeddings and telemetry from interaction data, transforming raw byproduct into structured signals that improve model training and product decisions.",
+      "detail": "Embeddings/telemetry derivation means raw interaction exhaust is transformed into structured representations useful for model improvement. The derivation process converts unstructured conversation data into preference signals, quality metrics, and capability embeddings. These derived representations are more directly useful than raw exhaust for both internal improvement and potential future commercialization. Embeddings/telemetry derivation is the processing step that transforms unclaimed byproduct into structured competitive advantage."
+    },
+    "Retention / Persistence": {
+      "value": "Persistent memory/traces",
+      "memo": "Exhaust is retained as persistent traces and interaction logs that accumulate over time, creating an ever-growing proprietary dataset of human-AI interaction patterns.",
+      "detail": "Persistent memory/traces means the processor retains exhaust indefinitely as an accumulating proprietary dataset. The persistence enables longitudinal analysis, preference tracking, and model improvement that ephemeral data could not support. Each day of operation adds to the persistent exhaust corpus, compounding the arbitrage data advantage over time. Persistent retention is the accumulation mechanism that makes exhaust arbitrage progressively more valuable."
+    },
+    "Execution / Residency Environment": {
+      "value": "Public cloud",
+      "memo": "Exhaust arbitrage operates on public cloud infrastructure where the provider captures interaction data within their cloud-hosted service boundary.",
+      "detail": "Public cloud execution means the provider operates the AI service on standard cloud infrastructure where they control the data pipeline. The cloud environment provides the infrastructure for both service delivery and exhaust capture in a single integrated system. Public cloud operation keeps costs low while enabling the scale of interaction that makes exhaust accumulation commercially significant. The execution environment determines that exhaust capture is a natural architectural byproduct of service delivery."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Shared service boundary means user interactions flow through the provider's multi-tenant infrastructure where exhaust is captured from all users simultaneously.",
+      "detail": "Shared boundary means all users contribute to the same exhaust pool through the provider's shared service infrastructure. The multi-tenant architecture enables exhaust aggregation across users, which is where the aggregate value exceeds any individual contribution. Shared boundary is the infrastructure arrangement that makes exhaust arbitrage economically viable through aggregation. The shared character is what creates the dataset scale that no single user could generate alone."
+    },
+    "Deployment Surface": {
+      "value": "Public-facing",
+      "memo": "Public-facing deployment maximizes exhaust generation because the largest possible user population generates the most diverse and voluminous interaction data.",
+      "detail": "Public-facing deployment means the service is available to any user, maximizing the diversity and volume of exhaust generation. The public surface creates the population-scale interaction base that makes exhaust arbitrage commercially meaningful. Public deployment also means users have varying awareness of exhaust capture, from none to sophisticated understanding. The public-facing character maximizes exhaust volume but also maximizes eventual regulatory and reputational exposure."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Commercial cloud infrastructure provides the scalable cost-effective platform for both service delivery and exhaust capture at the population scales arbitrage requires.",
+      "detail": "Commercial cloud means the provider uses standard cloud infrastructure for both running the service and storing captured exhaust. Cloud elasticity enables scaling exhaust capture with user growth without dedicated infrastructure investment. The commercial cloud provides the economics that make exhaust arbitrage viable as a byproduct of service operation. Cloud infrastructure is the foundation that enables exhaust accumulation at marginal cost above service delivery."
+    },
+    "Model Sourcing": {
+      "value": "In-house/orchestrated",
+      "memo": "In-house model sourcing ensures the provider controls the entire interaction pipeline and captures all exhaust without sharing with external model providers.",
+      "detail": "In-house/orchestrated sourcing means the provider operates its own models and controls the complete interaction data pipeline. External model dependencies would create exhaust-sharing obligations or data access questions that complicate arbitrage. In-house control ensures all exhaust remains proprietary to the provider without contractual complications. The sourcing model determines whether the provider has uncontested access to the exhaust it generates."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Committed compute capacity supports the sustained inference operations that generate continuous exhaust streams from ongoing user interactions at scale.",
+      "detail": "Committed capacity means the provider maintains sustained compute infrastructure for service delivery that continuously generates exhaust. The committed nature ensures uninterrupted exhaust generation that spot or variable compute could not reliably sustain. Committed capacity economics amortize over the combined value of service delivery and exhaust capture. The compute commitment enables the sustained operation that makes exhaust accumulation a reliable data source."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Preferred cloud partner dependency provides the stable infrastructure needed for sustained service operation and continuous exhaust capture at commercial scale.",
+      "detail": "Preferred partner dependency means the provider operates on a specific cloud platform that provides reliable infrastructure for service and exhaust operations. The partnership provides the stability needed for long-term exhaust accumulation and the integration needed for efficient data pipeline operation. Preferred partner status typically includes favorable pricing that improves the economics of exhaust capture at the margins. The cloud dependency is a practical infrastructure choice that enables rather than constrains the arbitrage operation."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Standard merchant Nvidia GPUs provide the inference compute that generates exhaust through user interactions at the scale required for arbitrage viability.",
+      "detail": "Nvidia GPU merchant hardware is the standard inference platform where most AI service interactions generate exhaust. The merchant hardware provides the compute needed for both service delivery and the interaction that creates byproduct data. Standard GPUs keep infrastructure costs manageable relative to the exhaust value being captured. The accelerator stack is a cost input rather than a strategic differentiator for exhaust arbitrage."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Standard market access to compute supply is sufficient for exhaust arbitrage because the value comes from data capture, not from privileged hardware position.",
+      "detail": "Market access means the provider procures inference compute through normal commercial channels without requiring special allocation. Exhaust arbitrage value comes from data accumulation through user interaction, not from privileged hardware access. Standard market access is sufficient because inference compute for service delivery is widely available. The supply position demonstrates that exhaust arbitrage is a data strategy, not a compute strategy."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Exhaust arbitrage faces standard accelerator supply constraints that may limit service scale but do not fundamentally affect the data capture economics.",
+      "detail": "Accelerator supply constraints may limit the number of concurrent users and therefore the rate of exhaust generation. However, the exhaust capture economics are robust even at constrained scale because the marginal cost is near zero. Supply constraints affect volume but not the fundamental arbitrage dynamic of unclaimed byproduct capture. The silicon bottleneck is a scaling constraint rather than a viability constraint for exhaust arbitrage."
+    },
+    "Substitutability": {
+      "value": "Expensive switch",
+      "memo": "Users face expensive switching costs because alternative providers lack the exhaust-improved model quality that arbitrage enables for the incumbent provider.",
+      "detail": "Expensive switch means users who attempt to move to competing services face quality degradation because competitors lack equivalent exhaust. The arbitrage advantage compounds into superior model quality that creates switching cost through performance differential. This quality gap widens over time as the incumbent accumulates more exhaust and competitors fall further behind. Switching cost through exhaust-driven quality advantage is the commercial moat that arbitrage creates."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "Stack-integrated operation ensures the provider controls the complete data pipeline from user interaction through exhaust capture to model improvement feedback loops.",
+      "detail": "Stack-integrated means the provider operates both the service layer and the improvement pipeline, enabling seamless exhaust capture and utilization. Integration ensures no exhaust leaks to external parties or gets lost in cross-system data transfers. The vertical integration is what makes arbitrage efficient because captured exhaust flows directly into model improvement. Stack integration is the organizational expression of the arbitrage strategy."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "API and app distribution channels serve as both service delivery interfaces and exhaust collection points where every interaction generates captured byproduct data.",
+      "detail": "API/app distribution means every service interaction passes through controlled interfaces that enable systematic exhaust capture. The distribution channel serves double duty as both the customer-facing interface and the data collection infrastructure. API-level capture ensures that every interaction generates exhaust regardless of what the user intends or expects. The distribution channel architecture determines the completeness and quality of exhaust capture."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "Exhaust arbitrage infrastructure typically resides in the provider's domestic jurisdiction, though exhaust comes from users across multiple jurisdictions globally.",
+      "detail": "Domestic jurisdiction for the processing infrastructure simplifies the arbitrage operation by keeping data handling within one regulatory framework. However, the exhaust originates from users worldwide, creating a jurisdictional mismatch between collection and processing locations. Domestic processing of cross-border exhaust is simpler than distributed processing but creates eventual regulatory exposure. The jurisdiction pick reflects the operational reality of centralized exhaust processing from distributed global collection."
+    },
+    "Observability": {
+      "value": "Opaque",
+      "memo": "Exhaust arbitrage is opaque to users because the capture, processing, and internal exploitation of interaction data occur entirely outside user visibility.",
+      "detail": "Opaque observability means users have no visibility into what exhaust is captured, how it is processed, or how it is used internally. The provider's exhaust exploitation occurs within their private infrastructure with no external reporting obligation or audit trail. This opacity is the operational condition that enables arbitrage because transparent exhaust capture would trigger user resistance. Opaque observability is the defining assurance characteristic that allows unclaimed byproduct capture to continue."
+    },
+    "Evaluation": {
+      "value": "Internal tests",
+      "memo": "Exhaust arbitrage operates with internal testing only, where the provider evaluates exhaust quality and model improvement privately without external verification.",
+      "detail": "Internal tests mean the provider evaluates exhaust quality, model improvement impact, and data value exclusively within its own assessment framework. No external party verifies the claims about exhaust value, quality, or the impact on model improvement. Internal testing is sufficient at the arbitrage stage because no external market or regulatory framework requires independent evaluation. Internal evaluation maintains the opacity that enables continued unclaimed byproduct capture."
+    },
+    "Interpretability": {
+      "value": "Black box",
+      "memo": "The exhaust exploitation process is a black box to users, with no visibility into how interaction data shapes model behaviour.",
+      "detail": "Black box means the connection between user interaction exhaust and subsequent model behavior changes is entirely opaque. Users cannot trace how their interaction data influenced model improvements, product changes, or potential external data products. The black box character means users cannot evaluate whether exhaust exploitation affects them adversely. Black box interpretability enables arbitrage by preventing the informed user response that transparency would create."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "RLHF is both the alignment method and the primary exhaust consumption mechanism, directly converting user interaction data into model capability improvement.",
+      "detail": "Prompting/RLHF alignment means user preference signals and interaction data are used directly for reinforcement learning from human feedback. This is where exhaust arbitrage becomes technically concrete: the unclaimed byproduct feeds the core alignment and improvement pipeline. RLHF consumption of exhaust creates the dual purpose where alignment method and data exploitation are the same process. The alignment method is the technical mechanism through which arbitrage converts byproduct into competitive advantage."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Enterprise-grade security protects the exhaust dataset as a commercially valuable proprietary asset while maintaining standard service delivery security controls.",
+      "detail": "Enterprise-grade security means the exhaust dataset receives the same protection as other commercially valuable proprietary data assets. The security posture protects against theft of the accumulated exhaust by competitors or unauthorized parties. Enterprise-grade is appropriate because the data is commercially confidential but not classified or regulated at a higher level. The security investment reflects the commercial value of the accumulated exhaust rather than regulatory compliance obligations."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Exhaust datasets face criminal and state-adjacent adversaries who would value the aggregated interaction data for intelligence, competitive, or manipulative purposes.",
+      "detail": "Criminal/state-adjacent adversary model means the accumulated exhaust dataset is a target for sophisticated theft or exploitation. The aggregate behavioral data from millions of users has significant intelligence and competitive value to adversaries. State-adjacent actors may seek access to influence modeling, behavioral profiling, or competitive intelligence from the exhaust. The adversary model determines the security investment needed to protect the arbitrage dataset."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Model weights improved through exhaust arbitrage are monitored as proprietary assets, with access controls protecting the competitive advantage exhaust-trained weights provide.",
+      "detail": "Monitored weight security means the exhaust-improved model weights are tracked and protected as proprietary competitive assets. The weights embody the competitive advantage created by exhaust arbitrage and must be protected from theft or unauthorized copying. Monitoring provides audit trail evidence that weights trained on captured exhaust remain within the provider's control. Weight security for exhaust-trained models protects the end product of the arbitrage strategy."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "Role-based access control governs internal access to exhaust datasets, limiting who within the provider organization can access and exploit captured interaction data.",
+      "detail": "RBAC access control means internal access to exhaust data is governed by role-based permissions within the provider organization. Not every employee can access the accumulated exhaust, only those with specific roles in model improvement or data analysis. RBAC provides basic internal governance while maintaining the operational flexibility that arbitrage requires. Role-based controls are the minimum viable access governance for commercially valuable exhaust datasets."
+    },
+    "Monitoring Scope": {
+      "value": "Prompts and outputs",
+      "memo": "Monitoring captures prompts and outputs which together constitute the primary exhaust stream that feeds model improvement through reinforcement learning from human feedback.",
+      "detail": "Prompts and outputs monitoring means the primary exhaust capture records user inputs and system responses as matched pairs. These input-output pairs are the fundamental data unit for RLHF and preference-based model improvement. The monitoring scope defines what exhaust is captured and therefore what arbitrage value can be extracted. Prompt-output capture is the technical infrastructure of exhaust arbitrage at the interaction level."
+    },
+    "Containment": {
+      "value": "Policy-only",
+      "memo": "Exhaust containment is policy-only, with terms of service and internal policies governing data use rather than architectural boundaries preventing external exploitation.",
+      "detail": "Policy-only containment means the provider's own policies determine what happens with captured exhaust rather than technical enforcement. There are no architectural barriers preventing the provider from expanding exhaust exploitation beyond initial internal use. Policy containment enables the flexibility to transition from internal arbitrage to external exhaust sales as markets develop. The policy-only character means exhaust use is limited only by corporate choice, not by technical architecture."
+    },
+    "Capability Limitation": {
+      "value": "None",
+      "memo": "No capability limitation constrains exhaust capture because the data collection occurs as a byproduct of normal system operation without any active restriction mechanism.",
+      "detail": "No capability limitation means the system captures all available exhaust without any architectural restriction on what interaction data is collected. The absence of limitation is the default state that enables comprehensive byproduct capture. Users have no mechanism to limit what exhaust their interactions generate within the provider's infrastructure. No capability limitation on capture is the technical expression of the arbitrage opportunity."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Exhaust arbitrage operates in civilian commercial use class where the data economics are driven by consumer and enterprise AI service interaction volumes.",
+      "detail": "Civilian use class means exhaust arbitrage occurs within normal commercial AI service operations. The data economics are driven by consumer and enterprise interaction volume rather than military or national security applications. Civilian context determines the regulatory framework and the user expectations that shape the arbitrage opportunity. Civilian use class keeps the stance focused on commercial data economics."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Exhaust arbitrage creates information-channel harm potential where captured behavioral data could enable surveillance, manipulation, or privacy violation at scale.",
+      "detail": "Information harm channel means the primary risk from exhaust arbitrage is through aggregated behavioral intelligence. Population-scale interaction data enables user profiling, preference manipulation, and privacy violations. The information harm potential grows with the scale and duration of exhaust accumulation. Information harm is the channel through which exhaust arbitrage eventually attracts regulatory attention and public concern."
+    },
+    "Proliferation": {
+      "value": "Contained",
+      "memo": "Exhaust is contained within the provider's infrastructure during the arbitrage phase because internal use does not create external data distribution or proliferation.",
+      "detail": "Contained proliferation means exhaust data remains within the provider's systems during internal arbitrage without external distribution. The containment is a natural consequence of arbitrage, where the value is captured through internal use rather than external sales. Containment preserves the competitive advantage of exclusive exhaust access. However, containment may break when the provider transitions from arbitrage to external exhaust commercialization."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Exhaust arbitrage is a single-firm strategy where the AI provider exclusively captures and exploits interaction data without external partners or data-sharing arrangements.",
+      "detail": "Single firm coalition means one provider captures and internally exploits exhaust without sharing with partners or external parties. The single-firm structure preserves exclusive access to the exhaust, which is the core competitive advantage of arbitrage. Sharing exhaust would dilute the competitive advantage that exclusive access provides. Single-firm exploitation is the defining organizational characteristic of the arbitrage stage."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No nonproliferation regime specifically governs AI exhaust capture, leaving the market to develop without structured international controls on interaction data accumulation.",
+      "detail": "No nonproliferation regime means there are no international agreements or enforcement mechanisms specifically addressing AI interaction data accumulation. General data protection applies to personal elements but no framework addresses aggregate behavioral exhaust as a category. The regulatory vacuum is what enables the unstructured market formation that characterizes the arbitrage stage. No regime means exhaust capture is limited only by the provider's own policies and competitive dynamics."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Exhaust arbitrage data has accretive dynamics where each additional interaction strengthens the dataset and the competitive advantage it provides compoundingly.",
+      "detail": "Accretive/fortifying dynamics mean each new user interaction adds to the exhaust corpus and strengthens the model improvement it enables. The dataset grows continuously and each addition makes the aggregate more valuable than its individual components. The accretive character creates compounding returns where early exhaust capture generates data advantages that widen over time. Accretive dynamics are what makes exhaust arbitrage a strategic moat rather than a one-time advantage."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Exhaust has effectively zero marginal input cost because it is a free byproduct of already-funded service delivery operations.",
+      "detail": "Fixed input price at near-zero marginal cost means exhaust capture adds negligible cost to the service operation that generates it. The service infrastructure is funded by user payments; the exhaust is a cost-free byproduct of that already-funded operation. This zero-marginal-cost characteristic is what makes arbitrage so profitable compared to commissioned data collection. Fixed near-zero cost is the economic foundation that makes exhaust the most cost-effective data source available."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "All exhaust outputs are retained by the processor with no allocation to the users who generated the interaction data that the arbitrage strategy exploits.",
+      "detail": "Retained output allocation means the provider keeps all captured exhaust and its derivatives without sharing anything with data-generating users. Users receive the service they paid for but no share of the byproduct value their interactions created. This one-sided retention is the defining economic characteristic of arbitrage that distinguishes it from structured data exchange. Retained allocation is the clause not in the contract that becomes the economic centre of the deal."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "The processor captures all derived value from exhaust, using interaction data to improve its models while returning nothing to the users who generated that value.",
+      "detail": "Processor captures means the AI provider extracts and retains all value derived from user interaction exhaust. Model improvement, competitive intelligence, and future data products all accrue exclusively to the provider. The users who generated the exhaust through their interactions receive none of the derived value. Processor capture of derived value is the economic mechanism that makes exhaust arbitrage the most profitable data strategy in AI."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "Exhaust arbitrage risk is disclaimed through broad terms of service that shift all data-use risk to users entirely.",
+      "detail": "Disclaimed risk means the provider accepts no liability for how it uses captured exhaust through broad terms of service. Users bear the risk of privacy violation, behavioral profiling, and data misuse while the provider disclaims all responsibility. The risk asymmetry mirrors the value asymmetry, with all risk on users and all value with the provider. Disclaimed risk is the liability expression of the one-sided arbitrage arrangement."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "Exhaust arbitrage requires only operating capital because the data capture occurs as a marginal-cost byproduct of already-funded service delivery infrastructure.",
+      "detail": "Operating capital means exhaust arbitrage requires no dedicated capital investment beyond the service delivery infrastructure. The data capture infrastructure is a component of the existing service platform funded through normal operating budgets. Operating-level capital makes exhaust arbitrage accessible without dedicated project or strategic investment. The low capital requirement is what makes exhaust the most capital-efficient data strategy in AI."
+    },
+    "Commitment Tenor": {
+      "value": "Short-term",
+      "memo": "Exhaust arbitrage operates on short-term commitment because the strategy can begin immediately with existing infrastructure and requires no long-term capital lock-up.",
+      "detail": "Short-term commitment means arbitrage can start and stop without dedicated infrastructure investment or long-term obligations. The provider can begin capturing and using exhaust immediately with existing service infrastructure. Short-term tenor makes arbitrage the lowest-commitment entry point to exhaust exploitation. The short commitment enables rapid strategy adjustment as exhaust markets develop and regulation emerges."
+    },
+    "Revenue Dependency": {
+      "value": "Experimental",
+      "memo": "Exhaust arbitrage starts as experimental revenue potential where the data value is recognized internally but not yet validated through external market transactions.",
+      "detail": "Experimental dependency means exhaust value is recognized internally through model improvement but has not yet generated external revenue. The provider knows exhaust is valuable because of its impact on model quality but has not yet monetized it externally. Experimental revenue dependency is the defining commercial characteristic of the arbitrage stage before market formation. The experimental status means the transition to structured exhaust commerce has not yet occurred."
+    },
+    "Switching Cost": {
+      "value": "Low",
+      "memo": "Users face low explicit switching costs because exhaust capture is invisible, making the quality advantage it creates appear to be inherent model superiority.",
+      "detail": "Low switching cost means users do not perceive exhaust-driven lock-in because the mechanism is invisible. Users experience quality differences between providers without understanding that those differences are driven by exhaust advantages. The low perceived switching cost masks the real competitive moat that exhaust arbitrage creates. Low visible switching cost combined with high invisible quality advantage is the market dynamic that sustains arbitrage positions."
+    },
+    "Exit": {
+      "value": "Derived artifacts survive",
+      "memo": "Even if exhaust capture stops, derived artifacts including model improvements and competitive intelligence survive indefinitely within the provider's improved model weights.",
+      "detail": "Derived artifacts survive means that model improvements trained on exhaust persist in the weights even if future exhaust capture is prevented. The capability improvement from historical exhaust cannot be retroactively removed from already-trained models. This persistence means the arbitrage advantage has permanent effects even if the practice is later restricted. Derived artifact survival demonstrates that exhaust value, once captured, creates irreversible competitive advantage."
+    },
+    "Strategic Lead": {
+      "value": "Decisive lead",
+      "memo": "Early exhaust prop-traders build decisive data leads because first-mover accumulation creates compounding advantages that later entrants cannot replicate through other means.",
+      "detail": "Decisive lead through exhaust accumulation means early movers build data advantages that compound over time. Each quarter of operation widens the exhaust gap between the arbitrage incumbent and competitors without similar data access. The decisive lead is self-reinforcing because better models attract more users who generate more exhaust. Decisive data lead through arbitrage is the strongest competitive moat available in consumer AI services."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Exhaust arbitrage creates competitive race pressure as providers compete to capture the largest and most valuable interaction datasets before markets formalize.",
+      "detail": "Competitive race pressure means providers are aware that exhaust accumulation creates compounding advantages and race to maximize capture. The competition is for user engagement and interaction volume that generates the most valuable exhaust streams. Competitive pressure drives aggressive user acquisition strategies aimed at maximizing exhaust generation through engagement. The race dynamic is commercial rather than existential but creates significant urgency to capture exhaust before competitors."
+    },
+    "Acceptance Basis": {
+      "value": "Outcome-sufficient",
+      "memo": "Internal arbitrage of exhaust data validates through profit and loss; alpha either exists or it does not.",
+      "detail": "Nobody demands process-legitimacy for internal value capture from exhaust data in proprietary trading. The P&L statement is the only acceptance basis that matters to the trading desk. If the signal generates alpha, the method is validated; if it does not, no amount of process rigour saves it. Outcome-sufficiency here is unusually pure because the feedback loop is immediate and financial."
+    }
+  }
+}

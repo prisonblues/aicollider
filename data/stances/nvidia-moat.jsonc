@@ -1,0 +1,367 @@
+{
+  "id": "nvidia-moat",
+  "name": "Nvidia moat",
+  "desc": "Not just chip performance: CUDA software lock-in, networking dominance, systems integration, allocation power, developer ecosystem habit, and deployment certainty create a full-stack moat that competitors must defeat at every layer.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "Nvidia's accelerators power virtually all frontier AI training, making the hardware layer inseparable from frontier capability.",
+      "detail": "Every major frontier training run in the US uses Nvidia GPUs. The hardware defines what training scale is achievable and how quickly. Nvidia's position at the frontier is not just supply but enabling capability itself. Without Nvidia allocation, frontier training timelines slip by months or years."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "Nvidia GPUs serve every AI domain from language to vision to scientific computing, creating domain-agnostic infrastructure dependency.",
+      "detail": "CUDA and Nvidia hardware support workloads across all AI domains without specialization constraints. This general-purpose capability means the moat applies everywhere AI is deployed. No domain-specific alternative provides a competitive escape route. The breadth of applicability compounds the switching costs."
+    },
+    "Capability Trajectory": {
+      "value": "Compressed",
+      "memo": "Nvidia's GPU generation cycle compresses capability timelines, with each new architecture enabling OOM compute jumps.",
+      "detail": "Annual or biennial GPU architecture releases deliver substantial performance improvements. Each generation enables training runs that were previously infeasible. This compressed trajectory makes Nvidia's roadmap a strategic planning variable for every frontier lab. The pace of hardware improvement drives the pace of AI capability advancement."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "Nvidia's chip and systems development is human-led engineering, not AI-recursive, despite using AI in design tools.",
+      "detail": "GPU architecture design remains a human-engineering discipline with AI tool assistance. No automated loop drives Nvidia's hardware development independent of human direction. AI-assisted chip design accelerates engineering but does not automate research direction. The human-led approach reflects the physical constraints of semiconductor engineering."
+    },
+    "Unhobbling": {
+      "value": "Tool-call enabled",
+      "memo": "Nvidia's AI software stack enables tool-call functionality but the platform itself is infrastructure, not an agentic system.",
+      "detail": "CUDA, TensorRT, and Triton enable model deployment with tool-call and inference optimization. Nvidia provides the infrastructure layer that other systems use for agentic capability. The platform is an enabler of unhobbling rather than an unhobbled system itself. Tool-call enabling is the most relevant unhobbling level for an infrastructure provider."
+    },
+    "Replication Scale": {
+      "value": "Population-scale",
+      "memo": "Nvidia GPUs power AI inference at population scale, with hundreds of millions of users served through Nvidia-accelerated cloud infrastructure.",
+      "detail": "Every major cloud AI service runs inference on Nvidia hardware. The population-scale replication of AI capability depends on Nvidia's GPU fleet. This makes Nvidia the infrastructure substrate for population-scale AI deployment. The replication scale is a consequence of market dominance rather than direct Nvidia product deployment."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Nvidia hardware enables faster-than-human AI processing, with each GPU generation further compressing inference and training time.",
+      "detail": "GPU-accelerated inference operates orders of magnitude faster than human cognitive processing. Training throughput determines how quickly new capability generations can be developed. The speed advantage Nvidia provides is the physical basis of AI's faster-than-human operation. Hardware performance directly translates to AI operating speed."
+    },
+    "Physical World Extension": {
+      "value": "Robotic support",
+      "memo": "Nvidia extends into physical-world AI through Jetson robotics, Omniverse simulation, and autonomous-driving platforms.",
+      "detail": "Nvidia's Jetson platform powers robotic and edge AI in industrial and automotive applications. Omniverse provides simulation infrastructure for robotics and digital-twin development. DRIVE platform addresses autonomous vehicle AI processing. Physical-world extension through robotics adds to the moat beyond cloud-only AI."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "Nvidia's position is as the essential tool layer: infrastructure that every AI system depends on without itself being an agent.",
+      "detail": "GPUs, networking, and software stacks are tools used by AI developers and deployers. Nvidia does not deploy AI agents or make AI-driven decisions for customers. The tool role is maximally strategic because every other role depends on it. Infrastructure tools exercise structural power without requiring agency."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Nvidia's platform enables digital action through GPU-accelerated computing across data-center and edge deployments.",
+      "detail": "GPU compute enables the digital actions that AI systems perform. Nvidia's role is enabling actuation rather than performing it directly. The digital-action channel flows through Nvidia hardware for virtually all commercial AI. Enabling actuation at the infrastructure layer is structural power."
+    },
+    "Autonomy": {
+      "value": "Stateless task",
+      "memo": "Nvidia hardware executes stateless compute tasks without autonomous decision-making, goal persistence, or self-directed operation.",
+      "detail": "GPUs process compute jobs submitted by customers without maintaining state or pursuing objectives. The hardware layer has no autonomy, agency, or goal-directed behavior. Stateless task execution is the appropriate description for infrastructure compute. Nvidia's power comes from structural position, not system autonomy."
+    },
+    "Delegated Authority": {
+      "value": "None",
+      "memo": "No delegated authority: Nvidia hardware executes compute jobs without binding principals or making consequential decisions.",
+      "detail": "GPUs do not make decisions, bind contracts, or commit resources autonomously. All consequential authority remains with the AI systems and their operators. None is the correct delegation level for infrastructure hardware. Nvidia exercises commercial power through supply control, not through delegated AI authority."
+    },
+    "Tool Access": {
+      "value": "Broad toolchain",
+      "memo": "Nvidia provides a broad toolchain from CUDA through networking, inference optimization, and deployment frameworks.",
+      "detail": "CUDA, cuDNN, TensorRT, Triton, NeMo, and NCCL form a comprehensive AI development and deployment toolchain. This toolchain breadth is a core component of the moat beyond hardware performance. Switching to alternative hardware requires replacing the entire toolchain. The broad toolchain creates the software lock-in that hardware specifications alone do not."
+    },
+    "Response / Intervention Capability": {
+      "value": "Manual stop",
+      "memo": "Nvidia's supply position enables manual-stop intervention: restricting GPU supply or software updates can halt customer capability growth.",
+      "detail": "Nvidia can restrict allocation, delay shipments, or embargo specific customers through supply decisions. Software licensing and export-control compliance create additional intervention mechanisms. These manual-stop capabilities operate at the commercial and regulatory level. Supply control is an infrastructure-layer intervention capability."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Nvidia exercises enterprise-level command over AI infrastructure through supply decisions, pricing, and ecosystem governance.",
+      "detail": "Jensen Huang and Nvidia's leadership make strategic supply allocation and pricing decisions. No government, coalition, or external body directs Nvidia's commercial strategy. The enterprise-level command is amplified by Nvidia's near-monopoly market position. Strategic decisions by Nvidia leadership have sector-wide consequences."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Nvidia operates at product-cycle tempo, with GPU architecture releases and supply allocation decisions following multi-year development cycles.",
+      "detail": "GPU architectures take years to design, fabricate, and ramp to production. Supply allocation decisions operate on quarterly and annual cadences. The product-cycle tempo means strategic decisions are made years before their market impact. This long decision horizon contrasts with the crisis-tempo decisions of frontier AI labs."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Nvidia's product and engineering teams hold tradeoff authority over architecture, supply allocation, and ecosystem decisions.",
+      "detail": "Technical architecture tradeoffs are made by Nvidia's engineering leadership. Supply allocation and pricing are determined by commercial leadership. No external body has binding authority over Nvidia's product decisions. Product-team authority reflects the private commercial nature of Nvidia's operations."
+    },
+    "Permission": {
+      "value": "Broad",
+      "memo": "Nvidia's hardware is broadly available for purchase without content-specific permission requirements or use restrictions.",
+      "detail": "GPU purchases do not require specific use-case authorization beyond export-control compliance. No licensing regime restricts what customers can compute on Nvidia hardware. The broad permission reflects the general-purpose nature of compute infrastructure. Permission constraints apply at the AI application layer, not the hardware layer."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Nvidia faces conditional regulatory requirements primarily through export controls governing GPU sales to specific countries.",
+      "detail": "US export controls restrict GPU sales to China and other countries of concern. These controls create conditional sales requirements based on destination and end-use. Domestic sales face minimal regulatory restriction beyond standard commercial law. Export controls are the primary regulatory constraint on Nvidia's business."
+    },
+    "Data Availability": {
+      "value": "Open/available",
+      "memo": "Nvidia's business does not depend on data availability; hardware sales are data-agnostic infrastructure provision.",
+      "detail": "Nvidia sells compute hardware regardless of customers' data-access positions. Data availability is a customer concern rather than a Nvidia business constraint. This data-agnostic position means Nvidia benefits from all training activity regardless of data source. Open data availability increases GPU demand without creating Nvidia-specific risk."
+    },
+    "Provenance": {
+      "value": "Licensed",
+      "memo": "Nvidia's technology provenance is clear and licensed: proprietary chip designs, patented architectures, and copyrighted software.",
+      "detail": "Nvidia's GPU designs, CUDA software, and networking technology have clear IP provenance. Patent and copyright protection covers the full technology stack. Licensed provenance is straightforward for hardware and software intellectual property. The clarity contrasts with the contested provenance of AI training data."
+    },
+    "Model-Weight Rights": {
+      "value": "Shared access",
+      "memo": "Nvidia provides shared access to its software stack through commercial licensing without transferring or hosting model weights.",
+      "detail": "CUDA and related software are commercially licensed to all GPU customers. Nvidia does not host, control, or have rights over customer model weights. Shared-access licensing maximizes ecosystem adoption and reinforces the moat. Weight rights are a customer matter that Nvidia's infrastructure layer does not touch."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Nvidia operates cross-border with design in the US, fabrication in Taiwan, assembly globally, and sales worldwide.",
+      "detail": "Chip design occurs in the US with fabrication outsourced to TSMC in Taiwan. Assembly and testing happen in multiple countries. Sales and distribution span the global market subject to export controls. The cross-border territory creates supply-chain complexity and geopolitical exposure."
+    },
+    "Data Subject Exposure": {
+      "value": "No personal data",
+      "memo": "Nvidia's hardware business involves no personal-data processing, placing it outside data-protection regulatory triggers.",
+      "detail": "GPU sales and CUDA licensing do not involve processing, storing, or accessing personal data. Data-protection obligations apply to Nvidia's customers, not to the hardware provider. The no-personal-data position simplifies Nvidia's regulatory compliance. Data-subject concerns are externalized to the AI application layer."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Nvidia's chip designs, architecture plans, and customer allocation data are commercially confidential strategic assets.",
+      "detail": "Unreleased GPU architectures and manufacturing details are closely guarded trade secrets. Customer allocation agreements contain commercially sensitive terms. Supply forecasts and pricing strategies are confidential business information. The commercial-confidential sensitivity applies to Nvidia's own operations rather than customer data."
+    },
+    "Control Exposure": {
+      "value": "Controlled item active",
+      "memo": "Nvidia GPUs are actively controlled items under US export regulations, with destination and end-use restrictions actively enforced.",
+      "detail": "US export controls specifically target Nvidia's frontier GPUs for controlled distribution. Sales to China and other restricted destinations require export licenses or are prohibited. Nvidia has created export-compliant GPU variants to serve restricted markets within legal limits. Active export-control status makes Nvidia a direct participant in technology-control policy."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "Nvidia's highest-value market is large-scale training, where the most expensive GPU clusters consume the most advanced hardware.",
+      "detail": "Frontier training runs purchase the largest and most expensive GPU allocations. Training compute demand drives Nvidia's premium pricing and allocation scarcity. Inference represents growing volume but training remains the margin-leading use case. The training-centric market validates Nvidia's high-end GPU investment strategy."
+    },
+    "Derivation": {
+      "value": "None",
+      "memo": "Nvidia hardware produces no derived outputs itself; derivation is a property of the AI systems customers build on the hardware.",
+      "detail": "GPUs execute compute without creating, retaining, or deriving data products. All derivation occurs at the software and model layer above Nvidia's hardware platform. The no-derivation position means Nvidia avoids exhaust-capture and data-rights concerns. Derivation is externalized to customers while Nvidia captures hardware revenue."
+    },
+    "Retention / Persistence": {
+      "value": "Ephemeral/stateless",
+      "memo": "GPU compute is stateless: processing completes and results are returned without persistent state in the accelerator hardware.",
+      "detail": "GPU memory is volatile and does not retain data between compute jobs. No persistent state accumulates in Nvidia hardware across customer workloads. Stateless processing simplifies the hardware layer's compliance and governance profile. Persistence is a property of the software and storage layers above the GPU."
+    },
+    "Execution / Residency Environment": {
+      "value": "Controlled",
+      "memo": "Nvidia's hardware operates in controlled data-center environments managed by hyperscalers and enterprise customers.",
+      "detail": "GPUs are deployed in data centers with physical security, cooling, and power infrastructure. Nvidia does not control the execution environment but its hardware defines the compute characteristics. Controlled data-center deployment is the standard for Nvidia's high-end GPU products. Edge and device deployment uses different, lower-power Nvidia hardware."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Nvidia GPUs operate in shared cloud environments where multiple customers' workloads run on the same physical infrastructure.",
+      "detail": "Cloud-deployed GPUs serve multiple tenants through hyperscaler allocation and scheduling. Nvidia's MIG technology provides hardware-level partitioning within shared GPUs. The shared-boundary default reflects cloud-economics optimization. Dedicated-tenant GPU deployments exist but are more expensive."
+    },
+    "Deployment Surface": {
+      "value": "Critical/infrastructure",
+      "memo": "Nvidia GPUs are critical infrastructure: failure or supply disruption would halt frontier AI development across the industry.",
+      "detail": "No substitute can replace Nvidia GPUs for frontier training at current scale. Supply disruption would delay model development timelines across all frontier labs. The critical-infrastructure status gives Nvidia structural power exceeding any single customer. Infrastructure criticality is the foundation of Nvidia's strategic position."
+    },
+    "Physical Infrastructure": {
+      "value": "Dedicated cluster",
+      "memo": "Frontier AI training runs on dedicated GPU clusters built around Nvidia's DGX and HGX systems with proprietary networking.",
+      "detail": "Large training clusters use Nvidia's DGX or HGX reference designs with NVLink and InfiniBand networking. These dedicated clusters represent purpose-built physical infrastructure optimized for Nvidia hardware. The systems-integration aspect of the moat extends beyond individual chips. Cluster-level design lock-in compounds chip-level switching costs."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "Nvidia serves multiple AI model providers simultaneously, benefiting from competitive demand regardless of which lab leads.",
+      "detail": "OpenAI, Anthropic, Google, Meta, and others all purchase Nvidia GPUs for training and inference. Multi-provider demand insulates Nvidia from any single customer's success or failure. The multi-provider customer base means Nvidia wins regardless of which model provider leads. This portfolio effect is a structural advantage of the infrastructure position."
+    },
+    "Compute Source": {
+      "value": "Owned/custom",
+      "memo": "Nvidia designs and controls its own GPU architecture, owning the compute-design layer even though fabrication is outsourced.",
+      "detail": "Nvidia owns the GPU architecture IP and controls all design decisions. Fabrication is outsourced to TSMC but Nvidia retains design sovereignty. This owned-design model provides strategic independence at the architecture layer. The custom-design ownership is the intellectual-property core of Nvidia's moat."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "Nvidia GPUs are portable across cloud providers, making Nvidia the beneficiary of cloud competition rather than dependent on any single provider.",
+      "detail": "The same GPU designs deploy across AWS, Azure, GCP, Oracle, and independent cloud providers. Nvidia benefits from cloud-provider competition for GPU allocation without depending on any one. This portable position contrasts with customers who face cloud-dependency concerns. Nvidia's portability amplifies its market power."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Nvidia is the merchant GPU provider: its own products define this accelerator-stack category.",
+      "detail": "Nvidia's GPUs are the reference standard for AI accelerator hardware. The merchant-GPU category exists because Nvidia created and dominates it. No other merchant GPU provider achieves comparable AI workload coverage or ecosystem. The accelerator stack is self-referential for Nvidia's own stance."
+    },
+    "Supply Control": {
+      "value": "Strategic control",
+      "memo": "Nvidia exercises strategic control over GPU supply through allocation decisions, pricing, and customer relationship management.",
+      "detail": "Nvidia determines which customers receive how many GPUs and on what timeline. Allocation decisions directly influence which companies can train frontier models. This strategic-control position gives Nvidia influence over the pace and direction of AI development. Supply control is a power that extends beyond commercial market dynamics."
+    },
+    "Silicon Bottleneck": {
+      "value": "Cluster interconnect",
+      "memo": "Nvidia's moat extends to cluster interconnect: NVLink and InfiniBand create networking lock-in beyond the GPU chip itself.",
+      "detail": "NVLink provides GPU-to-GPU communication at bandwidth levels alternative networks cannot match. InfiniBand dominates data-center networking for large training clusters. Networking lock-in compounds GPU switching costs because the entire cluster must be replaced together. The interconnect bottleneck is one of the least-appreciated components of Nvidia's moat."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "Nvidia lock-in is multi-layered: CUDA software, networking, systems integration, and developer habits all prevent practical substitution.",
+      "detail": "Replacing Nvidia requires rewriting CUDA code, replacing networking infrastructure, and retraining developers. No alternative offers comparable performance, ecosystem maturity, and deployment certainty simultaneously. The lock-in operates at software, hardware, networking, and human-capital layers. Multi-layered lock-in makes Nvidia the most defended position in the AI supply chain."
+    },
+    "Vertical Integration": {
+      "value": "Full-stack",
+      "memo": "Nvidia is full-stack integrated from chip design through networking, systems, software, to developer ecosystem and deployment platforms.",
+      "detail": "The stack spans GPU architecture, NVLink/InfiniBand networking, DGX/HGX systems, CUDA/TensorRT software, and NGC deployment. No competitor matches this full-stack breadth in AI infrastructure. Full-stack integration means alternatives must compete at every layer simultaneously. The vertical integration compounds switching costs multiplicatively."
+    },
+    "Distribution Channel": {
+      "value": "Platform default",
+      "memo": "CUDA makes Nvidia the platform default for AI workloads, with alternative accelerators requiring active effort to adopt.",
+      "detail": "AI frameworks, libraries, and tools are optimized for CUDA by default. Developers choose Nvidia without conscious decision because the ecosystem assumes it. This platform-default distribution eliminates customer acquisition costs. The default status is the software complement to hardware market dominance."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "Nvidia's supply chain runs through allied jurisdictions: US design, Taiwanese fabrication, with controlled export to allied customers.",
+      "detail": "Chip design occurs in the US with fabrication exclusively at TSMC in Taiwan. Key packaging and memory components come from allied Asian suppliers. Export controls ensure frontier hardware stays within allied-nation customers. The allied supply-jurisdiction creates geopolitical dependency on Taiwan's security."
+    },
+    "Observability": {
+      "value": "Declared",
+      "memo": "Nvidia declares GPU specifications, benchmark performance, and supply roadmaps but does not provide independent audit access to allocation decisions.",
+      "detail": "Product specifications and benchmark results are publicly declared and independently verifiable. Supply allocation decisions and customer-specific terms are commercially confidential. Roadmap declarations provide forward visibility but not independently verified commitments. The declared observability covers product performance but not strategic supply governance."
+    },
+    "Evaluation": {
+      "value": "Benchmarked",
+      "memo": "Nvidia GPUs are evaluated through industry-standard benchmarks including MLPerf, establishing performance baselines against alternatives.",
+      "detail": "MLPerf and other benchmark suites provide standardized GPU performance comparisons. Nvidia consistently leads benchmarks across training and inference workloads. Benchmark dominance reinforces the default-platform position. Evaluation is transparent at the hardware-performance layer."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "GPU behavior is assessed through performance testing, power measurement, and thermal profiling rather than internal chip analysis.",
+      "detail": "Hardware performance is evaluated through external measurement of throughput, latency, and efficiency. Chip internals are not inspectable by customers or third parties. Behavioral testing provides reliable performance evidence for purchasing decisions. The behavioral-evidence level is standard for commercial semiconductor evaluation."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "Alignment is not applicable to Nvidia's hardware; the reference to prompting/RLHF reflects the default position for infrastructure that enables alignment.",
+      "detail": "Nvidia hardware does not itself require alignment methods. The alignment of AI systems running on Nvidia hardware is the customer's responsibility. Nvidia's software stack supports whatever alignment approach customers implement. The prompting/RLHF default reflects the most common customer practice on Nvidia hardware."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Nvidia maintains enterprise-grade security for IP protection, supply-chain integrity, and customer-data confidentiality.",
+      "detail": "Chip design IP requires rigorous security against espionage and theft. Supply-chain integrity measures protect against counterfeiting and unauthorized diversion. Customer allocation and pricing data are secured under commercial-confidentiality protocols. Enterprise-grade security reflects the commercial value of Nvidia's IP portfolio."
+    },
+    "Adversary Model": {
+      "value": "State actor",
+      "memo": "Nvidia faces state-actor adversary threats targeting chip designs, supply-chain intelligence, and allocation decision access.",
+      "detail": "Frontier GPU designs are strategic intelligence targets for state actors. Supply-chain intelligence reveals customer capability timelines and national AI capacity. Export-control evasion attempts come from state-directed procurement networks. The state-actor adversary model reflects Nvidia's position as a strategic chokepoint."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Nvidia monitors access to design IP and supply-chain data but hardware shipped to customers is physically beyond Nvidia's security perimeter.",
+      "detail": "Design IP is protected through standard enterprise security with monitoring and access controls. Once GPUs ship to customers, physical security transfers to the customer's facilities. Nvidia cannot enforce security on deployed hardware beyond licensing terms. The monitored posture reflects the physical goods nature of the business."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "Nvidia uses role-based access control for internal systems, design tools, and supply-chain management platforms.",
+      "detail": "Internal access to chip designs, roadmaps, and allocation decisions is controlled by role assignment. RBAC is the standard enterprise security mechanism for Nvidia's operations. Customer-facing access to allocation and pricing information is similarly role-controlled. The RBAC implementation reflects standard enterprise security practice."
+    },
+    "Monitoring Scope": {
+      "value": "Tool activity",
+      "memo": "Nvidia monitors internal tool activity for design-IP protection and supply-chain-integrity assurance.",
+      "detail": "Design-tool access, source-code repositories, and supply-chain management systems are monitored. Monitoring covers internal engineering and commercial operations. Customer GPU usage is not monitored by Nvidia after deployment. Tool-activity monitoring protects Nvidia's IP rather than governing customer behavior."
+    },
+    "Containment": {
+      "value": "None",
+      "memo": "Nvidia applies no containment to shipped hardware: once GPUs reach customers, the hardware operates without Nvidia restrictions.",
+      "detail": "Sold GPUs are customer property without ongoing Nvidia containment or control mechanisms. Software licensing provides terms-of-use restrictions but no technical containment. The no-containment posture is standard for commercial hardware sales. Export controls provide external containment at the distribution layer."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Nvidia applies targeted capability restrictions through export-compliant GPU variants with reduced performance for controlled markets.",
+      "detail": "A800 and H800 variants provide reduced interconnect bandwidth for export-controlled markets. These targeted restrictions comply with US export regulations while preserving market access. The restrictions demonstrate Nvidia's ability to engineer capability limitations into hardware. Targeted silicon modifications are a more durable restriction than software limits."
+    },
+    "Use Class": {
+      "value": "Dual-use",
+      "memo": "Nvidia GPUs are inherently dual-use: the same hardware serves civilian AI training, defense applications, and national-security programs.",
+      "detail": "Identical GPU hardware powers commercial AI and defense computing workloads. No technical distinction separates civilian from military GPU applications. The dual-use classification drives export-control requirements and geopolitical significance. Nvidia's market position in civilian AI makes it simultaneously strategic in defense contexts."
+    },
+    "Harm Channel": {
+      "value": "Cyber/bio/financial",
+      "memo": "Nvidia hardware enables all AI harm channels but the most direct exposure is enabling cyber, scientific, and financial AI capabilities.",
+      "detail": "GPU compute powers the AI systems that can enable cyber attacks, accelerate dual-use research, and automate financial operations. Nvidia does not create these harms but provides the essential enabling infrastructure. The harm-channel exposure is indirect but structurally significant. Infrastructure-level enabling differs from application-level harm creation."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "GPU capability diffuses through licensed commercial sales, with export controls attempting to restrict proliferation to authorized recipients.",
+      "detail": "Nvidia sells GPUs through standard commercial channels to authorized customers globally. Export controls create a licensing mechanism that gates sales to specific destinations. Licensed diffusion through commercial and controlled channels is the default distribution model. The proliferation pattern reflects hardware distribution rather than software release dynamics."
+    },
+    "Strategic Lead": {
+      "value": "Decisive lead",
+      "memo": "Nvidia holds a decisive strategic lead in AI accelerators with no competitor matching its combined hardware, software, and ecosystem position.",
+      "detail": "No alternative GPU, TPU, or ASIC matches Nvidia's combined performance, ecosystem, and availability. The lead extends across hardware specifications, software maturity, developer adoption, and supply scale. This decisive lead compounds over time as ecosystem effects strengthen the moat. Maintaining the lead requires sustained investment across all moat layers."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Nvidia faces competitive pressure from AMD, custom ASICs, and hyperscaler in-house silicon that could erode its monopoly position.",
+      "detail": "AMD's MI300 series provides increasingly competitive alternative GPUs. Google TPUs and Amazon Trainium offer custom-silicon alternatives for their ecosystems. These competitive threats motivate Nvidia's rapid hardware iteration and ecosystem investment. The race pressure is real but has not yet materially eroded Nvidia's position."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Nvidia operates as a single firm with unilateral strategic authority over its product, pricing, and allocation decisions.",
+      "detail": "Nvidia's strategy is determined by corporate leadership without external coordination. No government, industry coalition, or partner has binding authority over Nvidia's decisions. The single-firm structure enables rapid strategic pivots and unified decision-making. Nvidia's market power makes its unilateral decisions industry-shaping."
+    },
+    "Nonproliferation Regime": {
+      "value": "Enforced regime",
+      "memo": "US export controls create an enforced nonproliferation regime for Nvidia's frontier GPUs, restricting sales to specified countries.",
+      "detail": "Bureau of Industry and Security controls specifically target Nvidia frontier GPU exports. Violations carry criminal penalties and loss of export privileges. The enforced regime is one of the few hard constraints on AI capability proliferation. Export controls on GPU hardware are more enforceable than software or model-weight controls."
+    },
+    "Data Value Dynamics": {
+      "value": "Rivalrous",
+      "memo": "GPU supply is rivalrous: each GPU allocated to one customer is unavailable to others, creating zero-sum allocation competition.",
+      "detail": "Physical GPU scarcity means allocation is genuinely zero-sum during supply-constrained periods. This rivalrous dynamic gives Nvidia allocation decisions strategic significance. Customers compete for scarce GPU supply through pricing, commitments, and relationship building. Rivalrous supply dynamics are fundamentally different from the non-rivalrous dynamics of data."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Nvidia GPU prices are fixed at purchase, with no revenue-sharing or usage-based pricing for hardware sales.",
+      "detail": "GPUs are sold at fixed prices through purchase orders or cloud-provider agreements. Nvidia captures value at the hardware-sales point rather than through downstream revenue sharing. Fixed pricing simplifies transactions but disconnects Nvidia's revenue from customer success. The fixed-price model may shift toward cloud-based GPU-as-a-service pricing."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "Nvidia retains all hardware-sales value, with no claim on outputs produced by AI systems running on its GPUs.",
+      "detail": "Nvidia captures value through GPU sales without participating in downstream AI revenue. No revenue-sharing or output-allocation mechanism connects Nvidia to customer commercial outcomes. The retained-value model reflects the hardware vendor's position in the value chain. Nvidia benefits indirectly from customer success through increased GPU demand."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "Nvidia captures value as the processor of compute but not as a participant in the derived value of AI outputs.",
+      "detail": "Nvidia's revenue comes from hardware sales and licensing rather than AI output value. The processor-captures dynamic applies to Nvidia's own compute-processing revenue. Downstream derived value from AI applications flows to model developers and deployers. Nvidia's value capture is at the infrastructure layer, not the application layer."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "Nvidia disclaims liability for AI outcomes produced by systems running on its hardware through standard hardware-sales terms.",
+      "detail": "Standard GPU sales terms disclaim responsibility for downstream AI applications and their outcomes. No warranty, indemnity, or insurance covers AI-specific risks at the hardware layer. Liability for AI harm sits with the model developer and deployer, not the hardware vendor. The disclaimed-risk posture is standard for computing-hardware sales."
+    },
+    "Capital": {
+      "value": "Strategic build",
+      "memo": "Nvidia invests strategic-build capital in next-generation GPU architectures, networking, and systems that define AI infrastructure.",
+      "detail": "Multi-billion-dollar R&D investment drives each GPU generation and networking platform. The investment horizon spans years from design through fabrication to market delivery. Strategic-build capital reflects the infrastructure nature of Nvidia's business. The investment scale creates barriers to entry for potential competitors."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "GPU architecture development and TSMC fabrication agreements commit Nvidia to multi-year technology and manufacturing roadmaps.",
+      "detail": "New GPU architectures require three-to-five-year development cycles. TSMC fabrication agreements commit capacity years in advance. Multi-year commitments create roadmap stability but reduce adaptive flexibility. The long commitment tenor reflects semiconductor industry dynamics."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "AI compute has become Nvidia's core business, with data-center GPU revenue now the majority of total company revenue.",
+      "detail": "Data-center revenue driven by AI demand now exceeds gaming and all other segments combined. This core-business dependency means Nvidia's survival depends on continued AI compute demand. The revenue concentration creates vulnerability to market shifts or substitution. Nvidia's entire strategic trajectory is now inseparable from AI infrastructure demand."
+    },
+    "Switching Cost": {
+      "value": "Captive",
+      "memo": "Nvidia's customers are effectively captive: CUDA rewriting, networking replacement, and ecosystem migration costs are prohibitively high.",
+      "detail": "Switching requires rewriting software, replacing networking, retraining developers, and re-validating workflows. The total switching cost can exceed the hardware cost itself for large deployments. Captive lock-in means customers face significant capability disruption from attempting to switch. The captive dynamic sustains Nvidia's pricing power and allocation authority."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Exit from Nvidia dependency is capability-entangled: trained models, optimized code, and developer skills are all CUDA-specific.",
+      "detail": "Models trained and optimized for CUDA may not perform identically on alternative hardware. Code optimizations, kernel libraries, and deployment pipelines are CUDA-specific. Developer expertise and training investments are Nvidia-ecosystem-specific. These entanglements mean exit would degrade capability, not just increase cost."
+    },
+    "Acceptance Basis": {
+      "value": "Market-validated",
+      "memo": "Nvidia's position validates through developer lock-in, deployment certainty, and sustained market dominance in accelerators.",
+      "detail": "CUDA ecosystem adoption and GPU revenue growth serve as the primary acceptance evidence. Developer preference for Nvidia hardware creates a market-validated moat that no certification process could replicate. Deployment certainty matters more than benchmarked performance when training budgets reach billions. Market dominance is both the validation method and the competitive advantage."
+    }
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "id": "tsmc-asml",
+  "name": "TSMC / ASML chokepoint",
+  "desc": "The invisible foundation: advanced foundry fabrication and EUV lithography sit below the visible compute layer, creating chokepoints where a single company's capacity determines who can build frontier AI hardware.",
+  "picks": {
+    "Capability Class": {
+      "value": "Strategic",
+      "memo": "Control of advanced chip fabrication is a strategic-sovereignty issue, not just a commercial capability question.",
+      "detail": "TSMC's ability to fabricate leading-edge chips determines which nations can produce frontier AI hardware. ASML's EUV lithography tools are prerequisites for advanced fabrication. Strategic capability at this layer means that foundry access shapes national AI capacity. No AI frontier exists without access to these upstream chokepoints."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "Foundry and lithography chokepoints affect all AI domains because all frontier accelerators require leading-edge fabrication.",
+      "detail": "Every AI accelerator from Nvidia GPUs to Google TPUs to Apple neural engines uses TSMC fabrication. No domain-specific alternative bypasses the foundry chokepoint. The general breadth means these chokepoints constrain the entire AI ecosystem simultaneously. Domain-agnostic impact amplifies the strategic significance."
+    },
+    "Capability Trajectory": {
+      "value": "Compressed",
+      "memo": "Each foundry process-node advancement compresses AI capability timelines by enabling more powerful accelerators.",
+      "detail": "TSMC's transition from 5nm to 3nm to 2nm enables successive generations of more powerful AI chips. Each node advancement allows more transistors, more compute, and more capable models. The foundry's process roadmap sets the pace of AI hardware improvement. Compressed foundry timelines translate directly into compressed AI capability advancement."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "Semiconductor fabrication and lithography R&D remain human-led, with process development requiring deep materials and physics expertise.",
+      "detail": "Leading-edge process development at TSMC involves years of human-directed materials science and engineering. ASML's EUV development required decades of human-led optical and systems engineering. AI tools assist with design optimization but do not drive foundry research direction. The physical nature of semiconductor manufacturing limits automation of the R&D process."
+    },
+    "Unhobbling": {
+      "value": "Chatbot",
+      "memo": "Foundry and lithography companies are not AI systems; the minimal unhobbling level reflects their infrastructure-provider nature.",
+      "detail": "TSMC and ASML provide physical manufacturing infrastructure rather than AI services. No AI unhobbling concept applies to semiconductor fabrication equipment or processes. The chatbot default is the minimal applicable position for a non-AI system. The stance describes a supply-chain position rather than an AI deployment."
+    },
+    "Replication Scale": {
+      "value": "Single instance",
+      "memo": "Each advanced foundry fab is a unique facility; there are only a handful of leading-edge fabs worldwide.",
+      "detail": "TSMC operates a small number of leading-edge fabs in Taiwan and Arizona. Each fab is a multi-billion-dollar facility that cannot be quickly replicated. ASML produces EUV machines in single-digit annual quantities. The single-instance scale reflects the extreme concentration of advanced semiconductor manufacturing."
+    },
+    "Operating Speed": {
+      "value": "Human-speed",
+      "memo": "Fab construction, process development, and tool installation operate at human industrial timescales measured in years.",
+      "detail": "Building a new leading-edge fab takes three to five years from groundbreaking to production. Process qualification requires months of engineering iteration. EUV tool installation and qualification takes months per machine. Human-speed operation reflects the physical nature of semiconductor manufacturing."
+    },
+    "Physical World Extension": {
+      "value": "Automated production",
+      "memo": "TSMC fabs and ASML EUV tools are automated production systems operating at the most extreme precision in industrial manufacturing.",
+      "detail": "EUV lithography requires positioning precision measured in fractions of nanometers. Fab operations are heavily automated with robotic wafer handling and process control. The manufacturing precision exceeds any other human industrial process. Automated production at this scale is the ultimate physical-world extension of engineering capability."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "TSMC and ASML are essential tools in the AI supply chain: infrastructure providers that every AI chip depends on.",
+      "detail": "Foundries and lithography vendors are tools used by chip designers to create AI accelerators. They do not deploy AI systems or make AI-driven decisions for end users. The tool role is maximally strategic because the entire AI hardware layer depends on it. Infrastructure-tool power at this depth exceeds any application-layer influence."
+    },
+    "Actuation": {
+      "value": "Physical/kinetic",
+      "memo": "Foundry fabrication and EUV lithography involve physical actuation at nanometer precision, manufacturing the physical objects AI runs on.",
+      "detail": "EUV lithography uses extreme-ultraviolet light to pattern silicon wafers at nanometer scale. Physical and chemical processes deposit, etch, and connect billions of transistors per chip. The actuation is physical manufacturing rather than digital computation. Physical-kinetic actuation at this precision level is globally unique."
+    },
+    "Autonomy": {
+      "value": "Stateless task",
+      "memo": "Fab operations execute manufacturing tasks without autonomous goal pursuit; each wafer lot is a discrete production job.",
+      "detail": "Manufacturing processes execute predefined recipes without autonomous decision-making. Each production lot follows specified process parameters set by engineers. Fab operations have no autonomous goals or self-directed behavior. Stateless task execution describes the manufacturing process accurately."
+    },
+    "Delegated Authority": {
+      "value": "None",
+      "memo": "No delegated authority: fabs execute manufacturing orders from chip-design customers without binding decisions.",
+      "detail": "TSMC fabricates chips according to customer designs without making design or deployment decisions. No foundry authority extends beyond manufacturing execution. Customer designs determine what the fab produces. None is the correct delegation level for contract manufacturing."
+    },
+    "Tool Access": {
+      "value": "Privileged tools",
+      "memo": "ASML EUV tools and TSMC process technology are privileged: restricted access to the most sensitive manufacturing capability in the world.",
+      "detail": "EUV lithography tools are export-controlled and available only to approved customers. TSMC's most advanced process nodes are allocated to priority customers under long-term agreements. Access to these privileged tools determines who can build frontier AI chips. The restricted access is enforced by both commercial allocation and government export controls."
+    },
+    "Response / Intervention Capability": {
+      "value": "War-room protocol",
+      "memo": "Disruption to TSMC or ASML operations requires war-room-level crisis coordination involving companies, governments, and military.",
+      "detail": "TSMC fab disruption would trigger global semiconductor supply-chain crisis response. Earthquake, military threat, or equipment failure at key facilities require coordinated multinational response. ASML EUV tool production disruption would halt leading-edge chip manufacturing globally. War-room protocols reflect the strategic criticality of these chokepoints."
+    },
+    "Command Actor": {
+      "value": "State/coalition",
+      "memo": "TSMC and ASML operate under state and coalition command influence through export controls, investment screening, and strategic industrial policy.",
+      "detail": "US export controls on ASML EUV sales to China demonstrate state-level command over these chokepoints. Taiwan's strategic management of TSMC reflects state influence on corporate decisions. Dutch government coordination with US on ASML export policy shows coalition governance. State-coalition command reflects the national-security significance of these companies."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Foundry and lithography decisions follow multi-year product cycles: new process nodes and EUV generations take years to develop.",
+      "detail": "TSMC process-node development spans three to five years per generation. ASML EUV tool development extends over decade-long timescales. Decision tempo is measured in years rather than quarters. The long product cycles mean today's decisions shape capability five to ten years out."
+    },
+    "Tradeoff Authority": {
+      "value": "National command",
+      "memo": "Strategic decisions about TSMC and ASML — who gets access, where fabs are built — involve national-command authority.",
+      "detail": "Export-control decisions about EUV sales to China are made at national-government level. TSMC fab location decisions in Arizona involve US government industrial policy. Taiwan government strategic management of TSMC reflects national-security considerations. National-command authority applies to the most consequential chokepoint decisions."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Access to TSMC fabrication and ASML tools is conditional on export-control compliance, customer qualification, and allocation agreements.",
+      "detail": "Not every chip designer can access TSMC's most advanced nodes; allocation requires qualification and commitment. ASML EUV tool sales require export-license approval for certain destinations. Permission to use these chokepoint capabilities is genuinely conditional. The conditions reflect both commercial and national-security gatekeeping."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "TSMC and ASML face conditional regulatory requirements through export controls, foreign-investment screening, and industrial policy.",
+      "detail": "US, Dutch, and Japanese export controls restrict technology sales to specific countries. Foreign-investment screening affects ownership and governance of these companies. Industrial-policy incentives condition government subsidies on manufacturing commitments. The conditional regulatory posture reflects the strategic importance of these companies."
+    },
+    "Data Availability": {
+      "value": "Proprietary owned",
+      "memo": "TSMC process technology and ASML EUV designs represent proprietary-owned manufacturing knowledge developed over decades.",
+      "detail": "TSMC's process recipes represent decades of proprietary manufacturing development. ASML's EUV optical systems embody unique engineering knowledge. This proprietary knowledge cannot be replicated by licensing or purchasing. Proprietary ownership of manufacturing capability is the foundation of the chokepoint."
+    },
+    "Provenance": {
+      "value": "Verifiable",
+      "memo": "TSMC and ASML technology provenance is verifiable through patents, engineering documentation, and decades of published research.",
+      "detail": "Semiconductor manufacturing technology has clear IP provenance through patent portfolios. Engineering development is documented through published research and industry conference proceedings. The technology lineage is traceable and verifiable. Clear provenance contrasts with the contested origins of AI training data."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "TSMC process technology and ASML tool designs are hosted-only: available for use but not transferable to customers.",
+      "detail": "Chip designers use TSMC's processes without receiving the underlying process recipes. ASML tools are sold but the optical-system technology is not transferred to customers. Hosted-only access maintains the chokepoint by preventing capability transfer. The non-transferable nature of the technology preserves strategic concentration."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "TSMC and ASML operate cross-border with critical facilities in Taiwan, Netherlands, and expansion sites in allied countries.",
+      "detail": "TSMC's primary fabs are in Taiwan with expansion in Arizona and Japan. ASML headquarters and manufacturing are in the Netherlands with global service operations. Cross-border operations create geopolitical dependencies across multiple jurisdictions. The territorial spread reflects both corporate strategy and government industrial-policy incentives."
+    },
+    "Data Subject Exposure": {
+      "value": "No personal data",
+      "memo": "Semiconductor manufacturing does not involve personal-data processing, placing these companies outside data-protection regulatory triggers.",
+      "detail": "Fab operations and EUV tool manufacturing do not process individual personal data. Data-protection regulations do not constrain core manufacturing operations. The no-personal-data position simplifies the regulatory profile. Employee and customer data governance is standard corporate IT concern, not a manufacturing issue."
+    },
+    "Data Sensitivity": {
+      "value": "Classified",
+      "memo": "TSMC process technology and ASML EUV designs are treated as classified-equivalent by governments that recognize their strategic importance.",
+      "detail": "Advanced process recipes and EUV technology are among the most strategically sensitive industrial capabilities globally. Intelligence services treat these technologies as classified-equivalent national assets. Export controls enforce classification-like restrictions on technology transfer. The sensitivity level reflects national-security significance beyond commercial confidentiality."
+    },
+    "Control Exposure": {
+      "value": "Controlled item active",
+      "memo": "ASML EUV tools and TSMC's most advanced processes are actively controlled items under multilateral export-control arrangements.",
+      "detail": "EUV lithography tools are export-controlled by US, Dutch, and Japanese governments. Advanced process-node fabrication services face destination-based restrictions. The controlled-item-active status reflects the strategic significance of these technologies. Active controls mean every sale requires compliance verification."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "The chokepoint's strategic relevance is greatest for training: frontier training requires the most advanced chips that only TSMC can fabricate.",
+      "detail": "Frontier AI training demands the highest-performance accelerators available. These accelerators require TSMC's most advanced process nodes for fabrication. Training compute demand drives the strategic significance of the foundry chokepoint. Inference can use older process nodes; training pushes the leading edge."
+    },
+    "Derivation": {
+      "value": "None",
+      "memo": "Semiconductor manufacturing produces no derived data products; the output is physical chips rather than digital derivatives.",
+      "detail": "Fab operations produce physical silicon wafers with fabricated circuits. No digital derivation or data-product creation occurs in the manufacturing process. The none-derivation position reflects the physical manufacturing nature. Derivation concerns apply at the AI model layer, not the chip manufacturing layer."
+    },
+    "Retention / Persistence": {
+      "value": "Archival",
+      "memo": "TSMC process technology and ASML engineering knowledge persist as archival institutional capability accumulated over decades.",
+      "detail": "Manufacturing knowledge represents decades of accumulated engineering iteration and refinement. Process recipes and equipment designs are retained as permanent institutional assets. This archival persistence makes the capability difficult to replicate from scratch. The accumulated knowledge base is the deepest layer of the chokepoint."
+    },
+    "Execution / Residency Environment": {
+      "value": "On-prem/SCIF",
+      "memo": "Advanced fabs operate in on-premises environments with security comparable to classified facilities, protecting process technology.",
+      "detail": "Leading-edge fabs have physical security, access controls, and environmental monitoring comparable to SCIFs. EUV tools operate in ultra-clean environments requiring specialized containment. Facility security protects both manufacturing capability and customer chip designs. The on-prem SCIF-equivalent environment reflects the strategic value of the contents."
+    },
+    "Boundary": {
+      "value": "Isolated",
+      "memo": "Advanced fabrication facilities are physically isolated with controlled access, separated from general corporate and customer operations.",
+      "detail": "Fab cleanrooms are physically isolated environments with restricted personnel access. Process technology is compartmentalized between different customer programs. Physical isolation prevents unauthorized access to process recipes or customer designs. The isolated boundary reflects both manufacturing requirements and security imperatives."
+    },
+    "Deployment Surface": {
+      "value": "Critical/infrastructure",
+      "memo": "TSMC fabs and ASML tools are critical infrastructure: their disruption would halt global AI hardware production.",
+      "detail": "A single TSMC fab disruption would delay AI chip production across the industry. ASML EUV tool production interruption would halt new leading-edge fab construction. The critical-infrastructure status gives these companies structural power over the entire AI ecosystem. No substitute can replace their capabilities within any reasonable timeframe."
+    },
+    "Physical Infrastructure": {
+      "value": "National industrial build",
+      "memo": "Advanced fabs represent national-industrial-build-scale infrastructure, with individual facilities costing $20-40 billion.",
+      "detail": "A single leading-edge TSMC fab costs $20-40 billion and takes years to build. ASML EUV machine production requires specialized facilities in the Netherlands. These infrastructure investments rival national-project scales. The capital intensity creates natural barriers to entry that reinforce the chokepoint."
+    },
+    "Model Sourcing": {
+      "value": "Single-provider",
+      "memo": "For leading-edge AI chip fabrication, TSMC is effectively the single provider: no alternative foundry matches its advanced capabilities.",
+      "detail": "Samsung Foundry and Intel Foundry Services offer alternatives but not at TSMC's advanced-process capabilities. For the most demanding AI accelerator designs, TSMC is the only viable fabrication source. Single-provider dependency at the foundry level creates systemic vulnerability. The lack of substitutable alternatives is the definition of a chokepoint."
+    },
+    "Compute Source": {
+      "value": "Owned/custom",
+      "memo": "TSMC owns its fabrication capability and ASML owns its lithography technology: both are custom industrial assets developed over decades.",
+      "detail": "TSMC's process technology represents owned, custom-developed manufacturing capability. ASML's EUV systems are custom-engineered optical and mechanical systems. Both companies own the core technology their chokepoint positions depend on. Owned custom capability at this scale cannot be purchased or licensed from others."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "TSMC and ASML have no cloud dependency: their operations are physical manufacturing independent of any cloud platform.",
+      "detail": "Semiconductor manufacturing does not depend on cloud infrastructure for core operations. TSMC and ASML own and operate their manufacturing facilities independently. The portable-from-cloud position reflects the physical-manufacturing nature of their business. Cloud independence is a non-issue for physical manufacturing companies."
+    },
+    "Accelerator Stack": {
+      "value": "Custom ASIC/TPU",
+      "memo": "TSMC fabricates the custom ASICs and TPUs that every AI accelerator provider designs, sitting below the accelerator-stack level itself.",
+      "detail": "Every AI accelerator — Nvidia GPUs, Google TPUs, Apple neural engines — is fabricated at TSMC. TSMC does not design accelerators but manufactures them all. The foundry sits below the accelerator-stack taxonomy as the enabling substrate. Custom ASIC/TPU is the most applicable position for the fabrication provider."
+    },
+    "Supply Control": {
+      "value": "Strategic control",
+      "memo": "TSMC and ASML exercise strategic control: allocation decisions determine who can build frontier AI hardware and when.",
+      "detail": "TSMC's allocation of advanced-node capacity determines which chip designs get fabricated. ASML's EUV tool delivery schedule determines which fabs can reach leading-edge production. These allocation decisions have national-security and strategic-competition consequences. Strategic control at the chokepoint level exceeds any downstream supply-management authority."
+    },
+    "Silicon Bottleneck": {
+      "value": "Lithography tools",
+      "memo": "ASML's EUV lithography tools are the ultimate silicon bottleneck: no EUV access means no leading-edge fabrication, period.",
+      "detail": "ASML is the sole global supplier of EUV lithography systems. Annual EUV tool production is measured in dozens of machines, not hundreds. Each EUV system costs over $300 million and takes months to install and qualify. The lithography-tool bottleneck sits below the foundry concentration as the deepest chokepoint."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "No substitution exists for TSMC's advanced fabrication or ASML's EUV lithography: the lock-in is absolute at the leading edge.",
+      "detail": "No alternative foundry produces chips at TSMC's advanced process nodes. No alternative vendor produces EUV lithography systems at any scale. The lock-in is not expensive switching but genuine impossibility of substitution. Absolute lock-in at the chokepoint creates the most concentrated structural power in the AI supply chain."
+    },
+    "Vertical Integration": {
+      "value": "Full-stack",
+      "memo": "TSMC and ASML are full-stack at the manufacturing layer: from raw silicon wafers through lithography to finished packaged chips.",
+      "detail": "TSMC integrates wafer fabrication, lithographic patterning, etching, deposition, testing, and advanced packaging. ASML integrates optical systems, light sources, wafer stages, and metrology in EUV tools. Full-stack manufacturing integration creates the capability that defines the chokepoint. No partial alternative can substitute for the complete manufacturing stack."
+    },
+    "Distribution Channel": {
+      "value": "Platform default",
+      "memo": "TSMC is the platform default for advanced chip fabrication: every major AI chip designer uses TSMC without considering alternatives.",
+      "detail": "Nvidia, Apple, AMD, Qualcomm, and Google all default to TSMC for their most advanced chips. The default position eliminates customer-acquisition effort and reinforces market dominance. Chip designers choose TSMC not through evaluation but through absence of alternative. Platform-default status at the manufacturing layer parallels CUDA's default at the software layer."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "TSMC and ASML operate in allied jurisdictions: Taiwan and Netherlands respectively, with US strategic interest in both.",
+      "detail": "TSMC's Taiwan location places it in a US-allied but geopolitically exposed jurisdiction. ASML's Netherlands headquarters is firmly within the NATO alliance. Both companies' strategic significance creates deep US government engagement. Allied jurisdiction provides access security but not elimination of geopolitical risk."
+    },
+    "Observability": {
+      "value": "Auditable",
+      "memo": "TSMC and ASML operations are auditable through customer qualification, government inspection, and industry certification processes.",
+      "detail": "Chip-design customers audit TSMC's process capabilities through qualification programs. Government export-control compliance requires documented inspection and verification. Industry standards bodies certify manufacturing processes. Auditable operations are necessary for the trust required at strategic infrastructure level."
+    },
+    "Evaluation": {
+      "value": "Certified/decision-grade",
+      "memo": "Advanced fabrication capability is evaluated to certified decision-grade standards through extensive qualification and reliability testing.",
+      "detail": "Chip designers qualify TSMC processes through extensive electrical and reliability testing. EUV tool performance is certified through rigorous acceptance testing. Decision-grade evaluation is necessary because fabrication-choice decisions commit billions of dollars. Certified evaluation reflects the stakes involved in foundry selection."
+    },
+    "Interpretability": {
+      "value": "Legible trace",
+      "memo": "Manufacturing processes produce legible traces through process-control data, wafer-level measurements, and yield analytics.",
+      "detail": "Every fabrication step generates measurable process-control data. Wafer-level electrical measurements trace the outcome of each manufacturing operation. Yield analytics provide interpretable feedback on manufacturing quality. Legible-trace observability is inherent to precision manufacturing processes."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Manufacturing quality is ensured through human engineering review of process data, yield results, and reliability testing.",
+      "detail": "Process engineers review manufacturing data at each production stage. Yield engineers analyze defect patterns and adjust process parameters. Human review is the primary quality-assurance mechanism for semiconductor manufacturing. The alignment analogy applies to manufacturing-quality governance rather than AI behavior."
+    },
+    "Security Posture": {
+      "value": "National-defense-grade",
+      "memo": "TSMC and ASML maintain national-defense-grade security reflecting the strategic military significance of their technology.",
+      "detail": "Fab security includes physical access controls, personnel screening, and facility monitoring comparable to defense installations. ASML's EUV technology is protected with security measures coordinated with national governments. The security posture reflects the national-security classification of the technology. Defense-grade security is both commercially prudent and governmentally expected."
+    },
+    "Adversary Model": {
+      "value": "State actor",
+      "memo": "TSMC and ASML face state-actor adversary threats from intelligence services targeting process technology and supply-chain intelligence.",
+      "detail": "Chinese and other state intelligence services target semiconductor manufacturing IP. TSMC process technology and ASML EUV designs are strategic intelligence priorities. State-actor threats include both cyber espionage and physical security concerns. The adversary model reflects the geopolitical significance of the chokepoint."
+    },
+    "Weight Security": {
+      "value": "Airgapped/controlled",
+      "memo": "Critical process technology and EUV designs are airgapped or controlled-access, preventing unauthorized technology transfer.",
+      "detail": "Most sensitive process recipes are not accessible through networked systems. EUV tool source code and optical designs are strictly compartmentalized. Airgapped or controlled-access storage protects against cyber exfiltration. The security level reflects the strategic value of the protected technology."
+    },
+    "Access Control": {
+      "value": "Multi-key signoff",
+      "memo": "Access to advanced process technology and EUV designs requires multi-key signoff from engineering, security, and management authorities.",
+      "detail": "Critical technology access requires authorization from multiple organizational levels. No single individual can authorize access to the most sensitive manufacturing IP. Multi-key signoff prevents unauthorized technology transfer by insiders. The access-control rigor reflects national-security-grade protection requirements."
+    },
+    "Monitoring Scope": {
+      "value": "Full cluster telemetry",
+      "memo": "Fab operations are monitored through full facility telemetry covering equipment status, environmental conditions, and personnel access.",
+      "detail": "Every piece of fab equipment reports operational data continuously. Environmental monitoring tracks cleanroom conditions, chemical concentrations, and particle counts. Personnel access is logged and monitored throughout the facility. Full facility telemetry provides comprehensive operational visibility."
+    },
+    "Containment": {
+      "value": "Dedicated enclave",
+      "memo": "Advanced fabrication technology is contained in dedicated enclaves with physical, network, and personnel access boundaries.",
+      "detail": "Leading-edge process technology is isolated in dedicated facility areas. Network segmentation separates advanced-process systems from general corporate IT. Personnel access is restricted to qualified individuals with appropriate clearances. Dedicated-enclave containment protects the most sensitive manufacturing capabilities."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Export controls apply targeted restrictions on EUV tool sales and advanced-process access to specific countries.",
+      "detail": "EUV tool exports to China are prohibited under US and Dutch export controls. TSMC restricts access to its most advanced processes based on customer destination and end-use. These targeted restrictions are enforced at the government and corporate level. Capability limitation through export controls is the primary governance mechanism."
+    },
+    "Use Class": {
+      "value": "Dual-use",
+      "memo": "Advanced semiconductor fabrication is inherently dual-use: the same processes produce civilian consumer chips and military-relevant components.",
+      "detail": "TSMC's leading-edge processes fabricate both commercial AI chips and defense electronics. No process-level distinction separates civilian from military applications. Dual-use classification drives the export-control and national-security governance. The inherent dual-use nature of fabrication technology creates the geopolitical significance."
+    },
+    "Harm Channel": {
+      "value": "Physical/kinetic",
+      "memo": "Disruption to TSMC or ASML creates physical/kinetic harm potential through supply-chain collapse affecting defense and critical infrastructure.",
+      "detail": "Fab disruption would halt production of chips used in weapons systems and defense electronics. Critical infrastructure including communications, energy, and transportation depends on advanced chips. Physical disruption to these chokepoints has kinetic consequences beyond digital harm. The harm channel reflects the physical-infrastructure nature of the chokepoint."
+    },
+    "Proliferation": {
+      "value": "Contained",
+      "memo": "Advanced fabrication capability is contained through extreme capital requirements, decade-long expertise accumulation, and export controls.",
+      "detail": "Building a competitive leading-edge foundry requires $100+ billion and decades of engineering development. EUV tool production requires ASML's unique accumulated expertise. Export controls prevent technology transfer to restricted destinations. The containment is enforced by physics, economics, and policy simultaneously."
+    },
+    "Strategic Lead": {
+      "value": "Decisive lead",
+      "memo": "TSMC and ASML hold decisive leads in their respective chokepoint capabilities with no competitor within years of catching up.",
+      "detail": "TSMC leads Samsung Foundry and Intel Foundry by at least one process generation. ASML has no competitor in EUV lithography at any scale. The decisive lead is measured in years and tens of billions of dollars of investment gap. The lead compounds over time as each generation builds on prior accumulated expertise."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "TSMC faces competitive pressure from Samsung and Intel foundry efforts, though neither threatens the leading-edge position near-term.",
+      "detail": "Samsung and Intel are investing aggressively to close the foundry gap. US CHIPS Act subsidies aim to build domestic alternative fabrication capacity. Competitive pressure motivates continued TSMC investment and customer service improvement. The competition is real but the lead is too large for near-term disruption."
+    },
+    "Coalition Structure": {
+      "value": "Allied bloc",
+      "memo": "TSMC and ASML operate within an allied-bloc governance structure coordinated by US, Dutch, Japanese, and Taiwanese governments.",
+      "detail": "Export-control coordination between US, Netherlands, Japan, and Taiwan governs chokepoint technology access. The allied bloc structure enables coordinated technology-denial policy toward restricted countries. Coalition governance reflects the multinational nature of the semiconductor supply chain. Allied-bloc coordination is more structured than voluntary norms but less formal than a treaty."
+    },
+    "Nonproliferation Regime": {
+      "value": "Enforced regime",
+      "memo": "Multilateral export controls on EUV tools and advanced fabrication create an enforced nonproliferation regime for semiconductor technology.",
+      "detail": "US, Dutch, and Japanese export controls specifically restrict EUV tool sales to China. Semiconductor equipment controls are among the most actively enforced technology-denial measures. Violations trigger criminal penalties and loss of access to allied-nation markets. The enforced regime is the strongest nonproliferation mechanism in the AI supply chain."
+    },
+    "Data Value Dynamics": {
+      "value": "Rivalrous",
+      "memo": "Foundry capacity and EUV tools are rivalrous: each wafer lot or tool allocated to one customer is unavailable to others.",
+      "detail": "Physical fabrication capacity is genuinely zero-sum during supply-constrained periods. EUV tool production is so limited that each allocation decision affects multiple customers. The rivalrous dynamic makes allocation decisions strategically consequential. Physical scarcity at the chokepoint creates the most concentrated competitive dynamics."
+    },
+    "Input Price": {
+      "value": "Structural",
+      "memo": "Foundry costs are structural: $20-40 billion per fab creates fixed infrastructure costs that define the pricing floor.",
+      "detail": "Fab construction costs are massive fixed investments amortized over facility lifetimes. EUV tool costs exceed $300 million each, representing structural capital requirements. Process development R&D adds billions in recurring costs. Structural pricing reflects the capital intensity of leading-edge semiconductor manufacturing."
+    },
+    "Output Allocation": {
+      "value": "Allocated",
+      "memo": "TSMC's fabrication output is formally allocated among customers through capacity agreements, not sold on a spot market.",
+      "detail": "Customers negotiate allocation agreements specifying wafer volumes and process access. Allocation decisions determine who can produce what chips and when. The allocated-output model reflects the supply-constrained nature of leading-edge fabrication. Formal allocation replaces market pricing as the primary distribution mechanism."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "TSMC captures value as the processor of silicon fabrication, with downstream chip and AI value flowing to design customers.",
+      "detail": "TSMC's revenue comes from wafer fabrication services rather than downstream chip or AI applications. The fabrication-processing capture model is highly profitable but does not participate in chip-design margins. Derived value from AI applications flows through chip designers to end-user companies. TSMC captures manufacturing value while enabling the entire downstream chain."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Government backstop",
+      "memo": "TSMC and ASML effectively operate with implicit government backstops reflecting their strategic importance to national security.",
+      "detail": "Taiwan's strategic management of TSMC implies sovereign support during crises. US CHIPS Act subsidies provide explicit government financial backstop for domestic fab construction. Dutch government engagement with ASML reflects similar national-asset treatment. Implicit and explicit government backstops reflect the too-strategic-to-fail positioning."
+    },
+    "Capital": {
+      "value": "Strategic build",
+      "memo": "Foundry and EUV tool investment is strategic-build capital at national-industrial-policy scale, dwarfing most corporate capex programs.",
+      "detail": "TSMC's annual capex exceeds $30 billion, rivaling national infrastructure programs. ASML's R&D investment sustains the world's most complex optical manufacturing. Government subsidies through CHIPS Act and European Chips Act add public capital to private investment. The capital scale reflects the strategic-infrastructure nature of the business."
+    },
+    "Commitment Tenor": {
+      "value": "Infrastructure-life",
+      "memo": "Fab investments commit to infrastructure-life tenors measured in decades, with facilities operating for 20-30 years.",
+      "detail": "Leading-edge fabs are designed for multi-decade operational lifespans. EUV tool development programs span decades from concept to production. The infrastructure-life commitment creates strategic stability but limits adaptation. Long-tenor commitments reflect the physical-infrastructure nature of semiconductor manufacturing."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "Advanced fabrication and EUV lithography are the core businesses of TSMC and ASML respectively, constituting their entire strategic identity.",
+      "detail": "TSMC's entire business is contract chip fabrication. ASML's entire business is lithography equipment manufacturing. Core-business dependency means these companies cannot pivot away from semiconductor manufacturing. The strategic chokepoint is inseparable from their corporate identity."
+    },
+    "Switching Cost": {
+      "value": "Captive",
+      "memo": "Chip designers are effectively captive to TSMC for leading-edge fabrication: no alternative exists within the relevant capability range.",
+      "detail": "Moving a chip design from TSMC to another foundry requires complete redesign for different process characteristics. No alternative foundry offers comparable process capability at TSMC's leading edge. The captive dynamic is absolute rather than merely expensive. Captivity at the foundry level compounds captivity at the GPU and AI layers above."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Exit from TSMC dependency is capability-entangled: chip designs are optimized for specific process nodes and cannot be trivially ported.",
+      "detail": "Chip designs incorporate process-specific characteristics that do not transfer to alternative foundries. Years of co-optimization between chip designers and TSMC process engineers create deep entanglement. Alternative foundry qualification would take years and billions of dollars. Capability entanglement at the fabrication layer cascades upward through the entire AI stack."
+    },
+    "Acceptance Basis": {
+      "value": "Market-validated",
+      "memo": "Foundry and lithography dominance validates through manufacturing yield, output volume, and the absence of viable alternatives.",
+      "detail": "TSMC's position is validated by the fact that every leading AI chip depends on its fabrication capability. ASML's EUV monopoly validates through the physical impossibility of alternative lithography at scale. Yield rates and production volumes serve as the acceptance metrics. The absence of substitutes makes market validation tautological: the market has no other option."
+    }
+  }
+}

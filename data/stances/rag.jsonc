@@ -1,0 +1,367 @@
+{
+  "id": "rag",
+  "name": "Enterprise RAG",
+  "desc": "Inference-time data use with clean exit: retrieval-augmented generation keeps enterprise data separate from model weights, preserving optionality through architectural separation rather than contractual protection.",
+  "picks": {
+    "Capability Class": {
+      "value": "Tool-grade",
+      "memo": "Enterprise RAG is tool-grade: bounded to a specific business corpus rather than operating at frontier general capability.",
+      "detail": "RAG systems answer questions about a specific enterprise knowledge base. The capability is constrained by the quality and scope of the retrieval corpus. Tool-grade reflects the bounded, purpose-specific nature of the deployment. RAG is valuable for what it does, not for frontier general capability."
+    },
+    "Domain Breadth": {
+      "value": "Single-domain",
+      "memo": "Enterprise RAG is single-domain by design: scoped to a specific business corpus for focused, reliable retrieval.",
+      "detail": "Each RAG deployment is configured for a specific enterprise knowledge domain. Single-domain scoping improves retrieval precision and answer relevance. The domain limitation is a feature that keeps the system manageable and auditable. Broad multi-domain RAG sacrifices the precision that makes the architecture valuable."
+    },
+    "Capability Trajectory": {
+      "value": "Incremental",
+      "memo": "Enterprise RAG capability improves incrementally through corpus expansion, embedding optimization, and model upgrades.",
+      "detail": "RAG quality improves through better retrieval, larger corpora, and upgraded language models. The improvement is incremental and measurable through relevance and accuracy metrics. No discontinuous capability jump characterizes RAG advancement. Incremental improvement is manageable and governable for enterprise deployment."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "Enterprise RAG development is human-led, with engineers tuning retrieval, embeddings, and prompts rather than automating research.",
+      "detail": "RAG pipeline development involves human engineering of chunking, embedding, and retrieval strategies. No automated research loop drives RAG system improvement independent of human direction. Human-led development reflects the engineering nature of RAG optimization. The human-led approach keeps the system within standard enterprise IT governance."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Enterprise RAG is a tool-using system: the model uses retrieval as a bounded tool to access enterprise knowledge.",
+      "detail": "Retrieval gives the language model structured access to a document corpus. The tool-use pattern is bounded: the model queries an index and receives relevant passages. This is tool-using rather than agentic because the model does not autonomously decide what to retrieve. The bounded tool-use pattern keeps the system within manageable control boundaries."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Enterprise RAG deploys many instances across departments and use cases, creating controlled replication within the organization.",
+      "detail": "Enterprise rollout typically creates multiple RAG instances for different departments or knowledge bases. Each instance serves many concurrent users within the organization. Many-copies deployment within enterprise boundaries provides controlled scale. The replication is managed and auditable unlike population-scale consumer deployment."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Enterprise RAG delivers answers faster than human research through instant retrieval and synthesis of relevant enterprise documents.",
+      "detail": "RAG systems retrieve and synthesize information in seconds compared to minutes or hours of manual research. The speed advantage drives the productivity value proposition for enterprise adoption. Faster-than-human operation transforms knowledge-work efficiency. The speed benefit is most pronounced for complex queries spanning many documents."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Enterprise RAG is purely cognitive: retrieving and synthesizing text information without any physical-world actuation.",
+      "detail": "RAG systems produce text outputs from text inputs without physical-world interaction. No robotics, sensor, or actuation component is involved. Cognitive-only operation keeps the system within standard information-system governance. The absence of physical extension simplifies risk management."
+    },
+    "Role": {
+      "value": "Assistant",
+      "memo": "Enterprise RAG serves as an assistant that produces reviewable answers, not a copilot that participates in work execution.",
+      "detail": "RAG systems answer questions and produce summaries for human review and decision-making. The system does not own workstreams or execute consequential actions. The assistant role preserves human agency over decisions based on RAG outputs. Role clarity simplifies liability and governance for enterprise deployment."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "Enterprise RAG actuation is purely informational: the system provides information without performing any digital or physical action.",
+      "detail": "RAG outputs are text answers and document summaries, not system actions or state changes. No API call, file modification, or external communication results from RAG operation. Informational actuation keeps the system within the lowest-risk activity category. The informational-only channel simplifies security and compliance governance."
+    },
+    "Autonomy": {
+      "value": "Stateless task",
+      "memo": "Enterprise RAG executes stateless query-answer tasks without persistent goals, memory, or autonomous objective pursuit.",
+      "detail": "Each RAG query is a stateless task: question in, answer out, no persistent state. The system does not accumulate context, pursue objectives, or remember previous interactions. Stateless operation prevents goal drift and unintended capability accumulation. The stateless design is a deliberate architectural choice for governance simplicity."
+    },
+    "Delegated Authority": {
+      "value": "Recommend only",
+      "memo": "RAG recommends answers and surfaces relevant information but has no delegated authority to act on the user's behalf or make binding decisions.",
+      "detail": "The system retrieves and recommends. The user retains all decision authority. Recommend-only delegation means the enterprise does not need to trust the model with binding actions. Recommendation quality depends on retrieval accuracy, which depends on corpus quality. The authority boundary is clear: the system informs, the human decides."
+    },
+    "Tool Access": {
+      "value": "Single bounded tool",
+      "memo": "Enterprise RAG accesses a single bounded tool: the vector-search retrieval index over the enterprise corpus.",
+      "detail": "The RAG system's only tool is the retrieval interface to the document index. No broader toolchain connects the system to enterprise systems or external services. Single-tool access limits the blast radius of any system failure or misuse. The bounded tool scope is a security feature of the RAG architecture."
+    },
+    "Response / Intervention Capability": {
+      "value": "Defined escalation",
+      "memo": "Enterprise RAG has defined escalation: clear procedures for handling incorrect, harmful, or confidential-data-leaking outputs.",
+      "detail": "Enterprise IT governance provides defined procedures for system incidents. RAG-specific escalation addresses retrieval failures, hallucination, and data-leakage events. Defined escalation is part of standard enterprise application deployment. The escalation framework is inherited from enterprise IT rather than AI-specific governance."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "The enterprise controls RAG deployment, data access, and governance through standard IT management authority.",
+      "detail": "Enterprise IT departments determine RAG deployment scope, data access, and user authorization. No external party controls the enterprise's RAG system configuration. The enterprise command structure applies standard IT governance to AI deployment. Command authority is clear and aligned with existing organizational structures."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Enterprise RAG deployment follows standard product and IT deployment cycles rather than crisis or competitive tempo.",
+      "detail": "RAG rollout follows enterprise IT change-management and deployment procedures. Updates to the corpus, embeddings, and model follow planned release cycles. Product-cycle tempo provides adequate governance for enterprise RAG systems. No competitive urgency forces faster deployment than standard IT processes allow."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Enterprise product teams make RAG deployment tradeoffs between accuracy, coverage, cost, and data-access scope.",
+      "detail": "Product and IT teams determine which corpora to index, what models to use, and how to configure retrieval. Tradeoffs between answer quality and compute cost are standard product decisions. No external safety body reviews enterprise RAG deployment decisions. Product-team authority reflects the low-risk nature of informational RAG systems."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Enterprise RAG data access is conditional on internal data-governance policies and external licensing terms for third-party content.",
+      "detail": "Access to enterprise knowledge bases requires authorization through data-governance policies. Third-party content in the corpus may carry licensing terms restricting AI use. Conditional permission reflects the data-governance discipline needed for enterprise deployment. Permission management is a standard enterprise data-governance function."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Enterprise RAG operates under conditional regulatory requirements for data protection, sector-specific rules, and emerging AI regulations.",
+      "detail": "GDPR, sector-specific regulations, and emerging AI rules create conditional deployment requirements. Financial-services and healthcare RAG face additional sector-specific obligations. The conditional posture reflects the regulatory environment for enterprise data processing. Compliance management is a standard enterprise function rather than an AI-specific challenge."
+    },
+    "Data Availability": {
+      "value": "Proprietary owned",
+      "memo": "Enterprise RAG operates on proprietary enterprise data owned and controlled by the deploying organization.",
+      "detail": "The retrieval corpus consists of enterprise-owned documents, knowledge bases, and internal content. Proprietary data ownership provides clear rights to use the content for RAG. No external licensing negotiation is needed for internally generated content. Proprietary ownership simplifies the data-rights architecture compared to training-data acquisition."
+    },
+    "Provenance": {
+      "value": "Verifiable",
+      "memo": "Enterprise RAG provides verifiable provenance: every answer can be traced to specific source documents in the retrieval corpus.",
+      "detail": "RAG architectures retrieve specific document chunks that ground the model's response. Source citations provide verifiable provenance for every generated answer. Users can check the original documents to verify accuracy and context. Verifiable provenance is a core advantage of RAG over pure generation."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Enterprise RAG uses hosted models through API access, keeping model weights under the provider's control.",
+      "detail": "The language model component typically runs as a hosted API from an external provider. Enterprise data passes through the model at inference time without modifying weights. Hosted-only access simplifies the rights picture: the enterprise owns the data, the provider owns the model. The clean separation between data and model is the architectural foundation of RAG governance."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "Enterprise RAG typically operates domestically, with data and processing staying within the deploying organization's home jurisdiction.",
+      "detail": "Enterprise data-governance policies generally keep sensitive content within domestic borders. Cloud-region selection ensures processing occurs in the appropriate jurisdiction. Domestic territory simplifies regulatory compliance for enterprise RAG. Cross-border RAG raises additional data-transfer considerations addressed through cloud-region choices."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "Enterprise RAG corpora frequently contain ordinary personal data in documents, emails, and records requiring privacy-compliant handling.",
+      "detail": "Enterprise knowledge bases include employee names, client details, and business correspondence. Personal-data presence triggers data-protection obligations for the RAG system. Privacy-compliant handling requires access controls, purpose limitation, and potential anonymization. Personal-data exposure is the primary privacy concern for enterprise RAG deployment."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Enterprise RAG processes commercially confidential business information including strategy, financials, and client matters.",
+      "detail": "Enterprise knowledge bases contain trade secrets, financial projections, and strategic plans. Client-matter information in professional-services RAG carries confidentiality obligations. The commercial-confidential sensitivity level requires enhanced security and access controls. Data sensitivity drives security requirements above standard consumer AI deployment."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Enterprise RAG deployment sits well below export-control or dual-use thresholds for standard commercial applications.",
+      "detail": "Standard enterprise RAG deployments do not trigger export-control or dual-use concerns. The informational nature and bounded scope keep the system outside control-relevant categories. No control exposure means no additional compliance burden from technology-transfer regulations. This simplicity is a deployment advantage of the RAG architecture."
+    },
+    "Processing Mode": {
+      "value": "Inference",
+      "memo": "Enterprise RAG operates entirely at inference time: enterprise data is retrieved and processed without any model training.",
+      "detail": "RAG's defining characteristic is inference-time data use rather than training-time incorporation. Enterprise data is retrieved, passed to the model, and processed without modifying weights. The inference-only processing mode is what creates the clean separation between data and model. Inference-time use preserves the optionality that training-time use destroys."
+    },
+    "Derivation": {
+      "value": "Direct output",
+      "memo": "Enterprise RAG produces direct outputs from retrieved documents without creating recursive derivation chains or feedback loops.",
+      "detail": "RAG answers are generated from retrieved passages without feeding back into model training. No recursive derivation occurs: outputs are consumed by users, not by the model. Direct-output processing avoids the exhaust-capture dynamics of training-based systems. The absence of recursive derivation simplifies data-governance and value-allocation questions."
+    },
+    "Retention / Persistence": {
+      "value": "Ephemeral/stateless",
+      "memo": "Enterprise RAG processing is ephemeral: queries and responses are processed without persistent retention in the model or inference system.",
+      "detail": "Each RAG query is processed and discarded without persistent storage in the model. No user data accumulates in the inference system across queries. Ephemeral processing supports data-minimization principles and simplifies compliance. The stateless design is a governance feature that training-based systems cannot replicate."
+    },
+    "Execution / Residency Environment": {
+      "value": "Controlled",
+      "memo": "Enterprise RAG runs in controlled environments with enterprise-managed security, access, and data-handling policies.",
+      "detail": "The execution environment is managed by enterprise IT with standard security controls. Cloud-hosted RAG uses selected cloud regions with appropriate data-residency configurations. Controlled execution provides the governance framework enterprise data requires. The controlled environment supports compliance with data-protection and sector-specific obligations."
+    },
+    "Boundary": {
+      "value": "Dedicated tenant",
+      "memo": "Enterprise RAG deployments typically use dedicated-tenant configurations to protect confidential enterprise data from cross-tenant exposure.",
+      "detail": "Commercially confidential data requires isolation from other customers' workloads. Dedicated-tenant RAG deployment provides logical or physical separation. The dedicated-tenant configuration addresses enterprise security and compliance requirements. Boundary isolation is a standard requirement for enterprise data-processing systems."
+    },
+    "Deployment Surface": {
+      "value": "Internal/embedded",
+      "memo": "Enterprise RAG deploys as an internal embedded tool within enterprise applications, accessible to authorized employees only.",
+      "detail": "RAG is embedded within enterprise portals, knowledge management systems, and productivity tools. Internal deployment restricts access to authorized organizational users. The embedded deployment surface integrates RAG into existing enterprise workflows. Internal-only access limits exposure surface and simplifies security governance."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Enterprise RAG runs on commercial cloud infrastructure from major providers, using standard enterprise cloud-security controls.",
+      "detail": "AWS, Azure, and GCP provide the compute and storage infrastructure for enterprise RAG. Standard enterprise cloud-security configurations apply to the RAG deployment. Commercial cloud provides the flexibility and scale needed for enterprise knowledge bases. The infrastructure choice is a standard enterprise IT decision."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "Enterprise RAG can use models from multiple providers, maintaining optionality over the language-model component.",
+      "detail": "The RAG architecture separates the retrieval corpus from the language model. This separation allows the enterprise to switch language models without rebuilding the retrieval system. Multi-provider sourcing preserves competitive pricing and avoids single-vendor dependency. Model substitutability is an architectural advantage of the RAG design."
+    },
+    "Compute Source": {
+      "value": "Rented/spot",
+      "memo": "Enterprise RAG inference runs on rented cloud compute, using standard commercial cloud instances without committed capacity.",
+      "detail": "Inference workloads use standard cloud compute instances available on demand. No committed capacity or dedicated infrastructure is needed for enterprise RAG. Rented compute provides cost flexibility and easy scaling. The low infrastructure commitment matches the operating-budget deployment model."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "Enterprise RAG is portable across cloud providers because the retrieval corpus and embedding indexes are provider-independent.",
+      "detail": "Vector databases and document indexes can be migrated between cloud providers. Language model APIs are functionally interchangeable for RAG use cases. Portable deployment avoids cloud lock-in at the infrastructure layer. Portability preserves enterprise negotiating leverage with cloud providers."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Enterprise RAG inference runs on standard Nvidia merchant GPUs available through any cloud provider.",
+      "detail": "RAG inference uses the same GPU infrastructure as other AI workloads. No specialized hardware is needed for the retrieval or generation components. Standard Nvidia GPUs provide adequate performance for enterprise RAG scale. The accelerator choice is a standard infrastructure decision without strategic implications."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Enterprise RAG compute is procured through standard market access without requiring strategic supply agreements or priority allocation.",
+      "detail": "Inference compute for RAG is available through standard cloud procurement. No priority GPU allocation or strategic supply relationship is needed. Market-access positioning keeps RAG deployment within standard enterprise procurement processes. The supply model matches the operational nature of enterprise RAG."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Enterprise RAG inference faces only general GPU availability constraints, with no specific silicon bottleneck for the architecture.",
+      "detail": "RAG inference compute requirements are modest compared to frontier training workloads. General GPU availability through cloud providers is sufficient for enterprise RAG scale. No architecture-specific silicon constraint limits RAG deployment. The accelerator bottleneck is less binding for inference than for training."
+    },
+    "Substitutability": {
+      "value": "Replaceable",
+      "memo": "Enterprise RAG components are replaceable: the language model, embedding model, and vector database can each be substituted independently.",
+      "detail": "The modular RAG architecture allows independent substitution of each component. Language models can be swapped without changing the retrieval corpus. Embedding models and vector databases can be replaced without changing the language model. Component replaceability is the architectural basis of RAG's clean-exit property."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "Enterprise RAG operates at the application layer, combining external model APIs with enterprise-owned retrieval infrastructure.",
+      "detail": "RAG applications integrate at the top of the stack without controlling model or infrastructure layers. The application-only position is appropriate for enterprise deployment without infrastructure ambitions. Value is created at the application layer through domain-specific corpus curation and retrieval optimization. Application-only positioning simplifies governance and reduces technical complexity."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "Enterprise RAG distributes capability through internal APIs and embedded application interfaces within the enterprise software stack.",
+      "detail": "RAG capability reaches users through internal API endpoints and application integrations. Enterprise software platforms embed RAG functionality within existing workflows. The API/app distribution channel keeps capability within enterprise access-control boundaries. Internal distribution simplifies governance and limits exposure surface."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "Enterprise RAG supply chains run through allied jurisdictions, with model providers and cloud infrastructure in trusted countries.",
+      "detail": "Language model providers and cloud infrastructure are predominantly US or allied-jurisdiction companies. Enterprise procurement preferences favor trusted-jurisdiction suppliers. Allied supply jurisdiction reduces counterparty risk for enterprise data processing. The supply-jurisdiction choice reflects enterprise risk-management practices."
+    },
+    "Observability": {
+      "value": "Auditable",
+      "memo": "Enterprise RAG is auditable: every answer traces to retrieved source documents, creating a verifiable evidence chain.",
+      "detail": "RAG systems log queries, retrieved passages, and generated responses. Source citations provide an auditable trail from question to answer to supporting document. The audit trail supports compliance verification and quality assurance. Auditable observability is a native feature of the RAG architecture, not an add-on."
+    },
+    "Evaluation": {
+      "value": "Domain evals",
+      "memo": "Enterprise RAG is evaluated through domain-specific assessments measuring retrieval relevance, answer accuracy, and grounding quality.",
+      "detail": "Evaluation metrics include retrieval precision, answer factuality, and citation accuracy. Domain-specific evaluation ensures the system performs well for the target knowledge area. Standard IR metrics and LLM-judge evaluations provide structured quality assessment. Domain-specific evaluation is more relevant than generic benchmarks for enterprise RAG."
+    },
+    "Interpretability": {
+      "value": "Legible trace",
+      "memo": "Enterprise RAG provides legible traces: retrieved passages and source citations make the reasoning process human-reviewable.",
+      "detail": "Retrieved document chunks show exactly what information the model used to generate its answer. Source citations allow users to verify claims against original documents. The retrieval step creates a legible trace that pure generation lacks. Legible traces are the interpretability advantage that makes RAG suitable for enterprise use."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Enterprise RAG alignment relies on human review of answers against source documents, leveraging the citation architecture.",
+      "detail": "Users review RAG answers by checking cited source documents. Human review is effective because the retrieval trace makes verification straightforward. The alignment method leverages the architectural transparency of RAG. Human review scales better for RAG than for opaque generation because verification is structured."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Enterprise RAG deploys with enterprise-grade security controls for data access, API authentication, and infrastructure protection.",
+      "detail": "Standard enterprise security controls protect the RAG system and its data corpus. API authentication, network security, and access logging apply to RAG endpoints. Enterprise-grade security is adequate for standard commercial-confidential data processing. The security posture matches the data sensitivity and deployment surface."
+    },
+    "Adversary Model": {
+      "value": "Casual misuse",
+      "memo": "Enterprise RAG faces casual-misuse adversary threats: employees testing boundaries or accidentally accessing restricted content.",
+      "detail": "The primary threat is authorized users attempting to access content beyond their authorization. Prompt injection to bypass retrieval restrictions is a known attack vector. Casual misuse rather than sophisticated state-actor threats defines the adversary model. The adversary model matches the internal-deployment security context."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Enterprise RAG model weights are monitored under provider control, with no weight-security concern at the enterprise deployment layer.",
+      "detail": "Model weights remain with the API provider and are not present in the enterprise environment. The enterprise's security concern is data protection, not weight protection. Provider-side weight monitoring applies standard security practices. Weight security is the provider's responsibility, not the enterprise RAG deployer's."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "Enterprise RAG uses role-based access control to ensure users only retrieve documents they are authorized to access.",
+      "detail": "RBAC integration with the retrieval system enforces document-level access permissions. Users only receive answers grounded in documents their role authorizes them to read. RBAC enforcement prevents cross-boundary information leakage through the RAG system. Access control is a critical security feature for enterprise RAG deployment."
+    },
+    "Monitoring Scope": {
+      "value": "Tool activity",
+      "memo": "Enterprise RAG monitoring covers tool activity: which documents are retrieved, what queries are submitted, and what answers are generated.",
+      "detail": "Query logs capture user questions and the retrieval results they triggered. Tool-activity monitoring provides visibility into RAG usage patterns and data-access patterns. The monitoring scope supports both security auditing and system quality improvement. Tool-activity logging is a standard feature of enterprise RAG platforms."
+    },
+    "Containment": {
+      "value": "Sandboxed",
+      "memo": "Enterprise RAG operates in a sandboxed environment with limited access to the retrieval corpus and no broader system connectivity.",
+      "detail": "The RAG system accesses only the designated retrieval corpus and model API. No broader system access, network connectivity, or tool integration is provided. Sandboxed containment limits the blast radius of any system compromise. The sandboxed architecture is a security feature of enterprise RAG design."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Enterprise RAG applies targeted restrictions through corpus curation, topic filtering, and retrieval-scope limitations.",
+      "detail": "Corpus curation determines what information the system can access and surface. Topic filters restrict answers to approved subject areas. Retrieval-scope limitations prevent the system from accessing unauthorized document collections. Targeted restrictions through corpus and retrieval management provide fine-grained capability control."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Enterprise RAG serves civilian commercial use: internal knowledge management and productivity enhancement.",
+      "detail": "Standard enterprise RAG deployments serve knowledge-work productivity rather than defense or dual-use applications. The civilian use class keeps RAG outside military and national-security regulatory requirements. Civilian classification simplifies compliance and governance. Defense-context RAG would require enhanced security and governance frameworks."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Enterprise RAG harm exposure is informational: hallucinated content, confidential-data leakage, and misleading answers from poor retrieval.",
+      "detail": "Hallucinated answers not grounded in source documents are the primary harm concern. Confidential-data leakage through over-broad retrieval is a secondary risk. Misleading answers from poor retrieval quality can lead to incorrect business decisions. All harm channels are informational, matching the cognitive-only deployment pattern."
+    },
+    "Proliferation": {
+      "value": "Contained",
+      "memo": "Enterprise RAG capability is contained within the deploying organization, with no capability spreading to external parties.",
+      "detail": "RAG operates within enterprise boundaries with no external distribution. No model weights or proprietary capability leave the enterprise environment. Contained deployment prevents capability from proliferating beyond the authorized organization. The containment is enforced by architecture and access controls rather than licensing."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "Enterprise RAG is behind the frontier: a practical tool-grade deployment rather than a strategic capability investment.",
+      "detail": "RAG is a practical enterprise tool rather than a frontier capability. The behind position is appropriate: RAG is not intended to lead AI capability development. RAG's value is in practical enterprise knowledge access, not strategic positioning. The behind classification reflects the tool-grade capability level."
+    },
+    "Race Pressure": {
+      "value": "Low",
+      "memo": "Enterprise RAG faces low competitive race pressure: it is a standard enterprise productivity tool rather than a competitive frontier.",
+      "detail": "RAG deployment is a standard enterprise IT decision without competitive urgency. No competitive race drives faster RAG deployment or more aggressive data access. Low race pressure allows careful governance and measured deployment. The low-pressure environment supports quality and compliance over speed."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Enterprise RAG deployment is a single-firm decision made by individual organizations for their own knowledge management.",
+      "detail": "Each enterprise makes independent RAG deployment decisions based on internal needs. No coalition, national project, or industry coordination drives RAG adoption. Single-firm structure means deployment scales at the pace of individual organizational readiness. The independent decision-making is appropriate for standard enterprise IT."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No nonproliferation regime applies to enterprise RAG because the capability is contained within individual organizations.",
+      "detail": "RAG capability does not proliferate beyond the deploying organization. No nonproliferation concern arises from contained enterprise knowledge-access tools. The none classification reflects the inherently contained nature of enterprise RAG. Nonproliferation is irrelevant rather than ungoverned."
+    },
+    "Data Value Dynamics": {
+      "value": "Use-specific",
+      "memo": "Enterprise RAG data value is use-specific: the corpus is valuable for its designated retrieval purpose without broader accretive dynamics.",
+      "detail": "The retrieval corpus has value for answering specific enterprise knowledge questions. No recursive improvement loop makes the data more valuable over time through use. Data value is tied to the currency and relevance of the specific document collection. Use-specific dynamics mean value maintenance requires active corpus curation."
+    },
+    "Input Price": {
+      "value": "Usage-based",
+      "memo": "Enterprise RAG costs are usage-based: inference API calls and embedding processing scale with query volume.",
+      "detail": "Model API charges scale with the number of queries and token volume. Embedding costs scale with corpus size and update frequency. Usage-based pricing provides cost transparency and proportional spending. The pricing model matches enterprise expectations for cloud-service consumption."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "Enterprise RAG output value is retained by the deploying organization, which owns both the knowledge base and the answers derived from it.",
+      "detail": "The enterprise owns the retrieval corpus and captures full value from RAG-generated answers. No sharing mechanism allocates output value to the model provider or data contributors. Retained output value is a natural consequence of enterprise data ownership. The clean output-allocation picture is an advantage of inference-only processing."
+    },
+    "Derived Value Capture": {
+      "value": "Joint/reciprocal",
+      "memo": "RAG derived value is jointly captured: the enterprise benefits from knowledge access while the model provider earns usage revenue.",
+      "detail": "The enterprise captures value through improved knowledge-work productivity. The model provider captures value through API usage revenue. The joint-reciprocal dynamic creates aligned incentives between enterprise and provider. Neither party extracts value at the other's expense."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Limited indemnity",
+      "memo": "Enterprise RAG operates under limited indemnity terms in the model-provider agreement, with bounded liability for AI-generated outputs.",
+      "detail": "Model-provider terms typically include limited indemnity for IP-related claims. Liability for AI output accuracy is generally disclaimed but bounded by contract terms. Enterprise deployers bear residual risk for business decisions based on RAG outputs. Limited indemnity provides some protection without full coverage of AI-specific risks."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "Enterprise RAG is funded from operating budgets as a standard IT expense rather than strategic infrastructure investment.",
+      "detail": "RAG costs are operating expenses: cloud compute, API usage, and engineering time. No capital investment in hardware, data centers, or silicon is required. Operating-budget funding keeps the commitment level low and reversible. The operating-expense framing matches standard enterprise IT procurement."
+    },
+    "Commitment Tenor": {
+      "value": "Short-term",
+      "memo": "Enterprise RAG commitments are short-term: monthly or annual cloud-service subscriptions with easy termination.",
+      "detail": "Cloud compute and model API agreements are typically monthly or annual with cancellation options. No long-term infrastructure commitment locks the enterprise into RAG deployment. Short-term commitments preserve maximum optionality for the deploying organization. The short tenor reflects the low switching costs and portable architecture."
+    },
+    "Revenue Dependency": {
+      "value": "Experimental",
+      "memo": "Enterprise RAG represents experimental revenue dependency: a productivity tool being evaluated rather than a core business capability.",
+      "detail": "Most enterprise RAG deployments are in pilot or early-adoption phases. AI-generated answers enhance existing workflows but do not constitute independent revenue. Experimental dependency means RAG failure would be inconvenient but not business-threatening. The early adoption stage reflects the enterprise market's cautious evaluation of AI tools."
+    },
+    "Switching Cost": {
+      "value": "Low",
+      "memo": "Enterprise RAG switching costs are low: the retrieval corpus transfers between model providers with minimal integration rework.",
+      "detail": "The enterprise owns the document corpus independently of any model or platform provider. Switching language models requires prompt re-engineering but not data migration. Vector-database portability enables infrastructure provider switches. Low switching costs are a designed feature of the RAG architecture."
+    },
+    "Exit": {
+      "value": "Clean",
+      "memo": "Enterprise RAG exit is clean: inference-only processing means no enterprise data is entangled in model weights, enabling complete separation.",
+      "detail": "Enterprise data passes through the model at inference time without modifying weights. Terminating the model-provider relationship leaves no residual capability in the provider's systems. The clean-exit property is RAG's primary governance advantage over training-based approaches. Architectural separation between data and model is what makes clean exit possible."
+    },
+    "Acceptance Basis": {
+      "value": "Hybrid",
+      "memo": "Enterprise RAG demands articulable compliance and audit trails, but ultimately validates through retrieval accuracy and output quality.",
+      "detail": "Regulated enterprises require documented data governance, access controls, and audit trails for RAG deployments. These process requirements coexist with outcome-based acceptance: the system must actually retrieve accurately and generate useful answers. Compliance documentation alone does not validate a RAG system that returns wrong results. The hybrid basis reflects enterprise reality where both process and outcome must satisfy different stakeholders."
+    }
+  }
+}

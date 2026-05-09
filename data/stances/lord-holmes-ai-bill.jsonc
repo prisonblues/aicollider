@@ -1,0 +1,372 @@
+// This stance is a good-faith, best-efforts analysis of Lord Holmes's
+// publicly stated positions and legislative proposals. It has not been
+// reviewed or endorsed by Lord Holmes or his office. These categorisations
+// should not be attributed to him.
+{
+  "id": "lord-holmes-ai-bill",
+  "name": "Lord Holmes AI Bill",
+  "desc": "Statutory horizontal AI governance that codifies citizen protection, creative IP consent, and public engagement through a new AI Authority — closing the gap the UK's voluntary approach leaves open.",
+  "caveat": "This stance is a good-faith categorisation based on public information including parliamentary records, published reports, and speeches. It has not been reviewed or endorsed by Lord Holmes or his office and this analysis of his positions should not be attributed to him.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "Holmes's bill targets frontier-scale systems where citizen exposure is highest and voluntary governance is most inadequate.",
+      "detail": "The bill addresses AI systems broadly but its urgency stems from frontier capability. The '8 Realities' report documents harms from large-scale generative systems: deepfake disinformation, voice-cloning fraud, algorithmic welfare decisions, and copyright-scale training ingestion. The bill's definition explicitly includes generative AI. Narrow or tool-grade systems would not generate the regulatory gap the bill seeks to close."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "The bill's horizontal regulatory design and cross-domain citizen archetypes address general-purpose AI, not sector-bounded systems.",
+      "detail": "Holmes's eight citizen archetypes span voting, fraud, welfare, employment, education, healthcare, and creative industries. His deliberate choice of horizontal regulation over sector-specific rules reflects the general-purpose nature of the systems he targets. A sector-specific approach would leave gaps between regulators. The horizontal AI Authority exists precisely because AI capability crosses domain boundaries."
+    },
+    "Capability Trajectory": {
+      "value": "Rapid",
+      "memo": "Holmes frames regulatory urgency around rapid capability growth that is outpacing governance institutions.",
+      "detail": "Between the bill's first introduction (November 2023) and reintroduction (March 2025), Holmes's language escalated from 'urgent' to 'even more urgent.' This framing implies capability is advancing faster than institutions can respond through voluntary measures. The rapid trajectory justifies statutory intervention: if progress were incremental, existing regulators could adapt. The bill's adaptive design anticipates continued rapid change."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "Holmes's governance framework assumes human-directed AI development with institutional oversight at every level.",
+      "detail": "The bill's AI Responsible Officer, transparency requirements, and human-oversight principles all assume humans lead AI development and deployment. Research automation is not addressed because the bill's concern is governance of deployed capability, not the research process. The human-led assumption is consistent with Holmes's insistence that regulation enables innovation through human direction."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Holmes legislates for AI systems that take delegated actions within enterprise workflows — tool-using but governed.",
+      "detail": "The AI Responsible Officer clause presumes AI is integrated into business processes making consequential decisions: screening job applicants, processing benefit claims, generating content. These are tool-using deployments, not chatbot conversations. The bill's consent and labelling requirements only make sense if AI systems produce consequential outputs. The regulatory sandbox clause assumes tool-using deployment in real markets."
+    },
+    "Replication Scale": {
+      "value": "Population-scale",
+      "memo": "The '8 Billion Reasons' framing and cross-society citizen archetypes position the bill against population-scale AI exposure.",
+      "detail": "Holmes's report title is not rhetorical. The eight citizen archetypes — voter, scammed, benefit claimant, job seeker, teenager, creative, transplant patient, teacher — represent categories that collectively cover the entire population. His argument is that unregulated AI affects everyone, often without their knowledge. The public-engagement clause confirms the population-scale framing: the AI Authority must reach the whole public."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Holmes's emphasis on AI outpacing human institutions implies faster-than-human operational speed as the governance challenge.",
+      "detail": "The bill's urgency derives from AI acting faster than regulatory institutions can respond. Voice-cloning scams, algorithmic welfare decisions, and training-data ingestion all operate at machine speed. Holmes's solution — statutory principles rather than case-by-case review — is designed for a faster-than-human operational environment where voluntary governance cannot keep pace."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Holmes's citizen archetypes and legislative focus address cognitive AI — information, decisions, and content — not physical-world systems.",
+      "detail": "All eight citizen archetypes involve cognitive harms: misinformation, fraud, bias, IP theft, harmful content. No archetype involves robotic or physical-world AI. The bill's regulatory principles — transparency, fairness, contestability — are cognitive-domain governance tools. Physical-world AI regulation would require different mechanisms that the bill does not address."
+    },
+    "Role": {
+      "value": "Copilot/worker",
+      "memo": "Holmes's bill governs AI doing consequential work within organisations, not merely assisting human thought.",
+      "detail": "The AI Responsible Officer requirement presumes AI systems have enough role authority to make consequential decisions: screening applicants, processing claims, generating commercial content. An assistant role would not need a designated corporate officer. The bill's accountability framework is calibrated for AI that does work, not AI that merely advises. The copilot framing captures the bounded-but-consequential role the bill regulates."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "Holmes's harm channels flow through information: misinformation, biased decisions, IP theft, and manipulative content.",
+      "detail": "The bill's eight citizen archetypes all involve informational actuation. The voter faces deepfake misinformation. The scammed faces AI-generated voice fraud. The benefit claimant faces algorithmic decision-making. The creative faces IP ingestion. Even where financial consequences follow, the actuation channel is informational. The bill's labelling and consent requirements are informational governance tools."
+    },
+    "Autonomy": {
+      "value": "Human-in-loop",
+      "memo": "Holmes's statutory principles of accountability, contestability, and the AI Responsible Officer mandate human approval before consequential AI action.",
+      "detail": "The bill's governance architecture requires human oversight at multiple points: the AI Responsible Officer ensures ethical deployment, contestability and redress preserve challenge rights, and transparency mandates require human-readable disclosure. This is human-in-loop governance: consequential actions require human-accountable decision points. The bill's strength relative to the UK status quo is precisely this shift from on-loop to in-loop."
+    },
+    "Delegated Authority": {
+      "value": "Recommend only",
+      "memo": "The bill's contestability and redress principles constrain AI to recommendation rather than binding authority over citizens.",
+      "detail": "Contestability is one of the bill's six statutory principles. Citizens must be able to challenge AI-influenced decisions, which requires that AI decisions are recommendations subject to human override. The benefit claimant, job seeker, and transplant patient archetypes all involve AI making consequential recommendations that humans should retain authority to reverse."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "The bill's accredited audit and responsible-officer requirements create structured permission gates around AI tool access.",
+      "detail": "Clause 5 requires independent third-party audit accredited by the AI Authority. The AI Responsible Officer must oversee deployment. These create governance gates that AI systems must pass before accessing consequential tools and data. The gated-tools posture is the bill's operational expression of its accountability principle. Ungated access would undermine the governance framework."
+    },
+    "Response / Intervention Capability": {
+      "value": "Defined escalation",
+      "memo": "The bill creates an AI Authority with statutory enforcement powers, offences, and fines — a defined institutional escalation path.",
+      "detail": "Clause 8 establishes offences and fines. The AI Authority has powers to accredit auditors, require disclosure, and conduct gap analysis. The AI Responsible Officer creates a corporate escalation point. Together these form multi-level defined escalation: corporate officer to Authority to enforcement action. This exceeds the UK's current best-efforts AISI approach and matches the EU's standard."
+    },
+    "Command Actor": {
+      "value": "State/coalition",
+      "memo": "The bill creates a statutory AI Authority — state-level command over AI governance that the UK currently lacks.",
+      "detail": "Holmes's AI Authority is a state body established by the Secretary of State. It sits above enterprise and sector-regulator command, coordinating horizontal governance. This is the bill's most significant structural change from the UK status quo, where command sits at enterprise level. The state-level command is not prescriptive bureaucracy but 'agile, right-sized' — modelled on the fintech regulatory sandbox."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "The bill's regulatory sandboxes and compliance requirements operate on product-cycle timelines, not crisis response.",
+      "detail": "Regulatory sandboxes allow structured testing within product development cycles. The AI Responsible Officer reports under the Companies Act timeline. Accredited audit occurs during deployment, not after crisis. This product-cycle tempo is deliberate: Holmes argues that getting governance into the development cycle is more effective than post-hoc crisis intervention."
+    },
+    "Tradeoff Authority": {
+      "value": "Safety body",
+      "memo": "The AI Authority holds tradeoff authority between innovation and safety — a function currently unassigned in UK governance.",
+      "detail": "Holmes's bill transfers speed-safety tradeoff authority from product teams (the current UK default) to a statutory safety body. The AI Authority's gap-analysis and horizon-scanning functions are designed to identify where safety concerns should override deployment speed. This is the bill's sharpest break from the UK's pro-innovation approach, which leaves tradeoff authority with deployers."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "The bill conditions AI development and deployment on consent, transparency, and compliance with statutory principles.",
+      "detail": "Clause 5 requires informed consent for third-party data use in training. The AI Responsible Officer must ensure ethical deployment before launch. Regulatory sandboxes condition market access on supervised testing. Every permission gate is conditional rather than broad. This creates the strongest conditional-permission regime proposed in UK legislation."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Holmes's bill creates a conditionally permissive regime: AI is allowed but statutory principles, audit, and consent must be satisfied.",
+      "detail": "The bill is not prohibitive — Holmes repeatedly states he is pro-innovation. But it conditions innovation on compliance with six statutory principles, responsible-officer appointment, data-use transparency, and audit. This conditional posture sits between the UK's current permissive default and the EU's more prescriptive risk-classification system."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "Clause 5's informed-consent requirement for all training data forces a licensed-data environment — no scraping without permission.",
+      "detail": "Holmes requires that AI developers supply the AI Authority with records of all third-party data used in training and assure that all data is used by informed consent. This creates a licensing requirement more explicit than existing UK copyright law. The licensing posture is Holmes's direct response to what he calls 'intellectual property theft on a vast scale.'"
+    },
+    "Provenance": {
+      "value": "Verifiable",
+      "memo": "Clause 5 requires documented records of all training data supplied to the AI Authority, creating a verifiable provenance chain.",
+      "detail": "The bill goes beyond declared or mixed provenance to require that developers demonstrate consent for every piece of third-party training data. Independent auditors accredited by the AI Authority can inspect these records. This creates a provenance standard stronger than the UK's current mixed/declared posture and comparable to the EU's verifiable requirement."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "The bill's accountability and audit framework operates most naturally on hosted deployments where the provider remains identifiable.",
+      "detail": "Holmes does not directly address model-weight distribution, but his governance framework — AI Responsible Officer, accredited audit, offences and fines — requires an identifiable accountable entity. Hosted-only deployment keeps the accountability chain intact. Open-weight distribution would complicate the bill's audit and enforcement mechanisms."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "The bill is UK domestic legislation without the EU AI Act's extraterritorial reach — enforcement depends on UK jurisdiction.",
+      "detail": "Holmes's bill applies within UK borders. It does not claim extraterritorial jurisdiction over non-UK AI developers. This limits enforcement against offshore frontier labs that train on UK-originated data. Holmes's emphasis on international 'interoperability' of regulatory frameworks acknowledges the territorial limitation and seeks coordination rather than projection."
+    },
+    "Data Subject Exposure": {
+      "value": "Special-category",
+      "memo": "Holmes's citizen archetypes explicitly address children, health patients, welfare recipients, and voters — all special-category exposure.",
+      "detail": "The teenager archetype involves minors' exposure to AI-generated content. The transplant patient involves health decisions shaped by AI. The benefit claimant involves welfare algorithms processing sensitive personal circumstances. The voter faces democratic manipulation. These are not ordinary personal data scenarios. The bill's governance is calibrated for special-category exposure because that is where citizen harm is most severe."
+    },
+    "Data Sensitivity": {
+      "value": "Sensitive/regulated",
+      "memo": "The bill addresses AI in healthcare, welfare, employment, and children's exposure — all regulated-sensitivity domains.",
+      "detail": "Holmes's eight citizen archetypes systematically map regulated-sensitivity domains: healthcare, welfare, employment, children, democratic process. The bill's horizontal design is motivated by AI crossing these regulated domains. The sensitivity level justifies statutory intervention where voluntary guidance is insufficient."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "The bill targets civilian commercial AI deployment, not export-controlled or dual-use technology.",
+      "detail": "Holmes's citizen archetypes are entirely civilian: voters, consumers, patients, workers, students. The bill does not address military or national-security AI applications. Export controls are not part of the governance framework. The no-control-issue posture reflects the bill's civilian-protection scope."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "Clause 5 directly regulates training by requiring consent records for all third-party data and IP used to train AI systems.",
+      "detail": "The bill's most specific technical provision targets the training process. Developers must document all training data, prove consent, and submit to accredited audit of their training pipelines. This distinguishes Holmes's bill from deployment-only governance. The training focus addresses the root of creative-industries harm: it is during training that IP is ingested."
+    },
+    "Derivation": {
+      "value": "Direct output",
+      "memo": "The bill's labelling and consent requirements focus on direct AI outputs reaching citizens, not recursive derivation chains.",
+      "detail": "Holmes's transparency requirements — labelling, health warnings, consent opportunities — all apply to direct outputs. The bill does not address recursive derivation or feedback loops. The direct-output focus reflects the bill's citizen-protection purpose: it is the outputs citizens encounter that need governance."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Holmes explicitly identifies 'once in, forever in' as the structural problem: trained capability persists beyond any data-deletion mechanism.",
+      "detail": "Holmes's digital-replicas amendment was motivated by the recognition that 'once parts of you have been ingested, it is difficult to have them extracted from the model.' This weight-entanglement is the bill's problem diagnosis. The bill's response is consent before ingestion rather than extraction after training. The pick captures the reality the bill confronts and attempts to manage through front-end governance."
+    },
+    "Execution / Residency Environment": {
+      "value": "Public cloud",
+      "memo": "The bill inherits the UK's public-cloud reality — governance applies to AI running on US hyperscaler infrastructure.",
+      "detail": "Holmes does not specify execution environment requirements. The UK's commercial AI runs on public cloud from AWS, Azure, and GCP. The bill's governance applies regardless of hosting architecture. The public-cloud default is a background reality the bill accepts rather than addresses. Holmes's focus is on governance of behaviour, not infrastructure residency."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "The bill applies governance to AI deployed on shared multi-tenant infrastructure — the UK commercial default.",
+      "detail": "Holmes does not mandate dedicated or isolated deployment environments. His governance framework operates through accountability and transparency rather than infrastructure boundary controls. The shared-boundary default is inherited from the UK cloud market. The bill's innovation is governance overlay on existing infrastructure, not infrastructure restructuring."
+    },
+    "Deployment Surface": {
+      "value": "Public-facing",
+      "memo": "Holmes's citizen archetypes — voter, consumer, patient, student — define a public-facing deployment surface as the governance target.",
+      "detail": "The bill's Clause 6 mandates public engagement about AI opportunities and risks. The labelling requirements target AI products and services reaching the general public. The eight citizen archetypes all involve members of the public encountering AI in everyday contexts. The public-facing deployment surface is the bill's explicit governance territory."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "The bill operates within the UK's commercial-cloud infrastructure reality without addressing physical compute.",
+      "detail": "Holmes does not address compute infrastructure, data centres, or physical AI buildout. His bill is governance-layer legislation that sits above infrastructure decisions. The commercial-cloud default reflects the UK reality within which the bill would operate. Infrastructure sovereignty is a separate policy question the bill does not claim to answer."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "The bill's interoperability principle and horizontal scope imply governance across multiple AI providers, not single-vendor regulation.",
+      "detail": "Holmes lists interoperability as one of the bill's seven principles. The AI Authority coordinates across providers and sectors rather than targeting specific vendors. The bill creates a governance standard that applies uniformly across providers, incentivising multi-provider environments where the governance framework ensures consistency."
+    },
+    "Compute Source": {
+      "value": "Rented/spot",
+      "memo": "The bill inherits the UK's rented-compute reality — governance applies to AI using cloud-sourced capacity.",
+      "detail": "Holmes does not address compute sourcing or procurement. UK AI operates predominantly on rented cloud capacity. The bill governs AI behaviour and accountability regardless of the compute architecture underneath. This is a conscious scope choice: the bill addresses citizen-facing governance rather than industrial infrastructure policy."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "The bill inherits the UK's preferred-partner cloud dependency without addressing provider lock-in or portability.",
+      "detail": "Holmes does not address cloud dependency or portability. UK commercial AI runs primarily through preferred-partner arrangements with US hyperscalers. The bill's governance sits above the cloud layer. Cloud dependency is a supply-chain concern the bill acknowledges indirectly through its interoperability principle but does not directly regulate."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "The bill inherits global Nvidia GPU dependency without addressing silicon strategy — governance, not infrastructure.",
+      "detail": "Holmes does not address hardware supply chains. The UK depends entirely on Nvidia merchant GPUs. The bill is a governance instrument, not an industrial policy. Silicon strategy would require different legislation. The accelerator-stack pick reflects the hardware reality within which the bill's governance framework would operate."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "The bill does not create supply-control mechanisms — the UK procures AI infrastructure through open market access.",
+      "detail": "Holmes's bill is a governance framework, not a procurement or industrial strategy. The UK acquires AI compute and models through standard market channels. Supply control is a separate policy domain. The market-access posture is the UK default that the bill accepts rather than modifies."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "The UK faces the global accelerator-supply bottleneck — the bill does not address this infrastructure constraint.",
+      "detail": "Holmes's bill focuses on governance of deployed AI rather than the supply chain that enables it. GPU supply constraints affect UK AI ambitions but are beyond the bill's scope. The accelerator-supply bottleneck is an inherited reality. The bill's regulatory sandbox model assumes AI capability exists to be governed."
+    },
+    "Substitutability": {
+      "value": "Replaceable",
+      "memo": "The bill's interoperability principle and horizontal standards push toward replaceable AI components rather than provider lock-in.",
+      "detail": "Interoperability is one of the bill's seven founding principles. Horizontal governance standards applied uniformly across providers reduce switching costs. Accredited audit creates comparable evidence across vendors. The replaceable posture is a consequence of the bill's design rather than an explicit target. Holmes's framework naturally reduces lock-in by creating common governance standards."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "The bill governs the application layer where AI meets citizens — it does not address the infrastructure or model layers below.",
+      "detail": "Holmes's governance framework targets application-level behaviour: labelling, consent, responsible officers, audit. It does not regulate model training architecture, compute infrastructure, or silicon supply. The application-only positioning reflects both the UK's structural position and the bill's deliberate scope: citizen protection at the deployment boundary."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "The bill's labelling and consent requirements apply at the API and application distribution layer where users encounter AI.",
+      "detail": "Holmes's transparency requirements — labelling, health warnings, consent — operate at the point where AI reaches users through APIs and applications. The bill does not address platform-default or OS-level distribution. The API/app channel is where the bill's governance mechanisms have practical effect."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "The UK's AI supply chain runs through allied jurisdictions — the bill acknowledges this through its interoperability emphasis.",
+      "detail": "UK AI capability depends on US cloud providers and Taiwanese semiconductor manufacturing. Holmes's emphasis on international regulatory interoperability acknowledges this allied-jurisdiction dependency. The bill does not seek supply-chain sovereignty but regulatory coordination within the allied framework."
+    },
+    "Observability": {
+      "value": "Auditable",
+      "memo": "Clause 5's accredited-audit requirement creates auditable AI systems — stronger than declared, weaker than independently verifiable.",
+      "detail": "The bill requires independent third-party audit by accredited auditors. This exceeds the UK's current declared-only posture where AISI relies on voluntary transparency. But it falls short of independently verifiable because audit access depends on the AI Authority's accreditation framework. Auditable is the bill's practical ceiling: structured access to evidence through institutional mechanisms."
+    },
+    "Evaluation": {
+      "value": "Domain evals",
+      "memo": "The bill's regulatory sandboxes and sector-spanning scope push evaluation toward domain-specific testing rather than generic benchmarks.",
+      "detail": "Regulatory sandboxes test AI 'with real customers, real markets, real innovations' — domain-specific evaluation by design. The AI Authority's gap-analysis function requires understanding how AI performs in specific regulated domains. The eight citizen archetypes each represent a domain-evaluation context. Generic benchmarks would not satisfy the bill's citizen-protection requirements."
+    },
+    "Interpretability": {
+      "value": "Legible trace",
+      "memo": "The bill's transparency and contestability principles demand legible decision traces that citizens can understand and challenge.",
+      "detail": "Contestability is one of the bill's six statutory principles. Citizens must be able to challenge AI-influenced decisions, which requires legible traces of how those decisions were reached. The transparency principle reinforces this: AI products must give 'clear and unambiguous' information. Legible traces are a governance requirement, not a technical achievement."
+    },
+    "Acceptance Basis": {
+      "value": "Process-required",
+      "memo": "The bill's statutory principles, audit requirements, and responsible-officer mandate demand articulable process as the basis for AI deployment.",
+      "detail": "Holmes's bill requires demonstrable compliance with six principles, accredited audit evidence, responsible-officer certification, and consent documentation. This is unambiguously process-required acceptance. Outcome-sufficient deployment is explicitly what the bill rejects: the current UK approach where AI is accepted if it works, without process accountability."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "The bill's AI Responsible Officer and accredited audit mandate human review as the primary alignment and oversight mechanism.",
+      "detail": "The AI Responsible Officer must ensure safe, ethical, and unbiased deployment — a human-review alignment function written into corporate governance. Accredited auditors provide external human review. These human-review mechanisms layer on top of whatever technical alignment the AI system employs. The bill mandates human review as the institutional alignment layer."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "The bill's responsible-officer and audit requirements imply enterprise-grade security without mandating national-defence-grade compartmentation.",
+      "detail": "The AI Responsible Officer must ensure safe deployment under Companies Act reporting. Accredited audit requires structured evidence and access controls. These create enterprise-grade security expectations. The bill does not address national-defence scenarios. Enterprise-grade security is the practical ceiling for the civilian commercial AI the bill governs."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Holmes's 'scammed' citizen archetype addresses criminal adversaries; his voter archetype addresses state-adjacent disinformation.",
+      "detail": "The scam-citizen archetype involves organised criminals exploiting AI voice mimicry. Holmes's democracy-and-digital-technologies work addresses state-adjacent disinformation campaigns. The adversary model spans criminal fraud through state-adjacent manipulation. The bill's governance framework — labelling, consent, enforcement — is calibrated to resist these threats."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "The bill's audit and transparency requirements create monitoring of model behaviour without mandating physical weight security.",
+      "detail": "Holmes's accredited audit monitors AI system behaviour and data use. The AI Authority's oversight creates institutional monitoring. But the bill does not address model-weight exfiltration, airgapping, or physical security. Monitored behaviour is the governance posture; weight security in the physical sense is beyond scope."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "The AI Responsible Officer role creates structured role-based accountability within organisations deploying AI.",
+      "detail": "The bill's AI Responsible Officer is a defined role with specific accountability and reporting obligations. Accredited auditors are another defined role with specific access rights. These create a role-based access and accountability structure. The bill does not mandate least-privilege or multi-key controls, but the officer role differentiates permissions and responsibilities by function."
+    },
+    "Monitoring Scope": {
+      "value": "Prompts and outputs",
+      "memo": "The bill's transparency and labelling requirements extend monitoring to both AI inputs (training data) and outputs (products and services).",
+      "detail": "Clause 5 requires records of all training data (inputs) and mandates labelling of AI-generated outputs. The AI Responsible Officer must oversee both what goes into AI systems and what comes out. This prompt-and-output scope exceeds output-only monitoring but does not extend to tool activity or infrastructure telemetry."
+    },
+    "Containment": {
+      "value": "Sandboxed",
+      "memo": "Clause 3's regulatory sandboxes are the bill's primary containment mechanism — controlled testing before market deployment.",
+      "detail": "Holmes draws explicitly on the 2016 fintech regulatory sandbox model. AI sandboxes would allow testing 'with real customers, real markets, real innovations' in a supervised environment. This is containment through structured release rather than technical isolation. The sandbox model is Holmes's signature contribution: it simultaneously enables innovation and contains risk."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "The bill's offences-and-fines clause enables targeted restriction of specific harmful AI uses rather than generic content filtering.",
+      "detail": "Clause 8 creates the power to define offences and set fines for specific harmful AI practices. This is targeted restriction through legislative enforcement rather than policy-filter content moderation. Holmes's opposition to deepfake disinformation and voice-cloning fraud implies specific use-case restrictions. The targeted approach gives the framework enforcement teeth."
+    },
+    "Use Class": {
+      "value": "Civilian regulated",
+      "memo": "The bill creates a civilian-regulated category: AI remains civilian but subject to statutory principles, audit, and enforcement.",
+      "detail": "Holmes's bill does not address military or national-security AI. All eight citizen archetypes are civilian contexts. But the bill's statutory principles, responsible officer, audit, and enforcement regime create a regulated environment. This matches the EU's civilian-regulated posture and distinguishes Holmes's proposal from the UK's current unregulated-civilian default."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Holmes's eight citizen archetypes all involve informational harm: misinformation, biased algorithms, IP theft, and manipulative content.",
+      "detail": "Every harm channel in the '8 Realities' report is informational: deepfake disinformation, voice-cloning fraud, algorithmic bias, harmful AI content, copyright theft, AI-influenced medical decisions, unethical AI responses. Even where financial consequences follow, the actuation channel is informational. The bill's governance tools — labelling, consent, transparency — are informational interventions."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "The bill's consent-and-audit regime creates licensed diffusion: AI capability spreads through documented, accountable channels.",
+      "detail": "The combination of informed consent for training data, accredited audit for deployment, and labelling for products creates a licensed-diffusion environment. AI can spread but only through channels that satisfy governance conditions. This is tighter than the UK's current market-driven diffusion and matches the EU's conditional-proliferation posture."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "Holmes's bill addresses the UK's position behind the US and China in AI capability — governance leadership compensates for the capability gap.",
+      "detail": "Holmes explicitly argues that the UK can become 'a global leader for responsible AI development' through regulatory leadership rather than capability competition. His fintech-sandbox analogy — a regulatory innovation replicated in 50+ countries — positions governance as an exportable UK asset. The behind-on-capability position motivates the governance strategy."
+    },
+    "Race Pressure": {
+      "value": "Low",
+      "memo": "Holmes explicitly rejects the innovation-vs-regulation race framing, positioning the UK to compete on governance quality rather than speed.",
+      "detail": "Holmes's core rhetorical move is rejecting the 'false dichotomy that you can have either innovation or regulation but never the twain shall meet.' By defining competition as governance quality rather than capability speed, he reduces race pressure. The bill's regulatory-sandbox model shows that structured governance can attract investment rather than repelling it."
+    },
+    "Coalition Structure": {
+      "value": "National project",
+      "memo": "The bill organises UK AI governance as a national project through a statutory AI Authority coordinating across sectors.",
+      "detail": "Holmes's AI Authority is a national institution established by the Secretary of State. It coordinates across existing sector regulators, conducts gap analysis, and accredits auditors. This is a national-project structure: government-led, cross-sectoral, and strategically coordinated. It exceeds the current approach of leaving governance to individual regulators."
+    },
+    "Nonproliferation Regime": {
+      "value": "Enforced regime",
+      "memo": "The bill's offences, fines, and accredited audit create an enforced domestic governance regime — not merely voluntary norms.",
+      "detail": "Holmes's bill's most significant departure from UK status quo is creating enforcement. Clause 8 establishes offences and fines. Accredited audit creates inspection capability. The AI Responsible Officer creates corporate liability. This is an enforced regime at the domestic level. The shift from norms to enforcement is the bill's central institutional innovation."
+    },
+    "Data Value Dynamics": {
+      "value": "Use-specific",
+      "memo": "The bill's consent-per-use requirement makes data value use-specific — each training application requires its own permission basis.",
+      "detail": "Clause 5 requires informed consent for all third-party data used in AI training. This makes data value dependent on specific use permissions rather than freely transferable across purposes. A dataset licensed for one AI application cannot be reused for another without fresh consent. This use-specific dynamic strengthens rights-holder bargaining position."
+    },
+    "Input Price": {
+      "value": "Revenue share",
+      "memo": "Holmes's creative-industries advocacy and licensing-first position push toward revenue-sharing arrangements between data providers and AI developers.",
+      "detail": "Holmes repeatedly frames the creative sector's GBP 126 billion contribution and 2.4 million jobs as assets deserving fair return. His opposition to opt-out models and support for licensing markets implies revenue-sharing rather than one-time fixed payment. The bill's governance framework enables this market by making consent and transparency prerequisites for training-data access."
+    },
+    "Output Allocation": {
+      "value": "Shared",
+      "memo": "The bill's consent-and-licensing framework implies shared output allocation between data providers and AI developers.",
+      "detail": "Holmes's creative-industries position demands that rights holders participate in the value AI systems generate from their work. The informed-consent requirement for training data creates a contractual basis for output-allocation negotiation. Shared allocation is the natural outcome of a licensing market where both sides have bargaining power."
+    },
+    "Derived Value Capture": {
+      "value": "Revenue share",
+      "memo": "Holmes's consistent advocacy for creative-industry licensing positions derived value capture as revenue-sharing rather than processor-only extraction.",
+      "detail": "Holmes's opposition to the current status quo — where the processor captures all derived value — is the core of his creative-industries argument. His licensing-first position, consent requirements, and characterisation of scraping as 'IP theft' all push derived value toward shared capture. The revenue-share pick reflects Holmes's intended outcome: creatives participating in downstream value."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Allocated",
+      "memo": "The bill's AI Responsible Officer, offences, and fines allocate risk to deployers and developers rather than leaving it disclaimed or uninsured.",
+      "detail": "The AI Responsible Officer creates corporate accountability with Companies Act reporting. Offences and fines assign enforcement consequences. Accredited audit creates evidence for liability determination. This allocated-risk posture replaces the UK's current uninsured gap where standard disclaimers apply. Risk sits with identifiable parties through defined governance mechanisms."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "The bill's proportionate compliance requirements are designed to sit within operating budgets, including for startups.",
+      "detail": "Holmes explicitly builds proportionality into the AI Responsible Officer clause — a startup need not create a full-time role. The bill's lightweight governance approach is designed to be affordable within normal operating costs. Holmes's argument that regulation drives investment depends on compliance costs remaining manageable within operating budgets."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "Statutory governance creates multi-year commitment: the bill's principles and institutions would persist across political cycles.",
+      "detail": "Statute law creates longer commitment horizons than voluntary guidance. The AI Authority, once established, would operate across government changes. Holmes's bill has already survived one parliamentary dissolution and been reintroduced — demonstrating multi-year commitment to the governance architecture."
+    },
+    "Revenue Dependency": {
+      "value": "Experimental",
+      "memo": "The bill governs a UK AI market where revenue dependency remains experimental — enhancement rather than core reliance.",
+      "detail": "UK enterprises treat AI as experimental productivity enhancement. The bill's proportionate compliance requirements are calibrated for this early-stage revenue dependency. Holmes does not assume AI is yet core business for UK firms. The experimental pick reflects both market reality and the bill's timing: regulating early, before dependency deepens, is more effective than retrofitting governance onto entrenched AI dependency."
+    },
+    "Switching Cost": {
+      "value": "Low",
+      "memo": "The bill's interoperability principle and horizontal standards actively reduce switching costs between AI providers.",
+      "detail": "Interoperability is one of the bill's seven founding principles. Horizontal governance applied uniformly across providers means compliance investment is portable. Accredited audit evidence transfers between provider relationships. The bill's framework actively works against provider lock-in by creating common standards."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Holmes explicitly confronts capability entanglement — 'once in, forever in' — as the structural exit problem his consent framework aims to prevent.",
+      "detail": "Holmes's digital-replicas work identified that ingested data cannot be extracted from trained model weights. This capability-entangled exit is the problem his bill addresses through front-end consent rather than post-hoc extraction. His solution — consent before ingestion — prevents unwanted entry rather than enabling exit. The exit remains entangled for any data that passes the consent gate."
+    }
+  }
+}

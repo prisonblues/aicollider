@@ -1,0 +1,1086 @@
+[
+  {
+    "label": "Same contract, opposite outcome",
+    "ids": [
+      "termination-trap",
+      "rag"
+    ],
+    "desc": "Both conditional permission. Training exits entangled; RAG exits clean.",
+    "annotations": [
+      {
+        "row": "Permission",
+        "type": "match",
+        "title": "Same legal gate",
+        "commentary": "Both stances start from conditional permission, so the contractual trigger is not the differentiator. The outcome changes because the technical processing path changes what termination can actually unwind."
+      },
+      {
+        "row": "Processing Mode",
+        "type": "difference",
+        "title": "Training versus inference",
+        "commentary": "Training embeds licensed material into model behavior, while inference-time retrieval keeps the data externally separable. This row explains why the same licence can produce opposite exit outcomes."
+      },
+      {
+        "row": "Retention / Persistence",
+        "type": "difference",
+        "title": "Entangled or ephemeral",
+        "commentary": "Weight-entangled use makes the data relationship persist after access is revoked. Ephemeral RAG use keeps custody closer to a disconnectable service dependency."
+      },
+      {
+        "row": "Exit",
+        "type": "difference",
+        "title": "Exit quality diverges",
+        "commentary": "The training case marks exit as entangled, making termination operationally incomplete. The RAG case is clean because removing retrieval access removes the practical use channel."
+      },
+      {
+        "row": "Derivation",
+        "type": "difference",
+        "title": "Capability survives",
+        "commentary": "Surviving capability is the core harm in the termination gap: the contract ends but the trained system keeps the benefit. RAG has no residual capability because the source is not absorbed into weights."
+      },
+      {
+        "row": "Model-Weight Rights",
+        "type": "match",
+        "title": "Hosted is insufficient",
+        "commentary": "Both arrangements say hosted only, but that common legal posture does not settle reversibility. The important distinction is whether value has moved into the hosted model rather than where the model is held."
+      }
+    ],
+    "analysis": {
+      "same": "Both arrangements use conditional licensed data with declared audit rights, verifiable provenance, hosted-only weights, and allocated liability.",
+      "different": "The training path is frontier, multi-domain, weight-entangled, copyable, and locked-in, while RAG is narrow, single-domain, ephemeral, sandboxed, replaceable, and exits cleanly.",
+      "impact": "The same permission structure produces opposite remedies because inference-time custody can be disconnected but trained capability survives as residual model value."
+    }
+  },
+  {
+    "label": "Compliance without observability",
+    "ids": [
+      "land-grab",
+      "audit-illusion"
+    ],
+    "desc": "Moving from opaque to declared control does not change economics unless observability becomes real.",
+    "annotations": [
+      {
+        "row": "Observability",
+        "type": "difference",
+        "title": "Declared is not observed",
+        "commentary": "The comparison moves from opaque to declared controls, but declared observability still depends on what can actually be inspected. That is why the compliance layer may improve paperwork without changing leverage."
+      },
+      {
+        "row": "Observability",
+        "type": "tension",
+        "title": "Audit remains opaque",
+        "commentary": "Verification Gap has conditional licensing and declared provenance, yet the control or audit right remains opaque. This row exposes the gap between compliance form and usable verification."
+      },
+      {
+        "row": "Input Price",
+        "type": "match",
+        "title": "Economics unchanged",
+        "commentary": "Both stances keep fixed input pricing, so the shift to compliance language does not alter the economic bargain. The processor can still capture upside without repricing the underlying contribution."
+      },
+      {
+        "row": "Derived Value Capture",
+        "type": "match",
+        "title": "Processor still captures",
+        "commentary": "The value capture pattern is identical: derived value remains with the processor. This is the clearest sign that compliance structure alone does not alter the allocation of AI upside."
+      },
+      {
+        "row": "Provenance",
+        "type": "difference",
+        "title": "Source story improves",
+        "commentary": "Verification Gap upgrades provenance from unknown to declared, which is meaningful for recordkeeping. It is not enough by itself because declared source lineage does not prove downstream control."
+      },
+      {
+        "row": "Risk Allocation / Backstop",
+        "type": "note",
+        "title": "Risk pushed away",
+        "commentary": "The audit case adds disclaimed liability, making the compliance posture look safer while preserving one-sided risk allocation. That makes the declared regime weaker than it appears."
+      }
+    ],
+    "analysis": {
+      "same": "Both stances keep frontier, multi-domain capability in a closed hosted model where outputs are monitored and processor-side value capture remains intact.",
+      "different": "Status Quo is openly permissive and opaque with scraped data and unknown provenance, while Verification Gap adds conditional licensing, declared provenance, benchmarking, and escalation but leaves the audit right opaque.",
+      "impact": "Compliance paperwork changes the label of governance without changing control or economics when observability still cannot verify use, derivation, or retained value."
+    }
+  },
+  {
+    "label": "Different path, same trap",
+    "ids": [
+      "termination-trap",
+      "cross-border"
+    ],
+    "desc": "Training entanglement and jurisdictional complexity can both converge on the same exit problem.",
+    "annotations": [
+      {
+        "row": "Exit",
+        "type": "match",
+        "title": "Same exit failure",
+        "commentary": "Both paths end in entangled exit even though the causal mechanisms differ. The comparison's point is that technical absorption and cross-border dependency can converge on the same practical trap."
+      },
+      {
+        "row": "Processing Mode",
+        "type": "difference",
+        "title": "Different route in",
+        "commentary": "Termination gap reaches entanglement through training, while Cross-border Knot does it through adaptation and fine-tuning. The shared outcome is not tied to a single processing mode."
+      },
+      {
+        "row": "Territory",
+        "type": "difference",
+        "title": "Domestic versus cross-border",
+        "commentary": "The termination case is domestic, so the problem is mainly technical and contractual. The cross-border case adds territory as a source of enforcement and coordination friction."
+      },
+      {
+        "row": "Supply Jurisdiction",
+        "type": "difference",
+        "title": "Law fits less cleanly",
+        "commentary": "A favorable domestic fit becomes ambiguous in the cross-border knot. That ambiguity can make even declared rights harder to execute when exit is needed."
+      },
+      {
+        "row": "Supply Jurisdiction",
+        "type": "note",
+        "title": "Exposed supply chain",
+        "commentary": "Cross-border Knot adds adversary or exposed supply jurisdiction, turning supplier location into a strategic risk. This creates lock-in even without the same weight-transfer story."
+      },
+      {
+        "row": "Observability",
+        "type": "match",
+        "title": "Rights are declared",
+        "commentary": "Both cases claim declared audit or control rights, but both still fail to deliver clean exit. The row shows that formal rights are not enough when the operating architecture resists reversal."
+      }
+    ],
+    "analysis": {
+      "same": "Both scenarios combine conditional licensed data, declared audit rights, verifiable provenance, frontier multi-domain capability, persistent memory, many copies, and entangled exit.",
+      "different": "Termination gap reaches lock-in through domestic training, weight transfer, copyable weights, and claimed derivatives, while Cross-border knot reaches it through distributed residency, ambiguous jurisdiction, committed capacity, and exposed supply jurisdiction.",
+      "impact": "Exit failure is not only a model-weight problem; legal geography and infrastructure commitments can reproduce the same entanglement even when rights are better allocated."
+    }
+  },
+  {
+    "label": "Three sovereign plays",
+    "ids": [
+      "sov-build",
+      "sov-gap",
+      "sov-invest"
+    ],
+    "desc": "Sovereign Build, Sovereign Gap, and Sovereign Stake are distinct signatures.",
+    "annotations": [
+      {
+        "row": "Capability Class",
+        "type": "match",
+        "title": "Strategic stakes",
+        "commentary": "All three sovereign plays sit at the strategic capability level. The differences are therefore about control model and infrastructure posture, not about whether the capability matters."
+      },
+      {
+        "row": "Command Actor",
+        "type": "difference",
+        "title": "State command is uneven",
+        "commentary": "Sovereign Build and Sovereign Stake have an explicit state or coalition command actor, while Sovereign Gap lacks that command row. The gap case is sovereign-sensitive without full sovereign direction."
+      },
+      {
+        "row": "Capability Trajectory",
+        "type": "difference",
+        "title": "Race versus scale",
+        "commentary": "Sovereign Build is marked as an OOM race, while Sovereign Stake is scaling. That separates emergency national buildout from a slower capital-backed infrastructure strategy."
+      },
+      {
+        "row": "Physical Infrastructure",
+        "type": "difference",
+        "title": "Industrial build or cloud",
+        "commentary": "Only Sovereign Build requires a national industrial build; the other two still sit on commercial cloud. This row cleanly distinguishes true infrastructure sovereignty from cloud-based sovereign posture."
+      },
+      {
+        "row": "Physical Infrastructure",
+        "type": "difference",
+        "title": "Power becomes strategy",
+        "commentary": "Sovereign Build depends on new generation or grid build, making energy part of the AI strategy. Sovereign Gap and Sovereign Stake use existing power, so they avoid that bottleneck but accept less industrial depth."
+      },
+      {
+        "row": "Input Price",
+        "type": "difference",
+        "title": "Pricing reveals posture",
+        "commentary": "Sovereign Gap uses fixed pricing, while Sovereign Stake uses structural pricing. The investment model treats AI capacity as infrastructure participation rather than a procurement line item."
+      },
+      {
+        "row": "Boundary",
+        "type": "match",
+        "title": "Sovereign isolation",
+        "commentary": "All three mark the boundary as isolated, showing a shared desire to separate the system from ordinary commercial exposure. The strength of that isolation depends on the infrastructure rows around it."
+      }
+    ],
+    "analysis": {
+      "same": "All three sovereign plays use conditional licensed data, verifiable provenance, hosted-only closed weights, sovereign or extraterritorial residency, retained entanglement, and strategic capability.",
+      "different": "Sovereign Build hardens control through owned infrastructure, SCIF isolation, national command, and new power; Sovereign Gap depends on commercial cloud and API distribution; Sovereign Stake buys strategic control through owned compute, captive cloud, and national-security governance.",
+      "impact": "The comparison separates sovereignty as operational control, sovereignty as residual exposure, and sovereignty as capital allocation, which require different risk and procurement terms."
+    }
+  },
+  {
+    "label": "Finance meets architecture",
+    "ids": [
+      "lifecycle",
+      "collateral"
+    ],
+    "desc": "Tenure fracture is the risk; collateralisation is the opportunity.",
+    "annotations": [
+      {
+        "row": "Capital",
+        "type": "difference",
+        "title": "Project or security",
+        "commentary": "Tenure Fracture treats capital as a project, while Data Lien makes it securitised. That is the pivot from architecture risk to financeable asset."
+      },
+      {
+        "row": "Commitment Tenor",
+        "type": "difference",
+        "title": "Tenor mismatch",
+        "commentary": "Infrastructure-life commitments create long technical exposure, while multi-year collateral terms are shorter and more finance-shaped. The mismatch matters because AI assets may change faster than the financing horizon."
+      },
+      {
+        "row": "Exit",
+        "type": "difference",
+        "title": "Collateral needs reversibility",
+        "commentary": "Tenure Fracture is entangled, but Data Lien is transitional. Financeability improves when exit can be staged rather than trapped inside a technical architecture."
+      },
+      {
+        "row": "Observability",
+        "type": "difference",
+        "title": "Bankable visibility",
+        "commentary": "Collateralisation upgrades declared observability to observable operation. That makes monitoring evidence part of the asset package rather than a contractual assertion."
+      },
+      {
+        "row": "Evaluation",
+        "type": "difference",
+        "title": "Certification matters",
+        "commentary": "Benchmarked evaluation may support engineering confidence, but certified decision-grade evaluation supports underwriting and risk transfer. This row marks the shift from operating metric to finance control."
+      },
+      {
+        "row": "Physical Infrastructure",
+        "type": "match",
+        "title": "Same hard asset base",
+        "commentary": "Both stances rely on dedicated clusters, so the opportunity and risk are grounded in the same physical architecture. The financial difference comes from governance and reversibility, not from a different substrate."
+      }
+    ],
+    "analysis": {
+      "same": "Both models finance committed capacity around licensed data, declared audit rights, verifiable provenance, dedicated clusters, procured power, persistent memory, retained entanglement, and many replicated copies.",
+      "different": "Tenure Fracture is an infrastructure-life project with entangled exit and surviving capability, while Data Lien turns the same architecture into securitised, multi-year product-line exposure with certified evaluation and limited warranty.",
+      "impact": "Once data and compute become financeable assets, technical reversibility and residual capability determine credit risk as much as contract price or capacity commitment."
+    }
+  },
+  {
+    "label": "Three pricing models",
+    "ids": [
+      "recursive",
+      "collateral",
+      "sov-invest"
+    ],
+    "desc": "Variable, fixed, and structural pricing each solve one problem and create another.",
+    "annotations": [
+      {
+        "row": "Input Price",
+        "type": "difference",
+        "title": "Three price logics",
+        "commentary": "Recursive Pricing is variable, Data Lien is fixed, and Sovereign Stake is structural. This row is the comparison's core taxonomy."
+      },
+      {
+        "row": "Derived Value Capture",
+        "type": "difference",
+        "title": "Upside allocation",
+        "commentary": "Recursive Pricing leaves derived value with the processor, while Data Lien does not define value capture through that row. The absence matters because fixed pricing can miss compounding upside unless paired with collateral or revenue terms."
+      },
+      {
+        "row": "Capital",
+        "type": "difference",
+        "title": "Finance form changes",
+        "commentary": "Data Lien is securitised, while Sovereign Stake is a project. Fixed pricing becomes financeable cash flow; structural pricing becomes public or strategic infrastructure participation."
+      },
+      {
+        "row": "Processing Mode",
+        "type": "difference",
+        "title": "Use drives price",
+        "commentary": "Recursive Pricing is tied to training, while the other two sit in adaptation or fine-tuning. Pricing has to follow the technical mode because value compounds differently when outputs feed future generations."
+      },
+      {
+        "row": "Retention / Persistence",
+        "type": "tension",
+        "title": "All retain something",
+        "commentary": "The three models differ in pricing, but none is purely ephemeral: they are weight-entangled or retained. That persistence is why every pricing model needs an answer for downstream value."
+      },
+      {
+        "row": "Output Allocation",
+        "type": "note",
+        "title": "Structural public upside",
+        "commentary": "Only Sovereign Stake adds public or international benefit sharing. Structural pricing is therefore not just a fee model; it encodes a political claim on the upside."
+      },
+      {
+        "row": "Revenue Dependency",
+        "type": "match",
+        "title": "Product revenue link",
+        "commentary": "Recursive Pricing and Data Lien both depend on product-line revenue. That common link makes them commercially legible even though one prices variable use and the other packages fixed commitments."
+      }
+    ],
+    "analysis": {
+      "same": "All three price licensed data into closed hosted systems with conditional permission, verifiable provenance, shared outputs, persistent memory, derived outputs, controlled residency, and retained entanglement.",
+      "different": "Recursive Pricing prices compounding training and claimed recursive derivation with variable inputs, Data Lien fixes price through securitised committed capacity, and Sovereign Stake treats price as structural project capital under national command.",
+      "impact": "The pricing model determines who absorbs acceleration, asset, and sovereignty risk, so identical data rights can imply very different upside capture and exit exposure."
+    }
+  },
+  {
+    "label": "Three jurisdictions",
+    "ids": [
+      "usa",
+      "eu",
+      "uk"
+    ],
+    "desc": "US default, EU governance, UK middle path.",
+    "annotations": [
+      {
+        "row": "Regulatory Posture",
+        "type": "difference",
+        "title": "Three legal defaults",
+        "commentary": "The US permissive posture treats training as a market default, the EU makes use conditional, and the UK is coded as prohibitive. That makes the comparison primarily about default entitlement rather than technical capability."
+      },
+      {
+        "row": "Observability",
+        "type": "difference",
+        "title": "Audit depth separates the models",
+        "commentary": "The US remains opaque, the EU is observable, and the UK is only declared. The EU therefore converts rights language into inspection capacity more directly than either the US or UK."
+      },
+      {
+        "row": "Territory",
+        "type": "difference",
+        "title": "EU reach travels outward",
+        "commentary": "The EU's extraterritorial setting contrasts with domestic US and UK framing. That gives the EU model leverage over cross-border supply chains, while the others depend more on local market and contract structure."
+      },
+      {
+        "row": "Cloud Dependency",
+        "type": "difference",
+        "title": "Infrastructure follows governance",
+        "commentary": "EU portability supports its governance posture, while US and UK preferred-partner cloud dependencies keep operational power concentrated. The UK therefore diverges legally from the US but remains close to it infrastructurally."
+      },
+      {
+        "row": "Capability Class",
+        "type": "match",
+        "title": "Same frontier object",
+        "commentary": "All three are comparing frontier, multi-domain systems. The policy split is not caused by different capability levels; it is caused by different answers to who may train, observe, control, and retain value."
+      },
+      {
+        "row": "Output Allocation",
+        "type": "tension",
+        "title": "Value allocation remains uneven",
+        "commentary": "The US retains private capture, the EU moves to contractual sharing, and the UK leaves benefit sharing less explicit in the picks. Rights protection does not automatically settle who receives the upside."
+      }
+    ],
+    "analysis": {
+      "same": "All three compare frontier, multi-domain systems, so the split is about entitlement, audit, infrastructure, and value allocation rather than capability level.",
+      "different": "The US treats training as permissive and opaque, the EU makes it conditional, observable, extraterritorial, and portable, and the UK is more prohibitive on rights but remains closer to US preferred-partner infrastructure.",
+      "impact": "This matters because rights language only changes bargaining power when it is backed by inspection, territorial reach, substitutable infrastructure, and a settled path for sharing upside."
+    }
+  },
+  {
+    "label": "US vs EU",
+    "ids": [
+      "usa",
+      "eu"
+    ],
+    "desc": "The defining regulatory divergence: permissive/default versus governed/extraterritorial.",
+    "annotations": [
+      {
+        "row": "Permission",
+        "type": "difference",
+        "title": "Default exclusion versus conditional access",
+        "commentary": "The US stance excludes permission from the core training decision, while the EU requires conditional access. That is the central legal divergence: one treats use as defaultable, the other as governed."
+      },
+      {
+        "row": "Observability",
+        "type": "difference",
+        "title": "Opacity versus observability",
+        "commentary": "US opacity makes compliance hard to verify after data enters the system. EU observability creates a path for rights, provenance, and enforcement to be checked against actual system behavior."
+      },
+      {
+        "row": "Provenance",
+        "type": "difference",
+        "title": "Scraped versus licensed corpus",
+        "commentary": "The US model relies on scraped material, while the EU model uses licensed data. The comparison turns on whether training inputs are treated as available raw material or as governed supply."
+      },
+      {
+        "row": "Territory",
+        "type": "difference",
+        "title": "Domestic market versus external reach",
+        "commentary": "The US posture is domestic, but the EU is extraterritorial. That means EU governance can attach to foreign providers seeking access, while the US relies more on home-market defaults."
+      },
+      {
+        "row": "Cloud Dependency",
+        "type": "tension",
+        "title": "Provider lock-in versus portability",
+        "commentary": "US preferred-partner dependency strengthens the incumbent platform, while EU portability supports substitution. This infrastructure row explains why regulatory rights may or may not translate into bargaining power."
+      },
+      {
+        "row": "Output Allocation",
+        "type": "difference",
+        "title": "Who keeps the product",
+        "commentary": "US output is retained, while EU output is shared. The value layer mirrors the legal layer: permissive use concentrates gains, conditional governance creates a negotiated allocation channel."
+      }
+    ],
+    "analysis": {
+      "same": "Both stances govern frontier, multi-domain hosted systems that turn inputs into derived outputs through cloud deployment.",
+      "different": "The US stack combines excluded permission, opaque audit, scraped corpus, domestic reach, preferred-partner cloud, and retained output, while the EU stack uses conditional permission, observable audit, licensed corpus, extraterritorial reach, portability, and shared output.",
+      "impact": "The comparison shows that EU-style governance can convert rights into enforceable bargaining power, whereas the US default concentrates verification, infrastructure, and product value with the processor."
+    }
+  },
+  {
+    "label": "US vs UK",
+    "ids": [
+      "usa",
+      "uk"
+    ],
+    "desc": "UK rights posture diverges from US, but system and exit architecture often remain closer to US defaults.",
+    "annotations": [
+      {
+        "row": "Regulatory Posture",
+        "type": "difference",
+        "title": "Opposite copyright posture",
+        "commentary": "The US is permissive and the UK is prohibitive. This is the clearest divergence: the UK protects rights holders more strongly at the legal threshold."
+      },
+      {
+        "row": "Provenance",
+        "type": "difference",
+        "title": "Scraped versus licensed inputs",
+        "commentary": "The US stance uses scraped data, while the UK requires licensed data. The UK therefore rejects the US default at the input layer even when other system choices remain similar."
+      },
+      {
+        "row": "Cloud Dependency",
+        "type": "match",
+        "title": "Same preferred-partner cloud shape",
+        "commentary": "Both models depend on preferred cloud partners. The UK legal stance does not by itself create a more portable or sovereign infrastructure base."
+      },
+      {
+        "row": "Model Sourcing",
+        "type": "match",
+        "title": "Single-provider dependence persists",
+        "commentary": "Both the US and UK are single-provider in this comparison. That keeps bargaining and operational control concentrated despite the UK taking a more restrictive rights position."
+      },
+      {
+        "row": "Exit",
+        "type": "match",
+        "title": "Exit remains entangled",
+        "commentary": "Both sides end in entangled exit. This is the core UK tension: stronger rights language does not fully unwind dependency once systems, memory, and workflows are embedded."
+      },
+      {
+        "row": "Output Allocation",
+        "type": "tension",
+        "title": "Rights gap after licensing",
+        "commentary": "The US allocates derived data rights, while the UK leaves them unallocated. The UK may protect the initial corpus more firmly but still leave downstream derived assets unsettled."
+      }
+    ],
+    "analysis": {
+      "same": "Both the US and UK remain single-provider, preferred-partner cloud models with entangled exit despite different legal thresholds.",
+      "different": "The UK rejects the US permissive scraped-input default through prohibitive licensing, but it still leaves derived data rights unallocated and does not solve infrastructure dependency or exit.",
+      "impact": "The comparison matters because stronger input rights can still fail to restore leverage once downstream assets, provider control, and embedded workflows remain locked in."
+    }
+  },
+  {
+    "label": "EU vs UK",
+    "ids": [
+      "eu",
+      "uk"
+    ],
+    "desc": "The UK matches some rights language but not the EU enforcement, infrastructure, or sovereignty architecture.",
+    "annotations": [
+      {
+        "row": "Observability",
+        "type": "difference",
+        "title": "Observable versus declared control",
+        "commentary": "The EU makes audit observable, while the UK relies on declared control. That difference matters because enforceable governance depends on checking the system, not only receiving assurances."
+      },
+      {
+        "row": "Territory",
+        "type": "difference",
+        "title": "Extraterritorial versus domestic reach",
+        "commentary": "The EU projects rules beyond its territory, while the UK remains domestic. The EU can shape providers through market access; the UK has less leverage over cross-border infrastructure."
+      },
+      {
+        "row": "Cloud Dependency",
+        "type": "difference",
+        "title": "Portable versus preferred partner",
+        "commentary": "EU portability supports substitution and sovereignty claims. The UK preferred-partner dependency keeps control closer to provider architecture even when rights language is stronger."
+      },
+      {
+        "row": "Model Sourcing",
+        "type": "difference",
+        "title": "Multi-provider versus single-provider",
+        "commentary": "The EU uses multi-provider sourcing, while the UK remains single-provider. This gives the EU more practical fallback capacity and leaves the UK more exposed to concentrated dependency."
+      },
+      {
+        "row": "Permission",
+        "type": "match",
+        "title": "Both reject unconditional use",
+        "commentary": "Both jurisdictions require conditional permission. Their split is not whether rights matter, but whether the surrounding audit, territory, and infrastructure rows make those rights operational."
+      },
+      {
+        "row": "Output Allocation",
+        "type": "tension",
+        "title": "Downstream allocation gap",
+        "commentary": "The EU allocates derived data rights, while the UK leaves them unallocated. That makes the UK posture less complete once value moves from inputs into derived signals and model improvements."
+      }
+    ],
+    "analysis": {
+      "same": "Both jurisdictions reject unconditional use by requiring conditional permission for licensed training in frontier, multi-domain systems.",
+      "different": "The EU pairs rights with observable audit, extraterritorial reach, portable cloud, multi-provider sourcing, and allocated derived rights, while the UK relies on declared control, domestic reach, preferred partners, single-provider sourcing, and unallocated downstream rights.",
+      "impact": "This matters because the EU model makes rights operational across systems and borders, while the UK model risks protecting inputs without controlling the infrastructure and derived value layer."
+    }
+  },
+  {
+    "label": "Custody core",
+    "ids": [
+      "land-grab",
+      "termination-trap",
+      "rag",
+      "custody-confidential-compute"
+    ],
+    "desc": "Custody wins when rights are weak; architecture determines whether custody and rights stay aligned.",
+    "annotations": [
+      {
+        "row": "Processing Mode",
+        "type": "difference",
+        "title": "Training creates the persistence gap",
+        "commentary": "Status quo and termination-gap cases use training, while RAG and confidential compute use inference. That switch is the core custody move because inference can be disconnected without embedding source material into weights."
+      },
+      {
+        "row": "Retention / Persistence",
+        "type": "difference",
+        "title": "Weight entanglement versus ephemerality",
+        "commentary": "Weight-entangled systems preserve effects after the data relationship changes, while ephemeral designs keep use session-bound. Custody improves when the architecture prevents durable technical residue."
+      },
+      {
+        "row": "Exit",
+        "type": "difference",
+        "title": "Exit depends on architecture",
+        "commentary": "The status quo and termination gap are entangled, but RAG and confidential compute are clean. The same legal right has very different force depending on whether the system can actually be unwound."
+      },
+      {
+        "row": "Observability",
+        "type": "difference",
+        "title": "From opaque to observable",
+        "commentary": "The sequence moves from opaque control to declared and then observable control. That progression shows why custody is not just possession of data; it is inspectable control over how the data is used."
+      },
+      {
+        "row": "Derivation",
+        "type": "tension",
+        "title": "Surviving capability defeats termination",
+        "commentary": "The termination gap explicitly leaves surviving capability, while RAG leaves none. This row captures the legal failure mode: termination can be formally available but practically incomplete."
+      },
+      {
+        "row": "Boundary",
+        "type": "difference",
+        "title": "Isolation hardens custody",
+        "commentary": "Shared boundaries dominate the weaker custody cases, while confidential compute uses an isolated boundary. Isolation turns custody from a contractual promise into a system property."
+      }
+    ],
+    "analysis": {
+      "same": "All custody cases involve governed data use where legal permission alone must be tested against how the system processes, retains, and exposes the data.",
+      "different": "Training and weight entanglement in the status quo and termination gap leave opaque or surviving capability, while RAG and confidential compute move use toward inference, ephemerality, clean exit, stronger audit, and isolation.",
+      "impact": "The comparison matters because termination and custody rights have practical force only when the architecture prevents durable residue and makes control inspectable."
+    }
+  },
+  {
+    "label": "Exhaust lifecycle",
+    "ids": [
+      "exhaust-arbitrage",
+      "exhaust-derived-leverage",
+      "exhaust-aggregation",
+      "exhaust-manufactured",
+      "exhaust-alpha-decay"
+    ],
+    "desc": "From unpriced byproduct to internal advantage, product market, manufactured supply, and eventual alpha decay.",
+    "annotations": [
+      {
+        "row": "Output Allocation",
+        "type": "match",
+        "title": "Claimed rights across the lifecycle",
+        "commentary": "Each exhaust stage claims derived data rights. The lifecycle is therefore not about whether claims exist, but how the economic value of those claims changes as exhaust matures."
+      },
+      {
+        "row": "Derivation",
+        "type": "match",
+        "title": "Recursive derivation is the engine",
+        "commentary": "All stages rely on recursive derivation. Exhaust becomes strategically relevant because each generation of use produces signals that feed the next generation of capability or market structure."
+      },
+      {
+        "row": "Processing Mode",
+        "type": "match",
+        "title": "Continual learning keeps value moving",
+        "commentary": "Continual learning appears throughout the lifecycle. The exhaust asset is not static inventory; it is a live feedback stream that compounds while systems remain in use."
+      },
+      {
+        "row": "Input Price",
+        "type": "difference",
+        "title": "Byproduct becomes priced supply",
+        "commentary": "Early exhaust is fixed-price byproduct, while synthetic exhaust becomes variable input. Once actors learn that exhaust has value, they start producing it deliberately rather than merely collecting it."
+      },
+      {
+        "row": "Retention / Persistence",
+        "type": "note",
+        "title": "Alpha drains into artifacts",
+        "commentary": "Synthetic exhaust and alpha-decay stages leave derived artifacts. The end state is not clean transfer of raw data value, but a residual capability layer that persists after the original signal loses novelty."
+      }
+    ],
+    "analysis": {
+      "same": "Every exhaust stage claims derived data rights and relies on recursive derivation with continual learning, so the asset is an accumulating feedback stream rather than static data.",
+      "different": "The lifecycle moves from fixed-price internal byproduct through aggregation-driven captivity into variable manufactured supply and residual derived artifacts as exhaust becomes deliberately produced and commoditized.",
+      "impact": "The comparison matters because value migrates from raw inputs to control over feedback, aggregation, and artifacts, which can create new monopolies even under open or conditional access rules."
+    }
+  },
+  {
+    "label": "Nominal vs practical custody",
+    "ids": [
+      "custody-key-control",
+      "custody-interception",
+      "custody-confidential-compute"
+    ],
+    "desc": "Digital custody can be stronger than physical custody, weaker than it looks, or separated from use entirely.",
+    "annotations": [
+      {
+        "row": "Access Control",
+        "type": "difference",
+        "title": "Custody depends on the control primitive",
+        "commentary": "Key custody uses multi-key signoff, interception relies on ordinary API-style access, and confidential compute narrows authority through least privilege. The practical holder is the actor who can cause the system to act, not necessarily the named custodian."
+      },
+      {
+        "row": "Observability",
+        "type": "tension",
+        "title": "Visibility separates custody from access",
+        "commentary": "The interception pattern is opaque while the other two are observable or declared. That makes nominal custody fragile: access can exist without an auditable custody relationship."
+      },
+      {
+        "row": "Observability",
+        "type": "difference",
+        "title": "Audit rights only matter if they reach the access path",
+        "commentary": "Declared audit rights fit key custody and nominal custody on paper, but confidential compute moves toward observable control. The comparison turns on whether audit attaches to the real execution channel."
+      },
+      {
+        "row": "Model-Weight Rights",
+        "type": "match",
+        "title": "Hosted-only rights do not settle control",
+        "commentary": "All three keep weights hosted, but hosted-only transfer does not answer who can use, inspect, or interrupt the system. The custody question sits below formal transfer rights."
+      },
+      {
+        "row": "Exit",
+        "type": "tension",
+        "title": "Clean exit can mask residual access",
+        "commentary": "Each stance presents clean or controlled reversibility, yet interception shows why exit from the nominal provider may not remove practical access. Reversibility is only clean if hidden channels are also removed."
+      }
+    ],
+    "analysis": {
+      "same": "All three keep weights hosted and present controlled reversibility, so formal custody never becomes outright transfer.",
+      "different": "The control primitive differs: multi-key custody and confidential compute expose auditable control paths, while interception leaves practical API-style access opaque to the named custodian.",
+      "impact": "The comparison matters because custody is only real if audit, exit, and shutdown rights reach the actor who can actually cause the system to act."
+    }
+  },
+  {
+    "label": "Apple vs platform dependence",
+    "ids": [
+      "apple-hedge",
+      "openai-msft",
+      "google-tpu"
+    ],
+    "desc": "Three different ways to avoid being trapped by somebody else in the stack.",
+    "annotations": [
+      {
+        "row": "Model Sourcing",
+        "type": "difference",
+        "title": "Multi-provider routing versus single-provider depth",
+        "commentary": "Apple uses multi-provider sourcing to keep frontier models as extensions to the product. OpenAI/Microsoft is single-provider, while Google can orchestrate in-house models around its own stack."
+      },
+      {
+        "row": "Cloud Dependency",
+        "type": "tension",
+        "title": "Dependence moves between cloud and platform",
+        "commentary": "Apple is portable at the cloud layer but deeply controls the device and OS layer. Google is captive to its own cloud stack, while OpenAI/Microsoft sits in preferred-partner territory."
+      },
+      {
+        "row": "Vertical Integration",
+        "type": "difference",
+        "title": "Control lives at different stack depths",
+        "commentary": "Apple is stack-integrated around product experience, while Google is full-stack around compute infrastructure. OpenAI/Microsoft lacks the same platform default and instead depends on the partner contract and API distribution."
+      },
+      {
+        "row": "Distribution Channel",
+        "type": "difference",
+        "title": "Default placement changes bargaining power",
+        "commentary": "Apple owns the OS/device layer, Google can make infrastructure a platform default, and OpenAI/Microsoft distributes through API/app surfaces. The more native the channel, the less exposed the actor is to another platform's rules."
+      },
+      {
+        "row": "Substitutability",
+        "type": "tension",
+        "title": "Technical optionality is not always economic optionality",
+        "commentary": "Apple and OpenAI/Microsoft both face expensive switching in parts of the stack, while Google is locked into its custom path. Avoiding one supplier can still create switching cost elsewhere."
+      }
+    ],
+    "analysis": {
+      "same": "All three are attempts to avoid being trapped by another layer of the AI stack while still using closed, hosted frontier capabilities.",
+      "different": "Apple preserves optionality through multi-provider model routing and OS distribution, Google internalizes control through custom infrastructure, and OpenAI/Microsoft remains concentrated around a preferred-partner contract.",
+      "impact": "The consequence is that bargaining power depends less on model quality alone than on who owns routing, compute, and the default customer surface."
+    }
+  },
+  {
+    "label": "Compute stack",
+    "ids": [
+      "nvidia-moat",
+      "google-tpu",
+      "amd-second-source",
+      "tsmc-asml"
+    ],
+    "desc": "GPU moat, custom silicon, second-source optionality, and upstream chokepoints.",
+    "annotations": [
+      {
+        "row": "Accelerator Stack",
+        "type": "difference",
+        "title": "The hardware path defines the strategic posture",
+        "commentary": "Nvidia centers the dominant GPU stack, Google moves to custom ASIC/TPU, AMD supplies an alternative GPU path, and TSMC/ASML sit upstream of all advanced options. The comparison separates platform moat, substitution, and industrial chokepoint."
+      },
+      {
+        "row": "Distribution Channel",
+        "type": "difference",
+        "title": "Software habit is part of the moat",
+        "commentary": "Nvidia's dominant ecosystem makes it more than a chip supplier. AMD and Google can be compatible, but compatibility is weaker than being the default target for tooling, libraries, and deployment practice."
+      },
+      {
+        "row": "Silicon Bottleneck",
+        "type": "match",
+        "title": "Most paths converge on the same upstream dependency",
+        "commentary": "Nvidia, Google, AMD, and the chokepoint case all expose TSMC dependence. The visible rivalry among accelerator stacks still rests on a shared advanced foundry bottleneck."
+      },
+      {
+        "row": "Silicon Bottleneck",
+        "type": "match",
+        "title": "EUV is the deeper shared constraint",
+        "commentary": "Every advanced path depends on EUV lithography. This makes ASML-style tooling a strategic layer below GPU, TPU, or second-source competition."
+      },
+      {
+        "row": "Silicon Bottleneck",
+        "type": "difference",
+        "title": "Not every compute bottleneck is a chip bottleneck",
+        "commentary": "Nvidia and AMD emphasize software/ecosystem bottlenecks, Google emphasizes chips, and TSMC/ASML emphasizes manufacturing and tooling. The binding constraint shifts by actor."
+      },
+      {
+        "row": "Substitutability",
+        "type": "tension",
+        "title": "Second sourcing lowers lock-in but does not remove it",
+        "commentary": "AMD improves optionality with an expensive switch rather than full replaceability. Nvidia and Google remain locked into their dominant or custom stacks, while upstream chokepoints are effectively non-substitutable at frontier scale."
+      },
+      {
+        "row": "Supply Control",
+        "type": "difference",
+        "title": "Control ranges from allocation to chokepoint power",
+        "commentary": "Nvidia and TSMC/ASML represent strategic control, AMD offers allocation rights, and Google internalizes control for its own needs. These are different kinds of leverage, not interchangeable forms of capacity."
+      }
+    ],
+    "analysis": {
+      "same": "Every advanced compute path depends on constrained upstream manufacturing, especially TSMC foundry capacity and EUV lithography.",
+      "different": "Nvidia and AMD compete around GPU software ecosystems, Google shifts the bottleneck into custom chips, and TSMC/ASML sit below them as the manufacturing and tooling chokepoint.",
+      "impact": "The comparison matters because second sourcing can reduce platform lock-in, but it cannot remove the industrial chokepoints that determine frontier-scale capacity."
+    }
+  },
+  {
+    "label": "Jurisdiction and sovereignty",
+    "ids": [
+      "uk-training",
+      "middle-east-dc",
+      "chinese-oss"
+    ],
+    "desc": "Legal training constraints, compute-location bargains, and open-weight proliferation.",
+    "annotations": [
+      {
+        "row": "Supply Jurisdiction",
+        "type": "difference",
+        "title": "Law can be the bottleneck before compute",
+        "commentary": "UK training is hostile because data law can make broad training unattractive even with available cloud capacity. The Middle East data center is ambiguous because the bargain creates exposure, while the Chinese open-weight case is favorable domestically."
+      },
+      {
+        "row": "Data Availability",
+        "type": "difference",
+        "title": "Training permission is not evenly distributed",
+        "commentary": "UK training is blocked, the data-center bargain assumes licensed inputs, and the Chinese OSS case uses open or available data. Sovereign AI strategy depends as much on data access as on machines."
+      },
+      {
+        "row": "Territory",
+        "type": "tension",
+        "title": "Domestic goals can require extraterritorial infrastructure",
+        "commentary": "The Middle East data center is extraterritorial even when serving allied or domestic strategic goals. That creates a sovereignty tradeoff: more compute and power, but less straightforward territorial control."
+      },
+      {
+        "row": "Supply Jurisdiction",
+        "type": "note",
+        "title": "Compute-location bargains price political exposure",
+        "commentary": "The Middle East case explicitly marks host risk as bargained. The bargain may be rational, but it converts infrastructure location into a strategic dependency rather than a neutral procurement choice."
+      },
+      {
+        "row": "Model-Weight Rights",
+        "type": "difference",
+        "title": "Open weights change sovereignty from control to diffusion",
+        "commentary": "The Chinese OSS model is open-weight while the UK and data-center cases remain closed. Open diffusion can project influence and reduce foreign dependence, but it also weakens downstream containment."
+      },
+      {
+        "row": "Supply Jurisdiction",
+        "type": "tension",
+        "title": "The supply chain can contradict the legal posture",
+        "commentary": "UK training relies on allied supply, while the Middle East and Chinese OSS cases carry adversary or exposed supply jurisdiction. Legal fit at home does not eliminate geopolitical exposure in chips, cloud, or deployment channels."
+      }
+    ],
+    "analysis": {
+      "same": "Each stance treats sovereign AI capability as constrained by law, territory, data access, and supply jurisdiction rather than compute alone.",
+      "different": "UK training is blocked by hostile legal fit and data availability, the Middle East data-center bargain trades extraterritorial exposure for buildable power and capacity, and Chinese open weights turn favorable domestic fit into diffusion risk.",
+      "impact": "The consequence is that sovereignty strategies can fail through legal bottlenecks, host-jurisdiction exposure, or uncontrolled proliferation even when the technical stack is available."
+    }
+  },
+  {
+    "label": "Strategic escalation",
+    "ids": [
+      "rag",
+      "military-dual-use",
+      "agi-project"
+    ],
+    "desc": "From product integration to military use to national-security AGI project.",
+    "annotations": [
+      {
+        "row": "Capability Class",
+        "type": "difference",
+        "title": "The comparison escalates from narrow to strategic",
+        "commentary": "Enterprise RAG is narrow, while military dual-use and AGI are strategic. The same AI stack becomes categorically different once it affects national power rather than bounded enterprise productivity."
+      },
+      {
+        "row": "Autonomy",
+        "type": "difference",
+        "title": "Escalation increases delegated agency",
+        "commentary": "Enterprise RAG keeps a human in the loop, military use moves to human-on-loop, and AGI becomes self-directed. The control problem intensifies as human approval shifts from per-action gating to supervisory intervention."
+      },
+      {
+        "row": "Actuation",
+        "type": "tension",
+        "title": "Digital systems can become physical risk channels",
+        "commentary": "RAG is informational, military use is physical or kinetic, and AGI is digital but connected to cyber, bio, financial, and production channels. The danger is not just interface type; it is what the interface can ultimately affect."
+      },
+      {
+        "row": "Decision Tempo",
+        "type": "difference",
+        "title": "Governance time compresses",
+        "commentary": "Product-cycle oversight fits enterprise RAG, but military and AGI cases move to war-speed decision tempo. Faster operation reduces the practical window for review, escalation, and correction."
+      },
+      {
+        "row": "Containment",
+        "type": "difference",
+        "title": "Containment hardens as consequences rise",
+        "commentary": "Enterprise RAG is sandboxed, while military and AGI cases require airgapped or SCIF-style containment. The required boundary changes with capability, adversary model, and harm channel."
+      },
+      {
+        "row": "Race Pressure",
+        "type": "tension",
+        "title": "Strategic urgency undermines conservative control",
+        "commentary": "AGI carries existential race pressure, while military dual-use sits inside national-security governance. The more strategic the system, the stronger the incentive to deploy before assurance is complete."
+      },
+      {
+        "row": "Exit",
+        "type": "difference",
+        "title": "Exit degrades with integration",
+        "commentary": "Enterprise RAG has clean exit, while military and AGI postures are transitional. Once a system is embedded in command, infrastructure, or strategic planning, reversal becomes operationally and politically costly."
+      }
+    ],
+    "analysis": {
+      "same": "All three use AI inside organizational workflows with permissions, monitoring, and some form of human override.",
+      "different": "Enterprise RAG stays narrow, informational, and sandboxed, while military dual-use and AGI move toward strategic capability, compressed decision tempo, hardened containment, and weaker reversibility.",
+      "impact": "The comparison matters because escalation is a structural shift in authority and harm channels, not just a larger or faster version of product deployment."
+    }
+  },
+  {
+    "label": "OpenAI/MSFT vs Apple",
+    "ids": [
+      "openai-msft",
+      "apple-hedge"
+    ],
+    "desc": "Structural partnership dependence versus platform-orchestrated optionality.",
+    "annotations": [
+      {
+        "row": "Capability Class",
+        "type": "difference",
+        "title": "Strategic capability carries heavier obligations",
+        "commentary": "OpenAI/Microsoft is marked strategic, while Apple is frontier. Apple can frame AI as product capability; OpenAI/Microsoft sits closer to national-power infrastructure."
+      },
+      {
+        "row": "Model Sourcing",
+        "type": "difference",
+        "title": "Single-provider depth versus routed plurality",
+        "commentary": "OpenAI/Microsoft uses single-provider sourcing, while Apple uses multi-provider sourcing. The tradeoff is depth and optimization against resilience and negotiating leverage."
+      },
+      {
+        "row": "Cloud Dependency",
+        "type": "difference",
+        "title": "Cloud partner lock-in contrasts with cloud portability",
+        "commentary": "OpenAI/Microsoft is preferred-partner dependent for committed capacity, while Apple is portable. This is the structural heart of the comparison: compute scale binds one side more tightly than product integration binds the other."
+      },
+      {
+        "row": "Distribution Channel",
+        "type": "difference",
+        "title": "Owning the customer surface changes leverage",
+        "commentary": "OpenAI/Microsoft distributes through API and app channels, while Apple controls the OS/device layer. Apple can place AI at the default user interface without ceding the customer relationship to the model provider."
+      },
+      {
+        "row": "Processing Mode",
+        "type": "difference",
+        "title": "Training dependence is structurally heavier than inference routing",
+        "commentary": "OpenAI/Microsoft is oriented around training, while Apple is oriented around inference. Training requires committed compute, data pipelines, and long-term capital; inference can be routed, throttled, or swapped more easily."
+      },
+      {
+        "row": "Switching Cost",
+        "type": "tension",
+        "title": "Apple keeps product switching low but not integration-free",
+        "commentary": "Apple has low switching cost at the model-routing layer, but still embeds AI into workflows and the device experience. OpenAI/Microsoft faces expensive switching because the compute and partnership architecture is deeper."
+      }
+    ],
+    "analysis": {
+      "same": "Both expose closed, hosted AI through public-facing product channels under conditional rights and shared output economics.",
+      "different": "OpenAI/Microsoft is strategic, training-oriented, and tied to committed preferred-partner compute, while Apple is frontier, inference-oriented, and portable through multi-provider routing at the OS/device layer.",
+      "impact": "The consequence is that OpenAI/Microsoft gains scale through deeper dependency, whereas Apple preserves leverage by keeping the model provider replaceable at the customer surface."
+    }
+  },
+  {
+    "label": "Legislating the gap",
+    "ids": [
+      "lord-holmes-ai-bill",
+      "uk",
+      "eu",
+      "exhaust-derived-leverage"
+    ],
+    "desc": "Holmes's bill bridges the UK status quo and EU governance model, directly addressing the creative exhaust extraction that the UK's voluntary approach leaves unchecked.",
+    "annotations": [
+      {
+        "row": "Observability",
+        "type": "difference",
+        "title": "From declared to auditable",
+        "commentary": "The UK relies on declared observability; Holmes's bill upgrades to auditable through accredited third-party audit, matching the EU. The exhaust stance stays at declared. This is the enforcement gap the bill closes: rights language without inspection changes nothing."
+      },
+      {
+        "row": "Derived Value Capture",
+        "type": "difference",
+        "title": "Processor capture versus revenue share",
+        "commentary": "The UK and the exhaust pattern both sit at processor captures — the status quo that Holmes's creative-industries advocacy targets. His bill and the EU both move to revenue share. The bill is the legislative mechanism for converting extraction into participation."
+      },
+      {
+        "row": "Acceptance Basis",
+        "type": "difference",
+        "title": "Process legitimacy becomes mandatory",
+        "commentary": "The UK accepts AI on a hybrid basis; the exhaust pattern operates on outcome-sufficient acceptance. Holmes's bill demands process-required legitimacy matching the EU. This is the bill's sharpest philosophical break: outcomes alone cannot justify deployment."
+      },
+      {
+        "row": "Exit",
+        "type": "tension",
+        "title": "Entanglement persists across all governance models",
+        "commentary": "The UK and Holmes both pick capability entangled. The exhaust stance sits at derived artifacts survive. Only the EU claims exportable exit. Holmes's solution is consent before ingestion rather than extraction after training. The entanglement problem survives even the strongest domestic governance framework."
+      },
+      {
+        "row": "Nonproliferation Regime",
+        "type": "difference",
+        "title": "From norms to enforcement",
+        "commentary": "The UK relies on voluntary norms; the exhaust pattern has no regime at all. Holmes's bill creates an enforced domestic regime matching the EU. The shift from voluntary to statutory is the bill's central institutional innovation — offences, fines, and accredited audit replace good-faith cooperation."
+      },
+      {
+        "row": "Tradeoff Authority",
+        "type": "difference",
+        "title": "Who decides speed versus safety",
+        "commentary": "The exhaust pattern leaves tradeoff authority with product teams. The UK's safety body is advisory. Holmes's bill makes the AI Authority a statutory tradeoff body matching the EU's enforced standard. The bill transfers consequential authority from deployers to a public institution."
+      }
+    ],
+    "analysis": {
+      "same": "All four profile frontier, general-purpose AI operating through informational channels. The capability object is the same — the split is about who governs, who captures value, and what evidence is required.",
+      "different": "The UK relies on voluntary norms and declared observability with processor-captured value. The EU enforces statutory principles with auditable evidence, extraterritorial reach, and revenue sharing. Holmes codifies EU-style governance within UK domestic scope. The exhaust pattern operates in the permissive space that the UK status quo allows — outcome-sufficient, processor-captured, no regime.",
+      "impact": "Holmes's bill would close the enforcement gap between UK rights language and practical governance, convert processor-captures extraction into revenue sharing, and make process legitimacy mandatory. But it cannot solve capability entanglement, which remains the structural exit problem that no jurisdiction has resolved."
+    }
+  },
+  {
+    "label": "Output outruns oversight",
+    "ids": [
+      "ai-slop",
+      "output-competence-schism",
+      "audit-illusion",
+      "saasapocalypse"
+    ],
+    "desc": "Four arrangements where AI-generated output exceeds the capacity of existing verification mechanisms. The spectrum runs from no oversight at all through nominal governance to structured testing, but none achieve verified quality at the point of use.",
+    "annotations": [
+      {
+        "row": "Observability",
+        "type": "difference",
+        "title": "Opaque to declared — but never verified",
+        "commentary": "Slop and the competence schism are fully opaque: consumers and organisations cannot tell the output was AI-generated or whether the producer understood it. The verification gap and the SaaSapocalypse move to declared observability, but declared is not verified. The full four-stance spectrum never reaches independently verifiable. Each step from opaque to declared adds paperwork without adding evidence."
+      },
+      {
+        "row": "Evaluation",
+        "type": "difference",
+        "title": "Three evaluation levels, none sufficient",
+        "commentary": "Slop and the competence schism are untested — output goes directly from generation to publication or deployment. The SaaSapocalypse runs internal tests. The verification gap has benchmarks. Even benchmarked evaluation does not prove fitness for the specific domain or context. The evaluation gap widens at every level because volume grows faster than review capacity."
+      },
+      {
+        "row": "Containment",
+        "type": "difference",
+        "title": "From no boundary to sandboxed",
+        "commentary": "Slop and the competence schism have no containment: output flows freely from generation to the open web or organisational workflow. The verification gap has policy-only containment — governance without technical enforcement. Only the SaaSapocalypse provides sandboxed execution within defined workflow boundaries. The progression shows that meaningful containment requires technical barriers, not just rules."
+      },
+      {
+        "row": "Acceptance Basis",
+        "type": "difference",
+        "title": "What counts as good enough",
+        "commentary": "Slop is market-validated: if it gets traffic, it is accepted. The competence schism and SaaSapocalypse are outcome-sufficient: if the output looks right, nobody asks how it was produced. The verification gap demands process — but the process is procedural when observability is only declared. Each acceptance basis creates a different quality gap, and none close it."
+      },
+      {
+        "row": "Capability Limitation",
+        "type": "difference",
+        "title": "Safety filters do not filter for quality",
+        "commentary": "Slop and the competence schism face no capability limitation at all: the models will produce mediocre articles and domain-crossing work without restriction. The SaaSapocalypse and verification gap have policy filters, but these restrict harmful content, not low-quality or incompetent content. The gap between safety alignment and quality assurance is where all four phenomena operate."
+        },
+      {
+        "row": "Exit",
+        "type": "difference",
+        "title": "Clean exit does not mean clean consequences",
+        "commentary": "Slop and the SaaSapocalypse have clean exit: the production relationship dissolves without residue. But slop's published content persists on the web, contaminating search and training data. The competence schism and verification gap leave derived artifacts: wrong architectures, inflated documentation, and institutionalised misattribution survive after the AI tool is gone."
+      }
+    ],
+    "analysis": {
+      "same": "All four describe civilian, informational, tool-grade AI output operating under broad permission and permissive regulation, where the verification mechanisms available to consumers, organisations, or regulators are structurally insufficient to distinguish quality from volume.",
+      "different": "Slop and the competence schism are the unverified extremes — opaque, untested, uncontained, with no capability limitation. The SaaSapocalypse adds structured oversight through internal testing, sandboxing, and declared observability. The verification gap sits between: governance exists but fails to bind because declared observability substitutes for technical proof.",
+      "impact": "The comparison reveals that the output-verification gap is not solved by adding governance layers. Moving from no oversight to policy to benchmarking to internal testing reduces risk incrementally but never closes the gap, because volume grows faster than review capacity and declared evidence is not the same as verified evidence."
+    }
+  },
+  {
+    "label": "The alignment problem at two scales",
+    "ids": [
+      "output-competence-schism",
+      "agi-project"
+    ],
+    "desc": "Both are decoupling problems — evaluator less capable than the system — but at tool-grade the gap is ignored, and at superhuman the gap is existential.",
+    "annotations": [
+      {
+        "row": "Domain Breadth",
+        "type": "match",
+        "title": "Same enabling property",
+        "commentary": "General domain breadth is the structural root of both. At tool-grade it lets individuals produce across disciplines they cannot evaluate. At superhuman it makes containment to any single domain impossible. The cross-domain reach that creates office-level competence theatre is the same property that makes AGI ungovernable."
+      },
+      {
+        "row": "Capability Class",
+        "type": "difference",
+        "title": "Scale of the decoupling",
+        "commentary": "Tool-grade decouples individual workers from their output quality — the novice produces senior-looking work. Superhuman decouples entire institutions — even domain experts cannot evaluate the output. The schism is where the competence gap opens. The AGI project is where it becomes total."
+      },
+      {
+        "row": "Observability",
+        "type": "difference",
+        "title": "Opposite institutional responses",
+        "commentary": "The schism is opaque and nobody is trying to fix it — the output does not betray the novice and institutions reward the appearance. The AGI project demands independent verifiability because the stakes force the issue. Same structural problem, opposite response. The question is what level of catastrophe it takes to move from one posture to the other."
+      },
+      {
+        "row": "Autonomy",
+        "type": "difference",
+        "title": "The hollow loop versus no loop",
+        "commentary": "The schism maintains human-in-loop supervision that does not work because the human cannot evaluate what passes through. The AGI project removes the human entirely with long-horizon autonomy. One is a pretence of oversight; the other is the honest abandonment of it. The schism is arguably less safe because the fiction of human review prevents anyone from building a real alternative."
+      },
+      {
+        "row": "Evaluation",
+        "type": "difference",
+        "title": "Who checks the work",
+        "commentary": "The schism is untested — no process asks whether the producer understands what they shipped. The AGI project demands certified decision-grade evaluation from independent parties. The distance between these two postures is the governance gap between where workplace AI use actually is and where it would need to be for the output to be trusted."
+      }
+    ]
+  }
+]

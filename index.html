@@ -1,16 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AlCollider</title>
-    <style>
-        body { font-family: system-ui, sans-serif; max-width: 640px; margin: 4rem auto; padding: 0 1rem; color: #333; }
-        h1 { font-size: 2rem; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI Collider mosaic view: profile AI claims, architectures, policies, and stances as visual signatures for fast comparison.">
+  <title>AI Collider — Mosaic View</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/collider.css">
+  <link rel="stylesheet" href="css/mosaic.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-    <h1>AlCollider</h1>
-    <p>Coming soon.</p>
+  <header>
+    <button id="about-toggle" type="button" aria-label="About AI Collider">?</button>
+    <button id="theme-toggle" type="button" aria-label="Toggle theme">&#9680;</button>
+    <h1>The AI Collider</h1>
+    <p>The AI Collider profiles AI stances — corporate strategies, regulatory frameworks, technical architectures — across dozens of dimensions as colour-coded grids, where each cell is a position and each colour is the principle that drives it. Select stances to compare them side by side: matching colours show shared logic; contrasts reveal where positions genuinely diverge; gaps show what each stance leaves unsaid.</p>
+  </header>
+
+  <main>
+    <aside class="panel">
+      <p class="panel-title">Stances</p>
+      <div class="button-group">
+        <button class="pill" id="all-stances" type="button">All stances</button>
+        <button class="pill" id="clear-stances" type="button">Clear</button>
+      </div>
+      <div class="button-group" id="stance-buttons"></div>
+      <p class="panel-title">Comparisons</p>
+      <div class="button-group" id="comparison-buttons"></div>
+      <p class="panel-title">View</p>
+      <div class="button-group">
+        <button class="pill" id="compact-toggle" type="button">Selected dimensions only</button>
+        <button class="pill" id="active-bands-toggle" type="button">Active categories only</button>
+        <button class="pill" id="annotated-toggle" type="button">Commentary dimensions only</button>
+        <button class="pill" id="diagnostic-toggle" type="button">Diagnostic order</button>
+        <button class="pill" id="labels-toggle" type="button">Show value labels</button>
+      </div>
+      <p class="panel-title">Principles</p>
+      <div class="grammar-editor" id="grammar-editor"></div>
+      <div class="button-group">
+        <button class="pill" id="grammar-reset" type="button">Reset colours</button>
+      </div>
+      <div class="legend">
+        <div class="legend-item"><strong>Blank</strong>No claim / stance silent on this dimension.</div>
+        <div class="legend-item"><strong>Colour</strong>Principle colour when available; fallback uses the dimension type and value position.</div>
+        <div class="legend-item"><strong>Value</strong>Each cell resolves to a selected value, principle, and memo.</div>
+        <div class="legend-item"><strong>Strip</strong>The strip itself is the comparison; there are no rings or nodes.</div>
+      </div>
+    </aside>
+
+    <button id="layout-resizer" type="button" aria-label="Resize cards" title="Drag to resize cards"></button>
+
+    <section>
+      <div class="panel info" id="infobox">
+        <span style="color:var(--fg-muted)">Select stances or a comparison. This view is intentionally sparse: absence is visible and does not imply interpolation.</span>
+      </div>
+      <div class="panel chart-panel">
+        <div class="chart-controls" aria-label="Mosaic text size controls">
+          <button id="chart-text-smaller" type="button" aria-label="Decrease mosaic text size">A-</button>
+          <button id="chart-text-reset" type="button" aria-label="Reset mosaic text size">A</button>
+          <button id="chart-text-larger" type="button" aria-label="Increase mosaic text size">A+</button>
+        </div>
+        <div id="mosaic-chart"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://fo.ls">Rich Folsom</a>
+    <a href="https://aicollider.org">aicollider.org</a>
+    <a href="https://github.com/prisonblues/aicollider" aria-label="GitHub repository">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+    </a>
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" aria-label="CC BY-SA 4.0 licence">
+      <svg width="48" height="16" viewBox="0 0 1528 512" fill="currentColor"><path d="M245.83 214.87l-33.22 17.28c-9.43-19.58-25.24-19.93-27.46-19.93-22.13 0-33.22 14.61-33.22 43.84 0 23.57 9.21 43.84 33.22 43.84 14.47 0 24.65-7.09 30.57-21.26l30.55 15.5c-6.17 11.51-25.69 38.98-65.1 38.98-22.6 0-73.96-10.32-73.96-77.05 0-58.69 43-77.06 72.63-77.06 30.72-.01 52.7 11.95 65.99 35.86zm143.05 0l-32.78 17.28c-9.5-19.77-25.72-19.93-27.9-19.93-22.14 0-33.22 14.61-33.22 43.84 0 23.55 9.23 43.84 33.22 43.84 14.45 0 24.65-7.09 30.54-21.26l31 15.5c-2.1 3.75-21.39 38.98-65.09 38.98-22.69 0-73.96-9.87-73.96-77.05 0-58.67 42.97-77.06 72.63-77.06 30.71-.01 52.58 11.95 65.56 35.86zM247.56 8.05C104.74 8.05 0 123.11 0 256.05c0 138.49 113.6 248 247.56 248 129.93 0 248.44-100.87 248.44-248 0-137.87-106.62-248-248.44-248zm.87 450.81c-112.54 0-203.7-93.04-203.7-202.81 0-105.42 85.43-203.27 203.72-203.27 112.53 0 202.82 89.46 202.82 203.26-.01 121.69-99.68 202.82-202.84 202.82z"/><path transform="translate(516)" d="M314.9 194.4v101.4h-28.3v120.5h-77.1V295.9h-28.3V194.4c0-4.4 1.6-8.2 4.6-11.3 3.1-3.1 6.9-4.7 11.3-4.7H299c4.1 0 7.8 1.6 11.1 4.7 3.1 3.2 4.8 6.9 4.8 11.3zm-101.5-63.7c0-23.3 11.5-35 34.5-35s34.5 11.7 34.5 35c0 23-11.5 34.5-34.5 34.5s-34.5-11.5-34.5-34.5zM247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3z"/><path transform="translate(1032)" d="M247.6 8C389.4 8 496 118.1 496 256c0 147.1-118.5 248-248.4 248C113.6 504 0 394.5 0 256 0 123.1 104.7 8 247.6 8zm.8 44.7C130.2 52.7 44.7 150.6 44.7 256c0 109.8 91.2 202.8 203.7 202.8 103.2 0 202.8-81.1 202.8-202.8.1-113.8-90.2-203.3-202.8-203.3zM137.7 221c13-83.9 80.5-95.7 108.9-95.7 99.8 0 127.5 82.5 127.5 134.2 0 63.6-41 132.9-128.9 132.9-38.9 0-99.1-20-109.4-97h62.5c1.5 30.1 19.6 45.2 54.5 45.2 23.3 0 58-18.2 58-82.8 0-82.5-49.1-80.6-56.7-80.6-33.1 0-51.7 14.6-55.8 43.8h18.2l-49.2 49.2-49-49.2h19.4z"/></svg>
+      CC BY-SA 4.0
+    </a>
+  </footer>
+
+  <div class="about-backdrop" id="about-backdrop">
+    <div class="about-modal"></div>
+  </div>
+
+  <div class="stance-modal-backdrop" id="stance-modal-backdrop">
+    <button class="stance-modal-close" type="button" aria-label="Close">&times;</button>
+    <iframe class="stance-modal-frame" id="stance-modal-frame"></iframe>
+  </div>
+
+  <div class="tooltip" id="tooltip">
+    <div class="tooltip-band"></div>
+    <div class="tooltip-name"></div>
+    <div class="tooltip-meta"></div>
+    <div class="tooltip-desc"></div>
+  </div>
+
+  <script src="js/collider-data.js"></script>
+  <script src="js/collider-ui.js"></script>
+  <script src="js/mosaic.js"></script>
 </body>
 </html>

@@ -1,0 +1,367 @@
+{
+  "id": "chinese-oss",
+  "name": "Chinese OSS model",
+  "desc": "Open-weight diffusion as competitive strategy: releasing capable model weights compresses rivals' leads, creates adoption dependency, introduces provenance and supply-chain questions, and shifts the competitive landscape without requiring traditional export channels.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "Chinese open-weight models like DeepSeek and Qwen operate near the frontier, making their open release strategically significant.",
+      "detail": "Models released at near-frontier capability levels create genuine competitive pressure on Western labs. Open-weight release at this capability level has different strategic implications than releasing weaker models. The frontier adjacency is what makes Chinese OSS models a proliferation event rather than just a community contribution. Capability level determines the strategic significance of the release."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "Chinese open-weight models are general-purpose, applicable across every domain, maximizing the breadth of strategic impact.",
+      "detail": "DeepSeek, Qwen, and similar models cover language, code, reasoning, and vision domains. General-purpose breadth means the proliferation affects every sector simultaneously. No domain limitation constrains the competitive impact of the open release. The broad applicability amplifies both adoption and strategic concern."
+    },
+    "Capability Trajectory": {
+      "value": "Compressed",
+      "memo": "Open-weight release compresses capability timelines for recipients, providing frontier-adjacent capability without the years of R&D investment.",
+      "detail": "Organizations that adopt Chinese open-weight models skip years of model development. The compressed trajectory benefits adopters at the expense of labs that invested in original development. Each new open-weight release further compresses the strategic lead of Western frontier labs. Compression through open release is a qualitatively different competitive dynamic from independent development."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "Chinese AI labs use their own models to accelerate research, creating improvement loops similar to US frontier labs.",
+      "detail": "DeepSeek and other Chinese labs use AI assistance in their research processes. The AI-assisted research loop accelerates capability development on both sides of the geopolitical divide. Chinese labs' research automation matches the capability of their US counterparts. The reciprocal improvement loop drives the pace of competitive development."
+    },
+    "Unhobbling": {
+      "value": "Agentic",
+      "memo": "Chinese open-weight models support agentic deployment, meaning recipients can build autonomous agents without developing their own base models.",
+      "detail": "Open-weight models with tool use and code execution capabilities enable agentic applications. Recipients can build autonomous agent systems using Chinese models as the foundation. Agentic capability in open-weight models creates the broadest possible deployment surface. The unhobbling level determines the range of downstream applications."
+    },
+    "Replication Scale": {
+      "value": "Population-scale",
+      "memo": "Open-weight release enables population-scale deployment as anyone can run the model, creating unconstrained replication.",
+      "detail": "Open weights remove all supply-side constraints on deployment scale. Any organization with sufficient compute can serve the model to unlimited users. Population-scale replication is inherent to the open-weight distribution model. The scale of potential deployment far exceeds API-controlled distribution."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Chinese open-weight models operate at the same faster-than-human speed as any GPU-deployed model.",
+      "detail": "Inference speed is hardware-determined, not model-origin-determined. Open-weight models run at identical speeds to closed models on the same hardware. Faster-than-human operation is available to every recipient of the open weights. The speed capability is independent of the model's origin."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Chinese open-weight models are cognitive-only, focused on language, code, and reasoning rather than physical actuation.",
+      "detail": "Current open-weight releases target cognitive capabilities rather than robotics or physical systems. The cognitive focus keeps the proliferation concern in the information and digital-action domains. Physical-world AI extension from Chinese labs exists but follows separate distribution channels. Cognitive-only positioning reflects the current release strategy."
+    },
+    "Role": {
+      "value": "Agent",
+      "memo": "Chinese open-weight models enable agent-role deployment, with recipients building autonomous systems using the released weights.",
+      "detail": "Open weights with sufficient capability support autonomous agent construction. Recipients are not limited to assistant or copilot roles by the model's capabilities. The agent-capable role reflects the frontier-adjacent capability of recent Chinese releases. Agent-enabling capability maximizes the strategic impact of the open-weight proliferation."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Chinese open-weight models support digital action through code execution and tool use, enabling consequential system interactions.",
+      "detail": "Models with code generation and tool-call capabilities enable digital actions by downstream deployers. The digital-action channel is available to every recipient of the open weights. No gating mechanism restricts what digital actions deployers build. The actuation capability is part of the proliferated package."
+    },
+    "Autonomy": {
+      "value": "Human-out-of-loop",
+      "memo": "Open-weight models can be deployed without any human oversight, as recipients control deployment configuration.",
+      "detail": "Open-weight recipients can remove safety filters and deploy models without human oversight. No technical mechanism prevents human-out-of-loop deployment of open-weight models. The autonomy level is determined by the deployer rather than the model provider. Human-out-of-loop potential is inherent to open-weight distribution."
+    },
+    "Delegated Authority": {
+      "value": "Operational mandate",
+      "memo": "Recipients can configure Chinese open-weight models with operational mandates, delegating consequential authority without provider oversight.",
+      "detail": "Open-weight deployment allows recipients to grant models whatever authority they choose. No model-provider governance constrains the delegated authority in open-weight deployment. Operational mandates can include financial transactions, system modifications, and communication authority. The delegation potential is determined by the deployer, not the model source."
+    },
+    "Tool Access": {
+      "value": "Broad toolchain",
+      "memo": "Open-weight models can be connected to any toolchain the deployer chooses, without provider-imposed tool restrictions.",
+      "detail": "Recipients integrate open-weight models with whatever tools their use case requires. No provider-side gating limits tool access for open-weight deployments. The broad-toolchain potential includes sensitive systems that API providers would restrict. Tool access breadth is limited only by the deployer's choices."
+    },
+    "Response / Intervention Capability": {
+      "value": "No effective override",
+      "memo": "Once weights are released, no effective override exists: the model provider cannot intervene in downstream deployments.",
+      "detail": "Open-weight release permanently transfers model capability outside provider control. No kill switch, update mechanism, or intervention path reaches independently deployed instances. The model provider has no knowledge of or authority over downstream deployments. Absence of effective override is the fundamental governance challenge of open-weight release."
+    },
+    "Command Actor": {
+      "value": "State/coalition",
+      "memo": "Chinese AI labs operate under state-level strategic direction, with open-weight releases reflecting national-competitive strategy.",
+      "detail": "Chinese AI lab decisions are influenced by state industrial policy and competitive strategy. Open-weight release decisions reflect strategic calculations about eroding Western leads. State direction does not mean every release is directly ordered but the strategic context is national. The command actor for the release strategy operates at state level."
+    },
+    "Decision Tempo": {
+      "value": "Crisis tempo",
+      "memo": "Chinese open-weight release timing responds to competitive crisis dynamics, with releases timed to disrupt Western lab advantages.",
+      "detail": "Release timing often correlates with Western lab announcements or competitive developments. The rapid release cadence reflects competitive urgency rather than product-cycle planning. Crisis-tempo decisions prioritize strategic impact over incremental product refinement. The decision speed reflects the race-dynamic nature of Chinese AI competition."
+    },
+    "Tradeoff Authority": {
+      "value": "National command",
+      "memo": "Strategic tradeoffs about Chinese AI capability release involve national-level authorities balancing competitive advantage against capability diffusion.",
+      "detail": "Decisions about whether to release frontier-adjacent capability openly involve strategic national considerations. National-command authority balances the competitive benefit of eroding Western leads against the risk of empowering adversaries. The tradeoff calculus operates at a level above individual lab or product-team decisions. National-command involvement reflects the strategic significance of open-weight release."
+    },
+    "Permission": {
+      "value": "Broad",
+      "memo": "Chinese open-weight models are released with broad permission terms, enabling nearly unrestricted commercial and research use.",
+      "detail": "Open-weight licenses like DeepSeek's and Qwen's impose minimal use restrictions. Broad permission maximizes adoption and competitive disruption. The permissive licensing is a strategic choice to maximize the models' impact. Broad permission ensures the widest possible distribution and integration."
+    },
+    "Regulatory Posture": {
+      "value": "Mandated open",
+      "memo": "The open-weight release strategy effectively mandates openness, creating a de facto open-access competitive environment.",
+      "detail": "Once weights are released openly, the competitive environment shifts toward open access. Other labs face pressure to open their own models or compete against free alternatives. The mandated-open posture is strategic: it undermines the business models of closed-model competitors. Open release changes the industry structure rather than just individual competitive positions."
+    },
+    "Data Availability": {
+      "value": "Open/available",
+      "memo": "Chinese open-weight models were trained on broadly available data with minimal disclosed provenance constraints.",
+      "detail": "Training data for Chinese open-weight models includes web-crawled content, code repositories, and available datasets. Data-access constraints in China differ from Western jurisdictions, potentially enabling broader scraping. The open-available data posture supports the low-cost training that enables open-weight release. Data availability within China's regulatory framework supports competitive model development."
+    },
+    "Provenance": {
+      "value": "Unknown",
+      "memo": "Training data provenance for Chinese open-weight models is largely unknown: no comprehensive disclosure reveals data sources or processing.",
+      "detail": "Chinese labs provide limited disclosure about training data composition and sources. The unknown provenance creates security and compliance concerns for institutional adopters. No independent verification mechanism confirms or denies specific data-source claims. Unknown provenance is one of the primary risk factors for Chinese open-weight adoption."
+    },
+    "Model-Weight Rights": {
+      "value": "Open-stack",
+      "memo": "Chinese open-weight models provide open-stack access: weights are freely downloadable, inspectable, and modifiable.",
+      "detail": "Open-weight release provides the most permissive form of model access available. Recipients can inspect, modify, fine-tune, and redistribute the weights. Open-stack access is the delivery mechanism for the proliferation strategy. The weight-access model is maximally permissive by design."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Chinese open-weight models cross borders instantly through internet distribution, reaching every jurisdiction without physical transfer.",
+      "detail": "Model weights download globally through Hugging Face, GitHub, and direct distribution. Cross-border distribution occurs without the physical controls that apply to GPU exports. No customs, export license, or physical logistics gate the territory crossing. The cross-border nature of digital weight distribution is what makes open release a proliferation mechanism."
+    },
+    "Data Subject Exposure": {
+      "value": "Low-identifiability",
+      "memo": "Chinese open-weight models are trained on data with low but uncertain identifiability, with no clear disclosure of personal-data handling.",
+      "detail": "Training data likely includes personal information from web scraping but the extent is undisclosed. Chinese privacy law applies to the training process but compliance verification is not available to external parties. Low-identifiability is the best external assessment given limited disclosure. The uncertainty itself is a risk factor for data-protection-conscious adopters."
+    },
+    "Data Sensitivity": {
+      "value": "Ordinary",
+      "memo": "Chinese open-weight models are trained on ordinary web content without disclosed access to classified or specially regulated material.",
+      "detail": "Training data appears to be primarily ordinary web text, code, and publicly available content. No evidence suggests training on classified or specially protected data. The ordinary-data baseline reduces some sensitivity concerns for adopters. However, the provenance uncertainty means hidden sensitivity cannot be fully excluded."
+    },
+    "Control Exposure": {
+      "value": "Controlled item active",
+      "memo": "Chinese-origin AI models create active export-control exposure for adopters in certain jurisdictions and use cases.",
+      "detail": "Adopting Chinese open-weight models in US government or defense contexts raises control concerns. Some jurisdictions may restrict use of Chinese-origin AI in sensitive applications. The control exposure is on the adopter rather than the model provider. Active control considerations limit institutional adoption in security-sensitive contexts."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "The strategic significance of Chinese open-weight models lies in the training that produced them, not just their inference-time use.",
+      "detail": "Training is the processing mode that created the capability being proliferated. The training investment by Chinese labs produces the weights that open release then distributes. Recipients can further fine-tune, extending the training-mode value chain. The training-mode processing is the upstream activity that creates the proliferation payload."
+    },
+    "Derivation": {
+      "value": "Recursive derivation",
+      "memo": "Chinese open-weight models enable recursive derivation: fine-tuning, distillation, and model merging create derivative models from the released weights.",
+      "detail": "Open weights enable fine-tuning that creates derivative models for specific use cases. Distillation techniques can compress the capability into smaller, deployable models. Model merging combines Chinese and other open-weight models into hybrid derivatives. Recursive derivation means the proliferation event continues generating new capability indefinitely."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Once Chinese open-weight models are downloaded and deployed, the capability persists permanently as weight-entangled artifacts.",
+      "detail": "Downloaded model weights persist indefinitely on recipient infrastructure. No mechanism can recall or delete distributed open-weight models. Capability embedded in weights is permanently available regardless of any subsequent policy change. Weight-entangled persistence means open-weight release is irreversible proliferation."
+    },
+    "Execution / Residency Environment": {
+      "value": "Distributed",
+      "memo": "Chinese open-weight models run in distributed environments worldwide, with no control over where weights are deployed or executed.",
+      "detail": "Open weights deploy on any hardware in any location without provider knowledge or control. The distributed execution environment spans from personal laptops to enterprise data centers. No residency requirement or geographic restriction applies to open-weight deployment. Distributed execution is inherent to the open-weight distribution model."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Chinese open-weight models run on shared infrastructure alongside other workloads, with no boundary controls from the model provider.",
+      "detail": "Deployers choose their own infrastructure without model-provider boundary requirements. Shared cloud infrastructure is the most common deployment environment for open-weight models. No isolation requirement protects model weights or outputs in open-weight deployments. Boundary decisions are entirely in the deployer's control."
+    },
+    "Deployment Surface": {
+      "value": "Public-facing",
+      "memo": "Chinese open-weight models power public-facing applications worldwide, with no provider control over deployment surface decisions.",
+      "detail": "Open weights are integrated into public-facing products, APIs, and consumer applications globally. No provider approval or review gates public-facing deployment. The deployment surface is determined by thousands of independent deployers. Public-facing deployment at uncontrolled scale maximizes both adoption and exposure."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Chinese open-weight models deploy on standard commercial cloud infrastructure worldwide, requiring no specialized hardware.",
+      "detail": "Open-weight models run on any GPU-equipped commercial cloud instance. No custom infrastructure is needed beyond standard AI compute. Commercial cloud accessibility lowers the barrier to deployment for any organization. The infrastructure accessibility amplifies the proliferation reach of open-weight release."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "Chinese open-weight models become one source among many, creating multi-provider optionality for organizations building AI systems.",
+      "detail": "Organizations can mix Chinese open-weight models with Western closed or open models. Multi-provider sourcing using Chinese models provides cost savings and capability diversity. The multi-provider dynamic is what makes Chinese open release competitively disruptive. Western labs face price pressure from free open-weight alternatives."
+    },
+    "Compute Source": {
+      "value": "Rented/spot",
+      "memo": "Chinese open-weight models can be deployed on rented or spot compute, minimizing the cost barrier to adoption.",
+      "detail": "Open-weight models run on rented cloud GPU instances available at commodity prices. No committed capacity or dedicated infrastructure is required for deployment. Spot pricing further reduces the economic barrier to adoption. Low-cost compute access amplifies the competitive disruption of free model weights."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "Chinese open-weight models are maximally portable: deployable on any cloud, on-premises, or edge hardware.",
+      "detail": "Open weights create no cloud-provider dependency whatsoever. Models can move between providers or run entirely on-premises. Maximum portability is a feature of the open-weight distribution model. Portable deployment eliminates the cloud lock-in that API-based models create."
+    },
+    "Accelerator Stack": {
+      "value": "Multi-stack",
+      "memo": "Chinese open-weight models run on any GPU vendor's hardware, supporting multi-stack deployment across Nvidia, AMD, and other accelerators.",
+      "detail": "Open-weight models in standard formats run on any compatible GPU hardware. Multi-stack compatibility means no accelerator lock-in constrains deployment. Recipients can use whatever hardware is available or affordable. Multi-stack support maximizes the addressable deployment base."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Chinese open-weight models rely on standard market access for compute rather than strategic supply control or allocation rights.",
+      "detail": "Open-weight deployment uses commercially available compute without priority allocation. Market-access positioning means adoption scales with compute availability. No strategic supply relationship is needed to deploy open-weight models. The market-access model is the most accessible supply posture."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Open-weight model deployment is bottlenecked only by general accelerator supply, with no model-specific hardware constraint.",
+      "detail": "The only hardware constraint is general GPU availability for inference. No model-specific or vendor-specific silicon is required. The accelerator-supply bottleneck is less binding for inference than for training. Open-weight deployment faces lower silicon constraints than frontier training."
+    },
+    "Substitutability": {
+      "value": "Replaceable",
+      "memo": "Chinese open-weight models are deliberately replaceable: easy adoption and easy swapping is what creates the competitive disruption.",
+      "detail": "Organizations can adopt, evaluate, and replace Chinese models with minimal switching cost. The replaceable positioning creates price pressure on closed-model competitors. Easy substitution means Chinese models compete primarily on capability and cost. Replaceability is a feature of the competitive strategy, not a weakness."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "Chinese open-weight model adopters operate at the application layer, using the released weights without controlling the training or infrastructure stack.",
+      "detail": "Recipients build applications on top of Chinese model weights without access to training infrastructure. Application-only positioning means adopters inherit the model's capabilities and limitations. No access to training data, methodology, or infrastructure accompanies the weight release. Application-layer adoption creates dependency without visibility into the upstream stack."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "Chinese open-weight models distribute through download platforms and API wrappers, reaching developers through standard channels.",
+      "detail": "Hugging Face, ModelScope, and direct downloads provide the primary distribution channels. Third-party API services wrap open-weight models for easy integration. The distribution channels are developer-focused rather than consumer-facing. API/app distribution maximizes developer adoption and integration speed."
+    },
+    "Supply Jurisdiction": {
+      "value": "Adversary/exposed",
+      "memo": "Chinese open-weight models originate from a strategic-competitor jurisdiction, creating supply-chain exposure for adopters in security-sensitive contexts.",
+      "detail": "China's geopolitical position as a strategic competitor creates jurisdiction-specific exposure for adopters. Government, defence, and critical-infrastructure deployments face heightened scrutiny when model weights originate from a competing power. The jurisdiction concern is geopolitical rather than technical — the same weights from a domestic lab would not trigger the same review. Supply-jurisdiction exposure is one of the primary risk factors for institutional adoption."
+    },
+    "Observability": {
+      "value": "Observable",
+      "memo": "Open-weight models are technically observable: weights can be inspected, probed, and analyzed by any recipient.",
+      "detail": "Model weights are fully available for technical inspection and analysis. Researchers can probe the model's behavior, biases, and capabilities without restriction. The observability is a consequence of open-weight access rather than a provider transparency choice. Observable weights do not mean observable training data or training process."
+    },
+    "Evaluation": {
+      "value": "Benchmarked",
+      "memo": "Chinese open-weight models are extensively benchmarked by the global research community, providing detailed capability assessment.",
+      "detail": "Independent evaluation through public benchmarks is one of the most robust aspects of open-weight governance. The community-driven evaluation exceeds what most closed-model providers disclose. Benchmark performance is the primary adoption criterion for open-weight model selection. Benchmarked evaluation provides capability transparency even when training provenance is opaque."
+    },
+    "Interpretability": {
+      "value": "Internal/mechanistic access",
+      "memo": "Open weights provide internal mechanistic access: researchers can examine activations, attention patterns, and learned representations.",
+      "detail": "Full weight access enables mechanistic interpretability research impossible with API-only models. Researchers can study internal representations, feature circuits, and behavior at the weight level. This is the most complete interpretability access available for any model. Internal access is a research benefit that partially offsets the provenance concerns."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "Chinese open-weight models use standard RLHF alignment, which can be partially or fully removed by recipients modifying the weights.",
+      "detail": "Models are released with RLHF-based alignment similar to Western frontier models. Recipients can fine-tune away safety alignment or modify system prompts without restriction. The removability of alignment in open-weight models is a fundamental governance challenge. Alignment is a provider choice that recipients are not bound to preserve."
+    },
+    "Security Posture": {
+      "value": "Startup-grade",
+      "memo": "Open-weight diffusion creates startup-grade security: weights are freely copyable with no protection against misuse or unauthorized deployment.",
+      "detail": "Once released, model weights have no security protection against any form of use. Any actor from researchers to criminals can access the full model capability. The security posture after release is the weakest possible: fully open access. Startup-grade security is not a Chinese lab's failing but inherent to the open-weight model."
+    },
+    "Adversary Model": {
+      "value": "State actor",
+      "memo": "Chinese open-weight models attract state-actor attention: both as potential tools for adversary use and as objects of Western intelligence analysis.",
+      "detail": "State actors may adopt Chinese models for intelligence, cyber, or influence operations. Western intelligence services analyze Chinese models for backdoors, biases, and capability. The state-actor adversary model applies both to potential model misuse and to the models as intelligence objects. Dual-direction state interest reflects the geopolitical significance of the release."
+    },
+    "Weight Security": {
+      "value": "Copyable",
+      "memo": "Chinese open-weight models are freely copyable by design: weight distribution is the intended proliferation mechanism.",
+      "detail": "Unrestricted copying and redistribution is the fundamental feature of open-weight release. No technical or legal mechanism prevents weight copying after release. Copyability is the delivery vehicle for the competitive and strategic impact. The copyable status is intentional, not an oversight."
+    },
+    "Access Control": {
+      "value": "API keys",
+      "memo": "Open-weight deployments use whatever access control the deployer implements, typically basic API keys for self-hosted instances.",
+      "detail": "The model provider imposes no access-control requirements on open-weight deployments. Deployers typically implement basic API-key authentication for self-hosted services. Access control quality varies enormously across the thousands of independent deployments. The minimal-access-control default reflects the permissive nature of open-weight distribution."
+    },
+    "Monitoring Scope": {
+      "value": "Outputs",
+      "memo": "Open-weight monitoring is limited to whatever output monitoring individual deployers implement, with no centralized oversight.",
+      "detail": "No centralized monitoring system tracks open-weight model usage or outputs. Individual deployers may monitor their own instances but there is no aggregate visibility. Misuse detection depends entirely on downstream observation of harmful outputs. The output-only monitoring scope is a fundamental governance limitation of open-weight release."
+    },
+    "Containment": {
+      "value": "None",
+      "memo": "No containment exists for open-weight models: once released, the capability propagates without any boundary or restriction.",
+      "detail": "Open-weight release eliminates all containment: no technical, legal, or operational boundary restricts the model. The model exists simultaneously in thousands of uncontrolled environments. No provider-side mechanism can restrict, limit, or revoke open-weight deployment. The absence of containment is the core governance challenge of open-weight proliferation."
+    },
+    "Capability Limitation": {
+      "value": "None",
+      "memo": "No capability limitation applies to open-weight models: recipients can access and use the full model capability without restriction.",
+      "detail": "Safety filters and RLHF alignment can be removed through fine-tuning. No technical mechanism prevents access to the model's full capability including harmful applications. The absence of durable capability limitation distinguishes open weights from API-controlled models. No-limitation is inherent to the open-weight distribution model."
+    },
+    "Use Class": {
+      "value": "Dual-use",
+      "memo": "Chinese open-weight models are inherently dual-use: the same general-purpose capability serves civilian, criminal, and potentially military applications.",
+      "detail": "General-purpose language and reasoning models have applications across civilian and military domains. Open-weight access means no use-class restriction gates deployment. The dual-use classification reflects the inherent nature of general-purpose AI capability. Open-weight dual-use capability is the core proliferation concern."
+    },
+    "Harm Channel": {
+      "value": "Cyber/bio/financial",
+      "memo": "Chinese open-weight models create harm exposure beyond information through code generation, scientific reasoning, and financial analysis capabilities.",
+      "detail": "Code generation enables cyber attack development and tool creation. Scientific reasoning capability can assist with dual-use biological research. Financial analysis can support fraud and market manipulation at scale. The harm channels reflect the general-purpose capability released through open weights."
+    },
+    "Proliferation": {
+      "value": "Open but bounded",
+      "memo": "Chinese open-weight models create open-but-bounded proliferation: capability spreads freely but is bounded by the released model's capability level.",
+      "detail": "The proliferation is open because weights are freely available to any actor. It is bounded because the released capability cannot exceed the training investment. Each release creates a new bounded capability floor for all actors. The open-but-bounded dynamic means proliferation is controlled by what is released, not by who receives it."
+    },
+    "Strategic Lead": {
+      "value": "Neck-and-neck",
+      "memo": "Chinese open-weight releases demonstrate neck-and-neck positioning with Western frontier labs, compressing the perceived capability gap.",
+      "detail": "DeepSeek and Qwen benchmark results approach or match Western frontier models on many tasks. Open release at competitive capability levels signals parity rather than deficit. The neck-and-neck positioning challenges assumptions about decisive Western AI advantage. Strategic-lead compression is both a consequence and a goal of the open-release strategy."
+    },
+    "Race Pressure": {
+      "value": "Existential",
+      "memo": "Chinese open-weight releases create existential pressure on closed-model business models by offering comparable capability for free.",
+      "detail": "Free open-weight models that match closed-model performance challenge commercial viability. Labs that charge for API access face price competition from zero-cost alternatives. The existential pressure affects business models rather than national security directly. Race pressure from open-weight competition forces strategic responses from Western labs."
+    },
+    "Coalition Structure": {
+      "value": "National project",
+      "memo": "Chinese AI development operates as a national project with state coordination of research priorities and strategic release decisions.",
+      "detail": "Chinese AI labs operate within a national strategic framework for technology competitiveness. State funding, industrial policy, and strategic direction coordinate lab activities. The national-project structure enables resources and coordination that individual firms cannot match. National coordination shapes the timing and scope of open-weight releases."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No nonproliferation regime effectively governs open-weight model release: the digital distribution bypasses all physical-goods controls.",
+      "detail": "Export controls designed for hardware cannot restrict digital model-weight distribution. No international treaty or agreement governs open-weight AI model release. The absence of an applicable regime is a fundamental governance gap. Open-weight release demonstrates the limits of hardware-focused nonproliferation."
+    },
+    "Data Value Dynamics": {
+      "value": "Elastic/synthetic",
+      "memo": "Chinese model training leverages elastic data strategies including synthetic data generation to reduce dependence on scarce training data.",
+      "detail": "Chinese labs have demonstrated effective use of synthetic data and data augmentation techniques. Elastic data strategies reduce the training-data bottleneck that constrains some Western labs. Synthetic data generation creates a renewable data source for continued model improvement. The elastic-data approach contributes to cost-effective model development that enables open release."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Chinese model training acquires data at fixed cost without revenue-sharing, enabling the low-cost development that supports free open-weight release.",
+      "detail": "Training data is acquired through scraping and fixed-cost agreements. No revenue-sharing or ongoing licensing obligations burden the training cost structure. Fixed input pricing keeps total training costs low enough to justify free open-weight release. The low-cost structure is a competitive advantage enabling the open-release strategy."
+    },
+    "Output Allocation": {
+      "value": "Unallocated",
+      "memo": "Chinese open-weight model outputs have unallocated value: no rights framework governs who benefits from downstream applications.",
+      "detail": "Open-weight licenses do not specify output ownership or value allocation. Deployers capture all output value without obligations to the model provider or training-data sources. The unallocated status maximizes adopter incentives and competitive disruption. Absence of output-allocation claims is part of the free-distribution strategy."
+    },
+    "Derived Value Capture": {
+      "value": "Public/international",
+      "memo": "Chinese open-weight release positions derived value as public benefit, with capability diffusing freely to the international community.",
+      "detail": "Open release frames derived value as broadly shared rather than privately captured. The public/international positioning supports narrative of beneficial contribution. In practice, derived value is captured by deployers rather than truly shared publicly. The public-benefit framing is strategic positioning for the competitive disruption."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "Chinese open-weight models fully disclaim risk: model providers bear no liability for any downstream use or harm.",
+      "detail": "Open-weight licenses include standard disclaimers of liability for any use. Model providers have no mechanism to even know about downstream harms. The disclaimed-risk posture is inherent to the open-weight distribution model. Risk falls entirely on deployers and affected third parties."
+    },
+    "Capital": {
+      "value": "Strategic build",
+      "memo": "Chinese AI lab investment is strategic-build capital, with state funding and venture investment supporting competitive model development.",
+      "detail": "Chinese labs receive significant state-backed and private investment for AI capability development. The capital commitment reflects national-strategic priority for AI competitiveness. Strategic-build capital enables the research investment that open-weight release then distributes. The capital scale supports competitive model development at frontier-adjacent levels."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "Chinese AI lab investments span multi-year timelines aligned with national technology-competitiveness strategies.",
+      "detail": "National AI strategies set multi-year investment horizons for capability development. Lab funding commitments extend across multiple model generations. Multi-year commitment provides stability for sustained research and development programs. The long commitment tenor reflects the national-strategic nature of the investment."
+    },
+    "Revenue Dependency": {
+      "value": "Experimental",
+      "memo": "Chinese open-weight models generate experimental revenue: the strategic value exceeds the commercial return from the open-release model.",
+      "detail": "Open-weight release generates minimal direct revenue for the model provider. API services and enterprise support provide some commercial income. The experimental revenue dependency means the investment is justified by strategic rather than commercial returns. Revenue generation is secondary to competitive disruption as a success metric."
+    },
+    "Switching Cost": {
+      "value": "Low",
+      "memo": "Switching costs for Chinese open-weight models are deliberately low, making adoption frictionless and maximizing competitive disruption.",
+      "detail": "Open-weight models can be adopted and discarded with minimal cost. Standard model formats and framework support reduce integration switching costs. Low switching costs are a feature of the competitive strategy, not a limitation. Frictionless adoption maximizes the models' market impact."
+    },
+    "Exit": {
+      "value": "Clean",
+      "memo": "Exit from Chinese open-weight model use is clean for deployers: inference-only use creates no weight entanglement or data persistence.",
+      "detail": "Deployers using open-weight models for inference can stop without residual capability concerns. No data sent to the model provider creates entanglement or persistence obligations. Clean exit is a feature of self-hosted deployment without provider dependency. The clean-exit property makes Chinese open-weight models attractive for risk-conscious adopters."
+    },
+    "Acceptance Basis": {
+      "value": "Market-validated",
+      "memo": "Chinese open-weight models validate through global adoption metrics, fork activity, and developer community traction.",
+      "detail": "DeepSeek and Qwen validate through download counts, community contributions, and deployment in production systems worldwide. No formal assurance process governs how open-weight models proliferate or get adopted. Market behaviour determines which models gain traction regardless of origin jurisdiction. Adoption velocity is the acceptance test, and it runs faster than any governance framework."
+    }
+  }
+}

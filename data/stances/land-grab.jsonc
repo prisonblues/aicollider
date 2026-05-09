@@ -1,0 +1,357 @@
+{
+  "id": "land-grab",
+  "name": "Permission Gap",
+  "desc": "Pre-2024 default: permission excluded or ambiguous, control opaque, training proceeds without negotiated terms, and the processor retains all output value.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "Default training targets frontier models where the resulting capability makes the permission gap commercially significant and structurally asymmetric.",
+      "detail": "The pattern matters because it operates at frontier scale where capability creates substantial derivative value. The absence of negotiated permission means this value accrues entirely to the processor without compensation. Lower-capability systems would not generate the same asymmetry between input and output. Frontier scale is what converts the permission gap into a structural asymmetry."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Broad multi-domain training consumes data across verticals without securing domain-specific permission from any individual data contributor.",
+      "detail": "Training data is ingested from many domains simultaneously without granular licensing. No single data owner negotiates terms for the cross-domain capability that emerges from their contribution. The breadth amplifies the permission gap because each contributor's data enhances capability in unrelated areas they never consented to. This cross-domain value creation is what makes the pattern commercially powerful."
+    },
+    "Capability Trajectory": {
+      "value": "Compressed",
+      "memo": "Compressed development timelines outrun rights negotiations, making the gap between data use and data permission structural rather than incidental.",
+      "detail": "Training proceeds faster than licensing markets or regulatory frameworks can form around the new use case. By the time rights holders recognise the value being extracted, the capability has already been built into deployed models. This compression is driven by competitive pressure among labs racing to reach frontier performance first. The speed itself creates and sustains the permissionless default."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "Frontier labs use their own models to accelerate research, compounding the competitive advantage gained from ungoverned data ingestion over time.",
+      "detail": "AI-assisted research means each training run improves the tools used in the next, creating a compounding cycle. The ungoverned data feeds a loop where capability begets more capable research instruments and methodologies. This compounds the extraction because early data contributes to capability improvements that were never priced into the original deal. The research automation loop makes this default more valuable over successive model generations."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Commercial deployment connects trained models to external tools, extending the value extracted from training data into active digital operations.",
+      "detail": "Tool-using capability means training data contributes not just to information generation but to functional action through APIs and integrations. The system can write code, call services, and execute tasks that generate direct commercial value for the processor. This extends the commercial value of ungoverned training far beyond what a conversational chatbot would capture from the same data. The unhobbling amplifies the gap between what was taken from data contributors and what was never paid."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Cloud deployment replicates the trained capability across millions of concurrent instances without any additional data compensation to contributors.",
+      "detail": "Once trained, the model serves many concurrent users simultaneously across global infrastructure. Each instance leverages the same ungoverned training data without incremental cost to the processor or payment to data sources. Scale multiplies the commercial value extracted from each training data contribution without limit or attribution. The replication makes any fixed-price input payment massively underpriced relative to the aggregate output value generated."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Machine-speed inference generates commercial value from training data faster than rights holders can organise, respond, or negotiate.",
+      "detail": "The system operates continuously at speeds no human workflow can match, generating revenue around the clock. This velocity compounds the extraction because value realisation outpaces any possible legal or commercial response from data contributors. By the time a rights holder identifies the issue and organises a response, millions of inferences have already been served profitably. Speed is an integral part of the structural advantage that sustains the pattern."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "The permission gap describes a purely cognitive pattern with no direct physical-world actuation, keeping it below kinetic harm thresholds.",
+      "detail": "All effects remain in the information and digital domain without extension into physical systems or robotics. The system does not control physical processes, manufacture goods, or operate equipment in the material world. This cognitive boundary limits the risk profile to informational and commercial harms rather than physical ones. The absence of physical extension keeps the pattern below safety thresholds that would invite stronger regulatory intervention."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "The system is framed as a user-directed tool, which obscures the processor's structural advantage and permanent capability retention over data contributors.",
+      "detail": "Calling it a tool maintains the useful fiction that value flows primarily to the user who directs the interaction. In practice the processor captures the training-derived capability permanently in weights while users get only transient outputs. The tool framing avoids the governance implications that would follow from recognising the system as an autonomous value-extraction mechanism. It keeps the arrangement looking like a simple product sale rather than a systemic extraction of data rights."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "Effects are informational rather than transactional or kinetic, keeping the extraction below thresholds that trigger stronger regulatory scrutiny.",
+      "detail": "The system produces text, code, analysis, and recommendations rather than executing binding transactions or physical operations. This informational framing avoids the financial, legal, and safety thresholds that would mandate stricter governance frameworks. Regulators have historically been slower to intervene in systems that only produce information as their primary output. The low actuation level helps the permissionless default persist without triggering the controls that action-taking systems attract."
+    },
+    "Autonomy": {
+      "value": "Human-in-loop",
+      "memo": "Human-in-loop framing preserves the appearance of user control while the processor retains all training-derived value permanently in weights.",
+      "detail": "Users approve each interaction and direct each query, maintaining nominal control over the individual session. This supervision applies to the use of outputs but not to the training process that created the underlying capability. The human-in-loop posture addresses product liability concerns but does not address the data rights gap at the foundation. It governs the visible output surface while leaving the invisible input extraction completely ungoverned."
+    },
+    "Delegated Authority": {
+      "value": "None",
+      "memo": "No formal authority is delegated to the system, keeping the arrangement below governance thresholds that would invite binding accountability scrutiny.",
+      "detail": "The system cannot bind principals, execute transactions, or take actions that create legal obligations for third parties. This absence of delegated authority keeps the deployment in the simplest governance category with minimal regulatory overhead. No stakeholder asks who authorised the training because no formal authority framework applies to the process. The governance vacuum around delegated authority extends symmetrically to the data rights gap at the heart of the pattern."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Provider-controlled tool gates let the processor decide which integrations monetise the capability built on ungoverned training data contributions.",
+      "detail": "Tool access is gated by the processor through API permissions and integration partnerships rather than by data contributors. Each new integration extends the commercial value and reach of the trained model into additional use cases and revenue streams. The provider controls which tools connect, when they activate, and how they generate commercial returns. Data contributors have no visibility into or say over how their contribution enables and drives tool-based commercial value capture."
+    },
+    "Response / Intervention Capability": {
+      "value": "Manual stop",
+      "memo": "Manual cancellation is the only intervention mechanism available, and it operates on usage, not on training that has already permanently occurred.",
+      "detail": "A user or rights holder can stop using the service but cannot reverse the training that has already been completed. The manual stop addresses product-level control at the individual session level but not the systemic data-level extraction. Once capability is built from training data and deployed into weights, no intervention mechanism restores the prior state of the data. This asymmetry between forward-looking control and backward-looking irreversibility defines the permission gap's permanence."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "The AI lab sets all practical rules as an enterprise actor, concentrating unilateral command authority over data use within the processor organisation.",
+      "detail": "Terms of service, acceptable use policies, and training data selection criteria are all set by the processor without external input. Data contributors have no governance seat, no consultation rights, and no veto mechanism over how their data is used. The enterprise command structure means the processor decides what data to ingest, how to train, and how to monetise results. This centralisation of command authority is the governance expression of the one-sided power dynamic."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Product-cycle tempo lets labs ship training runs and deploy models before rights frameworks or regulatory responses can form and catch up.",
+      "detail": "Decisions follow product release schedules measured in weeks and months rather than legal or regulatory timelines measured in years. This cadence is fast enough to establish trained capability as a fait accompli before governance structures can respond effectively. Each product cycle consumes more data under the same ungoverned default, compounding the extraction with every release. The product tempo is the operational mechanism by which the pattern becomes entrenched as industry standard practice."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Product teams make all speed-versus-rights tradeoffs internally, consistently and predictably favouring training velocity over data governance investment.",
+      "detail": "The team shipping the model decides what data to collect, how quickly to train, and when to release without external governance checks. Safety bodies and legal teams review the decisions after the fact rather than constraining them in advance. This allocation of tradeoff authority structurally favours speed and capability over permission and fair compensation. It is the organisational mechanism that translates competitive pressure into the permissionless default at the operational level."
+    },
+    "Permission": {
+      "value": "Excluded",
+      "memo": "Training permission is excluded or absent from original content terms, creating the foundational rights gap that defines and enables this stance.",
+      "detail": "Data was created and published under terms that never contemplated or authorised AI training as a permitted use. No licence was sought because no licensing market existed and training was treated as technically permissible by default. The excluded permission is not a drafting oversight but a structural feature of the pre-2024 commercial landscape. This permission gap is the single defining characteristic that creates the permission gap's one-sided value dynamics."
+    },
+    "Regulatory Posture": {
+      "value": "Permissive",
+      "memo": "Permissive regulatory environments allowed training on available data to proceed without explicit data-rights requirements, enforcement, or meaningful oversight.",
+      "detail": "US-style regulatory posture did not require explicit training licences or mandate data compensation frameworks for model development. Fair use arguments provided provisional legal cover without definitive resolution of the underlying rights questions at stake. The permissive posture enabled and actively sustained the default rather than constraining or channelling it into licensed frameworks. Jurisdictions with stronger data-rights postures saw correspondingly less aggressive permissionless training activity from labs."
+    },
+    "Data Availability": {
+      "value": "Open/available",
+      "memo": "Technically accessible web data was treated as freely available for training regardless of the rights holder's actual intent or awareness.",
+      "detail": "The internet made vast quantities of data technically accessible at unprecedented scale through web crawling infrastructure. Accessibility was systematically conflated with legal availability for training purposes by labs seeking maximum corpus size. No effective technical barrier prevented wholesale ingestion even when legal rights over the content were uncertain or contested. This open technical availability was the essential supply-side condition that enabled the pattern to operate at frontier training scale."
+    },
+    "Provenance": {
+      "value": "Unknown",
+      "memo": "Data provenance was largely unknown or deliberately undocumented, making it practically impossible for rights holders to verify what was ingested.",
+      "detail": "Training datasets mixed web-scraped content from thousands of sources without systematic provenance tracking or attribution records. No production system recorded which specific data contributed to which learned capability within the resulting model weights. This opacity made rights enforcement practically impossible even where clear legal rights existed on paper for specific content. Unknown provenance is simultaneously a symptom of the careless default and an active enabler of continued ungoverned extraction."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Hosted-only access means the processor controls weights exclusively and data contributors cannot inspect, audit, or extract their contribution.",
+      "detail": "The trained model lives behind an API endpoint controlled entirely by the processor with no external access to underlying model parameters. Data contributors cannot examine what their data contributed to the model or how their content influenced its learned capabilities. Hosted-only access concentrates practical custody, information advantage, and verification power entirely with the training party. This arrangement maximises the processor's control while minimising any accountability to data sources about the use of their contributions."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "Most permissionless training occurred within domestic US jurisdiction where the permissive regulatory posture enabled and protected the default practice.",
+      "detail": "Training clusters operated in US data centres under US legal frameworks that did not require explicit training data licences. Domestic jurisdiction simplified the legal landscape for the processor by avoiding cross-border data transfer and multi-regime compliance obligations. Content was ingested from global sources but processed domestically under the most permissive available legal framework and interpretation. The territorial simplicity reduced friction and legal risk for the permissionless default, making this default operationally straightforward."
+    },
+    "Data Subject Exposure": {
+      "value": "Low-identifiability",
+      "memo": "Training data often includes low-identifiability personal data sitting below the threshold that would activate strong privacy protection regimes.",
+      "detail": "Web-scraped data contains numerous traces of personal information without constituting direct identification of specific natural persons. This sits below the identifiability threshold that would trigger full GDPR-style obligations and enforcement attention in most practical scenarios. The low-identifiability framing helped labs avoid intensive privacy scrutiny and associated compliance costs during the pre-2024 period. It does not mean no personal data was ingested, only that the identifiability level avoided the strictest regulatory triggers."
+    },
+    "Data Sensitivity": {
+      "value": "Ordinary",
+      "memo": "Treating all training data as ordinary commercial content avoided sensitivity classifications that would have required significantly stricter handling controls.",
+      "detail": "Data was broadly classified as ordinary commercial content rather than commercially confidential, regulated, or otherwise sensitive material. This classification kept the training corpus outside protective regimes that would have imposed access controls and usage restrictions. In practice, frontier training corpora included substantial quantities of commercially valuable, proprietary, and contextually sensitive material mixed together. The ordinary classification systematically understated the actual sensitivity and commercial value of the ingested content."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "No export control or strategic classification applied to training data or resulting models, keeping everything in ordinary commercial channels.",
+      "detail": "Pre-2024 training data and the resulting models were not treated as controlled items under any strategic or export regime. Models were deployed globally as commercial software products without strategic-asset classification or transfer restrictions. This classification avoided the government-level controls that would later begin applying to frontier model weights and capabilities. The absence of control classification enabled unrestricted data flows and model distribution without governmental oversight or approval."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "Training is the defining processing mode of this stance: data is permanently absorbed into weights, creating irreversible one-way capability capture.",
+      "detail": "Data enters the model during the training process and becomes inseparably entangled with all other training data in the weight parameters. This is not retrieval, temporary caching, or session-scoped use but permanent statistical incorporation into the model's learned representations. The training processing mode creates the one-way function that defines and enables the permission gap as a structural pattern. What goes into the weights during training cannot be individually identified, separated out, or returned to its source."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Derived outputs flow continuously from training data without attribution, compensation, or any traceable connection back to original data sources.",
+      "detail": "Every model output is statistically derived from the full training corpus without any mechanism to attribute specific contributions to specific inputs. No technical system traces which training data contributed to which output or how much value each source added to results. This derivation without attribution is the commercial engine that powers the pattern's ongoing value capture from ungoverned training. The value flows entirely to the processor because the derivation pathway from input to output is invisible and untraceable."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Data persists as weight-entangled capability that survives any subsequent deletion of the original source material or licence termination.",
+      "detail": "Training data is not stored as individually recoverable records but as distributed statistical patterns across billions of model parameters. Deleting the original source data from storage systems does not delete the learned capability that the training process extracted from it. This weight entanglement makes the data absorption permanent and practically irreversible with current technology and understanding. It is the fundamental technical basis for the custody asymmetry that defines and perpetuates the permission gap's power dynamic."
+    },
+    "Execution / Residency Environment": {
+      "value": "Public cloud",
+      "memo": "Public cloud hosting distributes the trained capability to the broadest possible audience while the processor retains exclusive control of the weights.",
+      "detail": "Models run on hyperscaler infrastructure that is globally available through standard commercial cloud services and API endpoints. The public cloud environment maximises commercial reach, user access, and revenue generation potential for the processor. Data contributors have no visibility into where the model operates, how many instances run, or what revenue is generated from their contributions. The execution environment is optimised entirely for the processor's commercial interests without any governance input from data sources."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Shared infrastructure means training data from many separate sources is comingled in one model without any boundary controls between contributors.",
+      "detail": "No dedicated tenant boundary, data partition, or isolation mechanism separates one data source's contribution from another within the trained model. All training data merges into a single shared set of model weights where individual contributions become statistically indistinguishable. This shared boundary design makes individual rights enforcement practically impossible because no mechanism can identify or isolate one contributor's influence. It is the deliberate architectural choice that makes this arrangement irreversible and individual claims against it effectively unenforceable."
+    },
+    "Deployment Surface": {
+      "value": "Public-facing",
+      "memo": "Public-facing deployment maximises the commercial reach and revenue from capability built entirely on ungoverned training data contributions.",
+      "detail": "The model serves anyone with API access, a subscription, or a consumer application account without restrictions on who can benefit. Public deployment generates the broadest possible revenue base from the capability that ungoverned training data created, maximising the processor's return. This expansive surface area magnifies the economic gap between what data contributors were paid, typically nothing, and what the processor earns. Public deployment is where the training-level extraction is converted into ongoing commercial revenue at scale."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Commercial cloud infrastructure requires no special procurement, approvals, or strategic justification, keeping the barrier to permissionless training low.",
+      "detail": "Training runs execute on rented GPU clusters from major cloud providers using standard commercial procurement processes. No special infrastructure build, government approval, or strategic classification is needed to begin training on scraped data. The commercial cloud lowers the operational and financial barrier to launching training runs on ungoverned data to near zero. Infrastructure accessibility enabled the permissionless default to operate at frontier scale without requiring any unusual capital or institutional commitment."
+    },
+    "Model Sourcing": {
+      "value": "Single-provider",
+      "memo": "Single-provider sourcing concentrates all training-derived capability and the resulting commercial advantage within one organisation's exclusive control and benefit.",
+      "detail": "Each lab trains its own proprietary model without sharing weights, methodology, or resulting capability with other parties or stakeholders. This single-provider structure means the benefit of this arrangement accrues exclusively to one commercial entity. There is no multi-party governance structure, shared ownership framework, or consortium mechanism for data contributors to participate in decisions. Concentration of sourcing mirrors and reinforces the concentration of value capture that defines the pattern's economics."
+    },
+    "Compute Source": {
+      "value": "Rented/spot",
+      "memo": "Rented compute keeps training capital-light and operationally flexible, letting labs invest in aggressive data acquisition rather than infrastructure ownership.",
+      "detail": "Cloud compute is rented on demand or reserved for training runs rather than owned as permanent capital infrastructure. This rental model reduces upfront capital requirements and financial commitment, making it easier to launch speculative training runs. The capital-light compute model encourages aggressive data collection because the marginal cost of training on more data is primarily compute rental. The cost structure favours training first on available data and negotiating rights only if forced to later."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Cloud provider partnerships give labs preferential access to scarce GPU compute while creating bilateral commercial dependency between lab and hyperscaler.",
+      "detail": "Labs partner with specific hyperscalers for priority GPU allocation, co-engineering support, and preferential pricing on compute resources. This creates a preferred-partner relationship characterised by mutual dependency rather than pure arms-length market access between the parties. The dependency is structurally asymmetric: it serves the processor's compute needs while giving the cloud partner no governance role over training data. Cloud partners benefit commercially from the training runs but do not govern or constrain the data ingestion practices that power them."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Market-level supply access means the processor buys compute at available commercial rates without controlling the upstream supply chain or its constraints.",
+      "detail": "Labs purchase compute on commercial market terms without owning chips, data centres, fabrication capacity, or energy supply. This market-level access is sufficient for training runs at current scale because compute supply, though constrained, is commercially available. No strategic supply control is required for the pattern to operate because the processor's advantage comes from data access, not infrastructure control. The data extraction does not depend on supply chain dominance at the hardware or infrastructure level."
+    },
+    "Substitutability": {
+      "value": "Expensive switch",
+      "memo": "Switching to a competing model provider is costly because customer fine-tuning, integrations, and workflow dependencies accumulate around one specific model.",
+      "detail": "Customers invest substantially in prompt engineering, fine-tuning datasets, application integration code, and operational workflows tailored to a specific model's behaviour. Switching to a competitor would require rebuilding these investments from scratch at significant cost and disruption to ongoing operations. The accumulating switching cost reinforces the processor's market position, which was initially built on ungoverned training data contributions. High switching costs compound and entrench the competitive advantage gained from the original permissionless default."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "Labs integrate model training with cloud infrastructure partnerships and API platforms, combining data extraction with multi-layer platform economics.",
+      "detail": "Leading labs are not pure-play model research organisations but integrate across cloud infrastructure, training platforms, API services, and consumer applications. Cloud partnerships, developer ecosystems, and model distribution form a connected commercial structure that monetises training data at multiple points. This vertical integration amplifies the total value captured from each unit of training data across the full technology stack. The stack creates multiple simultaneous monetisation layers from the same underlying training-derived capability."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "API and application distribution channels convert training-derived capability into recurring commercial subscription and usage-based revenue streams.",
+      "detail": "The model reaches paying customers through programmatic API access for developers and consumer-facing applications for end users simultaneously. Each distribution channel generates ongoing revenue from capability that was built on ungoverned, uncompensated training data. The distribution channel is where the abstract extraction of data rights becomes concretely monetisable as subscription fees and API charges. API and application pricing structures do not reference, acknowledge, or compensate the original data sources that made the capability possible."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "Compute supply sits in allied jurisdictions, avoiding geopolitical complications and supply risks while permissionless training proceeds without strategic friction.",
+      "detail": "Training infrastructure operates in US-allied territories with stable political relationships, reliable power supply, and cooperative legal frameworks. This avoids the supply jurisdiction risks that would complicate deployment in adversary or politically unstable regions. The allied supply base is a background condition of convenience rather than a deliberate strategic choice by the processor. It simply removes one category of friction that might otherwise slow, complicate, or draw scrutiny to the pattern."
+    },
+    "Observability": {
+      "value": "Opaque",
+      "memo": "Training data composition, selection criteria, and model internals are entirely opaque, preventing rights holders from verifying what data was used.",
+      "detail": "No external party can observe what specific data was ingested, how it was selected, or how it contributed to the model's capabilities. Labs do not publish comprehensive training data compositions, selection methodologies, or provenance documentation in actionable detail. This opacity is not an incidental technical limitation but a structurally convenient feature that protects the processor's position. It prevents rights enforcement by systematically removing the evidentiary basis that data contributors would need to establish and pursue claims."
+    },
+    "Evaluation": {
+      "value": "Untested",
+      "memo": "Compliance with data rights is functionally untested because no verification mechanism exists to systematically check what content was trained on.",
+      "detail": "No evaluation framework, benchmark suite, or testing methodology exists for assessing data-rights compliance at frontier training scale. Existing evaluation frameworks test model capability and safety performance rather than data governance or rights compliance. The untested state is the natural and predictable consequence of the opaque training process that characterises the pattern. Without evaluation tools, the gap between claimed and actual data governance remains invisible and permanently unaccountable."
+    },
+    "Interpretability": {
+      "value": "Black box",
+      "memo": "Black-box model internals prevent any systematic tracing of which training data contributed to which specific outputs or learned capabilities.",
+      "detail": "The model's internal representations and learned patterns are not interpretable at a level that would reveal individual data provenance or attribution. No existing mechanism connects specific model outputs to specific training inputs with the precision required for rights enforcement. Black-box status makes data attribution claims technically unprovable even where legal rights are clear and documented on paper. It is the essential technical complement to the process-level opacity of the training pipeline and data selection system."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "RLHF alignment addresses output safety and helpfulness but does not address input data rights, leaving the foundational permission gap unaddressed.",
+      "detail": "Alignment methods focus on making model outputs helpful, harmless, and honest for end users who interact with the deployed system. They do not address whether the training data underlying the capability was properly licensed, fairly compensated, or legally authorised. RLHF tunes the model's observable behaviour without governing or constraining the data ingestion that created the underlying capability being tuned. The alignment method solves an important but fundamentally different problem from the one the permission gap creates for data contributors."
+    },
+    "Security Posture": {
+      "value": "Startup-grade",
+      "memo": "Startup-grade security reflects the lab origins where speed to market and capability development consistently outweighed formal information governance and data stewardship.",
+      "detail": "Early frontier training labs operated with lean startup security practices focused on shipping products and attracting investment quickly. Data handling prioritised ingestion speed and corpus scale over formal access controls, provenance tracking, or rights management infrastructure. This security posture enabled rapid data ingestion without governance overhead, treating data stewardship as a future concern. The startup-grade security level matched and reinforced the permissionless default that characterises the pre-2024 era."
+    },
+    "Adversary Model": {
+      "value": "Casual misuse",
+      "memo": "The adversary model addresses casual end-user misuse of model outputs but not the processor's own systematic extraction of data contributor rights.",
+      "detail": "Threat models focus on preventing prompt injection, jailbreaks, and misuse by individual end users interacting with the deployed model. They do not model or address the processor's own extraction of data rights through ungoverned training as a threat or risk category. The adversary model looks exclusively outward at external users rather than inward at the training process and its rights implications. This asymmetry in threat modelling reflects and reinforces the permission gap's foundational structural blind spot."
+    },
+    "Weight Security": {
+      "value": "Copyable",
+      "memo": "Copyable weights mean trained capability could leak through exfiltration, further compounding the ungoverned extraction of data rights and their value.",
+      "detail": "Model weights can be copied, exfiltrated, or leaked without physical barriers, cryptographic controls, or tamper-evident safeguards. If weights leak, the capability built from ungoverned data spreads beyond even the processor's control into unaccountable hands. Weight security measures address competitive risk and intellectual property theft for the lab rather than data rights for contributors. The copyability of weights amplifies the irreversibility of this arrangement by creating proliferation pathways the processor itself cannot contain."
+    },
+    "Access Control": {
+      "value": "API keys",
+      "memo": "API key access controls authenticate who uses the deployed model but provide no mechanism for data contributors to control their training contribution.",
+      "detail": "Access is managed through API keys and authentication tokens that identify and authenticate paying customers of the model service. No corresponding access control mechanism exists for data contributors to monitor, limit, or revoke their data's contribution to the model. The access control system governs the output consumption side of the model entirely, not the input contribution side. Data contributors are not recognised as principals, stakeholders, or participants in the access architecture at any level."
+    },
+    "Monitoring Scope": {
+      "value": "Outputs",
+      "memo": "Monitoring covers model outputs for safety and policy compliance but not training inputs for data-rights compliance or fair compensation.",
+      "detail": "Output monitoring systems detect harmful responses, policy violations, and content safety issues in what the model produces for end users. No corresponding monitoring system exists for tracking training data governance, rights compliance, or fair compensation to data sources. This monitoring asymmetry means the system carefully watches what goes out to users but ignores what went in from data contributors. The monitoring scope reflects and reinforces the governance priorities of the processor, which focus on deployment risk rather than input rights."
+    },
+    "Containment": {
+      "value": "None",
+      "memo": "No containment applies to the training data extraction process itself; containment measures only govern the deployed model's observable output behaviour.",
+      "detail": "Containment measures such as content filters and usage policies address the deployed model's outputs and tool access controls. They do not contain, restrict, or govern the data extraction that occurs during the training process from ungoverned data sources. The training process operates without sandboxing, isolation boundaries, or access controls relative to the data sources it ingests. Containment governs the deployment surface but leaves the ingestion pipeline entirely uncontained and ungoverned."
+    },
+    "Capability Limitation": {
+      "value": "Policy filters",
+      "memo": "Policy filters restrict certain harmful outputs but do not limit the underlying trained capability built from ungoverned data sources.",
+      "detail": "Content filters and policy layers prevent the model from producing certain categories of harmful, offensive, or restricted output content. These filters operate on the output surface without addressing or limiting the underlying capability that ungoverned training data created in the weights. The limitation applies to observable model behaviour rather than to the source of that behaviour in training. A policy-filtered model still embodies and commercially leverages the full capability derived from ungoverned training data."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Civilian use classification keeps the deployment outside regulatory regimes that would require stronger data governance, accountability, and verification mechanisms.",
+      "detail": "The system operates as a civilian commercial product available to general consumers and business customers through standard commercial channels. No military, national security, or strategic classification applies that would trigger enhanced governance, audit, or accountability requirements. This civilian framing avoids the stricter data governance frameworks, verification requirements, and oversight mechanisms that strategic or military use classification would trigger. It keeps the data rights question in the commercial domain where enforcement tools are weakest."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "The primary harm channel is informational: competitive displacement of data creators, market substitution, and erosion of commercial data rights.",
+      "detail": "Harm flows through information rather than physical, kinetic, or direct financial channels to the affected data contributors and creators. Data creators lose commercial value as AI-generated content substitutes for and displaces their original works in markets and workflows. The information channel includes competitive displacement, market substitution, and systematic erosion of the commercial value of original content creation. These harms are commercially real and significant but operate below the traditional safety thresholds that trigger urgent regulatory intervention."
+    },
+    "Proliferation": {
+      "value": "Leaky",
+      "memo": "Leaky proliferation means trained capability spreads through model distillation, open-weight releases, and informal diffusion beyond the processor's control.",
+      "detail": "Capability diffuses through model distillation, open-weight releases, knowledge transfer between researchers, and informal reproduction of techniques by competitors. Once the pattern produces a trained frontier model, the capability it embodies is structurally difficult to contain within one organisation. This leaky proliferation compounds the rights problem because ungoverned training capability spreads to parties who never even had the original data access. Each proliferation event extends the extraction further into an expanding ecosystem of derived models and applications."
+    },
+    "Strategic Lead": {
+      "value": "Neck-and-neck",
+      "memo": "Neck-and-neck competition between frontier labs intensifies the pressure to ingest all available data before competitors access it first.",
+      "detail": "Multiple well-funded labs race for frontier capability simultaneously with no single lab holding a decisive or durable performance lead. This tight competition creates strong first-mover incentives for aggressive, comprehensive, and undiscriminating data ingestion from all available sources. No lab can afford to wait for permission frameworks to form while competitors proceed without them and gain capability advantages. The race dynamic makes the permission gap a competitive necessity rather than a deliberate strategic choice by any individual lab."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Competitive race pressure drives every lab to train on all available data rather than waiting for permission frameworks to develop.",
+      "detail": "Competition between frontier labs creates existential urgency to train first and negotiate data rights only later if forced by litigation or regulation. Waiting for proper permission means falling behind rivals who proceed without it and capture both capability and market position in the meantime. This competitive pressure is the market force behind the permissionless default, making the pattern rational at the individual firm level."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Each lab operates as a single firm capturing training value unilaterally without consortium governance, shared obligations, or external accountability structures.",
+      "detail": "No multi-stakeholder consortium, industry body, or collective governance framework constrains or oversees the training data practices of individual labs. Each lab acts independently in its own commercial interest, maximising data ingestion and minimising governance overhead and rights compliance costs. The single-firm structure means no shared governance, mutual accountability, or collective standards constrain individual data use decisions. Collective action problems among fragmented rights holders prevent a coordinated response to the unilateral extraction by individual processors."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No nonproliferation regime constrains the spread of AI capability built from ungoverned training data across borders or between organisations.",
+      "detail": "No international framework, treaty mechanism, or enforced regime limits how trained models proliferate across organisations, jurisdictions, or use cases. Models can be exported, commercially distributed, distilled into smaller models, or open-sourced without any regime-level constraint on their spread. This total absence of nonproliferation governance compounds the leaky proliferation of capability built from ungoverned data contributions. The capability generated by the pattern spreads globally without any institutional friction, oversight, or accountability mechanism."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Training data is accretive and self-fortifying: each additional source strengthens the model, making the cumulative data ingestion increasingly commercially valuable.",
+      "detail": "More training data generally improves frontier model capability with compounding rather than diminishing returns at current training scale. The value of each additional data source compounds with the rest of the training corpus, creating a superlinear relationship between corpus size and capability. This accretive dynamic creates strong incentives for maximally broad, undiscriminating data collection from every available source regardless of rights status. The permission gap is economically rational precisely because data value accumulates and compounds rather than saturating or declining."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Fixed or zero input price buys unlimited perpetual training rights, systematically underpricing the uncapped downstream output value the data generates.",
+      "detail": "Where any payment to data contributors occurs at all, it takes the form of a one-time fixed fee that bears no relation to output value. This fixed price was typically set before the full commercial capability of frontier models was understood or demonstrated in the market. The profound mismatch between a small fixed input payment and the vast perpetual output value generated defines the arrangement's economic asymmetry."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "All output value is retained by the processor with no allocation mechanism, revenue share, or compensation pathway for original data contributors.",
+      "detail": "The processor keeps one hundred percent of the revenue generated from model outputs across all distribution channels and use cases. No contractual mechanism, technical system, or governance framework allocates any portion of output value back to the data sources that made it possible. This complete retained allocation is the direct economic consequence of the excluded permission at the foundation of the arrangement."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "The processor captures all derived value from training data, including downstream applications, derivative models, and multi-layer commercial ecosystems.",
+      "detail": "Derivative works, fine-tuned models, distilled smaller models, and application-layer products all generate value that benefits the processor exclusively. No data contributor shares in any of this substantial and growing downstream value at any point in the derivation chain. The processor captures value at every derivation layer from base model to consumer application without upstream compensation obligations. This complete derived value capture across all layers is the commercial outcome and economic motivation of the permission gap."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "Risk is disclaimed through standard terms of service, pushing data-rights liability outward onto end users and away from the processor that created it.",
+      "detail": "Terms of service systematically disclaim liability for training data provenance, rights compliance, and any resulting infringement or misappropriation claims. Users bear contractual responsibility for how they use model outputs, regardless of the underlying data rights status of the training corpus. The processor disclaims precisely the risk category it created through ungoverned training on content it did not licence or compensate. This disclaimed risk allocation completes the fully one-sided economic architecture of the permission gap."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "Operating-budget deployment keeps capital requirements and governance scrutiny low, letting labs prioritise aggressive data acquisition over infrastructure investment.",
+      "detail": "Training is funded from operating budgets, venture capital rounds, and corporate research allocations rather than project finance or securitised structures. No project-level governance, investor due diligence on data rights, or capital-market scrutiny of training practices is involved in funding decisions. This operating-budget approach keeps the barrier to launching training runs on ungoverned data extremely low. Labs can initiate training without the data governance requirements that larger, more structured capital commitments would naturally impose."
+    },
+    "Commitment Tenor": {
+      "value": "Short-term",
+      "memo": "Short-term commitment structures let labs train rapidly on available data and move on without creating long-term obligations to data contributors.",
+      "detail": "Training runs are discrete, time-bounded events without multi-year commitment structures, ongoing payment obligations, or relationship management overhead. No ongoing financial or governance obligation ties the processor to its data sources after the training run completes and the model deploys. Short-term tenor means the processor can retrain on entirely different data for the next generation without contractual friction from prior sources. The commitment structure matches and enables the ingest-and-move-on pattern that characterises the pre-2024 default."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "AI revenue has become a significant product line, creating institutional dependency on maintaining the training-derived capability and its commercial returns.",
+      "detail": "Revenue from AI products now represents a strategically important and rapidly growing business line for frontier labs and their partners. This creates deep organisational dependency on continued access to training data and the capability it produces across the business. The product-line dependency raises the commercial and institutional stakes of any future rights renegotiation, making labs defensive about the status quo. The processor is now commercially dependent on preserving the business model that the pattern's legacy enabled and established."
+    },
+    "Switching Cost": {
+      "value": "High",
+      "memo": "High switching costs for downstream customers reinforce the processor's entrenched market position that was originally built on ungoverned training data.",
+      "detail": "Customers have invested significantly in model-specific integrations, prompt engineering libraries, fine-tuning datasets, and production workflows designed for a particular model. Switching to a competing model provider would require rebuilding these substantial investments from scratch with no guarantee of equivalent performance or compatibility. High switching costs lock in the revenue streams that the permission gap's ungoverned training data originally enabled and continues to sustain. The cost structure compounds and entrenches the processor's market power over time as customer investments deepen."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Exit is structurally impossible because training data is capability-entangled in weights that cannot be disaggregated, returned, or individually deleted.",
+      "detail": "No existing mechanism can identify, isolate, or remove any individual contributor's data from the trained model's weight parameters. The capability derived from each data source is irreversibly entangled with all other training data across billions of parameters. This entanglement means exit is a legal fiction: a data contributor cannot recover or revoke what was taken because their contribution no longer exists as separable, identifiable data."
+    },
+    "Acceptance Basis": {
+      "value": "Outcome-sufficient",
+      "memo": "Pre-2024 training proceeded without process scrutiny; value extraction validated the approach by default.",
+      "detail": "The pre-2024 era operated on pure outcome legitimacy. Training happened at scale and commercial value was extracted without demand for explainable reasoning. No institutional or regulatory process gate existed to challenge the approach. Acceptance was retroactive — justified by the value already captured."
+    }
+  }
+}

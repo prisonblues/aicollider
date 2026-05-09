@@ -1,0 +1,367 @@
+{
+  "id": "cross-border",
+  "name": "Cross-border Knot",
+  "desc": "Training data originates in one jurisdiction, processing occurs in another, and deployment serves a third. Regulatory obligations converge on entangled model weights that cannot be partitioned.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "The knot tightens at frontier scale where model capability crosses jurisdictional boundaries that were designed for simpler data-processing arrangements.",
+      "detail": "Frontier models are trained on data from many jurisdictions simultaneously, creating multi-regime compliance obligations within a single set of weights. The capability crosses borders inherently because the model cannot be partitioned by jurisdiction after training completes. Cross-border frictions become strategically significant at frontier scale where the commercial stakes justify regulatory enforcement action. Lower-capability systems face the same legal issues but with less commercial exposure and less regulatory attention."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Multi-domain training ingests data across jurisdictions and sectors, multiplying the regulatory intersection points that create compliance knots.",
+      "detail": "Training data from different domains often originates in different jurisdictions with different applicable regulatory frameworks and requirements. Each domain-jurisdiction combination creates its own compliance pathway with unique obligations, restrictions, and enforcement mechanisms. The multi-domain breadth means the model faces a matrix of overlapping regulatory requirements rather than a single linear compliance path. This matrix multiplication of domain and jurisdiction requirements is what makes cross-border AI compliance qualitatively harder than traditional data transfers."
+    },
+    "Capability Trajectory": {
+      "value": "Compressed",
+      "memo": "Compressed development outpaces cross-border regulatory coordination, creating compliance obligations that cannot be satisfied before deployment reaches new jurisdictions.",
+      "detail": "Model development and deployment proceed faster than multi-jurisdictional regulatory coordination and harmonisation efforts can keep pace with developments. By the time regulators in different jurisdictions agree on requirements, models have already been trained and deployed across all of them simultaneously. Compressed trajectories mean the compliance gap is structural rather than transitional because governance cannot catch the technology it attempts to regulate. The speed differential between development and regulation creates a permanent coordination deficit across jurisdictions."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted research creates cross-border capability improvements that may trigger new regulatory obligations in jurisdictions the original training data never contemplated.",
+      "detail": "Research automation means model improvements can emerge from data processed in one jurisdiction but create regulatory triggers in another jurisdiction entirely. The AI-assisted improvement loop operates without regard to jurisdictional boundaries, licensing territories, or applicable regulatory frameworks. Capability improvements that cross jurisdiction boundaries may activate new regulatory obligations that the original data licence and compliance framework did not anticipate. Research automation makes the regulatory surface area unpredictable because capability can appear in jurisdictions the data was never intended to reach."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Tool-using deployment extends the cross-border data flow through tool integrations that may route data across additional jurisdictions during execution.",
+      "detail": "When models call external tools, data may flow through services hosted in additional jurisdictions that were not part of the original compliance assessment. Tool interactions create new cross-border data pathways with their own transfer, processing, and residency requirements under each jurisdiction's rules. The tool chain may route data through third countries, cloud regions, or service providers that introduce additional regulatory regimes to the compliance matrix."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Many deployed copies across jurisdictions multiply the compliance touchpoints and create conflicting regulatory obligations that cannot all be simultaneously satisfied.",
+      "detail": "The model is deployed across multiple jurisdictions simultaneously, each with its own regulatory framework, compliance requirements, and enforcement authority. Each deployed instance creates a local compliance obligation that may conflict with requirements in other jurisdictions where the same model operates. Many-copy cross-border deployment creates a compliance matrix where satisfying one jurisdiction's requirements may violate another jurisdiction's rules simultaneously. The replication creates mutually contradictory compliance obligations that cannot be resolved within a single unified model deployment."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Machine-speed processing outruns cross-border regulatory coordination, creating compliance gaps that persist until harmonisation catches up to operational reality.",
+      "detail": "Machine-speed deployment and operation mean data processing crosses borders faster than legal coordination between jurisdictions can establish harmonised rules. Regulatory coordination between national authorities operates at diplomatic speed while data processing operates at machine speed continuously and automatically. The speed differential creates compliance gaps that are structurally permanent until international regulatory harmonisation achieves the coverage that operations already have. Cross-border data flows at machine speed cannot be paused to wait for inter-governmental regulatory coordination to complete."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Cognitive-only processing creates cross-border data flows that are invisible to physical border controls designed for tangible goods and material transfers.",
+      "detail": "The system processes data across borders without any physical manifestation that border controls, customs authorities, or physical inspection mechanisms can detect. Cross-border data flows are invisible to the enforcement mechanisms designed for physical goods, which creates an enforcement gap for digital processing. Cognitive-only extension means the cross-border activity occurs in information space where jurisdictional boundaries are logical rather than physical. Traditional border enforcement cannot intercept, inspect, or restrict the cross-border data processing that creates the compliance knot."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "The system operates as a tool that processes cross-border data without awareness of jurisdictional boundaries or the regulatory obligations they create.",
+      "detail": "The model processes requests from users in any jurisdiction without distinguishing between domestic and cross-border data or applying jurisdiction-specific handling rules. It operates as a tool that is architecturally indifferent to the jurisdictional origin of queries and the regulatory implications of cross-border responses. The tool role means jurisdictional compliance is an external governance problem rather than an intrinsic system capability built into the processing architecture. No technical mechanism within the tool enforces jurisdiction-specific data handling requirements at the processing level."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "Informational actuation means the cross-border impact operates through knowledge and content flows rather than financial transactions or physical movements.",
+      "detail": "The system produces information, analysis, and content that crosses borders through digital transmission rather than through regulated financial or physical channels. Informational cross-border flows are subject to different and often less mature regulatory frameworks than financial transactions or physical goods movements. The informational actuation level means the cross-border activity falls into regulatory categories that many jurisdictions have not yet fully developed or harmonised."
+    },
+    "Autonomy": {
+      "value": "Human-on-loop",
+      "memo": "Human-on-loop supervision manages cross-border operations but cannot ensure compliance with all applicable jurisdictional requirements simultaneously in real time.",
+      "detail": "Human supervisors monitor the system's cross-border operations periodically rather than approving each individual cross-border data processing event. This supervision model cannot practically verify that each interaction complies with all applicable jurisdictional requirements in all affected territories. Human-on-loop oversight provides general governance but not the granular, real-time, jurisdiction-specific compliance checking that cross-border operations would require. The supervision gap mirrors the regulatory coordination gap: oversight operates at human speed while processing crosses borders at machine speed."
+    },
+    "Delegated Authority": {
+      "value": "Limited mandate",
+      "memo": "Limited mandate governs the system within defined operational parameters that may not account for all applicable cross-border regulatory obligations.",
+      "detail": "The system operates within defined parameters set by the deploying organisation based on their understanding of applicable cross-border requirements at deployment time. This mandate may not account for all regulatory obligations in all jurisdictions where the system processes data or serves users. The limited mandate creates a governance framework that is necessarily incomplete because the full cross-border regulatory landscape exceeds any single organisation's compliance capacity."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Gated tool access provides nominal control over cross-border data flows through tools but cannot prevent jurisdictional obligations from being triggered by tool interactions.",
+      "detail": "Tool gates control which external services the model can access, providing a governance layer over cross-border tool interactions and data routing. However, tool gates cannot prevent the activation of regulatory obligations in jurisdictions where tool services are hosted or where data transits during processing. Gated access provides architectural control over which tools are available but not legal control over the jurisdictional consequences of using them."
+    },
+    "Response / Intervention Capability": {
+      "value": "Defined escalation",
+      "memo": "Defined escalation paths address cross-border incidents that trigger regulatory obligations in multiple jurisdictions simultaneously and potentially conflictingly.",
+      "detail": "Escalation procedures are defined for incidents that involve cross-border data, multi-jurisdictional regulatory notifications, and coordinated response across different legal systems. These paths must handle situations where notification obligations in one jurisdiction may conflict with confidentiality requirements in another jurisdiction simultaneously. Cross-border incidents need predefined handoff protocols between legal teams, regulators, and operational personnel across affected jurisdictions and time zones. The response capability must be prepared for the specific challenge of simultaneous, potentially contradictory, regulatory obligations in different territories."
+    },
+    "Command Actor": {
+      "value": "Corporate board",
+      "memo": "Board-level command reflects the strategic importance of cross-border regulatory exposure that could affect market access in multiple jurisdictions simultaneously.",
+      "detail": "Cross-border regulatory compliance failures can result in market access restrictions, significant fines, and reputational damage across multiple jurisdictions at once. Board oversight is appropriate for exposure that could simultaneously affect operations and market access in major commercial territories worldwide. Individual country managers cannot coordinate the cross-border compliance strategy that requires centralized strategic decision-making across all affected markets. Board-level command provides the authority needed to make trade-offs between conflicting jurisdictional requirements at the appropriate strategic level."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Product-cycle decisions deploy model updates globally before cross-border compliance assessments can be completed across all affected jurisdictions and regulatory regimes.",
+      "detail": "Model updates and capability improvements are deployed on product release schedules that are global rather than jurisdiction-specific in their timing. Cross-border compliance assessment for each update would require analysis across all jurisdictions where the model operates before global deployment occurs. Product-cycle tempo does not accommodate the time required for multi-jurisdictional regulatory analysis prior to each deployment and update event. Updates are shipped globally while jurisdictional compliance is assessed retroactively, creating a structural timing gap."
+    },
+    "Tradeoff Authority": {
+      "value": "Safety body",
+      "memo": "A governance body manages tradeoffs between global deployment speed and cross-border regulatory compliance across conflicting jurisdictional requirements.",
+      "detail": "Cross-border deployment creates trade-offs between serving all markets quickly and ensuring compliance with each jurisdiction's specific regulatory requirements beforehand. A governance body must weigh commercial urgency for global deployment against the legal risk of non-compliance in specific jurisdictions with strict requirements. The tradeoff authority sits above individual country managers at a level that can see the full cross-border regulatory landscape simultaneously. Governance-body authority prevents product teams from making global deployment decisions without adequate cross-border compliance consideration."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Conditional permission varies by jurisdiction, creating a patchwork where the same data use is permitted in one territory and restricted in another simultaneously.",
+      "detail": "Data permission is conditional on compliance with jurisdiction-specific requirements that vary significantly across the territories where the model operates. The same training data use may be permitted under one jurisdiction's fair use doctrine and prohibited under another jurisdiction's rights framework. Conditional permission creates a compliance patchwork where the model's legal status varies by territory for the same underlying technical architecture. The permission conditions cannot be satisfied simultaneously across all jurisdictions because the conditions themselves conflict across regulatory regimes."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Conditional regulatory postures in different jurisdictions create conflicting compliance requirements that cannot all be simultaneously satisfied by one global model deployment.",
+      "detail": "Different jurisdictions impose different conditions on AI training, data processing, and model deployment that reflect their distinct regulatory philosophies. The EU requires transparency and rights-holder consent while the US allows broader fair use, and these postures directly conflict in their requirements. A single global model cannot simultaneously satisfy all conditions imposed by all jurisdictions in which it operates and serves users. The conflicting conditional postures create the regulatory knot that defines this stance and makes global compliance structurally impossible."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "Licensed data access creates jurisdiction-specific compliance obligations that multiply when the same data is processed across different regulatory territories.",
+      "detail": "Data is formally licensed but the licence terms interact differently with each jurisdiction's regulatory framework and data governance requirements. Licensed availability in one jurisdiction may not authorise the same processing in another jurisdiction with different rules about cross-border data use. The licence creates a documented compliance obligation that multiplies across jurisdictions rather than providing global coverage under one agreement. Cross-border licensed data requires jurisdiction-by-jurisdiction compliance analysis that a single global licence typically does not adequately address."
+    },
+    "Provenance": {
+      "value": "Licensed",
+      "memo": "Licensed provenance is documented across jurisdictions, but provenance documentation requirements vary by territory and may conflict across regulatory regimes.",
+      "detail": "Data sources are known and documented through licence agreements, but documentation requirements differ across the jurisdictions where processing occurs. One jurisdiction may require provenance disclosure that another jurisdiction's confidentiality rules prohibit or restrict from being shared publicly. Cross-border provenance creates a documentation coordination challenge where compliance in one territory may conflict with obligations in another. Licensed provenance enables compliance management but also reveals the conflicts between jurisdictional documentation and transparency requirements."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Hosted-only access means the model cannot be partitioned by jurisdiction, forcing all jurisdictional data contributions into one shared set of weights.",
+      "detail": "The model operates as a single hosted instance with weights that contain training contributions from data sourced across multiple different jurisdictions. Jurisdictional data contributions cannot be separated, isolated, or partitioned within the shared weight parameters after training has completed. Hosted-only access means no jurisdiction can independently audit only its own data's contribution to the model or verify compliance for its territory. The architectural impossibility of jurisdictional partitioning within model weights is the technical root cause of the cross-border compliance knot."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Cross-border territory is the defining characteristic: data, processing, and deployment span multiple jurisdictions with conflicting regulatory requirements simultaneously.",
+      "detail": "The arrangement inherently spans multiple jurisdictions with different regulatory frameworks, enforcement authorities, and compliance expectations for AI systems. Data originates in some jurisdictions, processing occurs in others, and deployment serves users in still more territories with distinct local requirements. Cross-border territory is not a complication to be managed but the defining structural feature that creates the compliance knot this stance describes. The multi-territorial nature of the arrangement is what makes it qualitatively different from domestic AI deployments with single-regime compliance."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "Ordinary personal data crossing borders activates privacy transfer mechanisms, consent requirements, and deletion obligations in every jurisdiction the data transits.",
+      "detail": "Cross-border personal data processing activates data protection regimes in every jurisdiction where the data originates, transits, is processed, or reaches end users. Each jurisdiction imposes its own consent requirements, transfer mechanisms, retention limits, and deletion obligations on the same personal data. The activation of multiple privacy regimes simultaneously creates a compliance matrix where requirements may directly conflict across jurisdictions and territories. Personal data crossing borders transforms a manageable domestic privacy compliance task into a multi-regime coordination challenge with contradictory requirements."
+    },
+    "Data Sensitivity": {
+      "value": "Sensitive/regulated",
+      "memo": "Sensitive and regulated data crossing borders multiplies compliance obligations because each jurisdiction applies its own protective classification and handling requirements.",
+      "detail": "Regulated data such as financial, health, or legally privileged information triggers sector-specific rules in each jurisdiction it enters during processing. Each jurisdiction's classification of what constitutes sensitive data may differ, creating overlapping and potentially conflicting protective requirements for the same content. Cross-border sensitive data faces a multiplicative compliance burden where each territorial classification adds independent handling obligations and restrictions. The sensitivity classification compounds the cross-border complexity because regulated data attracts the strictest and most conflicting jurisdictional requirements."
+    },
+    "Control Exposure": {
+      "value": "Potentially controlled",
+      "memo": "Potential export control classification adds another layer of cross-border restriction that interacts with data protection and AI-specific regulation in each territory.",
+      "detail": "AI models and training data may fall under export control regimes that restrict cross-border transfer based on technology classification and destination country. Export controls interact with data protection regulations and AI-specific rules to create a three-layer compliance challenge for cross-border deployments. Potentially controlled status means the arrangement must be assessed against export control, data protection, and AI regulation frameworks simultaneously in each jurisdiction."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "Training-mode processing creates the deepest cross-border entanglement because multi-jurisdictional data is permanently merged into a single unpartitionable set of weights.",
+      "detail": "Training permanently merges data from multiple jurisdictions into shared model weights that cannot be separated by territory or regulatory regime afterwards. The processing mode creates irreversible cross-border data comingling that no subsequent technical operation can undo or partition jurisdictionally. If the same data were used through inference-time retrieval instead, jurisdictional partitioning and disconnection would be technically straightforward and clean. Training mode is the specific technical architectural choice that creates the permanent cross-border entanglement and makes jurisdictional compliance structurally impossible."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Derived outputs served across borders carry the entangled influence of multi-jurisdictional training data into territories that may not have authorised the original processing.",
+      "detail": "Every model output is derived from training data that includes contributions from multiple jurisdictions with different regulatory frameworks and authorisation requirements. Outputs served in one jurisdiction carry the statistical influence of data from other jurisdictions whose regulatory requirements may not have been satisfied. The derivation chain crosses borders invisibly because outputs do not identify which jurisdictional data contributed to each specific response."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Weight-entangled persistence means cross-border data contributions cannot be individually deleted to comply with jurisdiction-specific deletion or withdrawal requirements.",
+      "detail": "Training data from each jurisdiction is permanently entangled in model weights alongside data from every other jurisdiction without separable boundaries. Jurisdiction-specific deletion requirements cannot be satisfied because individual jurisdictional contributions cannot be identified, isolated, or removed from the shared weights. Weight entanglement means a deletion order from one jurisdiction's regulator cannot be technically honoured without retraining the entire model from scratch. The persistence mechanism creates a structural impossibility of jurisdiction-specific compliance for data removal, deletion, and right-to-be-forgotten requests."
+    },
+    "Execution / Residency Environment": {
+      "value": "Distributed",
+      "memo": "Distributed execution across multiple jurisdictions means the model operates simultaneously in territories with different residency requirements and processing rules.",
+      "detail": "The model runs across data centres in multiple jurisdictions simultaneously, with processing occurring wherever capacity is available or latency is lowest. Distributed execution means the same model weights reside and process data in territories with conflicting data residency and processing localisation requirements. Some jurisdictions require data to remain within their borders while the distributed architecture routes processing across borders by design and necessity. The execution environment inherently conflicts with data residency mandates because distribution is the opposite of jurisdictional containment."
+    },
+    "Boundary": {
+      "value": "Partner-accessible",
+      "memo": "Partner-accessible boundaries mean multiple organisations across jurisdictions interact with the model, creating contractual and regulatory coordination requirements across parties.",
+      "detail": "The deployment boundary allows access from partner organisations in different jurisdictions, each subject to their own regulatory framework and compliance obligations. Partner accessibility creates contractual coordination requirements across jurisdictions because each partner's regulatory obligations may differ significantly from others. The boundary design must accommodate multiple organisations' compliance requirements simultaneously without creating conflicts or enforcement gaps between them. Partner-accessible boundaries multiply the governance complexity because each partnership adds another jurisdictional compliance dimension to coordinate."
+    },
+    "Deployment Surface": {
+      "value": "Customer-facing",
+      "memo": "Customer-facing deployment serves users across jurisdictions, triggering consumer protection and AI-specific regulations in each territory where users access the service.",
+      "detail": "The model serves customers in multiple jurisdictions through public-facing APIs and applications that trigger local consumer protection frameworks. Each jurisdiction may have different transparency requirements, explainability obligations, and consumer rights frameworks that apply to AI-powered customer services. Customer-facing cross-border deployment creates a compliance obligation in every territory where customers access and interact with the service. The deployment surface triggers jurisdiction-specific requirements that a globally deployed service must satisfy simultaneously across all served territories."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Commercial cloud infrastructure distributes processing across jurisdictions, potentially violating data residency requirements that mandate local processing within territorial boundaries.",
+      "detail": "Cloud infrastructure routes processing across data centre regions based on capacity, cost, and latency optimisation rather than jurisdictional compliance requirements. This distribution may violate data residency mandates that require processing to occur within specific territorial boundaries for regulatory compliance purposes. Commercial cloud providers offer region selection but cannot guarantee that all processing for a specific jurisdiction remains within that jurisdiction's borders. The infrastructure design optimises for efficiency and performance rather than for the jurisdictional containment that cross-border compliance requires."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "Multi-provider sourcing creates flexibility for jurisdiction-specific deployments but adds compliance coordination complexity across multiple providers and their own cross-border arrangements.",
+      "detail": "Using multiple model providers enables jurisdiction-specific deployment choices and reduces dependency on any single provider's cross-border compliance posture. However, each provider has its own cross-border data handling practices, jurisdictional presence, and regulatory compliance status that must be independently verified. Multi-provider sourcing adds coordination overhead because each provider's cross-border compliance must be assessed against each jurisdiction's requirements independently. The flexibility benefit comes at the cost of significantly increased compliance verification burden across multiple providers and their territorial footprints."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Committed compute capacity in specific jurisdictions creates data residency compliance points but may not align with capacity needs across all served territories.",
+      "detail": "Compute is committed in specific cloud regions that correspond to specific jurisdictions with defined data residency and processing rules applicable to that territory. Committed capacity in one jurisdiction may not be sufficient for serving users in other jurisdictions that require local processing under their rules. Cross-border compute commitments create fixed jurisdictional processing points that may not match the dynamic compliance requirements of a global deployment."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Preferred cloud partnerships create cross-border data processing arrangements that inherit the cloud provider's own jurisdictional footprint and compliance characteristics.",
+      "detail": "The cloud partner's data centre locations, cross-border transfer mechanisms, and jurisdictional compliance posture become part of the compliance picture for the AI deployment. Cloud provider selection affects which jurisdictions data transits through and which regulatory frameworks apply to the processing infrastructure layer. The preferred partnership imports the cloud provider's own cross-border characteristics into the arrangement without necessarily improving the compliance position overall."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Market-level supply access means the processor navigates cross-border supply chains without controlling them, depending on provider compliance across jurisdictions.",
+      "detail": "The processor purchases compute and services on market terms without controlling or directly overseeing the supply chain's cross-border data handling practices. Cross-border supply chain compliance depends on contractual representations from providers rather than direct operational control and verification by the processor. Market access means the processor must trust that its supply chain partners comply with applicable rules in each jurisdiction without independent verification capability."
+    },
+    "Substitutability": {
+      "value": "Expensive switch",
+      "memo": "Expensive switching makes it costly to reconfigure the cross-border deployment for compliance when jurisdictional requirements change or enforcement actions occur.",
+      "detail": "Switching providers, reconfiguring infrastructure, or restructuring the cross-border deployment to address new regulatory requirements involves significant cost and disruption. The accumulated integrations, data flows, and service dependencies create switching costs that deter compliance-driven reconfiguration even when regulatory requirements evolve. Expensive substitutability means the cross-border deployment tends toward the path of least change rather than optimal compliance with each jurisdiction's current rules. The cost of compliance-driven restructuring often exceeds the perceived risk of continuing with the current imperfect cross-border arrangement."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "API distribution routes cross-border requests automatically without jurisdiction-aware routing or compliance checking at the point of each individual service delivery.",
+      "detail": "The API serves requests from any jurisdiction without real-time compliance verification or jurisdiction-specific routing and processing at the individual request level. Cross-border requests are processed identically regardless of the user's jurisdiction, the data's origin, or the applicable regulatory requirements for that territory. API distribution is architecturally jurisdiction-blind: it optimises for performance and availability rather than for cross-border regulatory compliance at delivery time. The distribution channel serves the broadest possible global audience without the jurisdiction-specific processing controls that compliance would require."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "Allied supply jurisdiction reduces geopolitical supply risk but does not eliminate the cross-border regulatory coordination challenge between allied jurisdictions with different rules.",
+      "detail": "Compute supply sits in allied jurisdictions with stable political relationships and cooperative frameworks for technology and trade between governments. However, allied jurisdictions frequently have different regulatory frameworks for data protection, AI governance, and digital services that create compliance conflicts. Allied status reduces geopolitical risk but does not harmonise the regulatory regimes that create the cross-border compliance knot between cooperating nations. The supply jurisdiction provides political stability while the regulatory complexity between allied jurisdictions remains unresolved and creates operational compliance challenges."
+    },
+    "Observability": {
+      "value": "Declared",
+      "memo": "Declared observability means cross-border compliance is claimed through documentation rather than technically verified across all jurisdictions where the model operates.",
+      "detail": "The processor declares compliance with cross-border requirements through documentation, contractual representations, and compliance certifications prepared for each jurisdiction. No technical mechanism independently verifies that data handling actually complies with each jurisdiction's specific requirements in production across all territories. Declared observability creates a compliance narrative for each jurisdiction based on documentation rather than on independently verifiable technical evidence of compliant processing."
+    },
+    "Evaluation": {
+      "value": "Benchmarked",
+      "memo": "Benchmarked evaluation tests model capability across jurisdictions but does not evaluate cross-border regulatory compliance or jurisdictional data handling correctness.",
+      "detail": "Benchmark results demonstrate model performance and capability across languages, domains, and use cases relevant to different jurisdictions and markets. Evaluations do not assess whether cross-border data handling complies with each jurisdiction's specific regulatory requirements during training and deployment. Benchmarked evaluation provides evidence of technical competence but not of regulatory compliance across the jurisdictional matrix of applicable rules. The evaluation addresses capability questions well but is silent on the cross-border compliance questions that define this stance."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "Behavioural evidence shows model outputs across jurisdictions but cannot reveal whether training data handling complied with each territory's specific regulatory requirements.",
+      "detail": "Behavioural testing examines model outputs and response patterns across languages, topics, and use cases relevant to different jurisdictions served. It cannot determine whether training data from specific jurisdictions was handled in compliance with that jurisdiction's particular regulatory framework. Behavioural evidence tells you what the model does when serving users in different territories but nothing about its training-stage compliance. The interpretability level is insufficient to answer the jurisdiction-specific compliance questions that cross-border deployment creates."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Human review provides cross-jurisdictional quality assurance but cannot verify that training data handling complied with each territory's specific regulatory requirements.",
+      "detail": "Human reviewers assess model outputs for quality, safety, and appropriateness across the different jurisdictions and cultural contexts the model serves. This review addresses output quality and cultural sensitivity rather than the upstream question of cross-border training data compliance with applicable rules. Human review provides durable quality assurance across jurisdictions but does not address the regulatory compliance gap at the training data handling level. The alignment method manages output quality across borders without touching the cross-border compliance knot in training."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Enterprise-grade security must meet the requirements of all jurisdictions simultaneously, which may require the highest common denominator across conflicting security standards.",
+      "detail": "Security standards vary across jurisdictions, with some requiring stricter controls, certification, or audit standards than others for similar processing activities. Enterprise-grade security must satisfy all applicable jurisdictional requirements simultaneously, typically requiring adherence to the strictest standard across all territories. Meeting the highest common denominator across conflicting security standards increases cost and operational complexity beyond what any single jurisdiction requires. Cross-border security compliance drives toward the most restrictive standard, increasing the overall security investment required for the deployment."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Cross-border deployment increases the adversary surface because threat actors in any served jurisdiction can target the system, including state-adjacent actors in some territories.",
+      "detail": "Serving users across multiple jurisdictions exposes the system to threat actors in each territory, including sophisticated criminal organisations and state-adjacent groups. The adversary model must account for threats from the most hostile jurisdiction in the deployment footprint, not just the home jurisdiction. Cross-border deployment means the threat landscape is the union of all individual jurisdictional threat landscapes, which is substantially broader than any single one."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Monitored weight security must satisfy the most restrictive jurisdiction's requirements for protecting model weights that contain cross-border training data contributions.",
+      "detail": "Model weights containing training contributions from multiple jurisdictions may be subject to different protection requirements based on each jurisdiction's data classification. Weight monitoring must satisfy the most restrictive jurisdiction's security requirements for the combined weights, not just the home jurisdiction's standards. Cross-border training creates weights whose security classification is determined by the most sensitive data from the most restrictive jurisdiction included in training. The monitoring must be adequate for the highest-sensitivity classification across all contributing jurisdictions."
+    },
+    "Access Control": {
+      "value": "Least privilege",
+      "memo": "Least-privilege access must account for jurisdiction-specific access restrictions that may limit who can access data or model capabilities based on territorial rules.",
+      "detail": "Access controls must incorporate jurisdiction-specific restrictions that limit personnel access based on citizenship, clearance level, or territorial presence and residency. Some jurisdictions may require that only local nationals access data or systems within their territory, creating workforce location and citizenship constraints. Least-privilege access in a cross-border context means jurisdiction-aware privilege assignment rather than simply role-based access control across the organisation. The access control framework must encode jurisdictional restrictions alongside functional role requirements, significantly increasing its complexity."
+    },
+    "Monitoring Scope": {
+      "value": "Code/tool/network activity",
+      "memo": "Broad monitoring across code, tools, and network activity tracks cross-border data flows to support jurisdictional compliance verification and audit evidence.",
+      "detail": "Cross-border deployments require monitoring of data flows across jurisdictions, tool interactions that route data internationally, and network activity that crosses territorial boundaries. This monitoring generates the evidence base needed to demonstrate cross-border compliance to regulators in each applicable jurisdiction during audits and investigations. Broad monitoring scope ensures that cross-border data movements are visible and traceable for compliance purposes across the full technical stack. Comprehensive cross-border monitoring supports regulatory reporting obligations that multiple jurisdictions may independently require."
+    },
+    "Containment": {
+      "value": "Network-isolated",
+      "memo": "Network isolation between jurisdictional segments attempts to satisfy data residency requirements while maintaining globally consistent model capability for all users.",
+      "detail": "Network isolation creates jurisdictional segments that attempt to keep data processing within territorial boundaries required by local residency mandates and regulations. This isolation satisfies the form of residency requirements but may not address the substance when model weights contain pre-trained cross-border data contributions. Network containment provides a technical compliance mechanism that regulators can inspect but that does not resolve the underlying weight-level entanglement. The containment is a practical compromise between global model deployment and jurisdictional data residency requirements."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Targeted restrictions disable specific model capabilities in jurisdictions where those capabilities would violate local regulations or trigger additional compliance obligations.",
+      "detail": "Certain model capabilities may be prohibited, restricted, or subject to additional requirements in specific jurisdictions based on local regulatory frameworks. Targeted restrictions provide jurisdiction-specific capability control without requiring separate models for each territory served by the deployment. This approach manages jurisdictional compliance at the capability surface without addressing the underlying cross-border training data entanglement in weights. Restrictions are the practical governance mechanism for managing jurisdictional variation within a globally deployed model architecture."
+    },
+    "Use Class": {
+      "value": "Civilian regulated",
+      "memo": "Civilian regulated use in multiple jurisdictions creates a matrix of sector-specific compliance obligations that compound the cross-border regulatory coordination challenge.",
+      "detail": "The system operates in regulated civilian sectors that impose sector-specific requirements varying across jurisdictions for the same functional use case. Financial services, healthcare, and legal services each have their own cross-border regulatory frameworks that interact with general AI governance rules. Civilian regulated use in multiple jurisdictions creates a matrix of sector and territory combinations, each with its own compliance pathway. The sector-specific compliance layer compounds the general cross-border regulatory challenge by adding industry-specific requirements to each jurisdictional cell."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Information-channel harm means cross-border compliance failures primarily create regulatory and commercial risk rather than physical safety concerns across territories.",
+      "detail": "The primary harm from cross-border non-compliance flows through regulatory enforcement, fines, market access restrictions, and reputational damage across territories. The information channel means these are legal and commercial harms rather than physical safety harms that would trigger emergency cross-border cooperation mechanisms. Cross-border compliance failures create financial and market-access risk for the operator in each jurisdiction where enforcement action is possible. The harm is measured in regulatory penalties, market exclusion, and commercial disruption rather than in physical injuries or safety incidents."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "Licensed diffusion across borders means the model and its compliance posture are inherited by customers in jurisdictions the original deployment may not have fully assessed.",
+      "detail": "The model is distributed to customers across jurisdictions under commercial licences that carry the compliance posture of the original cross-border training arrangement. Downstream licensees in additional jurisdictions inherit the cross-border compliance characteristics, gaps, and risks without independent assessment or verification. Licensed diffusion propagates the cross-border compliance knot through the distribution chain into jurisdictions that may have stricter requirements. Each licensing event extends the cross-border compliance challenge into new territories with their own regulatory requirements."
+    },
+    "Data Value Dynamics": {
+      "value": "Rivalrous",
+      "memo": "Cross-border data becomes rivalrous when jurisdictions compete to attract or restrict data flows, creating conflicting incentives around the same data assets.",
+      "detail": "Different jurisdictions may simultaneously seek to attract data processing within their borders and restrict data outflows to other territories for economic reasons. This creates rivalrous dynamics where the same data is subject to competing jurisdictional claims about where it should be processed and who should benefit. Cross-border data value dynamics reflect geopolitical competition between jurisdictions for data economy leadership and sovereignty over digital assets."
+    },
+    "Input Price": {
+      "value": "Variable",
+      "memo": "Variable input pricing across jurisdictions reflects the different cost of compliance, licensing, and data access in each territory where training data is sourced.",
+      "detail": "Data licensing costs vary by jurisdiction based on local market conditions, regulatory requirements, enforcement intensity, and rights-holder bargaining power in each territory. Variable pricing across jurisdictions means the cost structure of the training corpus differs by territory and changes as local conditions evolve independently. Cross-border variable pricing creates complex cost accounting where the same type of data costs different amounts depending on its jurisdictional origin."
+    },
+    "Output Allocation": {
+      "value": "Allocated",
+      "memo": "Allocated output value must be distributed across jurisdictions, each with its own tax, transfer pricing, and value attribution rules for cross-border digital services.",
+      "detail": "Output value is allocated across the jurisdictions where it is generated, consumed, and taxed according to each territory's value attribution and transfer pricing frameworks. Each jurisdiction's allocation rules may differ, creating potential for double taxation, value attribution disputes, and transfer pricing challenges across borders. Cross-border output allocation requires sophisticated tax and accounting structures that satisfy multiple jurisdictions' revenue attribution requirements simultaneously. The allocation framework must be defensible in each jurisdiction independently while remaining internally consistent across the global structure."
+    },
+    "Derived Value Capture": {
+      "value": "Joint/reciprocal",
+      "memo": "Joint value capture across jurisdictions creates governance complexity where multiple territories claim rights to regulate and tax the derived value from cross-border processing.",
+      "detail": "Derived value from cross-border processing is claimed by multiple jurisdictions that each assert the right to regulate and tax commercial activity within their territory. Joint value capture creates governance complexity because the same derived value may be subject to multiple jurisdictions' overlapping regulatory and fiscal claims. Cross-border derived value requires careful structuring to avoid double regulation, conflicting governance requirements, and duplicative compliance obligations across territories."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Allocated",
+      "memo": "Allocated risk must address regulatory enforcement in multiple jurisdictions simultaneously, where a compliance failure in one territory can trigger cascading consequences.",
+      "detail": "Risks are allocated across parties and jurisdictions through contractual arrangements that attempt to define responsibility for compliance in each territory served. A regulatory enforcement action in one jurisdiction can trigger investigation, enforcement, and reputational consequences in other jurisdictions simultaneously. Risk allocation must address the cascading nature of cross-border compliance failures where one jurisdiction's action creates exposure in others. Allocated risk across jurisdictions requires sophisticated legal structuring that accounts for the interconnected nature of multi-territorial regulatory exposure."
+    },
+    "Capital": {
+      "value": "Project",
+      "memo": "Project-level capital supports the cross-border infrastructure deployment that requires upfront investment in jurisdiction-specific compliance architecture and multi-territory legal structuring.",
+      "detail": "Cross-border deployment requires project-level investment in jurisdiction-specific infrastructure, compliance frameworks, legal structures, and regulatory engagement across territories. Project finance is appropriate because the cross-border deployment requires substantial upfront investment that generates returns across multiple jurisdictions over time. The capital structure must accommodate jurisdiction-specific compliance costs, regulatory risks, and revenue attribution across the deployment footprint. Project-level governance provides the oversight framework needed for the strategic complexity of cross-border AI infrastructure investment."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "Multi-year commitments across jurisdictions create exposure to regulatory change in any territory during the commitment period, with cascading compliance implications.",
+      "detail": "Cross-border commitments span multiple years during which regulatory frameworks in any served jurisdiction may change significantly through legislative reform. Regulatory change in one jurisdiction during the commitment period can cascade across the entire cross-border structure through compliance dependencies. Multi-year tenor means the cross-border compliance landscape will evolve during the commitment, requiring ongoing adaptation and potentially significant restructuring. The commitment period spans regulatory cycles in multiple jurisdictions, each evolving on its own political and institutional timeline."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "Product-line revenue from cross-border deployment creates commercial dependency on maintaining market access in multiple jurisdictions with evolving regulatory requirements.",
+      "detail": "AI products serving customers across jurisdictions generate revenue that is strategically important and distributed across the territorial footprint of the deployment. Product-line dependency means loss of market access in any significant jurisdiction directly affects the overall revenue and commercial viability of the business. Cross-border revenue dependency creates commercial pressure to maintain compliance across all jurisdictions because each territory contributes to the aggregate revenue stream."
+    },
+    "Switching Cost": {
+      "value": "High",
+      "memo": "High switching costs make it expensive to restructure the cross-border deployment when jurisdictional requirements change or new territories impose conflicting obligations.",
+      "detail": "The accumulated cross-border infrastructure, compliance architecture, contractual structures, and customer relationships create substantial switching costs and restructuring barriers. Reorganising the territorial structure to address new regulatory requirements involves significant legal, technical, and commercial disruption across multiple jurisdictions simultaneously. High switching costs create inertia that favours the existing cross-border structure even when it becomes suboptimal for evolving compliance requirements. The cost of restructuring often exceeds the perceived risk of continuing with the current imperfectly compliant cross-border arrangement."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Exit is capability-entangled because training data from multiple jurisdictions is inseparably merged in weights that cannot be jurisdictionally partitioned or selectively deleted.",
+      "detail": "No mechanism can identify, isolate, or remove the training contribution from any specific jurisdiction's data within the shared model weights. Cross-border training creates permanent jurisdictional entanglement where data from all contributing territories is inseparably merged in the parameters. A jurisdiction that demands data removal or model modification cannot have its request technically honoured without retraining the entire model. Capability entanglement means jurisdictional exit is as technically impossible as individual data source exit in the termination trap stance."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "Stack-integrated deployment spans the full technology stack across jurisdictions, creating cross-border dependencies at every layer from infrastructure to application distribution.",
+      "detail": "The deployment integrates infrastructure, model, data, and application layers across jurisdictions, with each layer potentially subject to different territorial rules. Cross-border stack integration means regulatory requirements at any layer in any jurisdiction can affect the entire global stack through technical dependencies. Changes required for compliance in one jurisdiction's infrastructure layer may ripple through model, data, and application layers in all territories. Stack integration across borders creates multi-layer, multi-jurisdictional coupling that makes compliance changes expensive and complex."
+    },
+    "Coalition Structure": {
+      "value": "Allied bloc",
+      "memo": "Allied bloc coalition structure reflects the multi-jurisdictional partnerships required for cross-border AI deployment across cooperating but differently regulated territories.",
+      "detail": "Cross-border deployment typically involves partnerships across allied jurisdictions with different regulatory frameworks but cooperative political relationships. The allied bloc structure provides the geopolitical stability for cross-border operations but does not harmonise the regulatory requirements between allied nations. Coalition governance must navigate the gap between political alliance and regulatory divergence that characterises relationships between major AI-deploying democracies. The allied bloc provides the political framework for cross-border cooperation while leaving the regulatory coordination challenge unresolved."
+    },
+    "Nonproliferation Regime": {
+      "value": "Norms",
+      "memo": "Norms-based governance between jurisdictions provides aspirational frameworks for cross-border AI cooperation without binding enforcement or harmonised compliance requirements.",
+      "detail": "International norms and voluntary frameworks promote responsible cross-border AI development through aspirational principles and non-binding cooperation agreements. These norms provide a common language for cross-border governance discussions but lack enforcement mechanisms and binding compliance requirements for participants. Norms-based governance creates a veneer of international coordination without resolving the substantive regulatory conflicts between jurisdictions that create the compliance knot. The normative framework is a starting point for cross-border governance but falls far short of the binding harmonisation that compliance requires."
+    },
+    "Strategic Lead": {
+      "value": "Neck-and-neck",
+      "memo": "Neck-and-neck competition between jurisdictions for AI leadership creates regulatory competition that compounds the cross-border compliance challenge for global deployments.",
+      "detail": "Jurisdictions compete for AI industry leadership through regulatory frameworks designed to attract investment or protect domestic interests and values. This regulatory competition creates divergent rather than convergent requirements as each jurisdiction differentiates its approach to attract specific types of AI activity. Neck-and-neck competition between jurisdictions prevents regulatory harmonisation because alignment with competitors' rules would reduce competitive differentiation. The jurisdictional competition dynamic actively widens the regulatory divergence that creates and sustains the cross-border compliance knot."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Competitive pressure drives global deployment before cross-border compliance can be fully assessed, creating regulatory exposure in jurisdictions that have not been adequately prepared for.",
+      "detail": "Competition forces rapid global deployment to capture market share before competitors establish positions in key jurisdictions around the world. Waiting for complete cross-border compliance assessment means losing market access to competitors who deploy first and address compliance challenges retroactively. Race pressure means cross-border regulatory risks are accepted rather than resolved before deployment because the competitive cost of delay is immediate. The competitive environment forces global deployment timelines that structurally preclude thorough multi-jurisdictional compliance preparation."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Merchant GPU procurement creates cross-border supply chain dependencies where accelerator availability may be affected by export controls between jurisdictions.",
+      "detail": "The deployment depends on Nvidia GPUs procured through commercial channels that are subject to export controls varying by destination jurisdiction and end use. Export control restrictions on GPU transfers to certain jurisdictions directly affect where cross-border compute infrastructure can be located and operated. Merchant GPU procurement creates supply chain vulnerability to changes in export control policy between the producing and consuming jurisdictions over time."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Accelerator supply constraints affect cross-border deployment because GPU availability varies by jurisdiction and may be restricted by export controls and allocation priorities.",
+      "detail": "GPU availability differs across jurisdictions based on export controls, local demand, allocation priorities, and supply chain logistics for specific territories. Cross-border deployment may be constrained in some jurisdictions by accelerator supply limitations that do not affect deployment in the home jurisdiction. Accelerator supply bottlenecks can create asymmetric deployment capability across the territorial footprint, undermining the global consistency that cross-border operations require. Supply constraints add a hardware dimension to the cross-border coordination challenge alongside the regulatory, legal, and commercial dimensions."
+    },
+    "Acceptance Basis": {
+      "value": "Process-required",
+      "memo": "Multiple jurisdictions each impose their own process-legitimacy requirements, compounding compliance documentation demands.",
+      "detail": "Cross-border deployments face process requirements from every jurisdiction involved. Each regulatory regime demands its own explainability, compliance documentation, and local-law reasoning. The compounding effect makes process-legitimacy the dominant acceptance basis. No single outcome metric can satisfy the overlapping procedural demands of multiple legal systems."
+    }
+  }
+}

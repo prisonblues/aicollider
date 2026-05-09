@@ -1,0 +1,362 @@
+{
+  "id": "lifecycle",
+  "name": "Tenure Fracture",
+  "desc": "Infrastructure commitments span decades, compute reservations span years, model generations span months, and data licences can expire first. The fracture between these tenures creates stranded obligations when the shortest-lived permission expires beneath longer-lived dependencies.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "The mismatch matters at frontier scale where infrastructure investment is large enough to create multi-decade financial commitments and obligations.",
+      "detail": "Frontier training requires dedicated infrastructure with multi-year payback periods that far exceed model generation lifespans. The infrastructure investment creates financial obligations that persist long after the models they were built for become obsolete and are replaced. At smaller scales the mismatch is manageable because infrastructure costs are modest and reversible within normal business planning cycles. Frontier economics make the temporal misalignment between physical infrastructure and digital capability structurally significant and financially material."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Multi-domain deployment means one infrastructure commitment serves many use cases whose individual data licences expire on separate and uncoordinated schedules.",
+      "detail": "The infrastructure supports multiple applications across different industry domains, each with its own data licensing requirements and renewal timelines. Each domain may have different licence terms, renewal dates, and termination provisions that are negotiated independently of each other. A single infrastructure commitment must service a portfolio of time-varying data rights with no unified expiry or synchronisation mechanism. The breadth of supported domains multiplies the scheduling complexity and the risk of temporal gaps between infrastructure and data access."
+    },
+    "Capability Trajectory": {
+      "value": "Incremental",
+      "memo": "Long-lived infrastructure is financed assuming incremental progress, but model generations may advance faster and obsolete the underlying investment assumptions.",
+      "detail": "Infrastructure investment models assume steady, predictable capability improvement over years to justify multi-decade capital commitments to investors and lenders. Model generations can render infrastructure design assumptions obsolete within months through architectural or algorithmic breakthroughs that change requirements. The incremental trajectory assumed by infrastructure financiers does not match the actual punctuated pace of model generation turnover. This timing mismatch between assumed and actual progress rates is the core investment risk of lifecycle-dependent AI infrastructure."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted research accelerates model generation turnover, shortening effective model lifecycles relative to the infrastructure commitments that support them.",
+      "detail": "Research automation means each model generation arrives faster than the last, compressing the useful life of each generation's infrastructure requirements. Infrastructure designed and optimised for one model generation may be suboptimal or mismatched for the next generation that arrives sooner than planned. AI-assisted progress compresses model lifecycles without compressing the physical infrastructure life or its associated financial obligations to investors. The research acceleration widens the temporal gap between fast-moving digital capability and slow-moving physical infrastructure investment."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Tool-using deployment creates integration dependencies that add another lifecycle layer with its own renewal and migration timeline to coordinate.",
+      "detail": "Tool integrations built for one model version become operational dependencies with their own lifecycle, support, and migration requirements. These integrations have their own renewal schedules, compatibility requirements, and migration timelines that must align with infrastructure and data changes. The tool layer adds a third independent clock to the mismatch alongside infrastructure and data, creating three-way temporal coordination challenges. Integration migration across model transitions compounds the lifecycle coordination problem at every technology refresh cycle."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Many deployed copies across committed infrastructure create a large installed base that makes lifecycle transitions operationally expensive and disruptive.",
+      "detail": "The infrastructure supports many concurrent production deployments serving different customers and use cases with varying service-level requirements. Each deployment has users, integrations, service agreements, and commercial commitments that create inertia against any model or infrastructure transition. The installed base creates substantial operational and commercial inertia that resists any change that might disrupt current service delivery. Many copies amplify the cost, complexity, and disruption risk of any lifecycle transition event across the deployment fleet."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Machine-speed operation generates continuous infrastructure utilisation revenue that must reliably service long-term capital commitments to infrastructure investors.",
+      "detail": "The infrastructure earns revenue through continuous, machine-speed operation serving requests and processing data around the clock without interruption. This continuous revenue stream must cover multi-year capital obligations, debt service, and return requirements for infrastructure investors over the commitment period. If data licences expire, models change, or demand shifts, the revenue stream that services the capital structure is directly at risk. Operating speed determines the revenue generation rate that must remain stable to service the infrastructure's long-term financial obligations."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Cognitive-only AI systems still require substantial physical infrastructure with its own lifecycle, creating the gap between digital capability and physical asset life.",
+      "detail": "Even purely cognitive AI requires data centres, power supply contracts, cooling systems, networking equipment, and physical security infrastructure to operate. The physical infrastructure has a useful life of fifteen to twenty-five years based on building, power, and cooling system design specifications. The cognitive system it serves may change architecture and requirements every six to eighteen months as new model generations arrive. The physical-digital lifecycle gap between fast-moving software and slow-moving infrastructure is the core structural driver of the mismatch."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "The system serves as a tool within infrastructure commitments whose financial lifecycle the tool's own rapid obsolescence may undermine.",
+      "detail": "The model is deployed as a processing tool within a larger infrastructure investment framework with defined financial return requirements. When the tool is superseded by a newer, more capable model generation, the infrastructure it sits on remains committed and financially obligated. The tool role means model replacement should be a routine operational matter that does not affect infrastructure economics or investor returns. Infrastructure-life financial commitments make routine model replacement financially consequential in ways that tool-level thinking does not anticipate."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "Informational actuation means the system generates processing revenue through information services that must cover long-term infrastructure finance obligations.",
+      "detail": "Revenue comes from information processing services including inference, analysis, and content generation delivered through the committed infrastructure. These processing services must generate sufficient and stable cash flow to service the infrastructure debt, return requirements, and operating costs. If the processing service becomes obsolete, is displaced by competition, or loses data access, the infrastructure obligation remains regardless. The informational revenue stream is the financial basis that the lifecycle commitment depends on maintaining across the full infrastructure life."
+    },
+    "Autonomy": {
+      "value": "Human-on-loop",
+      "memo": "Human-on-loop supervision manages ongoing infrastructure operations across the long lifecycle with periodic rather than continuous direct oversight.",
+      "detail": "The system runs with periodic human supervision over extended operational periods spanning years or decades of infrastructure commitment. Long-lived infrastructure requires sustained operational oversight that must persist across staff turnover, organisational changes, and technology transitions. Human-on-loop management must survive across multiple model generations deployed on the same underlying physical infrastructure during its life. The supervision model itself becomes a lifecycle management challenge that must be maintained throughout the commitment period."
+    },
+    "Delegated Authority": {
+      "value": "Limited mandate",
+      "memo": "Limited operational mandate governs the system within infrastructure commitments that constrain its replacement, modification, or significant reconfiguration.",
+      "detail": "The system operates within defined parameters established by the infrastructure commitment's financial covenants and operational requirements. Its mandate is limited by the capital structure's requirements for stable utilisation, predictable revenue, and controlled operational changes. Changes that would affect infrastructure utilisation, revenue predictability, or covenant compliance require approval from financing parties with veto rights. The delegated authority is bounded not just by operational policy but by financial obligations that extend across the commitment period."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Gated tool access creates integration dependencies whose lifecycle and compatibility must be managed alongside infrastructure and data licence timelines.",
+      "detail": "Tool integrations are governed by the infrastructure operator through controlled access gates with defined compatibility and support requirements. Each integration has its own lifecycle including version support, renewal, migration, and end-of-life timelines that must be coordinated with everything else. Tool gates must be maintained, upgraded, and re-validated across infrastructure transitions and model generation replacements during the commitment. The gating layer adds operational complexity and another set of temporal dependencies to the already challenging lifecycle coordination problem."
+    },
+    "Response / Intervention Capability": {
+      "value": "Defined escalation",
+      "memo": "Defined escalation paths address operational incidents and financing covenant triggers across the long infrastructure lifecycle and capital commitment period.",
+      "detail": "Escalation procedures cover infrastructure failures, model incidents, data licence events, and financial covenant breaches during the commitment period. These paths must remain effective, staffed, and current across multi-year and multi-decade commitment periods with evolving personnel and threats. Escalation to financing parties, investors, and governance boards may be contractually required for material events affecting infrastructure utilisation or revenue. The response capability must be durably maintained and periodically tested across the full lifecycle of the infrastructure commitment."
+    },
+    "Command Actor": {
+      "value": "Corporate board",
+      "memo": "Board-level command reflects the strategic importance of infrastructure commitments that outlast individual management tenures and span leadership transitions.",
+      "detail": "Infrastructure finance commits the organisation at a strategic level requiring board-level oversight, approval, and ongoing governance throughout the commitment. Board oversight is appropriate for financial obligations spanning decades that will outlast multiple management teams and individual executive tenures. Individual managers may rotate, be promoted, or leave during the commitment period while the obligation persists and requires institutional continuity. Board-level command provides the governance continuity across management transitions that multi-decade infrastructure commitments require."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Product-cycle decision tempo creates friction with infrastructure-life financial obligations that require much longer planning horizons and stable commitment.",
+      "detail": "Model decisions follow product release cycles measured in months while infrastructure decisions follow construction and finance cycles measured in years and decades. The product-cycle tempo does not align with infrastructure planning, construction, financing, and return horizons that extend far beyond any product lifecycle. This tempo mismatch is the operational expression of the lifecycle gap between fast-moving digital capability and slow-moving physical infrastructure. Product teams make model decisions without reference to infrastructure finance constraints that operate on fundamentally different timescales."
+    },
+    "Tradeoff Authority": {
+      "value": "Safety body",
+      "memo": "A governance body oversees tradeoffs between model transitions and infrastructure stability to prevent stranded assets and financing covenant breaches.",
+      "detail": "Model replacement decisions affect infrastructure utilisation, revenue stability, and financial covenant compliance in ways that require governance oversight. A safety or governance body must weigh the benefits of model improvement against the infrastructure obligation impacts and financial stability requirements. The tradeoff authority sits above the product team at a level that can see both the model lifecycle and the infrastructure commitment simultaneously. Infrastructure-aware governance prevents product teams from making model decisions that strand infrastructure assets or breach financing covenants."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Conditional data permission creates licence expiry dates that may not align with and may precede infrastructure commitment periods or compute reservations.",
+      "detail": "Data licences have defined terms, conditions, and durations including renewal options that were negotiated independently of infrastructure financing timelines. These terms were established without reference to the infrastructure commitments they support, creating potential temporal gaps between data access and infrastructure life. Licence expiry during an active infrastructure commitment creates an operational gap where the infrastructure exists but the data to utilise it may not."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Conditional regulatory requirements may change during the infrastructure lifecycle, creating new compliance obligations on sunk and committed infrastructure investments.",
+      "detail": "Regulations evolve on their own political and institutional timeline, independent of infrastructure investment cycles and financial commitment periods. New regulatory conditions may apply retrospectively to systems and infrastructure built under prior rules and different compliance expectations. The infrastructure cannot be cheaply reconfigured, relocated, or reconstructed to meet new regulatory requirements that arise mid-commitment. Regulatory change during the lifecycle creates stranded compliance risk where existing assets face new obligations they were not designed for."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "Licensed data creates a temporal dependency where the licence term may not match and may expire before the infrastructure's financial commitment period ends.",
+      "detail": "Data licences have specific renewal dates, termination rights, and renegotiation triggers that operate independently of infrastructure financing schedules. Infrastructure finance models assume continued access to the training and processing data that generates the revenue to service capital obligations. If a critical data licence is not renewed, expires, or is terminated, the infrastructure may be underutilised or stranded without adequate revenue. The licence term becomes a financial risk factor that infrastructure investors must underwrite but often cannot control or adequately predict."
+    },
+    "Provenance": {
+      "value": "Licensed",
+      "memo": "Licensed provenance creates documented dependency chains whose continuity must be actively managed across the full infrastructure lifecycle and all renewal cycles.",
+      "detail": "Data sources are known, documented, and contractually recorded through licence agreements with defined terms, obligations, and renewal requirements. Each source has its own renewal timeline, pricing trajectory, competitive dynamics, and risk profile that must be individually managed over time. Managing a portfolio of data provenances with varying lifecycles across a long infrastructure commitment is operationally complex and resource-intensive. Provenance documentation enables lifecycle management and risk assessment but also reveals the full complexity of the temporal coordination challenge."
+    },
+    "Model-Weight Rights": {
+      "value": "Dedicated instance",
+      "memo": "Dedicated model instances create infrastructure-specific deployments whose lifecycle is directly coupled to physical infrastructure commitments and utilisation.",
+      "detail": "The model runs on dedicated infrastructure rather than shared cloud, creating a direct coupling between model deployment and infrastructure investment. This coupling means model lifecycle and infrastructure lifecycle are intertwined: changing the model may require infrastructure reconfiguration at significant cost. Replacing the model with a different architecture may require different accelerators, networking, cooling, or power infrastructure configurations than what was built. The dedicated instance binds model and infrastructure timelines together, making model transitions an infrastructure engineering and financing event."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "Domestic territory simplifies regulatory lifecycle management but infrastructure commitments still outlast domestic regulatory certainty and political stability periods.",
+      "detail": "Operating in one jurisdiction reduces regulatory coordination complexity compared to multi-jurisdiction deployments with conflicting and evolving requirements. However, even domestic regulation evolves significantly over a twenty-year infrastructure life through multiple legislative and regulatory cycles. The domestic simplicity does not eliminate regulatory lifecycle risk but merely reduces it to tracking one jurisdiction's evolution over decades. Single-jurisdiction operation still exposes the infrastructure commitment to substantial regulatory change risk over its long operational life."
+    },
+    "Data Subject Exposure": {
+      "value": "Low-identifiability",
+      "memo": "Low-identifiability data reduces privacy lifecycle risk but does not eliminate the broader temporal mismatch between data rights and infrastructure commitment.",
+      "detail": "Data with minimal personal identifiers avoids the strictest privacy regime timelines, consent management requirements, and deletion obligation schedules. This simplifies one dimension of the lifecycle mismatch by removing the most restrictive and time-sensitive data governance requirements. Privacy requirements can still change during the infrastructure commitment period through legislative reform or regulatory reinterpretation of existing rules. Low identifiability reduces but does not eliminate the lifecycle risk from evolving privacy regulation over the commitment period."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Commercially confidential data creates confidentiality obligations whose contractual duration must be coordinated with infrastructure and model lifecycles.",
+      "detail": "Confidentiality terms may have their own defined duration, renewal requirements, and survival clauses that operate independently of other lifecycle clocks. These add another temporal coordination layer to the lifecycle mismatch alongside infrastructure, data licence, model, and regulatory timelines. Confidentiality obligations can outlast model generations, underlast infrastructure commitments, or expire at inconvenient times relative to other lifecycle events. Each additional layer of temporally-independent sensitivity obligations adds scheduling complexity and potential gap risk to lifecycle management."
+    },
+    "Control Exposure": {
+      "value": "Potentially controlled",
+      "memo": "Potential export control reclassification during the long infrastructure lifecycle could create new compliance obligations on already-committed infrastructure assets.",
+      "detail": "Export controls evolve as AI technology becomes more strategically significant and as geopolitical relationships shift over time between nations. Infrastructure built today under current control classifications may fall under new or expanded controls introduced during its multi-decade operational life. Reclassification during the commitment period creates compliance costs, use restrictions, and operational constraints on existing infrastructure assets that were not anticipated."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "Training-mode processing creates the deepest lifecycle dependency because model retraining requires ongoing access to both compute capacity and current data.",
+      "detail": "Retraining requires continued simultaneous access to training data under valid licences and adequate compute capacity at the required scale. If data licences expire before the infrastructure commitment ends, retraining on the committed infrastructure may not be possible or may require different data. Training mode creates a three-way dependency chain across data access, compute capacity, and model architecture that must remain synchronised across time."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Derived outputs generate the revenue stream that services infrastructure debt, creating critical financial dependency on continued uninterrupted derivation.",
+      "detail": "Revenue from derived outputs must cover infrastructure capital costs, debt service, operating expenses, and investor returns over the commitment period. If the derivation chain is interrupted by licence expiry, model obsolescence, or competitive displacement, revenue is directly and immediately at risk. The financial structure depends on continuous, uninterrupted derivation to service capital obligations without default or covenant breach. Output derivation is the cash-flow engine that makes the infrastructure commitment financially viable and services its long-term obligations."
+    },
+    "Retention / Persistence": {
+      "value": "Contract-retained",
+      "memo": "Contract-retained data creates explicit retention obligations whose defined duration must be coordinated with infrastructure lifecycle and model generation timelines.",
+      "detail": "Contracts specify how long data must be retained, how it must be handled during retention, and when it must be deleted upon expiry. Retention periods may not align with infrastructure decommissioning schedules, model generation transitions, or regulatory requirement changes during the period. Data that must be deleted before infrastructure is decommissioned creates a gap where infrastructure exists but data governance requires its removal. Contract-retained persistence adds yet another legal timeline with independent expiry to the already complex multi-clock lifecycle mismatch."
+    },
+    "Execution / Residency Environment": {
+      "value": "Controlled",
+      "memo": "Controlled execution environments require ongoing operational investment in security, maintenance, and staffing across the full multi-decade infrastructure lifecycle.",
+      "detail": "The controlled environment needs continuous maintenance, security patching, equipment replacement, and qualified staff throughout its operational life. These ongoing operational costs persist across the infrastructure's full useful life regardless of model changes, data licence events, or revenue fluctuations. The execution environment cannot be mothballed or paused while infrastructure financial commitments remain active and debt service continues. Controlled environments have their own lifecycle costs that compound the financial burden of the temporal mismatch."
+    },
+    "Boundary": {
+      "value": "Dedicated tenant",
+      "memo": "Dedicated tenancy creates infrastructure-specific deployment boundaries whose isolation must be maintained across the full multi-decade commitment period.",
+      "detail": "The deployment occupies its own dedicated infrastructure boundary with architectural isolation that was specified and built for the original requirements. This boundary must be maintained, secured, and operated regardless of model changes, data licence events, or shifts in utilisation patterns. Dedicated tenancy creates fixed operational costs that persist across the lifecycle independent of the revenue generated within the boundary. The boundary commitment persists and costs money even if the model, data, or commercial context within it changes significantly."
+    },
+    "Deployment Surface": {
+      "value": "Customer-facing",
+      "memo": "Customer-facing deployment creates external service commitments whose continuity expectations may not match infrastructure transition timelines or data licence events.",
+      "detail": "Customers build production workflows, business processes, and service dependencies around the deployed system with expectations of continuous availability. Their expectations for service continuity, API stability, and performance consistency may extend beyond model generations and data licence terms. Customer-facing deployment creates external obligations and service-level agreements that compound the lifecycle mismatch by adding customer-side dependencies. Users do not care about infrastructure finance covenants or data licence expiry; they care about uninterrupted service delivery."
+    },
+    "Physical Infrastructure": {
+      "value": "Dedicated cluster",
+      "memo": "Dedicated cluster infrastructure has a fifteen to twenty-five year physical life that outlasts models, data licences, compute reservations, and regulatory certainty.",
+      "detail": "The physical cluster involves substantial investment in land acquisition, power contracts, cooling infrastructure, networking equipment, and building construction. These assets have useful lives measured in decades, governed by physical depreciation rather than digital obsolescence or contractual terms. The models they serve change architecture and requirements in months while the physical infrastructure persists unchanged for its full design life."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "Multi-provider sourcing provides optionality for model replacement across the lifecycle but adds coordination complexity across multiple provider roadmaps.",
+      "detail": "Using multiple model providers reduces dependency on any single model's lifecycle, support timeline, or provider business viability over the commitment period. However, each provider has its own product roadmap, deprecation timeline, API changes, and pricing evolution that must be individually tracked and managed. Multi-provider sourcing adds coordination overhead across the lifecycle because each provider's timeline must be harmonised with infrastructure and data timelines. The optionality benefit comes at the cost of significantly increased management complexity across multiple independent lifecycle schedules."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Committed compute capacity creates multi-year financial obligations that may outlast the model generation the capacity was originally reserved and sized for.",
+      "detail": "GPU reservations and compute contracts commit the organisation to specific capacity levels for defined periods with take-or-pay financial obligations. The reserved capacity was sized, configured, and priced for current models and current workload requirements at the time of commitment. Future models may need different capacity profiles, different accelerator types, or different networking configurations than what was contracted. Committed compute creates financial obligations that model transitions and technology evolution do not retire or adjust."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Preferred cloud partnerships create multi-year commercial commitments whose terms must be managed alongside data licence and infrastructure lifecycle timelines.",
+      "detail": "Cloud commitments typically span one to five years with defined pricing, capacity guarantees, and service-level commitments between the parties. These commitments add another temporal layer to the lifecycle mismatch with their own renewal, renegotiation, and migration timelines. Cloud terms may not align with infrastructure construction, data licence renewal, or model transition schedules at any given point. The preferred partnership creates its own lifecycle clock that must be coordinated with all other temporal dependencies."
+    },
+    "Supply Control": {
+      "value": "Allocation rights",
+      "memo": "Allocation rights secure compute access for the commitment period but may not match the capacity requirements of future model generations or architectures.",
+      "detail": "Allocation rights guarantee access to specific compute resources at defined prices and availability levels for the contracted period. These rights were negotiated based on current model requirements and current understanding of future compute needs at the time of signing. Future model generations may need different accelerator types, more capacity, or different configurations than the allocation provides for. Allocation rights create stability and predictability for current needs but limited flexibility and potentially poor fit for future ones."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "Captive switching costs from dedicated infrastructure investment make provider or technology transitions prohibitively expensive during the active commitment period.",
+      "detail": "The infrastructure investment creates deep, multi-layered dependencies on specific hardware, software, cloud partnerships, and operational configurations. Switching providers, technologies, or architectures during the commitment period would mean writing off the existing investment and rebuilding from scratch. Captive costs mean the organisation cannot practically change course even when the lifecycle mismatch creates operational or financial problems. The infrastructure commitment creates captive dependency that constrains all other lifecycle decisions for the duration."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "API distribution creates customer-facing service commitments whose stability requirements must be maintained across infrastructure transitions and model replacements.",
+      "detail": "APIs promise consistent service, stable interfaces, and reliable performance to customers who integrate them into their own production systems. Model transitions must not break API contracts, degrade performance, or change behaviour in ways that disrupt downstream customer operations. The distribution channel creates external service obligations that constrain the timing and execution of lifecycle transitions across the infrastructure. API stability requirements add friction and cost to every model replacement, data migration, and infrastructure transition event."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "Allied supply jurisdiction provides stable supply access today but geopolitical relationships can shift significantly over a multi-decade infrastructure lifecycle.",
+      "detail": "Infrastructure is supplied from allied jurisdictions with current stable political relationships, trade agreements, and cooperative technology-sharing arrangements. Over a twenty-year infrastructure life, geopolitical relationships can shift through political change, trade disputes, sanctions, and realignment of alliances. Allied status and its associated supply access today does not guarantee the same allied status and supply access in future decades. The long infrastructure lifecycle spans geopolitical uncertainty periods that are inherently unpredictable beyond short-term planning horizons."
+    },
+    "Observability": {
+      "value": "Auditable",
+      "memo": "Auditable observability supports the financial reporting, covenant monitoring, and utilisation tracking required by infrastructure financing structures and investors.",
+      "detail": "Infrastructure finance requires auditable evidence of system performance, utilisation rates, revenue generation, and operational compliance for investor reporting. Observability must support continuous financial reporting and covenant compliance monitoring across the full commitment period without gaps or interruptions. Auditable observability enables the financing parties to verify that the infrastructure is being operated in accordance with their investment requirements. The financial structure demands independently verifiable operational evidence throughout the multi-decade commitment period."
+    },
+    "Evaluation": {
+      "value": "Benchmarked",
+      "memo": "Benchmarked evaluation provides repeatable evidence for financing covenants, utilisation reporting, and infrastructure performance monitoring across the commitment period.",
+      "detail": "Benchmark results demonstrate that the infrastructure delivers the capability and performance levels that justify the capital investment and financing terms. These results feed financial reporting, covenant compliance verification, and investor communications on a regular and auditable schedule. Benchmarks must be maintained, updated, and reported across model transitions to ensure infrastructure continues justifying its committed financial returns. Evaluation provides the quantitative evidence base that supports continued infrastructure financing and investor confidence across the lifecycle."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "Behavioural evidence tracks system performance across model transitions to ensure the infrastructure continues generating adequate revenue and meeting service levels.",
+      "detail": "When models are replaced during the infrastructure lifecycle, behavioural evidence confirms the replacement model meets service requirements and revenue targets. Performance tracking across transitions ensures that model changes do not degrade the revenue stream that services infrastructure financial obligations. Behavioural evidence provides the operational basis for lifecycle management decisions about when and how to transition between model generations. It bridges model generations within the same infrastructure by confirming that capability and revenue are maintained."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Human review provides ongoing quality assurance across the long operational lifecycle of infrastructure-backed deployments with evolving models and personnel.",
+      "detail": "Human reviewers monitor system behaviour and output quality across model transitions throughout the infrastructure's multi-decade operational life. Review processes must be maintained through staff turnover, organisational restructuring, and changing quality standards over the commitment period. The alignment method must survive personnel changes, training methodology evolution, and shifting quality expectations across the lifecycle. Human review provides the most durable quality assurance mechanism across the extended temporal horizon of infrastructure commitments."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Enterprise-grade security must be continuously maintained and upgraded across the full infrastructure lifecycle, creating ongoing security investment obligations over decades.",
+      "detail": "Security standards, threat landscapes, and compliance requirements evolve continuously throughout the infrastructure's multi-decade operational life. Infrastructure built today must meet security requirements that do not yet exist through ongoing investment in upgrades, patches, and recertification. Enterprise-grade security is a continuous and escalating investment obligation rather than a one-time certification at commissioning. The security lifecycle is yet another temporal dimension that must be managed across the infrastructure commitment period."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Over a multi-decade infrastructure lifecycle, the adversary model may escalate from casual threats to organised criminal and state-adjacent threats.",
+      "detail": "Threat landscapes evolve significantly over years as AI infrastructure becomes more strategically valuable and a more attractive target for sophisticated adversaries. Infrastructure that faces casual misuse threats at commissioning may face organised criminal or state-adjacent threats within a decade as its value grows. The adversary model must be continuously updated and security posture escalated across the lifecycle as threats evolve and intensify. Evolving threats create ongoing, escalating security investment requirements that compound the lifecycle's operational cost burden."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Monitored weight security must persist and adapt across model transitions to protect each generation of weights deployed on the long-lived infrastructure.",
+      "detail": "Each model generation deployed on the infrastructure has weights that must be secured against exfiltration, tampering, and unauthorised access throughout its deployment. The monitoring must adapt to new model architectures, weight formats, and access patterns as successive generations are deployed during the infrastructure life. Weight security is a recurring requirement that must be re-established and verified with each model transition, not a one-time configuration. The infrastructure lifecycle requires continuous weight protection capability across multiple model generations with varying security characteristics."
+    },
+    "Access Control": {
+      "value": "Least privilege",
+      "memo": "Least-privilege access controls must be continuously maintained and updated across personnel turnover during the multi-decade infrastructure lifecycle.",
+      "detail": "Access controls govern who can operate the infrastructure, manage model deployments, handle data, and access sensitive systems at appropriate permission levels. Over decades, personnel change, roles evolve, teams restructure, and organisational boundaries shift while the infrastructure commitment persists unchanged. Least-privilege policies must be maintained, audited, and updated through all organisational transitions to prevent access creep and security degradation. Access control is a continuous lifecycle management obligation requiring active governance throughout the commitment period."
+    },
+    "Monitoring Scope": {
+      "value": "Code/tool/network activity",
+      "memo": "Broad monitoring across code, tools, and network activity supports comprehensive operational visibility over the full multi-decade infrastructure commitment.",
+      "detail": "Infrastructure-level monitoring must cover all operational layers including application code, tool integrations, network traffic, and system performance continuously. This monitoring generates the comprehensive evidence base required for financial reporting, covenant compliance, and operational troubleshooting across the full commitment. Broad monitoring scope ensures that lifecycle transitions between model generations do not create visibility gaps that could mask problems. Comprehensive operational visibility is required continuously throughout the commitment period to support both operations and investor reporting."
+    },
+    "Containment": {
+      "value": "Dedicated enclave",
+      "memo": "Dedicated enclave containment provides the isolation required for infrastructure-financed deployments with long-term data obligations and strict handling requirements.",
+      "detail": "The deployment runs in an architecturally isolated enclave within the dedicated infrastructure with defined and enforced boundary controls. This containment supports data handling obligations, confidentiality requirements, and regulatory compliance across the full infrastructure lifecycle and all model transitions. The enclave must be maintained, patched, and re-validated as models change, security standards evolve, and regulatory requirements shift during the period. Dedicated containment is a persistent operational cost and governance requirement of the lifecycle commitment."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Targeted restrictions adjust model capabilities to match evolving regulatory and contractual requirements across the long infrastructure lifecycle without full replacement.",
+      "detail": "As regulations, contractual terms, and compliance requirements change over the infrastructure's multi-decade lifecycle, capability restrictions must adapt accordingly. Targeted limitations provide surgical control over specific model behaviours without requiring full model replacement or infrastructure reconfiguration. This approach manages compliance across time without the disruption and cost of complete model transitions for each regulatory change. Restrictions are the ongoing governance mechanism for maintaining compliant operation within a changing regulatory landscape over decades."
+    },
+    "Use Class": {
+      "value": "Civilian regulated",
+      "memo": "Civilian regulated use creates compliance obligations whose specific requirements may change multiple times during the infrastructure commitment period through legislative reform.",
+      "detail": "The system operates in a regulated civilian sector with defined compliance requirements, reporting obligations, and audit standards. Regulations evolve independently of infrastructure investment timelines through multiple legislative and regulatory cycles during a multi-decade commitment. New requirements during the commitment period create compliance costs on existing infrastructure assets that were not anticipated at commissioning. Regulated use adds regulatory lifecycle risk with its own temporal dynamics to the already complex financial lifecycle risk."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Information-channel harm means the lifecycle mismatch primarily creates commercial and financial risk for infrastructure investors rather than physical safety risk.",
+      "detail": "The primary harm from the lifecycle mismatch is financial: stranded assets, unserviceable debt, and operational gaps that affect investor returns. The information channel means these are commercial and financial harms rather than physical safety harms with potential for bodily injury. The lifecycle mismatch creates financial risk for investors, operators, and commercial counterparties across the infrastructure commitment period. The harm is measured in capital losses, stranded assets, and financial covenant breaches rather than in physical injuries or safety incidents."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "Licensed diffusion through the infrastructure creates downstream deployment commitments that compound the lifecycle coordination challenge across customer relationships.",
+      "detail": "Models deployed through the infrastructure are licensed to customers under agreements that create service obligations with their own defined terms. These licences create downstream service continuity obligations that persist across model transitions and infrastructure lifecycle events independently. Licensed diffusion means lifecycle changes, model transitions, and infrastructure events affect downstream parties who have their own commercial expectations. Each customer relationship adds another lifecycle dependency and coordination requirement to the infrastructure operator's management burden."
+    },
+    "Data Value Dynamics": {
+      "value": "Perishable",
+      "memo": "Data value can be perishable over time: training data that was valuable at commissioning may be superseded by newer sources during the infrastructure lifecycle.",
+      "detail": "Data relevance and commercial value decay over time as new information emerges, markets evolve, and knowledge becomes outdated or displaced. Infrastructure financed around today's data assets may need to be served by completely different data sources within a few years of commissioning. Perishable value dynamics mean data licence renewal at commercially reasonable terms is not guaranteed across the infrastructure lifecycle. The infrastructure may outlast the period during which its original training data remains competitively valuable and commercially relevant."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Fixed input pricing locks in data costs at commissioning that may not reflect the data's evolving actual value over the full infrastructure lifecycle.",
+      "detail": "Data licence prices are fixed at contract inception based on current market conditions, competitive dynamics, and value assessments at that point in time. Over the infrastructure lifecycle, data value may increase significantly as demand grows or decrease as alternatives emerge and markets evolve. Fixed pricing creates either windfall gains or stranded costs depending on how data value evolves relative to the locked-in contract terms."
+    },
+    "Output Allocation": {
+      "value": "Allocated",
+      "memo": "Allocated output value must be distributed across parties whose commercial relationships and relative bargaining positions may change during the infrastructure commitment.",
+      "detail": "Output value is allocated to defined parties through contractual arrangements negotiated at the infrastructure commitment's inception based on initial expectations. Over the lifecycle, parties may exit, merge, change roles, renegotiate terms, or face financial difficulties that affect the allocation framework. Allocation mechanisms must be durable enough to survive these commercial relationship changes while remaining fair and enforceable across time. The allocation structure must survive the full lifecycle of commercial transitions while maintaining its economic logic and enforceability."
+    },
+    "Derived Value Capture": {
+      "value": "Revenue share",
+      "memo": "Revenue-share mechanisms must persist, remain commercially fair, and stay enforceable across the full infrastructure lifecycle and multiple model generation transitions.",
+      "detail": "Revenue sharing ties data contributors' compensation to the infrastructure's commercial performance over the long commitment period through contractual formulae. Share calculations must continue to work fairly and accurately across model transitions, market changes, and competitive evolution over the period. The revenue-share mechanism is effectively a long-duration financial instrument that must remain meaningful across decades of commercial change. Its enforceability, fairness, and commercial relevance across the full lifecycle is itself a significant governance challenge requiring active management."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Allocated",
+      "memo": "Risk allocation must be designed for the full infrastructure lifecycle, covering model obsolescence, data licence expiry, regulatory change, and technology evolution.",
+      "detail": "Risks are allocated to defined parties through long-term contractual arrangements that must anticipate and cover events spanning the infrastructure's full useful life. The allocation must cover model obsolescence, data licence expiry, regulatory change, technology evolution, and market shifts that may occur decades in the future. Allocated risk creates defined contractual coverage for identified risks but may prove insufficient for events not anticipated at the commitment's inception."
+    },
+    "Capital": {
+      "value": "Project",
+      "memo": "Project finance structures tie capital commitments to infrastructure assets whose ongoing utilisation depends on maintaining data access and model relevance.",
+      "detail": "The infrastructure is financed as a defined project with structured capital, identified revenue sources, and defined return requirements for investors. Project finance requires predictable cash flows over the commitment period to service debt, pay returns, and cover operating costs without interruption. Data licence expiry, model obsolescence, or competitive displacement threatens the cash flow stability that the capital structure depends on. The capital structure is directly exposed to all dimensions of the lifecycle mismatch through its revenue dependency on continued operation."
+    },
+    "Commitment Tenor": {
+      "value": "Infrastructure-life",
+      "memo": "Infrastructure-life commitment tenor is the longest clock in the lifecycle mismatch, creating the temporal baseline against which all other shorter lifecycles create gaps.",
+      "detail": "The commitment spans the physical infrastructure's useful life of typically fifteen to twenty-five years, depending on design and technology choices. This is the fixed temporal point around which all other shorter timelines must be coordinated: data licences, compute reservations, and model generations. Data licences expire in years, compute reservations in quarters, and model generations in months while infrastructure persists for decades. Infrastructure-life tenor defines the mismatch by establishing the longest commitment against which every other lifecycle creates a coordination gap."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "Core-business revenue dependency means the infrastructure commitment is central to the organisation's financial health, making lifecycle management strategically critical.",
+      "detail": "The infrastructure serves a core business function rather than an experimental initiative, meaning its financial performance is material to organisational health. Core dependency means the lifecycle mismatch directly affects the organisation's financial stability, creditworthiness, and strategic options if gaps materialise. Infrastructure failure, underutilisation, or stranded capacity from lifecycle misalignment has material consequences for the entire business and its stakeholders. The revenue stakes make lifecycle management a mission-critical governance function rather than a routine operational concern."
+    },
+    "Switching Cost": {
+      "value": "Captive",
+      "memo": "Captive switching costs mean the organisation cannot abandon the infrastructure commitment even if lifecycle mismatch creates losses and stranded asset risk.",
+      "detail": "The infrastructure investment creates captive costs that cannot be recovered, redeployed, or avoided through switching to alternative providers or technologies. Abandoning the infrastructure means writing off the capital investment, defaulting on debt obligations, and destroying investor value with no recovery path. The organisation is effectively locked into the commitment regardless of lifecycle outcomes because the cost of exit exceeds the cost of continued operation."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Exit is capability-entangled because infrastructure, data, model, and customer commitments are inseparably intertwined across time with mutual dependencies.",
+      "detail": "No single commitment in the lifecycle can be exited independently without affecting all the others through contractual, technical, and commercial linkages. Infrastructure obligations persist contractually after data licences expire, and customer commitments persist operationally after models are replaced with newer versions. The entanglement is fundamentally temporal: each lifecycle clock is coupled to every other through revenue flows, contractual terms, and technical dependencies. Exiting any single element triggers cascading effects across all other elements of the lifecycle structure."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "Stack-integrated deployment ties model, infrastructure, data, and distribution layers together across the lifecycle, creating multi-layer temporal coordination requirements.",
+      "detail": "The deployment integrates infrastructure, model, data licensing, and application distribution layers into a connected commercial and technical system. Each layer has its own lifecycle, renewal timeline, deprecation schedule, and evolution path that must be coordinated with all other layers. Stack integration means changes at any one layer ripple across all others through technical dependencies and contractual obligations. The integration creates lifecycle coupling throughout the full stack, making any transition a multi-layer coordination challenge."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Merchant GPU procurement creates dependency on accelerator availability and generation cycles that may not align with infrastructure replacement schedules.",
+      "detail": "The infrastructure uses commercially available Nvidia GPUs that follow their own product generation cycle of approximately two to three years. GPU generations turn over on timelines unrelated to infrastructure lifecycle planning, data licence renewal, or model architecture evolution. The infrastructure may need GPU replacement, upgrade, or reconfiguration during its useful life at times when the right GPU is unavailable. Availability of the appropriate accelerator at the required time is not guaranteed by market access alone."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Single-firm operation concentrates all lifecycle management risk in one organisation without consortium-level risk sharing or collaborative governance across partners.",
+      "detail": "The organisation bears all lifecycle coordination risks, management responsibilities, and financial consequences without partners or consortium members to share the burden. No consortium structure distributes the temporal coordination burden across multiple entities with complementary expertise and risk tolerance. Single-firm operation means lifecycle management failures, stranded assets, and coordination breakdowns are borne by one entity entirely. The concentration of risk in one organisation amplifies the financial and operational consequences of the lifecycle mismatch."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No external regime governs lifecycle coordination for AI infrastructure commitments, leaving temporal risk management entirely to private contractual arrangements.",
+      "detail": "No international framework, industry standard, or regulatory regime specifically addresses the temporal coordination of AI infrastructure investment lifecycles. Lifecycle management depends entirely on private contracts negotiated between individual parties based on their specific circumstances and risk assessments. The absence of regime-level governance means each infrastructure commitment manages its lifecycle mismatch independently without systemic coordination. No framework addresses the systemic lifecycle mismatch risk that affects the entire AI infrastructure investment sector."
+    },
+    "Strategic Lead": {
+      "value": "Neck-and-neck",
+      "memo": "Competitive pressure accelerates model turnover, shortening model lifecycles and widening the temporal gap with slow-moving infrastructure commitments.",
+      "detail": "Competition between labs and AI companies drives faster model generation turnover as each competitor races to ship the next capability advance. Faster model turnover means infrastructure designed for current models becomes mismatched with requirements sooner than investment models anticipated. Neck-and-neck competition prevents any single firm from slowing model evolution to align with infrastructure lifecycle requirements and investment horizons. The competitive dynamic actively widens the lifecycle mismatch by accelerating the digital side while infrastructure physics cannot accelerate."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Competitive race pressure forces infrastructure investment decisions before lifecycle risks can be fully analysed, priced, and contractually mitigated by the parties.",
+      "detail": "The competitive race for AI capability forces infrastructure investment commitments on compressed timelines driven by competitive urgency rather than financial prudence. Waiting for complete lifecycle risk analysis means competitors secure the scarce infrastructure capacity, talent, and supply chain positions first. Race pressure means lifecycle risks are accepted rather than mitigated because the cost of delay exceeds the perceived cost of temporal mismatch. The competitive environment forces infrastructure commitments before the lifecycle coordination problem can be adequately understood and contractually addressed."
+    },
+    "Acceptance Basis": {
+      "value": "Hybrid",
+      "memo": "Infrastructure finance requires articulable process for rating agencies while ultimately validating through cash-flow outcomes.",
+      "detail": "Lifecycle deals span the full investment horizon from development through operation. Rating agencies and lenders demand formal process documentation and compliance frameworks. Yet the investment thesis ultimately validates through realised cash-flow performance over time. Both process-legitimacy and outcome-validation operate simultaneously at different stages of the lifecycle."
+    }
+  }
+}

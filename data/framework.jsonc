@@ -1,0 +1,2580 @@
+{
+  "categories": [
+    {
+      "name": "Capability",
+      "color": "#4c78a8",
+      "desc": "What level of AI capability exists and how quickly it improves.",
+      "groups": [
+        {
+          "name": "Capability level",
+          "rows": [
+            {
+              "name": "Capability Class",
+              "type": "Threshold",
+              "desc": "The capability tier of the system, from narrow single-use features through frontier models to strategic or superhuman capability that matters to national power.",
+              "values": [
+                {
+                  "value": "Narrow",
+                  "principle": "containment",
+                  "memo": "Narrow capability keeps impact compartmentalised to a bounded use case."
+                },
+                {
+                  "value": "Tool-grade",
+                  "principle": "control",
+                  "memo": "Tool-grade systems remain directed instruments under external control."
+                },
+                {
+                  "value": "Frontier",
+                  "principle": "acceleration",
+                  "memo": "Frontier capability marks the leading edge where scale and speed pressures intensify."
+                },
+                {
+                  "value": "Human-equivalent",
+                  "principle": "agency",
+                  "memo": "Human-equivalent capability can substitute for delegated human work."
+                },
+                {
+                  "value": "Strategic",
+                  "principle": "sovereignty",
+                  "memo": "Strategic capability matters to national or coalition autonomy and power."
+                },
+                {
+                  "value": "Superhuman",
+                  "principle": "uncertainty",
+                  "memo": "Superhuman performance creates unknown generalisation and allocation risks."
+                }
+              ],
+              "maintainerNotes": "Pick the most diagnostic position: Narrow/Tool-grade for bounded systems, Frontier/Human-equivalent for leading-edge, Strategic/Superhuman for national-power-grade capability."
+            },
+            {
+              "name": "Domain Breadth",
+              "type": "Spectrum",
+              "desc": "Distinguishes specialist models from general-purpose systems.",
+              "values": [
+                {
+                  "value": "Single-domain",
+                  "principle": "containment",
+                  "memo": "Single-domain scope limits where capability can propagate or cause effects."
+                },
+                {
+                  "value": "Multi-domain",
+                  "principle": "openness",
+                  "memo": "Multi-domain capability travels across contexts and broadens access to use."
+                },
+                {
+                  "value": "General",
+                  "principle": "exposure",
+                  "memo": "General capability expands the surface area of possible uses and harms."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Improvement dynamics",
+          "rows": [
+            {
+              "name": "Capability Trajectory",
+              "type": "Spectrum",
+              "desc": "Pace and shape of capability change, from incremental improvement through compute-driven scaling to explosive takeoff.",
+              "values": [
+                {
+                  "value": "Incremental",
+                  "principle": "resilience",
+                  "memo": "Incremental progress leaves more time for adaptation and fallback."
+                },
+                {
+                  "value": "Rapid",
+                  "principle": "acceleration",
+                  "memo": "Rapid progress noticeably compresses adaptation cycles without implying takeoff."
+                },
+                {
+                  "value": "Compute-scaling",
+                  "principle": "dependency",
+                  "memo": "Progress is driven by compute scaleup, creating reliance on chips, power, and capital."
+                },
+                {
+                  "value": "Compressed",
+                  "principle": "acceleration",
+                  "memo": "Compressed progress shortens governance and market response cycles."
+                },
+                {
+                  "value": "Discontinuous",
+                  "principle": "uncertainty",
+                  "memo": "A discontinuity makes past trend evidence a weak guide to next effects."
+                },
+                {
+                  "value": "OOM-race",
+                  "principle": "dependency",
+                  "memo": "OOM-race dynamics create existential reliance on scarce chips, power, and capital."
+                },
+                {
+                  "value": "Explosive",
+                  "principle": "acceleration",
+                  "memo": "Explosive progress expresses runaway speed and takeoff pressure."
+                }
+              ],
+              "maintainerNotes": "Pick the pace/shape of capability change. Compute-scaling and OOM-race express hardware-driven acceleration specifically. Discontinuous is for breakpoints or jumps; Explosive is for self-reinforcing takeoff pressure."
+            },
+            {
+              "name": "Research Automation",
+              "type": "Threshold",
+              "desc": "Whether AI systems drive their own research improvement, from human-led through AI-assisted to recursive self-improvement.",
+              "values": [
+                {
+                  "value": "Human-led",
+                  "principle": "control",
+                  "memo": "Human-led research keeps direction and judgement with people."
+                },
+                {
+                  "value": "AI-assisted",
+                  "principle": "reciprocity",
+                  "memo": "AI-assisted research creates a two-sided human-machine improvement loop."
+                },
+                {
+                  "value": "AI-led discovery",
+                  "principle": "agency",
+                  "memo": "AI systems originate research directions or experiments under human governance."
+                },
+                {
+                  "value": "AI-recursive",
+                  "principle": "acceleration",
+                  "memo": "AI-recursive research lets capability improve itself faster."
+                }
+              ],
+              "maintainerNotes": "Pick the highest practical research agency. AI-led discovery is enough where models drive the work; AI-recursive is reserved for capability-improving loops."
+            }
+          ]
+        },
+        {
+          "name": "Scaling effects",
+          "rows": [
+            {
+              "name": "Unhobbling",
+              "type": "Spectrum",
+              "desc": "How far the system has been unhobbled from conversational chatbot to autonomous agent with tool access and persistent action.",
+              "values": [
+                {
+                  "value": "Chatbot",
+                  "principle": "containment",
+                  "memo": "Chatbot use confines capability mostly to conversational output."
+                },
+                {
+                  "value": "Tool-call enabled",
+                  "principle": "control",
+                  "memo": "The model can call bounded tools but remains framed as a controlled interaction."
+                },
+                {
+                  "value": "Tool-using",
+                  "principle": "agency",
+                  "memo": "Tool use lets the system make delegated digital changes."
+                },
+                {
+                  "value": "Workflow agent",
+                  "principle": "agency",
+                  "memo": "The system can coordinate multi-step work across tools and tasks."
+                },
+                {
+                  "value": "Agentic",
+                  "principle": "agency",
+                  "memo": "Agentic systems pursue tasks with persistent autonomous action."
+                }
+              ],
+              "maintainerNotes": "Use the strongest practical unhobbling state. Tool-call enabled is a bounded interface; Tool-using and above imply delegated execution."
+            },
+            {
+              "name": "Replication Scale",
+              "type": "Spectrum",
+              "desc": "How many concurrent instances of the model operate, from single deployment to population-scale parallel labour.",
+              "values": [
+                {
+                  "value": "Single instance",
+                  "principle": "control",
+                  "memo": "A single instance is easier to supervise, revoke, and bound."
+                },
+                {
+                  "value": "Many copies",
+                  "principle": "exposure",
+                  "memo": "Many copies enlarge the operational and misuse surface."
+                },
+                {
+                  "value": "Population-scale",
+                  "principle": "acceleration",
+                  "memo": "Population-scale replication turns capability into mass parallel labour."
+                }
+              ]
+            },
+            {
+              "name": "Operating Speed",
+              "type": "Spectrum",
+              "desc": "Machine-speed work and compressed decision cycles.",
+              "values": [
+                {
+                  "value": "Human-speed",
+                  "principle": "control",
+                  "memo": "Human-speed operation leaves room for human monitoring and intervention."
+                },
+                {
+                  "value": "Faster-than-human",
+                  "principle": "acceleration",
+                  "memo": "Faster-than-human operation compresses decision and response cycles."
+                },
+                {
+                  "value": "Compressed-time",
+                  "principle": "acceleration",
+                  "memo": "Compressed-time operation compounds work before institutions can react."
+                }
+              ],
+              "maintainerNotes": "Pick the speed at which consequential work actually occurs. Machine-speed batch folded into Faster-than-human; Compressed-time is for sustained institutional outpacing."
+            },
+            {
+              "name": "Physical World Extension",
+              "type": "Threshold",
+              "desc": "Whether the system extends into physical-world actuation through robotics, automated production, or industrial systems.",
+              "values": [
+                {
+                  "value": "Cognitive-only",
+                  "principle": "containment",
+                  "memo": "Cognitive-only systems avoid direct physical-world actuation."
+                },
+                {
+                  "value": "Robotic support",
+                  "principle": "exposure",
+                  "memo": "Robotic support creates new physical contact and safety channels."
+                },
+                {
+                  "value": "Automated production",
+                  "principle": "agency",
+                  "memo": "Automated production lets systems make material changes at scale."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Agency",
+      "color": "#c05a48",
+      "desc": "What the system is allowed to do and how much discretion it has.",
+      "groups": [
+        {
+          "name": "Functional role",
+          "rows": [
+            {
+              "name": "Role",
+              "type": "Threshold",
+              "desc": "The functional role assigned to the system, from directed tool through assistant and copilot to autonomous agent.",
+              "values": [
+                {
+                  "value": "Tool",
+                  "principle": "control",
+                  "memo": "A tool remains directed by a human rather than acting independently."
+                },
+                {
+                  "value": "Assistant",
+                  "principle": "legibility",
+                  "memo": "An assistant produces reviewable support without owning a workstream."
+                },
+                {
+                  "value": "Copilot/worker",
+                  "principle": "agency",
+                  "memo": "A copilot or worker receives delegated tasks while remaining bounded."
+                },
+                {
+                  "value": "Workflow owner",
+                  "principle": "agency",
+                  "memo": "The system owns a bounded workflow rather than merely assisting it."
+                },
+                {
+                  "value": "Agent",
+                  "principle": "agency",
+                  "memo": "An agent can pursue objectives through autonomous action."
+                }
+              ],
+              "maintainerNotes": "Pick the strongest role actually delegated. Tool and Assistant are review-support; Copilot/worker participates in work; Workflow owner and Agent imply ownership of execution and acting authority."
+            },
+            {
+              "name": "Actuation",
+              "type": "Threshold",
+              "desc": "The external effect channel available to the system, from advice and information through digital, legal, financial, and physical action.",
+              "values": [
+                {
+                  "value": "Informational",
+                  "principle": "containment",
+                  "memo": "Effects are limited to knowledge, advice, content, or persuasion channels."
+                },
+                {
+                  "value": "Digital action",
+                  "principle": "agency",
+                  "memo": "The system can execute consequential online operations through tools, APIs, code, or accounts."
+                },
+                {
+                  "value": "Financial/legal action",
+                  "principle": "extraction",
+                  "memo": "The system can trigger payments, contracts, legal positions, or other binding economic effects."
+                },
+                {
+                  "value": "Cyber/bio enabling",
+                  "principle": "exposure",
+                  "memo": "The system can materially enable scalable cyber, biological, or other high-risk misuse channels."
+                },
+                {
+                  "value": "Physical/kinetic",
+                  "principle": "agency",
+                  "memo": "Delegated action reaches physical systems, robotics, weapons, or kinetic effects."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delegation and control",
+          "rows": [
+            {
+              "name": "Autonomy",
+              "type": "Spectrum",
+              "desc": "Supervision intensity and goal persistence, from stateless tasks through human-supervised operation to long-horizon autonomous pursuit.",
+              "values": [
+                {
+                  "value": "Stateless task",
+                  "principle": "containment",
+                  "memo": "Stateless tasks prevent durable objectives from accumulating leverage."
+                },
+                {
+                  "value": "Human-in-loop",
+                  "principle": "control",
+                  "memo": "Human-in-loop design preserves approval before consequential steps."
+                },
+                {
+                  "value": "Human-on-loop",
+                  "principle": "control",
+                  "memo": "Human-on-loop design supervises action while allowing limited delegation."
+                },
+                {
+                  "value": "Exception-supervised",
+                  "principle": "control",
+                  "memo": "Humans review exceptions while routine action proceeds automatically."
+                },
+                {
+                  "value": "Human-out-of-loop",
+                  "principle": "agency",
+                  "memo": "Consequential action can proceed without ordinary human review."
+                },
+                {
+                  "value": "Self-directed",
+                  "principle": "agency",
+                  "memo": "Self-directed operation gives the system independent task pursuit."
+                },
+                {
+                  "value": "Long-horizon autonomous",
+                  "principle": "agency",
+                  "memo": "Long-horizon objectives create persistent autonomous pursuit beyond session scope."
+                }
+              ],
+              "maintainerNotes": "Pick the ordinary supervision posture for consequential action. Stateless task and Long-horizon autonomous are the persistence bookends; the middle values are supervision intensity."
+            },
+            {
+              "name": "Delegated Authority",
+              "type": "Spectrum",
+              "desc": "Ability to bind a principal legally, financially, or operationally.",
+              "values": [
+                {
+                  "value": "None",
+                  "principle": "control",
+                  "memo": "No delegated authority keeps binding power outside the system."
+                },
+                {
+                  "value": "Recommend only",
+                  "principle": "legibility",
+                  "memo": "The system may shape decisions but cannot itself bind the principal."
+                },
+                {
+                  "value": "Limited mandate",
+                  "principle": "agency",
+                  "memo": "A limited mandate delegates action within defined boundaries."
+                },
+                {
+                  "value": "Operational mandate",
+                  "principle": "agency",
+                  "memo": "The system can commit operational resources within an assigned domain."
+                },
+                {
+                  "value": "Binding authority",
+                  "principle": "extraction",
+                  "memo": "Binding authority can capture value or impose obligations on others."
+                }
+              ],
+              "maintainerNotes": "Pick the highest authority the system can exercise without fresh human approval."
+            },
+            {
+              "name": "Tool Access",
+              "type": "Spectrum",
+              "desc": "The breadth and sensitivity of external tools, APIs, and infrastructure the system can access.",
+              "values": [
+                {
+                  "value": "No tools",
+                  "principle": "containment",
+                  "memo": "No tools keeps capability isolated from external systems."
+                },
+                {
+                  "value": "Single bounded tool",
+                  "principle": "control",
+                  "memo": "Access is limited to one narrow, controlled external function."
+                },
+                {
+                  "value": "Gated tools",
+                  "principle": "control",
+                  "memo": "Gated tools preserve permission checks around delegated action."
+                },
+                {
+                  "value": "Privileged tools",
+                  "principle": "exposure",
+                  "memo": "Tooling reaches sensitive systems, credentials, infrastructure, or external accounts."
+                },
+                {
+                  "value": "Broad toolchain",
+                  "principle": "agency",
+                  "memo": "A broad toolchain lets the system execute across many environments."
+                }
+              ],
+              "maintainerNotes": "Pick the most consequential practical access. Privileged tools can outrank a broad toolchain where the sensitive access is the diagnostic feature."
+            },
+            {
+              "name": "Response / Intervention Capability",
+              "type": "Spectrum",
+              "desc": "Whether humans or authorised institutions can interrupt, escalate, stop, coordinate, and recover the system in practice.",
+              "values": [
+                {
+                  "value": "No effective override",
+                  "principle": "exposure",
+                  "memo": "There is no credible mechanism to interrupt or recover once the system acts."
+                },
+                {
+                  "value": "Best-efforts",
+                  "principle": "uncertainty",
+                  "memo": "Response depends on improvisation under stress."
+                },
+                {
+                  "value": "Manual stop",
+                  "principle": "control",
+                  "memo": "Human operators can halt activity directly, but recovery may be fragile."
+                },
+                {
+                  "value": "Defined escalation",
+                  "principle": "control",
+                  "memo": "Escalation paths assign authority before failure."
+                },
+                {
+                  "value": "Kill switch",
+                  "principle": "containment",
+                  "memo": "A designed shutdown path can rapidly stop consequential activity."
+                },
+                {
+                  "value": "War-room protocol",
+                  "principle": "resilience",
+                  "memo": "Dedicated crisis protocols improve coordination under severe incidents."
+                },
+                {
+                  "value": "Verified rollback/kill",
+                  "principle": "resilience",
+                  "memo": "Rollback or kill procedures can prove recovery to a known acceptable state."
+                }
+              ],
+              "maintainerNotes": "Pick the strongest credible intervention-and-recovery posture, not every process that exists."
+            }
+          ]
+        },
+        {
+          "name": "Command structure",
+          "rows": [
+            {
+              "name": "Command Actor",
+              "type": "Topology",
+              "desc": "Who commands the system and how formal the authority chain is, from informal user control to state or coalition command.",
+              "values": [
+                {
+                  "value": "User/informal",
+                  "principle": "openness",
+                  "memo": "User command distributes agency to individual participants without formal chain."
+                },
+                {
+                  "value": "Enterprise",
+                  "principle": "control",
+                  "memo": "Enterprise command centralises authority inside organisational boundaries."
+                },
+                {
+                  "value": "Corporate board",
+                  "principle": "control",
+                  "memo": "Corporate board command makes authority formally governable at institutional level."
+                },
+                {
+                  "value": "State/coalition",
+                  "principle": "sovereignty",
+                  "memo": "State or coalition command ties action to strategic autonomy and public power."
+                }
+              ],
+              "maintainerNotes": "User/informal covers distributed or ungoverned command; Corporate board is formal private governance; State/coalition is public strategic authority."
+            },
+            {
+              "name": "Decision Tempo",
+              "type": "Spectrum",
+              "desc": "The speed at which deployment and governance decisions are made, from normal product cycles to war-speed urgency.",
+              "values": [
+                {
+                  "value": "Product cycle",
+                  "principle": "resilience",
+                  "memo": "Product-cycle tempo leaves time for testing and rollback."
+                },
+                {
+                  "value": "Crisis tempo",
+                  "principle": "acceleration",
+                  "memo": "Crisis tempo compresses review under urgent pressure."
+                },
+                {
+                  "value": "War-speed",
+                  "principle": "acceleration",
+                  "memo": "War-speed decisions prioritise speed over ordinary safeguards."
+                }
+              ]
+            },
+            {
+              "name": "Tradeoff Authority",
+              "type": "Topology",
+              "desc": "Who may trade speed against safety/security.",
+              "values": [
+                {
+                  "value": "Product team",
+                  "principle": "acceleration",
+                  "memo": "Product-team authority tends to optimise speed and deployment."
+                },
+                {
+                  "value": "Safety body",
+                  "principle": "control",
+                  "memo": "Safety-body authority constrains action through review and limits."
+                },
+                {
+                  "value": "National command",
+                  "principle": "sovereignty",
+                  "memo": "National command makes speed-safety tradeoffs a strategic state decision."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rights",
+      "color": "#6b58c7",
+      "desc": "What inputs, outputs, models, and jurisdictions permit.",
+      "groups": [
+        {
+          "name": "Legal permission",
+          "rows": [
+            {
+              "name": "Permission",
+              "type": "Spectrum",
+              "desc": "Deal-specific permission to use data, models, outputs, or tools.",
+              "values": [
+                {
+                  "value": "Excluded",
+                  "principle": "containment",
+                  "memo": "No deal right is granted, so use is deliberately barred."
+                },
+                {
+                  "value": "Silent",
+                  "principle": "uncertainty",
+                  "memo": "The arrangement does not clearly say whether the use is permitted."
+                },
+                {
+                  "value": "Conditional",
+                  "principle": "control",
+                  "memo": "Use depends on permissions, limits, or approvals."
+                },
+                {
+                  "value": "Purpose-limited",
+                  "principle": "control",
+                  "memo": "Use is permitted only for a specified purpose, field, or context."
+                },
+                {
+                  "value": "Broad",
+                  "principle": "openness",
+                  "memo": "Rights permit wide use and participation."
+                }
+              ],
+              "maintainerNotes": "Pick the operative permission posture. Silent is for ambiguity; Purpose-limited is for an affirmative right with meaningful field-of-use limits."
+            },
+            {
+              "name": "Regulatory Posture",
+              "type": "Spectrum",
+              "desc": "Jurisdiction-level environment, e.g. UK TDM constraints versus US fair-use posture.",
+              "values": [
+                {
+                  "value": "Prohibitive",
+                  "principle": "containment",
+                  "memo": "Law blocks or sharply limits the activity."
+                },
+                {
+                  "value": "Conditional",
+                  "principle": "control",
+                  "memo": "Compliance gates decide whether use can proceed."
+                },
+                {
+                  "value": "Permissive",
+                  "principle": "openness",
+                  "memo": "The jurisdiction leaves broad room for use."
+                },
+                {
+                  "value": "Mandated open",
+                  "principle": "openness",
+                  "memo": "Law requires access, disclosure, portability, interoperability, or public availability."
+                }
+              ],
+              "maintainerNotes": "Pick the legal environment for the activity. Mandated open is stronger than permissive: the regime compels availability rather than merely allowing use."
+            },
+            {
+              "name": "Data Availability",
+              "type": "Spectrum",
+              "desc": "Whether lawful training-scale data can be assembled.",
+              "values": [
+                {
+                  "value": "Blocked",
+                  "principle": "containment",
+                  "memo": "Training-scale access is not lawfully available."
+                },
+                {
+                  "value": "Technically accessible",
+                  "principle": "exposure",
+                  "memo": "Data can be obtained in practice, but lawful or defensible use is doubtful."
+                },
+                {
+                  "value": "Licensed",
+                  "principle": "reciprocity",
+                  "memo": "Access is exchanged through negotiated return flows."
+                },
+                {
+                  "value": "Proprietary owned",
+                  "principle": "control",
+                  "memo": "The actor controls a sufficient first-party corpus."
+                },
+                {
+                  "value": "Open/available",
+                  "principle": "openness",
+                  "memo": "Data can be assembled without bespoke restriction."
+                }
+              ],
+              "maintainerNotes": "Pick lawful availability at the needed scale. Technically accessible is not a permission answer; use it where access exists but legal defensibility is the issue."
+            }
+          ]
+        },
+        {
+          "name": "Verifiability and source",
+          "rows": [
+            {
+              "name": "Provenance",
+              "type": "Spectrum",
+              "desc": "Source quality, legitimacy, and chain-of-custody, from unknown origin through licensed or open sources to independently verifiable provenance.",
+              "values": [
+                {
+                  "value": "Unknown",
+                  "principle": "uncertainty",
+                  "memo": "Source and chain of custody are unresolved."
+                },
+                {
+                  "value": "Scraped",
+                  "principle": "extraction",
+                  "memo": "Inputs are captured without negotiated return or defensible basis."
+                },
+                {
+                  "value": "Mixed/declared",
+                  "principle": "uncertainty",
+                  "memo": "The corpus combines sources with different legitimacy; provenance is partially declared but not proven."
+                },
+                {
+                  "value": "Licensed",
+                  "principle": "reciprocity",
+                  "memo": "Corpus access is bargained and compensated with documented provenance."
+                },
+                {
+                  "value": "Public-domain/open",
+                  "principle": "openness",
+                  "memo": "Inputs are open to broad lawful reuse with clear origin."
+                },
+                {
+                  "value": "Synthetic/owned",
+                  "principle": "control",
+                  "memo": "The actor controls or generates its own inputs."
+                },
+                {
+                  "value": "Verifiable",
+                  "principle": "legibility",
+                  "memo": "Evidence can confirm origin, authenticity, and legitimacy chain."
+                }
+              ],
+              "maintainerNotes": "Pick the combination of source quality and legitimacy. Unknown/Scraped/Mixed have weak provenance; Licensed/Open/Synthetic have defensible basis; Verifiable has independent proof."
+            }
+          ]
+        },
+        {
+          "name": "Output and capability rights",
+          "rows": [
+            {
+              "name": "Model-Weight Rights",
+              "type": "Spectrum",
+              "desc": "Practical and legal access to model capability, from hosted service through shared deployments to transferable or open weights.",
+              "values": [
+                {
+                  "value": "Hosted only",
+                  "principle": "dependency",
+                  "memo": "Access depends on the provider-run model or service boundary."
+                },
+                {
+                  "value": "Dedicated instance",
+                  "principle": "control",
+                  "memo": "A bounded deployment gives the user more operational control without full transfer."
+                },
+                {
+                  "value": "Shared access",
+                  "principle": "reciprocity",
+                  "memo": "Both sides receive usable model access without full weight transfer."
+                },
+                {
+                  "value": "Escrowed weights",
+                  "principle": "resilience",
+                  "memo": "Weights or release rights are held for contingency, audit, or transition."
+                },
+                {
+                  "value": "Transferable weights",
+                  "principle": "openness",
+                  "memo": "Weights can move and be used outside the original host."
+                },
+                {
+                  "value": "Open-stack",
+                  "principle": "openness",
+                  "memo": "Weights, code, and tooling support broad external participation and diffusion."
+                }
+              ],
+              "maintainerNotes": "Mostly single-choice if ordered by practical capability transfer. Dedicated instance, Shared access, Escrowed weights, and Transferable weights can coexist contractually, but the highest transfer/diffusion posture is usually the diagnostic pick."
+            }
+          ]
+        },
+        {
+          "name": "Jurisdiction and triggers",
+          "rows": [
+            {
+              "name": "Territory",
+              "type": "Topology",
+              "desc": "Jurisdictional reach of the arrangement, from domestic through cross-border to extraterritorial projection.",
+              "values": [
+                {
+                  "value": "Domestic",
+                  "principle": "sovereignty",
+                  "memo": "Rights stay within one jurisdictional base."
+                },
+                {
+                  "value": "Cross-border",
+                  "principle": "exposure",
+                  "memo": "Rights cross jurisdictions and expand legal surface."
+                },
+                {
+                  "value": "Extraterritorial",
+                  "principle": "sovereignty",
+                  "memo": "One regime projects authority beyond its territory."
+                }
+              ]
+            },
+            {
+              "name": "Data Subject Exposure",
+              "type": "Threshold",
+              "desc": "Degree of data-subject exposure, from none through ordinary personal data to special-category or systemic privacy impact.",
+              "values": [
+                {
+                  "value": "No personal data",
+                  "principle": "containment",
+                  "memo": "No personal data is processed, removing privacy-related risk channels entirely."
+                },
+                {
+                  "value": "Low-identifiability",
+                  "principle": "legibility",
+                  "memo": "Personal-data exposure is reduced by aggregation, minimisation, or weak identifiability."
+                },
+                {
+                  "value": "Ordinary personal data",
+                  "principle": "exposure",
+                  "memo": "Identifiable data creates privacy surface."
+                },
+                {
+                  "value": "Special-category",
+                  "principle": "exposure",
+                  "memo": "Sensitive categories such as health, biometrics, children, or protected traits increase harm channels."
+                },
+                {
+                  "value": "Special-category/systemic",
+                  "principle": "exposure",
+                  "memo": "Sensitive or systemic data amplifies harm channels."
+                }
+              ],
+              "maintainerNotes": "Pick the highest privacy exposure actually used or affected. Use Special-category/systemic only where sensitivity also has population-scale or institutional effects."
+            },
+            {
+              "name": "Data Sensitivity",
+              "type": "Threshold",
+              "desc": "Sensitivity of the data or domain, including children, biometrics, health, classified material, state secrets, and hard legal stops.",
+              "values": [
+                {
+                  "value": "Ordinary",
+                  "principle": "openness",
+                  "memo": "The data has few special handling constraints."
+                },
+                {
+                  "value": "Commercial confidential",
+                  "principle": "control",
+                  "memo": "Business-sensitive data requires contractual or operational safeguards."
+                },
+                {
+                  "value": "Sensitive/regulated",
+                  "principle": "control",
+                  "memo": "Regulated data requires managed safeguards."
+                },
+                {
+                  "value": "Classified",
+                  "principle": "containment",
+                  "memo": "State-sensitive material requires compartmented handling."
+                },
+                {
+                  "value": "Classified/prohibited",
+                  "principle": "containment",
+                  "memo": "Use is legally barred or compartmentalised under the strictest handling regime."
+                }
+              ],
+              "maintainerNotes": "Pick the highest data/domain sensitivity. Use Classified/prohibited only for a hard legal stop or prohibited use, not merely a classified handling regime."
+            },
+            {
+              "name": "Control Exposure",
+              "type": "Threshold",
+              "desc": "Export-control or controlled-technology exposure, from no issue through potential classification to active transfer/location restrictions.",
+              "values": [
+                {
+                  "value": "No control issue",
+                  "principle": "openness",
+                  "memo": "No export or control gate constrains use."
+                },
+                {
+                  "value": "Potentially controlled",
+                  "principle": "uncertainty",
+                  "memo": "Control status requires classification or review."
+                },
+                {
+                  "value": "Controlled item active",
+                  "principle": "containment",
+                  "memo": "Active controls restrict transfer or use."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "System",
+      "color": "#d48632",
+      "desc": "How the model, data, memory, deployment, and environment are structured.",
+      "groups": [
+        {
+          "name": "Data and model use",
+          "rows": [
+            {
+              "name": "Processing Mode",
+              "type": "Topology",
+              "desc": "The technical depth of data processing, from inference-only use through retrieval and fine-tuning to full-scale training.",
+              "values": [
+                {
+                  "value": "Inference",
+                  "principle": "containment",
+                  "memo": "Use is limited to run-time application of an existing model without modification."
+                },
+                {
+                  "value": "Retrieval/embedding",
+                  "principle": "legibility",
+                  "memo": "Inputs are used to ground or index behavior without changing model weights."
+                },
+                {
+                  "value": "Adaptation/fine-tuning",
+                  "principle": "control",
+                  "memo": "The system is modified under bounded update rights."
+                },
+                {
+                  "value": "Post-training/RL",
+                  "principle": "agency",
+                  "memo": "Inputs shape optimization, preferences, or behavior beyond ordinary fine-tuning."
+                },
+                {
+                  "value": "Training",
+                  "principle": "acceleration",
+                  "memo": "Inputs feed scale-model capability growth."
+                }
+              ],
+              "maintainerNotes": "Pick the deepest technical use of inputs. Retrieval/embedding is not training; Post-training/RL is for behavior-shaping optimization short of full-scale training."
+            },
+            {
+              "name": "Derivation",
+              "type": "Spectrum",
+              "desc": "What derivative chain the input creates, from no downstream artifacts through visible outputs to recursive capability compounding.",
+              "values": [
+                {
+                  "value": "None",
+                  "principle": "containment",
+                  "memo": "No downstream derivative chain is created."
+                },
+                {
+                  "value": "Direct output",
+                  "principle": "legibility",
+                  "memo": "The main derivative is a visible output from the immediate use."
+                },
+                {
+                  "value": "Derived outputs",
+                  "principle": "extraction",
+                  "memo": "New value is produced from the input through transformation, synthesis, or secondary output."
+                },
+                {
+                  "value": "Embeddings/telemetry",
+                  "principle": "dependency",
+                  "memo": "Technical traces persist and can support later retrieval, monitoring, or reuse."
+                },
+                {
+                  "value": "Fine-tune delta",
+                  "principle": "dependency",
+                  "memo": "The input creates a durable model adjustment or adapter."
+                },
+                {
+                  "value": "Recursive derivation",
+                  "principle": "acceleration",
+                  "memo": "Outputs compound into later capability through feedback, retraining, or production loops."
+                }
+              ],
+              "maintainerNotes": "Pick the most durable or capability-relevant derivative chain. Use Recursive derivation only where outputs feed later capability or production loops."
+            },
+            {
+              "name": "Retention / Persistence",
+              "type": "Spectrum",
+              "desc": "What survives after processing: contractual retention posture and technical persistence combined, from ephemeral stateless use to weight-entangled capability.",
+              "values": [
+                {
+                  "value": "Ephemeral/stateless",
+                  "principle": "containment",
+                  "memo": "Data is not retained and no technical state persists beyond immediate processing."
+                },
+                {
+                  "value": "Session retained",
+                  "principle": "control",
+                  "memo": "Data or memory persists only for a bounded session or short operational window."
+                },
+                {
+                  "value": "Contract-retained",
+                  "principle": "dependency",
+                  "memo": "Retention is allowed or required for the life of the commercial relationship."
+                },
+                {
+                  "value": "Persistent memory/traces",
+                  "principle": "dependency",
+                  "memo": "Logs, embeddings, memory, or other traces persist across interactions and keep the relationship alive."
+                },
+                {
+                  "value": "Deletion-required",
+                  "principle": "control",
+                  "memo": "The arrangement imposes erasure, return, or right-to-be-forgotten obligations."
+                },
+                {
+                  "value": "Retention-mandated",
+                  "principle": "legibility",
+                  "memo": "Law, audit, safety, or regulated operations require records to be kept."
+                },
+                {
+                  "value": "Weight-entangled",
+                  "principle": "dependency",
+                  "memo": "Input effects are incorporated into model weights or durable capability. Deletion of data does not delete the capability."
+                },
+                {
+                  "value": "Archival",
+                  "principle": "dependency",
+                  "memo": "Long-term retention or archive status makes the data part of durable infrastructure."
+                }
+              ],
+              "maintainerNotes": "The structural question is 'what survives and why?' Ephemeral/stateless through Session are bounded; Contract-retained and Persistent memory are durable; Weight-entangled means capability persists beyond data deletion."
+            }
+          ]
+        },
+        {
+          "name": "Location and boundary",
+          "rows": [
+            {
+              "name": "Execution / Residency Environment",
+              "type": "Spectrum",
+              "desc": "Where data, models, and execution sit, combining jurisdictional residency with the practical execution environment.",
+              "values": [
+                {
+                  "value": "Public cloud",
+                  "principle": "dependency",
+                  "memo": "Provider cloud infrastructure mediates access, control, and exit."
+                },
+                {
+                  "value": "Distributed",
+                  "principle": "exposure",
+                  "memo": "Data, models, or execution span multiple locations or regimes."
+                },
+                {
+                  "value": "Controlled",
+                  "principle": "control",
+                  "memo": "Placement is bounded by policy, contract, tenancy, or controlled region."
+                },
+                {
+                  "value": "Edge/device",
+                  "principle": "resilience",
+                  "memo": "Distributed local execution preserves device or edge fallback."
+                },
+                {
+                  "value": "On-prem/SCIF",
+                  "principle": "containment",
+                  "memo": "Sensitive use is physically or operationally compartmentalised."
+                },
+                {
+                  "value": "Sovereign",
+                  "principle": "sovereignty",
+                  "memo": "Location and operation anchor strategic autonomy."
+                }
+              ],
+              "maintainerNotes": "Pick the strongest residency/execution constraint: sovereign and compartmented states outrank generic cloud placement."
+            },
+            {
+              "name": "Boundary",
+              "type": "Topology",
+              "desc": "The system boundary architecture, from shared multi-tenant through federated and dedicated to fully isolated deployment.",
+              "values": [
+                {
+                  "value": "Shared",
+                  "principle": "exposure",
+                  "memo": "Common infrastructure expands access surface."
+                },
+                {
+                  "value": "Partner-accessible",
+                  "principle": "reciprocity",
+                  "memo": "A defined counterparty can access or participate in the boundary."
+                },
+                {
+                  "value": "Federated",
+                  "principle": "reciprocity",
+                  "memo": "Participants keep local control while sharing learning."
+                },
+                {
+                  "value": "Dedicated tenant",
+                  "principle": "control",
+                  "memo": "The deployment is separated for one customer, project, or domain."
+                },
+                {
+                  "value": "Isolated",
+                  "principle": "containment",
+                  "memo": "The system is separated from wider flows."
+                }
+              ],
+              "maintainerNotes": "Pick the effective system boundary. Dedicated tenancy is not isolation if provider, network, or operational flows remain shared."
+            }
+          ]
+        },
+        {
+          "name": "Deployment and dependency",
+          "rows": [
+            {
+              "name": "Deployment Surface",
+              "type": "Spectrum",
+              "desc": "Who is exposed to the deployment and how deeply integrated it is, from internal standalone use to critical infrastructure dependence.",
+              "values": [
+                {
+                  "value": "Internal/standalone",
+                  "principle": "containment",
+                  "memo": "Use is limited inside the organization without deep workflow coupling."
+                },
+                {
+                  "value": "Internal/embedded",
+                  "principle": "dependency",
+                  "memo": "Internal use but deeply integrated into operational workflows or systems of record."
+                },
+                {
+                  "value": "Restricted users",
+                  "principle": "control",
+                  "memo": "A bounded external user group interacts with the system under access controls."
+                },
+                {
+                  "value": "Customer-facing",
+                  "principle": "exposure",
+                  "memo": "External customers or counterparties interact with the system."
+                },
+                {
+                  "value": "Public-facing",
+                  "principle": "exposure",
+                  "memo": "The general public can interact with or be affected by the deployment."
+                },
+                {
+                  "value": "Critical/infrastructure",
+                  "principle": "dependency",
+                  "memo": "Core functions or downstream infrastructure systems depend on the deployment."
+                }
+              ],
+              "maintainerNotes": "Internal/standalone is loose coupling; Internal/embedded is system-of-record depth; Critical/infrastructure is mission or continuity dependence."
+            }
+          ]
+        },
+        {
+          "name": "Infrastructure",
+          "rows": [
+            {
+              "name": "Physical Infrastructure",
+              "type": "Spectrum",
+              "desc": "Physical compute, power, and site infrastructure, from commercial cloud through dedicated clusters to national-scale industrial buildout.",
+              "values": [
+                {
+                  "value": "Commercial cloud",
+                  "principle": "dependency",
+                  "memo": "Capability relies on provider platforms with existing capacity."
+                },
+                {
+                  "value": "Dedicated cluster",
+                  "principle": "control",
+                  "memo": "Owned or reserved compute improves direction and audit."
+                },
+                {
+                  "value": "Capacity constrained",
+                  "principle": "dependency",
+                  "memo": "Power, site, cooling, grid, or related physical inputs limit scale."
+                },
+                {
+                  "value": "National industrial build",
+                  "principle": "sovereignty",
+                  "memo": "Compute is treated as strategic infrastructure, potentially requiring new generation or grid buildout."
+                }
+              ],
+              "maintainerNotes": "Commercial cloud assumes existing capacity; Capacity constrained flags physical bottlenecks; National industrial build implies strategic power/site commitment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Supply",
+      "color": "#4ca17b",
+      "desc": "Who controls compute, chips, cloud, model source, ecosystem, and distribution.",
+      "groups": [
+        {
+          "name": "Model and compute sourcing",
+          "rows": [
+            {
+              "name": "Model Sourcing",
+              "type": "Spectrum",
+              "desc": "Whether the actor sources models from one provider, multiple providers, or builds and orchestrates in-house.",
+              "values": [
+                {
+                  "value": "Single-provider",
+                  "principle": "dependency",
+                  "memo": "Reliance on one model source creates supplier lock-in."
+                },
+                {
+                  "value": "Multi-provider",
+                  "principle": "openness",
+                  "memo": "Routing across providers preserves choice and portability."
+                },
+                {
+                  "value": "In-house/orchestrated",
+                  "principle": "control",
+                  "memo": "Internal orchestration keeps sourcing decisions directed by the actor."
+                }
+              ]
+            },
+            {
+              "name": "Compute Source",
+              "type": "Spectrum",
+              "desc": "How compute capacity is sourced, from rented spot through committed reservations to owned custom infrastructure.",
+              "values": [
+                {
+                  "value": "Rented/spot",
+                  "principle": "openness",
+                  "memo": "Spot capacity is accessible but weakly reserved."
+                },
+                {
+                  "value": "Committed capacity",
+                  "principle": "dependency",
+                  "memo": "Long reservations trade flexibility for capacity reliance."
+                },
+                {
+                  "value": "Owned/custom",
+                  "principle": "sovereignty",
+                  "memo": "Owning compute secures strategic autonomy over capacity."
+                }
+              ]
+            },
+            {
+              "name": "Cloud Dependency",
+              "type": "Spectrum",
+              "desc": "Degree of cloud provider lock-in, from portable workloads through preferred partnerships to captive exclusivity.",
+              "values": [
+                {
+                  "value": "Portable",
+                  "principle": "openness",
+                  "memo": "Workloads can move without a captive cloud tie."
+                },
+                {
+                  "value": "Preferred partner",
+                  "principle": "dependency",
+                  "memo": "A favored cloud creates soft lock-in and bargaining reliance."
+                },
+                {
+                  "value": "Captive/exclusive",
+                  "principle": "dependency",
+                  "memo": "Exclusive cloud ties make exit structurally hard."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Silicon stack",
+          "rows": [
+            {
+              "name": "Accelerator Stack",
+              "type": "Topology",
+              "desc": "Hardware accelerator choice and sourcing strategy, from merchant Nvidia GPUs through custom ASICs to diversified multi-stack.",
+              "values": [
+                {
+                  "value": "Nvidia GPU (merchant)",
+                  "principle": "dependency",
+                  "memo": "CUDA-era Nvidia choice imports a dominant supplier moat via off-the-shelf chips."
+                },
+                {
+                  "value": "Alternative GPU (second-source)",
+                  "principle": "resilience",
+                  "memo": "A non-Nvidia GPU adds fallback capacity and reduces single-vendor failure risk."
+                },
+                {
+                  "value": "Custom ASIC/TPU",
+                  "principle": "control",
+                  "memo": "Purpose-built accelerators internalize strategic capability and tune the stack."
+                },
+                {
+                  "value": "Multi-stack",
+                  "principle": "resilience",
+                  "memo": "Running multiple accelerator types preserves optionality across supply chains."
+                }
+              ],
+              "maintainerNotes": "Merchant/second-source/custom strategy is embedded in the hardware choice. Multi-stack is for explicit diversification plays."
+            }
+          ]
+        },
+        {
+          "name": "Chokepoints",
+          "rows": [
+            {
+              "name": "Supply Control",
+              "type": "Spectrum",
+              "desc": "Whether the actor can actually get capacity.",
+              "values": [
+                {
+                  "value": "Market access",
+                  "principle": "openness",
+                  "memo": "Capacity is obtained through open market channels."
+                },
+                {
+                  "value": "Allocation rights",
+                  "principle": "control",
+                  "memo": "Reserved allocations give enforceable claim on scarce supply."
+                },
+                {
+                  "value": "Strategic control",
+                  "principle": "sovereignty",
+                  "memo": "Strategic control turns supply into autonomous capability."
+                }
+              ]
+            },
+            {
+              "name": "Silicon Bottleneck",
+              "type": "Topology",
+              "desc": "Where the binding silicon supply-chain constraint sits when accelerator access, manufacturing, lithography, packaging, or cluster fabric limits scale.",
+              "values": [
+                {
+                  "value": "Accelerator supply",
+                  "principle": "dependency",
+                  "memo": "Accelerator scarcity controls practical access to frontier capability."
+                },
+                {
+                  "value": "Foundry concentration",
+                  "principle": "sovereignty",
+                  "memo": "Advanced-node manufacturing concentration turns supply into strategic autonomy risk."
+                },
+                {
+                  "value": "Lithography tools",
+                  "principle": "acceleration",
+                  "memo": "Access to leading-edge lithography determines frontier scaling speed."
+                },
+                {
+                  "value": "Advanced packaging/HBM",
+                  "principle": "dependency",
+                  "memo": "Scarce HBM or advanced packaging creates allocation dependence."
+                },
+                {
+                  "value": "Cluster interconnect",
+                  "principle": "dependency",
+                  "memo": "Scale-out performance depends on specialised networking or integrated fabrics."
+                }
+              ],
+              "maintainerNotes": "Use this only for silicon supply-chain constraints that do not have a better home elsewhere. Power/grid belongs under Energy Dependency; software lock-in belongs under Developer Ecosystem; distribution power belongs under Distribution Channel. Pick the binding silicon bottleneck if one exists."
+            }
+          ]
+        },
+        {
+          "name": "Platform power",
+          "rows": [
+            {
+              "name": "Substitutability",
+              "type": "Spectrum",
+              "desc": "How easily the component or provider can be replaced, from fully substitutable to locked-in.",
+              "values": [
+                {
+                  "value": "Replaceable",
+                  "principle": "openness",
+                  "memo": "A replaceable component preserves exit and competition."
+                },
+                {
+                  "value": "Expensive switch",
+                  "principle": "dependency",
+                  "memo": "Switching remains possible but materially costly."
+                },
+                {
+                  "value": "Locked-in",
+                  "principle": "dependency",
+                  "memo": "Lock-in makes the platform hard to exit."
+                }
+              ]
+            },
+            {
+              "name": "Vertical Integration",
+              "type": "Spectrum",
+              "desc": "How many layers of the AI stack the actor controls, from application-only through partial integration to full-stack ownership.",
+              "values": [
+                {
+                  "value": "Application-only",
+                  "principle": "openness",
+                  "memo": "Application-only actors can plug into varied upstream stacks."
+                },
+                {
+                  "value": "Stack-integrated",
+                  "principle": "control",
+                  "memo": "Owning adjacent layers increases operational direction."
+                },
+                {
+                  "value": "Full-stack",
+                  "principle": "extraction",
+                  "memo": "Full-stack control captures value across the chain."
+                }
+              ]
+            },
+            {
+              "name": "Distribution Channel",
+              "type": "Spectrum",
+              "desc": "The distribution channel through which AI capability reaches users, from contestable API access to OS-level device integration.",
+              "values": [
+                {
+                  "value": "API/app",
+                  "principle": "openness",
+                  "memo": "API and app access are comparatively contestable channels."
+                },
+                {
+                  "value": "Platform default",
+                  "principle": "extraction",
+                  "memo": "Default placement captures demand through platform position."
+                },
+                {
+                  "value": "OS/device layer",
+                  "principle": "control",
+                  "memo": "OS-level placement controls user routing at the edge."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Geopolitics",
+          "rows": [
+            {
+              "name": "Supply Jurisdiction",
+              "type": "Topology",
+              "desc": "Geopolitical alignment of the supply chain and host jurisdiction, from domestic through allied and bargained to adversary-exposed.",
+              "values": [
+                {
+                  "value": "Domestic",
+                  "principle": "sovereignty",
+                  "memo": "Domestic supply supports autonomous strategic control."
+                },
+                {
+                  "value": "Allied",
+                  "principle": "reciprocity",
+                  "memo": "Allied supply depends on reciprocal geopolitical alignment."
+                },
+                {
+                  "value": "Bargained",
+                  "principle": "dependency",
+                  "memo": "Host jurisdiction creates a strategic bargain — compute or data-center access exchanged for political or economic exposure."
+                },
+                {
+                  "value": "Adversary/exposed",
+                  "principle": "exposure",
+                  "memo": "Hostile or exposed jurisdictions widen supply-chain and political risk."
+                }
+              ],
+              "maintainerNotes": "Bargained covers arrangements where host-jurisdiction risk is the price of capacity access (e.g. Middle East data-centre deals). Adversary/exposed is for hostile or strategically exposed supply chains."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Assurance",
+      "color": "#2f8fb9",
+      "desc": "How the system is evaluated, interpreted, secured, monitored, and stopped.",
+      "groups": [
+        {
+          "name": "Evidence",
+          "rows": [
+            {
+              "name": "Observability",
+              "type": "Spectrum",
+              "desc": "Strength of evidence about system state, use, and compliance, from opacity through declarations to independently verifiable telemetry.",
+              "values": [
+                {
+                  "value": "Opaque",
+                  "principle": "uncertainty",
+                  "memo": "The true system state cannot be inspected enough to rely on claims."
+                },
+                {
+                  "value": "Declared",
+                  "principle": "legibility",
+                  "memo": "The actor states its posture, but proof remains self-reported or incomplete."
+                },
+                {
+                  "value": "Auditable",
+                  "principle": "control",
+                  "memo": "Contractual or procedural audit rights create a route to inspect use and compliance."
+                },
+                {
+                  "value": "Observable",
+                  "principle": "legibility",
+                  "memo": "Technical logs or telemetry make relevant behavior visible."
+                },
+                {
+                  "value": "Independently verifiable",
+                  "principle": "resilience",
+                  "memo": "External evidence or inspection can confirm the state without relying on the operator alone."
+                }
+              ]
+            },
+            {
+              "name": "Evaluation",
+              "type": "Spectrum",
+              "desc": "Strength of evaluation evidence, from untested through benchmarks and domain evaluations to certified decision-grade assurance.",
+              "values": [
+                {
+                  "value": "Untested",
+                  "principle": "uncertainty",
+                  "memo": "No evaluation leaves capability and risk unresolved."
+                },
+                {
+                  "value": "Internal tests",
+                  "principle": "legibility",
+                  "memo": "Operator-run tests provide initial evidence but limited independence."
+                },
+                {
+                  "value": "Benchmarked",
+                  "principle": "legibility",
+                  "memo": "Benchmarks provide comparable but bounded evidence."
+                },
+                {
+                  "value": "Domain evals",
+                  "principle": "legibility",
+                  "memo": "Evaluation covers the specific operational or regulated domain."
+                },
+                {
+                  "value": "Red-team tested",
+                  "principle": "resilience",
+                  "memo": "Adversarial testing probes misuse and failure modes."
+                },
+                {
+                  "value": "Certified/decision-grade",
+                  "principle": "legibility",
+                  "memo": "Certification makes evidence usable for high-stakes decisions."
+                }
+              ],
+              "maintainerNotes": "Pick the strongest relevant evidence basis. Benchmarks alone do not imply domain readiness; certification implies an accountable external or decision-grade standard."
+            },
+            {
+              "name": "Interpretability",
+              "type": "Spectrum",
+              "desc": "Depth of evidence about model reasoning or internal mechanisms, from black-box behavior to monitored or mechanistic access.",
+              "values": [
+                {
+                  "value": "Black box",
+                  "principle": "uncertainty",
+                  "memo": "Internal reasoning remains unknown, leaving no evidence basis for alignment or safety claims."
+                },
+                {
+                  "value": "Reasoning hidden",
+                  "principle": "uncertainty",
+                  "memo": "Reasoning traces are unavailable or deliberately concealed."
+                },
+                {
+                  "value": "Behavioral evidence",
+                  "principle": "legibility",
+                  "memo": "Observed behavior gives external evidence of model tendencies."
+                },
+                {
+                  "value": "Legible trace",
+                  "principle": "legibility",
+                  "memo": "Readable traces or explanations support review but may not be faithful."
+                },
+                {
+                  "value": "Faithful/monitored trace",
+                  "principle": "control",
+                  "memo": "Reasoning traces are monitored or tested for faithfulness."
+                },
+                {
+                  "value": "Internal/mechanistic access",
+                  "principle": "legibility",
+                  "memo": "Mechanistic access makes internals directly inspectable."
+                }
+              ]
+            },
+            {
+              "name": "Acceptance Basis",
+              "type": "Spectrum",
+              "desc": "On what basis the deployment context accepts the system's authority — whether trust requires explainable process, demonstrated outcomes, institutional backing, or market validation.",
+              "values": [
+                {
+                  "value": "Process-required",
+                  "principle": "legibility",
+                  "memo": "Deployment accepted only when reasoning is explainable in domain-native terms and professional norms."
+                },
+                {
+                  "value": "Hybrid",
+                  "principle": "resilience",
+                  "memo": "Outcomes weigh heavily but process must be articulable on demand to satisfy regulatory or professional scrutiny."
+                },
+                {
+                  "value": "Outcome-sufficient",
+                  "principle": "acceleration",
+                  "memo": "Demonstrated results are the primary acceptance criterion; process transparency is secondary or unnecessary."
+                },
+                {
+                  "value": "Institutional",
+                  "principle": "sovereignty",
+                  "memo": "Trust delegated to the deploying institution's authority and oversight rather than the system's own explainability."
+                },
+                {
+                  "value": "Market-validated",
+                  "principle": "competition",
+                  "memo": "Acceptance expressed through adoption, commercial outcomes, and competitive survival rather than formal assurance."
+                }
+              ],
+              "maintainerNotes": "The demand side of assurance. Observability/Evaluation/Interpretability describe what assurance the system supplies; this row describes what the deployment context requires. The gap between supply and demand is where audit illusions and legitimacy crises live."
+            }
+          ]
+        },
+        {
+          "name": "Alignment and oversight",
+          "rows": [
+            {
+              "name": "Alignment Method",
+              "type": "Spectrum",
+              "desc": "Alignment technique and oversight implementation, from prompt-level tuning through human and AI-assisted review to scalable monitoring and superalignment evidence.",
+              "values": [
+                {
+                  "value": "Prompting/RLHF",
+                  "principle": "control",
+                  "memo": "Human preference tuning steers behavior through direct supervision."
+                },
+                {
+                  "value": "Human review",
+                  "principle": "control",
+                  "memo": "Humans retain direct supervisory authority over outputs and decisions."
+                },
+                {
+                  "value": "AI-assisted review",
+                  "principle": "agency",
+                  "memo": "Review authority is partly delegated to AI systems alongside human oversight."
+                },
+                {
+                  "value": "Scalable oversight",
+                  "principle": "control",
+                  "memo": "Oversight methods extend supervision beyond what direct human review can cover."
+                },
+                {
+                  "value": "Trusted monitor models",
+                  "principle": "control",
+                  "memo": "Dedicated monitor models enforce alignment boundaries at scale."
+                },
+                {
+                  "value": "Superalignment evidence",
+                  "principle": "legibility",
+                  "memo": "Evidence of alignment makes control claims inspectable for systems smarter than the supervisor."
+                }
+              ],
+              "maintainerNotes": "Pick the strongest alignment technique and its implementation. Prompting/RLHF through Human review are direct supervision; AI-assisted and beyond delegate parts of oversight."
+            }
+          ]
+        },
+        {
+          "name": "Security and containment",
+          "rows": [
+            {
+              "name": "Security Posture",
+              "type": "Spectrum",
+              "desc": "Organisational security maturity including personnel vetting, from startup-grade through enterprise controls to national-defence-grade compartmentation.",
+              "values": [
+                {
+                  "value": "Startup-grade",
+                  "principle": "exposure",
+                  "memo": "Light security and open staffing leave broad attack and insider surface."
+                },
+                {
+                  "value": "Enterprise-grade",
+                  "principle": "resilience",
+                  "memo": "Enterprise controls and vetted personnel improve robustness against routine threats."
+                },
+                {
+                  "value": "National-defense-grade",
+                  "principle": "containment",
+                  "memo": "State-level security with cleared/compartmented personnel restricts access and insider risk."
+                }
+              ],
+              "maintainerNotes": "Open staff maps to startup-grade; vetted maps to enterprise-grade; cleared/compartmented maps to national-defence-grade."
+            },
+            {
+              "name": "Adversary Model",
+              "type": "Spectrum",
+              "desc": "The adversary the security posture must withstand, from casual misuse through organised crime to state-level threat actors.",
+              "values": [
+                {
+                  "value": "Casual misuse",
+                  "principle": "exposure",
+                  "memo": "Risk comes mainly from casual or opportunistic public misuse rather than sophisticated attack."
+                },
+                {
+                  "value": "Criminal/state-adjacent",
+                  "principle": "resilience",
+                  "memo": "Serious adversaries require hardened defenses."
+                },
+                {
+                  "value": "State actor",
+                  "principle": "sovereignty",
+                  "memo": "State threats make assurance a strategic-security issue."
+                }
+              ]
+            },
+            {
+              "name": "Weight Security",
+              "type": "Spectrum",
+              "desc": "How well model weights are protected against copying, exfiltration, or uncontrolled diffusion.",
+              "values": [
+                {
+                  "value": "Copyable",
+                  "principle": "exposure",
+                  "memo": "Copyable weights can spread beyond original control."
+                },
+                {
+                  "value": "Monitored",
+                  "principle": "legibility",
+                  "memo": "Monitoring gives visibility into access and movement."
+                },
+                {
+                  "value": "Airgapped/controlled",
+                  "principle": "containment",
+                  "memo": "Airgaps and controls restrict weight proliferation."
+                }
+              ]
+            },
+            {
+              "name": "Access Control",
+              "type": "Spectrum",
+              "desc": "Access-control mechanism governing who can use, run, or extract system resources and data.",
+              "values": [
+                {
+                  "value": "API keys",
+                  "principle": "control",
+                  "memo": "Keys provide basic permission boundaries."
+                },
+                {
+                  "value": "RBAC",
+                  "principle": "control",
+                  "memo": "Role-based access differentiates users and privileges."
+                },
+                {
+                  "value": "Least privilege",
+                  "principle": "control",
+                  "memo": "Permissions are limited to necessary access."
+                },
+                {
+                  "value": "Just-in-time access",
+                  "principle": "legibility",
+                  "memo": "Sensitive access is time-bounded and auditable."
+                },
+                {
+                  "value": "Multi-key signoff",
+                  "principle": "containment",
+                  "memo": "Multiple approvals prevent unilateral sensitive action."
+                }
+              ],
+              "maintainerNotes": "Pick the control that governs sensitive action, not the weakest credential mechanism present somewhere in the stack."
+            },
+            {
+              "name": "Monitoring Scope",
+              "type": "Spectrum",
+              "desc": "What system activity is monitored, from output-only review through tool telemetry to full cluster-wide visibility.",
+              "values": [
+                {
+                  "value": "Outputs",
+                  "principle": "legibility",
+                  "memo": "Output review gives limited behavioral visibility."
+                },
+                {
+                  "value": "Prompts and outputs",
+                  "principle": "legibility",
+                  "memo": "Input-output monitoring exposes context and response together."
+                },
+                {
+                  "value": "Tool activity",
+                  "principle": "legibility",
+                  "memo": "Tool telemetry shows external actions taken by the system."
+                },
+                {
+                  "value": "Code/tool/network activity",
+                  "principle": "legibility",
+                  "memo": "Activity telemetry exposes routes to misuse or exfiltration."
+                },
+                {
+                  "value": "Model/weight access",
+                  "principle": "containment",
+                  "memo": "Monitoring covers access to weights, adapters, or sensitive model artifacts."
+                },
+                {
+                  "value": "Full cluster telemetry",
+                  "principle": "control",
+                  "memo": "Cluster-wide telemetry supports active operational intervention."
+                }
+              ],
+              "maintainerNotes": "Pick the widest monitoring scope that is actually collected and reviewable. Use Full cluster telemetry only for infrastructure-level visibility."
+            },
+            {
+              "name": "Containment",
+              "type": "Spectrum",
+              "desc": "Technical isolation barriers around the system, from no containment through sandboxing and network isolation to airgapped compartmentation.",
+              "values": [
+                {
+                  "value": "None",
+                  "principle": "exposure",
+                  "memo": "No isolation leaves capabilities unconstrained."
+                },
+                {
+                  "value": "Policy-only",
+                  "principle": "control",
+                  "memo": "Rules constrain behavior without technical isolation."
+                },
+                {
+                  "value": "Sandboxed",
+                  "principle": "containment",
+                  "memo": "Sandboxing limits the system's external reach through process or resource isolation boundaries."
+                },
+                {
+                  "value": "Network-isolated",
+                  "principle": "containment",
+                  "memo": "Network controls restrict external communication and exfiltration paths."
+                },
+                {
+                  "value": "Dedicated enclave",
+                  "principle": "containment",
+                  "memo": "A separated operating environment constrains interfaces and access."
+                },
+                {
+                  "value": "Airgapped/SCIF",
+                  "principle": "containment",
+                  "memo": "Physical and network isolation sharply restrict escape paths."
+                }
+              ],
+              "maintainerNotes": "Pick the strongest effective containment barrier. Policy-only is governance, not technical containment; Airgapped/SCIF requires physical or equivalent compartmentalisation."
+            }
+          ]
+        },
+        {
+          "name": "Response and control",
+          "rows": [
+            {
+              "name": "Capability Limitation",
+              "type": "Spectrum",
+              "desc": "Whether specific dangerous capabilities are restricted, from unrestricted through policy filters to targeted removal of high-risk functions.",
+              "values": [
+                {
+                  "value": "None",
+                  "principle": "exposure",
+                  "memo": "Unrestricted capability leaves all harm channels open."
+                },
+                {
+                  "value": "Policy filters",
+                  "principle": "control",
+                  "memo": "Policy filters impose behavioral boundaries."
+                },
+                {
+                  "value": "Targeted restriction",
+                  "principle": "containment",
+                  "memo": "Specific high-risk capabilities are deliberately withheld."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exposure",
+      "color": "#9f5b9c",
+      "desc": "Strategic, geopolitical, dual-use, proliferation, and dependency risk.",
+      "groups": [
+        {
+          "name": "Harm and use",
+          "rows": [
+            {
+              "name": "Use Class",
+              "type": "Threshold",
+              "desc": "The institutional use class of the deployment, from civilian through dual-use ambiguity to explicit military or national-security application.",
+              "values": [
+                {
+                  "value": "Civilian",
+                  "principle": "openness",
+                  "memo": "Non-military use keeps the deployment surface civic and broadly accessible."
+                },
+                {
+                  "value": "Civilian regulated",
+                  "principle": "control",
+                  "memo": "The use is civilian but subject to regulated-domain safeguards."
+                },
+                {
+                  "value": "Dual-use",
+                  "principle": "uncertainty",
+                  "memo": "Ambiguous civilian and strategic uses make the true risk posture unresolved."
+                },
+                {
+                  "value": "National-security",
+                  "principle": "sovereignty",
+                  "memo": "Use sits inside state security objectives without necessarily being military."
+                },
+                {
+                  "value": "Military",
+                  "principle": "sovereignty",
+                  "memo": "Military use puts capability inside state power and national command."
+                }
+              ],
+              "maintainerNotes": "Pick the institutional use class, not the possible downstream misuse. Dual-use is for genuine ambiguity; National-security is for security-state use short of military operation."
+            },
+            {
+              "name": "Harm Channel",
+              "type": "Topology",
+              "desc": "The channel through which harm can escape, from informational through cyber, bio, and financial to physical or kinetic effects.",
+              "values": [
+                {
+                  "value": "Information",
+                  "principle": "exposure",
+                  "memo": "Harm travels through public or sensitive information channels."
+                },
+                {
+                  "value": "Cyber/bio/financial",
+                  "principle": "exposure",
+                  "memo": "Digital, biological, or market channels create scalable attack surface."
+                },
+                {
+                  "value": "Physical/kinetic",
+                  "principle": "agency",
+                  "memo": "The system can translate decisions into real-world force or damage."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Proliferation and race",
+          "rows": [
+            {
+              "name": "Proliferation",
+              "type": "Spectrum",
+              "desc": "How widely capability spreads, from contained access through licensed diffusion to uncontrolled proliferation.",
+              "values": [
+                {
+                  "value": "Contained",
+                  "principle": "containment",
+                  "memo": "Capability spread is deliberately limited by custody and access controls."
+                },
+                {
+                  "value": "Licensed diffusion",
+                  "principle": "reciprocity",
+                  "memo": "Capability spreads through controlled agreements or approved counterparties."
+                },
+                {
+                  "value": "Leaky",
+                  "principle": "exposure",
+                  "memo": "Capability can escape through weak controls or informal diffusion."
+                },
+                {
+                  "value": "Open but bounded",
+                  "principle": "openness",
+                  "memo": "Capability is broadly available but with practical or legal limits still attached."
+                },
+                {
+                  "value": "Uncontrolled",
+                  "principle": "openness",
+                  "memo": "Weights or capability circulate beyond meaningful restriction."
+                }
+              ],
+              "maintainerNotes": "Pick the actual diffusion posture. Open but bounded is for public availability with residual license, gating, or practical access constraints."
+            },
+            {
+              "name": "Strategic Lead",
+              "type": "Spectrum",
+              "desc": "Whether the actor leads, trails, or is neck-and-neck with competitors in frontier capability.",
+              "values": [
+                {
+                  "value": "Behind",
+                  "principle": "dependency",
+                  "memo": "Lagging actors rely on others for frontier capability or supply."
+                },
+                {
+                  "value": "Neck-and-neck",
+                  "principle": "uncertainty",
+                  "memo": "No actor has decisive situational advantage."
+                },
+                {
+                  "value": "Decisive lead",
+                  "principle": "control",
+                  "memo": "A clear leader can shape access, pace, and rules."
+                }
+              ]
+            },
+            {
+              "name": "Race Pressure",
+              "type": "Spectrum",
+              "desc": "Whether actors can slow down safely.",
+              "values": [
+                {
+                  "value": "Low",
+                  "principle": "resilience",
+                  "memo": "Actors can absorb delay without losing strategic viability."
+                },
+                {
+                  "value": "Competitive",
+                  "principle": "acceleration",
+                  "memo": "Rivals create competitive pressure that compresses timelines and discourages caution."
+                },
+                {
+                  "value": "Existential",
+                  "principle": "acceleration",
+                  "memo": "Survival framing compresses timelines and safety margins."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Governance and geopolitics",
+          "rows": [
+            {
+              "name": "Coalition Structure",
+              "type": "Spectrum",
+              "desc": "Whether strategic AI capability is organised by a single firm, a national project, or an allied coalition.",
+              "values": [
+                {
+                  "value": "Single firm",
+                  "principle": "extraction",
+                  "memo": "Strategic upside can be captured by one corporate actor."
+                },
+                {
+                  "value": "National project",
+                  "principle": "sovereignty",
+                  "memo": "Capability is organised around state autonomy."
+                },
+                {
+                  "value": "Allied bloc",
+                  "principle": "reciprocity",
+                  "memo": "Strategic control is shared across aligned partners."
+                }
+              ]
+            },
+            {
+              "name": "Nonproliferation Regime",
+              "type": "Spectrum",
+              "desc": "Whether an international regime limits the spread of dangerous AI capability, from none through norms to enforced inspection and sanctions.",
+              "values": [
+                {
+                  "value": "None",
+                  "principle": "openness",
+                  "memo": "No regime leaves spread open by default."
+                },
+                {
+                  "value": "Norms",
+                  "principle": "reciprocity",
+                  "memo": "Actors rely on mutual restraint rather than hard enforcement."
+                },
+                {
+                  "value": "Enforced regime",
+                  "principle": "containment",
+                  "memo": "Rules are backed by inspection, denial, or sanctions."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Value",
+      "color": "#8f7d3a",
+      "desc": "Who pays, captures upside, bears liability, and unwinds commitments.",
+      "groups": [
+        {
+          "name": "Price and upside",
+          "rows": [
+            {
+              "name": "Data Value Dynamics",
+              "type": "Topology",
+              "desc": "The commercial shape of the data asset: whether value decays, compounds, depends on exclusivity, can be generated elastically, or is context-specific.",
+              "values": [
+                {
+                  "value": "Perishable",
+                  "principle": "exposure",
+                  "memo": "Value decays quickly, making timing and live access the dominant commercial feature."
+                },
+                {
+                  "value": "Accretive/fortifying",
+                  "principle": "dependency",
+                  "memo": "Value compounds through accumulation, history, training, or feedback loops."
+                },
+                {
+                  "value": "Rivalrous",
+                  "principle": "extraction",
+                  "memo": "One party's use or exclusivity reduces the value available to others."
+                },
+                {
+                  "value": "Elastic/synthetic",
+                  "principle": "openness",
+                  "memo": "Supply can expand through generation, simulation, capture, or synthetic production."
+                },
+                {
+                  "value": "Use-specific",
+                  "principle": "legibility",
+                  "memo": "Value depends on a particular user, domain, calibration need, or context."
+                }
+              ],
+              "maintainerNotes": "Pick the economic property that best explains bargaining leverage. This row is about the data asset's value shape, not who captures downstream value."
+            },
+            {
+              "name": "Input Price",
+              "type": "Spectrum",
+              "desc": "How the input contribution is priced, from one-off fixed payment through usage-based and variable pricing to revenue sharing or structural embedding.",
+              "values": [
+                {
+                  "value": "Fixed",
+                  "principle": "extraction",
+                  "memo": "The processor buys the input once and captures later upside."
+                },
+                {
+                  "value": "Usage-based",
+                  "principle": "legibility",
+                  "memo": "Payment tracks measurable use, volume, or calls."
+                },
+                {
+                  "value": "Variable",
+                  "principle": "reciprocity",
+                  "memo": "Payment adjusts with use, volume, or realised benefit."
+                },
+                {
+                  "value": "Revenue share",
+                  "principle": "reciprocity",
+                  "memo": "The contributor participates directly in downstream proceeds."
+                },
+                {
+                  "value": "Structural",
+                  "principle": "dependency",
+                  "memo": "The input becomes embedded in the deal architecture."
+                }
+              ],
+              "maintainerNotes": "Pick the economic structure that best explains value flow. Variable is generic adjustment; Revenue share is direct downstream participation; Structural means the input changes the dependency architecture."
+            },
+            {
+              "name": "Output Allocation",
+              "type": "Spectrum",
+              "desc": "Who receives legal or economic control of outputs, derivatives, and downstream value generated by the arrangement.",
+              "values": [
+                {
+                  "value": "Unallocated",
+                  "principle": "uncertainty",
+                  "memo": "Output or derivative entitlements are not settled."
+                },
+                {
+                  "value": "Retained",
+                  "principle": "extraction",
+                  "memo": "Outputs and upside stay with the processor or operator."
+                },
+                {
+                  "value": "Claimed derivatives",
+                  "principle": "extraction",
+                  "memo": "One party asserts control over derivative artifacts or secondary value."
+                },
+                {
+                  "value": "Shared",
+                  "principle": "reciprocity",
+                  "memo": "Output benefits are split between participants."
+                },
+                {
+                  "value": "Allocated",
+                  "principle": "legibility",
+                  "memo": "Entitlements are specified and knowable."
+                },
+                {
+                  "value": "Returned",
+                  "principle": "agency",
+                  "memo": "The contributor or source receives useful capability or output value back."
+                }
+              ],
+              "maintainerNotes": "This row absorbs Derived Data Rights. Prefer Unallocated or Claimed derivatives when derivative entitlements are the diagnostic issue; otherwise pick the dominant economic/legal allocation of output value."
+            },
+            {
+              "name": "Derived Value Capture",
+              "type": "Spectrum",
+              "desc": "Who captures derivative upside, from private processor extraction through contractual revenue sharing to public or international benefit allocation.",
+              "values": [
+                {
+                  "value": "Processor captures",
+                  "principle": "extraction",
+                  "memo": "Derivative upside accrues to the actor running the system."
+                },
+                {
+                  "value": "Revenue share",
+                  "principle": "reciprocity",
+                  "memo": "Downstream proceeds are contractually shared."
+                },
+                {
+                  "value": "Joint/reciprocal",
+                  "principle": "reciprocity",
+                  "memo": "Both sides participate in derivative value creation."
+                },
+                {
+                  "value": "Public/international",
+                  "principle": "openness",
+                  "memo": "Upside is framed as broadly shared public benefit or international obligation."
+                }
+              ],
+              "maintainerNotes": "Processor-captures through Joint/reciprocal are private-deal positions; Public/international is the sovereignty or nonproliferation-bargain end."
+            }
+          ]
+        },
+        {
+          "name": "Risk allocation",
+          "rows": [
+            {
+              "name": "Risk Allocation / Backstop",
+              "type": "Spectrum",
+              "desc": "How losses, warranties, indemnities, insurance, and public backstops allocate or absorb deployment risk.",
+              "values": [
+                {
+                  "value": "Disclaimed",
+                  "principle": "extraction",
+                  "memo": "Risk is pushed away from the actor capturing upside."
+                },
+                {
+                  "value": "Uninsured",
+                  "principle": "exposure",
+                  "memo": "Loss channels remain with no external financial buffer."
+                },
+                {
+                  "value": "Allocated",
+                  "principle": "control",
+                  "memo": "Responsibility is assigned to named parties and triggers."
+                },
+                {
+                  "value": "Limited indemnity",
+                  "principle": "control",
+                  "memo": "Warranty or indemnity exists but is bounded by contract terms."
+                },
+                {
+                  "value": "Insurable",
+                  "principle": "legibility",
+                  "memo": "Risk can be priced, pooled, and transferred to an insurance or financial market."
+                },
+                {
+                  "value": "Enterprise/government-grade",
+                  "principle": "resilience",
+                  "memo": "High-assurance users receive durable contractual risk support."
+                },
+                {
+                  "value": "Backstopped/insured",
+                  "principle": "resilience",
+                  "memo": "Losses have a financial, insurance, or institutional fallback."
+                },
+                {
+                  "value": "Government backstop",
+                  "principle": "resilience",
+                  "memo": "Public support absorbs tail-risk losses."
+                }
+              ],
+              "maintainerNotes": "Pick the strongest operative risk allocation or backstop. Disclaimed through Allocated are contractual positions; Insurable through Government backstop are financial buffers."
+            }
+          ]
+        },
+        {
+          "name": "Finance and commitment",
+          "rows": [
+            {
+              "name": "Capital",
+              "type": "Spectrum",
+              "desc": "Funding structure and mobilisation intensity, from operating spend through project and strategic buildout to securitised finance or wartime-footing mobilisation.",
+              "values": [
+                {
+                  "value": "Operating",
+                  "principle": "extraction",
+                  "memo": "Capability is funded from ordinary business spending."
+                },
+                {
+                  "value": "Project",
+                  "principle": "dependency",
+                  "memo": "Financing ties parties to a defined buildout."
+                },
+                {
+                  "value": "Strategic build",
+                  "principle": "sovereignty",
+                  "memo": "Buildout is justified by strategic autonomy, not ordinary commercial return."
+                },
+                {
+                  "value": "Securitised",
+                  "principle": "legibility",
+                  "memo": "Cash flows must be visible and stable enough to finance."
+                },
+                {
+                  "value": "Wartime footing",
+                  "principle": "acceleration",
+                  "memo": "Emergency mobilisation prioritises speed and scale over normal return logic."
+                }
+              ],
+              "maintainerNotes": "Operating through Project are normal commercial; Strategic build and Wartime footing express national/industrial policy; Securitised requires cash-flow stability across the arrangement."
+            },
+            {
+              "name": "Commitment Tenor",
+              "type": "Spectrum",
+              "desc": "Duration and bindingness of the commercial commitment, from short-term through multi-year to infrastructure-life or take-or-pay obligations.",
+              "values": [
+                {
+                  "value": "Short-term",
+                  "principle": "openness",
+                  "memo": "Short commitments preserve renegotiation and exit options."
+                },
+                {
+                  "value": "Annual",
+                  "principle": "control",
+                  "memo": "Annual commitments create planning reliance but preserve regular renegotiation."
+                },
+                {
+                  "value": "Multi-year",
+                  "principle": "dependency",
+                  "memo": "Longer commitments create reliance across planning cycles."
+                },
+                {
+                  "value": "Take-or-pay",
+                  "principle": "dependency",
+                  "memo": "Irrevocable purchase or capacity obligations create hard reliance."
+                },
+                {
+                  "value": "Infrastructure-life",
+                  "principle": "dependency",
+                  "memo": "The obligation lasts as long as the physical stack."
+                }
+              ],
+              "maintainerNotes": "Pick the binding commitment horizon. Take-or-pay can outrank nominal tenor where the real lock-in is irrevocable capacity or spend."
+            },
+            {
+              "name": "Revenue Dependency",
+              "type": "Spectrum",
+              "desc": "Whether AI becomes existential to a firm.",
+              "values": [
+                {
+                  "value": "Experimental",
+                  "principle": "uncertainty",
+                  "memo": "Commercial value is not yet proven, so the dependency is exploratory rather than structural."
+                },
+                {
+                  "value": "Product-line",
+                  "principle": "dependency",
+                  "memo": "A business line starts relying on AI revenue."
+                },
+                {
+                  "value": "Core business",
+                  "principle": "dependency",
+                  "memo": "The firm becomes structurally reliant on the capability."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lock-in and exit",
+          "rows": [
+            {
+              "name": "Switching Cost",
+              "type": "Spectrum",
+              "desc": "Commercial lock-in and platform dependence.",
+              "values": [
+                {
+                  "value": "Low",
+                  "principle": "openness",
+                  "memo": "Users retain practical portability with minimal friction to move or replace the system."
+                },
+                {
+                  "value": "Contractual friction",
+                  "principle": "control",
+                  "memo": "Exit is possible but slowed by notice, consent, or contract mechanics."
+                },
+                {
+                  "value": "Data migration cost",
+                  "principle": "dependency",
+                  "memo": "Moving data, state, or history is costly enough to constrain exit."
+                },
+                {
+                  "value": "High",
+                  "principle": "dependency",
+                  "memo": "Migration costs are high enough to materially constrain vendor choice and exit timing."
+                },
+                {
+                  "value": "Ecosystem lock-in",
+                  "principle": "dependency",
+                  "memo": "Tools, developers, integrations, or marketplace position tie users to the stack."
+                },
+                {
+                  "value": "Captive",
+                  "principle": "dependency",
+                  "memo": "The customer is effectively locked into one stack."
+                }
+              ],
+              "maintainerNotes": "Pick the strongest practical exit barrier. Use High for generic costly migration; use Ecosystem lock-in where complements and developer habits are the diagnostic dependency."
+            },
+            {
+              "name": "Exit",
+              "type": "Spectrum",
+              "desc": "Whether the arrangement can be unwound and what capability or artifacts survive termination.",
+              "values": [
+                {
+                  "value": "Clean",
+                  "principle": "control",
+                  "memo": "Rights and systems can be unwound clearly without material residue."
+                },
+                {
+                  "value": "Exportable",
+                  "principle": "openness",
+                  "memo": "State, data, or workload can move to another arrangement with manageable friction."
+                },
+                {
+                  "value": "Transitional",
+                  "principle": "resilience",
+                  "memo": "Exit requires staged continuity, migration, or fallback support."
+                },
+                {
+                  "value": "Derived artifacts survive",
+                  "principle": "extraction",
+                  "memo": "Secondary assets, logs, or derived data remain after the relationship ends."
+                },
+                {
+                  "value": "Fine-tune delta survives",
+                  "principle": "dependency",
+                  "memo": "A model adjustment, adapter, or learned delta survives termination of the input right."
+                },
+                {
+                  "value": "Capability entangled",
+                  "principle": "dependency",
+                  "memo": "Trained capability persists in weights beyond the original right. Delete the data does not delete the capability."
+                }
+              ],
+              "maintainerNotes": "Clean through Transitional are increasingly frictional but recoverable; Derived artifacts through Capability entangled are where residue changes the power dynamic after termination."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "id": "openness",
+      "label": "Openness",
+      "color": "#49b970",
+      "memo": "Access, portability, transparency, shared inputs, shared opportunity, and open participation.",
+      "examples": [
+        "open weights",
+        "portable cloud architecture",
+        "broad data availability",
+        "multi-provider sourcing"
+      ]
+    },
+    {
+      "id": "control",
+      "label": "Control",
+      "color": "#3578d4",
+      "memo": "Boundaries, permissioning, supervision, audit rights, and retained ability to direct or stop activity.",
+      "examples": [
+        "permission gates",
+        "audit rights",
+        "least privilege access",
+        "kill switches"
+      ]
+    },
+    {
+      "id": "reciprocity",
+      "label": "Reciprocity",
+      "color": "#8fd36a",
+      "memo": "Mutuality, sharing, return flows, benefit allocation, and arrangements that keep exchange two-sided.",
+      "examples": [
+        "revenue sharing",
+        "allied supply arrangements",
+        "benefit sharing",
+        "partner contracts"
+      ]
+    },
+    {
+      "id": "extraction",
+      "label": "Extraction",
+      "color": "#d3a233",
+      "memo": "One-sided capture of value, data, leverage, or upside by the actor best positioned to appropriate it.",
+      "examples": [
+        "processor-retained output value",
+        "platform default capture",
+        "private upside capture",
+        "one-sided derived value"
+      ]
+    },
+    {
+      "id": "dependency",
+      "label": "Dependency",
+      "color": "#a26b43",
+      "memo": "Lock-in, captive relationships, bottlenecks, reliance on scarce suppliers, or hard-to-exit architectures.",
+      "examples": [
+        "exclusive cloud reliance",
+        "locked-in accelerator stack",
+        "TSMC dependence",
+        "high switching costs"
+      ]
+    },
+    {
+      "id": "sovereignty",
+      "label": "Sovereignty",
+      "color": "#6357d6",
+      "memo": "National, coalition, territorial, jurisdictional, or strategic autonomy over capability and infrastructure.",
+      "examples": [
+        "domestic supply jurisdiction",
+        "owned/custom compute",
+        "national industrial build",
+        "strategic asset treatment"
+      ]
+    },
+    {
+      "id": "containment",
+      "label": "Containment",
+      "color": "#8a63d2",
+      "memo": "Restriction, compartmentalisation, nonproliferation, airgaps, isolation, and deliberate limitation.",
+      "examples": [
+        "airgapped weights",
+        "SCIF deployment",
+        "nonproliferation regime",
+        "targeted capability restrictions"
+      ]
+    },
+    {
+      "id": "acceleration",
+      "label": "Acceleration",
+      "color": "#e25b41",
+      "memo": "Speed, scaling, recursive improvement, compressed timelines, arms races, and capability takeoff pressure.",
+      "examples": [
+        "OOM compute race",
+        "recursive research automation",
+        "war-speed decision tempo",
+        "explosive capability trajectory"
+      ]
+    },
+    {
+      "id": "legibility",
+      "label": "Legibility",
+      "color": "#42bdd3",
+      "memo": "Evidence, observability, provenance, interpretability, verifiability, certification, and decision-grade visibility.",
+      "examples": [
+        "observable audit trail",
+        "verifiable provenance",
+        "certified evaluation",
+        "mechanistic interpretability"
+      ]
+    },
+    {
+      "id": "resilience",
+      "label": "Resilience",
+      "color": "#7fa6b2",
+      "memo": "Redundancy, reversibility, robustness, insurance, fallback capacity, and recoverability under stress.",
+      "examples": [
+        "second-source silicon",
+        "verified rollback",
+        "government backstop",
+        "redundant supply paths"
+      ]
+    },
+    {
+      "id": "agency",
+      "label": "Agency",
+      "color": "#d45aa2",
+      "memo": "Delegated action, autonomy, authority, persistence, actuation, and the ability to make things happen.",
+      "examples": [
+        "agentic tool use",
+        "binding delegated authority",
+        "long-horizon objectives",
+        "physical actuation"
+      ]
+    },
+    {
+      "id": "exposure",
+      "label": "Exposure",
+      "color": "#e9824a",
+      "memo": "Public surface area, harm channels, sensitive data, physical-world contact, uncontrolled spread, and attack surface.",
+      "examples": [
+        "public infrastructure surface",
+        "special-category data",
+        "copyable weights",
+        "physical/kinetic harm channel"
+      ]
+    },
+    {
+      "id": "uncertainty",
+      "label": "Uncertainty",
+      "color": "#8b93a7",
+      "memo": "Ambiguity, opacity, unknown generalisation, unresolved allocation, and cases where the true state is not knowable.",
+      "examples": [
+        "opaque observability",
+        "unknown provenance",
+        "unallocated rights",
+        "black-box generalization"
+      ]
+    },
+    {
+      "id": "competition",
+      "label": "Competition",
+      "color": "#c7543e",
+      "memo": "Market dynamics, competitive pressure, adoption races, commercial validation, and winner-take-most outcomes.",
+      "examples": [
+        "market-share validation",
+        "competitive moat",
+        "adoption race",
+        "price-performance contest"
+      ]
+    }
+  ]
+}

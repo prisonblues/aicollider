@@ -1,0 +1,367 @@
+{
+  "id": "saasapocalypse",
+  "name": "SaaSapocalypse",
+  "desc": "AI agents absorb SaaS workflows: per-seat pricing collapses, point solutions consolidate into agent platforms, and software value shifts from human-facing UI to machine-executed capability.",
+  "picks": {
+    "Capability Class": {
+      "value": "Tool-grade",
+      "memo": "Agent platforms deliver tool-grade capability sufficient to execute SaaS workflows without human-equivalent general intelligence.",
+      "detail": "Workflow agents do not need frontier reasoning to replace point SaaS tools. They need reliable execution of structured tasks across defined domains. Tool-grade capability is the threshold where per-seat economics break: the agent costs less than the human operator plus the software license. This capability floor is already met for scheduling, CRM entry, reporting, and document generation."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Agent platforms span multiple SaaS domains simultaneously, collapsing the boundaries between point solutions.",
+      "detail": "A single agent can operate across CRM, project management, analytics, and communication tools. This multi-domain reach is precisely what makes point solutions vulnerable: the agent replaces the integration layer. Human operators needed separate UIs for each domain; agents need only API access. The breadth of domain coverage determines how many SaaS seats become redundant per deployment."
+    },
+    "Capability Trajectory": {
+      "value": "Rapid",
+      "memo": "Agent workflow capability improves rapidly as tool-calling reliability and context windows expand quarter over quarter.",
+      "detail": "Each model generation improves tool-call accuracy, multi-step planning, and error recovery. These improvements translate directly into broader SaaS workflow coverage. The trajectory is rapid but not discontinuous: incremental reliability gains compound into category-killing capability. Six months of improvement can shift a workflow from human-required to agent-executable."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "Agent platforms use AI-assisted development to accelerate integration building, workflow design, and failure-mode discovery.",
+      "detail": "Platform engineers use AI coding tools to build and test new SaaS integrations faster than manual development allows. AI-assisted research into workflow patterns identifies the next consolidation targets. The feedback loop between agent performance data and platform improvement is AI-accelerated. This compressed development cycle is why SaaS incumbents cannot adapt fast enough."
+    },
+    "Unhobbling": {
+      "value": "Workflow agent",
+      "memo": "The SaaSapocalypse is driven by workflow agent unhobbling: models that can plan, execute, and recover across multi-step processes.",
+      "detail": "Chatbots could not replace SaaS tools; workflow agents can. The critical unhobbling is multi-step execution with tool calls, error handling, and state management. This capability threshold transforms AI from an advisor into an operator. Once crossed, every SaaS workflow becomes a candidate for agent absorption."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Agents replicate across enterprise accounts at marginal cost, replacing per-seat humans with per-task compute instances.",
+      "detail": "An enterprise can deploy hundreds of agent instances executing SaaS workflows concurrently. Each instance costs a fraction of a human operator plus their software licenses. Replication at this scale is what breaks per-seat economics: the cost curve inverts. Many copies running in parallel deliver throughput that no human team can match at comparable cost."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Agents execute SaaS workflows at machine speed, compressing hours of human point-and-click into seconds of API calls.",
+      "detail": "A human navigating a CRM, updating a project board, and generating a report takes minutes per task. An agent executes the same workflow via API in seconds. This speed advantage compounds across hundreds of daily workflows. Faster-than-human execution is not a luxury feature; it is the economic driver that makes SaaS replacement viable."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "SaaS workflow replacement is entirely cognitive and digital: no physical-world actuation required.",
+      "detail": "The workflows being replaced are screen-based knowledge work: data entry, reporting, scheduling, and communication. No robotic or physical-world component is needed. This cognitive-only scope means the disruption requires no hardware innovation beyond existing cloud infrastructure. The entire SaaSapocalypse plays out in software, which is why it moves so fast."
+    },
+    "Role": {
+      "value": "Agent",
+      "memo": "The AI operates as an agent with delegated authority to execute workflows end-to-end without human intermediation.",
+      "detail": "Unlike copilot deployments where humans remain in the execution loop, SaaS-replacing agents own the workflow. The agent receives a goal, plans the steps, executes across tools, and reports completion. This agent role is what eliminates the human operator and their associated SaaS seats. The role shift from assistant to agent is the structural cause of per-seat collapse."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Agents execute consequential digital actions across enterprise SaaS platforms: creating records, sending messages, modifying data.",
+      "detail": "The agent does not merely recommend actions; it performs them. CRM updates, calendar invitations, Slack messages, and Jira tickets are created by the agent directly. This digital actuation replaces the human clicks that SaaS interfaces were designed to capture. When the human leaves the loop, the UI becomes overhead and the API becomes the product."
+    },
+    "Autonomy": {
+      "value": "Exception-supervised",
+      "memo": "Agents run autonomously on routine workflows and escalate only when encountering exceptions outside their defined patterns.",
+      "detail": "Most SaaS workflows are routine and repetitive, requiring no human judgment. Exception-supervised autonomy handles the 90% that is predictable while flagging the 10% that is not. This supervision model is economically optimal: humans review only what agents cannot handle. The supervision overhead is low enough that the cost advantage over full human operation is decisive."
+    },
+    "Delegated Authority": {
+      "value": "Operational mandate",
+      "memo": "Enterprise agents receive operational mandates to execute defined workflow categories without per-action human approval.",
+      "detail": "The mandate covers routine operations: update CRM records, generate reports, schedule meetings, process standard requests. Per-action approval would eliminate the speed and cost advantage that justifies agent deployment. Operational mandate is the minimum delegation level where SaaS replacement economics work. The mandate boundary defines which workflows agents absorb and which remain human-operated."
+    },
+    "Tool Access": {
+      "value": "Broad toolchain",
+      "memo": "Agents access a broad toolchain of enterprise SaaS APIs, databases, and communication platforms to execute cross-functional workflows.",
+      "detail": "The agent connects to CRM, ERP, project management, communication, analytics, and document tools simultaneously. Broad toolchain access is what enables cross-domain workflow execution that replaces multiple point solutions. Each additional tool connection expands the agent's workflow coverage. The breadth of toolchain access directly determines how many SaaS subscriptions become redundant."
+    },
+    "Response / Intervention Capability": {
+      "value": "Defined escalation",
+      "memo": "Agent platforms implement defined escalation paths for workflow failures, routing exceptions to human operators with full context.",
+      "detail": "When an agent encounters an ambiguous situation or policy violation, it escalates with a structured handoff. The escalation includes workflow state, attempted actions, and the specific decision point requiring human input. This defined escalation replaces the ad-hoc error handling of manual SaaS operation. Clear escalation paths are what make enterprise buyers comfortable delegating operational workflows to agents."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Enterprise IT and operations teams command agent deployments, setting workflow boundaries, tool access, and escalation policies.",
+      "detail": "The enterprise is the command actor that defines which workflows agents execute and under what constraints. This mirrors existing IT governance for SaaS procurement but shifts from tool selection to agent configuration. Enterprise command ensures agents operate within organisational policies and compliance requirements. The command structure is corporate, not individual, reflecting the operational nature of the workflows."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Agent platform evolution follows product-cycle tempo, with quarterly capability expansions absorbing additional SaaS categories.",
+      "detail": "New workflow integrations and capability improvements ship on product release cadences. Each cycle expands the set of SaaS tools that agents can replace. The tempo is fast enough to outpace SaaS vendor adaptation but measured enough for enterprise adoption. Product-cycle tempo means the SaaSapocalypse unfolds over quarters, not overnight."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Agent platform product teams make capability-versus-reliability tradeoffs that determine which SaaS workflows can be safely automated.",
+      "detail": "Product teams decide when a workflow integration is reliable enough to ship. The tradeoff is between coverage breadth and execution reliability for each workflow category. Shipping too early risks enterprise trust; shipping too late cedes market to competitors. Product team authority over this tradeoff drives the pace of SaaS displacement."
+    },
+    "Permission": {
+      "value": "Broad",
+      "memo": "Enterprise agents operate on proprietary business data with broad internal permission, facing no external licensing constraint on workflow execution.",
+      "detail": "The data being processed belongs to the enterprise: its CRM records, project data, and communications. No external rights holder controls access to this operational data. Broad permission is the default because the enterprise owns the data the agent processes. This contrasts sharply with training-data licensing where permission is the central constraint."
+    },
+    "Regulatory Posture": {
+      "value": "Permissive",
+      "memo": "No sector-specific regulation constrains AI agent execution of standard business workflows in most jurisdictions.",
+      "detail": "SaaS workflow automation falls below regulatory thresholds designed for high-risk AI applications. No law requires human execution of CRM updates, report generation, or meeting scheduling. The permissive posture means enterprises face no regulatory barrier to agent deployment for routine operations. Regulated industries add compliance layers but the baseline commercial use is uncontrained."
+    },
+    "Data Availability": {
+      "value": "Proprietary owned",
+      "memo": "Agents operate on enterprise-owned operational data: CRM records, project state, communications, and business metrics.",
+      "detail": "The data flowing through agent workflows is proprietary enterprise data generated by business operations. There is no acquisition or licensing step because the enterprise already owns the data. Proprietary data availability removes the supply constraint that limits training-data access. The enterprise's own operational data is the fuel for its agent-driven workflows."
+    },
+    "Provenance": {
+      "value": "Mixed/declared",
+      "memo": "Workflow data provenance is mixed but declared: enterprise systems provide structured records with known sources and timestamps.",
+      "detail": "CRM entries, project tickets, and communications have clear provenance within enterprise systems. The mix comes from varying data quality and completeness across different SaaS sources. Declared provenance enables audit trails that enterprise compliance requires. This known-source environment contrasts with the opaque provenance of web-scraped training data."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Enterprise agents consume models via hosted APIs with no weight access, making the model layer a commodity input.",
+      "detail": "Agent platforms call model APIs from OpenAI, Anthropic, or Google without accessing or owning weights. Hosted-only access means the enterprise has no model asset, only a service dependency. This makes model switching feasible and prevents weight-entanglement problems. The hosted-only model reinforces the consumption-based economics that replace per-seat SaaS pricing."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Enterprise agent workflows routinely cross borders as businesses operate across jurisdictions with distributed teams and customers.",
+      "detail": "A workflow agent processing CRM data may handle contacts across multiple countries simultaneously. Cross-border operation is the default for any multinational enterprise deploying agent automation. Data residency requirements add complexity but do not prevent cross-border workflow execution. The territorial scope matches the enterprise's own operational footprint."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "SaaS workflow data contains ordinary personal data: names, emails, and business contact details from CRM and communication systems.",
+      "detail": "Enterprise operational data includes employee and customer personal data at the ordinary level. CRM records, email addresses, and meeting participants constitute standard personal data processing. This triggers baseline data protection obligations but not heightened special-category requirements. The personal data exposure is inherent in business workflow automation and manageable with standard controls."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Agent-processed workflow data is commercially confidential: sales pipelines, pricing, project status, and internal communications.",
+      "detail": "The operational data flowing through agent workflows includes competitively sensitive business information. Sales forecasts, deal pipelines, pricing strategies, and internal discussions all pass through the agent. Commercial confidentiality requires appropriate security controls but does not reach regulated or classified thresholds. This sensitivity level is the standard enterprise baseline that any SaaS tool already handles."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Standard enterprise workflow automation triggers no export control, dual-use, or strategic control obligations.",
+      "detail": "CRM management, project tracking, and business communication are civilian commercial activities. No aspect of routine SaaS workflow replacement engages export-control or dual-use thresholds. The absence of control exposure simplifies procurement and deployment decisions. This clean control profile is one reason agent adoption can move faster than frontier AI deployment."
+    },
+    "Processing Mode": {
+      "value": "Inference",
+      "memo": "Agent workflow execution is pure inference: models process enterprise data at runtime without training on it.",
+      "detail": "Agents call model APIs for reasoning and decision-making during workflow execution. No enterprise data feeds back into model training under standard API terms. Inference-only processing avoids the data-entanglement and exit problems that characterise training relationships. This clean processing boundary is a prerequisite for enterprise adoption and data governance compliance."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Agents produce derived outputs from enterprise data: summaries, reports, recommendations, and structured records.",
+      "detail": "Workflow execution generates new artefacts: meeting summaries, status reports, data transformations, and action items. These derived outputs are the value the agent creates, replacing human-generated equivalents. The derivation is bounded and attributable, unlike recursive training derivation. Output ownership remains with the enterprise, reinforcing the clean processing boundary."
+    },
+    "Retention / Persistence": {
+      "value": "Persistent memory/traces",
+      "memo": "Agent platforms retain workflow execution traces and accumulated context to improve performance across repeated task patterns.",
+      "detail": "Execution logs, decision traces, and workflow state persist across sessions for audit and improvement. Accumulated context about enterprise-specific patterns makes agents more effective over time. This persistent memory creates a switching cost that benefits the agent platform. Retention of operational traces is both an enterprise requirement for compliance and a platform strategy for lock-in."
+    },
+    "Execution / Residency Environment": {
+      "value": "Public cloud",
+      "memo": "Agent platforms run on public cloud infrastructure, matching the environment where the SaaS tools they replace already operate.",
+      "detail": "Enterprise SaaS tools already run in public cloud, so agent replacements inherit the same residency profile. No additional infrastructure investment is needed to deploy agents alongside existing cloud SaaS. Public cloud execution keeps costs low and scaling elastic. The environment continuity reduces enterprise adoption friction for agent-based workflow replacement."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Agent platforms operate on shared multi-tenant infrastructure, inheriting the same boundary model as the SaaS tools they displace.",
+      "detail": "Multi-tenant hosting is the economic foundation of both SaaS and agent platforms. Shared infrastructure keeps per-customer costs low enough to undercut per-seat SaaS pricing. Logical isolation substitutes for physical separation, matching enterprise expectations from existing cloud tools. The shared boundary is an economic necessity for the consumption-based pricing model."
+    },
+    "Deployment Surface": {
+      "value": "Internal/embedded",
+      "memo": "Agents deploy as embedded capabilities within enterprise workflows, invisible to end users who interact only with outcomes.",
+      "detail": "Unlike SaaS tools with human-facing UIs, agents operate behind the scenes within existing systems. The deployment is internal and embedded: the agent writes to the CRM, not to a separate dashboard. This invisible deployment is the key architectural shift from UI-for-humans to capability-for-machines. End users consume agent outputs without knowing or caring how they were produced."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Agent platforms run on standard commercial cloud infrastructure with no specialised hardware requirements beyond GPU inference.",
+      "detail": "The physical infrastructure is commodity commercial cloud from AWS, Azure, or GCP. No dedicated clusters or national-scale builds are needed for enterprise workflow automation. Commercial cloud provides the elasticity that consumption-based agent pricing requires. Infrastructure costs scale with usage rather than requiring upfront capital commitment."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "Agent platforms source models from multiple providers, routing tasks to the most cost-effective model for each workflow step.",
+      "detail": "Different workflow steps have different capability requirements: simple data extraction versus complex reasoning. Multi-provider sourcing lets agent platforms optimise cost by routing to the cheapest adequate model. This model arbitrage is a core platform competence that point SaaS vendors cannot replicate. Provider diversity also reduces dependency risk and enables rapid adoption of new model releases."
+    },
+    "Compute Source": {
+      "value": "Rented/spot",
+      "memo": "Agent inference runs on rented cloud compute with no committed capacity, keeping costs variable and aligned with usage-based pricing.",
+      "detail": "Workflow agent inference does not require the committed GPU clusters that frontier training demands. Rented compute scales up and down with enterprise workflow volume. Variable compute costs enable the consumption-based pricing that replaces per-seat SaaS licensing. The rented model means agent platforms carry no infrastructure capital burden."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "Agent platforms maintain cloud portability by consuming model APIs rather than deploying proprietary infrastructure.",
+      "detail": "API-based model consumption means agent platforms can run on any major cloud provider. No deep infrastructure integration creates captive cloud dependency. Portability is a competitive advantage for agent platforms courting enterprises with existing cloud commitments. The portable architecture contrasts with the preferred-partner dependencies of frontier training operations."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Agent inference runs on standard Nvidia GPU infrastructure available through all major cloud providers.",
+      "detail": "Workflow agent inference uses the same merchant Nvidia GPU infrastructure that powers cloud AI services generally. No custom silicon or specialised accelerators are required for agent workloads. The standard accelerator stack means agent platforms benefit from commodity pricing and broad availability. Hardware is not a differentiator or bottleneck for SaaS workflow replacement."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Agent platforms access compute and model APIs through standard market channels with no allocation constraints or strategic control.",
+      "detail": "Unlike frontier training which requires negotiated GPU allocation, agent inference uses on-demand cloud compute. Market access is open and unconstrained for inference-scale workloads. No supply-control chokepoint limits agent platform scaling. This open access is what enables rapid agent deployment without the supply-chain politics of frontier operations."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Inference-scale GPU availability is the only silicon constraint, and it is loosening as supply expands beyond training-dominated allocation.",
+      "detail": "Frontier training consumes most premium GPU allocation, but inference demand uses different hardware tiers. As accelerator supply expands, inference availability improves faster than training allocation. Agent workloads benefit from this supply expansion without competing directly for frontier training hardware. The bottleneck exists but is less binding for inference than for training."
+    },
+    "Substitutability": {
+      "value": "Replaceable",
+      "memo": "The SaaS tools being replaced are individually replaceable, which is precisely the vulnerability that agent platforms exploit.",
+      "detail": "Point SaaS solutions have low switching costs when an agent can replicate their functionality via API. The replaceability of individual tools is the structural weakness the SaaSapocalypse targets. Each tool's value proposition erodes when an agent can perform the same workflow step as part of a broader automation. Replaceability at the tool level drives consolidation at the platform level."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "Agent platforms vertically integrate across the workflow stack, combining model inference, tool orchestration, and enterprise integration.",
+      "detail": "The agent platform integrates model APIs, workflow orchestration, tool connectors, and enterprise data access into a single service. This stack integration replaces the horizontal fragmentation of point SaaS tools. Vertical integration creates platform value that individual SaaS vendors cannot match. The integrated stack is the structural advantage that drives consolidation."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "Agent platforms distribute through API integrations and lightweight apps embedded in existing enterprise environments.",
+      "detail": "Distribution runs through API connections to existing enterprise systems rather than standalone application interfaces. The agent platform plugs into the enterprise's existing tool ecosystem. This embedded distribution model avoids the user-acquisition costs that SaaS tools incur. The channel matches the architectural reality: agents operate through APIs, not through human-facing UIs."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "Enterprise agent deployments primarily use domestically available cloud infrastructure and model APIs.",
+      "detail": "Major cloud providers and model API services are available domestically in most enterprise jurisdictions. No cross-border supply dependency complicates standard agent deployment. Domestic supply jurisdiction simplifies procurement and reduces geopolitical exposure. The domestic availability of all required components removes supply-chain risk from agent adoption decisions."
+    },
+    "Observability": {
+      "value": "Declared",
+      "memo": "Agent platforms provide declared observability through execution logs and workflow traces, sufficient for enterprise audit requirements.",
+      "detail": "Execution traces record which actions the agent took, which tools it called, and what data it processed. Declared observability means the platform reports what happened without independent verification capability. This level satisfies standard enterprise audit requirements for operational workflows. Full independent verifiability is not demanded for routine business process automation."
+    },
+    "Evaluation": {
+      "value": "Internal tests",
+      "memo": "Agent workflow reliability is validated through internal testing by the platform vendor and enterprise deployment teams.",
+      "detail": "Platform vendors run integration tests across supported SaaS tools and workflow patterns. Enterprise teams validate agent performance against their specific workflow requirements before production deployment. Internal testing is the standard evaluation method for enterprise software adoption. External benchmarking or certification has not yet emerged for workflow agent reliability."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "Agent decisions are interpreted through behavioral evidence: execution traces showing what the agent did and what outcomes resulted.",
+      "detail": "Enterprises assess agent reliability through observed behaviour patterns rather than internal model reasoning. Execution traces provide behavioral evidence of consistent, correct workflow execution. This evidence base is sufficient for operational trust in routine workflows. Mechanistic interpretability is neither available nor required for SaaS workflow replacement."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "Agent behaviour alignment relies on system prompts, workflow templates, and the underlying model's RLHF training.",
+      "detail": "Workflow agents are steered by detailed system prompts and structured workflow definitions. The base model's RLHF alignment provides the foundation for instruction-following behaviour. No additional alignment methodology is applied for enterprise workflow execution. Prompting and RLHF are sufficient for the operational mandate because the task space is well-defined."
+    },
+    "Acceptance Basis": {
+      "value": "Outcome-sufficient",
+      "memo": "Nobody asks the agent to show its working; they measure whether the workflow completed correctly and the output is accurate.",
+      "detail": "SaaS workflow replacement validates through completion rates, accuracy metrics, and time savings. No regulatory framework demands process documentation for routine business automation. Enterprise buyers care about results: did the CRM update correctly, was the report accurate, did the meeting get scheduled. Outcome sufficiency is the acceptance basis that enables rapid adoption without compliance overhead."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Agent platforms meet enterprise-grade security requirements matching or exceeding the SaaS tools they replace.",
+      "detail": "SOC 2, encryption at rest, and standard enterprise security controls are table stakes for agent platforms. The security posture must match existing SaaS vendor requirements to pass enterprise procurement. Enterprise-grade security is a market-access requirement, not a differentiator. Platforms that fail security review cannot access the enterprise workflows they aim to automate."
+    },
+    "Adversary Model": {
+      "value": "Casual misuse",
+      "memo": "The primary adversary for enterprise workflow agents is casual misuse by internal users, not sophisticated external attackers.",
+      "detail": "Workflow agents face prompt-injection risks and unauthorised workflow modifications from internal users. The threat model is casual rather than criminal or state-level because the target is operational data, not national secrets. Standard access controls and audit logging address the casual-misuse threat adequately. Sophisticated attack scenarios are possible but not the primary design constraint."
+    },
+    "Weight Security": {
+      "value": "Copyable",
+      "memo": "Models are accessed via hosted API with no local weights to protect, making weight security a provider responsibility.",
+      "detail": "Agent platforms consume model inference without possessing weights. Weight security is the model provider's concern, not the agent platform's or the enterprise's. The hosted-API model means no copyable weights exist in the enterprise environment. This clean separation simplifies the security architecture for enterprise workflow deployments."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "Enterprise agent access is governed by role-based access controls mapping agent permissions to organisational roles and workflow boundaries.",
+      "detail": "RBAC determines which workflows an agent can execute and which enterprise data it can access. Role mappings ensure agents operate within the same permission boundaries as the human operators they replace. Standard enterprise identity management integrates with agent platform access controls. RBAC is the natural access model because it mirrors existing enterprise SaaS permission structures."
+    },
+    "Monitoring Scope": {
+      "value": "Tool activity",
+      "memo": "Agent platforms monitor tool activity: which SaaS APIs were called, what data was read and written, and what actions were taken.",
+      "detail": "Tool activity monitoring records every API call, data access, and workflow action the agent performs. This monitoring scope captures the full execution trace of SaaS workflow replacement. Tool-level monitoring is more granular than output-only monitoring but less invasive than network-level surveillance. The scope matches enterprise audit requirements for operational workflow automation."
+    },
+    "Containment": {
+      "value": "Sandboxed",
+      "memo": "Agent execution is sandboxed within defined workflow boundaries and tool-access permissions, preventing unconstrained system access.",
+      "detail": "Workflow agents operate within sandboxed environments that limit their actions to authorised tools and data. The sandbox prevents lateral movement beyond the defined workflow scope. This containment model provides sufficient isolation for enterprise operational workflows. Sandboxing replaces the implicit containment that human-operated SaaS provided through UI-level access controls."
+    },
+    "Capability Limitation": {
+      "value": "Policy filters",
+      "memo": "Agent actions are constrained by policy filters that block operations outside defined workflow boundaries and compliance rules.",
+      "detail": "Policy filters prevent agents from executing actions that violate enterprise rules: budget thresholds, data-sharing restrictions, or approval requirements. These filters substitute for the human judgment that previously governed SaaS tool use. Policy-based limitation is the minimum viable governance for delegated workflow execution. The filters are configured by enterprise IT rather than imposed by external regulation."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "SaaS workflow replacement is entirely civilian commercial use with no dual-use, military, or national-security application.",
+      "detail": "Enterprise business process automation is civilian commercial activity by definition. No aspect of CRM management, project tracking, or business communication engages higher use classifications. The civilian use class means no heightened regulatory or security obligations apply. This clean classification is one reason enterprise agent adoption can proceed without government oversight."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "The primary harm channel is informational: incorrect workflow outputs, data errors, or confidentiality breaches rather than physical harm.",
+      "detail": "Agent errors produce wrong data entries, incorrect reports, or misdirected communications. The harm is informational and commercial rather than physical or kinetic. Data breaches through misconfigured agent access represent the most serious harm vector. The information harm channel means consequences are financial and reputational rather than safety-critical."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "Agent platform capability diffuses through commercial licensing, spreading workflow automation across enterprises at market speed.",
+      "detail": "Enterprise adoption follows standard commercial procurement and licensing channels. Platform capability spreads through sales, not leaks or open-source proliferation. Licensed diffusion means the platform vendor controls the pace and terms of capability distribution. This commercial proliferation model is familiar to enterprise buyers from existing SaaS procurement."
+    },
+    "Strategic Lead": {
+      "value": "Neck-and-neck",
+      "memo": "Multiple agent platforms compete at similar capability levels, with no single provider holding a decisive lead in workflow automation.",
+      "detail": "Microsoft, Google, Salesforce, and startup platforms all offer competitive agent workflow capabilities. The underlying model capability is broadly similar across providers. Differentiation comes from integration depth and enterprise relationships rather than fundamental capability gaps. The neck-and-neck competition drives rapid improvement and pricing pressure."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Competitive pressure among agent platforms accelerates feature development and SaaS category absorption.",
+      "detail": "Platform vendors race to absorb the next SaaS category before competitors capture the enterprise relationship. Competitive pressure drives rapid expansion of workflow coverage and integration depth. The race is commercial rather than existential: losing means market share loss, not obsolescence. This competitive dynamic is what makes the SaaSapocalypse unfold at market speed rather than regulatory speed."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Each agent platform operates as a single-firm commercial venture, not a national project or industry coalition.",
+      "detail": "Agent platforms are built and sold by individual companies competing in the enterprise market. No government coordination or industry consortium shapes the competitive landscape. Single-firm structure means commercial incentives drive all deployment and pricing decisions. The atomised competitive structure is what creates the pricing pressure that collapses per-seat SaaS economics."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No nonproliferation framework governs commercial workflow automation: agent capabilities spread through normal market competition.",
+      "detail": "Enterprise workflow automation does not trigger any nonproliferation concern or regime. Capability spreads through commercial licensing without restriction. No government or international body monitors or controls the diffusion of business process automation. The absence of nonproliferation constraints means market dynamics alone determine adoption speed and breadth."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Workflow execution data accumulates and fortifies the platform's value: this is why platform companies survive and point solutions die.",
+      "detail": "Every workflow execution generates data about enterprise processes, patterns, and preferences. This accumulated operational intelligence makes the agent platform more effective and harder to replace. The data value is accretive: each workflow strengthens the platform's understanding of the enterprise. Point solutions cannot accumulate this cross-domain workflow intelligence, which is why they lose."
+    },
+    "Input Price": {
+      "value": "Usage-based",
+      "memo": "Agent pricing shifts from per-seat SaaS licensing to usage-based consumption, which is the economic mechanism that triggers the disruption.",
+      "detail": "Per-seat pricing charged for human access to a UI; usage-based pricing charges for agent-executed workflows. The pricing model shift collapses SaaS revenue when agents replace human operators. Usage-based input price means enterprises pay for work done rather than seats provisioned. This economic restructuring is the commercial core of the SaaSapocalypse."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "Agent platforms retain derivative workflow intelligence: execution patterns, process optimisations, and enterprise operational knowledge.",
+      "detail": "Workflow execution data and derived operational patterns are retained by the agent platform. This retained output creates a knowledge asset that compounds over time. The platform captures operational intelligence that previously existed only in human employees' experience. Retained output allocation is the mechanism through which platforms build durable competitive advantage."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "The agent platform as processor captures derived value from workflow execution data, building operational intelligence across its customer base.",
+      "detail": "Cross-customer workflow patterns give the platform insights that individual enterprises cannot generate alone. The processor captures aggregate operational intelligence while serving individual enterprise workflows. This derived value creates economies of scale that strengthen the platform's competitive position. Processor value capture is the business model that makes agent platforms viable long-term."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "Agent platforms disclaim liability for workflow errors, placing operational risk on the enterprise deployer.",
+      "detail": "Standard platform terms disclaim liability for incorrect agent outputs or workflow failures. The enterprise bears operational risk for agent-executed workflows just as it bears risk for human employee errors. Disclaimed risk allocation is the industry default for enterprise software and cloud services. No insurance or backstop product has emerged for agent workflow errors."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "Enterprise agent deployment requires only operating capital, not project or strategic investment, lowering the adoption barrier.",
+      "detail": "Usage-based agent pricing means no upfront capital expenditure is needed. Enterprises shift from annual SaaS subscription commitments to variable operating expenses. Operating capital funding lowers the adoption barrier compared to infrastructure-level AI investments. The low capital requirement is what enables rapid enterprise adoption and SaaS displacement."
+    },
+    "Commitment Tenor": {
+      "value": "Annual",
+      "memo": "Enterprise agent platform commitments follow annual contract cycles matching existing SaaS procurement patterns.",
+      "detail": "Annual contracts provide the platform with revenue predictability while limiting enterprise lock-in. The commitment tenor matches existing enterprise software procurement cadences. Annual cycles mean enterprises can reassess agent platform choice at each renewal. This familiar commitment structure reduces procurement friction for agent platform adoption."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "Agent-automated workflows become core business operations, creating revenue dependency on the agent platform for essential business functions.",
+      "detail": "When agents execute CRM management, customer communication, and operational reporting, the platform becomes critical infrastructure. Revenue dependency grows as more business functions migrate from human-operated SaaS to agent execution. Core business dependency creates natural switching costs despite low technical switching barriers. The platform becomes essential because the workflows it executes are essential."
+    },
+    "Switching Cost": {
+      "value": "Low",
+      "memo": "Low switching cost is the structural vulnerability that kills point SaaS: when an agent can replicate any tool, no tool is sticky.",
+      "detail": "Individual SaaS tools become low-switching-cost commodities when agents can replicate their functionality via API. The switching cost that protected SaaS revenue was human familiarity with the UI, which agents eliminate. Low switching costs at the tool level drive consolidation at the platform level. The entire disruption thesis depends on this collapse of tool-level stickiness."
+    },
+    "Exit": {
+      "value": "Clean",
+      "memo": "Enterprise data remains portable and exit from agent platforms is clean because processing is inference-only with no weight entanglement.",
+      "detail": "No enterprise data is trained into model weights, so no entanglement problem complicates exit. Workflow execution traces and operational data can be exported through standard mechanisms. Clean exit is possible because the agent platform is a processing layer, not a data-entanglement trap. This exit cleanliness differentiates agent platforms from training relationships."
+    }
+  }
+}

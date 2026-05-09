@@ -1,0 +1,357 @@
+{
+  "id": "custody-key-control",
+  "name": "Key Custody",
+  "desc": "Control sits in a cryptographic secret or access key rather than physical possession. Digital custody can be stronger than physical custody when architecture enforces access — but the asset is not held or owed in any traditional sense.",
+  "picks": {
+    "Capability Class": {
+      "value": "Tool-grade",
+      "memo": "Custody-by-key analysis applies to tool-grade systems where the custody architecture matters more than frontier capability levels.",
+      "detail": "Tool-grade capability is the diagnostic baseline because the custody argument does not depend on superhuman capability. The architecture point holds whether the system is narrow or frontier. What matters is not how capable the system is but who controls access to its capability through cryptographic means. The custody-by-key pattern applies across capability levels, making tool-grade the natural illustrative baseline."
+    },
+    "Domain Breadth": {
+      "value": "Single-domain",
+      "memo": "Custody-by-key is illustrated in single-domain contexts where the access control architecture is cleanly separable from domain complexity.",
+      "detail": "Single-domain focus keeps the custody analysis clean by isolating the access control architecture from cross-domain complexity. The key-control principle applies regardless of domain breadth but is most clearly demonstrated in bounded contexts. Domain breadth does not change the fundamental claim that cryptographic custody can be stronger than physical custody. The single-domain pick emphasizes that this is an architecture argument, not a capability argument."
+    },
+    "Capability Trajectory": {
+      "value": "Incremental",
+      "memo": "The custody-by-key pattern operates under incremental trajectory because the architecture argument is independent of capability acceleration dynamics.",
+      "detail": "Incremental trajectory means the custody architecture does not depend on rapid capability change for its relevance. The key-control pattern works the same whether capability is static or improving. This pick signals that the stance is about architectural control, not about racing to contain explosive capability. The custody argument is structural and persistent, not tied to any particular pace of technological change."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "Custody-by-key operates in human-led research contexts where the architecture question is about access control design, not recursive capability.",
+      "detail": "Human-led research is the baseline because the custody-by-key argument is not about AI research dynamics. The architecture of cryptographic control does not depend on who leads research or how fast capability improves. This pick grounds the stance in the present reality where humans design and implement the custody architecture. The research automation level does not change the structural claim about key-based versus physical custody."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Custody-by-key applies to tool-using systems where the key architecture gates what tools and data the system can access and operate upon.",
+      "detail": "Tool-using unhobbling means the system accesses external functions through controlled interfaces that key architecture can gate. The key is literally the mechanism that grants or denies the system's access to tools and data stores. This pick demonstrates that cryptographic custody is practically relevant to real deployment configurations, not just theoretical. The tool-using level makes the access control architecture concretely operational rather than abstract."
+    },
+    "Replication Scale": {
+      "value": "Single instance",
+      "memo": "Custody-by-key is most clearly illustrated with single-instance systems where key control directly corresponds to control over the specific instance.",
+      "detail": "Single instance simplifies the custody analysis by creating a direct correspondence between key possession and system access. With multiple copies, key management becomes a distributed coordination problem rather than a clean custody demonstration. The single-instance pick emphasizes the architectural purity of the custody-by-key concept. Key control of a single instance is the clearest expression of digital custody as an alternative to physical possession."
+    },
+    "Operating Speed": {
+      "value": "Human-speed",
+      "memo": "Custody-by-key operates at human-speed where key management ceremonies and access authorization can proceed with adequate deliberation.",
+      "detail": "Human-speed operation means key management, authorization, and access ceremonies can occur at a pace that permits deliberate human oversight. This contrasts with scenarios where machine-speed operation would outpace the key management ceremony itself. Human-speed keeps the custody architecture practically manageable and the access decisions humanly reviewable. The operating speed reinforces that this is an architecture about deliberate control, not about speed."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Custody-by-key applies to cognitive-only systems where the custody question is purely about access to digital capability and data.",
+      "detail": "Cognitive-only extension means the custody question is entirely about digital access rather than physical-world actuation control. This focus sharpens the contrast between physical custody of a medium and cryptographic custody of a capability or dataset. The absence of physical extension makes the custody argument purely architectural and information-theoretic. Cognitive-only is the natural domain for demonstrating that digital custody can exceed physical custody in strength."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "The custody-by-key system functions as a tool where access is gated by key possession rather than by physical proximity or organizational role.",
+      "detail": "Tool role means the system remains directed by its operator and does not exercise independent agency or judgment. The custody question is about who can direct the tool, not about what the tool might do autonomously. Key possession determines who has practical access to the tool's capability, making it the operative control mechanism. Tool role keeps the custody analysis focused on access architecture rather than alignment or autonomy concerns."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Custody-by-key gates digital action channels where cryptographic authorization controls what operations the system can execute on digital assets.",
+      "detail": "Digital action means the system can execute consequential operations on data, accounts, or digital resources when authorized by key. The actuation channel is gated by the custody architecture, making key possession the prerequisite for any consequential system action. This pick demonstrates that custody-by-key is not merely theoretical but controls real operational capability. Digital action is where the practical power of cryptographic custody becomes economically and operationally meaningful."
+    },
+    "Autonomy": {
+      "value": "Stateless task",
+      "memo": "Custody-by-key is demonstrated with stateless tasks where each operation requires fresh key-based authorization without persistent autonomous goals.",
+      "detail": "Stateless task means each system operation requires explicit key-based authorization without carrying forward persistent state or goals. This architecture prevents the system from accumulating autonomous capability beyond what each authorized session permits. Stateless operation is the cleanest expression of custody-by-key because control is re-established at each interaction. The stateless character means key custody is continuously operative, not a one-time access grant."
+    },
+    "Delegated Authority": {
+      "value": "Limited mandate",
+      "memo": "Key possession delegates a limited operational mandate where the scope of authority is architecturally bounded by what the key permits.",
+      "detail": "Limited mandate means the key grants access to a defined scope of operations, not unlimited authority over the system. The key architecture can encode permission boundaries that limit what the holder can do even with valid key possession. This demonstrates that cryptographic custody provides not just access control but authority scoping and boundary enforcement. Limited mandate through key design is a more precise delegation mechanism than most contractual authority frameworks."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Cryptographic keys serve as the gates controlling which tools and functions the system can access, making key architecture the operative access mechanism.",
+      "detail": "Gated tools means each tool or function the system can access requires cryptographic authorization to operate. The keys literally implement the tool access policy at the architectural level rather than through policy documents or contractual terms. This gating mechanism is what makes custody-by-key practically effective rather than merely conceptually interesting. Gated tool access through keys is the operational expression of the principle that architecture enforces access."
+    },
+    "Response / Intervention Capability": {
+      "value": "Kill switch",
+      "memo": "Key revocation or rotation serves as the practical kill switch, immediately severing access when custody needs to be transferred or terminated.",
+      "detail": "Kill switch through key revocation means access can be immediately terminated by revoking or rotating the controlling cryptographic key. This is faster, more reliable, and more verifiable than physical intervention or contractual termination. Key revocation provides a clean, auditable, and instant shutdown mechanism that physical custody cannot match. The kill switch capability demonstrates that digital custody provides stronger intervention options than physical possession."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Key custody typically resides with enterprise-level governance where institutional key management policies determine who holds and can exercise control.",
+      "detail": "Enterprise command means the organization's key management governance determines who controls system access and capability. This is more structured than informal user control but does not require state-level authority for the custody architecture to function. Enterprise-level key management provides the institutional infrastructure needed for secure custody including ceremony, audit, and succession. The command actor pick reflects that custody-by-key is primarily an enterprise architecture pattern."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Custody-by-key operates at product-cycle decision tempo where key management and access governance follow normal institutional planning timelines.",
+      "detail": "Product cycle tempo means key management decisions are made through normal institutional governance processes without crisis urgency. Key rotation schedules, access reviews, and custody transfers follow planned timelines rather than emergency protocols. This tempo is appropriate because the custody architecture operates as a steady-state control mechanism rather than a crisis response. Product-cycle tempo enables the deliberate ceremony that good key management practices require."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Custody-by-key access tradeoffs are typically made by product teams who design the key architecture and determine access policy boundaries.",
+      "detail": "Product team authority means the individuals who design and implement the key architecture make the practical tradeoffs. These include decisions about key granularity, rotation frequency, multi-signature requirements, and recovery procedures. The product team's design choices determine the actual strength of the custody architecture in practice. Tradeoff authority at the product team level is appropriate for enterprise-grade custody that does not involve national security stakes."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Custody-by-key grants conditional permission where access requires valid cryptographic authorization that can be revoked or modified architecturally.",
+      "detail": "Conditional permission means access is not blanket but requires ongoing cryptographic validation at each use. The conditions are enforced by the architecture itself rather than by contractual terms or organizational policies alone. Permission can be revoked, scoped, time-limited, or made conditional on external attestation through key design. Conditional permission through cryptography is more reliable than conditional permission through contract because enforcement is automatic."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Cryptographic custody operates under conditional regulatory posture where key management must comply with security standards and data protection requirements.",
+      "detail": "Conditional regulation means key management must meet specified security standards, audit requirements, and compliance obligations. The regulatory framework increasingly recognizes cryptographic custody as a legitimate control mechanism with specific compliance requirements. Key management standards, hardware security module certification, and audit trail requirements all create regulatory conditions. Compliance with these conditions is verifiable through the architecture itself rather than through self-declaration alone."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "In custody-by-key arrangements, data availability is licensed with access controlled through cryptographic authorization rather than physical distribution.",
+      "detail": "Licensed availability means the data exists and is technically accessible but access requires cryptographic authorization from the custodian. The licensing is enforced architecturally through encryption and key management rather than through contractual terms alone. This demonstrates the key insight that custody-by-key separates data availability from data access through architectural enforcement. Licensed availability with cryptographic control is the most precise form of data access management available."
+    },
+    "Provenance": {
+      "value": "Verifiable",
+      "memo": "Custody-by-key enables verifiable provenance through cryptographic signing, attestation chains, and tamper-evident logs of all access events.",
+      "detail": "Verifiable provenance means every access event, data operation, and custody transfer can be cryptographically signed and verified. The key architecture provides the infrastructure for provenance tracking that is tamper-evident and independently verifiable. This is stronger than declared provenance because the verification is mathematical rather than trust-based. Verifiable provenance through cryptographic custody is one of the strongest arguments for key-based over physical custody."
+    },
+    "Model-Weight Rights": {
+      "value": "Dedicated instance",
+      "memo": "Custody-by-key protects a dedicated model instance where the key holder controls access to specific weights isolated from any shared environment.",
+      "detail": "Dedicated instance means the key controls access to a specific isolated model deployment rather than shared infrastructure. The key architecture ensures that only authorized parties can access or use the dedicated model weights. This isolation through key control is the model-weight expression of the custody-by-key principle. Dedicated instance with key-controlled access provides stronger custody than dedicated instance with physical-only access controls."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Custody-by-key operates across borders because cryptographic control is jurisdiction-independent, functioning regardless of physical data location.",
+      "detail": "Cross-border operation demonstrates that cryptographic custody transcends physical territorial boundaries entirely. The key holder controls access regardless of where the data or system physically resides. This is both a strength and a regulatory challenge, as jurisdiction may claim authority over data that key custody places beyond its reach. Cross-border key custody shows that digital custody and territorial jurisdiction can be architecturally decoupled."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "Custody-by-key commonly protects ordinary personal data where the key architecture prevents unauthorized access more reliably than physical controls.",
+      "detail": "Ordinary personal data is the baseline exposure level where custody-by-key demonstrates practical value for everyday data protection. The key architecture prevents unauthorized access even by parties with physical access to the storage medium. This directly illustrates the custody essay's claim that custody of the medium is a red herring when data can be copied. Cryptographic key custody provides stronger personal data protection than physical custody of storage devices."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Custody-by-key protects commercially confidential data where the key architecture enforces access boundaries that contractual confidentiality alone cannot guarantee.",
+      "detail": "Commercial confidential sensitivity means the data has significant commercial value and requires protection from competitors and unauthorized parties. Key-based custody provides stronger protection than contractual confidentiality because the enforcement is architectural rather than legal. Breach of key-based custody requires cryptographic compromise rather than merely violating a contractual term. Commercial confidential data is where the practical superiority of architectural custody over contractual custody is most commercially relevant."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Custody-by-key at the enterprise level typically involves no export control issues, focusing on commercial data protection rather than controlled items.",
+      "detail": "No control issue means the custody architecture is applied to commercially valuable but uncontrolled data and capability. This keeps the stance focused on the fundamental custody-by-key principle without complicating it with export control overlay. The architecture works equally well for controlled items but the core argument is cleaner without that complexity. No control exposure allows the custody analysis to focus purely on the architectural strength comparison."
+    },
+    "Processing Mode": {
+      "value": "Inference",
+      "memo": "Custody-by-key gates inference access where the key authorizes each interaction with the model without exposing training data or weight custody.",
+      "detail": "Inference processing means the key controls access to model use without requiring access to training data or model internals. This separation of use-authorization from data-custody is a key strength of the custody-by-key architecture. The key holder can grant inference access without transferring custody of underlying data or model weights. Inference-mode key gating demonstrates the custody essay's claim that use can be separated from possession."
+    },
+    "Derivation": {
+      "value": "Direct output",
+      "memo": "Custody-by-key produces direct outputs where each derived result is separately authorizable and attributable through the key architecture.",
+      "detail": "Direct output means the system produces results directly from authorized queries without creating recursive derivation chains. Each output can be logged, attributed to a specific key-authorized session, and audited after the fact. The direct output character keeps the custody chain clean and the authorization traceable. Direct output derivation demonstrates that key-based custody provides better audit trail than physical custody of outputs."
+    },
+    "Retention / Persistence": {
+      "value": "Ephemeral/stateless",
+      "memo": "Custody-by-key ideally operates with ephemeral stateless sessions where no data persists beyond the key-authorized interaction window.",
+      "detail": "Ephemeral/stateless retention means no data from the interaction persists after the key-authorized session ends. This is the strongest custody posture because it prevents accumulation of data beyond the custodian's control. Stateless operation means the key holder fully controls the temporal scope of data exposure. Ephemeral retention through key-gated sessions demonstrates that digital custody can provide time-bounded access that physical custody cannot."
+    },
+    "Execution / Residency Environment": {
+      "value": "Controlled",
+      "memo": "Custody-by-key operates in controlled execution environments where the key architecture supplements and strengthens environmental security controls.",
+      "detail": "Controlled environment means the execution context provides security controls that the key architecture operates within and extends. The combination of environmental security and cryptographic custody creates defense in depth. Controlled environments provide the hardware security modules and trusted execution facilities that key management requires. The environment and key architecture are complementary controls that together provide stronger custody than either alone."
+    },
+    "Boundary": {
+      "value": "Dedicated tenant",
+      "memo": "Custody-by-key protects a dedicated tenant boundary where the key architecture prevents cross-tenant access at the cryptographic level.",
+      "detail": "Dedicated tenant means the key-controlled system operates in isolated infrastructure not shared with other parties. The boundary is enforced by both physical tenant isolation and cryptographic access control through key custody. This dual enforcement is stronger than either tenant isolation or key control alone. Dedicated tenant with key-based boundary enforcement is the custody architecture that most directly demonstrates digital custody superiority."
+    },
+    "Deployment Surface": {
+      "value": "Restricted users",
+      "memo": "Custody-by-key restricts the deployment surface to authorized key holders, architecturally preventing access by anyone without valid cryptographic credentials.",
+      "detail": "Restricted users means only parties with valid cryptographic authorization can access the system's deployment surface. The restriction is enforced by the key architecture itself rather than by organizational access lists or physical building access. This architectural restriction is more reliable than administrative access control because it resists insider threats and credential sharing. Restricted deployment through key custody demonstrates stronger access control than any physically-mediated restriction."
+    },
+    "Physical Infrastructure": {
+      "value": "Dedicated cluster",
+      "memo": "Custody-by-key ideally runs on dedicated cluster infrastructure where the key architecture controls access to purpose-built isolated compute resources.",
+      "detail": "Dedicated cluster means the key-controlled system runs on infrastructure not shared with other workloads or tenants. The physical dedication provides hardware-level isolation that the key architecture supplements with cryptographic access control. Together, dedicated infrastructure and key custody create the strongest practical custody architecture available. The dedicated cluster pick reinforces that key custody is most effective when combined with physical infrastructure isolation."
+    },
+    "Model Sourcing": {
+      "value": "Single-provider",
+      "memo": "Custody-by-key typically protects a single-provider model where the key architecture controls access to one specific provider's capability cleanly.",
+      "detail": "Single-provider sourcing keeps the custody architecture clean by limiting the key management scope to one model source. Multi-provider orchestration would require key management across multiple trust boundaries and custody domains. Single-provider focus allows the custody-by-key demonstration to remain architecturally pure and practically clear. The model sourcing simplicity reinforces that this stance is about custody architecture, not about model selection."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Custody-by-key operates on committed compute capacity where the key architecture controls access to reserved and dedicated processing resources.",
+      "detail": "Committed capacity means the compute resources are reserved and dedicated rather than shared or spot-allocated. The key architecture controls access to these committed resources, preventing unauthorized use even by the infrastructure provider. Committed capacity with key-gated access provides stronger custody than committed capacity with administrative access controls alone. The compute custody through key control demonstrates the principle at the infrastructure layer."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Custody-by-key can operate with a preferred cloud partner where the key architecture provides custody independently of the cloud provider's own controls.",
+      "detail": "Preferred partner dependency means the key holder uses a specific cloud provider but maintains custody through cryptographic controls independent of the provider. The key architecture provides a custody layer that operates above and independently of the cloud provider's own access management. This independence means the key holder maintains custody even if the cloud provider is compromised or coerced. Preferred partner with independent key custody demonstrates that digital custody can transcend infrastructure dependency."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Custody-by-key is hardware-agnostic but typically operates on standard merchant Nvidia GPUs where the custody layer is purely software-architectural.",
+      "detail": "Nvidia GPU merchant hardware is the standard infrastructure for most AI workloads where key-based custody is implemented. The custody architecture operates at the software and cryptographic layer, independent of the specific accelerator hardware below it. Hardware-agnosticism is a strength of key-based custody because it works regardless of the silicon stack. The merchant GPU baseline shows that custody-by-key does not require specialized hardware for its custody properties."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Custody-by-key operates with standard market access to compute supply because the custody architecture is independent of supply-chain control dynamics.",
+      "detail": "Market access means the key holder procures compute through normal commercial channels without requiring special allocation rights. The custody architecture's strength does not depend on privileged supply access because the control is cryptographic not physical. This demonstrates that strong custody can be achieved through architecture alone without requiring strategic supply position. Market access is the supply baseline that makes key-based custody practically accessible to any organization."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "The custody-by-key architecture faces standard accelerator supply constraints but its custody properties are independent of any particular hardware bottleneck.",
+      "detail": "Accelerator supply is the standard bottleneck affecting all AI workloads including those protected by key-based custody. The custody architecture's strength is independent of supply constraints because key control operates at the software layer above hardware. This independence means custody-by-key provides consistent custody properties regardless of supply chain dynamics. The silicon bottleneck does not affect the fundamental architectural argument about cryptographic versus physical custody."
+    },
+    "Substitutability": {
+      "value": "Expensive switch",
+      "memo": "Custody-by-key creates moderate switching costs because key infrastructure, ceremonies, and integration require significant effort to replicate or migrate.",
+      "detail": "Expensive switch means migrating custody-by-key infrastructure to a new environment requires re-establishing key management systems and trust relationships. Hardware security modules, key ceremonies, integration code, and audit infrastructure all need reconstruction. The switching cost is meaningful but not captive because the cryptographic principles are portable even if implementation is not. Expensive switching reflects the practical investment in key management infrastructure rather than fundamental architectural lock-in."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "Custody-by-key operates at the application layer, providing custody through cryptographic architecture without requiring control of the underlying hardware stack.",
+      "detail": "Application-only integration means the key-based custody operates above the infrastructure layer without requiring control of hardware or middleware. This is a strength because it makes key-based custody achievable without full-stack integration investment. The custody properties are provided purely through software and cryptographic architecture at the application boundary. Application-layer custody demonstrates that strong control can be achieved through architecture without vertical integration."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "Custody-by-key distributes access through API-gated channels where each API call requires cryptographic authorization from the key holder.",
+      "detail": "API/app distribution means system access is mediated through programmatic interfaces that require cryptographic key authorization. Each API call is individually authorized, logged, and attributable to a specific key and holder identity. API distribution with key authentication provides the cleanest expression of custody-by-key at the access boundary. The distribution channel is where key custody becomes operationally real and economically meaningful."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "Custody-by-key infrastructure typically resides in domestic jurisdiction though the cryptographic custody properties transcend any particular territorial location.",
+      "detail": "Domestic jurisdiction means the key management infrastructure is located within the custodian's home jurisdiction. However, the cryptographic custody properties are jurisdiction-independent because control is by key rather than by territorial authority. This creates an interesting tension between legal jurisdiction claims and practical cryptographic control. Domestic supply jurisdiction is a practical choice that does not limit the architectural independence of key-based custody."
+    },
+    "Observability": {
+      "value": "Independently verifiable",
+      "memo": "Custody-by-key enables independently verifiable observability through cryptographic audit trails that any authorized party can verify without trusting the custodian.",
+      "detail": "Independently verifiable observability means third parties can confirm access patterns, authorization events, and data operations through cryptographic evidence. The verification is mathematical rather than trust-based, making it stronger than declared or even auditable observability. Cryptographic audit trails cannot be retroactively falsified without detectable compromise of the signing keys. Independent verifiability through key-based custody is one of the strongest practical arguments for digital over physical custody."
+    },
+    "Evaluation": {
+      "value": "Benchmarked",
+      "memo": "Custody-by-key architectures can be benchmarked against established cryptographic security standards and key management best practices for evaluation.",
+      "detail": "Benchmarked evaluation means the custody architecture can be tested against established cryptographic standards and security baselines. NIST key management guidelines, HSM certification standards, and industry benchmarks provide objective evaluation criteria. The evaluation is more rigorous than self-declaration because cryptographic properties are mathematically verifiable. Benchmarked evaluation demonstrates that key-based custody provides measurable and comparable security assurance."
+    },
+    "Interpretability": {
+      "value": "Legible trace",
+      "memo": "Custody-by-key produces legible cryptographic traces where every access authorization, data operation, and custody event is transparently recorded.",
+      "detail": "Legible trace means every custody-relevant event produces a human-readable and machine-verifiable audit record. The trace includes who authorized what access, when, for what purpose, and what operations were performed during the session. This legibility is architecturally guaranteed by the key infrastructure rather than depending on voluntary logging. Legible traces through key custody provide stronger accountability than any physical custody arrangement can achieve."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Custody-by-key relies on human review of access authorization decisions, with key management ceremonies providing structured review opportunities.",
+      "detail": "Human review means key management ceremonies, access authorization decisions, and custody transfer events are reviewed by responsible humans. The key architecture provides natural review points at key issuance, rotation, revocation, and recovery events. Human review of key management is more structured and auditable than human review of physical access control decisions. The alignment method reinforces that custody-by-key is about deliberate human-governed architectural control."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Custody-by-key requires enterprise-grade security posture with hardware security modules, key ceremony protocols, and professional key management operations.",
+      "detail": "Enterprise-grade security means professional key management with HSM protection, documented ceremonies, and trained operational personnel. This posture is appropriate for commercial confidential data and provides strong custody without requiring national-defense-grade investment. Enterprise-grade key management is the practical sweet spot where custody-by-key provides strong protection at reasonable cost. The security posture matches the data sensitivity and adversary model of the typical custody-by-key deployment."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Custody-by-key defends against criminal and state-adjacent adversaries who lack the resources for sustained state-level cryptographic attack campaigns.",
+      "detail": "Criminal/state-adjacent adversary model means the custody architecture must resist sophisticated criminal actors and their state-adjacent allies. This threat level drives the requirement for HSM-protected keys, strong key management ceremonies, and comprehensive audit trails. The adversary model is below state-actor because the data sensitivity does not typically warrant state-level attack investment. Criminal/state-adjacent is the practical adversary model where enterprise-grade key custody provides adequate protection."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Custody-by-key provides monitored weight security where model weight access is logged, authorized, and attributable through the key management infrastructure.",
+      "detail": "Monitored weight security means all access to model weights is cryptographically authorized and comprehensively logged. The monitoring is automatic, tamper-evident, and independently verifiable through the key infrastructure. This is stronger than physical monitoring because cryptographic logs cannot be silently altered after the fact. Monitored weight security through key custody demonstrates the practical advantage of digital custody for AI model weight protection."
+    },
+    "Access Control": {
+      "value": "Multi-key signoff",
+      "memo": "Multi-key signoff is the defining access control mechanism, requiring multiple independent key holders to authorize consequential access or custody transfer operations.",
+      "detail": "Multi-key signoff means no single party can access the protected system without independent authorization from multiple key holders. This is the strongest access control mechanism available and the most direct expression of the custody-by-key architecture. Multi-key signoff prevents insider threats, single-point compromise, and unilateral access more reliably than any physical control. The multi-key requirement is the access control expression of the principle that architecture enforces custody."
+    },
+    "Monitoring Scope": {
+      "value": "Tool activity",
+      "memo": "Custody-by-key monitors tool activity through cryptographic logging of every key-authorized operation and access event in the system.",
+      "detail": "Tool activity monitoring means every operation performed through key-authorized access is cryptographically logged and attributable. The monitoring scope covers what was accessed, what operations were performed, and which key authorized each action. This creates a complete audit trail that is tamper-evident and independently verifiable. Tool activity monitoring through key infrastructure provides stronger accountability than physical access monitoring."
+    },
+    "Containment": {
+      "value": "Dedicated enclave",
+      "memo": "Custody-by-key operates within a dedicated enclave where cryptographic boundaries supplement physical containment to create defense-in-depth custody.",
+      "detail": "Dedicated enclave means the key-controlled system operates in a cryptographically and physically isolated execution environment. The enclave combines hardware-enforced isolation with software-enforced key-based access control for maximum containment. This defense-in-depth approach provides stronger containment than either physical or cryptographic isolation alone. Dedicated enclave containment with key-based access control is the practical expression of maximum digital custody."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Custody-by-key enables targeted capability restriction where the key architecture can selectively enable or disable specific system functions granularly.",
+      "detail": "Targeted restriction means the key architecture can encode fine-grained capability permissions into the authorization tokens themselves. Different keys can authorize different capability levels, enabling precise control over what each key holder can do. This granularity exceeds what physical access control can achieve because physical presence is binary while key permissions are programmable. Targeted restriction through key design demonstrates the superior precision of cryptographic custody architecture."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Custody-by-key operates in civilian use contexts where the custody architecture protects commercial and personal data without military or dual-use implications.",
+      "detail": "Civilian use class means the custody architecture is applied to commercial, enterprise, and personal data protection applications. This keeps the stance focused on the fundamental custody argument without introducing military or national security complexity. The civilian use case is where custody-by-key provides its most broadly applicable and commercially relevant demonstration. Civilian use class shows that strong architectural custody is not reserved for military or intelligence applications."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Custody-by-key protects against information-channel harm where unauthorized access could leak confidential data, trade secrets, or personal information.",
+      "detail": "Information harm channel means the primary risk is unauthorized disclosure of protected data rather than physical or kinetic consequences. The key architecture prevents this disclosure by making data access cryptographically dependent on key possession. Information-channel protection is where custody-by-key most directly demonstrates its superiority over physical custody controls. The harm channel determines the appropriate security investment level and justifies enterprise-grade key management."
+    },
+    "Proliferation": {
+      "value": "Contained",
+      "memo": "Custody-by-key contains proliferation by making unauthorized copying dependent on key compromise rather than mere physical access to storage media.",
+      "detail": "Contained proliferation means data and capability cannot proliferate beyond authorized key holders regardless of physical access. Even if storage media is stolen, encrypted data remains inaccessible without the cryptographic key. This is a fundamental advantage over physical custody where access to the medium grants access to the data. Contained proliferation through key custody demonstrates why cryptographic custody is structurally superior to physical custody."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Custody-by-key is typically implemented by a single firm managing its own key infrastructure and custody architecture without external coalition governance.",
+      "detail": "Single firm coalition means one organization controls the key management infrastructure and makes custody architecture decisions. This simplicity enables clean implementation without the coordination overhead of multi-party governance. Single-firm custody-by-key provides the clearest demonstration of the architectural principle. Coalition complexity would obscure the fundamental architectural argument without adding to the custody demonstration."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "Custody-by-key in civilian contexts operates without formal nonproliferation obligations, relying on the architecture itself for access control.",
+      "detail": "No nonproliferation regime means the custody architecture provides its own access control without relying on external regulatory enforcement. The key architecture is self-enforcing because cryptographic access control operates independently of external regimes. This demonstrates that architectural custody can provide strong control without regulatory mandate or international cooperation. The absence of external regime makes the architectural strength of key-based custody more clearly visible."
+    },
+    "Data Value Dynamics": {
+      "value": "Use-specific",
+      "memo": "Custody-by-key protects data with use-specific value dynamics where the key architecture can enforce different access levels based on use context.",
+      "detail": "Use-specific value means the data's value depends on how it is used, and the key architecture can encode use-specific permissions. Different keys can authorize different uses of the same data, enabling precise value-aligned access control. This granularity demonstrates that key-based custody enables value-sensitive access management that physical custody cannot provide. Use-specific value dynamics make the case for architecturally sophisticated custody over simple possession-based control."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Custody-by-key typically operates under fixed input pricing where key management infrastructure cost is a predictable capital and operational investment.",
+      "detail": "Fixed input price means the cost of key management infrastructure is predictable and plannable as a capital investment. HSM procurement, key ceremony costs, and operational personnel are budgeted expenses rather than variable market-rate charges. This predictability makes custody-by-key architecturally and financially attractive for enterprise planning purposes. Fixed pricing for custody infrastructure enables the investment case for stronger architectural custody."
+    },
+    "Output Allocation": {
+      "value": "Allocated",
+      "memo": "Custody-by-key enables explicit output allocation where the key architecture can control who receives system outputs and under what authorization conditions.",
+      "detail": "Allocated output means the system's outputs are directed to specific authorized recipients through key-controlled distribution. The key architecture can enforce output allocation policies that contractual terms alone could not reliably implement. Each output is attributable to a specific authorized session and key holder through the audit trail. Allocated output through key custody demonstrates architectural enforcement of allocation that exceeds contractual enforcement reliability."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "In custody-by-key arrangements, the processor captures derived value within the key-controlled boundary, with the key architecture controlling value flow.",
+      "detail": "Processor captures means derived value accrues to the party controlling the processing within the key-managed boundary. The key architecture determines who can process and therefore who captures derivative value from the protected data. This control over value capture through architecture is stronger than contractual value allocation that depends on enforcement. Processor capture within key-controlled custody demonstrates the economic power of architectural control over data processing."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Allocated",
+      "memo": "Custody-by-key enables explicit risk allocation where the key architecture creates clear custody boundaries that determine liability and responsibility.",
+      "detail": "Allocated risk means the key custody architecture creates clear, auditable boundaries that determine who bears responsibility for data protection. The architectural clarity of key-based custody enables more precise risk allocation than physical custody arrangements. Insurance, liability, and compliance obligations can be precisely mapped to key custody responsibilities. Allocated risk through architectural custody demonstrates that clear technical boundaries enable clearer legal and financial accountability."
+    },
+    "Capital": {
+      "value": "Project",
+      "memo": "Custody-by-key requires project-level capital investment in key management infrastructure, hardware security modules, and operational security procedures.",
+      "detail": "Project capital means the key management infrastructure requires dedicated investment in HSMs, ceremony facilities, and trained personnel. This is more than routine operating expenditure but less than strategic build-level investment. The project capital requirement makes custody-by-key accessible to enterprises serious about data protection. Project-level investment in key custody infrastructure provides returns through stronger security, compliance, and commercial positioning."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "Custody-by-key requires multi-year commitment because key infrastructure, trust relationships, and operational procedures take time to establish and mature.",
+      "detail": "Multi-year commitment means the key management infrastructure operates over extended timescales with planned key rotation and system lifecycle. Key ceremonies, trust hierarchies, and operational procedures improve with institutional experience over years. The multi-year tenor reflects that custody-by-key is an institutional capability, not a one-time deployment decision. Long-term commitment to key management is necessary for the custody architecture to provide its full security benefits."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "Custody-by-key typically protects product-line revenue by securing the data assets and capability access that underpin specific business operations.",
+      "detail": "Product-line dependency means the key-protected data and capability directly support specific revenue-generating products or services. The custody architecture protects the assets that make these products viable and commercially defensible. Key custody failure would compromise the specific product line that depends on the protected data. Product-line revenue dependency justifies the investment in enterprise-grade key management infrastructure."
+    },
+    "Switching Cost": {
+      "value": "Data migration cost",
+      "memo": "Custody-by-key creates data migration switching costs because re-encrypting, re-keying, and re-establishing trust hierarchies require significant effort.",
+      "detail": "Data migration cost means switching key management infrastructure requires re-encrypting protected data under new keys and trust hierarchies. This involves re-establishing hardware security module configurations, key ceremonies, and integration points across the system. The migration cost is substantial but manageable with planning, making it a real but not captive switching barrier. Data migration cost for key custody reflects the practical investment in cryptographic infrastructure rather than fundamental lock-in."
+    },
+    "Exit": {
+      "value": "Exportable",
+      "memo": "Custody-by-key enables exportable exit where protected data can be re-encrypted and transferred to new custody arrangements through controlled key exchange.",
+      "detail": "Exportable exit means the protected data can be extracted from the current custody arrangement through controlled re-encryption and key transfer. This is a significant advantage of key-based custody over weight-entangled arrangements where the capability cannot be cleanly separated. The key architecture enables planned exit through key exchange ceremonies with full audit trail and chain of custody. Exportable exit demonstrates that custody-by-key provides stronger exit options than most alternative custody architectures."
+    },
+    "Acceptance Basis": {
+      "value": "Process-required",
+      "memo": "Cryptographic custody is process-legitimacy; trust derives from verifiable mathematical mechanism, not outcomes or institutions.",
+      "detail": "Trust comes from demonstrable mathematical process where the cryptographic proof itself constitutes the acceptance basis. No institutional authority or commercial outcome can substitute for verifiable key control. The system either produces valid cryptographic attestation or it fails entirely. Process-legitimacy is not merely preferred but is the only coherent acceptance basis for custody operations."
+    }
+  }
+}

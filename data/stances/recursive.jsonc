@@ -1,0 +1,367 @@
+{
+  "id": "recursive",
+  "name": "Recursive Pricing",
+  "desc": "Derived outputs become inputs for the next generation, so pricing based on first use misses the compounding value. The original price structure cannot capture value chains it did not anticipate, and renegotiation lags behind the recursion.",
+  "picks": {
+    "Capability Class": {
+      "value": "Tool-grade",
+      "memo": "Recursive pricing typically involves tool-grade models whose outputs are commercially valuable enough to feed back into production pipelines as inputs.",
+      "detail": "The model must be capable enough to produce outputs with standalone commercial value. Narrow models rarely generate outputs worth reusing. Tool-grade capability is the threshold where derived outputs become commercially interesting inputs. The recursive pricing problem does not arise until the model's outputs are good enough to substitute for or enhance the original licensed data."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Recursive pricing problems intensify across multiple domains because derived outputs from one domain become inputs for models in another domain.",
+      "detail": "Cross-domain value chains create recursive loops that single-domain pricing cannot capture. A model trained on financial data produces analytics that improve healthcare research, which generates insights feeding back into financial modelling. Multi-domain breadth multiplies the recursive paths. Pricing structures designed for one domain cannot track value as it crosses domain boundaries."
+    },
+    "Capability Trajectory": {
+      "value": "Rapid",
+      "memo": "Rapid capability improvement accelerates recursive pricing failure because each model generation produces higher-quality outputs that are more valuable as inputs.",
+      "detail": "As models improve, their outputs become better substitutes for original training data. Rapid trajectory means pricing agreements negotiated for one capability level become inadequate as the model improves. The gap between contracted price and actual value widens with each capability jump. Pricing structures cannot keep pace with capability trajectories that compress improvement into months."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted research accelerates the discovery of new derived-value pathways, revealing recursive pricing gaps faster than commercial teams can renegotiate terms.",
+      "detail": "AI tools identify patterns in data that humans would miss, including unexpected correlations between datasets that create new derived-value opportunities. AI-assisted research means the model itself helps discover why the pricing is wrong. This self-revealing quality of AI research creates a feedback loop where capability improvement exposes pricing inadequacy. Research automation compounds the recursive problem."
+    },
+    "Unhobbling": {
+      "value": "Tool-call enabled",
+      "memo": "Tool-call-enabled models can chain outputs through multiple processing steps, creating derived-value pathways that simple inference models cannot produce.",
+      "detail": "Tool-call capability allows the model to query databases, run analyses, and combine results in multi-step workflows. Each step can produce derived outputs with independent commercial value. The pricing structure may cover the initial query but not the derived chain. Tool-call enablement is where recursive value creation begins to outrun linear pricing structures."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Many model copies across an organisation multiply the recursive pricing problem because each copy independently generates derived outputs that feed back into the system.",
+      "detail": "Each deployed copy produces outputs that can enter the organisation's data pipeline. Many copies running simultaneously create parallel derived-value streams that compound. The pricing structure accounts for one model's usage but not for the system-level effect of many copies generating reusable outputs. Scale magnifies the gap between contracted price and actual value extraction."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Faster-than-human processing speed means the model generates derived outputs faster than commercial teams can track value creation or update pricing terms.",
+      "detail": "Machine-speed output generation outpaces the human commercial cycle of recognition, negotiation, and contract amendment. By the time a pricing gap is identified, the model has already produced millions of derived outputs. Speed asymmetry is structural: the model creates value at machine speed while contracts update at human speed. This temporal mismatch is core to recursive pricing failure."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Recursive pricing is a cognitive and commercial problem rather than a physical-world issue, arising from how data and model outputs flow through digital value chains.",
+      "detail": "The recursion happens in data pipelines and analytical workflows, not in physical systems. Cognitive outputs become cognitive inputs. The value chain is entirely digital and informational. Physical-world extension would add complexity but the recursive pricing problem is already fully present in the cognitive domain. The challenge is tracking value through digital derivation chains."
+    },
+    "Role": {
+      "value": "Copilot/worker",
+      "memo": "The model operates as a copilot or worker producing substantial analytical outputs that users then incorporate into further work, creating the derivation chains that break.",
+      "detail": "Copilot-level integration means the model's outputs are substantive contributions to the user's work product. Unlike informational tools whose outputs are consumed and forgotten, copilot outputs are incorporated, saved, and reused. Worker-level production creates artifacts with independent commercial value. The role determines whether outputs accumulate as reusable assets or dissipate as consumed information."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "Recursive pricing involves informational outputs whose value compounds through reuse, not through the model taking binding actions in external systems.",
+      "detail": "The model produces information: analyses, predictions, summaries, and synthetic data. Each informational output can become an input for the next processing cycle. Informational actuation is where recursive value creation is purest because information can be copied and reused without degradation. The non-rivalrous nature of informational output is what enables the recursive loop."
+    },
+    "Autonomy": {
+      "value": "Human-in-loop",
+      "memo": "Human users in the loop select which model outputs to retain and reuse, inadvertently creating the curated derived datasets that compound recursive value.",
+      "detail": "Human curation adds value to model outputs by selecting the best, correcting errors, and combining results. This human-curated selection process transforms raw model outputs into high-quality derived data. The human in the loop does not intend to create a recursive pricing problem but their curation labour makes derived outputs more valuable than raw model outputs. Human selection is an unrewarded value-add."
+    },
+    "Delegated Authority": {
+      "value": "Recommend only",
+      "memo": "The model recommends analyses and outputs that human users then choose to incorporate into production workflows, creating derived assets through human-mediated selection.",
+      "detail": "Recommendation authority means the model suggests but humans decide. Each human decision to incorporate a recommendation into production work creates a derived artifact. The recommendation role masks the value creation: the model's contribution appears advisory but its outputs become permanent production assets. Recommend-only authority does not prevent recursive value accumulation."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Gated tool access allows the model to query data sources and run analyses within controlled boundaries, but each tool interaction can produce derived outputs with.",
+      "detail": "Each gated tool interaction produces results that may be more valuable than the inputs. A model querying a licensed database produces analytical outputs that the database licence may not have priced for. Gated access controls which tools the model reaches but does not control the value of what comes back. The pricing gap sits at the boundary between input access and output value."
+    },
+    "Response / Intervention Capability": {
+      "value": "Manual stop",
+      "memo": "Manual intervention can stop the model from producing more derived outputs, but value already created through recursive derivation cannot be recalled or unpriced.",
+      "detail": "Stopping future production does not address the value already extracted through recursive derivation. Manual stop is a forward-looking control that cannot retroactively correct pricing failures. By the time someone identifies the recursive pricing problem, the derived value has already accumulated. Manual stop is the available intervention but it arrives too late to prevent the pricing gap."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Enterprise-level users deploy models at scale where recursive pricing failures become material commercial issues affecting contract economics and supplier relationships.",
+      "detail": "Enterprise deployment creates the volume where recursive pricing becomes significant. Individual users producing occasional derived outputs do not create material pricing gaps. Enterprise-scale deployment with systematic reuse of model outputs across business units creates compounding value that the input price did not anticipate. Enterprise is the command level where recursive pricing becomes a commercial problem."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Pricing renegotiations follow product-cycle tempo while recursive value creation operates continuously, ensuring the pricing structure always lags the value reality.",
+      "detail": "Commercial contracts renegotiate annually or at renewal. Recursive value creation happens with every model invocation. The tempo mismatch means the pricing structure is always out of date. By the time a pricing review occurs, months of unpriced recursive value creation have already accumulated. Product-cycle tempo is too slow for the continuous value creation that recursive derivation produces."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Product teams make deployment decisions that create recursive value chains without recognising the pricing implications until the commercial team identifies the gap.",
+      "detail": "The product team optimises for capability and user experience, not for pricing structure integrity. Decisions to retain model outputs, feed them back as inputs, and build derived datasets are product decisions made without commercial review. Product-team authority over deployment creates the recursive loops. Commercial and legal teams discover the pricing problem after the product architecture has already created it."
+    },
+    "Permission": {
+      "value": "Purpose-limited",
+      "memo": "Purpose-limited permission authorises specific uses of licensed data but does not anticipate that model outputs derived from that data will re-enter the processing pipeline.",
+      "detail": "The licence permits using data for defined purposes. Derived outputs from those purposes may not be covered by the original permission. When derived outputs become inputs for the next generation, the purpose chain extends beyond what was licensed. Purpose limitation creates a legal ambiguity: the original use was permitted but the recursive reuse may not be. The permission boundary is where pricing and rights intersect."
+    },
+    "Regulatory Posture": {
+      "value": "Permissive",
+      "memo": "Recursive pricing failures thrive in permissive regulatory environments where few constraints exist on how derived outputs can be reused as inputs for further processing.",
+      "detail": "Permissive regulation allows derived outputs to flow freely through processing pipelines without regulatory checkpoints. No regulatory requirement forces disclosure of recursive value creation or sharing of derived-output value with original data providers. Permissive posture means the market, not the regulator, must solve recursive pricing. The market has not yet developed pricing mechanisms adequate to the problem."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "Licensed data enters the model under pricing terms that assumed one-time processing, not recursive reuse of derived outputs as new training or inference inputs.",
+      "detail": "The licence priced the data for its input value, not for the recursive output value the model would generate. Licensed availability creates a contractual relationship that the recursive pricing problem stresses. The data provider licensed access expecting the value to flow one way. Recursive derivation means value flows in circles, and the licence only priced the first pass."
+    },
+    "Provenance": {
+      "value": "Mixed/declared",
+      "memo": "Derived outputs carry mixed provenance because they blend licensed inputs with model processing and prior derived data, making value attribution increasingly difficult.",
+      "detail": "Each recursive pass mixes the provenance of original data with model-generated content and previously derived outputs. After several recursion cycles, the contribution of any single original data source becomes untraceable. Mixed provenance is the mechanism that makes recursive pricing intractable: you cannot price what you cannot attribute. Provenance decay accelerates with each derivation layer."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "The model operates as a hosted service where the processor controls the weights and the recursive value chain, while the data provider has no visibility.",
+      "detail": "Hosted-only access means the data provider cannot inspect how their data contributes to the model's outputs or how those outputs re-enter processing pipelines. The processor controls the infrastructure where recursive derivation occurs. Hosted arrangement creates information asymmetry: the processor sees the recursive value while the data provider sees only the input price. Rights without visibility is a structural disadvantage."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "Recursive pricing problems occur within domestic territory where a single legal framework governs but provides no specific mechanism for pricing recursive derivation.",
+      "detail": "Domestic scope simplifies the legal analysis but does not solve the pricing problem. A single jurisdiction's contract and intellectual property law applies. However, no established legal doctrine specifically addresses recursive value chains created by AI processing. Domestic territory means the problem is legally coherent but commercially unresolved. Cross-border recursion would add jurisdictional complexity to the pricing problem."
+    },
+    "Data Subject Exposure": {
+      "value": "No personal data",
+      "memo": "Recursive pricing is primarily a commercial data problem involving market data, content, and analytics rather than personal data with privacy constraints.",
+      "detail": "The recursive pricing problem is cleanest with commercial data where value attribution is the central issue rather than privacy. Market data, content libraries, and analytical datasets are the typical inputs. Personal data would add privacy complications but the recursive pricing problem exists independently of data protection. The commercial dynamics are visible without privacy overlay."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Commercially confidential data creates the sharpest recursive pricing problem because the derived value is commercially significant and the data provider has competitive interest.",
+      "detail": "When commercially confidential data enters the model, the derived outputs may contain commercially valuable insights that the data provider did not intend to share. Confidential data creates the highest-stakes recursive pricing problem because the value at stake is competitively significant. The data provider's commercial secrets may be partially reflected in derived outputs that the processor then monetises."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Recursive pricing is a commercial contract problem that does not typically involve export-controlled technology or government-regulated materials.",
+      "detail": "The recursive pricing stance operates in commercial markets where the constraint is contractual pricing, not government control regimes. Export control and classification are not relevant to the core pricing dynamic. The absence of control issues means the problem is purely commercial, making it solvable through contract design if the parties recognise the recursion. No regulatory intervention is needed."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "Recursive pricing failure is most acute in training because model weights permanently absorb the value of input data, and derived outputs from training feed back.",
+      "detail": "Training creates the deepest recursive loop because the model's capabilities permanently reflect the training data. Derived outputs from a trained model can become training data for the next generation. Each training cycle compounds the value extracted from original inputs. Training-mode processing is where pricing failure is most severe because the value absorption is permanent and the recursion is generational."
+    },
+    "Derivation": {
+      "value": "Recursive derivation",
+      "memo": "This is the defining dimension: derived outputs become inputs for subsequent processing, creating recursive derivation chains that compound beyond any linear pricing model.",
+      "detail": "Recursive derivation is the core mechanism. Model outputs from round one become training data for round two. Round two's outputs feed round three. Each round adds value that the original input price did not capture. The derivation chain can extend indefinitely, with each layer further diluting the provenance of original inputs. Recursive derivation is what makes this pricing problem structurally different from ordinary licensing."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Derived value persists in model weights permanently, meaning the recursive pricing gap compounds with each training generation and cannot be unwound by deleting data.",
+      "detail": "Weight entanglement means the value extracted from original data is permanently embedded in the model's capabilities. Deleting the original data does not remove the derived capability. Each recursive training cycle deepens the entanglement. Weight persistence is what makes the recursive pricing problem irreversible: you cannot reprice the past because the value has already been absorbed into the weights."
+    },
+    "Execution / Residency Environment": {
+      "value": "Public cloud",
+      "memo": "Public cloud execution enables recursive processing at scale because elastic compute allows continuous derivation without infrastructure constraints slowing the value extraction.",
+      "detail": "Cloud infrastructure removes the compute bottleneck that might otherwise limit recursive derivation. The processor can scale derivation pipelines on demand, accelerating value extraction beyond what fixed infrastructure would permit. Public cloud execution makes recursive pricing failure worse by removing the natural throttle of compute scarcity. Unlimited compute means unlimited recursion speed."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Shared processing boundaries allow derived outputs from one customer's data to influence models that serve other customers, multiplying the recursive value pathways.",
+      "detail": "In shared environments, derived outputs from one data provider's licensed data can influence models used by other customers. The value crosses boundaries invisibly. Shared boundaries mean the recursive pricing problem is not contained to a single data provider's contract. Value leaks across all customers in the shared environment. Shared boundaries make individual pricing agreements structurally incomplete."
+    },
+    "Deployment Surface": {
+      "value": "Customer-facing",
+      "memo": "Customer-facing deployment means derived outputs reach end users who generate feedback and interaction data that feeds back into the recursive value chain.",
+      "detail": "Customer-facing deployment creates the feedback loop that completes the recursive circuit. Users interact with model outputs, generating preference data, corrections, and usage patterns. This interaction data becomes training signal for the next model generation. Customer-facing deployment is where the recursion closes the loop: licensed data produces outputs, outputs generate interactions, interactions become training data."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Commercial cloud infrastructure enables the processor to scale recursive derivation elastically without the capital constraints that dedicated infrastructure would impose.",
+      "detail": "Cloud infrastructure is the enabler of unconstrained recursion. The processor scales compute to maximise derivation throughput. Capital constraints do not limit the speed of recursive value extraction. Commercial cloud makes the economics of recursion favourable for the processor while the data provider's price remains fixed. Infrastructure elasticity amplifies the pricing asymmetry."
+    },
+    "Model Sourcing": {
+      "value": "Single-provider",
+      "memo": "Single-provider model sourcing means one processor controls the entire recursive derivation pipeline, concentrating the pricing advantage in one party.",
+      "detail": "The single provider trains the model, produces derived outputs, feeds them back as training data, and trains the next generation. The entire recursive loop runs within one organisation's control. Single-provider concentration means no external party has visibility into the recursion. The data provider sees only the input contract while the processor sees the full recursive value chain."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Committed compute capacity ensures the processor can sustain continuous recursive derivation without interruption, deepening the pricing gap with each cycle.",
+      "detail": "Committed capacity means the processor has guaranteed compute for ongoing training runs. The derivation pipeline runs continuously rather than in sporadic bursts. Committed capacity enables systematic recursive value extraction. The processor's compute commitment is an investment in recursive value capture that the data provider's fixed input price does not reflect."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Preferred cloud partnerships give the processor pricing advantages on compute that further widen the gap between the processor's value capture and the data provider's input.",
+      "detail": "Cloud pricing discounts through preferred partnerships reduce the processor's cost of recursive derivation. Lower compute costs make additional derivation rounds economically attractive. The data provider's input price was set without knowledge of the processor's cloud economics. Preferred-partner compute pricing is an invisible factor that makes recursive value extraction more profitable for the processor."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Standard merchant GPU infrastructure supports the recursive training pipeline without requiring specialised hardware, keeping the processor's barrier to recursion low.",
+      "detail": "Widely available GPU infrastructure means the processor faces no hardware barrier to running additional derivation cycles. Each recursive training round uses the same commodity hardware. The low infrastructure barrier means recursive derivation is limited only by economics, not by hardware scarcity. Merchant GPU availability enables any well-funded processor to pursue recursive value extraction."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Market access to compute means the processor can scale recursive derivation by purchasing more hardware, with no strategic supply constraints limiting value extraction.",
+      "detail": "The processor acquires compute through normal market channels. No strategic gatekeeper limits the processor's ability to scale recursive training. Market access means the speed of recursive value extraction is limited only by the processor's budget, not by supply constraints. The data provider has no leverage through the compute supply chain to slow recursive derivation."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Accelerator supply constraints occasionally throttle recursive derivation speed, providing a brief natural brake on the rate of recursive value extraction.",
+      "detail": "GPU scarcity can temporarily slow the processor's recursive training pipeline. When accelerator supply tightens, derivation cycles lengthen and fewer recursive rounds occur per period. However, supply constraints are temporary and the processor queues recursive work for execution when capacity becomes available. Accelerator bottlenecks delay but do not prevent recursive pricing failure."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "Data providers become locked in because their data's value has been absorbed into model weights through recursive derivation, making switching or withdrawal meaningless.",
+      "detail": "The data provider cannot withdraw meaningfully because their data's contribution is already entangled in model weights across multiple recursive generations. Switching to a different processor does not recall the value already extracted. Lock-in is created not by contract terms but by the irreversible nature of recursive weight entanglement. The data provider is locked into a pricing structure that structurally undervalues their contribution."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "The processor's stack integration from data ingestion through training to deployment creates a seamless recursive pipeline that the data provider cannot observe or influence.",
+      "detail": "Stack integration means the processor controls every stage where recursive value creation occurs. Data ingestion, training, output generation, and output recycling all happen within the processor's integrated stack. The data provider interacts only with the ingestion endpoint. Stack integration makes recursive derivation invisible to external parties and concentrates all derived value within the processor."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "API distribution channels deliver model outputs to customers whose interactions generate feedback data that completes the recursive loop back into training.",
+      "detail": "API distribution is the channel through which recursive value creation reaches end users. Each API call produces outputs that may be retained and reused. User interactions through the API generate preference data and corrections. The API channel is both the value-delivery mechanism and the data-collection mechanism that feeds the next recursive cycle. Distribution and data collection are one channel."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "Domestic supply jurisdiction means the recursive pricing problem operates within a single legal framework that has not yet developed doctrine for recursive value attribution.",
+      "detail": "The processor, data provider, and end users operate within one jurisdiction. Domestic scope means contract law and intellectual property doctrines apply consistently but have no specific provisions for recursive AI value chains. No court has established how to price recursive derivation. Domestic jurisdiction provides legal coherence without legal solutions for the novel pricing problem."
+    },
+    "Observability": {
+      "value": "Opaque",
+      "memo": "The recursive derivation pipeline is opaque to the data provider, who cannot observe how their data's value compounds through successive model generations.",
+      "detail": "Opacity is the structural enabler of recursive pricing failure. The data provider cannot see how many derivation rounds have occurred, how their data influenced model capabilities, or how derived outputs feed back as inputs. Without observability, the data provider cannot know the true value of their contribution. Opacity means the data provider prices blind while the processor captures sighted value."
+    },
+    "Evaluation": {
+      "value": "Internal tests",
+      "memo": "Model evaluation uses internal tests controlled by the processor, with no external verification of how recursive derivation affects model capability or output quality.",
+      "detail": "The processor evaluates its own models against its own benchmarks. No external party verifies how recursive training affects quality or capability. Internal testing means the processor knows the value of recursive derivation while the data provider does not. Evaluation asymmetry mirrors the information asymmetry: the processor has complete visibility while the data provider has none."
+    },
+    "Interpretability": {
+      "value": "Black box",
+      "memo": "The model's internal workings are a black box to data providers, making it impossible to trace how original input data contributed to recursively derived outputs.",
+      "detail": "Black-box models prevent data providers from understanding how their data influenced the model or its derived outputs. Without interpretability, value attribution is impossible. The data provider cannot demonstrate that the model's capabilities derived substantially from their data. Black-box status protects the processor's information advantage and prevents the data provider from making a credible pricing claim."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "Standard alignment through RLHF generates preference data from human feedback that itself becomes a valuable derived dataset feeding back into recursive training.",
+      "detail": "RLHF alignment produces human preference data as a byproduct. This preference data is itself a valuable training input for the next model generation. The alignment process creates exhaust data that enters the recursive value chain. RLHF is both an alignment technique and a data-generation mechanism. The preference data generated during alignment is one of the highest-value recursive inputs."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Enterprise-grade security protects the processor's recursive pipeline and derived datasets from competitors but does not give the data provider visibility into the pipeline.",
+      "detail": "Security protects the processor's derived assets, including the recursively generated training data. Enterprise-grade security means the processor's competitive advantage in recursive value capture is protected from rivals. However, this security also prevents the data provider from auditing the recursive pipeline. Security serves the processor's interests in both directions: protecting derived value and obscuring its creation."
+    },
+    "Adversary Model": {
+      "value": "Casual misuse",
+      "memo": "The recursive pricing problem involves commercial exploitation rather than security threats, with the adversary model being the processor's systematic underpricing of data contributions.",
+      "detail": "The threat is not criminal or state-sponsored but commercial. The processor is not adversarial in the security sense but systematically captures value that the pricing structure does not allocate fairly. Casual-misuse framing understates the commercial impact because the value extraction is systematic and structural. The adversary model should perhaps be commercial asymmetry, but the framework captures it here."
+    },
+    "Weight Security": {
+      "value": "Copyable",
+      "memo": "Model weights containing recursively derived value may be copyable or transferable, meaning the recursive value extracted from data providers can proliferate beyond the original processor.",
+      "detail": "If model weights are copyable, the recursively captured value can be transferred to parties who never contracted with the original data provider. Weight copying multiplies the pricing failure: value extracted through recursion can be redistributed without any payment flowing back to data providers. Copyable weights mean recursive pricing failure is not contained to the original processor-provider relationship."
+    },
+    "Access Control": {
+      "value": "API keys",
+      "memo": "Simple API-key access control gives the processor full visibility into usage patterns that become recursive training signal, while data providers have no reciprocal visibility.",
+      "detail": "API keys authenticate users but do not provide data providers with visibility into how their data contributes to the model. The processor uses API access logs as training signal: usage patterns, query distributions, and preference data all feed recursive training. Access control is one-directional: it gives the processor data about users while giving data providers nothing about the recursive pipeline."
+    },
+    "Monitoring Scope": {
+      "value": "Outputs",
+      "memo": "Data providers can only monitor the model's outputs, not the recursive pipeline that transforms their licensed data through multiple derivation rounds.",
+      "detail": "Output monitoring shows the data provider what the model produces but not how it was produced or how outputs feed back as inputs. The recursive pipeline is invisible. Output monitoring is the most limited monitoring scope and is deliberately insufficient for detecting recursive value extraction. The data provider sees the surface while the processor controls the depths."
+    },
+    "Containment": {
+      "value": "None",
+      "memo": "No containment boundary limits the recursive flow of derived outputs back into training pipelines, allowing unlimited recursive value extraction from original data licences.",
+      "detail": "The absence of containment means derived outputs flow freely through the processor's infrastructure without any boundary separating original data processing from recursive derivation. No technical or contractual mechanism prevents the processor from recycling outputs as inputs. Containment would require either technical barriers or contractual provisions that current data licensing does not include. Open flow enables open recursion."
+    },
+    "Capability Limitation": {
+      "value": "None",
+      "memo": "No capability limitations restrict the model from producing outputs that are valuable enough to feed back as training inputs for the next recursive generation.",
+      "detail": "The model is deployed without restrictions that would prevent recursive value creation. Capability limitations could theoretically restrict output quality to levels below training-data substitution. But no current model deployment limits capabilities to prevent recursive pricing problems. The absence of capability limitation means the model produces the highest-quality outputs possible, maximising their value as recursive inputs."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Recursive pricing is a commercial problem occurring in civilian markets where data licensing terms have not evolved to address recursive AI value chains.",
+      "detail": "The stance operates in commercial markets without military or national-security dimensions. Civilian use class means the problem is governed by contract law and market dynamics rather than security regulations. The civilian context makes the problem solvable through better contract design, though the market has not yet developed adequate pricing mechanisms for recursive derivation."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "The harm in recursive pricing flows through the information channel: valuable data is extracted through an informational process that pricing structures fail to capture.",
+      "detail": "Harm is economic rather than physical. The data provider suffers financial harm through systematic underpricing of their contribution to recursive value chains. The mechanism is informational: data enters, value is created through recursive processing, and the pricing structure does not reflect the cumulative value extracted. Information is both the medium and the message of recursive pricing failure."
+    },
+    "Proliferation": {
+      "value": "Leaky",
+      "memo": "Derived outputs from recursive processing leak beyond the original contractual relationship through model distribution, API access, and downstream usage by third parties.",
+      "detail": "The value extracted through recursive derivation does not stay within the processor-provider relationship. Model outputs reach third parties through API access and downstream applications. Derived value leaks through every channel the model's outputs traverse. Leaky proliferation means the data provider's contribution reaches parties and uses that the original licence could not have anticipated or priced."
+    },
+    "Strategic Lead": {
+      "value": "Neck-and-neck",
+      "memo": "Recursive pricing is most commercially significant when model providers are neck-and-neck, as each recursive training advantage provides marginal competitive differentiation.",
+      "detail": "In a competitive market, recursive access to high-quality derived training data provides a marginal capability advantage. When competitors are close, these margins matter. Recursive pricing failure gives the processor a data advantage that competitors who pay fair prices do not enjoy. Neck-and-neck competition makes recursive value extraction strategically significant rather than merely profitable."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Competitive race pressure incentivises processors to maximise recursive value extraction because any training-data advantage translates to model capability advantages.",
+      "detail": "Competition drives processors to exploit every available data source, including recursively derived data. Competitive pressure makes it irrational for a processor to voluntarily limit recursive derivation when competitors do not. Race dynamics mean the processor with the most aggressive recursive extraction strategy gains a capability advantage. Competition creates the incentive structure that drives recursive pricing failure."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Recursive pricing failure is concentrated in single-firm processors who control the full pipeline from data ingestion through recursive derivation to model deployment.",
+      "detail": "Single-firm control means one entity captures all recursive value without multi-party governance constraints. The processor does not share visibility into the recursive pipeline with any partner. Single-firm structure maximises information asymmetry between processor and data provider. The concentration of recursive value capture in a single firm is the structural condition that makes the pricing failure systematic."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No nonproliferation regime governs the recursive flow of derived data and model capabilities, leaving recursive value extraction unregulated and commercially unconstrained.",
+      "detail": "No regulatory framework addresses recursive derivation as a proliferation concern. Derived data flows freely through processing pipelines without regulatory checkpoints. The absence of a nonproliferation regime means the market operates without external constraints on recursive value extraction. Future regulation may address this gap but currently recursive derivation operates in a regulatory void."
+    },
+    "Data Value Dynamics": {
+      "value": "Elastic/synthetic",
+      "memo": "Recursive derivation creates elastic value by generating synthetic training data from licensed inputs, stretching the original data's contribution far beyond its contracted price.",
+      "detail": "Each recursive round produces synthetic derived data that extends the original data's influence. The elasticity is one-directional: value expands for the processor while the data provider's price remains fixed. Synthetic data generated through recursion may partially substitute for new licensed data, reducing the processor's future data procurement needs. Elasticity means the original data's value to the processor grows while its price does not."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Fixed input pricing is the structural cause of recursive pricing failure because the price does not adjust as recursive derivation multiplies the actual value extracted.",
+      "detail": "Fixed price means the data provider receives the same payment regardless of how many recursive rounds the processor runs. The gap between fixed price and actual value widens with each recursive cycle. Fixed pricing was designed for one-time processing. Recursive derivation breaks the assumption. Fixed price plus recursive value creation produces systematic and growing undercompensation of data providers."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "The processor retains all derived outputs from recursive processing, with no allocation back to the data provider whose input data seeded the entire recursive chain.",
+      "detail": "Retained output allocation means every derived output belongs to the processor. The data provider has no claim to outputs derived from their data. Retention is the default because contracts do not anticipate recursive derivation. The processor retains not only first-generation outputs but all subsequent recursive generations. Retained allocation is the contractual gap through which recursive value extraction flows."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "The processor captures all derived value from recursive processing because the data licence does not extend the data provider's claims to recursively generated outputs.",
+      "detail": "Processor capture is total for recursive derivation because no contractual provision allocates recursive value to data providers. The processor designed the pipeline, runs the recursion, and retains the results. Capture is structural: it flows from the contract's silence on recursive derivation and the processor's control of the technical pipeline. The data provider has neither contractual claim nor practical visibility."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "Risk from recursive processing is disclaimed by the processor, who takes no responsibility for how recursive derivation affects the data provider's competitive position or market.",
+      "detail": "Standard data processing agreements disclaim consequential damages. Recursive value extraction is a consequential harm that falls outside the contract's risk allocation. The processor bears no risk for the pricing gap created by recursion. Disclaimed risk means the data provider absorbs the full economic loss from recursive underpricing. The risk allocation was designed for a non-recursive world."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "Recursive derivation runs on operating budgets because each training cycle uses existing infrastructure, requiring no additional capital investment to extract more recursive value.",
+      "detail": "The marginal cost of another recursive training round is operational, not capital. Infrastructure is already deployed. Additional training runs consume compute and electricity but do not require new capital expenditure. Operating-budget funding means recursive value extraction can continue indefinitely without capital approval. The economic barrier to further recursion is low, encouraging more rounds."
+    },
+    "Commitment Tenor": {
+      "value": "Annual",
+      "memo": "Data licences typically renew annually while recursive value extraction compounds continuously, meaning each annual renewal underprices the recursive value accumulated since the last pricing review.",
+      "detail": "Annual commitment tenor means pricing is reviewed at most once per year. Recursive value accumulates continuously between reviews. Each renewal negotiation addresses the next year's price but cannot retroactively capture recursive value from the prior year. Annual tenor is too coarse for the continuous value creation that recursive derivation produces. The tenor mismatch is structural."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "For the processor, recursively enhanced training data is core business because model capability directly drives revenue, making recursive value extraction commercially central.",
+      "detail": "The processor's core product is the model, and the model's capability depends on training data quality and quantity. Recursive derivation improves training data without additional licensing cost. Core-business dependency means the processor has maximum incentive to maintain recursive access. The data provider's contribution is core to the processor's business even though the pricing treats it as a marginal input."
+    },
+    "Switching Cost": {
+      "value": "Low",
+      "memo": "The processor faces low switching costs between data providers because recursive derivation has already captured the data's value in model weights, reducing dependence on continued.",
+      "detail": "Once recursive derivation has absorbed a data provider's value into model weights, the processor's dependence on continued access decreases. The capability persists in weights even if the licence terminates. Low switching cost means the data provider's bargaining power decreases over time as recursive value extraction progresses. The processor can afford to walk away because the value has already been captured."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Data providers cannot exit cleanly because their data's contribution is entangled in model weights across multiple recursive generations and cannot be surgically removed.",
+      "detail": "Exit is meaningless once recursive derivation has embedded the data's value in model weights. Terminating the licence does not remove the capability. The data provider's contribution persists through every recursive generation that built upon it. Capability entanglement means the data provider's only leverage is at the point of initial licensing. Once recursion begins, exit does not undo the value extraction."
+    },
+    "Acceptance Basis": {
+      "value": "Outcome-sufficient",
+      "memo": "Recursive pricing validates through commercial output; process-legitimacy is secondary to correct value capture across chains.",
+      "detail": "Recursive pricing structures are validated by whether the pricing model correctly captures value across multiple layers. The commercial output at each stage provides the acceptance signal. Process-legitimacy matters less than whether the recursive economics actually work in practice. Market participants accept the system based on demonstrated pricing accuracy rather than procedural compliance."
+    }
+  }
+}

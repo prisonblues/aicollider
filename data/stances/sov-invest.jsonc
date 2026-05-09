@@ -1,0 +1,367 @@
+{
+  "id": "sov-invest",
+  "name": "Sovereign Stake",
+  "desc": "Sovereign capital takes a strategic position in AI capability as national infrastructure. The stake is project finance with national-security characteristics — not a software procurement or cloud subscription, but an equity-like commitment to capability that the sovereign cannot afford to lose.",
+  "picks": {
+    "Capability Class": {
+      "value": "Strategic",
+      "memo": "Sovereign stake treats AI as strategic national capability, not a commercial product, which changes every governance and procurement dimension.",
+      "detail": "Sovereign capital flows to AI because the capability is considered strategically important to national competitiveness, security, and economic sovereignty. Strategic classification changes the governance framework from commercial procurement to national infrastructure investment with corresponding oversight and protection requirements. The strategic designation means the investment is evaluated against national interest criteria rather than purely commercial return metrics and timelines. Strategic capability investment creates obligations and protections that commercial AI procurement does not trigger or require."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "National AI infrastructure is designed to serve multiple sectors and government functions, requiring multi-domain capability from the sovereign stake.",
+      "detail": "Sovereign AI investment targets capability that serves defence, healthcare, education, public services, and economic competitiveness across multiple national priorities. Multi-domain breadth maximises the strategic return on the sovereign stake by serving the widest range of national requirements from a single infrastructure. The investment is justified by cross-sector national benefit rather than single-domain commercial return from one specific application or market. Sovereign multi-domain capability creates a national platform that multiple government agencies and domestic industries can use."
+    },
+    "Capability Trajectory": {
+      "value": "Compute-scaling",
+      "memo": "Sovereign stake converts national capital into compute infrastructure scaled to achieve and maintain strategic capability levels relative to international competitors.",
+      "detail": "Infrastructure investment translates sovereign capital into scaled compute capacity designed to achieve frontier or near-frontier capability for national purposes. Compute-scaling is the mechanism by which sovereign stake converts financial resources into strategic AI capability through infrastructure buildout. The trajectory is driven by the scaling hypothesis that more compute produces more capable models when combined with appropriate data and research. Sovereign compute-scaling competes with private sector and rival nation investment in the global race for AI infrastructure capacity."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted research is a strategic objective of sovereign stake: building national capability to conduct AI research without dependence on foreign labs.",
+      "detail": "Sovereign stake aims to develop domestic AI research capability that reduces dependence on foreign commercial labs for frontier model development. AI-assisted research within the sovereign programme creates a national capability loop where domestic models improve domestic research capacity over time. This research autonomy is a strategic objective rather than a commercial one, justified by reducing vulnerability to foreign technology dependencies and restrictions."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Tool-using deployment connects sovereign AI to government systems, enabling practical national benefit from the infrastructure investment across agencies.",
+      "detail": "Sovereign AI is deployed with tool access to government systems, databases, and services, creating practical operational value across national functions. Tool-using capability converts the infrastructure investment from an abstract strategic asset into a functioning tool serving real government operations. The tool integrations justify the investment politically by demonstrating tangible benefits to government services and national efficiency improvements. Practical tool deployment across government functions is how sovereign AI investment generates visible return on national capital."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Sovereign AI infrastructure enables many deployed instances across government agencies and national priorities, maximising the strategic return on investment.",
+      "detail": "The infrastructure supports many concurrent deployments serving different government agencies, public services, and national priority areas simultaneously. Many copies across government functions maximise the utilisation of the sovereign infrastructure investment and its strategic impact. The scale of deployment across the national government creates the aggregate benefit that justifies the concentrated infrastructure capital investment. Replication across agencies demonstrates the cross-government value that sovereign AI investment promises to deliver."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Machine-speed operation enables the sovereign infrastructure to process national-scale workloads that justify the strategic investment in dedicated AI capability.",
+      "detail": "The sovereign infrastructure operates at speeds that enable processing of national-scale data, intelligence, and operational workloads that could not be handled manually. Faster-than-human operation provides strategic advantage by enabling analysis and response at speeds that exceed human institutional processing capacity. Machine-speed capability is part of the strategic justification for sovereign stake: it creates capabilities that human-only systems cannot match. The operating speed transforms the infrastructure from a computing resource into a strategic national capability."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Sovereign AI investment initially targets cognitive capability before extending to physical-world applications such as defence, logistics, and industrial automation.",
+      "detail": "The sovereign programme begins with cognitive AI capability that serves analysis, language, and decision-support functions across government agencies. Cognitive-only deployment in the initial phase keeps the risk profile manageable while the governance frameworks for sovereign AI are being established. Future extension to physical-world applications including defence robotics and industrial automation is anticipated but requires additional governance maturity. The cognitive starting point provides time to develop the frameworks needed before expanding into physical-world sovereign AI applications."
+    },
+    "Role": {
+      "value": "Assistant",
+      "memo": "Sovereign AI serves as an assistant to government officials and national functions rather than operating autonomously as an independent agent.",
+      "detail": "The system provides analysis, recommendations, and decision support to human officials who retain authority and accountability for national decisions. The assistant role keeps human officials in command positions while leveraging AI capability for information processing and analysis at national scale. This role allocation reflects democratic governance principles that require human accountability for consequential government decisions and actions. The assistant framing is a governance choice that preserves democratic accountability while accessing the strategic benefits of AI capability."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Sovereign AI takes digital actions within government systems, automating processes and executing approved operations across connected national infrastructure.",
+      "detail": "The system executes approved digital operations within government networks, including data processing, document generation, and system automation tasks. Digital actuation extends the system beyond pure information provision into practical operational value for government functions and services. The digital action capability creates measurable efficiency improvements that justify the sovereign stake in quantifiable terms for political stakeholders. Sovereign digital actuation requires additional governance and security controls compared to purely informational advisory use of the same capability."
+    },
+    "Autonomy": {
+      "value": "Human-on-loop",
+      "memo": "Human-on-loop supervision balances operational efficiency with democratic accountability for sovereign AI operations across government functions and national systems.",
+      "detail": "Government officials supervise sovereign AI operations with periodic review rather than approving each individual action, enabling operational efficiency at scale. Human-on-loop oversight preserves democratic accountability by keeping human officials in supervisory positions with the ability to intervene and override. This supervision model balances the need for machine-speed processing with the governance requirement for human oversight of government operations. The supervision framework must be maintained and adequately resourced as a condition of responsible sovereign AI deployment."
+    },
+    "Delegated Authority": {
+      "value": "Operational mandate",
+      "memo": "Sovereign AI receives operational mandates from government agencies to perform defined functions within approved parameters and oversight frameworks.",
+      "detail": "Government agencies delegate defined operational functions to the sovereign AI system within approved parameters and governance frameworks established by leadership. The operational mandate authorises the system to perform routine government functions at machine speed while keeping strategic decisions with human officials. Delegated authority in the sovereign context requires legislative or executive framework that defines the scope, limits, and oversight of AI operations. The mandate structure balances operational efficiency with the governance requirements of democratic accountability and constitutional authority."
+    },
+    "Tool Access": {
+      "value": "Privileged tools",
+      "memo": "Sovereign AI accesses privileged government tools and systems that require enhanced security clearance, access controls, and monitoring beyond commercial standards.",
+      "detail": "The system accesses government databases, intelligence systems, and operational tools that are not available to commercial AI deployments or public access. Privileged tool access creates both operational capability and security obligations that exceed commercial-grade requirements significantly in scope and rigour. Enhanced clearance, monitoring, and access control requirements apply to all privileged tool interactions within the sovereign deployment environment. The privileged access justifies the sovereign stake by enabling capabilities that commercial AI cannot provide due to security and access restrictions."
+    },
+    "Response / Intervention Capability": {
+      "value": "War-room protocol",
+      "memo": "War-room protocol response capability addresses strategic infrastructure failures that require coordinated national crisis response across government agencies.",
+      "detail": "Strategic infrastructure failures require crisis coordination protocols involving multiple government agencies, military command, and political leadership simultaneously. War-room protocol provides the escalation framework appropriate for infrastructure that serves national security and critical government functions concurrently. The response capability must handle scenarios ranging from operational failures to hostile cyber attacks targeting the sovereign AI infrastructure. Crisis response at the sovereign level requires pre-planned coordination that commercial incident response frameworks are not designed to provide."
+    },
+    "Command Actor": {
+      "value": "State/coalition",
+      "memo": "State-level command reflects sovereign stake's nature as a national project directed by government authority rather than corporate management.",
+      "detail": "Sovereign AI investment is directed by government authority through ministerial, executive, or legislative command structures rather than corporate management hierarchies. State-level command means strategic decisions about capability development, deployment priorities, and operational parameters are made by government officials. The command structure reflects the investment's nature as a national infrastructure project with strategic significance requiring political-level direction and accountability. Government command provides the democratic legitimacy and strategic authority appropriate for nationally significant AI infrastructure investment."
+    },
+    "Decision Tempo": {
+      "value": "Crisis tempo",
+      "memo": "Strategic infrastructure investment operates at crisis tempo where decisions must sometimes be made faster than normal government procurement and oversight processes.",
+      "detail": "Sovereign AI investment sometimes requires accelerated decision-making that exceeds the pace of standard government procurement and oversight procedures. Crisis tempo reflects the competitive urgency of the international AI race where delays in infrastructure investment could result in strategic capability gaps. The decision tempo must balance urgency with the governance requirements of democratic accountability and proper use of public funds. Crisis-tempo decision-making requires pre-authorised frameworks that enable speed while maintaining oversight and accountability standards."
+    },
+    "Tradeoff Authority": {
+      "value": "National command",
+      "memo": "National command authority makes strategic speed-safety tradeoffs for sovereign AI deployment that affect national capability and security positioning.",
+      "detail": "National leadership owns the strategic tradeoff between speed of AI capability development and the safety, governance, and oversight investments that slow progress. National command authority makes decisions that balance competitive urgency against responsible development requirements at the strategic national level. The tradeoff authority sits at the highest level of government because the decisions affect national security positioning and international competitiveness. National command reflects the reality that sovereign AI tradeoffs are fundamentally political decisions with strategic consequences."
+    },
+    "Permission": {
+      "value": "Purpose-limited",
+      "memo": "Purpose-limited data permission restricts sovereign AI training to authorised national purposes, creating governance around the government's use of citizen data.",
+      "detail": "Data permission for sovereign AI is limited to defined national purposes that are specified in the authorising legislation or executive framework. Purpose limitation provides governance around the government's use of data for AI training by restricting processing to authorised national functions and priorities. The limitation creates accountability by requiring that sovereign AI operations serve the defined purposes rather than expanding into unauthorised surveillance or control."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Conditional regulatory posture imposes specific governance requirements on sovereign AI that reflect the enhanced accountability standards for government use of AI.",
+      "detail": "Government AI deployment faces regulatory conditions that reflect enhanced accountability expectations for public-sector use of automated systems and AI capability. Conditional posture means the sovereign deployment must meet specific transparency, oversight, and governance requirements beyond what commercial AI faces. The regulatory conditions create accountability mechanisms appropriate for government use of powerful technology that affects citizens directly. Conditional regulation of sovereign AI balances enabling national capability with protecting democratic values and citizen rights."
+    },
+    "Data Availability": {
+      "value": "Proprietary owned",
+      "memo": "Government-owned data provides the sovereign AI programme with a proprietary data asset that does not depend on commercial licensing arrangements.",
+      "detail": "The government holds proprietary data assets from its operations that provide training material without dependence on commercial data licensing markets. Government-owned data creates a sovereign data advantage because the asset is controlled by the investing government without external contractual dependencies. Proprietary government data includes administrative records, scientific datasets, and operational data that commercial labs cannot easily access or replicate. The government data estate is a strategic asset that complements the compute infrastructure investment in the sovereign AI programme."
+    },
+    "Provenance": {
+      "value": "Verifiable",
+      "memo": "Verifiable data provenance is required for sovereign AI to maintain democratic accountability and enable auditing of government AI training practices.",
+      "detail": "Sovereign AI must maintain verifiable provenance records for all training data to support democratic accountability and enable independent audit. Verifiable provenance supports the transparency requirements that democratic governance imposes on public-sector AI systems and their training processes. The government must be able to demonstrate to citizens, legislators, and oversight bodies exactly what data trained its AI systems and under what authority. Provenance verification is a democratic governance requirement rather than merely a technical compliance matter for sovereign AI programmes."
+    },
+    "Model-Weight Rights": {
+      "value": "Escrowed weights",
+      "memo": "Escrowed weights ensure sovereign control over the national AI asset while enabling managed access to allied nations or domestic partners.",
+      "detail": "Model weights are held under sovereign control with escrow arrangements that enable managed access for authorised national purposes and allied partnerships. Escrowed weights ensure that the sovereign stake retains control over the strategic asset while enabling collaboration within defined governance frameworks. The escrow arrangement protects national security interests while supporting the alliances and partnerships that sovereign AI programmes often involve. Weight escrow converts the intangible AI asset into a governable national resource with defined access controls and accountability."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "Domestic territorial scope ensures the sovereign AI infrastructure operates within national borders under national jurisdiction and democratic oversight.",
+      "detail": "The sovereign AI infrastructure is located within national borders, processed under national law, and operated under democratic oversight institutions. Domestic territory ensures that the strategic asset remains under national jurisdiction and cannot be subject to foreign legal or regulatory claims. The territorial restriction is a sovereignty condition that prioritises jurisdictional control over operational efficiency or cost optimisation considerations. Domestic operation supports the strategic objective of national AI autonomy by keeping the infrastructure within the sovereign's exclusive jurisdiction."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "Sovereign AI training on government data may include ordinary personal data from administrative records, requiring privacy governance within the national framework.",
+      "detail": "Government administrative data may include ordinary personal data from citizens interacting with public services and regulatory systems. Processing personal data in sovereign AI requires compliance with national privacy frameworks and democratic accountability for government data use. The personal data exposure requires specific governance measures including purpose limitation, access controls, and deletion provisions within the sovereign programme. Privacy governance for sovereign AI must balance the national capability objective with citizens' rights to privacy and data protection."
+    },
+    "Data Sensitivity": {
+      "value": "Classified",
+      "memo": "Sovereign AI may process classified national security information, requiring defence-grade security and handling throughout the AI lifecycle.",
+      "detail": "The sovereign AI programme may process information classified under national security frameworks, requiring corresponding security clearances and handling procedures. Classified data processing imposes defence-grade security requirements on the entire AI infrastructure, personnel, and operational environment comprehensively. The classification level drives the security architecture, personnel vetting, physical security, and access control requirements for the sovereign programme. Classified data handling transforms the AI infrastructure from a civilian technology deployment into a defence-grade secure processing facility."
+    },
+    "Control Exposure": {
+      "value": "Controlled item active",
+      "memo": "Sovereign AI infrastructure and model weights may be classified as controlled items under export control and strategic technology frameworks.",
+      "detail": "The AI infrastructure, trained model weights, and associated technology may be classified as controlled items under national export control and strategic technology regimes. Active control classification restricts transfer, access, and sharing of the sovereign AI capability with foreign entities including allied nations and commercial partners. Control exposure creates legal and operational constraints that affect international collaboration, alliance sharing, and commercial exploitation of the technology."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "Sovereign AI investment funds training capability as the core processing mode for building national AI capability from domestic data and compute resources.",
+      "detail": "The sovereign stake funds the training infrastructure needed to build national AI capability from domestic data resources and government-controlled compute. Training is the processing mode that converts the capital investment into strategic capability through model development on sovereign infrastructure. The training capability is the core strategic asset because it enables the nation to develop and improve AI models independently without foreign dependency. Sovereign training capability provides the self-sufficiency that is the fundamental strategic objective of the national AI investment."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Derived outputs from sovereign AI serve government functions and national priorities, creating the strategic value that justifies the sovereign capital investment.",
+      "detail": "Government agencies receive derived outputs from the sovereign AI that serve national functions including analysis, decision support, and operational automation. These derived outputs create the strategic value that justifies the sovereign capital investment through improved government effectiveness and national capability. Derivation from sovereign AI serves national purposes rather than commercial ones, which changes the value assessment from financial returns to strategic impact."
+    },
+    "Retention / Persistence": {
+      "value": "Retention-mandated",
+      "memo": "Mandated retention of sovereign AI training data and operational records supports national audit, accountability, and historical documentation requirements.",
+      "detail": "Government data governance frameworks mandate retention of training data, model versions, and operational records for national audit and accountability purposes. Mandated retention creates archival obligations that persist beyond individual model generations and may extend for decades under government record-keeping requirements. The retention mandate supports democratic accountability by ensuring that sovereign AI operations can be retrospectively audited and investigated if necessary. Government record-keeping requirements transform AI data management from a technical decision into a governance and accountability obligation."
+    },
+    "Execution / Residency Environment": {
+      "value": "Sovereign",
+      "memo": "Sovereign execution environment means the AI infrastructure operates within national borders under national control on nationally-owned or controlled facilities.",
+      "detail": "The infrastructure operates on nationally-controlled facilities within sovereign territory under the exclusive jurisdiction of the investing government. Sovereign execution ensures that the strategic asset cannot be accessed, disrupted, or controlled by foreign governments or commercial entities. The execution environment provides the physical security, jurisdictional control, and operational independence that strategic AI infrastructure requires. Sovereign residency is a fundamental requirement that distinguishes national AI investment from commercial cloud deployment."
+    },
+    "Boundary": {
+      "value": "Isolated",
+      "memo": "Isolated boundary ensures the sovereign AI infrastructure is separated from public networks and foreign-accessible systems for national security protection.",
+      "detail": "The sovereign infrastructure operates within an isolated boundary with no connection to public networks or systems accessible to foreign entities. Isolated operation protects classified data, model weights, and operational details from intelligence collection, cyber attack, and unauthorised access. The boundary isolation creates the security perimeter required for processing classified national security information and strategic AI operations. Isolated infrastructure requires dedicated facilities, communications, and personnel, which adds significant cost to the sovereign programme."
+    },
+    "Deployment Surface": {
+      "value": "Restricted users",
+      "memo": "Sovereign AI serves restricted government users with appropriate security clearances rather than public access, maintaining operational security.",
+      "detail": "Access to sovereign AI is restricted to government personnel with appropriate security clearances and demonstrated need-to-know for their specific functions. The restricted deployment surface maintains operational security for the classified processing environment and limits exposure to insider threats. Restricted users can be vetted, monitored, and held accountable within government security frameworks in ways that public users cannot. The deployment restriction trades broad access and utilisation for the security and accountability that sovereign AI operations require."
+    },
+    "Physical Infrastructure": {
+      "value": "National industrial build",
+      "memo": "National industrial build means the sovereign AI infrastructure is constructed as part of national infrastructure policy, not procured as a commercial service.",
+      "detail": "The infrastructure is constructed through national industrial build programmes involving government-directed procurement, construction, and commissioning processes. National industrial build creates domestic employment, develops national supply chains, and builds sovereign infrastructure capability beyond the AI system itself. The build programme is a national infrastructure investment comparable to power stations, military facilities, or communications networks in strategic significance. Industrial build transforms AI infrastructure from a technology procurement into a national construction and capability development programme."
+    },
+    "Model Sourcing": {
+      "value": "In-house/orchestrated",
+      "memo": "In-house model development ensures sovereign control over the AI capability without dependence on foreign commercial model providers and their terms.",
+      "detail": "Models are developed in-house or orchestrated by the sovereign programme rather than licensed from foreign commercial AI labs or providers. In-house sourcing ensures that the nation controls the training data, methodology, and resulting capability without external dependencies or access restrictions. Sovereign model development provides independence from foreign providers whose terms, pricing, or availability might change based on commercial or political decisions."
+    },
+    "Compute Source": {
+      "value": "Owned/custom",
+      "memo": "Government-owned compute infrastructure ensures sovereign control over the strategic processing capability without dependence on commercial cloud availability.",
+      "detail": "The compute infrastructure is owned by the government or operated under its exclusive control rather than rented from commercial cloud providers. Owned compute eliminates dependence on commercial cloud providers whose pricing, availability, or terms could be affected by foreign government decisions. Government ownership provides the exclusive control and physical security required for classified processing and strategic AI operations. Owned infrastructure is more expensive per unit but provides the sovereignty premium that the national investment is specifically designed to purchase."
+    },
+    "Cloud Dependency": {
+      "value": "Captive/exclusive",
+      "memo": "Exclusive sovereign infrastructure eliminates cloud dependency, ensuring the national AI capability cannot be disrupted by commercial provider decisions.",
+      "detail": "The sovereign programme operates on exclusive infrastructure with no dependency on commercial cloud providers for strategic AI processing or capability. Captive infrastructure means the sovereign capability cannot be disrupted, degraded, or denied by commercial provider decisions, pricing changes, or foreign government pressure. Exclusive operation provides the independence and resilience that strategic national infrastructure requires against all categories of external disruption. The captive architecture trades commercial efficiency for strategic resilience and sovereign control over the processing environment."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Near-term sovereign builds depend on merchant Nvidia GPUs, creating a supply dependency that contradicts the sovereignty objective until domestic alternatives mature.",
+      "detail": "Current sovereign AI builds depend on commercially available Nvidia GPUs because domestic accelerator alternatives are not yet available at the required scale. This dependency on a foreign commercial supplier contradicts the sovereignty objective of the national investment programme in a fundamental way. Merchant GPU dependency creates supply chain vulnerability to export controls, allocation decisions, and pricing changes by the GPU vendor."
+    },
+    "Supply Control": {
+      "value": "Strategic control",
+      "memo": "Strategic supply control aims to secure all critical inputs for the sovereign AI programme beyond ordinary commercial procurement mechanisms.",
+      "detail": "The sovereign programme seeks direct control or guaranteed access to all critical inputs including chips, power, cooling, networking, and specialised personnel. Strategic control goes beyond market procurement to include government-directed allocation, strategic reserves, and domestic manufacturing development. The supply control objective reflects the national security dimension of sovereign AI that requires assured supply independent of commercial markets. Strategic supply control is an aspiration that requires sustained investment in domestic semiconductor, energy, and technology supply chains."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Accelerator supply is the primary bottleneck for sovereign AI programmes that depend on foreign-manufactured GPUs subject to export controls and allocation constraints.",
+      "detail": "The availability of frontier-capability accelerators is the binding constraint on sovereign AI build timelines and ultimate capability levels achievable. Sovereign programmes compete with commercial hyperscalers for the same limited global supply of cutting-edge GPU accelerators from a concentrated supplier base. Export controls can restrict sovereign access to the most capable accelerators, directly limiting the capability achievable by the national programme. The accelerator supply bottleneck is the most concrete expression of the sovereignty gap between aspiration and achievable capability."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "Sovereign infrastructure creates deep locked-in dependencies on specific hardware, software, and operational configurations that cannot be easily replaced.",
+      "detail": "The sovereign infrastructure involves bespoke configurations, security architectures, and operational procedures that are deeply customised to national requirements. These customisations create lock-in to specific hardware platforms, software stacks, and operational approaches that resist replacement or migration. Locked-in dependency means the sovereign programme is committed to its chosen technology path for the infrastructure's operational lifetime. The lock-in is an accepted consequence of the sovereignty premium: customised national infrastructure is inherently less substitutable than commercial services."
+    },
+    "Vertical Integration": {
+      "value": "Full-stack",
+      "memo": "Full-stack integration from silicon through model to application reflects the sovereign ambition to control the complete AI capability chain nationally.",
+      "detail": "The sovereign programme aspires to full-stack integration controlling hardware, system software, model development, and application deployment under national authority. Full-stack ambition reflects the strategic goal of eliminating foreign dependency at every layer of the AI technology stack. Achieving full-stack sovereignty requires parallel investment in semiconductors, computing systems, model research, and application development domestically. The full-stack objective is the most ambitious expression of the sovereignty goal and the most expensive and difficult to achieve."
+    },
+    "Distribution Channel": {
+      "value": "Platform default",
+      "memo": "Sovereign AI aims to become the default platform for government services, embedding national AI capability into public-sector operations as standard infrastructure.",
+      "detail": "The sovereign programme positions its AI capability as the default platform for government digital services and public-sector operations across agencies. Platform-default positioning maximises the utilisation and impact of the sovereign stake by embedding it across government functions as standard infrastructure. Default status creates institutional adoption that justifies the investment politically and generates the operational experience needed to improve the capability. Government platform adoption creates a domestic anchor demand that supports the sovereign AI programme's commercial sustainability."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "Domestic supply jurisdiction is a core objective of sovereign AI investment, though current accelerator dependencies compromise this goal in practice.",
+      "detail": "The sovereign programme targets domestic supply jurisdiction for all critical inputs to eliminate foreign dependencies and supply chain vulnerabilities. Domestic supply jurisdiction means all critical components, materials, and services originate from within the national territory under national control. In practice, current accelerator dependencies mean the domestic supply objective is aspirational for the most critical component of the AI stack. The gap between the domestic supply objective and the current foreign accelerator dependency is the sovereign programme's most significant strategic vulnerability."
+    },
+    "Observability": {
+      "value": "Observable",
+      "memo": "Observable performance and governance supports the democratic accountability requirements for sovereign AI programmes funded by public capital.",
+      "detail": "Sovereign AI operations maintain technically observable performance metrics, governance indicators, and compliance evidence for democratic accountability purposes. Observable governance supports legislative oversight, public accountability, and independent audit of the sovereign programme's operations and expenditure. The observability standard exceeds commercial requirements because public-sector AI must be accountable to citizens, legislators, and oversight institutions. Observable governance is a democratic requirement for any national programme that processes citizen data and exercises government functions."
+    },
+    "Evaluation": {
+      "value": "Certified/decision-grade",
+      "memo": "Decision-grade evaluation ensures the sovereign AI meets the capability and reliability standards required for government decision support and national operations.",
+      "detail": "Sovereign AI capability is evaluated to certified, decision-grade standards appropriate for systems that support government decisions and national operations. Decision-grade evaluation provides the evidence quality required for responsible deployment in government functions where errors have national consequences. The evaluation standard exceeds commercial benchmarks because government use carries higher accountability and consequence standards than commercial applications. Certified evaluation supports the governance framework by providing independently verifiable evidence of capability and reliability."
+    },
+    "Interpretability": {
+      "value": "Legible trace",
+      "memo": "Legible reasoning traces support the democratic accountability requirements for sovereign AI decisions that affect citizens and national policy.",
+      "detail": "Sovereign AI provides legible reasoning traces that enable government officials to understand and explain the basis for AI-assisted decisions and recommendations. Legible traces support democratic accountability by allowing citizens, legislators, and oversight bodies to examine how AI contributed to government decisions. The interpretability standard supports the principle that government decisions must be explainable and accountable regardless of AI involvement in the process."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Human review by qualified government officials ensures sovereign AI outputs meet the quality, accuracy, and policy standards required for government use.",
+      "detail": "Qualified government officials review sovereign AI outputs before they are used for consequential government decisions or operational actions affecting citizens. Human review provides the quality assurance and policy alignment checking that government use of AI requires for responsible deployment. The review process ensures that AI-generated content meets government quality standards, policy requirements, and factual accuracy expectations. Human review by domain-qualified officials is the primary alignment mechanism for sovereign AI serving government decision-support functions."
+    },
+    "Security Posture": {
+      "value": "National-defense-grade",
+      "memo": "National-defence-grade security protects the sovereign AI infrastructure as a strategic national asset from the full spectrum of state-level threats.",
+      "detail": "The sovereign infrastructure is protected to national defence standards with corresponding personnel vetting, physical security, and cyber defence capabilities. Defence-grade security reflects the strategic value of the AI capability and the classified data it processes within the national programme. The security posture addresses the full spectrum of threats including state-sponsored cyber attacks, insider threats, and physical sabotage targeting national infrastructure. National-defence-grade security creates the protective environment required for a strategic asset that processes classified national information."
+    },
+    "Adversary Model": {
+      "value": "State actor",
+      "memo": "State-actor adversary modelling reflects the strategic significance of sovereign AI as a national asset that foreign intelligence services will target.",
+      "detail": "The sovereign AI programme is a strategic national asset that foreign intelligence services and state-sponsored cyber actors will actively target. State-actor adversary modelling requires security measures that exceed commercial standards by addressing sophisticated, well-resourced, and persistent threat actors. The threat model includes cyber espionage, supply chain compromise, insider recruitment, and physical targeting of the sovereign AI infrastructure. State-actor adversary modelling drives the security investment needed to protect a national strategic asset from the most capable threats."
+    },
+    "Weight Security": {
+      "value": "Airgapped/controlled",
+      "memo": "Airgapped weight security prevents any network-accessible pathway to the sovereign model weights that are a primary national strategic asset.",
+      "detail": "Sovereign model weights are protected by airgapped security with no network-accessible pathway for exfiltration, tampering, or unauthorised access to the strategic asset. Airgapped controls prevent remote access, which is the primary attack vector for state-sponsored cyber actors targeting the national AI capability. Physical and network isolation of the weights creates the strongest available protection for the intangible strategic asset that the sovereign stake produced."
+    },
+    "Access Control": {
+      "value": "Multi-key signoff",
+      "memo": "Multi-key signoff ensures no single individual can access or modify the sovereign AI system without approval from multiple authorised parties.",
+      "detail": "Access to the sovereign AI system requires authorisation from multiple parties with defined roles, preventing any single individual from acting unilaterally. Multi-key signoff provides the separation of duties and mutual oversight that strategic national systems require for security and accountability. The multi-party authorisation structure protects against insider threats, coercion, and unauthorised access by requiring consensus from multiple cleared personnel. Access control for sovereign AI follows the highest security standards appropriate for a system processing classified national information."
+    },
+    "Monitoring Scope": {
+      "value": "Full cluster telemetry",
+      "memo": "Full cluster telemetry provides complete visibility across the sovereign AI infrastructure for security monitoring, performance tracking, and accountability.",
+      "detail": "The sovereign infrastructure monitors all operational layers including compute utilisation, network traffic, storage access, and system state across the entire cluster. Full cluster telemetry provides the comprehensive visibility required for detecting security incidents, performance anomalies, and operational issues at any level. Complete monitoring supports the accountability requirements of a national programme by maintaining a comprehensive record of all infrastructure activity. Telemetry data supports security operations, operational management, financial accountability, and democratic oversight simultaneously."
+    },
+    "Containment": {
+      "value": "Airgapped/SCIF",
+      "memo": "Airgapped containment within a SCIF provides the physical and network isolation required for sovereign AI processing classified national security information.",
+      "detail": "The sovereign AI operates within a Sensitive Compartmented Information Facility with complete physical and network isolation from external systems. SCIF-level containment provides the highest available protection for classified processing and prevents any information leakage through electronic or physical channels. The containment architecture creates a completely isolated processing environment where the sovereign AI operates without any connection to external networks. Airgapped SCIF containment represents the maximum security investment appropriate for a national strategic asset processing the most sensitive information."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Targeted restrictions limit sovereign AI capabilities to authorised government functions, preventing mission creep beyond the democratic mandate.",
+      "detail": "Capability restrictions limit the sovereign AI to functions specifically authorised under the programme's legislative or executive framework and governance charter. Targeted limitations prevent the system from being used for purposes beyond its democratic mandate, such as mass surveillance or political interference. The restrictions provide governance guardrails that protect democratic values while enabling the strategic capability the sovereign stake was designed to achieve. Capability limitation in the sovereign context is a democratic governance tool that constrains government power over AI capability."
+    },
+    "Use Class": {
+      "value": "National-security",
+      "memo": "National-security use classification reflects the strategic purpose of sovereign AI investment and triggers corresponding governance and protection requirements.",
+      "detail": "The sovereign AI programme is classified for national-security use, which triggers the highest tier of governance, security, and oversight requirements. National-security classification means the system is subject to defence-grade standards rather than commercial or civilian regulatory frameworks for its operation. The use classification drives security investment, personnel requirements, facility standards, and international cooperation constraints across the programme. National-security use class is the governance expression of the strategic purpose that justified the sovereign capital investment."
+    },
+    "Harm Channel": {
+      "value": "Cyber/bio/financial",
+      "memo": "Sovereign AI could enable significant harm through cyber, economic, or intelligence channels if compromised or misused, requiring corresponding protective governance.",
+      "detail": "The sovereign AI's capabilities, data access, and government integration create potential harm channels including cyber operations, economic intelligence, and state surveillance. Compromise or misuse of the sovereign AI could enable significant harm through channels that are proportional to the system's strategic capability level. The harm channel assessment drives the security and governance investment needed to prevent the sovereign capability from being turned against national interests."
+    },
+    "Proliferation": {
+      "value": "Contained",
+      "memo": "Sovereign AI capability is deliberately contained within national control to prevent proliferation of strategic capability to foreign adversaries or competitors.",
+      "detail": "The sovereign AI capability is treated as a strategic asset whose proliferation must be controlled through export controls and access restrictions. Contained proliferation prevents the national strategic investment from being replicated by adversaries through theft, espionage, or authorised sharing without adequate controls. The containment strategy protects the sovereignty premium by ensuring the national capability advantage is not freely available to competitors. Proliferation control is a national security function that restricts the strategic AI asset to authorised national and allied use."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "Sovereign programmes often start from behind established commercial labs, making the investment a catch-up strategy to reduce strategic dependency.",
+      "detail": "Most sovereign AI programmes begin from behind the capability frontier established by major commercial AI labs in the leading technology nations. The sovereign stake is partly a catch-up strategy designed to reduce dangerous strategic dependency on foreign commercial AI providers and their governments. Starting from behind creates urgency that drives the crisis-tempo decision-making and the willingness to accept higher costs for sovereign capability."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Competitive pressure from both commercial labs and rival sovereign programmes drives the urgency and scale of sovereign AI investment decisions.",
+      "detail": "Sovereign AI programmes compete with both private sector frontier labs and rival nations' sovereign AI investments for capability, talent, and supply chain access. The competitive pressure creates urgency that compresses decision timelines and increases the scale of capital commitment beyond what careful analysis might recommend. Race pressure drives sovereign AI investment decisions that prioritise speed over cost efficiency because the strategic cost of delay may exceed the financial cost of haste."
+    },
+    "Coalition Structure": {
+      "value": "National project",
+      "memo": "National project structure organises the sovereign AI investment under government direction with national institutions as the primary stakeholders.",
+      "detail": "The sovereign AI investment is organised as a national project with government direction, public funding, and institutional accountability through national governance. National project structure means the investment is evaluated against strategic national objectives rather than commercial return metrics and timelines. The project involves national research institutions, government agencies, and domestic industry working under government coordination and direction. National project organisation provides the governance framework, funding authority, and institutional accountability that sovereign AI investment requires."
+    },
+    "Nonproliferation Regime": {
+      "value": "Norms",
+      "memo": "Emerging international norms around sovereign AI provide a framework for cooperation and restraint among investing nations, though enforcement remains voluntary.",
+      "detail": "International norms are emerging around responsible sovereign AI development, including principles for safety, transparency, and international cooperation between nations. These norms provide a framework for managing the competitive dynamics of sovereign AI investment without binding enforcement mechanisms or compliance requirements. Norms-based governance enables cooperation between sovereign AI programmes on safety, standards, and capability limitations through voluntary commitment. The normative framework is early-stage and aspirational but provides the foundation for potential future binding international governance."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Sovereign data assets are accretive: government data estates grow over time, progressively strengthening the national AI capability from the sovereign stake.",
+      "detail": "Government data estates grow through ongoing administrative activity, creating an expanding training data resource that strengthens sovereign AI over time. The accretive data dynamic means the sovereign AI capability naturally improves as the government generates more operational data from its expanding digital services. Fortifying data value supports the long-term strategic case for sovereign AI investment by demonstrating that the asset improves with continued government operation."
+    },
+    "Input Price": {
+      "value": "Structural",
+      "memo": "Structural pricing embeds data and compute contributions into the sovereign deal architecture rather than treating them as simple input purchases.",
+      "detail": "Data and compute contributions to the sovereign programme are structured as part of the overall national investment architecture rather than as commodity purchases. Structural pricing means the government's data contribution, compute investment, and capability access are all part of an integrated national arrangement. The pricing structure reflects the strategic nature of the arrangement where value is measured in national capability rather than market-rate returns."
+    },
+    "Output Allocation": {
+      "value": "Shared",
+      "memo": "Shared output value distributes the benefits of sovereign AI across government agencies, citizens, and authorised partners rather than concentrating value privately.",
+      "detail": "Output value from sovereign AI is shared across government agencies, public services, and authorised domestic partners rather than concentrated in one entity. Shared allocation reflects the public-interest justification for sovereign stake: national capital produces national benefit distributed across public functions. The sharing mechanism ensures that the sovereign AI investment benefits the broadest possible range of national stakeholders and public services. Shared output allocation provides the political sustainability for ongoing sovereign AI investment by demonstrating broad public benefit."
+    },
+    "Derived Value Capture": {
+      "value": "Public/international",
+      "memo": "Sovereign AI investment frames derived value as public benefit and international cooperation rather than private commercial capture.",
+      "detail": "Derived value from sovereign AI is framed as public benefit through improved government services and national capability rather than private profit. The public framing justifies ongoing taxpayer investment by connecting AI capability to visible improvements in government services and national competitiveness. International cooperation dimensions create derived value through technology sharing, joint research, and allied collaboration on shared challenges. Public and international value capture provides the political narrative that sustains democratic support for continued sovereign AI investment."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Government backstop",
+      "memo": "Government backstop absorbs the strategic and financial risks of sovereign AI investment that no private entity could underwrite or insure.",
+      "detail": "The government provides the ultimate financial and strategic backstop for the sovereign AI programme, absorbing risks that exceed private-sector capacity. Government backstop means programme failures, cost overruns, or capability shortfalls are absorbed by public finances rather than causing private-sector defaults. The backstop reflects the strategic nature of the investment where the national benefit justifies public risk assumption that private markets cannot provide. Government backing provides the financial resilience that strategic national programmes require for sustained investment across political cycles."
+    },
+    "Capital": {
+      "value": "Strategic build",
+      "memo": "Strategic build capital reflects the national infrastructure nature of sovereign AI investment, funded through government appropriation rather than commercial returns.",
+      "detail": "The sovereign programme is funded through strategic capital allocation from government budgets, sovereign wealth funds, or national development institutions. Strategic build capital is evaluated against national capability objectives rather than commercial internal rate of return metrics used for private investment. The capital structure reflects the national infrastructure nature of the investment, comparable to defence spending or national research investment in scale."
+    },
+    "Commitment Tenor": {
+      "value": "Infrastructure-life",
+      "memo": "Infrastructure-life commitment reflects the multi-decade operational timeline for sovereign AI facilities comparable to national defence or energy infrastructure.",
+      "detail": "The sovereign AI commitment spans the physical infrastructure's useful life of typically fifteen to twenty-five years, comparable to military or energy infrastructure. Infrastructure-life tenor requires sustained government funding, political commitment, and institutional continuity across multiple electoral and budget cycles. The long commitment period exceeds normal government budget planning horizons, requiring special legislative or executive framework for sustained multi-year funding. Infrastructure-life commitment reflects the physical reality that data centres, power systems, and security facilities last decades regardless of technology evolution."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "Sovereign AI becomes core to government operations, creating institutional dependency on the capability that justifies ongoing investment and political support.",
+      "detail": "As sovereign AI embeds across government functions, it becomes core to government operations rather than a discretionary innovation or research programme. Core dependency means the sovereign AI capability is essential to government service delivery, national security operations, and economic competitiveness. The transition from innovation to core dependency justifies ongoing operational funding beyond the initial capital investment period and budget allocation. Core-business dependency creates the institutional support base that sustains sovereign AI programmes across political transitions and budget pressures."
+    },
+    "Switching Cost": {
+      "value": "Captive",
+      "memo": "Captive switching costs from bespoke sovereign infrastructure mean the national programme cannot be easily abandoned or replaced without massive write-offs.",
+      "detail": "The sovereign programme's bespoke infrastructure, security architecture, and government integration create captive costs that cannot be recovered through switching. Abandoning the sovereign programme would mean writing off the national capital investment, losing the accumulated capability, and rebuilding dependence on foreign providers. The captive cost structure means the nation is committed to the sovereign approach once the infrastructure is built and government operations depend on it."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Exit is capability-entangled because the sovereign AI is integrated into government operations, national security systems, and institutional decision-making.",
+      "detail": "The sovereign AI capability is deeply integrated into government operations, national security systems, and institutional processes across multiple agencies. Exiting the sovereign programme would require rebuilding government capabilities that now depend on AI-assisted processing and decision support. Capability entanglement means the sovereign AI is not a separable tool but an integrated component of how the government operates and delivers services."
+    },
+    "Acceptance Basis": {
+      "value": "Institutional",
+      "memo": "Sovereign stake is legitimised by state authority and strategic mandate rather than the system's own explainability.",
+      "detail": "Sovereign stake vehicles derive their acceptance basis from institutional authority. The state's strategic mandate and political legitimacy authorise the deployment without requiring the AI system to demonstrate its own explainability. Accountability flows through governmental structures rather than technical audit. The system operates under sovereign cover that substitutes for process or outcome validation."
+    }
+  }
+}

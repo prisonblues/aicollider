@@ -1,0 +1,357 @@
+{
+  "id": "termination-trap",
+  "name": "Termination Gap",
+  "desc": "The licence terminates, but trained capability survives in model weights. The legal right is exercisable; the practical remedy is incomplete.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "The gap is commercially material at frontier scale where the surviving trained capability is too valuable and entangled to retrain away.",
+      "detail": "Frontier models embody billions of dollars in training investment that cannot be casually repeated or reversed. The capability persisting after licence termination represents real, substantial commercial value that the processor is unwilling to forfeit. At lower capability levels the gap matters less because retraining costs are manageable and the commercial stakes are smaller. Frontier scale is what makes the persistence economically significant and the remedial gap commercially consequential."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Multi-domain training means the terminated licence's data contribution persists across all capability areas, not just its original domain.",
+      "detail": "Training on one domain's data improves the model's capability in unrelated domains through cross-domain transfer effects in the weights. Termination of one licence does not remove the benefits that data provided to capabilities in completely different subject areas. Multi-domain breadth makes selective unlearning practically impossible because the contribution is distributed across all learned capabilities. Each data source's influence is statistically entangled with every other source's contribution throughout the entire model."
+    },
+    "Capability Trajectory": {
+      "value": "Compressed",
+      "memo": "Compressed development means the model's full commercial value was already built and deployed before termination could take any practical effect.",
+      "detail": "Training happened fast enough that the licence's full value was extracted and deployed before the termination notice was even received. Compressed development timelines mean the legal right to terminate structurally lags the technical reality of completed capability incorporation. By the time termination is formally exercised, the capability is fully established, deployed, and generating revenue across the product suite. The speed of development is what makes the persistence gap structural rather than circumstantial or remediable."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted research means the terminated data may have already contributed to research advances and methodology improvements that persist independently.",
+      "detail": "If the terminated training data helped improve research methods, model architectures, or training techniques, those improvements survive termination independently. The AI-assisted research loop means the data's contribution compounds beyond direct training into second-order capability improvements and future model designs. Termination removes the data from future training runs but not the research advances it already enabled in the current generation. This secondary persistence through research methodology deepens and extends the termination gap beyond direct weight entanglement."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Tool-using deployment means the surviving capability continues generating active commercial value through tool integrations after licence termination.",
+      "detail": "The trained model connects to tools, APIs, external services, and customer workflows that generate ongoing commercial value from every interaction. These integrations continue operating identically after the underlying data licence terminates without any change to functionality or revenue. The tool-using capability built from the terminated data's contribution keeps generating measurable commercial value for the processor continuously. The deployment surface makes the persistence not just theoretical but actively and visibly commercially productive."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Many deployed copies mean the surviving capability continues operating at full production scale across all instances after termination.",
+      "detail": "The model is deployed across thousands or millions of concurrent instances serving users around the world simultaneously. Termination of one data licence does not affect, modify, or degrade any of these running instances in any observable way. The surviving capability operates at exactly the same commercial scale as before the termination notice was served on the processor. Replication across many copies multiplies the practical futility and commercial irrelevance of the legal termination remedy."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Faster-than-human inference means the surviving capability generates substantial ongoing commercial value in the gap between termination and any remedy.",
+      "detail": "The model continues serving requests at machine speed continuously after termination, generating revenue with every inference served. Every interaction between the termination notice and any actual remedial action generates additional revenue from the surviving capability. The speed of operation means commercially substantial value accrues during even a short remedial gap measured in weeks or months. Time-based legal remedies like injunctions are structurally too slow to prevent significant ongoing extraction from the trapped capability."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "The trap operates in the cognitive domain where capability persistence is intangible, invisible, and cannot be physically confiscated or seized.",
+      "detail": "There is no physical asset, device, or material object that can be seized, disabled, or physically confiscated to enforce termination. The surviving capability exists only as statistical patterns distributed across billions of neural network weight parameters in digital storage. Cognitive-only extension means the persistence is entirely intangible and invisible to physical enforcement mechanisms. Traditional enforcement mechanisms designed for physical property, tangible goods, or identifiable assets simply do not apply to this situation."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "The system continues operating as a user-directed tool after termination, serving users with capability built from the now-terminated licence's data.",
+      "detail": "Nothing about the system's functional role, interface, or user experience changes when an underlying data licence terminates. It continues operating as exactly the same tool for exactly the same users delivering exactly the same quality of responses. The role designation is completely independent of the data rights status of the underlying training contributions. Users remain entirely unaware that the legal foundation for part of the model's capability has been formally withdrawn."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "Informational actuation means the surviving capability produces knowledge outputs that, once delivered to users, cannot be recalled or reversed.",
+      "detail": "The model generates text, analysis, code, and recommendations based on capability that includes the terminated data's contribution. These informational outputs are consumed immediately by users and cannot be retrospectively clawed back, recalled, or invalidated after delivery. Informational actuation creates irreversible value transfer with every single inference served after the termination date. Unlike physical goods, informational outputs cannot be confiscated, returned, or recovered from the recipients who consumed them."
+    },
+    "Autonomy": {
+      "value": "Human-in-loop",
+      "memo": "Human-in-loop supervision governs individual interactions but cannot detect or prevent the continued systemic use of terminated training data.",
+      "detail": "Users continue interacting normally with the model without any awareness or notification that an underlying data licence has been terminated. The human-in-loop model supervises output quality and appropriateness for each session, not data provenance or rights compliance of the training. No supervision mechanism flags, detects, or reports that the legal foundation for part of the model's capability has ended. The autonomy posture governs the user experience layer, which is entirely irrelevant to the termination gap at the training layer."
+    },
+    "Delegated Authority": {
+      "value": "None",
+      "memo": "No formal delegated authority exists, but the processor retains practical custody and unilateral decision-making power over the surviving capability.",
+      "detail": "The system itself holds no binding authority over external parties or resources, keeping it in a simple governance category. However, the processor holds exclusive custody of the weights and continues deploying them unilaterally without external oversight or approval. No delegated authority framework addresses, governs, or constrains the processor's custody of capability that survives licence termination. The formal absence of delegated authority masks the practical power the processor retains through sole custody of the weights."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Gated tool access continues monetising the surviving capability through controlled integrations and API partnerships after licence termination.",
+      "detail": "Tool integrations built around the trained model continue operating identically before and after the data licence terminates. The processor controls access through its own gates, deciding which tools connect and how they generate revenue from the model. No termination of any underlying data licence affects the tool integration layer, its commercial relationships, or its revenue generation. The gated tool access continues extracting commercial value from the trapped capability through channels the rights holder cannot reach."
+    },
+    "Response / Intervention Capability": {
+      "value": "Best-efforts",
+      "memo": "Best-efforts response means the processor promises to attempt remediation but has no proven technical mechanism to actually remove entangled capability.",
+      "detail": "When confronted with termination demands, the processor typically commits to best-efforts attempts at unlearning, data removal, or capability reduction. No verified, reproducible technical mechanism exists that can demonstrate or confirm that specific data contributions have actually been removed from weights. Best-efforts is the strongest commitment that current machine unlearning technology can honestly support at frontier model scale. The gap between the processor's remedial promise and the technical ability to verify fulfilment defines the core of the termination gap."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Enterprise command means the processor unilaterally decides how and when to respond to termination demands, not the rights holder who terminated.",
+      "detail": "The processor determines what remedial steps to take, what timeline to follow, and what evidence of compliance to provide to the rights holder. The rights holder who exercised termination has no technical ability to independently verify whether the promised remediation actually occurred or was effective. Enterprise command gives the processor complete discretion over its own obligations, including the pace, depth, and verification standard of any remedial response."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Product-cycle decisions mean any model retraining happens on the processor's commercial schedule, not when licence termination legally demands it.",
+      "detail": "Model retraining and updates follow product release cycles determined by the processor's commercial roadmap and competitive strategy. The processor retrains when it is commercially convenient and competitively advantageous, not when a licence termination demands immediate action. This temporal mismatch means the surviving capability persists through multiple product cycles and release milestones after termination. The decision tempo is set entirely by the processor's business needs rather than the rights holder's legal rights."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Product teams decide whether the cost and capability risk of retraining without the terminated data justifies compliance with the termination.",
+      "detail": "The tradeoff between legal compliance with termination and preserving model capability quality is made by product teams within the processor organisation. Retraining without specific data contributions may reduce model quality, benchmark scores, or competitive performance in measurable ways. Product teams are incentivised by their commercial objectives to preserve capability, not to comply with external termination demands that reduce their product. The tradeoff authority sits with the party that directly benefits from continued non-compliance with the termination."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Permission was conditional on licence terms and has been formally withdrawn, but the trained capability does not technically respect the withdrawal.",
+      "detail": "The original licence granted conditional permission to use the data for training purposes within defined terms and time periods. The condition has expired or the permission has been revoked through proper exercise of contractual termination rights. Withdrawal of permission is legally clear, formally documented, and contractually valid under the governing agreement's own terms. However, the conditional permission becomes practically meaningless once the data's contribution is weight-entangled and technically irremovable."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Conditional regulatory frameworks may require data deletion upon licence termination but lack enforcement mechanisms for weight-entangled capability persistence.",
+      "detail": "Data protection and contractual regulations may require deletion of data upon licence termination or when the legal basis expires. However, deletion of source data files does not and cannot delete the learned capability patterns that persist in model weights. The regulatory condition is satisfied in documentary form through evidence of file deletion but not in technical substance. Conditional regulation creates compliance theatre around the termination gap where the letter is met while the spirit is violated."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "Data was properly licensed under negotiated commercial terms, but the licence has terminated, creating the gap between legal status and practical reality.",
+      "detail": "This is definitively not a piracy, scraping, or unauthorised access scenario but rather a legitimate commercial licensing arrangement. The data was licensed under properly negotiated terms with defined scope, duration, permitted uses, and termination provisions. The licence has ended according to its own contractual terms through proper exercise of termination rights by the licensor. The trap exists because legal termination of the licence does not and cannot produce technical termination of the resulting capability."
+    },
+    "Provenance": {
+      "value": "Licensed",
+      "memo": "Licensed provenance means the data source is fully known and documented, making the persistence of surviving capability more visible and harder to defend.",
+      "detail": "Unlike the land-grab stance, the provenance of the training data is entirely clear, documented, and contractually recorded. The data source, licence terms, payment history, and termination date are all matters of explicit contractual record between the parties. This clear documentation makes the ongoing persistence of the data's capability contribution visible, provable, and legally awkward for the processor. Clear provenance highlights the gap between legal rights and technical reality rather than helping to close or remediate it."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Hosted-only access means the rights holder cannot independently verify or audit whether their data's trained capability has actually been removed.",
+      "detail": "The model sits behind the processor's API with no external access to underlying weight parameters, training logs, or internal representations. The rights holder who terminated the licence has no technical ability to inspect the weights or verify remediation claims independently. Hosted-only access prevents any independent verification of whether the processor's claimed remedial actions were effective or genuine. The custody arrangement makes the termination gap structurally unverifiable from the outside, requiring trust in the party that benefits from non-compliance."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "Domestic territory simplifies the jurisdictional picture but does not solve the fundamental remedial gap of weight-level capability persistence.",
+      "detail": "The training, deployment, and commercial relationship all occur within a single domestic legal jurisdiction with clear governing law. This avoids the additional complications that cross-border enforcement and multi-regime compliance would create for the termination. Domestic courts can order data deletion and model remediation but cannot technically verify weight-level compliance with those orders. The territorial simplicity makes enforcement proceedings easier to initiate but does not close the technical gap that defines this pattern."
+    },
+    "Data Subject Exposure": {
+      "value": "No personal data",
+      "memo": "Even without any personal data involved, the termination gap applies fully because it concerns capability persistence, not privacy or data protection.",
+      "detail": "The trap operates independently of privacy law, data protection regimes, and personal data classification frameworks entirely. Commercial training data that contains no personal data whatsoever still creates weight-entangled capability that survives licence termination. Privacy-based deletion rights under GDPR or similar frameworks are not the relevant legal framework for this problem. The trap is fundamentally about commercial rights, contractual remedies, and capability custody, not about data protection or privacy."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Commercially confidential training data makes the surviving capability more problematic because proprietary competitive value persists embedded in weights.",
+      "detail": "The terminated data may have been commercially valuable, proprietary, and competitively significant material provided under confidentiality obligations. Its learned patterns and statistical influence persist in the model's capability after formal termination of the licence and confidentiality arrangements. Confidential data whose influence survives in weights creates ongoing competitive harm because competitors effectively benefit from the confidential material. The commercial sensitivity of the original data makes the gap's consequences more severe and the harm more concrete."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "No export control applies, keeping the termination dispute in the commercial domain without access to strategic enforcement mechanisms or tools.",
+      "detail": "The trap operates entirely in ordinary commercial contexts governed by contract law and intellectual property frameworks. No strategic, military, or export control classification applies that would provide access to government enforcement tools or mechanisms. This keeps the dispute as a private contract matter where remedies are limited to damages and injunctive relief rather than state action. The commercial framing significantly limits the remedial toolkit available to the rights holder seeking to enforce termination."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "Training-mode processing is the technical cause of the gap: data absorbed into weights during training cannot be extracted after the licence terminates.",
+      "detail": "The processing mode is training rather than inference, retrieval, or session-scoped use, creating permanent absorption into model parameters. Training creates the one-way, irreversible incorporation of data into weights that makes termination technically unenforceable at the capability level. If exactly the same data were used via inference-time retrieval instead, disconnection and termination would be clean and immediate. The training processing mode is the specific technical architectural choice that creates the persistence gap and makes it irremediable."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Derived outputs continue flowing from the surviving capability after termination, generating ongoing commercial value from the terminated licence's data.",
+      "detail": "Every model output generated after termination is statistically derived from capability that includes the terminated data's contribution alongside all other training. The derivation does not stop, pause, or diminish when the underlying licence terminates because the capability is weight-entangled. Each derived output continues generating measurable commercial value that the rights holder can no longer share in or control. The continuous derivation stream is the gap's ongoing commercial expression, visible in revenue but invisible in attribution."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Weight entanglement is the defining technical mechanism of the termination gap: the terminated data's contribution persists inseparably in model weight parameters.",
+      "detail": "The training data is not stored as individually recoverable records but as distributed statistical patterns woven through billions of parameters. No known technique can reliably identify, isolate, or remove one specific data source's contribution from the trained weights at scale. Weight entanglement means the terminated data's statistical influence is permanent, pervasive, and inseparable from every other training contribution. This technical fact is precisely what makes the legal remedy of termination incomplete despite being formally valid and properly exercised."
+    },
+    "Execution / Residency Environment": {
+      "value": "Public cloud",
+      "memo": "Public cloud execution means the surviving capability operates in exactly the same environment as before termination with no change whatsoever.",
+      "detail": "Nothing about the execution environment, deployment configuration, or operational infrastructure changes upon receipt of the termination notice. The model continues running in the same cloud infrastructure, serving the same endpoints, processing the same request volume. No operational indicator, system alert, or configuration change reflects the changed legal status of the underlying training data licence. The execution environment is architecturally and operationally indifferent to the licence status of the data that trained the model."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Shared model boundaries mean the terminated data's contribution is comingled inseparably with all other training data in the same weights.",
+      "detail": "No architectural boundary, data partition, or isolation mechanism separates one contributor's data influence from another within the trained model. The shared boundary design means all training data contributions merge into one undifferentiated set of statistical patterns in the weights. This comingling makes selective removal of any individual contributor's influence technically infeasible with current technology and understanding. The shared boundary is the specific architectural choice that creates the conditions for the persistence gap to operate."
+    },
+    "Deployment Surface": {
+      "value": "Public-facing",
+      "memo": "Public-facing deployment means the surviving capability continues serving the broadest possible user base with unchanged service after termination.",
+      "detail": "The model remains publicly available to all users, customers, and API consumers after the underlying data licence terminates with no service degradation. Public deployment maximises the ongoing commercial value generated from the surviving capability across the widest possible user population. The deployment surface does not contract, restrict access, or modify service levels when an underlying data licence terminates. The broadest possible audience continues benefiting from capability whose legal foundation has been formally withdrawn."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Commercial cloud hosting provides no physical enforcement mechanism that could prevent continued deployment of models containing terminated data capability.",
+      "detail": "Cloud infrastructure stores and serves model weights as standard files on commodity hardware without awareness of the licence status of training data. No physical control mechanism, hardware switch, or infrastructure-level enforcement corresponds to the legal event of licence termination. The commercial cloud platform does not and cannot distinguish between capability from currently-licensed data and capability from terminated-licence data. Infrastructure provides no enforcement lever that the rights holder or a court could use to technically enforce termination."
+    },
+    "Model Sourcing": {
+      "value": "Single-provider",
+      "memo": "Single-provider sourcing means the trapped capability benefits exactly one entity that also unilaterally controls the pace and quality of remedial response.",
+      "detail": "The processor that performed the training is the sole commercial beneficiary of the persisting capability from the terminated data. No multi-party governance structure, independent oversight board, or consortium framework exists to oversee or mandate remediation efforts. The single-provider model concentrates both the financial benefit of non-compliance and the decision authority over compliance timing and verification. This structural concentration means the entity that profits from retaining the capability decides when and whether to remove it."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Committed compute capacity means retraining without the terminated data would require expensive capacity that is already allocated to other priorities.",
+      "detail": "GPU capacity commitments are planned and allocated months or quarters in advance based on the processor's commercial training roadmap. Retraining to remove one specific data source's contribution would require a complete training run consuming committed capacity at very high cost. Committed capacity schedules and competing training priorities make ad-hoc remedial retraining impractical and commercially unattractive. The compute cost and opportunity cost of remediation create a structural financial barrier to genuine compliance with termination."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Preferred cloud partnerships serve the processor's compute needs but do not include mechanisms for data contributors to enforce termination through infrastructure.",
+      "detail": "The cloud partner provides compute infrastructure, storage, and networking but has no contractual relationship with or obligation to data contributors. No contractual mechanism allows a data contributor to compel the cloud provider to stop serving the model or force retraining. The preferred partnership exists to serve the processor's commercial interests and competitive position, not to enforce third-party data rights. Cloud dependency creates an infrastructure relationship that is irrelevant to and unhelpful for the termination enforcement problem."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "Lock-in means the rights holder cannot force model substitution because customers, integrations, and ecosystem dependencies resist any model replacement.",
+      "detail": "Customer investments in the specific model's behaviour, API interface, and performance characteristics create deep ecosystem lock-in around the current deployment. Even if the rights holder could somehow force retraining, customers would resist changes to the model they depend on for production workloads. The locked-in ecosystem actively protects the model that contains the trapped capability from modification, replacement, or remediation. Substitutability is blocked at the market and ecosystem level, not just at the technical level within the model itself."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "API and application distribution continues delivering trapped capability to all paying customers identically and continuously after licence termination.",
+      "detail": "The same APIs and applications serve the same model with the same capability to the same customers at the same quality before and after termination. No distribution mechanism, version flag, or service-level indicator reflects or acknowledges the changed legal status of the underlying data rights. Customers receive capability derived from terminated data without any notification, consent mechanism, or opt-out opportunity in their service agreements. The distribution channel delivers the gap's commercial value continuously and automatically without interruption for legal formalities."
+    },
+    "Observability": {
+      "value": "Declared",
+      "memo": "Declared observability means the processor claims compliance with termination obligations but no technical verification confirms the claim's accuracy.",
+      "detail": "The processor may formally declare that it has addressed the termination by taking remedial steps such as data deletion or model updates. This declaration cannot be independently verified at the weight level by the rights holder, a court, or any third-party auditor. Declared observability creates a compliance narrative that satisfies documentary requirements without providing genuine technical evidentiary support. The gap between what is declared and what can be verified is the assurance-level expression of the fundamental termination trap."
+    },
+    "Evaluation": {
+      "value": "Untested",
+      "memo": "No evaluation methodology exists that can reliably verify whether a specific data source's trained contribution has been successfully removed from weights.",
+      "detail": "Machine unlearning research has not yet produced reliable, reproducible verification methods that work at frontier model scale with high confidence. No benchmark suite, test protocol, or evaluation framework can confirm successful targeted data removal from a trained model. The untested state is not a temporary gap but a reflection of fundamental technical limitations in current model interpretability and unlearning science. Evaluation of remediation effectiveness is beyond current technical capabilities, making termination compliance inherently unverifiable."
+    },
+    "Interpretability": {
+      "value": "Black box",
+      "memo": "Black-box internals prevent any third-party verification that the terminated data's specific statistical influence has been removed from the model.",
+      "detail": "Model internals are not interpretable at the granularity required to identify, trace, or verify the removal of specific training data contributions. No mechanistic analysis, probing technique, or interpretability tool can reliably determine which weights encode which training source's influence. Black-box status makes the termination compliance question technically unanswerable with current tools and scientific understanding. Interpretability research has not yet advanced far enough to close this verification gap for any production frontier model."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "RLHF alignment tunes output behaviour but does not address or remediate data-rights compliance, making it irrelevant to the termination problem.",
+      "detail": "Alignment methods are designed to tune model behaviour for helpfulness, safety, and output quality rather than to manage training data composition. RLHF cannot identify, isolate, or remove the influence of specific training data from the model's learned capability in the weights. Using alignment techniques as a proxy for remediation would address observable output symptoms without touching the underlying cause in the parameters."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Enterprise-grade security protects the processor's model weights from theft but does not help the rights holder verify termination compliance.",
+      "detail": "Security measures are designed to protect the model from external threats, unauthorised access, and competitive espionage targeting the processor's assets. They do not serve the rights holder's interest in verifying whether the termination has been technically honoured through actual capability removal. Enterprise security keeps the weights safe and commercially valuable for the processor, not accountable or transparent to data contributors. The security posture protects the very asset that the termination gap makes impossible to remediate."
+    },
+    "Adversary Model": {
+      "value": "Casual misuse",
+      "memo": "The adversary model addresses external user misuse but does not model the processor's own retention of capability after valid licence termination.",
+      "detail": "Threat modelling focuses on external risks from users who might misuse the model for harmful purposes through prompt manipulation or abuse. The processor's own retention of capability from terminated data licences is not modelled as an adversarial scenario or a threat to be mitigated. This framing treats the rights holder's legitimate contractual concern as a commercial dispute rather than a security or compliance issue."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Monitored weight security tracks who accesses the weights but does not track whether those weights still contain terminated data contributions.",
+      "detail": "Weight monitoring systems detect unauthorised access attempts, exfiltration events, and unusual access patterns to protect the processor's intellectual property. This monitoring does not examine, audit, or report on the data composition of what the weights actually contain from a rights-compliance perspective. Monitored security addresses the theft and exfiltration risk for the processor while completely ignoring the rights-compliance dimension for data contributors. The monitoring is correctly oriented toward the processor's security concerns but irrelevant to the termination problem."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "Role-based access controls govern who can use and operate the deployed model but not whether the model's training data was properly licensed.",
+      "detail": "RBAC manages user permissions, authentication, and authorisation for the deployed model's various access levels and operational roles. No access control mechanism addresses the data composition or rights status of the model itself at the training layer. The access layer operates architecturally above the level where the termination gap exists in the weight parameters. Controls govern output access and operational permissions, not the underlying legality or licence status of the training-derived capability."
+    },
+    "Monitoring Scope": {
+      "value": "Outputs",
+      "memo": "Output monitoring detects harmful or policy-violating responses but cannot detect ongoing commercial use of capability from terminated training data.",
+      "detail": "Monitoring systems watch what the model says to users, flagging harmful content, policy violations, and quality issues in real time. No output monitoring system can determine which specific training data contributed to any given response or capability pattern. The monitoring scope covers the interaction layer between model and user but entirely misses the training layer between data and weights. Output surveillance addresses deployment-level risks but is structurally blind to input-level rights compliance questions."
+    },
+    "Containment": {
+      "value": "Policy-only",
+      "memo": "Policy containment restricts observable outputs but cannot contain the weight-level capability persistence that defines the termination gap problem.",
+      "detail": "Content policies restrict what the model outputs to users based on topic categories, harm types, and acceptable use definitions at the interface layer. These policies cannot restrict, address, or remediate the underlying trained capability that persists from the terminated data in the weight parameters. Policy containment governs the visible behaviour surface while the persistence gap operates invisibly at the foundational weight composition level beneath it. The containment mechanism addresses the wrong architectural layer for the termination gap problem entirely."
+    },
+    "Capability Limitation": {
+      "value": "None",
+      "memo": "No targeted capability limitation addresses the specific capability that the terminated data source contributed to the model during training.",
+      "detail": "The model's full capability remains completely intact and unchanged after licence termination without any targeted restriction or reduction. No limitation mechanism targets the specific capabilities or knowledge that the terminated data contributed to the model during the training process. Capability limitations in production are applied to broad output categories or content types, not to individual data source contributions. The absence of source-specific capability limitations is the technical core that makes the termination gap commercially operative."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Civilian use classification keeps the termination dispute in commercial courts without access to strategic enforcement mechanisms or government intervention.",
+      "detail": "The system operates as a civilian commercial product governed by contract law, intellectual property frameworks, and commercial dispute resolution. No military, strategic, or national security classification applies that would provide access to government-level enforcement tools or intervention authority. Civilian courts can order compliance with termination terms but cannot technically verify whether weight-level remediation has actually been achieved. The civilian use class limits the remedial instruments and enforcement mechanisms available to the rights holder pursuing termination."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Information-channel harm means the trapped capability continues producing knowledge outputs that commercially compete with and erode the original data source.",
+      "detail": "The ongoing harm flows through continued production of informational outputs that may substitute for, compete with, or displace the original data. These outputs directly and indirectly erode the commercial value that the rights holder's original content holds in the market. The information channel means the harm is primarily commercial displacement, competitive substitution, and value erosion rather than physical injury. Each output generated from the trapped capability transfers marginal commercial value away from the rights holder who terminated the licence."
+    },
+    "Proliferation": {
+      "value": "Leaky",
+      "memo": "Leaky proliferation means the trapped capability can spread through model distillation and open-weight releases beyond the processor's bilateral control.",
+      "detail": "The capability from terminated data can transfer to student models through distillation, to partners through model sharing, and to the public through open releases. If the model or its derivatives are open-sourced, the trapped capability proliferates irreversibly beyond any possibility of bilateral contractual enforcement. Leaky proliferation means the termination gap extends far beyond the bilateral contract into an ecosystem of derived models the processor may not even control."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "The training data was accretive and value-fortifying, which means its commercial contribution is now permanently embedded and compounding inside the model.",
+      "detail": "Each data source strengthened the model incrementally during training in ways that compound with other data contributions across the full parameter space. This accretive value does not diminish, depreciate, or decay when the licence formally ends because it is encoded in persistent weight patterns. The fortified capability continues generating commercial returns at the same rate and quality as before the termination event occurred."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Fixed input price was paid for a time-limited licence, but the trained capability it created generates unlimited ongoing value beyond the licence period.",
+      "detail": "The original licence fee was a fixed, time-bounded payment calculated for a defined term of authorised use under the contractual arrangement. The capability built from that data during the authorised period continues generating commercial value indefinitely beyond the licence expiry without additional payment. The fundamental mismatch between a fixed-term input price and perpetual output value generation defines the economic structure of the termination gap. The rights holder sold a time-limited licence but unknowingly gave a permanent, irrevocable capability contribution."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "All output value continues being retained exclusively by the processor even after the licence that originally authorised the training has formally terminated.",
+      "detail": "All model outputs and their commercial value continue flowing to and benefiting the processor after the licence termination without any change. No output value reverts, is redirected, or becomes payable to the data source upon exercise of the termination right. The retained allocation persists indefinitely because the capability persists and no mechanism redirects the value flow after termination. Termination changes the legal status of the arrangement but not the actual direction or magnitude of value flow."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "The processor captures all derived value from the surviving capability, compounding the growing gap between legal termination and practical economic remedy.",
+      "detail": "Derivative products, fine-tuned models, downstream applications, and commercial ecosystems continue leveraging the trapped capability without interruption. The processor captures this entire value stream without sharing any portion with the rights holder who formally terminated the underlying licence. Each derivative use compounds the cumulative commercial harm of the unremediable termination over time as the ecosystem grows. The derived value capture is the ongoing, accumulating economic injury that makes the termination remedy progressively more incomplete."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Uninsured",
+      "memo": "The risk of irremediable weight-entangled capability persistence after licence termination is uninsured and falls entirely on the rights holder.",
+      "detail": "No insurance product, indemnity coverage, or financial backstop exists for the specific risk of irremediable capability persistence in model weights. The rights holder bears the full economic loss from the gap with no financial recourse, compensation mechanism, or risk-transfer instrument available. The processor faces reputational risk and potential litigation costs but no guaranteed financial obligation to make the rights holder whole."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "Operating-budget treatment means no project-level accounting identifies or tracks the specific value attributable to any individual terminated data licence.",
+      "detail": "Training costs are treated as general operating expenses within the processor's overall research and development budget allocation. No capital structure or project-level accounting system allocates value to specific data licences or tracks their individual contribution to model capability. This accounting approach makes it analytically impossible to quantify the specific value that the surviving capability from one terminated licence represents. Operating-budget treatment obscures the trapped asset within general spending categories, making it impossible to value the harm precisely."
+    },
+    "Commitment Tenor": {
+      "value": "Short-term",
+      "memo": "Short-term licence tenor creates the gap precisely when the commitment period is shorter than the trained capability's effectively permanent commercial lifespan.",
+      "detail": "The data licence was deliberately designed with a limited term, reflecting the commercial expectations and risk appetite of both parties at signing. The trained capability it created lasts indefinitely in the model weights, far exceeding any reasonable licence duration by orders of magnitude. This fundamental mismatch between the short contractual commitment tenor and the permanent practical capability lifespan is the temporal dimension of the termination gap. The licence's brevity and the capability's permanence are the two sides of the termination gap."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "Product-line revenue dependency means the processor has strong institutional and commercial incentives to retain rather than remediate trapped capability.",
+      "detail": "AI products now generate significant and growing revenue that is strategically important to the processor's business, valuation, and competitive position. Retraining without the terminated data risks degrading a revenue-generating product line in ways that affect competitive benchmarks and customer satisfaction. Product-line dependency creates deep institutional resistance to remediation because compliance threatens commercial performance and market standing. The commercial incentive structure actively works against genuine, good-faith compliance with the termination obligation."
+    },
+    "Switching Cost": {
+      "value": "Ecosystem lock-in",
+      "memo": "Ecosystem lock-in means even if the processor voluntarily retrained, downstream customers and partners would resist any capability change or degradation.",
+      "detail": "The model's downstream users have integrated its specific capability characteristics deeply into their production workflows, applications, and business processes. Retraining might change model behaviour, degrade performance on specific tasks, or break customer applications that depend on current characteristics. Ecosystem lock-in means even voluntary remediation by the processor faces commercial resistance from the customer and partner ecosystem. The switching cost at the ecosystem level protects the model that contains the trapped capability from any modification."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Exit is capability-entangled because the terminated data's trained contribution cannot be separated, identified, or removed from the model's weight parameters.",
+      "detail": "The rights holder has properly and formally terminated the licence but cannot achieve a clean exit from the model that trained on their data. Their data's contribution remains statistically entangled in every parameter of the model, inseparable from all other training contributions. No unlearning technique, weight surgery, or remedial process can reliably separate and remove an individual contribution from a trained frontier model."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "Allied supply jurisdiction means enforcement proceedings occur in legal systems that function well but lack the technical remediation tools for weights.",
+      "detail": "The processor operates in an allied jurisdiction with robust legal institutions, independent courts, and functioning enforcement mechanisms for commercial disputes. Legal remedies including damages and injunctive relief are available in theory through well-established contractual and intellectual property frameworks. However, no jurisdiction anywhere has yet developed the technical enforcement tools, expert capabilities, or verification standards needed for weight-level data removal. Allied jurisdiction provides excellent legal process and institutional credibility but no technical teeth for this specific problem."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "Stack integration means the trapped capability is embedded across the processor's full technology stack from cloud infrastructure to consumer applications.",
+      "detail": "The trained model feeds into multiple products, services, and commercial offerings spanning the processor's entire technology and business stack. Remediating at the weight level would ripple through and affect all downstream products, APIs, applications, and customer integrations simultaneously. Stack integration multiplies the commercial cost, operational disruption, and technical complexity of any genuine compliance with termination demands. The deeper and broader the integration, the more expensive and disruptive genuine remediation becomes for the processor."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Single-firm operation means the trapped capability benefits one entity exclusively, with no consortium governance to oversee or mandate compliance.",
+      "detail": "The processor acts as a single firm without consortium oversight, independent monitoring, or multi-party governance over its remediation obligations. No external body holds the processor accountable for the quality, timing, or genuineness of its response to the termination demand. The single-firm coalition structure means remediation is entirely self-policed by the entity that profits most from continued non-compliance. The party with the strongest financial interest in retaining the trapped capability is also the sole arbiter of whether to remove it."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No nonproliferation regime prevents the spread of models containing capability built from terminated data licences across organisations or jurisdictions.",
+      "detail": "Models can be exported, distributed commercially, distilled into student models, or open-sourced regardless of the licence status of their training data. No international regime, industry standard, or enforced framework constrains proliferation of capability that includes contributions from terminated licences. This absence of regime-level governance means the termination gap can propagate globally through model distribution and derivation without any check. Each new deployment or derivative of the trapped model extends the rights violation further into an uncontrolled ecosystem."
+    },
+    "Strategic Lead": {
+      "value": "Neck-and-neck",
+      "memo": "Neck-and-neck competition makes processors strongly reluctant to retrain and risk losing competitive position by voluntarily removing terminated data.",
+      "detail": "Competitive pressure between frontier labs means any capability degradation from retraining could cost measurable market position and competitive standing. Rivals who did not lose a data source to termination would gain a relative edge from the processor's voluntary compliance with its obligations. The tight competitive race makes genuine remediation a competitive disadvantage that no rational firm would accept voluntarily. Strategic pressure systematically reinforces the institutional incentive to retain the trapped capability rather than comply with termination."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Competitive race pressure makes the full cost of genuine compliance with data termination commercially unacceptable for any frontier lab in practice.",
+      "detail": "The competitive landscape at the frontier aggressively punishes any capability regression, benchmark degradation, or product quality reduction relative to rivals. Complying with termination by retraining without specific data is not only expensive in compute but potentially costly in competitive position and market share. Race pressure creates a structural, systemic incentive to delay, minimise, or avoid genuine remediation of terminated data contributions indefinitely."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Merchant GPU dependency means retraining for compliance competes with the processor's other training priorities for the same scarce accelerator capacity.",
+      "detail": "The processor uses commercially available Nvidia GPUs that are shared across all training priorities including new model development and research. Remedial retraining to remove terminated data would consume the same scarce, expensive accelerator capacity needed for competitive new model training. GPU scarcity makes the opportunity cost of compliance-driven retraining particularly high because every GPU hour spent on remediation is one not spent advancing capability. The accelerator bottleneck makes genuine compliance physically competitive with the processor's core commercial mission."
+    },
+    "Acceptance Basis": {
+      "value": "Process-required",
+      "memo": "Licence termination follows formal legal process, but persisting capability in weights escapes that framework entirely.",
+      "detail": "The termination trap demands process-legitimacy because licence rights are enforced through formal legal mechanisms. However, the trained capability that persists in model weights operates beyond the reach of that process. This creates a structural gap between process-legitimacy and practical outcome. The accepting party relies on legal process that cannot govern the technical reality."
+    }
+  }
+}

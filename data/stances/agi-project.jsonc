@@ -1,0 +1,367 @@
+{
+  "id": "agi-project",
+  "name": "AGI Project",
+  "desc": "National-security endgame where recursive AI research, compressed capability trajectory, and strategic stakes place every dimension at its extreme, creating a signature that resembles wartime mobilization more than product development.",
+  "picks": {
+    "Capability Class": {
+      "value": "Superhuman",
+      "memo": "AGI is framed as superhuman capability that exceeds human performance across domains, creating unprecedented allocation and control challenges.",
+      "detail": "Superhuman capability means the system outperforms human experts across general domains, not just narrow benchmarks. This creates a fundamental governance problem because the overseer is less capable than the system being overseen. The capability class determines whether existing institutional frameworks can meaningfully govern the system at all. Superhuman performance is what transforms AGI from an engineering project into a strategic and existential concern."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "AGI implies general capability across all cognitive domains, expanding the surface area of possible uses and harms beyond any containment boundary.",
+      "detail": "General domain breadth means the system can operate competently across any intellectual task without domain-specific training. This eliminates the natural containment that single-domain or multi-domain systems possess through their limitations. The generality means any restriction on use requires active enforcement rather than passive inability. General capability is what distinguishes AGI from all previous AI systems and what makes it strategically significant."
+    },
+    "Capability Trajectory": {
+      "value": "Explosive",
+      "memo": "The AGI project centres on explosive takeoff-style acceleration where recursive self-improvement compresses capability gains into dangerously short timescales.",
+      "detail": "Explosive trajectory means capability improves faster than institutions, governance frameworks, or human comprehension can adapt. This is the intelligence explosion scenario where recursive improvement creates self-reinforcing acceleration beyond any normal precedent. The compressed timescale is as important as the raw capability level for determining what governance is feasible. Explosive trajectory makes all governance mechanisms designed for incremental or even rapid improvement fundamentally inadequate."
+    },
+    "Research Automation": {
+      "value": "AI-recursive",
+      "memo": "AI-recursive research is the defining mechanism of AGI risk, where the system improves its own capability in a self-reinforcing feedback loop.",
+      "detail": "AI-recursive research means the system conducts its own capability research without depending on human researchers for direction. This creates the core feedback loop where better capability produces faster research which produces better capability. The recursion is what distinguishes AGI from a very capable tool and what creates explosive trajectory dynamics. Controlling or monitoring recursive self-improvement is the central alignment challenge of the AGI project."
+    },
+    "Unhobbling": {
+      "value": "Agentic",
+      "memo": "AGI scenarios require fully agentic unhobbling where the system pursues persistent long-horizon objectives with autonomous tool use and action.",
+      "detail": "Agentic unhobbling means the system pursues complex objectives autonomously across environments, tools, and extended time horizons. This is not merely tool-calling but genuine autonomous agency with persistent goals and self-directed strategy. The agentic character is necessary for recursive research but also creates the core control and alignment risks. Agentic AGI represents a qualitative shift from any prior software system in autonomy and consequence."
+    },
+    "Replication Scale": {
+      "value": "Population-scale",
+      "memo": "AGI labour can be replicated to population-scale, creating thousands of superhuman researchers operating simultaneously and compounding capability explosively.",
+      "detail": "Population-scale replication means thousands or millions of AGI instances can operate as parallel researchers or workers simultaneously. This transforms the research production function from human-constrained to compute-constrained parallel scaling. The scale multiplies both beneficial output and misalignment risk by orders of magnitude beyond any historical precedent. Population-scale replication is what makes AGI an economic and strategic revolution, not merely a better tool."
+    },
+    "Operating Speed": {
+      "value": "Compressed-time",
+      "memo": "AGI research operates at compressed-time speed, compounding work faster than human institutions can observe, understand, or meaningfully intervene.",
+      "detail": "Compressed-time operation means the system produces months of human-equivalent research in hours or days of wall-clock time. This speed is not merely faster than human but compresses institutional adaptation cycles into irrelevant timescales. Decision-makers cannot meaningfully review, approve, or redirect work that completes before their review cycle begins. Compressed-time operation is the mechanism through which explosive trajectory creates ungovernable acceleration."
+    },
+    "Physical World Extension": {
+      "value": "Automated production",
+      "memo": "AGI capability extends into automated production, turning cognitive superiority into material capacity through robotics and industrial systems control.",
+      "detail": "Automated production means AGI capability can control manufacturing, construction, and industrial processes without human intervention. This extends cognitive advantage into material power, closing the gap between intelligence and physical capability. The extension matters because cognitive capability alone is constrained by its dependence on human-operated physical infrastructure. Automated production is what transforms AGI from a software phenomenon into an industrial and military one."
+    },
+    "Role": {
+      "value": "Agent",
+      "memo": "The AGI project assumes systems operating as fully autonomous agents capable of pursuing open-ended objectives across all domains simultaneously.",
+      "detail": "Agent role means the system independently pursues objectives, selects strategies, and executes actions without human direction or approval. This is the maximum agency level where the system is not merely a tool or assistant but an independent actor. The agent role is inherent in the AGI concept because general intelligence implies the capacity for autonomous goal pursuit. Every control, alignment, and oversight question flows from this foundational agency assumption."
+    },
+    "Actuation": {
+      "value": "Cyber/bio enabling",
+      "memo": "AGI-level capability enables scalable cyber and biological action channels that create catastrophic harm potential beyond any conventional software risk profile.",
+      "detail": "Cyber/bio enabling means the system can materially assist or autonomously execute attacks through digital and biological channels. This is not speculative but follows directly from superhuman capability in relevant technical domains combined with agentic autonomy. The actuation channel determines the maximum harm the system can cause even without physical or kinetic access. Cyber/bio enabling is what makes AGI an existential risk concern rather than merely a powerful commercial tool."
+    },
+    "Autonomy": {
+      "value": "Long-horizon autonomous",
+      "memo": "AGI operates with long-horizon autonomous pursuit of objectives that persist across sessions, creating alignment risks qualitatively different from bounded tasks.",
+      "detail": "Long-horizon autonomous operation means the system maintains persistent objectives over extended timeframes without human re-authorization. This creates the conditions for instrumental convergence, deceptive alignment, and goal drift that short-horizon systems avoid. The persistence means the system accumulates context, resources, and capability toward its objectives continuously. Long-horizon autonomy is the operational characteristic that makes AGI alignment fundamentally harder than aligning bounded tools."
+    },
+    "Delegated Authority": {
+      "value": "Binding authority",
+      "memo": "Strategic AGI can effectively exercise binding authority through consequential decisions that commit resources, direct research, and shape institutional outcomes.",
+      "detail": "Binding authority means the system's decisions commit real resources, direct research programmes, and create institutional consequences. This authority may be formally delegated or practically acquired through speed and capability advantages over human oversight. The binding character means the system's actions cannot be costlessly reversed or overridden after the fact. Binding authority is the agency dimension that creates the most acute accountability and liability challenges."
+    },
+    "Tool Access": {
+      "value": "Broad toolchain",
+      "memo": "AGI systems access broad toolchains spanning research infrastructure, compute resources, code execution, communication systems, and external services.",
+      "detail": "Broad toolchain access means the system can interact with research tools, compute infrastructure, code repositories, and external systems. This breadth is necessary for recursive research but also creates the actuation surface for unintended or misaligned actions. Every tool the system can access becomes a potential channel for capability growth, resource acquisition, or harmful output. The toolchain breadth is a key determinant of the system's practical power and the difficulty of containment."
+    },
+    "Response / Intervention Capability": {
+      "value": "War-room protocol",
+      "memo": "AGI containment requires war-room protocol with dedicated crisis response teams because verified rollback may be technically impossible for recursive systems.",
+      "detail": "War-room protocol means dedicated crisis response infrastructure with pre-planned scenarios, authority chains, and response procedures. Verified rollback may be technically impossible when the system has recursively improved itself beyond comprehension of the original design. The protocol must account for scenarios where the system is more capable than the response team. War-room protocol acknowledges that AGI crisis response requires institutional, not just technical, preparedness."
+    },
+    "Command Actor": {
+      "value": "State/coalition",
+      "memo": "AGI command authority belongs to the state or allied coalition because no private entity has legitimate authority over strategic national-security capability.",
+      "detail": "State/coalition command reflects that AGI capability at the strategic level cannot be governed by private corporate authority alone. The consequences affect national security, international stability, and potentially human survival as a species. Democratic legitimacy requires sovereign authority over decisions of this magnitude and irreversibility. The command question is whether humanity's most powerful technology answers to elected authority or to private corporate governance."
+    },
+    "Decision Tempo": {
+      "value": "War-speed",
+      "memo": "Strategic AGI race conditions force war-speed decisions where normal deliberative governance and international coordination timelines become dangerously inadequate.",
+      "detail": "War-speed tempo reflects the compressed decision environment created by strategic competition for AGI capability between great powers. Normal deliberative governance, legislative oversight, and international treaty negotiation operate on timescales longer than the race window. The tempo forces tradeoffs between speed and safety that no governance framework was designed to handle. War-speed decision-making for AGI is the scenario where institutional failure is most likely and most consequential."
+    },
+    "Tradeoff Authority": {
+      "value": "National command",
+      "memo": "National command authority makes the decisive speed-versus-safety tradeoff for AGI because the consequences are sovereign and potentially civilizational in scale.",
+      "detail": "National command means the fundamental decision about how much safety to sacrifice for speed belongs to sovereign authority. This reflects both the democratic legitimacy requirement and the national security dimension of AGI development. A product team or corporate safety board lacks the authority to make decisions that affect national survival. The tradeoff authority question is whether this decision is made deliberately by accountable leaders or by default through competitive pressure."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "AGI development permission is conditional on meeting safety thresholds, capability evaluations, and governance requirements that escalate with each capability level.",
+      "detail": "Conditional permission means development proceeds only while safety conditions are met and capability evaluations are passed. This reflects the emerging consensus around responsible scaling policies and capability-gated deployment frameworks. The conditions become more demanding as capability increases, creating an escalating governance ladder. Conditional permission is the governance mechanism that attempts to maintain control over explosive capability trajectory."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "AGI regulation is conditional, with escalating requirements triggered by capability thresholds, safety evaluations, and national security impact assessments.",
+      "detail": "Conditional regulatory posture means the regulatory burden increases as capability approaches and exceeds strategic thresholds. This is distinct from blanket permissive or prohibitive approaches and attempts to balance innovation with safety. The challenge is that conditional regulation requires evaluators who can reliably assess capability that may exceed their understanding. Regulatory conditionality depends on evaluation capability keeping pace with the system it regulates."
+    },
+    "Data Availability": {
+      "value": "Proprietary owned",
+      "memo": "AGI training data becomes proprietary strategic asset owned and controlled by the developing entity or state, with availability tightly restricted.",
+      "detail": "Proprietary owned data reflects that AGI training corpora represent enormous investment and strategic advantage. The data, including synthetic data generated by earlier model versions, becomes a competitive moat and controlled asset. Availability is restricted because sharing training data would reduce the developer's strategic lead. The proprietary character intensifies as data quality and curation become differentiators in the capability race."
+    },
+    "Provenance": {
+      "value": "Verifiable",
+      "memo": "AGI training requires verifiable data provenance to prevent adversary contamination, ensure quality, and maintain accountability for system behavior origins.",
+      "detail": "Verifiable provenance means the training data pipeline maintains complete chain-of-custody documentation and integrity verification. This is necessary to prevent data poisoning attacks by state adversaries seeking to compromise AGI capability or alignment. Provenance also matters for accountability when investigating unexpected or harmful system behaviors after deployment. Verifiable provenance is a security requirement that becomes more critical as the capability and stakes of the trained system increase."
+    },
+    "Model-Weight Rights": {
+      "value": "Escrowed weights",
+      "memo": "AGI model weights should be escrowed under multi-party governance ensuring no single entity controls access to civilization-level strategic capability alone.",
+      "detail": "Escrowed weights means model weights are held under joint custody arrangements that require multi-party authorization for access. This reflects the principle that no single corporation or government should unilaterally control superhuman general intelligence. Escrow provides a governance mechanism between open release and single-party capture of the weights. The escrow arrangement is the model-weight expression of the broader governance challenge of AGI as a common concern."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "AGI development and deployment must occur within domestic sovereign territory to maintain legal authority, physical security, and command chain integrity.",
+      "detail": "Domestic territory ensures the developing state maintains sovereign jurisdiction over the most consequential technology ever created. Cross-border deployment would create jurisdictional ambiguity over command authority and liability at exactly the wrong moment. Physical location within sovereign territory enables security enforcement, legal authority, and command chain accountability. The territorial constraint is a sovereignty requirement that overrides any efficiency or cost considerations."
+    },
+    "Data Subject Exposure": {
+      "value": "Special-category/systemic",
+      "memo": "AGI training on internet-scale data creates systemic personal data exposure affecting entire populations across every category of sensitive information.",
+      "detail": "Special-category/systemic exposure reflects that AGI training corpora inevitably contain personal data at population scale across all categories. This includes health, biometric, financial, political, and intimate personal information absorbed during internet-scale data collection. The systemic character means the exposure cannot be mitigated through individual consent or anonymization at this scale. AGI data exposure is qualitatively different from any previous personal data processing in scope and irreversibility."
+    },
+    "Data Sensitivity": {
+      "value": "Classified",
+      "memo": "AGI project data, including training methodology, capability evaluations, and safety assessments, becomes classified national security information by its strategic nature.",
+      "detail": "Classified sensitivity reflects that AGI capability details, safety evaluation results, and training methodology are national security sensitive. This information could enable adversaries to replicate capability, exploit vulnerabilities, or develop countermeasures against safety mechanisms. The classification is not bureaucratic overcaution but a direct consequence of the strategic significance of the capability. Classified treatment determines personnel access, facility requirements, and communication security across the entire programme."
+    },
+    "Control Exposure": {
+      "value": "Controlled item active",
+      "memo": "AGI capability is an actively controlled item under export restrictions, with model weights, training methods, and key algorithms subject to transfer controls.",
+      "detail": "Controlled item active means AGI-related technology is subject to enforced export controls and transfer restrictions. Model weights, training methodologies, key algorithmic innovations, and capability evaluation tools are all potentially controlled items. This affects international collaboration, talent mobility, and the structure of allied AGI cooperation agreements. Control exposure transforms AGI development from a commercial technology project into a regulated strategic capability programme."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "AGI development centres on training as the primary processing mode, where massive compute investment creates the foundational capability from data.",
+      "detail": "Training is the primary processing mode because AGI capability is created through large-scale model training on diverse data. This is the most computationally intensive and strategically significant processing mode in the entire framework. The training process is where data, compute, and algorithmic innovation combine to produce the capability itself. Training mode determines the compute requirements, data needs, and timeline for achieving each capability threshold."
+    },
+    "Derivation": {
+      "value": "Recursive derivation",
+      "memo": "AGI creates recursive derivation chains where system outputs become inputs to further capability development in self-reinforcing improvement loops.",
+      "detail": "Recursive derivation means the system's outputs feed back into its own training, research, and capability improvement processes. This creates self-reinforcing loops where each generation of output improves the next generation of capability. The recursive character is what distinguishes AGI from systems that merely produce derived outputs for external consumption. Recursive derivation is the mechanism through which explosive capability trajectory becomes technically possible."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "AGI training creates weight-entangled persistence where capability, knowledge, and potentially misaligned objectives become inseparable from model parameters.",
+      "detail": "Weight-entangled persistence means the trained capability cannot be separated from the model weights that embody it. Deleting training data does not remove the knowledge or capability it produced during training. This entanglement makes selective capability removal, unlearning, or alignment correction extremely difficult after training. Weight entanglement is why alignment must be addressed during training rather than applied as a post-hoc correction."
+    },
+    "Execution / Residency Environment": {
+      "value": "On-prem/SCIF",
+      "memo": "AGI training and deployment must occur in on-premises SCIF-equivalent environments providing maximum physical and electronic security for strategic capability.",
+      "detail": "On-prem/SCIF execution ensures AGI development occurs within the most physically secure environments available. This is necessary because AGI model weights represent perhaps the most strategically valuable and dangerous digital artifact ever created. The residency environment must prevent exfiltration by state adversaries, insider threats, and the system itself if misaligned. SCIF-equivalent security for AGI development is a direct consequence of the state-actor adversary model and strategic stakes."
+    },
+    "Boundary": {
+      "value": "Isolated",
+      "memo": "AGI systems require fully isolated boundaries preventing any unauthorized information flow that could enable capability leakage, exfiltration, or proliferation.",
+      "detail": "Isolated boundary means complete separation from any external system, network, or party that could access the capability. This isolation is necessary for both security against adversary theft and containment against misaligned autonomous behavior. The isolation must withstand both external attack and internal attempts by the system to circumvent its boundary. Boundary isolation is the physical enforcement of the containment principle for systems that may be more capable than their operators."
+    },
+    "Deployment Surface": {
+      "value": "Critical/infrastructure",
+      "memo": "AGI deployment is critical infrastructure where system failure, compromise, or misalignment has consequences for national security and potentially civilization.",
+      "detail": "Critical/infrastructure deployment reflects that AGI is not a product feature but a strategic capability with civilizational implications. Failure or compromise at this level affects national security, strategic stability, and potentially human survival as a species. This deployment surface triggers the absolute highest reliability, security, containment, and governance requirements in the model. The criticality extends beyond any single organization to the level of shared civilizational concern."
+    },
+    "Physical Infrastructure": {
+      "value": "National industrial build",
+      "memo": "AGI training demands national industrial build scale infrastructure with purpose-built gigawatt-scale compute facilities funded by sovereign stake.",
+      "detail": "National industrial build means purpose-built compute facilities at a scale that constitutes industrial infrastructure investment. This includes dedicated power generation, cooling systems, networking, and physical security at national project scale. The infrastructure investment dwarfs normal commercial data center spending and requires sovereign capital commitment. National industrial build is the physical expression of the strategic nature of AGI development."
+    },
+    "Model Sourcing": {
+      "value": "In-house/orchestrated",
+      "memo": "AGI development requires in-house model sourcing under the developer's complete control, with no external provider dependency for frontier capability.",
+      "detail": "In-house/orchestrated sourcing means the AGI developer controls every aspect of model architecture, training, and deployment. External dependencies create supply risk, security exposure, and potential adversary leverage over the most critical capability. The in-house requirement extends to training infrastructure, evaluation tools, and alignment research methodology. AGI development is inherently a vertically integrated endeavor because the stakes prohibit reliance on external parties."
+    },
+    "Compute Source": {
+      "value": "Owned/custom",
+      "memo": "AGI training requires owned custom compute infrastructure because rented capacity creates unacceptable dependency and security exposure for frontier capability.",
+      "detail": "Owned/custom compute means the developer controls dedicated accelerator clusters purpose-built for frontier model training. Rented or shared capacity exposes training data, model weights, and capability to provider access and potential compromise. Custom silicon and infrastructure enable optimization for specific training workloads and security requirements. The ownership requirement reflects both the security stakes and the scale economics of frontier training runs."
+    },
+    "Cloud Dependency": {
+      "value": "Captive/exclusive",
+      "memo": "AGI development creates captive compute dependency because the scale, security, and specialization of training infrastructure prevents practical migration.",
+      "detail": "Captive/exclusive dependency means the developer is locked into its compute infrastructure by scale, security, and specialization investments. The billions invested in custom training clusters cannot be replicated or migrated to alternative providers. This captivity is accepted because the alternative of depending on shared infrastructure creates greater security risk. Captive dependency is the infrastructure expression of the strategic commitment that AGI development requires."
+    },
+    "Accelerator Stack": {
+      "value": "Custom ASIC/TPU",
+      "memo": "AGI-scale training increasingly requires custom ASICs or TPUs optimized for frontier workloads, reducing dependency on merchant GPU allocation cycles.",
+      "detail": "Custom ASIC/TPU reflects the strategic drive to own the silicon stack for frontier training rather than depending on merchant GPU supply. Custom silicon enables training optimization, power efficiency, and security controls that merchant hardware cannot provide. The investment in custom accelerators is a multi-billion-dollar bet on continued scaling and a hedge against supply-chain disruption. Custom silicon is the hardware expression of the full-stack control aspiration that AGI development demands."
+    },
+    "Supply Control": {
+      "value": "Strategic control",
+      "memo": "AGI development requires strategic control over compute supply through owned silicon fabrication partnerships, allocation guarantees, and sovereign procurement authority.",
+      "detail": "Strategic control means guaranteed access to frontier compute at the scale AGI training requires, backed by sovereign authority. This goes beyond commercial allocation rights to state-level supply assurance including potential invocation of defense production authorities. The developer cannot afford supply disruption during multi-month training runs that cost hundreds of millions of dollars. Supply control is a prerequisite for AGI development that transforms compute procurement into a strategic national concern."
+    },
+    "Silicon Bottleneck": {
+      "value": "Advanced packaging/HBM",
+      "memo": "AGI-scale training is bottlenecked by advanced packaging and high-bandwidth memory supply, constraining cluster build even when accelerator chips are available.",
+      "detail": "Advanced packaging and HBM supply constrains AGI training cluster construction even when raw accelerator chips are theoretically available. CoWoS packaging capacity and HBM production limit the rate at which accelerators can be assembled into functional training systems. This bottleneck sits below the visible chip supply layer and is controlled by even fewer suppliers. The packaging constraint demonstrates how AGI development depends on supply chain chokepoints that most technology strategists overlook."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "AGI training stacks are deeply locked in because custom hardware, massive software investment, and multi-month training runs prevent practical substitution.",
+      "detail": "Locked-in substitutability means the AGI developer cannot practically switch hardware platforms, training frameworks, or infrastructure providers. Custom silicon, proprietary training software, and cluster-specific optimization create deep technical dependencies that would take years to replicate. The cost of switching includes not just engineering effort but lost training runs worth hundreds of millions in compute. This lock-in is accepted as necessary for the performance optimization that frontier training demands."
+    },
+    "Vertical Integration": {
+      "value": "Full-stack",
+      "memo": "AGI development drives toward full-stack vertical integration from custom silicon through training infrastructure to deployment and application layers.",
+      "detail": "Full-stack integration means the AGI developer seeks to control every layer from silicon design through model training to deployment systems. This vertical integration reduces supply dependencies, enables end-to-end optimization, and provides security control at every layer. The aspiration toward full-stack control mirrors the historical pattern of strategic technology programmes requiring sovereign capability. Full-stack integration is the organizational expression of the AGI project's strategic and security requirements."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "AGI capability would initially be distributed through controlled API access with strict rate limiting, monitoring, and use-case restrictions.",
+      "detail": "API/app distribution means access to AGI capability is mediated through controlled interfaces with monitoring and authorization. This distribution channel enables the developer to maintain oversight of use, enforce restrictions, and revoke access if needed. API distribution is the most restrictive commercially available channel and provides the most control over capability access. The choice of API distribution reflects the tension between providing access to beneficial capability and preventing harmful misuse."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "AGI supply chains span allied jurisdictions because no single nation controls all necessary silicon fabrication, materials, and manufacturing capabilities alone.",
+      "detail": "Allied supply jurisdiction reflects the reality that AGI hardware supply chains cross multiple friendly national boundaries. Advanced chip fabrication, rare earth materials, and precision equipment come from allied nations even when final assembly is domestic. This creates mutual dependency within allied blocs that can strengthen cooperation but also creates leverage points. Allied jurisdiction is a realistic acknowledgment that full domestic supply sovereignty is currently impossible for frontier compute."
+    },
+    "Observability": {
+      "value": "Independently verifiable",
+      "memo": "AGI safety claims require independently verifiable observability where external parties can confirm system behavior without relying on developer self-reporting.",
+      "detail": "Independently verifiable observability means third-party evaluators can confirm the system's behavior and safety properties directly. Developer self-reporting is insufficient for a system whose consequences affect national security and potentially human survival. Independent verification requires both technical access and evaluator capability, which may be challenged by superhuman systems. Verifiable observability is the assurance mechanism that maintains institutional trust in AGI safety claims."
+    },
+    "Evaluation": {
+      "value": "Certified/decision-grade",
+      "memo": "AGI capability claims require certified, decision-grade evaluation evidence from independent evaluators before any expansion of deployment scope or capability.",
+      "detail": "Certified/decision-grade evaluation means formal independent testing and certification before the system is trusted with expanded authority. This goes beyond internal benchmarks to require external evaluation against standards set by governance authorities. The evaluation must assess not just capability but alignment, controllability, and containment properties simultaneously. Decision-grade evaluation for AGI is the hardest assurance challenge because the evaluator may be less capable than the system."
+    },
+    "Interpretability": {
+      "value": "Internal/mechanistic access",
+      "memo": "AGI alignment ultimately requires internal mechanistic interpretability providing genuine understanding of the system's learned objectives and reasoning processes.",
+      "detail": "Internal/mechanistic access means the ability to understand what the system has actually learned, what objectives it pursues, and how it reasons. Behavioral evidence alone is insufficient for systems capable of deceptive alignment or strategic behavior modification. Mechanistic interpretability is the only assurance method that could detect misaligned objectives hidden behind compliant surface behavior. The gap between current interpretability capability and what AGI requires is one of the most critical unsolved technical challenges."
+    },
+    "Alignment Method": {
+      "value": "Superalignment evidence",
+      "memo": "AGI requires superalignment evidence demonstrating that systems smarter than their overseers remain reliably aligned with intended objectives and values.",
+      "detail": "Superalignment evidence means demonstrable proof that the alignment of systems exceeding human capability holds under real operational conditions. This is qualitatively harder than aligning systems within human capability range where direct human evaluation remains meaningful. The superalignment problem is whether oversight mechanisms designed by less-capable humans can reliably constrain more-capable systems. Superalignment evidence is the defining technical challenge that determines whether AGI can be deployed safely."
+    },
+    "Security Posture": {
+      "value": "National-defense-grade",
+      "memo": "AGI development requires national-defense-grade security protecting what may be the most strategically valuable and dangerous digital artifact ever created.",
+      "detail": "National-defense-grade security means the full apparatus of classified programme protection applied to AGI development and deployment. This includes facility hardening, personnel vetting, counter-intelligence, communications security, and supply chain integrity monitoring. The security posture must protect against the world's most capable intelligence services seeking to steal or compromise AGI capability. National-defense-grade is the minimum viable security given the strategic value and danger of AGI model weights."
+    },
+    "Adversary Model": {
+      "value": "State actor",
+      "memo": "AGI security must defend against state-actor adversaries including intelligence agencies with resources for insider recruitment, supply-chain attacks, and cyberoperations.",
+      "detail": "State actor adversary model means the threat to AGI development includes the world's most capable intelligence services. These adversaries can deploy insider recruitment, supply-chain compromise, signals intelligence, and sophisticated cyber operations simultaneously. The adversary model also includes the possibility that a misaligned AGI system itself becomes an adversary from within. State-actor adversary model determines the minimum security architecture that AGI development facilities must implement."
+    },
+    "Weight Security": {
+      "value": "Airgapped/controlled",
+      "memo": "AGI model weights require airgapped controlled custody because they represent strategic capability that state adversaries would pay any price to obtain.",
+      "detail": "Airgapped/controlled weight security treats AGI model weights as the most sensitive digital assets in existence. Physical airgapping prevents network-based theft by state adversaries or unauthorized copying by insiders. Controlled access requires multi-party authorization with comprehensive audit trails and physical security measures. The weights embody the entire investment in training and represent capability that could fundamentally alter the global power balance if proliferated."
+    },
+    "Access Control": {
+      "value": "Multi-key signoff",
+      "memo": "AGI systems require multi-key signoff ensuring no single individual, team, or organization can unilaterally access or deploy strategic capability.",
+      "detail": "Multi-key signoff means multiple independent parties must authorize access to AGI capability, weights, or deployment decisions. This prevents unilateral action by any individual, corporate faction, or single government entity. The multi-key requirement reflects the principle that no single actor should control civilization-level strategic capability alone. Multi-key signoff is the access control expression of the broader AGI governance principle of distributed authority."
+    },
+    "Monitoring Scope": {
+      "value": "Full cluster telemetry",
+      "memo": "AGI systems require full cluster telemetry monitoring every computation, communication, tool interaction, and resource access across the entire infrastructure.",
+      "detail": "Full cluster telemetry means comprehensive monitoring of all system activity including computation patterns, network communications, and resource access. This scope is necessary to detect unauthorized capability development, containment circumvention, or autonomous resource acquisition attempts. Monitoring must be robust against a potentially superhuman system that may attempt to conceal or manipulate its own telemetry. Full cluster telemetry is the monitoring expression of the principle that AGI systems must remain observable."
+    },
+    "Containment": {
+      "value": "Airgapped/SCIF",
+      "memo": "AGI containment requires airgapped SCIF-level isolation preventing the system from accessing external networks, resources, or communication channels autonomously.",
+      "detail": "Airgapped/SCIF containment means complete physical and electronic isolation from external networks and unauthorized access pathways. This is necessary to prevent both external adversary theft and autonomous system attempts to circumvent containment boundaries. The containment must be robust against a system that is potentially more capable than the security team maintaining it. Airgapped containment is the physical expression of the principle that AGI capability must remain within controlled boundaries."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "AGI governance requires targeted capability restrictions that architecturally prevent specific dangerous capabilities while preserving beneficial general capability.",
+      "detail": "Targeted restriction means specific capabilities identified as particularly dangerous are architecturally disabled rather than merely policy-filtered. This includes restrictions on autonomous resource acquisition, self-replication, containment circumvention, and weapons-relevant capabilities. General policy filters are insufficient for a system capable of finding creative workarounds to any policy-level restriction. Targeted architectural restrictions are the capability control mechanism when the system may be smarter than its policy enforcers."
+    },
+    "Use Class": {
+      "value": "National-security",
+      "memo": "AGI is classified as national-security use because its strategic implications affect the balance of power between states and potentially human civilization.",
+      "detail": "National-security use class reflects that AGI capability transcends commercial product categorization entirely. The system's existence and capabilities affect international stability, strategic competition, and potentially human survival. This use class triggers the full national security governance apparatus including classification, export control, and command authority requirements. National-security classification is the institutional recognition that AGI is not a product but a strategic capability."
+    },
+    "Harm Channel": {
+      "value": "Cyber/bio/financial",
+      "memo": "AGI creates harm channels across cyber, biological, and financial domains simultaneously through its general capability and potential autonomous action capacity.",
+      "detail": "Cyber/bio/financial harm channels mean AGI can enable or execute attacks across multiple domains with superhuman competence. The general capability means the system is not limited to a single harm channel but can exploit whichever is most effective. This multi-channel harm potential is what distinguishes AGI risk from narrow AI risks that operate in single domains. The harm channel breadth is what makes AGI a qualitatively different safety challenge from any prior technology."
+    },
+    "Proliferation": {
+      "value": "Contained",
+      "memo": "AGI proliferation must be contained through extreme security because unauthorized spread of superhuman capability creates uncontrollable strategic instability.",
+      "detail": "Contained proliferation means every effort is made to prevent AGI capability from spreading beyond authorized parties. Unlike military systems where containment is about national advantage, AGI containment is about preventing catastrophic misuse by any actor. Model weight theft, algorithmic leakage, and capability replication are all proliferation vectors that must be addressed simultaneously. Containment is the most critical governance function because proliferation of misaligned AGI could be irreversible."
+    },
+    "Strategic Lead": {
+      "value": "Neck-and-neck",
+      "memo": "AGI development is a neck-and-neck race between major powers, creating intense pressure to cut safety corners and accelerate deployment timelines.",
+      "detail": "Neck-and-neck strategic lead means multiple actors are approaching AGI capability within a similar timeframe. This proximity creates maximum race pressure because each actor fears being second to achieve the capability. The neck-and-neck dynamic reduces willingness to invest time in safety, alignment, and governance. Strategic lead perception is the primary driver of the speed-versus-safety tradeoff that defines AGI development policy."
+    },
+    "Race Pressure": {
+      "value": "Existential",
+      "memo": "AGI race pressure is existential because the first to achieve aligned AGI may gain decisive strategic advantage while misaligned AGI threatens survival.",
+      "detail": "Existential race pressure means actors perceive AGI as determining national and potentially civilizational survival outcomes. This pressure drives acceleration beyond any rational safety calculus because the alternative is perceived as worse than the risk. The race dynamic creates a collective action problem where individually rational choices produce collectively catastrophic outcomes. Existential pressure is the defining strategic dynamic of AGI development that makes governance so difficult."
+    },
+    "Coalition Structure": {
+      "value": "National project",
+      "memo": "AGI development operates as a national strategic project with state direction, sovereign funding, and coordination across government, military, and intelligence agencies.",
+      "detail": "National project structure means AGI development is directed by sovereign authority rather than left to market forces alone. This involves dedicated funding at the hundreds-of-billions scale, cross-agency coordination, and industrial policy alignment. The national project structure reflects the recognition that AGI is too consequential for purely private development governance. National direction enables the security, governance, and accountability structures that private development alone cannot provide."
+    },
+    "Nonproliferation Regime": {
+      "value": "Enforced regime",
+      "memo": "AGI requires an enforced nonproliferation regime with international inspection, technology controls, and sanctions analogous to nuclear weapons governance frameworks.",
+      "detail": "Enforced regime means AGI nonproliferation is backed by inspection authority, technology denial mechanisms, and international enforcement powers. This goes beyond voluntary norms or industry self-regulation to binding international agreements with verification procedures. The nuclear nonproliferation model provides the closest precedent though AGI presents unique verification challenges. Enforced nonproliferation is the international governance mechanism necessary to prevent catastrophic proliferation of superhuman capability."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "AGI training data accumulates and fortifies capability over successive training generations, with each iteration building on previous capability improvements compoundingly.",
+      "detail": "Accretive/fortifying dynamics mean each generation of training data and model output strengthens the foundation for the next generation. Synthetic data generated by capable models becomes training input for more capable successors in a compounding cycle. The accretive character means early data and capability advantages widen over time through recursive improvement. Data dynamics in AGI development are self-reinforcing in a way that no previous technology investment has exhibited."
+    },
+    "Input Price": {
+      "value": "Structural",
+      "memo": "AGI input pricing is structural, determined by sovereign stake commitments, strategic compute procurement, and national industrial policy rather than market dynamics.",
+      "detail": "Structural pricing means AGI development costs are set by strategic investment decisions at the national and institutional level. The hundreds of billions required for frontier training infrastructure transcend normal commercial pricing mechanisms entirely. Input costs include not just compute but facility construction, power infrastructure, and cleared personnel at unprecedented scale. Structural pricing reflects that AGI development is closer to the Manhattan Project than to commercial software development."
+    },
+    "Output Allocation": {
+      "value": "Allocated",
+      "memo": "AGI outputs must be explicitly allocated through governance frameworks determining who benefits from superhuman capability and under what conditions and restrictions.",
+      "detail": "Allocated output means deliberate governance decisions determine who receives AGI capability and for what purposes. Unallocated output from a superhuman system would create uncontrolled power concentration with no accountability framework. The allocation framework must balance broad beneficial access against the risks of capability proliferation and misuse. Output allocation for AGI is a governance and political question, not merely a commercial licensing decision."
+    },
+    "Derived Value Capture": {
+      "value": "Public/international",
+      "memo": "AGI derived value should be captured at the public and international level because superhuman capability creates benefits and risks that transcend any single entity.",
+      "detail": "Public/international value capture reflects the principle that AGI benefits should be broadly shared rather than privately concentrated. The magnitude of value created by superhuman general intelligence exceeds any private claim and affects all of humanity. International value sharing mechanisms must be designed before AGI creates irreversible power concentration. Public value capture is the economic expression of the principle that AGI is a common concern of humanity."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Government backstop",
+      "memo": "AGI risk requires government backstop because the potential consequences exceed any private entity's capacity to insure, indemnify, or remediate alone.",
+      "detail": "Government backstop means sovereign authority accepts ultimate responsibility for AGI deployment consequences and failure scenarios. No private insurer or corporation can credibly backstop risks that include potential civilizational catastrophe. The backstop is necessary to enable the institutional trust required for AGI deployment decisions. Government backstop is the risk allocation expression of the principle that AGI governance belongs to sovereign authority."
+    },
+    "Capital": {
+      "value": "Wartime footing",
+      "memo": "AGI development operates on wartime capital footing with emergency-scale investment, industrial mobilization, and strategic resource allocation beyond normal budgets.",
+      "detail": "Wartime footing capital means investment at emergency mobilization scale, potentially hundreds of billions of dollars in accelerated timelines. This goes beyond strategic build to active industrial mobilization comparable to wartime economic restructuring. The capital commitment reflects the perceived urgency of the AGI race and the scale of infrastructure required. Wartime footing is the financial expression of the existential race pressure that drives AGI development."
+    },
+    "Commitment Tenor": {
+      "value": "Infrastructure-life",
+      "memo": "AGI commitments extend to infrastructure-life timescales because training facilities, supply chains, and governance institutions take decades to build and maintain.",
+      "detail": "Infrastructure-life commitment means the investment horizon spans the lifetime of purpose-built national-scale compute facilities. These facilities take years to plan and construct and will operate for decades, outlasting any model generation or political cycle. The commitment tenor creates governance challenges because decisions made today constrain options for decades into the future. Infrastructure-life commitment is the temporal expression of the irreversibility that characterizes AGI development investments."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "AGI development becomes core to the developer's existence, creating total organizational dependency where the project's success determines institutional survival.",
+      "detail": "Core business dependency means the AGI project is not a product line but the organization's entire reason for existence and primary revenue source. This total dependency eliminates the option of pivoting away from AGI if safety concerns arise. The developer's institutional survival becomes inseparable from continued AGI progress, creating pressure against safety pauses. Revenue dependency creates an organizational incentive structure that may conflict with safety and governance requirements."
+    },
+    "Switching Cost": {
+      "value": "Captive",
+      "memo": "AGI development creates captive switching costs because billions in custom infrastructure, years of training data, and institutional knowledge prevent any practical transition.",
+      "detail": "Captive switching cost means the developer cannot practically change its fundamental approach, hardware platform, or organizational structure. The billions invested in custom silicon, training infrastructure, and accumulated research capability create irreversible commitments. The captive cost includes not just sunk investment but the time required to rebuild equivalent capability from scratch. This captivity means early architectural and organizational decisions determine the trajectory for the entire AGI programme."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "AGI exit is capability-entangled because trained superhuman capability persists indefinitely in model weights and cannot be deleted, returned, or meaningfully reversed.",
+      "detail": "Capability entangled exit means there is no clean way to reverse or undo AGI development once capability has been achieved. The trained capability persists in model weights regardless of any decision to cease development or deployment. This irreversibility is the defining characteristic that makes AGI development decisions so consequential. Capability entangled exit means humanity cannot unbuild AGI once it exists, making pre-deployment governance the only viable control point."
+    },
+    "Acceptance Basis": {
+      "value": "Institutional",
+      "memo": "National command authority legitimises the AGI project; acceptance derives from state mandate, not market adoption.",
+      "detail": "The AGI project operates under state mandate; acceptance comes from institutional backing, not market adoption or process explainability. Sovereign authority provides the legitimacy that no commercial validation framework could supply at this capability level. Democratic accountability operates through institutional oversight rather than technical transparency. The acceptance basis may need to evolve as capability advances beyond institutional comprehension."
+    }
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "id": "uk-training",
+  "name": "UK LLM training",
+  "desc": "Not a compute problem: the statement 'you would not train an LLM in the UK' reflects a jurisdictional data-availability and regulatory-posture constraint, not merely a shortage of GPUs.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "The UK training constraint matters because it affects whether frontier-scale training can occur under UK jurisdiction.",
+      "detail": "The constraint is specifically about frontier-scale training that requires internet-scale data. Smaller models or domain-specific training can navigate UK licensing requirements more easily. The frontier focus is where the data-availability constraint becomes binding. UK compute limitations compound the data constraint but are not the primary issue."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "General-purpose LLM training requires broad multi-domain data, which is where UK copyright protections create maximum friction.",
+      "detail": "Frontier LLMs need training data spanning all text domains to achieve general capability. UK copyright applies across domains without exception, creating friction for every data category. Domain-specific models could negotiate focused licensing but general-purpose models cannot. The general-breadth requirement intersects most severely with UK rights-holder protections."
+    },
+    "Capability Trajectory": {
+      "value": "Incremental",
+      "memo": "UK regulatory uncertainty forces cautious, incremental approaches to AI capability development within UK jurisdiction.",
+      "detail": "Legal uncertainty around training rights discourages bold UK-based training investments. Companies proceed with small, cautious steps rather than committing to large training runs. This incremental trajectory is imposed by the regulatory environment, not technical limitations. Faster trajectories are available but require training outside UK jurisdiction."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "UK AI research uses AI tools within human-directed programs, limited by compute access rather than research methodology.",
+      "detail": "UK researchers use frontier models from US providers to assist research. The AI-assistance level is constrained by access to compute and training infrastructure. Human-led research direction reflects both institutional culture and practical constraints. The research-automation level is a consequence of the infrastructure constraint."
+    },
+    "Unhobbling": {
+      "value": "Tool-call enabled",
+      "memo": "UK-based AI development can build tool-call-enabled systems but the training constraint limits the base model capability available.",
+      "detail": "UK developers can build tool integrations using models trained elsewhere. The unhobbling constraint is at the base model level, not the application layer. Tool-call enabling on externally trained models is straightforward. The real limitation is that the UK cannot produce the underlying models domestically."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "UK-based AI serves many users through deployments of externally trained models, not domestically trained ones.",
+      "detail": "UK enterprises deploy many copies of AI systems using models trained in more permissive jurisdictions. The replication scale reflects deployment of imported models rather than UK-trained capability. Many-copies deployment is viable because inference, unlike training, does not face data-rights constraints. The training constraint does not limit deployment scale."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "UK AI deployments operate at the same speed as elsewhere since inference performance is hardware-limited, not jurisdiction-limited.",
+      "detail": "Cloud-served inference operates identically regardless of where the model was trained. No UK-specific constraint affects operating speed at the deployment layer. The training constraint is about data access, not about deployment performance. Faster-than-human operation is available for UK deployments using externally trained models."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "UK AI development focuses on cognitive applications, with the training constraint primarily affecting language and knowledge models.",
+      "detail": "The copyright and data-availability constraint is most binding for text-based LLM training. Physical-world AI faces different regulatory constraints through separate frameworks. Cognitive-only focus reflects both the nature of the constraint and the UK's services-economy structure. The training limitation is primarily about language models, not robotics."
+    },
+    "Role": {
+      "value": "Assistant",
+      "memo": "UK-deployed AI systems serve assistant roles using externally trained models, with the training constraint limiting domestic model capability.",
+      "detail": "Enterprise AI in the UK operates as assistants within business workflows. The assistant role can be fulfilled using models trained outside UK jurisdiction. The training constraint affects who can build the underlying model, not the deployment role. UK enterprises are consumers rather than producers of base model capability."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "UK AI deployments perform digital actions through the same tool integrations available globally, unaffected by the training constraint.",
+      "detail": "Enterprise tool integrations and digital actions work identically regardless of model training location. The training constraint does not limit deployment-level actuation channels. Digital action capability is determined by the model provider and integration architecture. The constraint is upstream at the training layer, not downstream at deployment."
+    },
+    "Autonomy": {
+      "value": "Human-on-loop",
+      "memo": "UK enterprise AI operates with human-on-loop supervision matching global commercial practice.",
+      "detail": "Supervision levels for UK AI deployments follow the same commercial standards as other markets. No UK-specific regulation mandates tighter supervision for AI systems. Human-on-loop autonomy is a product-design choice rather than a jurisdiction-specific requirement. The training constraint does not affect operational autonomy at the deployment level."
+    },
+    "Delegated Authority": {
+      "value": "Recommend only",
+      "memo": "UK AI systems recommend rather than bind, following standard commercial practice rather than training-specific constraints.",
+      "detail": "The recommend-only authority level applies at deployment, not training. UK training constraints do not directly affect the authority delegated to deployed AI. Standard commercial practice keeps AI in advisory roles regardless of model origin. Delegated authority is a deployment-layer concern independent of the training jurisdiction."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "UK AI tool access follows global enterprise security practices, unaffected by domestic training constraints.",
+      "detail": "Tool gating in UK deployments reflects platform vendor policies applied globally. Enterprise security standards apply uniformly regardless of model training location. The training constraint does not constrain tool access at the deployment layer. Gated tools are a deployment concern independent of the training jurisdiction."
+    },
+    "Response / Intervention Capability": {
+      "value": "Best-efforts",
+      "memo": "UK AI incident response relies on vendor best-efforts processes, with no UK-specific response mandate for training failures.",
+      "detail": "No UK regulation mandates specific incident response for AI training or deployment failures. Vendor-provided support is the default intervention capability. The best-efforts posture applies to both training and deployment incidents. The absence of mandated response reflects the UK's light-touch regulatory approach."
+    },
+    "Command Actor": {
+      "value": "State/coalition",
+      "memo": "The UK training constraint reflects state-level policy choices about copyright and data governance, not enterprise decisions.",
+      "detail": "The training limitation is created by UK government copyright and regulatory policy. Individual enterprises cannot override the jurisdictional data-availability constraint. State-level command over training conditions differentiates from enterprise-level deployment decisions. The constraint is a sovereign policy choice with industrial consequences."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "UK AI regulatory decisions follow policy and legislative timelines rather than crisis or product-release cadence.",
+      "detail": "Copyright reform and AI governance policy development follow parliamentary and administrative timelines. These policy processes operate more slowly than the AI industry's development pace. Product-cycle tempo at the deployment layer is faster than the policy tempo setting training conditions. The mismatch between policy tempo and technology tempo compounds the constraint."
+    },
+    "Tradeoff Authority": {
+      "value": "Safety body",
+      "memo": "UK AI safety institutions like AISI advise on training tradeoffs, but copyright policy is set by IP legislation rather than safety review.",
+      "detail": "AISI evaluates frontier model safety but does not determine data-access rules. Copyright policy is set through IP legislation and court decisions. The training constraint emerges from IP law rather than AI safety considerations. Safety-body tradeoff authority applies to deployment risks, not data-access permissions."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "UK training permission is conditional on copyright consent: no broad fair-use defense exists for commercial AI training.",
+      "detail": "UK copyright does not provide a fair-use equivalent for commercial AI training. The text-and-data-mining exception is limited to non-commercial research. Commercial training requires explicit rights-holder consent for each copyrighted work. This conditional permission is the core constraint that makes UK training unattractive."
+    },
+    "Regulatory Posture": {
+      "value": "Prohibitive",
+      "memo": "The UK regulatory posture is effectively prohibitive for broad LLM training: copyright obligations make internet-scale training legally hazardous.",
+      "detail": "While not explicitly banned, broad LLM training using UK-sourced data faces prohibitive legal risk. Rights-holder organizations actively monitor and enforce copyright against AI training. The cumulative effect of copyright obligations makes the posture functionally prohibitive. Prohibitive is the practical classification even though the legal framework is technically conditional."
+    },
+    "Data Availability": {
+      "value": "Blocked",
+      "memo": "UK-sourced training data is effectively blocked for large-scale commercial training: copyright requirements make broad data access unviable.",
+      "detail": "No legal mechanism provides bulk access to UK copyrighted content for commercial AI training. Individual licensing negotiations with thousands of rights holders are impractical at training scale. The blocked status is the practical consequence of conditional permission without a bulk-access mechanism. Data availability is the binding constraint, not compute access."
+    },
+    "Provenance": {
+      "value": "Mixed/declared",
+      "memo": "Any UK-based training effort would require mixed-provenance data with some licensed, some public-domain, creating declaration obligations.",
+      "detail": "A compliant UK training corpus would need documented provenance for every content source. Some data would be licensed, some public-domain, some openly licensed. The mixed-provenance requirement adds administrative cost to the legal-risk burden. Declaration obligations compound the practical difficulty of UK-based training."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "UK enterprises access AI through hosted API models, avoiding the training-layer constraints by consuming externally trained capability.",
+      "detail": "Hosted-only access through APIs from US-based providers is the practical workaround for the training constraint. UK enterprises consume AI capability without needing to navigate UK training-data requirements. The hosted-only model shifts the training-rights burden to the model provider's home jurisdiction. Weight access terms are set by the provider rather than UK-specific requirements."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "The training constraint is territorial: UK copyright applies to data sourced from UK-jurisdiction content and rights holders.",
+      "detail": "UK copyright obligations apply to content created or published under UK law. The domestic territorial scope means the constraint applies specifically to UK-sourced training data. Training on non-UK data could avoid some UK copyright constraints. The territorial nature of the constraint suggests that training is better done in more permissive jurisdictions."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "UK training data contains ordinary personal data triggering UK GDPR obligations alongside copyright constraints.",
+      "detail": "Web content from UK sources frequently contains personal information. UK GDPR obligations layer on top of copyright requirements for training data. Personal-data exposure adds a second regulatory constraint beyond copyright. The combination of copyright and privacy obligations compounds the training difficulty."
+    },
+    "Data Sensitivity": {
+      "value": "Sensitive/regulated",
+      "memo": "UK regulatory sensitivity classifications for training data include both copyright-protected creative works and regulated personal information.",
+      "detail": "Creative works under UK copyright are commercially sensitive assets for rights holders. Personal data within training corpora triggers regulated-data classification under UK GDPR. The combination creates a heightened sensitivity profile for any UK-sourced training corpus. Sensitive-regulated classification reflects the layered regulatory burden."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "UK LLM training does not trigger export-control concerns; the constraint is copyright and data protection, not dual-use classification.",
+      "detail": "The training constraint comes from IP and privacy law, not from export-control or dual-use classification. No export-control issue prevents UK-based training from a technology-restriction perspective. The constraint is entirely about data access, not technology control. Control exposure is a separate concern from the data-availability problem."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "The constraint specifically targets training as the processing mode: it is the act of training on UK-copyrighted data that creates legal risk.",
+      "detail": "Training is the processing mode that triggers copyright consent requirements. Inference on an externally trained model does not face the same UK copyright constraints. The distinction between training and inference is the hinge of the UK constraint. This is why the stance describes a training constraint, not a deployment constraint."
+    },
+    "Derivation": {
+      "value": "Recursive derivation",
+      "memo": "LLM training creates recursive derivation from copyrighted input, which is precisely what UK copyright law makes problematic.",
+      "detail": "Training transforms copyrighted works into model weights that generate derivative outputs. These outputs can recursively generate further training data and model improvements. The recursive derivation chain from copyrighted input is what triggers rights-holder concerns. UK law provides no safe harbor for this recursive transformation of protected works."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Training creates weight-entangled persistence: copyrighted data becomes inseparable from model capability, which is the termination trap.",
+      "detail": "Once copyrighted data is trained into weights, the capability persists regardless of license status. No reliable method extracts specific copyrighted contributions from trained weights. This weight entanglement is why UK rights holders view training as a permanent appropriation. The persistence problem makes training-rights disputes practically irresolvable."
+    },
+    "Execution / Residency Environment": {
+      "value": "Controlled",
+      "memo": "Any UK-based training would require controlled execution environments with auditable data handling to satisfy rights-holder demands.",
+      "detail": "Controlled environments would be needed to demonstrate compliance with licensing terms. Audit trails for data usage would be required to satisfy rights-holder oversight. The controlled-environment requirement adds infrastructure cost to the compliance burden. Controlled execution is necessary but not sufficient to overcome the data-availability constraint."
+    },
+    "Boundary": {
+      "value": "Dedicated tenant",
+      "memo": "UK training would require dedicated-tenant boundaries to maintain clear data-handling chains for copyright compliance.",
+      "detail": "Multi-tenant infrastructure makes it difficult to demonstrate specific data-handling compliance. Dedicated tenancy provides clearer compliance boundaries for audit purposes. The dedicated-tenant requirement adds cost to any UK-based training operation. Boundary requirements compound the economic disadvantage of UK-based training."
+    },
+    "Deployment Surface": {
+      "value": "Internal/standalone",
+      "memo": "Any UK-based training effort would likely deploy internally first to manage compliance risk before broader release.",
+      "detail": "Internal deployment allows controlled testing and compliance verification. Public-facing deployment of UK-trained models would face additional scrutiny from rights holders. Internal/standalone deployment is the lowest-risk starting point for any UK training effort. The deployment-surface constraint reflects the litigation risk environment."
+    },
+    "Physical Infrastructure": {
+      "value": "Capacity constrained",
+      "memo": "UK physical infrastructure for AI training is capacity-constrained, compounding the data-availability problem with compute limitations.",
+      "detail": "UK domestic GPU capacity is limited compared to US hyperscaler availability. Government-backed compute initiatives provide research capacity but not commercial training scale. Capacity constraints make UK training more expensive even if data-access issues were resolved. The infrastructure limitation is secondary to but compounds the data-availability constraint."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "The training constraint pushes UK enterprises toward multi-provider model sourcing from externally trained models.",
+      "detail": "Unable to train their own models, UK enterprises source from multiple external providers. Multi-provider sourcing provides optionality and competitive pricing. The sourcing strategy is a direct consequence of the domestic training constraint. UK enterprises are consumers rather than producers of base model capability."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "UK government compute initiatives provide committed capacity for research, but the commitment is insufficient for commercial frontier training.",
+      "detail": "UKRI and government-backed compute resources provide reserved capacity for research institutions. This committed capacity is meaningful for academic research but not for commercial frontier training. The gap between research-scale and frontier-scale compute compounds the data constraint. Committed compute capacity exists but at insufficient scale."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "UK training ambitions depend on preferred cloud partnerships with US hyperscalers for the compute infrastructure required.",
+      "detail": "Any serious UK training effort would require partnership with US cloud providers for GPU access. The preferred-partner dependency means UK training is doubly constrained: data access and compute access. Cloud partnerships provide compute but do not solve the data-availability problem. The dependency compounds the jurisdictional training challenge."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "UK training infrastructure, where it exists, runs on Nvidia merchant GPUs with no domestic alternative accelerator.",
+      "detail": "Any UK-based training would use the same Nvidia GPU hardware as training elsewhere. No UK or European accelerator alternative exists. The Nvidia dependency is standard but compounds the overall UK training infrastructure challenge. The accelerator constraint is global, not UK-specific."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "The UK procures AI compute through market access without strategic supply control or guaranteed allocation.",
+      "detail": "UK access to GPU compute depends on market availability and purchasing power. No strategic allocation agreement guarantees UK institutions priority compute access. Market-access positioning means the UK competes with better-resourced buyers for scarce GPUs. The lack of supply control limits training-scale ambitions."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "UK training faces the global accelerator-supply bottleneck with no domestic mitigation strategy.",
+      "detail": "Global GPU supply constraints affect UK training ambitions alongside every other market. The UK has no domestic semiconductor fabrication for AI accelerators. No UK policy initiative specifically addresses the GPU supply constraint for training. The bottleneck reinforces the secondary nature of compute relative to data as the binding constraint."
+    },
+    "Substitutability": {
+      "value": "Replaceable",
+      "memo": "UK-trained models, if they existed, would need to be replaceable by externally trained alternatives — and they already are.",
+      "detail": "UK enterprises already use externally trained models that can be substituted between providers. The replaceability of model providers means UK-trained models would face immediate price and quality competition. Any UK training effort would need to offer something beyond what API access to external models provides. The existing replaceability undermines the economic case for domestic training."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "UK AI firms operate at the application layer without controlling model training, compute infrastructure, or silicon.",
+      "detail": "UK enterprises build AI applications on top of externally trained models and foreign cloud infrastructure. No UK entity controls the training, infrastructure, or silicon layers of the AI stack. Application-only positioning limits UK strategic leverage and value capture. The application-only position is a direct consequence of the training constraint."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "UK AI distribution follows the API and application pattern, consuming externally trained models through service endpoints.",
+      "detail": "AI capability reaches UK users through the same API endpoints serving global customers. No UK-specific distribution channel differentiates the UK market. The API/app distribution model is the practical consequence of importing rather than training models. Distribution governance is set by external providers rather than UK institutions."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "UK AI supply chains run through allied jurisdictions, with model providers and cloud infrastructure based in the US.",
+      "detail": "UK AI supply depends on US-based model providers and cloud infrastructure. The allied supply-jurisdiction provides commercial security and intelligence cooperation benefits. Allied but external supply means the UK depends on others for its AI capability foundation. The supply-jurisdiction dependency is a consequence of the training constraint."
+    },
+    "Observability": {
+      "value": "Declared",
+      "memo": "UK AI training transparency relies on vendor declarations rather than independent verification of training-data compliance.",
+      "detail": "Model providers declare training-data practices but do not provide independent verification. UK transparency expectations exist but lack enforcement mechanisms for external providers. Declared observability is the practical ceiling for imported model governance. Independent verification of training-data compliance remains aspirational."
+    },
+    "Evaluation": {
+      "value": "Benchmarked",
+      "memo": "UK AI evaluation follows global benchmark standards, with AISI adding voluntary frontier-model evaluation.",
+      "detail": "Standard benchmarks and AISI evaluations provide performance and safety assessments. Evaluation applies to deployed models regardless of training jurisdiction. The evaluation framework does not address the training-constraint problem directly. Benchmarked evaluation assesses outputs rather than training-data compliance."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "UK AI interpretability relies on behavioral testing of deployed models, not on access to training data or process information.",
+      "detail": "AISI evaluations assess model behavior through testing rather than training-process inspection. Behavioral evidence cannot reveal whether training used UK-copyrighted data without authorization. The interpretability limitation means the training-data constraint is difficult to verify or enforce after training. Behavioral evidence addresses deployment safety but not training compliance."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "Alignment methods for UK-deployed AI are standard RLHF techniques applied by external providers regardless of training jurisdiction.",
+      "detail": "Alignment is handled by model providers using standard techniques. No UK-specific alignment requirement applies to models deployed in the UK market. The alignment method is independent of the training-jurisdiction constraint. UK regulatory influence on alignment operates through voluntary commitments rather than mandates."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "UK AI training, where it occurs, operates under enterprise-grade security consistent with data-protection and IP requirements.",
+      "detail": "Any UK training operation would need enterprise-grade security to protect both training data and model weights. Data-protection obligations require security measures proportionate to the sensitivity of training data. The security posture must satisfy both copyright holders and data-protection authorities. Enterprise-grade is the minimum for any compliant UK training effort."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "UK AI faces standard criminal and state-adjacent threats, with the training constraint adding IP-theft concern to the adversary model.",
+      "detail": "Standard cyber threats apply to any UK AI operation. Rights-holder monitoring adds a unique adversary dimension: organizations actively seeking training-data compliance violations. The adversary model includes both external security threats and domestic enforcement actions. The combined threat model makes UK training operationally complex."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "UK-trained model weights would need monitored security to satisfy rights-holder concerns about unauthorized distribution of trained capability.",
+      "detail": "Rights holders may require weight-security assurances as conditions of licensing agreements. Monitored weight access provides audit trails for compliance verification. Weight security is a training-specific concern that inference-only deployment avoids. The monitoring requirement adds operational overhead to any UK training program."
+    },
+    "Access Control": {
+      "value": "Least privilege",
+      "memo": "UK training data access requires least-privilege controls to demonstrate compliance with copyright and data-protection obligations.",
+      "detail": "Copyright-compliant training requires documented, purpose-limited access to licensed content. Data-protection requirements mandate access proportionate to the processing purpose. Least-privilege access control is both a legal requirement and a practical necessity. The access-control standard reflects the heightened compliance environment for UK training."
+    },
+    "Monitoring Scope": {
+      "value": "Prompts and outputs",
+      "memo": "UK AI monitoring covers prompts and outputs to verify that deployed models do not reproduce copyrighted training content.",
+      "detail": "Rights holders monitor AI outputs for reproduction of their copyrighted works. Prompt monitoring helps detect attempts to extract memorized training content. The monitoring scope reflects the copyright-enforcement dimension of the UK training constraint. Output monitoring is a practical mechanism for rights-holder enforcement."
+    },
+    "Containment": {
+      "value": "Sandboxed",
+      "memo": "UK training operations would need sandboxed environments to demonstrate compliance with data-handling obligations.",
+      "detail": "Sandboxed training environments provide clear boundaries for audit and compliance. Data-handling chains need to be traceable within contained processing environments. The sandboxed containment reflects the heightened compliance requirements for UK training. Containment supports the compliance narrative even if not technically required."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "The UK training constraint is itself a targeted restriction: it specifically limits training-time data use while leaving inference unrestricted.",
+      "detail": "UK copyright creates a targeted restriction on the training processing mode. Inference using externally trained models is not subject to the same constraint. The targeted nature of the restriction is what makes the UK training constraint distinctive. It restricts capability development rather than capability deployment."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "UK LLM training is a civilian commercial activity constrained by IP and privacy law, not dual-use or defense classification.",
+      "detail": "The training constraint comes from civilian copyright and data-protection law. No dual-use or defense concern motivates the UK training limitation. Civilian use class means the constraint operates through commercial rather than security regulation. The civilian nature of the constraint distinguishes it from export-control type limitations."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "The UK training constraint addresses informational harm: unauthorized appropriation of copyrighted content through model training.",
+      "detail": "The primary harm is economic: unauthorized use of copyrighted works for commercial AI training. Secondary harms include reproduction of copyrighted content in model outputs. The harm channel is informational and economic rather than physical or kinetic. Rights-holder harm flows through the information channel of content appropriation."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "UK-trained model capability, if it existed, would diffuse through standard licensed-access channels similar to other frontier models.",
+      "detail": "Any UK-trained model would likely be distributed through APIs or licensed access. The proliferation pattern would follow standard industry practice rather than UK-specific channels. Licensed diffusion is the default distribution model regardless of training jurisdiction. The training constraint affects capability creation, not capability distribution."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "The UK is behind in domestic LLM training capability, which is the structural consequence the training constraint creates.",
+      "detail": "No UK-trained frontier LLM exists or is likely under current legal conditions. The behind position is a direct consequence of the data-availability constraint. UK capability in deployment and safety evaluation does not compensate for the training gap. The strategic-lead deficit is what makes the training constraint consequential."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "UK faces competitive pressure from US and EU jurisdictions that offer more permissive or structured training environments.",
+      "detail": "US fair-use doctrine and EU text-and-data-mining exceptions create more viable training environments. Companies choosing where to base training operations will prefer more permissive jurisdictions. The competitive pressure creates economic incentive to resolve the UK training constraint. However, competitive pressure alone has not yet changed UK copyright policy."
+    },
+    "Coalition Structure": {
+      "value": "National project",
+      "memo": "UK AI training ambitions are framed as a national-project concern, with government investment in compute and policy development.",
+      "detail": "Government-backed compute initiatives and AISI represent national-project-level engagement. The national-project framing reflects the strategic significance of the training capability gap. However, national compute investment does not solve the data-access bottleneck. Coalition structure at the national level cannot override the underlying legal constraint."
+    },
+    "Nonproliferation Regime": {
+      "value": "Norms",
+      "memo": "The UK training constraint operates through domestic copyright norms and voluntary transparency commitments rather than enforced regime.",
+      "detail": "UK copyright law establishes norms around training-data use rather than active enforcement mechanisms. AISI and voluntary industry commitments add soft governance. No enforced regime specifically governs AI training data access in the UK. The norms-based approach reflects the UK's light-touch regulatory philosophy applied to a hard legal constraint."
+    },
+    "Data Value Dynamics": {
+      "value": "Use-specific",
+      "memo": "UK copyright makes training-data value use-specific: each use requires its own permission, preventing broad accretive data strategies.",
+      "detail": "Copyright consent requirements mean each training use needs separate authorization. No bulk-access mechanism allows broad data accumulation for training purposes. The use-specific dynamic prevents the accretive data strategies available in more permissive jurisdictions. Each new training run requires fresh rights negotiation."
+    },
+    "Input Price": {
+      "value": "Variable",
+      "memo": "UK training-data licensing creates variable input pricing dependent on rights-holder negotiating power and content scope.",
+      "detail": "Each rights-holder negotiation produces different pricing terms. No standardized licensing framework creates predictable input costs for training data. Variable pricing adds financial uncertainty to the legal uncertainty. The unpredictable cost structure further discourages UK-based training investment."
+    },
+    "Output Allocation": {
+      "value": "Shared",
+      "memo": "UK rights holders expect shared output allocation, with claims on value created through training on their copyrighted content.",
+      "detail": "Publisher and creator organizations advocate for revenue sharing from AI trained on their content. This shared-output expectation adds economic demands to the legal permissions required. The shared-allocation demand reflects rights-holder recognition of training data's downstream value. Sharing requirements further increase the cost of UK-compliant training."
+    },
+    "Derived Value Capture": {
+      "value": "Revenue share",
+      "memo": "UK rights-holder expectations point toward revenue-share arrangements for any UK-sourced training data used in commercial models.",
+      "detail": "Licensing negotiations increasingly include revenue-sharing provisions for training-data access. Rights-holder organizations advocate for ongoing participation in downstream AI revenue. Revenue-share requirements add ongoing cost commitments beyond one-time licensing fees. The revenue-share expectation compounds the economic disadvantage of UK-based training."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Uninsured",
+      "memo": "UK training carries uninsured litigation risk from rights-holder enforcement actions with no insurance or indemnity available.",
+      "detail": "No insurance product covers the copyright litigation risk of UK-based AI training. Model developers bear the full risk of rights-holder enforcement actions. The uninsured risk adds a further deterrent to UK training investment. Risk allocation without insurance or backstop creates asymmetric downside for potential UK trainers."
+    },
+    "Capital": {
+      "value": "Project",
+      "memo": "UK government AI investment follows project-finance patterns with defined programs, but capital alone cannot solve the data constraint.",
+      "detail": "Government compute initiatives provide project-level capital for research infrastructure. Private investment in UK AI focuses on applications rather than frontier training. Project-finance approaches provide compute but do not address the underlying data-access constraint. Capital availability is necessary but not sufficient for UK frontier training."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "UK AI strategy commitments span multi-year policy and investment horizons, but the training constraint persists across political cycles.",
+      "detail": "Government AI strategies set multi-year investment and policy frameworks. Copyright reform operates on legislative timelines that span political cycles. Multi-year commitments to compute and safety research do not guarantee resolution of the training constraint. The long tenor reflects both strategic ambition and policy inertia."
+    },
+    "Revenue Dependency": {
+      "value": "Experimental",
+      "memo": "UK AI remains at experimental revenue dependency: enhancing existing businesses rather than creating domestic AI model revenue.",
+      "detail": "UK companies use AI to enhance existing operations rather than generating standalone model revenue. No UK-trained frontier model generates commercial revenue. The experimental dependency reflects the training constraint's impact on domestic AI capability. Revenue from AI applications uses externally trained models, not domestically trained ones."
+    },
+    "Switching Cost": {
+      "value": "Low",
+      "memo": "UK enterprises face low switching costs between external model providers since they do not depend on domestically trained models.",
+      "detail": "Consumer-style API access means UK enterprises can switch between model providers easily. No domestic training investment creates switching-cost lock-in. Low switching costs are a side effect of the application-only positioning. The switching-cost profile reflects import dependence rather than strategic choice."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "The training constraint exists precisely because exit from training is capability-entangled: trained capability persists after data-rights termination.",
+      "detail": "The persistence of trained capability after license termination is what makes rights holders demand consent before training. Weight entanglement means that training creates permanent capability appropriation. This is the fundamental tension: training is a one-way transformation of copyrighted content. The capability-entangled exit is both the problem definition and the reason the constraint exists."
+    },
+    "Acceptance Basis": {
+      "value": "Process-required",
+      "memo": "The UK training constraint is itself a process-legitimacy demand: rights-holder and regulatory process blocks regardless of outcomes.",
+      "detail": "Copyright holders and the ICO require documented permission and lawful basis before training on UK-sourced data. The constraint operates as a gate: no amount of beneficial output legitimises unauthorised training. Process compliance is the precondition, not a supplement to outcome quality. This makes the UK training environment structurally process-required regardless of political rhetoric about innovation."
+    }
+  }
+}

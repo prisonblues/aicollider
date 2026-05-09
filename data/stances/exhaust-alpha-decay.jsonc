@@ -1,0 +1,337 @@
+{
+  "id": "exhaust-alpha-decay",
+  "name": "Alpha Decay",
+  "desc": "Data does not deplete like oil, but the alpha decays: the underlying activity that generates the valuable signal moves on, changes, or becomes commoditised. Contracts priced for high-alpha exhaust become stranded assets as the signal fades.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "Alpha drain occurs at frontier capability where the exhausts value depends on the cutting-edge activity that generates it, making obsolescence a frontier phenomenon.",
+      "detail": "Frontier capability generates the highest-alpha exhaust, but frontier is also where obsolescence moves fastest. The capability level determines both the current value of the exhaust and the speed at which it becomes obsolete. Frontier exhaust has the highest alpha because it captures the leading edge of knowledge and behavior. The alpha decay is specifically a frontier phenomenon because older capability levels produce lower-alpha exhaust."
+    },
+    "Domain Breadth": {
+      "value": "Single-domain",
+      "memo": "Alpha drain is sharpest in single-domain contexts where domain-specific obsolescence can completely eliminate the value of previously high-alpha exhaust data.",
+      "detail": "Single-domain focus means the exhaust value depends entirely on one domain's continued relevance and activity. When the specific domain becomes obsolete, the entire exhaust stream loses its alpha simultaneously. Multi-domain exhaust may retain value in surviving domains, but single-domain exhaust has no hedge against obsolescence. Single-domain vulnerability demonstrates the alpha decay mechanism most clearly and dramatically."
+    },
+    "Capability Trajectory": {
+      "value": "Discontinuous",
+      "memo": "Discontinuous capability trajectory creates the alpha decay because sudden technological jumps can instantly obsolete the activity that generated valuable exhaust data.",
+      "detail": "Discontinuous trajectory means capability advances in jumps that can instantly render previous-generation activities and their exhaust obsolete. The discontinuity is what creates stranded data assets because contracts were written assuming continuity that did not materialise. Previous trend evidence becomes a weak guide when discontinuous change eliminates the activity generating the exhaust. Discontinuous trajectory is the capability dynamic that transforms high-alpha exhaust contracts into stranded assets."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted research accelerates the alpha decay by enabling faster discovery of methods that obsolete the human activities generating current high-alpha exhaust.",
+      "detail": "AI-assisted research means AI capabilities are contributing to the innovation that makes previous-generation activities obsolete. The assistance accelerates the pace at which new methods replace old ones, shortening the alpha window. AI-assisted obsolescence creates the ironic dynamic where AI improvement destroys the value of AI-generated exhaust. Research automation is the mechanism through which technological progress drives the alpha decay."
+    },
+    "Unhobbling": {
+      "value": "Workflow agent",
+      "memo": "Workflow-agent unhobbling replaces the human activities that generated high-alpha exhaust, directly causing the alpha decay by automating away the exhaust source.",
+      "detail": "Workflow agent capabilities mean AI systems can now perform the tasks that previously generated valuable human-interaction exhaust. As agents take over workflows, the human interactions that produced high-alpha exhaust cease to occur. The unhobbling that makes AI more capable simultaneously destroys the value of the interaction data it was trained on. Workflow automation is the specific mechanism through which AI capability improvement drives the alpha decay."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Many copies of automated agents replace human workers at scale, accelerating the alpha decay by rapidly eliminating the human activities that generated valuable exhaust.",
+      "detail": "Many copies means automated agents replicate across organisations, rapidly replacing the human workflows that generated high-alpha exhaust. The scale of automation determines how quickly the exhaust-generating activities disappear from the economy. Population-scale agent deployment can eliminate entire categories of human interaction exhaust within years. Replication scale accelerates the alpha decay by compressing the timeline of activity obsolescence."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Faster-than-human automation replaces human activities at machine speed, compressing the alpha decay timeline from the gradual pace of natural economic transition.",
+      "detail": "Faster-than-human speed means automated alternatives replace human activities faster than the exhaust market can adapt. The speed of replacement compresses the alpha decay timeline from decades of gradual economic transition to years of rapid automation. Faster replacement means exhaust contracts become stranded before their planned expiration dates. Operating speed determines how quickly high-alpha exhaust becomes worthless through activity obsolescence."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "The alpha decay operates in the cognitive domain where automated reasoning replaces human cognitive work that previously generated valuable interaction exhaust.",
+      "detail": "Cognitive-only means the alpha decay affects exhaust from cognitive activities that AI automation can replace. Physical-world exhaust from manual labor may have different obsolescence dynamics than cognitive interaction exhaust. The cognitive domain is where AI-driven alpha decay is most acute because cognitive automation is advancing fastest. Cognitive-only focus demonstrates that the alpha decay is primarily an information economics phenomenon."
+    },
+    "Role": {
+      "value": "Copilot/worker",
+      "memo": "The systems that replace human workers function as copilots and workers that eliminate the human interactions previously generating high-alpha exhaust data.",
+      "detail": "Copilot/worker role means AI systems now perform the work that humans previously did through interactions generating valuable exhaust. Each human worker replaced by an AI copilot eliminates one source of human-interaction exhaust from the market. Copilot displacement of human workers is the direct mechanism of exhaust source elimination. The role transition from human to machine is what causes the activity obsolescence driving the alpha decay."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "AI systems actuate through digital channels replacing the human digital work activities that previously generated the highest-value interaction exhaust streams.",
+      "detail": "Digital action means AI systems now execute the digital work that humans previously performed through interactions with AI tools. The digital actuation replaces the human-AI interactions that constituted the most valuable exhaust stream. As machines handle tasks through digital action rather than through human-assisted interaction, the exhaust source disappears. Digital actuation by automated systems is the activity replacement that drives cognitive exhaust alpha decay."
+    },
+    "Autonomy": {
+      "value": "Exception-supervised",
+      "memo": "Exception-supervised automation handles routine work autonomously, eliminating the continuous human interaction that previously generated steady streams of high-alpha exhaust.",
+      "detail": "Exception-supervised autonomy means automated systems handle routine tasks without generating human-interaction exhaust. Only exception cases produce human interaction data, dramatically reducing the volume of exhaust generation. The transition from human-supervised to exception-supervised eliminates the bulk of exhaust generation from automated workflows. Exception supervision produces sparse, anomaly-focused exhaust rather than the comprehensive interaction data that had high alpha."
+    },
+    "Delegated Authority": {
+      "value": "Limited mandate",
+      "memo": "Automated systems receive limited mandates for tasks previously requiring human workers whose interactions generated the high-alpha exhaust now becoming obsolete.",
+      "detail": "Limited mandate means automated systems are authorized to perform specific tasks that previously required human interaction and generated valuable exhaust. Each mandate delegation transfers work from exhaust-generating human interaction to non-exhaust-generating machine automation. Limited mandate is the governance mechanism through which organisations authorize the automation that drives the alpha decay. The mandate expansion trajectory determines the pace of exhaust source elimination."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Automated systems access the same gated tools human workers used, but machine tool use does not generate the same human-cognitive exhaust that had value.",
+      "detail": "Gated tools means automated systems access the same tools as human workers but without generating equivalent exhaust. Machine tool use produces telemetry rather than the human-cognitive interaction patterns that constituted high-alpha exhaust. The tools remain the same but the user type changes from human to machine, eliminating the exhaust source. Gated tool access by machines demonstrates how automation preserves functionality while eliminating exhaust generation."
+    },
+    "Response / Intervention Capability": {
+      "value": "Defined escalation",
+      "memo": "Defined escalation handles the commercial and contractual consequences of alpha decay, managing the transition from active exhaust contracts to stranded data assets.",
+      "detail": "Defined escalation means clear procedures exist for handling the commercial consequences when exhaust alpha decays from existing contracts. This includes contract renegotiation, exit procedures, and dispute resolution for stranded data assets. The escalation paths manage the transition from high-value exhaust contracts to worthless stranded commitments. Defined escalation is the commercial governance mechanism for managing alpha decay consequences."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Enterprise command makes the strategic decisions about when to automate, which exhaust contracts become stranded, and how to manage the alpha decay transition.",
+      "detail": "Enterprise command means corporate leadership decides the pace of automation that drives the alpha decay. These strategic decisions determine which human activities are replaced, which exhaust streams cease, and which contracts become stranded. Enterprise command over automation strategy is simultaneously a command over exhaust generation and alpha decay timing. The command actor determines whether the alpha decay is gradual or abrupt for any specific exhaust stream."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Alpha drain unfolds at product-cycle tempo as new automation capabilities are deployed through normal business planning that gradually obsoletes exhaust-generating activities.",
+      "detail": "Product cycle tempo means automation deployment and consequent alpha decay follow normal corporate planning and deployment timelines. Each product cycle may introduce automation that eliminates another category of human-interaction exhaust generation. The tempo reflects that alpha decay is a gradual market transition rather than a sudden event. Product-cycle pace enables strategic adaptation but does not prevent the cumulative effect of progressive activity obsolescence."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Product teams make the automation decisions that drive alpha decay, trading operational efficiency gains against the loss of valuable exhaust generation from human workers.",
+      "detail": "Product team authority means engineers and managers decide to automate workflows without necessarily considering the exhaust implications. These decisions are made on efficiency and capability grounds rather than exhaust preservation considerations. Product team decisions accumulate into market-wide alpha decay without any single decision appearing consequential. The distributed tradeoff authority means alpha decay emerges from many individual efficiency decisions rather than strategic choice."
+    },
+    "Permission": {
+      "value": "Purpose-limited",
+      "memo": "Exhaust contracts were typically purpose-limited, granting specific use rights that become meaningless when the underlying activity generating the data becomes obsolete.",
+      "detail": "Purpose-limited permission means exhaust licences authorised specific uses of data from specific activities. When the activities cease due to automation, the purpose-limited permission covers data that is no longer being generated. Existing contracts retain their legal terms but the data they cover loses its commercial alpha. Purpose-limited permission demonstrates how contractual rights become commercially meaningless through activity obsolescence."
+    },
+    "Regulatory Posture": {
+      "value": "Permissive",
+      "memo": "Alpha drain occurs under permissive regulatory posture where no framework specifically addresses the obsolescence of data assets or the consequences of stranded data contracts.",
+      "detail": "Permissive regulation means no specific framework addresses the commercial consequences of exhaust alpha decay. Contract law governs the stranded-asset problem but no specific regulation addresses technological obsolescence of data contracts. The permissive environment means alpha decay consequences fall on the contracting parties without regulatory protection. Permissive posture reflects the regulatory gap in addressing technology-driven data asset obsolescence."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "Draining-alpha data was originally licensed at high value, but the licence becomes worthless as the underlying activity generating fresh data ceases through automation.",
+      "detail": "Licensed availability means the data was accessed through commercial licensing agreements negotiated when the exhaust had high alpha. The licence terms remain valid but the data's commercial value drains as the generating activity becomes obsolete. New data under the licence may cease entirely when the activity is fully automated. Licensed availability with draining alpha demonstrates how valid contracts become stranded through technological change."
+    },
+    "Provenance": {
+      "value": "Licensed",
+      "memo": "Draining-alpha data has documented licensed provenance tracing to specific human activities that are becoming obsolete through automation and technological displacement.",
+      "detail": "Licensed provenance means the data has clear documentation of its source in specific human activities and interactions. The provenance is well-documented but the value of what it documents is declining as the activity becomes obsolete. Good provenance does not protect against alpha decay because the issue is activity obsolescence, not data quality. Licensed provenance with declining underlying value demonstrates that data integrity does not prevent economic obsolescence."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Hosted-only model access means the exhaust buyer depends on the platform for data they licensed at high value that is progressively losing its analytical usefulness.",
+      "detail": "Hosted-only access means the exhaust customer interacts through the provider's platform where they purchased access to now-draining-alpha data. The hosting arrangement means the customer cannot independently assess the remaining value of their data access agreement. Hosted-only access limits the customer's ability to extract residual value from draining-alpha data through alternative processing. The hosting constraint compounds the stranded-asset problem by limiting the customer's options."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Alpha drain operates cross-border because automation that obsoletes exhaust-generating activities spreads across jurisdictions regardless of where data contracts were negotiated.",
+      "detail": "Cross-border territory means the automation driving alpha decay spreads globally regardless of where exhaust data contracts were originally negotiated. A contract negotiated in one jurisdiction becomes stranded when automation deployed globally eliminates the underlying activity. Cross-border automation spread means alpha decay cannot be prevented through jurisdictional data protection measures. The territorial character of alpha decay reflects the global nature of technological obsolescence."
+    },
+    "Data Subject Exposure": {
+      "value": "Low-identifiability",
+      "memo": "Draining-alpha exhaust typically has low individual identifiability because the valuable patterns are aggregate behavioral signals rather than individual personal information.",
+      "detail": "Low-identifiability means the exhaust that is losing alpha consists primarily of aggregate behavioral patterns rather than individual-level personal data. The alpha was in the behavioral patterns and cognitive processes the data captured, not in individual identification. Low identifiability means data protection frameworks provide little leverage for addressing the stranded-asset problem. The value loss is economic rather than privacy-related, making data protection remedies largely irrelevant."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Draining-alpha data retains commercial confidential sensitivity because it reveals competitive information even as its analytical value progressively declines.",
+      "detail": "Commercial confidential sensitivity means the data still contains competitively sensitive information even as its analytical alpha decays away. The confidentiality obligation persists even when the data's commercial value has substantially declined. This creates a situation where data has protection costs but diminishing commercial value. Commercial confidentiality of draining-alpha data demonstrates the misalignment between data protection obligations and data economic value."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Draining-alpha exhaust involves no export control issues because the data is commercially generated interaction records without controlled technology implications.",
+      "detail": "No control exposure means the draining-alpha data falls outside any export control regime. The absence of control obligations simplifies the stranded-asset problem to a purely commercial issue. No control issue means the alpha decay creates only commercial consequences, not regulatory compliance complications. The uncontrolled character keeps the stance cleanly focused on the economics of data asset obsolescence."
+    },
+    "Processing Mode": {
+      "value": "Inference",
+      "memo": "Draining-alpha data was primarily used for inference processing where the data provided analytical insight that depreciates as the underlying activity becomes obsolete.",
+      "detail": "Inference processing means the data was used to generate analytical insights and predictions from the captured activity patterns. As the underlying activity becomes obsolete, the inference outputs lose predictive value and analytical relevance. Inference on obsolete-activity data produces increasingly irrelevant results regardless of model sophistication. The processing mode does not change but the value of processing draining-alpha data progressively declines."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Derivatives from draining-alpha data lose value as the underlying activity data becomes obsolete, creating cascading depreciation through the entire derivation chain.",
+      "detail": "Derived outputs lose value when the input data they are derived from captures obsolete activities. The derivation chain does not preserve value when the foundational data reflects activities that are no longer economically relevant. Cascading depreciation means every derived product in the chain loses value simultaneously when the source activity becomes obsolete. Derived output depreciation demonstrates that derivation cannot protect against the fundamental alpha decay in source data."
+    },
+    "Retention / Persistence": {
+      "value": "Contract-retained",
+      "memo": "Draining-alpha data is retained under contract terms negotiated when the data had high value, creating obligations to store data whose commercial usefulness has substantially declined.",
+      "detail": "Contract-retained means the data is kept because contractual obligations require retention even as commercial value drains away. The retention obligation creates ongoing storage and management costs for data that generates diminishing analytical returns. Contract retention without value creates the stranded-asset dynamic where obligations outlast economic usefulness. Contract-retained draining-alpha data is the stance of a stranded data asset."
+    },
+    "Execution / Residency Environment": {
+      "value": "Public cloud",
+      "memo": "Draining-alpha data resides on public cloud infrastructure where ongoing storage costs compound the economic loss from declining data value over time.",
+      "detail": "Public cloud execution means the draining-alpha data incurs ongoing storage and processing costs on commercial infrastructure. As the data's value declines, the cost-to-value ratio worsens, turning the data from an asset into a liability. Cloud hosting costs are fixed while data value declines, creating accelerating economic loss. Public cloud storage of draining-alpha data demonstrates the ongoing cost burden of stranded data assets."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Draining-alpha data sits on shared cloud infrastructure where it occupies storage alongside more valuable current data, creating portfolio-management challenges for data assets.",
+      "detail": "Shared boundary means draining-alpha data coexists with current high-value data on the same infrastructure. The shared environment makes it difficult to efficiently manage the transition from active to stranded data assets. Portfolio management across data of varying alpha levels is complicated by shared infrastructure. Shared boundary demonstrates the practical data management challenge of alpha decay across a data portfolio."
+    },
+    "Deployment Surface": {
+      "value": "Internal/standalone",
+      "memo": "Draining-alpha data is typically used through internal standalone analytical systems where the declining value gradually becomes apparent through deteriorating analytical results.",
+      "detail": "Internal/standalone deployment means the draining-alpha data serves internal analytical applications rather than customer-facing products. The declining value becomes visible through gradually deteriorating analytical quality and relevance. Internal deployment makes the alpha decay less immediately visible than customer-facing quality degradation would. Internal standalone use can mask the alpha decay until the data's obsolescence becomes commercially significant."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Draining-alpha data occupies commercial cloud infrastructure where fixed storage costs create ongoing financial burden as data value progressively declines toward zero.",
+      "detail": "Commercial cloud means the stranded data incurs ongoing hosting costs on standard infrastructure. The cloud costs are fixed while the data's analytical value declines, creating accelerating negative return on the data asset. Commercial cloud storage turns draining-alpha data from a depreciating asset into a cost-bearing liability. The infrastructure economics determine when the rational decision is to delete stranded data rather than continue paying storage costs."
+    },
+    "Model Sourcing": {
+      "value": "Single-provider",
+      "memo": "Draining-alpha data typically serves a single-provider analytical model where the declining input quality progressively degrades the model's output relevance and accuracy.",
+      "detail": "Single-provider sourcing means the draining-alpha data feeds one analytical model that progressively loses predictive power. The single-provider dependency means the customer has no alternative model that can extract residual value from the obsolescing data. Single-provider dependency compounds the stranded-asset problem because the customer lacks model diversity to find remaining value. The sourcing arrangement limits options for extracting residual value from draining-alpha data."
+    },
+    "Compute Source": {
+      "value": "Rented/spot",
+      "memo": "Draining-alpha data processing uses rented compute because the declining value does not justify committed capacity or dedicated infrastructure investment.",
+      "detail": "Rented/spot compute means processing of draining-alpha data uses the cheapest available compute because the declining value cannot support premium infrastructure. As alpha decays, the economic justification for compute investment erodes proportionally. Rented compute reflects the economically rational response to declining data value. The transition from committed to rented compute is itself a signal of alpha decay in the data portfolio."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "Draining-alpha data contracts ideally maintain portable cloud dependency so that remaining value can be extracted through the most cost-effective available infrastructure.",
+      "detail": "Portable dependency means the customer can move draining-alpha data to cheaper infrastructure as its value declines. Portability enables cost optimization for data assets whose diminishing value cannot support premium hosting. The ability to migrate to cheaper infrastructure extends the economic life of draining-alpha data. Portable dependency is the infrastructure strategy that maximizes residual value extraction from obsolescing data."
+    },
+    "Substitutability": {
+      "value": "Replaceable",
+      "memo": "Draining-alpha data is increasingly replaceable because newer data sources capture current activities that are more analytically relevant than the obsolescing exhaust.",
+      "detail": "Replaceable substitutability means the draining-alpha data can be substituted with newer data capturing current rather than obsolete activities. The replaceability increases as alpha decays because the newer alternatives become proportionally more valuable. Replacement is the rational market response to alpha decay, though contractual obligations may delay switching. Replaceable substitutability demonstrates that data markets naturally respond to alpha decay through source substitution."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "Draining-alpha data serves application-only analytical uses where the declining value makes deeper infrastructure integration economically unjustifiable.",
+      "detail": "Application-only integration means draining-alpha data is used at the application layer without deeper infrastructure commitment. The declining value does not justify the investment needed for stack integration or deeper analytical infrastructure. Application-only use reflects the reduced commitment appropriate for data with declining commercial relevance. The integration level naturally decreases as data alpha decays, reflecting rational disinvestment."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "Draining-alpha data is accessed through standard API channels where the declining quality of analytical outputs gradually reveals the underlying data obsolescence.",
+      "detail": "API/app distribution means customers access draining-alpha data through standard interfaces where quality degradation becomes progressively visible. The distribution channel itself does not change but the value of what flows through it declines over time. API access to draining-alpha data produces results of diminishing relevance that customers eventually notice. The distribution channel is where the alpha decay first becomes visible to data consumers."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "Draining-alpha data typically resides in domestic jurisdiction where the contractual and regulatory framework governs stranded-asset disposition and exit procedures.",
+      "detail": "Domestic jurisdiction means the stranded-asset problem is governed by the home jurisdiction's contract and data law. Domestic location simplifies the legal framework for addressing contract termination, data deletion, and exit obligations. The jurisdiction determines what remedies are available when exhaust contracts become stranded through alpha decay. Domestic supply jurisdiction keeps the stranded-asset legal analysis within a single framework."
+    },
+    "Observability": {
+      "value": "Declared",
+      "memo": "Alpha drain is typically only declared rather than independently verifiable, with data providers reluctant to confirm that their data's analytical value is declining.",
+      "detail": "Declared observability means data providers may acknowledge declining value but do not provide independently verifiable evidence of alpha decay. The provider has an incentive to minimize reported alpha decay to maintain contract value and customer relationships. Declared-only observability means customers must detect alpha decay through their own analytical quality monitoring. The information asymmetry about alpha decay favours the data provider against the customer."
+    },
+    "Evaluation": {
+      "value": "Domain evals",
+      "memo": "Alpha drain is detectable through domain evaluations comparing current analytical output quality against historical baselines and alternative fresh data sources.",
+      "detail": "Domain evaluations mean the declining value of draining-alpha data can be measured through domain-specific quality assessments. Comparing current analytical outputs against historical baselines reveals progressive quality degradation from alpha decay. Evaluation against alternative fresh data sources demonstrates the growing quality gap. Domain evaluations are the primary mechanism through which customers detect and quantify the alpha decay in their data contracts."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "Alpha drain is detected through behavioral evidence as analytical outputs progressively lose predictive power and relevance compared to fresh data alternatives.",
+      "detail": "Behavioral evidence means alpha decay is identified through observed degradation in analytical output quality and predictive accuracy. The system's behavior reveals the alpha decay before any internal explanation is available. Declining analytical relevance is the behavioral signal that indicates the underlying data has lost its alpha. Behavioral evidence of alpha decay is the practical detection mechanism available to data consumers."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Human review detects alpha decay through analyst assessment of declining analytical quality and relevance in outputs from systems using draining-alpha data sources.",
+      "detail": "Human review means analysts manually assess whether analytical outputs retain their expected quality and business relevance. Human judgment is necessary because automated metrics may not capture the subtle relevance decline that characterizes early alpha decay. Analysts compare current outputs against business needs and alternative data sources to diagnose alpha decay. Human review is the governance mechanism through which organizations identify and respond to data asset obsolescence."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Draining-alpha data retains enterprise-grade security protection because confidentiality obligations persist even when the data's commercial analytical value has declined.",
+      "detail": "Enterprise-grade security means draining-alpha data continues to receive professional security protection regardless of declining value. Confidentiality and data protection obligations do not automatically terminate when commercial value declines. The security cost becomes disproportionate to the data's value, contributing to the stranded-asset economics. Enterprise-grade security for draining-alpha data demonstrates the ongoing cost burden of obligations that outlast economic value."
+    },
+    "Adversary Model": {
+      "value": "Casual misuse",
+      "memo": "Draining-alpha data faces casual misuse adversary model because the declining value reduces sophisticated adversary interest in targeting the obsolescing dataset.",
+      "detail": "Casual misuse adversary model reflects that draining-alpha data becomes a less attractive target as its analytical value declines. Sophisticated adversaries focus on current high-alpha data rather than obsolescing datasets. The declining adversary interest means lower security investment may be appropriate as alpha decays. Casual misuse is the appropriate adversary model for data whose declining value makes it an unattractive theft target."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "Role-based access control governs draining-alpha data access, maintaining standard security governance even as the data's commercial value progressively declines.",
+      "detail": "RBAC access control means standard role-based permissions govern access to draining-alpha data. The access controls persist regardless of declining value because they are infrastructure-level rather than value-dependent. RBAC maintenance creates ongoing governance cost for data of diminishing commercial benefit. Role-based controls for draining-alpha data demonstrate the persistent cost of data governance obligations."
+    },
+    "Monitoring Scope": {
+      "value": "Outputs",
+      "memo": "Output monitoring of systems using draining-alpha data reveals declining analytical quality that signals the underlying data obsolescence to attentive consumers.",
+      "detail": "Output monitoring means tracking the analytical results produced from draining-alpha data to detect quality degradation. Declining output quality is the primary signal through which alpha decay becomes visible to data consumers. Output monitoring is the detection mechanism that triggers the stranded-asset recognition and contract renegotiation process. Monitoring outputs from draining-alpha data is how organizations identify the need to transition to fresh data sources."
+    },
+    "Containment": {
+      "value": "Policy-only",
+      "memo": "Draining-alpha data containment is policy-only, with contractual and organisational policies governing data retention even as commercial justification for retention erodes.",
+      "detail": "Policy-only containment means the data is retained and governed by contractual obligations rather than architectural necessity. The policies persist even when commercial justification for retaining the data has substantially eroded. Policy-based retention without commercial justification is the defining characteristic of a stranded data asset. The policy-only character means the data is held by obligation rather than by value."
+    },
+    "Capability Limitation": {
+      "value": "None",
+      "memo": "No capability limitation addresses alpha decay because the obsolescence is economic rather than technical, operating outside the scope of system capability restrictions.",
+      "detail": "No capability limitation addresses alpha decay because the problem is economic obsolescence rather than technical risk. The system can still process the draining-alpha data; the issue is that the results are no longer commercially valuable. Capability limitations address what the system can do, not whether what it does remains economically useful. The absence of capability limitation demonstrates that alpha decay is a market problem, not a system problem."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Alpha drain operates in civilian commercial use class where data asset obsolescence creates stranded contracts and economic loss rather than safety or security consequences.",
+      "detail": "Civilian use class means the alpha decay creates commercial economic consequences rather than military or safety impacts. The stranded-asset problem is a commercial contract and financial issue rather than a national security concern. Civilian context determines the legal and financial framework for addressing stranded data contracts. Civilian use class keeps the stance focused on the economics of data asset obsolescence."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Alpha drain creates information-channel economic harm where declining data relevance erodes the analytical value that justified the original data contract investment.",
+      "detail": "Information harm channel means the damage from alpha decay operates through declining information quality and analytical relevance. The harm is economic, eroding the return on investment for data contracts that were priced at high-alpha levels. Information quality degradation is gradual and may go undetected until significant value has already been lost. The information harm channel demonstrates that data can lose value without being corrupted or compromised."
+    },
+    "Proliferation": {
+      "value": "Open but bounded",
+      "memo": "Draining-alpha data may proliferate through open but bounded channels because declining value reduces the commercial incentive to maintain strict access controls.",
+      "detail": "Open but bounded proliferation reflects that declining data value reduces the economic motivation to restrict access. Data providers may relax access controls as the commercial case for exclusivity weakens. Open distribution of draining-alpha data creates competition that further accelerates value decline. The proliferation dynamic compounds the alpha decay by reducing whatever scarcity value remained."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Alpha drain typically affects single-firm data contracts where one organization holds stranded data assets from a bilateral licensing arrangement that has lost its value.",
+      "detail": "Single firm coalition means individual organizations face the stranded-asset problem from their own bilateral data contracts. Each firm must independently recognize, manage, and exit from its own draining-alpha data commitments. The single-firm character means alpha decay creates isolated stranded-asset problems across many organizations simultaneously. Single-firm exposure to alpha decay is the market-wide pattern of distributed stranded data assets."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No nonproliferation regime addresses data asset obsolescence or stranded data contracts, leaving the economic consequences of alpha decay entirely between contracting parties.",
+      "detail": "No nonproliferation regime means alpha decay consequences are governed only by contract law and commercial negotiation. No specific framework addresses the obsolescence of data assets or provides remedies for stranded data contracts. The regulatory vacuum means parties must anticipate alpha decay risk in their original contracting or bear the consequences. No regime demonstrates that data asset obsolescence is an unaddressed gap in data governance frameworks."
+    },
+    "Data Value Dynamics": {
+      "value": "Perishable",
+      "memo": "Draining-alpha data exhibits perishable value dynamics because the analytical relevance decays as the underlying activity that generated it becomes obsolete.",
+      "detail": "Perishable value means the data's analytical usefulness diminishes over time as the activity it captures becomes obsolete. Unlike physical goods that depreciate predictably, data perishability is driven by external technological change rather than internal degradation. The perishable character is what distinguishes alpha decay from ordinary data aging or staleness. Perishable data value dynamics demonstrate that data does not deplete like oil but the alpha decays when the source becomes obsolete."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Draining-alpha data was acquired at fixed high prices negotiated when the data had peak value, creating stranded-cost problems as value declines.",
+      "detail": "Fixed input price means the data contract locked in a price based on the data's value at negotiation time. As alpha decays, the fixed price increasingly exceeds the data's actual analytical value. The gap between fixed purchase price and declining actual value is the economic measure of the stranded asset. Fixed pricing that fails to account for alpha decay risk is the contracting error that creates stranded data assets."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "Analytical outputs from draining-alpha data are retained by the customer but have declining commercial value, creating accumulated worthless results from expensive data inputs.",
+      "detail": "Retained output means the customer keeps all analytical products created from draining-alpha data. However, the retained outputs have declining relevance and commercial utility as the underlying data's alpha decays. Retaining worthless analytical outputs from expensive data inputs is the output-allocation expression of the stranded-asset problem. Retained outputs of diminishing value demonstrate that ownership of results is meaningless without analytical relevance."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "The data provider continues to capture licence fees even as the data's alpha decays, extracting value from a contract whose underlying commercial basis has eroded.",
+      "detail": "Processor captures means the data provider continues receiving contractual payments regardless of the data's declining analytical value. The provider captures value through contractual lock-in while the customer bears the loss from declining data utility. The value capture asymmetry worsens as alpha decays because the provider's revenue remains fixed while the customer's analytical benefit diminishes. Processor capture during alpha decay is the commercial mechanism that creates stranded-asset losses."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Uninsured",
+      "memo": "Alpha drain risk is uninsured because no insurance product addresses data asset obsolescence, leaving the stranded-asset loss entirely with the data contract holder.",
+      "detail": "Uninsured risk means the customer bears the full financial consequence of alpha decay with no insurance backstop or risk transfer mechanism. No insurance product covers the loss of data analytical value through technological obsolescence. The uninsured character makes alpha decay a pure commercial risk borne entirely by the data contract holder. Uninsured alpha decay risk demonstrates a gap in the financial risk management toolkit for data assets."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "Draining-alpha data contracts were funded from operating budgets that now bear the ongoing cost of maintaining stranded data assets with declining commercial returns.",
+      "detail": "Operating capital means the data contracts were funded through normal operating budgets rather than strategic investment. The operating budget continues bearing the contract cost as the data's analytical value declines toward zero. Operating-level funding makes alpha decay losses more immediately visible in financial performance. Operating capital for stranded data assets demonstrates how routine procurement decisions can create significant unplanned losses."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "Draining-alpha data contracts typically have multi-year commitment tenors that outlast the data's analytical usefulness, creating the time-based stranded-asset problem.",
+      "detail": "Multi-year commitment means the data contract extends beyond the period when the data retains its analytical alpha. The commitment tenor outlasts the data's useful life because the contract was written assuming continuous relevance. Multi-year contracts that outlast data usefulness are the definitional stranded-asset problem of the alpha decay stance. The commitment tenor determines the financial magnitude of the stranded-asset loss."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "Draining-alpha data served product-line analytical needs that are becoming obsolete alongside the data, creating dual obsolescence of both data and dependent products.",
+      "detail": "Product-line dependency means the draining-alpha data served specific analytical products whose value declines with the data. The product line that depended on high-alpha data becomes commercially unviable as the data's analytical power fades. Dual obsolescence of data and dependent products compounds the economic impact of alpha decay. Product-line dependency on draining-alpha data demonstrates cascading commercial impact from data asset obsolescence."
+    },
+    "Switching Cost": {
+      "value": "Contractual friction",
+      "memo": "Switching from draining-alpha data faces contractual friction from existing commitments that lock the customer into paying for data whose value is progressively declining.",
+      "detail": "Contractual friction means existing contract terms create barriers to switching to fresh data sources even when the alpha has drained. Minimum commitments, notice periods, and penalty clauses delay the transition to more analytically relevant alternatives. The friction prolongs the stranded-asset period by preventing rational market response to value decline. Contractual friction is the switching-cost mechanism that converts data obsolescence into contractual stranded-asset losses."
+    },
+    "Exit": {
+      "value": "Clean",
+      "memo": "Alpha drain ultimately enables clean exit because the declining data value eliminates the capability entanglement that makes high-value data exits complicated and costly.",
+      "detail": "Clean exit means the draining-alpha data can eventually be cleanly exited because there is no residual capability to protect. Unlike high-alpha data where exit is complicated by entangled capability, worthless data can be simply deleted or abandoned. The irony is that exit becomes easy precisely when exit is most desirable: after the data has lost its value. Clean exit from draining-alpha data demonstrates that obsolescence resolves the exit problem by eliminating the value that made exit complicated."
+    },
+    "Acceptance Basis": {
+      "value": "Market-validated",
+      "memo": "Alpha depletion is market-validated by definition; when the activity becomes obsolete, the market delivers the verdict.",
+      "detail": "Contracts become stranded assets when market validation withdraws as alpha decays from the underlying signal. The market itself is the acceptance authority, and its verdict is final and self-executing. No institutional backing or process rigour can sustain value once the market determines the signal is exhausted. Market validation here operates in reverse: acceptance is withdrawn rather than granted."
+    }
+  }
+}

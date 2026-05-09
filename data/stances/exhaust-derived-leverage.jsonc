@@ -1,0 +1,352 @@
+{
+  "id": "exhaust-derived-leverage",
+  "name": "Derivative Lever",
+  "desc": "The common input is non-rivalrous; the valuable derivative is the signal, model, index, or fine-tuning set built on top. Value shifts from original product to derivative, and economic leverage shifts with it — the derivative holder controls the relationship.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "Derivative lever operates at frontier capability where model sophistication enables transformation of inputs into derivatives more valuable than the originals.",
+      "detail": "Frontier capability enables the sophisticated transformations that create derived data more valuable than its non-rivalrous inputs. The derivation quality depends directly on model capability level; more capable models produce higher-value derivatives. Frontier systems can identify patterns, create embeddings, and generate insights that simpler systems cannot extract. The capability level determines the potential value differential between input and derived output."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Multi-domain breadth enables derived-data leverage by combining inputs from different domains to create cross-domain derivatives unavailable from any single source.",
+      "detail": "Multi-domain breadth means derived data can combine insights across domains in ways that single-domain processing cannot achieve. Cross-domain derivatives are particularly valuable because they reveal patterns invisible within individual domain silos. The multi-domain character enables the value multiplication that makes derivatives more valuable than any single input. Domain breadth determines the scope of the leverage shift from original to derived data."
+    },
+    "Capability Trajectory": {
+      "value": "Rapid",
+      "memo": "Rapid capability trajectory accelerates derived-data leverage because improving models continuously find new ways to extract derivative value from existing inputs.",
+      "detail": "Rapid trajectory means each model improvement discovers new derivative extraction opportunities from the same input data. The acceleration compounds derived value because better models produce better derivatives from unchanged inputs. Rapid improvement means the value gap between input and derivative widens with each capability advance. The trajectory determines how quickly the leverage shifts from data supplier to data processor."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted research accelerates derivation by enabling models to discover new transformation patterns that create derivative value from previously unexploited inputs.",
+      "detail": "AI-assisted research means models help identify new derivation opportunities and transformation approaches for extracting value from inputs. Human researchers guide the strategy while AI capabilities discover specific derivation patterns and value extraction methods. The combination enables derivation at scale and sophistication that neither humans nor AI could achieve alone. AI assistance in derivation research compounds the leverage shift from input to derived value."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Tool-using unhobbling enables systematic derivation through automated pipelines that continuously transform input data into derived products at production scale.",
+      "detail": "Tool-using means the system operates automated derivation pipelines that continuously transform inputs into derived data products. The tools include embedding generation, pattern extraction, aggregation, and cross-reference capabilities. Tool-using derivation operates continuously at production scale rather than through manual analysis. The unhobbling level determines the throughput and automation of the derivation process."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Many copies of derivation systems operate in parallel, processing different input streams simultaneously and creating diverse derived products at commercial scale.",
+      "detail": "Many copies means derivation systems run in parallel across different input data streams and derivation tasks. This scale enables diverse derived product creation from the same underlying inputs using different analytical perspectives. Parallel derivation multiplies the value extraction from each input dataset. Many-copy operation is what makes derived-data leverage commercially significant rather than merely analytically interesting."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Faster-than-human derivation speed means derived data products are created before original data suppliers can react, adjust terms, or assert competing claims.",
+      "detail": "Faster-than-human speed means the derivation process outpaces the original data supplier's ability to monitor or control derivative creation. By the time suppliers recognise the derived value, the processor has already created and potentially monetised the derivatives. Speed asymmetry between derivation and supplier awareness is a key mechanism of the leverage shift. Faster-than-human processing ensures the processor captures derivative value before markets or contracts can adjust."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Derivative lever operates in the cognitive domain where transformation of data inputs into derived information products creates the economic value shift.",
+      "detail": "Cognitive-only means the leverage shift occurs entirely through information transformation without physical-world actuation or material production. The value creation is purely analytical, converting non-rivalrous inputs into rivalrous derived outputs through computational intelligence. Cognitive-only focus demonstrates that the leverage shift is an information economics phenomenon, not a physical production question. The derived-data leverage pattern is specifically about the economics of information transformation."
+    },
+    "Role": {
+      "value": "Copilot/worker",
+      "memo": "The derivation system functions as a copilot processing input data according to human-directed strategy while executing transformation tasks autonomously at scale.",
+      "detail": "Copilot/worker role means the system executes derivation tasks within human-designed strategies and analytical frameworks. Humans set the derivation strategy while the system performs the actual data transformation and pattern extraction work. The copilot role enables the scale and speed of derivation that creates commercial leverage while maintaining strategic human direction. Copilot derivation demonstrates that the leverage shift is a directed commercial strategy, not an emergent accident."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Derivative lever operates through digital action channels where computational transformation creates new information products from existing data inputs.",
+      "detail": "Digital action means the system creates derived data products through computational processing of input datasets. The actuation creates new information artifacts that have independent commercial value from the inputs that produced them. Digital action through derivation is the mechanism that converts non-rivalrous input into rivalrous output. The actuation channel determines the form and commercial character of the derived products."
+    },
+    "Autonomy": {
+      "value": "Exception-supervised",
+      "memo": "Derivation systems operate with exception supervision where automated pipelines process continuously with human review triggered by quality or value anomalies.",
+      "detail": "Exception-supervised autonomy means derivation pipelines run continuously with human analysts reviewing flagged items or anomalies. The automation enables the throughput needed for commercial-scale derivation while maintaining quality oversight. Exception supervision balances derivation speed with analytical accuracy and commercial quality standards. The autonomy level enables sustained derivation at scale without requiring human approval for each transformation."
+    },
+    "Delegated Authority": {
+      "value": "Limited mandate",
+      "memo": "Derivation systems receive limited mandates to transform specific input types into defined derivative products within approved analytical and commercial boundaries.",
+      "detail": "Limited mandate means the derivation system operates within approved boundaries for input processing and output generation. The mandate defines what transformations are permitted, what derivative products can be created, and what quality standards must be met. Limited mandate keeps derivation within strategic control while enabling automated operation. The mandate scope determines the commercial breadth and value potential of the derivation operation."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Derivation systems access gated analytical tools including embedding generators, pattern extractors, and aggregation engines for systematic value transformation.",
+      "detail": "Gated tools means the derivation system accesses specific analytical capabilities through controlled interfaces. The tools include embedding generation, statistical aggregation, pattern extraction, and cross-reference analytical engines. Gating ensures the derivation process uses approved methodologies and produces outputs within quality and compliance boundaries. Tool access determines the sophistication and variety of derived products the system can create."
+    },
+    "Response / Intervention Capability": {
+      "value": "Defined escalation",
+      "memo": "Derivation systems have defined escalation procedures for handling novel derivation scenarios, quality issues, or rights disputes that automated pipelines cannot resolve.",
+      "detail": "Defined escalation means clear procedures exist for handling situations that exceed the automated derivation system's normal operational parameters. This includes novel data types, unexpected quality issues, and rights disputes from original data suppliers. Escalation paths assign authority and timeline for resolution before problems compound. Defined escalation demonstrates that derivation governance includes human oversight for non-routine situations."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Enterprise command means corporate strategy determines what derivation to pursue, which inputs to process, and how to commercialise the resulting derived products.",
+      "detail": "Enterprise command means the processor's corporate leadership makes the strategic decisions about derivation scope and commercialisation. The enterprise decides which input suppliers to target, what derivatives to create, and how to price and distribute the resulting products. Enterprise command determines whether derivation serves internal improvement or external product sales. Corporate strategy over derivation is what transforms a technical capability into a commercial leverage shift."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Derived-data strategy follows product-cycle tempo as the processor develops derivation capabilities and commercialises derived products through normal business planning.",
+      "detail": "Product cycle tempo means derivation strategy evolves through normal corporate planning and product development cycles. New derived products are developed, tested, and launched according to standard product management timelines. The tempo reflects that derived-data leverage is a deliberate commercial strategy executed through institutional processes. Product-cycle governance enables strategic development of the derivation capability and its commercial exploitation."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Product teams make the tradeoffs between derivation scope, supplier relationships, legal risk, and commercial value that shape the derived-data leverage strategy.",
+      "detail": "Product team authority means engineers and product managers make the practical tradeoffs in derivation strategy. These include decisions about what to derive, how aggressively to extract value, and how to handle supplier objections. Product team decisions determine whether the leverage shift is gradual or aggressive, cooperative or adversarial. The tradeoff authority determines the commercial character and sustainability of the derived-data leverage position."
+    },
+    "Permission": {
+      "value": "Silent",
+      "memo": "Derived-data creation operates under silent permission where input licensing often does not specifically address derivative creation or derivative value allocation.",
+      "detail": "Silent permission means input licences typically do not explicitly address the creation of derived data products. The licence permits data use but is silent on whether derivatives belong to the processor, the supplier, or are shared. This silence enables the processor to claim derivative ownership through the gap in contractual coverage. Silent permission is the legal mechanism through which the leverage shift from input to derivative value occurs."
+    },
+    "Regulatory Posture": {
+      "value": "Permissive",
+      "memo": "Derivative lever operates under permissive regulatory posture where no specific framework governs the economics of computational derivation from licensed inputs.",
+      "detail": "Permissive regulation means no specific regulatory framework addresses the value allocation of computationally derived data products. Database rights, copyright, and data protection may apply but do not specifically govern the derivation value shift. The permissive environment enables processors to capture derived value without specific regulatory authorization or constraint. Permissive posture is the regulatory condition that enables the leverage shift to occur before legal frameworks adapt."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "Input data is licensed for use but licence terms rarely anticipate the creation of derived products more valuable than originals.",
+      "detail": "Licensed availability means the processor has legitimate access to input data through licensing agreements. However, the licence terms were typically written before derived-data markets existed and do not address derivative value allocation. The licensing gap between permitted use and derivative value capture is the contractual mechanism of the leverage shift. Licensed input data with silent derivative terms is the typical contractual context for derived-data leverage."
+    },
+    "Provenance": {
+      "value": "Licensed",
+      "memo": "Input data provenance is documented through licensing agreements but derived product provenance is typically undocumented, obscuring the input-to-output value chain.",
+      "detail": "Licensed provenance means the input data has documented sourcing through licensing relationships with known suppliers. However, derived products lack equivalent provenance documentation, making it difficult to trace which inputs produced which derivatives. The provenance gap between inputs and derivatives obscures the value chain and complicates supplier claims. Licensed input provenance with undocumented derivative provenance is the information asymmetry that enables the leverage shift."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Hosted-only model access ensures the derivation process occurs within the processor's infrastructure, keeping both the methodology and the derived products under processor control.",
+      "detail": "Hosted-only access means input suppliers interact through the processor's platform without visibility into the derivation methodology. The processor controls how models transform inputs into derivatives and what derivative products are created. Hosted-only ensures the derivation process remains a black box to input suppliers. Model-weight rights determine whether input suppliers can inspect or replicate the derivation process."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Derivative lever operates cross-border because inputs come from multiple jurisdictions while derivation occurs centrally, creating jurisdictional complexity for claims.",
+      "detail": "Cross-border territory means input data is sourced from multiple jurisdictions while derivation typically occurs in the processor's home jurisdiction. This creates jurisdictional complexity because different jurisdictions may have different rules about derivative data ownership and rights. Cross-border derivation complicates supplier claims because they must navigate multiple legal frameworks. The territorial complexity is a practical barrier to supplier assertion of derivative value claims."
+    },
+    "Data Subject Exposure": {
+      "value": "Low-identifiability",
+      "memo": "Derived data typically has low individual identifiability because the derivation process abstracts and aggregates individual inputs into pattern-level products.",
+      "detail": "Low-identifiability exposure means derived products typically abstract away individual-level data into aggregate patterns and statistical representations. The derivation process itself acts as a de-identification mechanism even when individual inputs contain personal data. This low identifiability in derivatives complicates individual data subject claims over derived product value. Low identifiability is a technical characteristic that makes derived-data governance harder for data protection frameworks."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Derived data has commercial confidential sensitivity because it reveals market patterns, competitive intelligence, and strategic insights extracted from aggregated inputs.",
+      "detail": "Commercial confidential sensitivity means derived products contain valuable competitive intelligence that the processor must protect. The derived insights about market patterns, user behavior, and strategic dynamics have significant commercial value. This sensitivity drives the processor to protect derivatives as proprietary assets and resist supplier claims. Commercial confidential sensitivity makes derived products the processor's most strategically valuable data assets."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Derivative lever typically involves no export control issues because computational derivation of commercial data does not create controlled technology outputs.",
+      "detail": "No control exposure means derived data products fall outside export control regimes because they are commercially derived analytical products. The absence of control obligations simplifies cross-border commercialisation of derived products. No control issue keeps the stance focused on commercial data economics rather than regulatory compliance. The uncontrolled character contributes to the commercial fluidity of derived-data markets."
+    },
+    "Processing Mode": {
+      "value": "Retrieval/embedding",
+      "memo": "Derivation primarily uses retrieval and embedding processing to transform raw inputs into structured representations that capture value patterns invisible in raw data.",
+      "detail": "Retrieval/embedding processing means inputs are transformed into vector representations and structured analytical products. This processing mode captures semantic, statistical, and relational patterns that create derivative value from raw inputs. The embedding process is specifically where non-rivalrous input becomes rivalrous output through computational transformation. Retrieval/embedding is the technical mechanism of the value transformation that creates the leverage shift."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Derived outputs are the central mechanism: computational transformation creates new data products whose value exceeds the original inputs that produced them.",
+      "detail": "Derived outputs are the defining feature of this stance, where inputs are transformed into products with independent commercial value. The derived outputs can be sold, licensed, or used internally as assets distinct from the original inputs. The value of derived outputs may exceed the value of inputs, creating the leverage shift that changes commercial power dynamics. Derived output value exceeding input value is the economic mechanism that drives the entire stance."
+    },
+    "Retention / Persistence": {
+      "value": "Persistent memory/traces",
+      "memo": "Derived products are persistently retained as the processor's proprietary assets, accumulating over time into a valuable derivative data portfolio with compounding returns.",
+      "detail": "Persistent retention means derived products are stored indefinitely as the processor's proprietary data assets. The derived portfolio grows with each new input processed and each new derivation technique applied. Persistent retention enables longitudinal analysis and product development from the accumulated derivative corpus. The retention creates an ever-growing asset base that compounds the processor's leverage over input suppliers."
+    },
+    "Execution / Residency Environment": {
+      "value": "Public cloud",
+      "memo": "Derivation operates on public cloud infrastructure where scalable compute enables cost-effective transformation of large input volumes into derived products.",
+      "detail": "Public cloud execution provides the scalable and cost-effective compute infrastructure needed for derivation at commercial scale. Cloud elasticity enables processing of varying input volumes without dedicated infrastructure investment. The cloud environment provides the economics that make derivation commercially viable for a broad range of input types. Public cloud execution keeps derivation costs low relative to the derived product value, maximising the leverage margin."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Shared service boundary means derivation occurs on shared infrastructure where the processor combines inputs from multiple suppliers for cross-source derivative creation.",
+      "detail": "Shared boundary means the derivation infrastructure processes inputs from multiple suppliers within the same analytical environment. This sharing enables cross-source derivation that creates products no single input supplier could produce alone. The shared boundary is what enables the aggregation and cross-reference that makes derivatives more valuable than individual inputs. Shared processing of multiple inputs is the architectural foundation of the derived-data leverage mechanism."
+    },
+    "Deployment Surface": {
+      "value": "Customer-facing",
+      "memo": "Derived products are deployed through customer-facing channels as commercial data products, demonstrating the transition from internal analysis to external market value.",
+      "detail": "Customer-facing deployment means derived products are sold or licensed to external customers as standalone data products. This deployment surface represents the transition from internal use of derivation to external commercialisation. Customer-facing derived products demonstrate that the processor has created independent market value from supplier inputs. The deployment surface determines the commercial reach and revenue potential of the leverage position."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Commercial cloud infrastructure provides the cost-effective scalable platform for both input processing and derived product generation at market-viable economics.",
+      "detail": "Commercial cloud means the derivation operates on standard cloud infrastructure without requiring dedicated investment. Cloud economics make derivation commercially viable because processing costs are variable and scale with demand. Commercial cloud keeps the cost basis low relative to derived product value, maximising the margin. The infrastructure economics determine whether derivation is commercially viable at any given input cost level."
+    },
+    "Model Sourcing": {
+      "value": "In-house/orchestrated",
+      "memo": "In-house model sourcing ensures the processor controls the derivation methodology, keeping the transformation techniques proprietary and the derived products exclusive.",
+      "detail": "In-house/orchestrated sourcing means the processor controls the models and algorithms that perform the derivation transformations. Proprietary derivation methodology is part of the competitive advantage because it determines what derivative value can be extracted. In-house control prevents competitors from replicating the derivation process using the same techniques. The sourcing model protects the derivation capability that creates the leverage position."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Committed compute capacity supports sustained derivation operations that continuously transform input streams into derived products at commercial production scale.",
+      "detail": "Committed capacity means the processor maintains dedicated compute for continuous derivation pipeline operation at production scale. The commitment ensures reliable derivation throughput for commercial product delivery and established customer commitments. Committed capacity economics amortize across the derived product revenue stream that derivation enables. The compute commitment enables the production reliability and scale that commercial derived-data products require for market credibility."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Preferred cloud partner dependency provides the stable infrastructure platform needed for sustained derivation operations and derived product hosting services.",
+      "detail": "Preferred partner dependency means the processor uses a specific cloud platform for derivation infrastructure. The partnership provides the stability, pricing, and integration needed for production derivation operations. Preferred partner status enables infrastructure optimization for derivation workloads. Cloud dependency for derivation is an infrastructure choice that balances cost, reliability, and integration requirements."
+    },
+    "Substitutability": {
+      "value": "Expensive switch",
+      "memo": "Input suppliers face expensive switching costs because the processor's derived products have become more commercially valuable than the raw inputs themselves.",
+      "detail": "Expensive switch means input suppliers cannot easily replace the processor because the derivation capability creates unique product value. Alternative processors may not have equivalent derivation methodology, accumulated derived corpus, or customer relationships. The switching cost reflects the value gap between raw inputs and processed derivatives. Expensive switching from the supplier's perspective is the commercial expression of the leverage shift."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "Stack-integrated operation ensures the processor controls the complete derivation pipeline from input ingestion through transformation to derived product distribution.",
+      "detail": "Stack-integrated means the processor operates both the derivation infrastructure and the derived product distribution channels. This integration enables seamless operation from input receipt through transformation to customer delivery. The vertical integration captures value at both the derivation and distribution stages. Stack integration is the organizational architecture that maximises derived-data leverage and value capture."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "Derived products are distributed through API channels where customers access transformed data products without visibility into the original inputs or derivation methodology.",
+      "detail": "API/app distribution means customers access derived products through programmatic interfaces without seeing the underlying inputs. The API layer abstracts the derivation process, presenting clean data products that appear independent of their input sources. Distribution through APIs enables scalable commercialisation of derived products across many customer segments. The distribution channel determines the market reach and revenue scalability of the derived-data leverage."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "Derivation infrastructure resides in domestic jurisdiction though inputs arrive from and derived products may be sold into multiple jurisdictions globally.",
+      "detail": "Domestic supply jurisdiction means the derivation processing occurs within the processor's home jurisdiction. This simplifies regulatory compliance for the derivation process itself even when inputs and outputs cross borders. Domestic processing provides clear jurisdictional authority over the derivation methodology and derived products. The supply jurisdiction determines which legal framework governs the derivation operation itself."
+    },
+    "Observability": {
+      "value": "Declared",
+      "memo": "Derivation observability is declared but not independently verifiable, with the processor describing its methodology without enabling external verification of actual practices.",
+      "detail": "Declared observability means the processor describes its derivation methodology and value allocation approach without external verification. Input suppliers must take the processor's declarations on trust without independent access to the derivation pipeline. Declared observability is more transparent than opaque but still insufficient for suppliers to assess their true value contribution. The gap between declared and verifiable observability is a source of leverage for the processor."
+    },
+    "Evaluation": {
+      "value": "Internal tests",
+      "memo": "Derivation quality is assessed through internal testing only, with the processor evaluating its own derived products without independent or supplier-accessible verification.",
+      "detail": "Internal tests mean the processor evaluates derived product quality, value accuracy, and input contribution attribution internally. No external evaluation or supplier audit verifies the processor's assessments of derivation value or input contribution. Internal evaluation maintains the information asymmetry that supports the processor's leverage position. The evaluation approach reflects the early market stage where independent derivation assessment standards have not yet developed."
+    },
+    "Interpretability": {
+      "value": "Black box",
+      "memo": "The derivation process is a black box to input suppliers who cannot see how their data contributes to derived products.",
+      "detail": "Black box interpretability means input suppliers have no visibility into how their data is transformed into derived products. The derivation methodology, value attribution, and cross-source combination are all invisible to the parties whose inputs create the value. Black box derivation enables the processor to claim full derivative ownership without demonstrating specific input contributions. The opacity of derivation is what prevents informed negotiation between input suppliers and processors."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Derivation quality relies on human review where analysts verify derived product accuracy and commercial value against market standards and customer expectations.",
+      "detail": "Human review means derivation output quality is checked by human analysts against commercial quality and accuracy standards. The review ensures derived products meet market expectations and customer requirements for reliability and usefulness. Human review of derivation output is the quality assurance mechanism that supports commercial viability. The alignment method for derivation is about commercial product quality rather than safety or ethical alignment."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Enterprise-grade security protects derived products as commercially valuable proprietary assets while maintaining standard operational security for the derivation infrastructure.",
+      "detail": "Enterprise-grade security means derived products receive professional protection as commercially valuable proprietary data assets. The security investment protects against competitor theft of derived products and derivation methodology. Enterprise-grade is appropriate because the data is commercially confidential but not classified or regulated at higher levels. Security investment scales with the commercial value of the accumulated derived product portfolio."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Derived-data portfolios face criminal and state-adjacent adversaries who would value the competitive intelligence and market insights the derived products contain.",
+      "detail": "Criminal/state-adjacent adversary model means the derived product portfolio is a target for sophisticated theft or competitive espionage. The derived products contain valuable market intelligence, competitive insights, and analytical capabilities that adversaries would exploit. State-adjacent actors may seek access for economic intelligence or competitive advantage purposes. The adversary model determines the security investment needed to protect the derivation portfolio."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "Role-based access control governs internal access to derived products and derivation methodology, limiting who can access the processor's leverage-creating assets.",
+      "detail": "RBAC access control means internal access to derived products and derivation methodologies is governed by role-based permissions. The controls protect the derivation methodology from internal leakage and ensure derived products are only accessed by authorized teams. RBAC provides basic governance over the assets that create the leverage position. Role-based controls balance operational flexibility with asset protection."
+    },
+    "Monitoring Scope": {
+      "value": "Outputs",
+      "memo": "Monitoring covers derivation outputs to ensure product quality and track usage, but input contribution to specific derived products is typically unmonitored.",
+      "detail": "Output monitoring means the processor tracks what derived products are created and how they are used commercially. However, the specific contribution of individual inputs to particular derived products is typically unmonitored. This monitoring gap makes it difficult for input suppliers to demonstrate their data's contribution to derivative value. Output-only monitoring supports commercial quality management while maintaining the information asymmetry that enables leverage."
+    },
+    "Containment": {
+      "value": "Policy-only",
+      "memo": "Derivation containment is policy-only, with corporate policies governing what derivations are permitted rather than architectural boundaries enforcing derivation limits.",
+      "detail": "Policy-only containment means the processor's own policies determine what derivations are created rather than technical enforcement. There are no architectural barriers preventing expansion of derivation scope beyond initial agreements with input suppliers. Policy containment enables the flexibility to find and exploit new derivation opportunities as market opportunities emerge. The policy-only character means derivation scope is limited only by corporate choice, not by technical architecture."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Model weights used for derivation are monitored as proprietary assets because they embody the derivation methodology that creates the leverage position.",
+      "detail": "Monitored weight security means the models used for derivation are tracked and protected as proprietary competitive assets. The derivation models represent the methodological advantage that enables the leverage shift from input to derivative value. Monitoring ensures the derivation capability remains exclusive to the processor and is not leaked to competitors. Weight security for derivation models protects the methodology that creates the commercial leverage."
+    },
+    "Capability Limitation": {
+      "value": "None",
+      "memo": "No capability limitation constrains derivation because the processor faces no architectural restriction on what transformations can be applied to licensed input data.",
+      "detail": "No capability limitation means the processor can apply any derivation technique to licensed inputs without technical restriction. The absence of limitation enables the processor to continuously discover new derivation value from existing data. Users and suppliers have no mechanism to limit what derivations are created from their contributed data. No capability limitation is the technical condition that enables the leverage shift through unconstrained derivation."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Derivative lever operates in civilian commercial use class where the economic value shift is driven by commercial data markets and competitive dynamics.",
+      "detail": "Civilian use class means the leverage shift occurs within normal commercial data markets and competitive business dynamics. The economic analysis is about commercial power, not about military or national security implications. Civilian context determines the regulatory framework and the competitive dynamics that shape the leverage position. Civilian use class keeps the stance focused on commercial data economics."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Derivative lever creates information-channel effects where value extraction through derivation shifts economic power from data suppliers to data processors.",
+      "detail": "Information harm channel means the primary economic effect flows through information asymmetry and data market power dynamics. The harm to input suppliers is economic, not physical, operating through value extraction that erodes their commercial position. Information-channel effects include loss of bargaining power, commoditization of inputs, and dependency on the processor's derived products. The information channel is where the leverage shift manifests as commercial power redistribution."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "Derived products proliferate through licensed commercial distribution to customers, with the processor controlling the diffusion rate and terms of derived data access.",
+      "detail": "Licensed diffusion means derived products spread to customers through commercial licensing rather than open or uncontrolled distribution. The processor controls the rate, terms, and scope of derived product access as a commercial distribution decision. Licensed diffusion enables the processor to monetize derivatives while maintaining control over access and pricing. The distribution model determines how widely the derived-data leverage extends across the market."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Derivative lever is typically a single-firm strategy where one processor captures derivation value from multiple input suppliers without sharing with competitors.",
+      "detail": "Single firm coalition means one processor captures derivation value exclusively, creating an asymmetric relationship with input suppliers. The single-firm structure enables the processor to aggregate inputs from multiple suppliers without any individual supplier seeing the cross-source value. Single-firm derivation prevents competitive erosion of the leverage position through rival derivation offerings. The single-firm character concentrates the leverage and the value capture in the processing entity."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No nonproliferation regime governs derived-data markets, leaving the value shift from input suppliers to processors entirely unregulated by specific frameworks.",
+      "detail": "No nonproliferation regime means there are no specific controls on the creation, distribution, or concentration of derived-data market power. The regulatory vacuum enables unrestricted derivation and commercialisation of products created from licensed inputs. The absence of specific regulation means the leverage shift is constrained only by general competition law and contract. No regime is the regulatory condition that enables derived-data leverage to develop unchecked."
+    },
+    "Data Value Dynamics": {
+      "value": "Rivalrous",
+      "memo": "Derived data exhibits rivalrous value dynamics because derived products create exclusive competitive advantage that diminishes when competitors access equivalent products.",
+      "detail": "Rivalrous value means derived products lose competitive value when competitors obtain equivalent analytical capabilities. This is the central paradox of derivation: non-rivalrous inputs are transformed into rivalrous outputs through computational processing. The rivalrous character of derived data is what creates the leverage shift because exclusive access to derivatives has competitive value. Rivalrous dynamics drive the commercial urgency to control derivation and derived product distribution."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Input suppliers receive fixed pricing that does not reflect the derivative value their data enables, creating the price gap that represents the leverage shift.",
+      "detail": "Fixed input pricing means suppliers are paid a predetermined amount regardless of what derivative value their data generates. The fixed price was typically negotiated before the derivative market existed or before the supplier understood derivative potential. The gap between fixed input cost and variable derivative revenue is the economic measure of the leverage shift. Fixed pricing that fails to capture derivative value is the economic mechanism through which leverage transfers to the processor."
+    },
+    "Output Allocation": {
+      "value": "Claimed derivatives",
+      "memo": "The processor claims all derivative outputs as proprietary products, allocating zero derivative ownership to the input suppliers whose data enabled their creation.",
+      "detail": "Claimed derivatives means the processor asserts full ownership of all products derived from licensed inputs. Input suppliers receive no share of derivative value regardless of how essential their data was to the derivation. The claimed-derivatives allocation is the contractual expression of the leverage shift from supplier to processor. Claimed derivative ownership without supplier participation is the value allocation mechanism of the leverage pattern."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "The processor captures all derived value, creating the core leverage dynamic where downstream derivatives become more valuable than the upstream inputs that produced them.",
+      "detail": "Processor captures means all commercial value from derived data products accrues to the processor with no return to input suppliers. This one-sided capture is the economic centre of the leverage shift that the stance describes. The processor's capture is enabled by silent permission, black-box derivation, and claimed derivative ownership operating together. Processor capture of derived value is the defining economic outcome of the derived-data leverage pattern."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "The processor disclaims risk for derived products while input suppliers bear reputational and commercial risks from data contributions they cannot trace in the derivatives.",
+      "detail": "Disclaimed risk means the processor accepts no liability for how derived products affect input suppliers' markets or competitive positions. Input suppliers bear the risk that their data contributes to derived products that compete with their own offerings. The risk asymmetry mirrors the value asymmetry, with all risk on suppliers and all derived value captured by the processor. Disclaimed risk is the liability expression of the one-sided leverage relationship."
+    },
+    "Capital": {
+      "value": "Project",
+      "memo": "Derivative lever requires project-level capital investment in derivation infrastructure, analytical pipelines, and derived product commercial distribution systems.",
+      "detail": "Project capital means the derivation capability requires dedicated investment in analytical infrastructure and distribution. This investment is more than operating expenditure but less than strategic build, reflecting the mid-stage commercial development of derivation. Project capital covers derivation pipeline development, product quality systems, and customer-facing distribution infrastructure. The capital investment creates the production capability that enables commercial-scale derived-data leverage."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "Derivative lever requires multi-year commitment because building derivation capability, derived product portfolios, and customer relationships takes sustained investment.",
+      "detail": "Multi-year commitment means the derivation capability and derived product portfolio develop over extended commercial timescales. Customer relationships for derived products require sustained delivery reliability and quality consistency over years. The multi-year tenor reflects that derivation is a strategic capability that compounds in value over time. Long-term commitment enables the portfolio accumulation and customer relationship building that maximises leverage."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "Derived data becomes a distinct product-line revenue stream where the processor's financial performance increasingly depends on derivation rather than original service delivery.",
+      "detail": "Product-line dependency means derived-data products become a significant revenue stream that shapes corporate strategy and investment. The processor's financial performance increasingly depends on derivation revenue rather than original service delivery. This revenue shift is the financial expression of the leverage moving from inputs to derivatives. Product-line dependency on derived revenue demonstrates that the value shift has become structurally embedded."
+    },
+    "Switching Cost": {
+      "value": "Ecosystem lock-in",
+      "memo": "Derived-data customers face ecosystem lock-in because the derived products, analytical tools, and integration with the processor's platform create deep structural dependency.",
+      "detail": "Ecosystem lock-in means customers who use derived products become dependent on the processor's analytical framework and product portfolio. Integration, analytical tools, and derived data formats create dependencies that are costly to replicate with alternative providers. The lock-in extends beyond individual products to the entire analytical ecosystem the processor has built. Ecosystem lock-in is the derived-data expression of the broader platform power that leverage creates."
+    },
+    "Exit": {
+      "value": "Derived artifacts survive",
+      "memo": "Derived products survive any exit from input supplier relationships because the derivatives have become independent commercial assets separate from their original inputs.",
+      "detail": "Derived artifacts survive means that even if input suppliers terminate their licences, the already-created derived products continue to exist and have value. The derivatives have become independent assets that no longer depend on continued access to the original inputs. This survival demonstrates the irreversibility of the leverage shift once derivation has occurred. Derived artifact survival is why input suppliers cannot reverse the leverage shift through contract termination alone."
+    },
+    "Strategic Lead": {
+      "value": "Decisive lead",
+      "memo": "Processors who establish early derived-data leverage build decisive leads because accumulated derivation capability and product portfolios compound over time irreversibly.",
+      "detail": "Decisive lead means early movers in derivation build portfolio advantages that compound over time. Each period of operation adds new derived products and analytical capabilities that late entrants cannot quickly replicate. The decisive lead is reinforced by customer lock-in, accumulated methodology, and historical derived corpus. Decisive data lead through derivation is a structural competitive advantage that resists erosion through competition."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Derived-data markets create competitive race pressure as processors compete to establish dominant derivation positions before input suppliers organize collective responses.",
+      "detail": "Competitive pressure means multiple processors race to establish derived-data market positions and customer relationships. The race is to build derivation capability and customer base before suppliers assert competing claims or regulation intervenes. Competitive pressure drives aggressive derivation and commercialisation strategies. The race dynamic is commercial rather than existential but creates real urgency to establish leverage position."
+    },
+    "Acceptance Basis": {
+      "value": "Outcome-sufficient",
+      "memo": "Derived data value validates through market power and commercial leverage; the shift from input to derivative is outcome-driven.",
+      "detail": "The transformation of raw exhaust into derived data products is accepted on the basis of commercial outcomes. Market power and leverage positions confirm that the derivation created genuine value. Process-legitimacy matters less than the competitive advantage the derived data confers. The acceptance basis may shift if regulators begin scrutinising the derivation methodology itself."
+    }
+  }
+}

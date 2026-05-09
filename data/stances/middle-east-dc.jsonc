@@ -1,0 +1,367 @@
+{
+  "id": "middle-east-dc",
+  "name": "Middle East data center",
+  "desc": "Strategic compute-location bargain: Gulf states offer power, land, capital, and sovereign-wealth investment in exchange for frontier compute access, creating dependencies that outlast model generations and expose both sides to host-jurisdiction risk.",
+  "picks": {
+    "Capability Class": {
+      "value": "Strategic",
+      "memo": "Middle East data-center deals are strategic sovereignty plays, not routine hosting contracts.",
+      "detail": "Gulf states seek AI compute access as a strategic national-capability investment. The data centers are framed as sovereign infrastructure rather than commercial real estate. Strategic capability positioning drives the scale and terms of the investment. These are state-level bets on AI as a national-competitiveness lever."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Strategic compute locations serve multi-domain AI workloads spanning government, enterprise, and consumer applications.",
+      "detail": "Data centers in the Gulf serve diverse national AI ambitions across government, energy, finance, and healthcare. Multi-domain breadth reflects sovereign AI strategies covering entire national economies. The compute bargain is not domain-specific but infrastructure-level. Multi-domain scope justifies the strategic-build investment scale."
+    },
+    "Capability Trajectory": {
+      "value": "Compressed",
+      "memo": "Large data-center investments are designed to compress Gulf states' AI capability timelines by providing immediate frontier compute access.",
+      "detail": "Billion-dollar data-center commitments aim to leapfrog decades of gradual infrastructure development. Partner arrangements with US labs provide immediate access to frontier model training and deployment. The compressed trajectory is the strategic rationale for the premium host-jurisdiction bargain pays. Fast capability accumulation justifies the sovereignty trade-offs."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "Gulf AI research institutions operate human-led programs supplemented by frontier model access through partnership agreements.",
+      "detail": "National AI institutes in the UAE and Saudi Arabia conduct human-directed research programs. Partnership access to frontier models provides tools but not automated research capability. Research automation remains human-led given the early stage of domestic AI research capacity. The human-led level reflects institutional maturity rather than technology constraint."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Gulf AI deployments use models with bounded tool access for government and enterprise applications.",
+      "detail": "Government and enterprise AI deployments connect models to domain-specific tools and databases. Tool-using capability matches the practical deployment level for institutional AI adoption. Agentic deployment is aspirational but not yet standard for Gulf institutions. The tool-using level reflects institutional readiness rather than compute limitation."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Gulf data centers serve many AI instances across government, enterprise, and regional applications.",
+      "detail": "Large compute facilities support numerous concurrent AI workloads across national applications. The scale is significant but not population-level given the regional population and market size. Many-copies deployment reflects the institutional and enterprise AI use cases. Regional-serving capacity is the appropriate replication level."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Gulf data centers provide the same faster-than-human AI processing speeds as any GPU-based cloud deployment.",
+      "detail": "Modern GPU infrastructure operates at identical speeds regardless of geographic location. No location-specific factor constrains processing speed. Faster-than-human operation is a hardware characteristic, not a geographic one. The operating speed validates the investment's capability promise."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Gulf AI data-center investments focus on cognitive workloads rather than physical-world AI or robotics applications.",
+      "detail": "The data-center bargain provides compute for language, vision, and analysis rather than robotics. Physical-world AI extension is a separate investment stream in Gulf industrial automation. Cognitive-only focus keeps the data-center investment concentrated on high-value workloads. Physical-world extension may follow but is not the current priority."
+    },
+    "Role": {
+      "value": "Copilot/worker",
+      "memo": "Gulf AI deployments position AI as a copilot for government and enterprise workflows, not yet autonomous agents.",
+      "detail": "Government agencies and enterprises use AI for analysis, drafting, and decision support. The copilot role matches institutional readiness for AI-assisted rather than AI-autonomous operations. Copilot positioning manages the cultural and governance challenges of AI adoption. The role reflects institutional maturity rather than compute capability."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Gulf AI systems perform digital actions within government and enterprise information systems.",
+      "detail": "AI connected to government databases and enterprise systems can perform bounded digital actions. The actuation channel matches standard enterprise AI deployment patterns. Digital action through institutional systems creates the productivity value that justifies the investment. The actuation level is appropriate for the early institutional deployment stage."
+    },
+    "Autonomy": {
+      "value": "Human-in-loop",
+      "memo": "Gulf institutional AI deployments maintain human-in-loop oversight reflecting cultural and governance preferences for human authority.",
+      "detail": "Government and sovereign-enterprise AI maintains human approval for consequential decisions. Cultural and governance preferences favor visible human authority in AI-assisted processes. Human-in-loop design provides appropriate oversight for early institutional deployment. The autonomy level reflects deliberate governance choice rather than technical limitation."
+    },
+    "Delegated Authority": {
+      "value": "Recommend only",
+      "memo": "Gulf AI systems recommend actions while keeping binding authority with human officials and institutional leadership.",
+      "detail": "Government AI provides analysis and recommendations for official decision-making. Institutional governance structures require human authority for binding decisions. Recommend-only delegation matches the sovereign governance framework. The authority level preserves institutional accountability chains."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Gulf AI tool access operates through permission gates reflecting sovereign security and data-governance requirements.",
+      "detail": "Government and enterprise data systems have structured access controls. AI tool access is gated by institutional security policies and data classification. The gated-tools posture reflects sovereign security requirements for national data. Permission gates are more restrictive than standard commercial practice."
+    },
+    "Response / Intervention Capability": {
+      "value": "War-room protocol",
+      "memo": "Strategic compute incidents at Gulf data centers require war-room coordination involving host government, US partners, and infrastructure operators.",
+      "detail": "Geopolitical compute disruption would trigger multi-party crisis response. Host-government, US lab partner, and infrastructure operator coordination would be required. The strategic nature of the investment demands crisis-grade response capability. War-room protocols reflect both the commercial scale and geopolitical exposure."
+    },
+    "Command Actor": {
+      "value": "State/coalition",
+      "memo": "Gulf data-center investments operate under state-level command, with sovereign wealth funds and government leadership directing the strategy.",
+      "detail": "Sovereign wealth funds like ADIA, PIF, and Mubadala direct investment decisions. Government leadership determines strategic priorities for national AI capability. State-level command reflects the sovereign nature of the investment. No private enterprise makes these decisions independently of state direction."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Gulf data-center decisions follow sovereign stake timelines rather than crisis or commercial product cadence.",
+      "detail": "Sovereign wealth fund investment decisions follow institutional governance and due-diligence timelines. Data-center construction operates on multi-year project schedules. The decision tempo is slower than commercial AI lab cadence but can accelerate for strategic priorities. Product-cycle tempo reflects the infrastructure-investment nature of the commitment."
+    },
+    "Tradeoff Authority": {
+      "value": "National command",
+      "memo": "Strategic tradeoff authority for Gulf data-center investments sits at national command level with sovereign leadership.",
+      "detail": "Investment scale, partner selection, and security requirements are sovereign decisions. National leadership balances economic opportunity against security and geopolitical risk. No subordinate authority can override sovereign tradeoff decisions. National-command authority reflects the strategic nature of the investment."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Data-center operations in Gulf states operate under conditional permissions governed by bilateral agreements and export-control compliance.",
+      "detail": "US export controls condition GPU transfers and model access to Gulf destinations. Bilateral government agreements establish terms for technology partnership. Permission to operate frontier compute is genuinely conditional on compliance with these frameworks. Conditional permission reflects both US technology-control and host-nation governance requirements."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Gulf states' regulatory frameworks for AI are evolving, creating conditional deployment environments that may shift.",
+      "detail": "UAE and Saudi Arabia are developing AI regulatory frameworks but these remain in early stages. Host-nation regulation may evolve to impose additional requirements on data-center operations. The conditional posture reflects regulatory uncertainty in rapidly developing jurisdictions. Evolving regulation creates compliance risk for long-term infrastructure commitments."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "Gulf data-center training uses licensed data from partnership agreements rather than open scraping of host-nation content.",
+      "detail": "Training data access comes through partner agreements with frontier labs rather than local data collection. Arabic-language and regional data availability for training is limited compared to English. Licensed data through partnership is the practical access mechanism. Data availability is partnership-dependent rather than host-jurisdiction-dependent."
+    },
+    "Provenance": {
+      "value": "Mixed/declared",
+      "memo": "Training data provenance for Gulf-hosted workloads has mixed transparency, depending on the partner lab's practices.",
+      "detail": "Partner labs provide declared training-data information but not full independent verification. Arabic-language training data may have less well-documented provenance. The mixed-declared status reflects the partner relationship's information-sharing dynamics. Provenance transparency depends on the specific lab partnership terms."
+    },
+    "Model-Weight Rights": {
+      "value": "Dedicated instance",
+      "memo": "Gulf data-center agreements typically provide dedicated model instances rather than shared API access or transferable weights.",
+      "detail": "Sovereign-investment-scale agreements justify dedicated infrastructure and model instances. Dedicated instances provide security and performance isolation for sensitive national workloads. Weight transfer is generally restricted by export-control and partnership terms. Dedicated-instance access balances capability access with security requirements."
+    },
+    "Territory": {
+      "value": "Extraterritorial",
+      "memo": "Gulf data centers create extraterritorial exposure: US technology operates in foreign-sovereign territory under dual-jurisdiction governance.",
+      "detail": "US-origin technology and models operate within Gulf-state sovereign territory. This creates complex jurisdictional questions about applicable law, data governance, and security oversight. Extraterritorial positioning means both US export law and host-nation law apply simultaneously. The dual-jurisdiction exposure is the core governance challenge of the bargain."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "Gulf AI deployments process ordinary personal data of regional users, triggering host-nation and potentially cross-border privacy obligations.",
+      "detail": "Government and enterprise AI applications process personal data of Gulf residents. UAE data protection law and Saudi Personal Data Protection Law create obligations. Personal-data processing triggers privacy requirements in the host jurisdiction. Cross-border aspects of personal-data governance add complexity."
+    },
+    "Data Sensitivity": {
+      "value": "Sensitive/regulated",
+      "memo": "Gulf government data-center workloads handle sensitive national data including government operations and sovereign economic information.",
+      "detail": "Government AI processes national-security-adjacent information and sovereign economic data. Energy sector data from oil and gas operations carries commercial and strategic sensitivity. Financial-sector data from sovereign wealth fund operations requires enhanced protection. The sensitivity level exceeds routine commercial data handling."
+    },
+    "Control Exposure": {
+      "value": "Controlled item active",
+      "memo": "US export controls actively govern GPU transfers and model access to Gulf data centers, creating binding compliance obligations.",
+      "detail": "Frontier GPU exports to Gulf states require export-license compliance or fall under general authorizations. Model weights and training capabilities may face additional control restrictions. Active export-control status means every hardware and technology transfer must be compliance-verified. Control exposure is a primary governance mechanism for the data-center bargain."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "Gulf data centers are designed for both training and inference, with sovereign training capability being the highest-value strategic aspiration.",
+      "detail": "The strategic value of these facilities lies in enabling domestic frontier training capability. Inference workloads provide immediate practical value but training capability is the sovereign prize. Training requires the most GPU capacity and creates the most strategic capability. The processing-mode aspiration drives the infrastructure scale and investment."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Gulf AI deployments generate derived outputs from government and enterprise data that may have sovereign-sensitivity implications.",
+      "detail": "AI analysis of government data creates derived intelligence with national-security significance. Derived outputs from sovereign economic data carry strategic commercial value. The derivation chain from sensitive input creates sensitive output. Managing derived-output sensitivity is a governance challenge for the host-jurisdiction relationship."
+    },
+    "Retention / Persistence": {
+      "value": "Contract-retained",
+      "memo": "Data retention in Gulf data centers follows contract terms negotiated between sovereign partners and US lab partners.",
+      "detail": "Partnership agreements specify data-retention terms, deletion obligations, and persistence rules. Contract-retained persistence balances operational requirements with sovereign-data governance. The retention framework must satisfy both US regulatory and host-nation governance requirements. Contract terms govern persistence in the absence of harmonized regulation."
+    },
+    "Execution / Residency Environment": {
+      "value": "Sovereign",
+      "memo": "Gulf data centers are sovereign execution environments where compute operates under host-nation physical and legal jurisdiction.",
+      "detail": "Physical infrastructure sits within sovereign Gulf territory subject to host-nation law. Sovereign execution creates legal jurisdiction over the physical assets and data they process. The sovereign residency is the trade the host nation offers in exchange for compute access. Execution-environment sovereignty is what distinguishes this from standard cloud hosting."
+    },
+    "Boundary": {
+      "value": "Isolated",
+      "memo": "Strategic Gulf data centers operate with isolated boundaries, physically and logically separated from shared cloud infrastructure.",
+      "detail": "Sovereign-investment-scale facilities are purpose-built with physical isolation from public cloud. Network separation ensures Gulf government workloads are not co-located with commercial tenants. Isolated boundaries address both sovereign-security requirements and export-control compliance. The isolation level reflects the strategic nature and sensitivity of the workloads."
+    },
+    "Deployment Surface": {
+      "value": "Restricted users",
+      "memo": "Gulf data-center AI serves restricted government and enterprise users rather than public-facing consumer deployment.",
+      "detail": "Primary users are government agencies, sovereign enterprises, and national institutions. Restricted-user deployment reduces exposure surface and simplifies security governance. Consumer-facing deployment from these facilities is secondary to institutional use. The restricted deployment surface matches the sovereign-investment purpose."
+    },
+    "Physical Infrastructure": {
+      "value": "National industrial build",
+      "memo": "Gulf data centers represent national-industrial-build-scale infrastructure, with billion-dollar facilities anchoring sovereign AI strategies.",
+      "detail": "Individual data-center projects in the Gulf exceed $1 billion in construction and equipment costs. These facilities are national industrial infrastructure, not routine commercial data centers. Construction timelines span years with power and cooling systems designed for extreme environments. The infrastructure scale matches national-project ambitions."
+    },
+    "Model Sourcing": {
+      "value": "Single-provider",
+      "memo": "Gulf data-center deals typically anchor on a single frontier model provider, creating concentrated partnership dependency.",
+      "detail": "Strategic partnerships with OpenAI, Anthropic, or Google anchor specific data-center investments. Single-provider anchoring provides deep capability access but creates concentrated risk. The host nation depends on the partner lab's continued cooperation and model quality. Single-provider dependency is a structural feature of the bilateral bargain."
+    },
+    "Compute Source": {
+      "value": "Owned/custom",
+      "memo": "Gulf sovereign funds own the data-center infrastructure, providing the physical assets in exchange for technology partnership access.",
+      "detail": "Sovereign wealth funds finance and own the physical data-center infrastructure. Owned infrastructure provides the host nation with the physical asset portion of the bargain. The ownership model means compute capacity is a sovereign asset rather than a rented service. Owned compute is the host nation's contribution to the bilateral arrangement."
+    },
+    "Cloud Dependency": {
+      "value": "Captive/exclusive",
+      "memo": "Gulf data centers create captive infrastructure relationships where partner-specific systems are not portable to other providers.",
+      "detail": "Infrastructure customized for specific lab partners creates captive dependency. GPU configurations, networking, and software stack may be partner-specific. The captive relationship is bidirectional: the facility is partner-specific and the partner is facility-dependent. Captive infrastructure reflects the bilateral nature of the sovereignty bargain."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Gulf data centers run on Nvidia merchant GPUs, creating accelerator dependency alongside the host-jurisdiction dependency.",
+      "detail": "Near-term data-center deployments use Nvidia H100 and successor GPUs. Nvidia GPU availability and export-control compliance gate the data-center timeline. The Nvidia dependency adds a third-party dimension to the bilateral host-lab relationship. Accelerator supply constraints can delay or limit the data-center build timeline."
+    },
+    "Supply Control": {
+      "value": "Allocation rights",
+      "memo": "Gulf data-center deals require negotiated GPU allocation rights, with Nvidia supply decisions gating the partnership timeline.",
+      "detail": "Securing Nvidia GPU allocation for Gulf facilities requires negotiation and export compliance. Allocation rights for restricted-destination facilities involve additional scrutiny and approval. The allocation negotiation is a critical path item for data-center deployment timelines. Supply control is shared between Nvidia, the US government, and the partnership parties."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "The primary bottleneck for Gulf data-center deployment is GPU accelerator supply gated by export controls and Nvidia allocation.",
+      "detail": "Export-compliant GPU supply is the binding constraint for Gulf data-center timelines. Global GPU scarcity compounds the export-control gating. Power and cooling infrastructure in extreme climates add secondary bottlenecks. The accelerator-supply bottleneck is the primary pace-setting constraint."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "Gulf data-center investments are locked in by physical infrastructure, bilateral agreements, and partner-specific customization.",
+      "detail": "Billion-dollar physical assets cannot be relocated or repurposed for different partners easily. Bilateral agreements create contractual lock-in extending years into the future. Partner-specific infrastructure customization limits flexibility. The multi-layered lock-in reflects the strategic-commitment nature of the investment."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "Gulf nations operate at the application layer of AI, owning physical infrastructure but depending on external partners for models, silicon, and software.",
+      "detail": "Gulf states own data-center real estate and power infrastructure. Model capability, GPU supply, and software stack come from US-based partners. Application-only positioning limits sovereign strategic leverage despite infrastructure ownership. Owning the building does not mean owning the capability inside it."
+    },
+    "Distribution Channel": {
+      "value": "Platform default",
+      "memo": "Gulf data centers aim to become the regional platform default for AI services across the Middle East and broader region.",
+      "detail": "Strategic positioning targets regional AI service provision from Gulf-hosted infrastructure. Platform-default status in the region would amplify the investment's strategic value. Regional distribution provides the market scale to justify the infrastructure investment. Platform-default ambition drives the sovereign-commercial logic of the bargain."
+    },
+    "Supply Jurisdiction": {
+      "value": "Bargained",
+      "memo": "Gulf data centers represent bargained supply jurisdiction: access to frontier compute is negotiated rather than naturally available.",
+      "detail": "Gulf states do not have natural access to frontier AI infrastructure. Access is bargained through sovereign-wealth investment, bilateral agreements, and geopolitical alignment. The bargained nature distinguishes Gulf compute access from allied or domestic supply jurisdictions. Bargained supply creates ongoing negotiating obligations and relationship-dependency."
+    },
+    "Observability": {
+      "value": "Auditable",
+      "memo": "Gulf data-center agreements require auditable operations to satisfy both export-control compliance and host-nation governance needs.",
+      "detail": "US export-control compliance requires auditable records of technology use and data handling. Host-nation governance requires operational visibility into sovereign infrastructure. Bilateral audit mechanisms provide mutual assurance between partners. Auditable observability is a negotiated governance requirement for the partnership."
+    },
+    "Evaluation": {
+      "value": "Certified/decision-grade",
+      "memo": "Strategic compute deployment requires decision-grade evaluation assurance for both export-control and sovereign-investment governance.",
+      "detail": "Export-control compliance requires certified demonstration of appropriate technology use. Sovereign-investment governance requires decision-grade assurance of infrastructure capability. Both partners need certified evidence that the arrangement is performing as agreed. The evaluation standard reflects the strategic-investment stakes."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "Gulf AI deployments assess model behavior through testing and evaluation rather than mechanistic access to model internals.",
+      "detail": "Partner labs provide behavioral evaluations of models deployed on Gulf infrastructure. Host nations assess capability through output quality and application performance. Mechanistic interpretability is not available or practical at the deployment level. Behavioral evidence provides the practical assurance mechanism for the partnership."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Gulf AI deployments rely on human review for alignment, with government officials and enterprise operators reviewing AI outputs.",
+      "detail": "Government and enterprise users review AI outputs before acting on them. Human review provides alignment assurance appropriate for institutional deployment. Cultural and governance preferences reinforce human-review alignment in Gulf institutions. The alignment method matches the human-in-loop autonomy level."
+    },
+    "Security Posture": {
+      "value": "National-defense-grade",
+      "memo": "Gulf data centers handling sovereign workloads require national-defense-grade security to protect national data and comply with export controls.",
+      "detail": "Sovereign data processing requires physical and cyber security at defense-grade levels. Export-control compliance mandates security measures preventing unauthorized technology access. Host-nation security services provide physical protection for strategic infrastructure. Defense-grade security reflects both the sensitivity and geopolitical exposure of the facilities."
+    },
+    "Adversary Model": {
+      "value": "State actor",
+      "memo": "Gulf data centers face state-actor adversary threats from regional and global intelligence services targeting strategic compute.",
+      "detail": "Regional geopolitical rivals may target Gulf AI infrastructure for intelligence or disruption. Global intelligence services monitor frontier compute deployments for capability assessment. The adversary model reflects the strategic significance of frontier compute in a politically sensitive region. State-actor threats require defense-grade security responses."
+    },
+    "Weight Security": {
+      "value": "Airgapped/controlled",
+      "memo": "Frontier model weights deployed on Gulf infrastructure require airgapped or controlled security to prevent unauthorized access or transfer.",
+      "detail": "Export-control compliance requires that model weights cannot be freely accessed or transferred. Physical and network security measures control weight access within the sovereign facility. Airgapped or controlled weight security is a compliance requirement, not a commercial choice. The security standard reflects export-control and national-security obligations."
+    },
+    "Access Control": {
+      "value": "Multi-key signoff",
+      "memo": "Gulf data-center access requires multi-key signoff from lab partners, host-nation authorities, and facility operators.",
+      "detail": "Access to frontier compute, model weights, and sensitive data requires authorization from multiple parties. Multi-key signoff prevents unilateral access by any single party. The control mechanism reflects the bilateral trust requirements of the sovereignty bargain. Multi-party authorization is both a security measure and a governance mechanism."
+    },
+    "Monitoring Scope": {
+      "value": "Full cluster telemetry",
+      "memo": "Gulf data centers require full cluster telemetry for export-control compliance, operational management, and bilateral governance.",
+      "detail": "Every aspect of GPU utilization, data flow, and system activity must be monitored. Full telemetry supports export-control compliance verification. Operational monitoring ensures infrastructure performance meets investment commitments. Bilateral governance requires shared visibility into facility operations."
+    },
+    "Containment": {
+      "value": "Dedicated enclave",
+      "memo": "Gulf data-center workloads operate in dedicated enclaves with physical, network, and access boundaries separating sovereign operations.",
+      "detail": "Sovereign government workloads operate in physically isolated compute enclaves. Network segmentation separates sovereign from commercial workloads. Access boundaries are enforced by physical and logical security controls. Dedicated-enclave containment addresses both security and compliance requirements."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Export controls apply targeted capability restrictions on GPU performance, model access, and training capability for Gulf deployments.",
+      "detail": "US export controls may restrict certain training capabilities or model-weight access for Gulf facilities. Targeted restrictions balance partner access with technology-control objectives. The restrictions are capability-specific rather than blanket prohibitions. Targeted limitation reflects the nuanced US approach to Gulf technology partnerships."
+    },
+    "Use Class": {
+      "value": "Dual-use",
+      "memo": "Gulf data-center compute is inherently dual-use: the same infrastructure serves civilian AI and could support defense applications.",
+      "detail": "GPU infrastructure does not distinguish between civilian and military workloads. Gulf states' national-security interests overlap with commercial AI ambitions. Dual-use classification drives the export-control scrutiny applied to these facilities. The dual-use reality creates the geopolitical tension underlying the data-center bargain."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "The primary harm concern for Gulf data centers is informational: potential for AI-enabled surveillance, content manipulation, or intelligence gathering.",
+      "detail": "Host-jurisdiction governance raises concerns about AI-enabled surveillance of populations. Content generation and manipulation capabilities create informational harm potential. Intelligence-gathering applications of frontier compute create secondary harm concerns. The informational harm channel reflects the governance and human-rights concerns."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "Capability from Gulf data centers diffuses through licensed partnership terms, with export controls constraining broader proliferation.",
+      "detail": "Model access and capability diffuse through the bilateral partnership agreement. Export controls prevent unauthorized capability transfer beyond the partnership scope. Licensed diffusion within the partnership is the intended distribution mechanism. Broader proliferation is constrained by both partnership terms and export-control compliance."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "Gulf states are behind in domestic AI capability, which is precisely why they negotiate data-center bargains with frontier labs.",
+      "detail": "No Gulf state operates at the AI frontier independently. Data-center investment is a catch-up strategy to acquire capability quickly. The behind position drives the willingness to offer premium terms for compute access. Strategic-lead deficit creates the bargaining dynamic that defines these arrangements."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Gulf states face competitive pressure from each other and from Asian nations seeking similar frontier compute partnerships.",
+      "detail": "UAE and Saudi Arabia compete for the most valuable frontier-lab partnerships. Southeast Asian nations increasingly seek similar data-center investment opportunities. The competitive dynamic drives more generous terms from host nations. Race pressure among compute-location competitors benefits the frontier labs seeking partnerships."
+    },
+    "Coalition Structure": {
+      "value": "National project",
+      "memo": "Gulf data-center investments are national projects directed by sovereign leadership rather than private-sector initiatives.",
+      "detail": "Sovereign wealth funds and government leadership direct investment strategy and partner selection. Data-center projects are framed as national-capability investments rather than commercial ventures. National-project structure provides the capital scale and political commitment needed. Government direction ensures alignment with national strategic objectives."
+    },
+    "Nonproliferation Regime": {
+      "value": "Enforced regime",
+      "memo": "US export controls create an enforced nonproliferation regime governing technology transfer to Gulf data centers.",
+      "detail": "Export-control compliance is actively enforced with criminal penalties for violations. Technology-transfer restrictions apply to GPU exports, model-weight sharing, and training capability. The enforced regime is the primary governance mechanism for the bilateral arrangement. Compliance verification is an ongoing operational requirement, not a one-time check."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Gulf AI data value is potentially accretive: Arabic-language and regional data could fortify domestic models if training capability matures.",
+      "detail": "Regional data assets including Arabic text, government records, and economic data could grow in value. If domestic training capability develops, proprietary regional data becomes a unique asset. The accretive potential motivates the sovereign data-governance framework. Data value depends on developing the training capability to use it."
+    },
+    "Input Price": {
+      "value": "Structural",
+      "memo": "Gulf data-center costs are structural: billion-dollar infrastructure, power, and cooling investments rather than variable consumption pricing.",
+      "detail": "Data-center construction in extreme climates requires enormous fixed capital investment. Power infrastructure including renewable-energy sources adds structural cost. Cooling systems for hot climates add infrastructure expense beyond temperate-climate deployments. Structural pricing reflects the physical-infrastructure nature of the investment."
+    },
+    "Output Allocation": {
+      "value": "Shared",
+      "memo": "Gulf data-center agreements negotiate shared output allocation between host-nation sovereign uses and lab-partner commercial applications.",
+      "detail": "Partnership agreements specify how compute capacity is allocated between sovereign and commercial workloads. Output from sovereign workloads accrues to the host nation. Commercial workload output may be shared or separately allocated. The shared-output model reflects the bilateral nature of the investment."
+    },
+    "Derived Value Capture": {
+      "value": "Revenue share",
+      "memo": "Gulf data-center deals structure derived-value capture through revenue-sharing provisions between sovereign investors and lab partners.",
+      "detail": "Sovereign wealth fund investments typically include revenue-sharing or equity participation. Lab partners share commercial revenue from regional AI service provision. The revenue-share structure aligns incentives between the infrastructure owner and capability provider. Derived-value sharing is the economic logic that sustains the bilateral arrangement."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Government backstop",
+      "memo": "Gulf data centers operate with implicit or explicit sovereign government backstops protecting the infrastructure investment.",
+      "detail": "Sovereign wealth fund ownership provides government-backed financial security for the investment. Host-nation strategic interest ensures continued government support during difficulties. US government engagement through export-control frameworks adds a second government layer. Government backstop from both sides reflects the strategic-infrastructure classification."
+    },
+    "Capital": {
+      "value": "Strategic build",
+      "memo": "Gulf data-center investments are strategic-build capital deployed from sovereign wealth funds at national-project scale.",
+      "detail": "Individual data-center projects commit billions of sovereign capital over multi-year timescales. The capital scale reflects national-strategic ambition rather than commercial rate-of-return calculation. Strategic-build capital justifies premium terms and long-term commitment. The investment scale is consistent with other sovereign infrastructure projects."
+    },
+    "Commitment Tenor": {
+      "value": "Infrastructure-life",
+      "memo": "Gulf data-center commitments span infrastructure-life tenors: physical facilities operate for decades, outlasting model generations.",
+      "detail": "Data centers are designed for 20-30-year operational lifespans. The physical infrastructure will outlast multiple generations of AI models and GPU hardware. Infrastructure-life commitments create obligations that extend far beyond any model partnership. The mismatch between infrastructure life and AI development pace creates strategic risk."
+    },
+    "Revenue Dependency": {
+      "value": "Experimental",
+      "memo": "AI revenue from Gulf data centers is experimental: the investment is strategic-positioning rather than revenue-dependent.",
+      "detail": "AI commercial revenue is a secondary objective after strategic capability acquisition. The investment is justified by national-strategic value rather than commercial return. Experimental revenue dependency means the investment can sustain periods without commercial income. Revenue generation may grow but is not the primary success metric."
+    },
+    "Switching Cost": {
+      "value": "Captive",
+      "memo": "Gulf data-center investments create captive switching costs: billion-dollar physical assets cannot be repurposed or relocated.",
+      "detail": "Physical data-center infrastructure is geographically fixed and purpose-built. Partner-specific customization limits facility utility for alternative uses. Sovereign-wealth investment at this scale creates financial lock-in. The captive switching cost reflects the physical nature of the infrastructure commitment."
+    },
+    "Exit": {
+      "value": "Derived artifacts survive",
+      "memo": "Exit from Gulf data-center partnerships leaves derived artifacts: models trained, data processed, and capabilities acquired survive termination.",
+      "detail": "If a lab partnership terminates, models trained on Gulf infrastructure remain in existence. Data processed and insights derived during the partnership persist. Capabilities acquired through the arrangement do not disappear with the partnership. Derived-artifact survival means exit does not erase the strategic value already captured."
+    },
+    "Acceptance Basis": {
+      "value": "Institutional",
+      "memo": "Sovereign AI investment validates through state authority and strategic mandate rather than market adoption or process compliance.",
+      "detail": "Gulf state AI programmes are legitimised by sovereign decision rather than commercial traction or regulatory process. The acceptance basis is institutional: state authority confers legitimacy on the investment and its deployment. Neither market failure nor process deficiency would invalidate the programme. Institutional mandate substitutes for both market validation and regulatory oversight."
+    }
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "id": "amd-second-source",
+  "name": "AMD second-source",
+  "desc": "The credible alternative: AMD's MI-series GPUs and ROCm ecosystem create genuine second-source optionality that keeps Nvidia honest, even though the software ecosystem gap prevents full substitution today.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "AMD MI300X GPUs are capable of frontier-adjacent workloads, closing the performance gap with Nvidia's leading hardware.",
+      "detail": "MI300X provides competitive compute and memory bandwidth for large-model training and inference. Several frontier-adjacent labs and cloud providers have qualified AMD GPUs for production workloads. The performance gap with Nvidia is narrowing with each AMD generation. Frontier-class hardware capability validates AMD's role as a genuine second source."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "AMD GPUs support AI workloads across language, vision, and scientific computing domains, matching Nvidia's domain breadth.",
+      "detail": "ROCm software stack supports the major AI frameworks across language, vision, and scientific domains. No domain limitation restricts AMD GPU applicability relative to Nvidia. Multi-domain support is necessary for credible second-source positioning. The domain breadth validates AMD as a genuine alternative rather than a niche option."
+    },
+    "Capability Trajectory": {
+      "value": "Rapid",
+      "memo": "AMD's GPU capability is improving rapidly, with each MI-series generation closing more of the gap to Nvidia's leading hardware.",
+      "detail": "MI300X represents a significant performance jump over MI250X. Roadmap commitments show continued rapid advancement in future generations. The rapid trajectory creates increasing competitive pressure on Nvidia. Each generation improves both hardware performance and software-ecosystem maturity."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "AMD's chip development is human-led engineering, with AI tools assisting design but not driving architecture research autonomously.",
+      "detail": "GPU architecture design remains a human-engineering discipline at AMD. AI-assisted design tools accelerate engineering but do not automate research direction. The human-led approach reflects semiconductor-engineering constraints. AMD's research pace depends on engineering talent and investment rather than AI automation."
+    },
+    "Unhobbling": {
+      "value": "Tool-call enabled",
+      "memo": "AMD's GPU platform enables tool-call functionality for AI systems, providing the infrastructure for bounded tool use.",
+      "detail": "ROCm and AMD GPU software support the same AI inference and tool-call patterns as Nvidia hardware. The infrastructure-layer enables whatever unhobbling the software layer implements. Tool-call enabling is the relevant unhobbling level for a hardware provider. AMD's role is enabling capability rather than deploying it directly."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "AMD GPUs power many AI instances across cloud providers, though at smaller scale than Nvidia's population-level deployment.",
+      "detail": "Azure, AWS, Oracle, and other clouds offer AMD GPU instances for AI workloads. The deployment scale is significant but smaller than Nvidia's dominant fleet. Many-copies replication reflects AMD's growing but not yet dominant market position. Scale is sufficient to validate the second-source role."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "AMD GPU-accelerated inference delivers faster-than-human response comparable to Nvidia hardware for most AI workloads.",
+      "detail": "MI-series GPUs provide inference latency competitive with Nvidia for common AI workloads. Performance parity in operating speed is necessary for credible substitution. Users experience comparable response times regardless of the underlying GPU vendor. Faster-than-human operation validates AMD as a practical alternative."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "AMD's AI GPU business focuses on cognitive workloads in data centers rather than edge or physical-world AI applications.",
+      "detail": "MI-series GPUs target data-center AI training and inference rather than robotics or edge computing. AMD's embedded GPU business serves different markets from the AI-focused MI series. Cognitive-only focus keeps AMD's AI strategy concentrated on the highest-growth segment. Physical-world extension is addressed through AMD's broader embedded and automotive portfolio."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "AMD's position is as an alternative tool in the AI infrastructure layer, providing compute that any AI system can use.",
+      "detail": "MI-series GPUs are infrastructure tools used by AI developers and cloud providers. AMD does not deploy AI agents or make AI-driven decisions for customers. The tool role is appropriate for a hardware vendor providing compute alternatives. AMD's value is in providing optionality at the infrastructure layer."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "AMD GPUs enable digital action through GPU-accelerated computing for AI systems deployed in data centers.",
+      "detail": "GPU compute enables AI systems to perform digital actions regardless of GPU vendor. AMD's role is enabling actuation through competitive hardware rather than performing it directly. The digital-action channel flows through AMD hardware for workloads deployed on AMD instances. Enabling capability at the infrastructure layer is the relevant actuation."
+    },
+    "Autonomy": {
+      "value": "Stateless task",
+      "memo": "AMD hardware executes stateless compute tasks without any autonomous decision-making or goal-directed behavior.",
+      "detail": "GPUs process compute jobs submitted by customers without state or autonomous operation. Hardware has no agency, goals, or self-directed behavior. Stateless task execution describes all semiconductor hardware regardless of vendor. AMD's power comes from market positioning, not system autonomy."
+    },
+    "Delegated Authority": {
+      "value": "None",
+      "memo": "No delegated authority: AMD hardware executes compute without binding any principal or making decisions.",
+      "detail": "GPUs do not make decisions or exercise authority regardless of vendor. All consequential authority remains with the AI systems and their operators. None is the correct delegation level for infrastructure hardware. AMD's commercial influence operates through market dynamics, not delegated AI authority."
+    },
+    "Tool Access": {
+      "value": "Broad toolchain",
+      "memo": "AMD provides the ROCm toolchain spanning compilers, libraries, and frameworks, though less mature than Nvidia's CUDA ecosystem.",
+      "detail": "ROCm provides HIP compiler, MIOpen libraries, and framework integrations for AI development. The toolchain breadth is growing but trails CUDA in ecosystem maturity and third-party support. Toolchain improvement is critical to converting hardware competitiveness into market adoption. The software ecosystem gap is AMD's primary competitive weakness."
+    },
+    "Response / Intervention Capability": {
+      "value": "Manual stop",
+      "memo": "AMD can manually intervene in supply through allocation, pricing, and support decisions, similar to any hardware vendor.",
+      "detail": "AMD controls its own production allocation and customer relationship management. Manual intervention through supply decisions is the standard capability for hardware vendors. The intervention capability is commercial rather than technical or safety-oriented. AMD's market position makes its intervention less consequential than Nvidia's."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "AMD exercises enterprise-level command over its GPU strategy, pricing, and customer relationships.",
+      "detail": "AMD leadership makes strategic decisions about MI-series investment and market positioning. No external body directs AMD's AI hardware strategy. Enterprise-level command reflects AMD's position as a commercial semiconductor company. Strategic decisions are driven by competitive dynamics and revenue targets."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "AMD operates at product-cycle tempo, with GPU generation releases following multi-year development and qualification cycles.",
+      "detail": "MI-series GPU architectures require multi-year development from design through qualification. Market entry timing depends on fabrication and software-readiness milestones. Product-cycle tempo means strategic positioning decisions are made years in advance. The development timeline creates commitment to architectural decisions that cannot be quickly reversed."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "AMD's product and engineering teams hold tradeoff authority over architecture, performance, and market-positioning decisions.",
+      "detail": "Engineering leadership determines MI-series architecture tradeoffs between performance, power, and cost. Market-positioning decisions balance price competitiveness against margin targets. No external body has binding authority over AMD's product decisions. Product-team authority reflects AMD's commercial governance structure."
+    },
+    "Permission": {
+      "value": "Broad",
+      "memo": "AMD GPUs are broadly available for purchase without content-specific restrictions, similar to Nvidia's broad-permission hardware model.",
+      "detail": "GPU purchases require no use-case authorization beyond export-control compliance. No licensing regime restricts what customers compute on AMD hardware. Broad permission reflects the general-purpose nature of compute infrastructure. Permission constraints apply at the AI application layer, not the hardware layer."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "AMD faces conditional regulatory requirements primarily through export controls, similar to Nvidia's regulatory profile.",
+      "detail": "US export controls restrict AMD GPU sales to certain countries based on compute capability. These controls create conditional sales requirements that parallel Nvidia's obligations. Domestic sales face minimal AI-specific regulatory restriction. Export controls are the primary regulatory constraint on AMD's AI GPU business."
+    },
+    "Data Availability": {
+      "value": "Open/available",
+      "memo": "AMD's hardware business is data-agnostic, benefiting from any customer's data access without creating AMD-specific data dependencies.",
+      "detail": "AMD sells compute hardware regardless of customers' data positions. Data availability is a customer concern, not an AMD business constraint. Open data availability increases GPU demand without creating AMD-specific risk. The data-agnostic position is standard for hardware vendors."
+    },
+    "Provenance": {
+      "value": "Licensed",
+      "memo": "AMD's technology has clear licensed provenance through proprietary chip designs and patented x86 and RDNA/CDNA architectures.",
+      "detail": "AMD's GPU designs and instruction-set architectures have documented IP provenance. Patent and copyright protection covers the hardware and software technology stack. Licensed provenance is straightforward for semiconductor intellectual property. Clear IP provenance differentiates hardware from the contested provenance of training data."
+    },
+    "Model-Weight Rights": {
+      "value": "Shared access",
+      "memo": "AMD provides shared access to its ROCm software stack through open-source and commercial licensing without weight hosting or control.",
+      "detail": "ROCm is primarily open-source, providing shared access to AMD's AI software ecosystem. AMD does not host, control, or have rights over customer model weights. Open-source licensing maximizes ecosystem adoption and competitive pressure on CUDA. The shared-access model reduces software switching costs relative to Nvidia."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "AMD operates cross-border with design in the US, fabrication in Taiwan, and sales worldwide subject to export controls.",
+      "detail": "Chip design occurs in the US with fabrication at TSMC in Taiwan. Assembly and testing happen in multiple countries. Sales and distribution span the global market with export-control compliance. The cross-border territory parallels Nvidia's supply-chain geography."
+    },
+    "Data Subject Exposure": {
+      "value": "No personal data",
+      "memo": "AMD's hardware business involves no personal-data processing, placing it outside data-protection regulatory triggers.",
+      "detail": "GPU sales do not involve processing or accessing personal data. Data-protection obligations apply to AMD's customers, not to the hardware provider. The no-personal-data position simplifies AMD's regulatory profile. Data-subject concerns are externalized to the AI application layer."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "AMD's chip designs, roadmaps, and customer agreements are commercially confidential strategic assets requiring protection.",
+      "detail": "Unreleased GPU architectures and competitive benchmarking data are closely guarded. Customer allocation agreements contain commercially sensitive terms. Supply forecasts and pricing strategies are confidential. The commercial-confidential sensitivity applies to AMD's own operations."
+    },
+    "Control Exposure": {
+      "value": "Controlled item active",
+      "memo": "AMD's AI GPUs are actively controlled items under US export regulations, with performance thresholds triggering restrictions.",
+      "detail": "US export controls target AMD's frontier AI GPUs based on compute-performance thresholds. MI300X and successors exceed thresholds triggering destination and end-use restrictions. AMD has developed export-compliant variants for restricted markets. Active control status makes AMD a direct participant in technology-control policy."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "AMD targets both training and inference markets, but training adoption validates the competitive GPU as a genuine Nvidia alternative.",
+      "detail": "Training workload qualification on AMD GPUs demonstrates hardware credibility for the most demanding use cases. Inference deployments provide volume but training adoption provides strategic validation. Both processing modes are important for AMD's second-source positioning. Training-capable hardware is necessary to be a genuine rather than niche alternative."
+    },
+    "Derivation": {
+      "value": "None",
+      "memo": "AMD hardware produces no derived outputs; derivation is a property of customer AI systems running on the hardware.",
+      "detail": "GPUs execute compute without creating or retaining derived data products. All derivation occurs at the software and model layer above AMD hardware. The no-derivation position is standard for semiconductor hardware. AMD avoids exhaust-capture and data-rights concerns by operating at the hardware layer."
+    },
+    "Retention / Persistence": {
+      "value": "Ephemeral/stateless",
+      "memo": "AMD GPU compute is stateless, with no persistent data retention in accelerator hardware between compute jobs.",
+      "detail": "GPU memory is volatile and clears between compute jobs. No persistent state accumulates in AMD hardware across workloads. Stateless processing is a standard property of GPU compute hardware. Persistence is a software-layer concern above the GPU hardware."
+    },
+    "Execution / Residency Environment": {
+      "value": "Controlled",
+      "memo": "AMD GPUs deploy in controlled data-center environments operated by cloud providers and enterprise customers.",
+      "detail": "MI-series GPUs operate in data centers with physical security and controlled access. AMD does not control the execution environment but its hardware defines compute characteristics. Controlled data-center deployment is standard for enterprise AI hardware. The execution environment is determined by the customer, not AMD."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "AMD GPUs operate in shared cloud environments where multiple customers' workloads run on the same physical infrastructure.",
+      "detail": "Cloud-deployed AMD GPUs serve multiple tenants through hyperscaler scheduling. Shared boundaries reflect cloud-economics optimization standard across GPU vendors. AMD does not control tenant isolation, which is the cloud provider's responsibility. The shared-boundary default matches the industry standard."
+    },
+    "Deployment Surface": {
+      "value": "Customer-facing",
+      "memo": "AMD GPUs power customer-facing AI services through cloud provider deployments, creating indirect end-user exposure.",
+      "detail": "Cloud AI services running on AMD GPUs serve enterprise and consumer customers. The deployment surface is determined by cloud providers and their customers, not by AMD. Customer-facing deployment validates AMD hardware for production workloads. The deployment surface is less critical for AMD than for model providers."
+    },
+    "Physical Infrastructure": {
+      "value": "Dedicated cluster",
+      "memo": "Large AMD GPU deployments use dedicated cluster configurations in cloud provider and enterprise data centers.",
+      "detail": "Cloud providers deploy AMD MI-series GPUs in dedicated rack-scale configurations. Enterprise deployments use purpose-built AMD GPU clusters for AI workloads. Dedicated-cluster deployment enables the performance characteristics needed for training. The infrastructure pattern mirrors Nvidia GPU deployment at smaller scale."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "AMD serves multiple AI model providers, benefiting from any customer's adoption regardless of which models they run.",
+      "detail": "AMD GPUs are used by diverse model providers, cloud platforms, and enterprise customers. Multi-provider demand reduces AMD's dependency on any single customer's success. The multi-provider customer base is a structural advantage of the infrastructure position. Broad customer diversity validates the second-source value proposition."
+    },
+    "Compute Source": {
+      "value": "Owned/custom",
+      "memo": "AMD designs and owns its GPU architectures, maintaining design sovereignty over the CDNA AI accelerator roadmap.",
+      "detail": "AMD owns the CDNA architecture IP and controls all design decisions for MI-series GPUs. Fabrication is outsourced to TSMC but AMD retains complete design authority. Owned architecture provides strategic independence at the design layer. Custom-design ownership is AMD's intellectual-property foundation."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "AMD GPUs are portable across cloud providers, available on AWS, Azure, Oracle, and independent clouds.",
+      "detail": "MI-series GPUs deploy across multiple cloud providers without exclusive partnerships. Portable cloud availability maximizes addressable market for AMD's second-source positioning. Customers can access AMD GPUs through their preferred cloud provider. Portability is a competitive advantage against TPU's captive Google Cloud positioning."
+    },
+    "Accelerator Stack": {
+      "value": "Alternative GPU (second-source)",
+      "memo": "AMD occupies the alternative-GPU position: a credible second source that creates optionality even while Nvidia leads.",
+      "detail": "MI-series GPUs provide a genuine hardware alternative to Nvidia's dominant merchant GPUs. The second-source position creates negotiating leverage for GPU buyers. AMD's existence prevents pure Nvidia monopoly pricing and allocation. The alternative-GPU role is strategically valuable even at significantly smaller market share."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "AMD provides market access to alternative GPU supply, competing for customer allocation through commercial sales rather than strategic control.",
+      "detail": "AMD sells GPUs through standard commercial channels to any authorized buyer. Supply is constrained by fabrication capacity but allocated commercially rather than strategically. Market-access positioning contrasts with Nvidia's strategic-control supply management. AMD competes on price, availability, and total-cost-of-ownership rather than supply scarcity."
+    },
+    "Silicon Bottleneck": {
+      "value": "Advanced packaging/HBM",
+      "memo": "AMD's MI-series bottleneck is advanced packaging and HBM supply, with CoWoS and memory bandwidth constraining production scale.",
+      "detail": "MI300X uses advanced packaging with HBM3 memory requiring TSMC CoWoS capacity. CoWoS and HBM production capacity are industry-wide bottlenecks. The packaging constraint limits AMD's ability to scale production even when chip supply is available. Advanced packaging availability is the binding constraint on AMD's market-share growth."
+    },
+    "Substitutability": {
+      "value": "Replaceable",
+      "memo": "AMD is positioned as the replaceable alternative: easier to adopt and discard than Nvidia, which is the value proposition for buyers seeking optionality.",
+      "detail": "AMD's lower ecosystem lock-in means customers can adopt and remove AMD hardware more easily. ROCm's open-source nature reduces software switching costs compared to CUDA. The replaceable positioning is a feature, not a weakness: it is what creates buyer optionality. Ease of substitution is AMD's competitive argument against Nvidia lock-in."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "AMD provides stack integration from GPU design through ROCm software but does not control networking, systems, or developer ecosystem at Nvidia's depth.",
+      "detail": "AMD designs GPUs and provides the ROCm software stack for AI development. The integration extends from silicon through drivers, compilers, and framework support. AMD does not control networking (like NVLink) or systems integration at Nvidia's level. Stack-integrated but not full-stack is the accurate description of AMD's current position."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "AMD GPU access is mediated through cloud provider APIs and enterprise procurement channels rather than direct-to-developer defaults.",
+      "detail": "Customers access AMD GPUs through cloud instance types and enterprise purchasing. No developer ecosystem makes AMD the default choice the way CUDA does for Nvidia. API-mediated access means adoption requires conscious selection rather than defaulting. The distribution disadvantage is a consequence of the ecosystem maturity gap."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "AMD's supply chain mirrors Nvidia's allied-jurisdiction profile: US design, Taiwanese fabrication, global distribution.",
+      "detail": "Chip design occurs in the US with fabrication at TSMC in Taiwan. The supply-chain geography parallels Nvidia's profile with the same geopolitical dependencies. Allied-jurisdiction supply provides commercial security without eliminating Taiwan concentration risk. The supply-jurisdiction profile is industry-standard for fabless semiconductor companies."
+    },
+    "Observability": {
+      "value": "Declared",
+      "memo": "AMD declares GPU specifications and benchmark performance publicly, providing transparent product information for competitive evaluation.",
+      "detail": "Product specifications, benchmark results, and roadmap information are publicly declared. Performance comparisons against Nvidia are a key element of AMD's go-to-market strategy. Declared observability supports informed purchasing decisions by potential customers. The transparency level matches industry standards for semiconductor products."
+    },
+    "Evaluation": {
+      "value": "Benchmarked",
+      "memo": "AMD GPUs are evaluated through industry-standard benchmarks including MLPerf, demonstrating competitive performance against Nvidia.",
+      "detail": "MLPerf submissions and independent benchmarks provide standardized performance comparisons. AMD has improved its benchmark standing significantly with recent MI-series generations. Benchmark performance is the primary evidence for AMD's credibility as a second source. Competitive benchmarks validate hardware capability while the software ecosystem catches up."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "AMD GPU performance is assessed through external measurement of throughput, latency, and efficiency in benchmark workloads.",
+      "detail": "Hardware performance evaluation uses external behavioral testing rather than internal chip analysis. Performance characteristics are measured through standardized workloads and real-world testing. Behavioral evidence is the standard evaluation methodology for commercial semiconductors. The interpretability level is equivalent to Nvidia's hardware evaluation approach."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "Alignment is handled by AI systems running on AMD hardware, not by the hardware itself; the default reflects customer practice.",
+      "detail": "AMD hardware does not require or implement alignment methods. AI alignment is the customer's responsibility regardless of GPU vendor. ROCm supports whatever alignment approach customers implement. The prompting/RLHF default reflects standard customer practice on any GPU hardware."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "AMD maintains enterprise-grade security for IP protection and supply-chain integrity consistent with semiconductor-industry standards.",
+      "detail": "Chip design IP requires protection against espionage and competitive intelligence. Supply-chain security measures protect against counterfeiting and diversion. Enterprise-grade security reflects the commercial value of AMD's design IP. The security posture matches semiconductor-industry standards."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "AMD faces criminal and state-adjacent threats targeting chip designs and supply-chain intelligence, though with lower strategic profile than Nvidia.",
+      "detail": "GPU designs are valuable intelligence targets but AMD's smaller AI market share reduces targeting intensity. Export-control evasion attempts target AMD hardware alongside Nvidia products. Criminal counterfeiting is a supply-chain concern. The adversary model reflects AMD's growing but secondary AI-infrastructure profile."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "AMD monitors access to design IP through standard enterprise security without special weight-security concerns at the hardware layer.",
+      "detail": "Design IP is protected through standard enterprise security measures. AMD does not handle or host customer model weights. Monitoring applies to AMD's own IP rather than customer AI assets. The monitored posture is standard for semiconductor-industry IP protection."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "AMD uses role-based access control for internal design systems and supply-chain management, following enterprise security standards.",
+      "detail": "Internal access to chip designs and roadmaps is controlled by role assignment. Customer-facing allocation and pricing systems use standard enterprise access control. RBAC implementation reflects AMD's enterprise security maturity. The access-control standard matches semiconductor-industry practice."
+    },
+    "Monitoring Scope": {
+      "value": "Tool activity",
+      "memo": "AMD monitors internal design-tool access and supply-chain activity for IP protection and operational security.",
+      "detail": "Design-tool access, source-code repositories, and supply-chain systems are monitored. Monitoring protects AMD's IP rather than governing customer behavior. Customer GPU usage is not monitored after deployment. Tool-activity monitoring is standard for semiconductor-company operations."
+    },
+    "Containment": {
+      "value": "None",
+      "memo": "AMD applies no containment to shipped GPUs: hardware operates without vendor restrictions after customer purchase.",
+      "detail": "Sold GPUs are customer property without ongoing AMD containment mechanisms. Software licensing provides terms-of-use restrictions but no technical containment. No-containment is the standard posture for commercial hardware sales. Export controls provide external containment at the distribution layer."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "AMD applies targeted capability restrictions through export-compliant GPU variants with reduced performance for controlled markets.",
+      "detail": "Export-compliant AMD GPU variants provide reduced capabilities for restricted-destination markets. These targeted restrictions comply with US export regulations while preserving market presence. AMD mirrors Nvidia's approach of engineering export-compliant hardware variants. Targeted silicon modifications are enforceable restrictions at the hardware layer."
+    },
+    "Use Class": {
+      "value": "Dual-use",
+      "memo": "AMD GPUs are inherently dual-use, serving both civilian AI and defense computing applications with identical hardware.",
+      "detail": "The same MI-series hardware serves commercial AI and can support defense computing workloads. No technical distinction separates civilian from military GPU applications. Dual-use classification drives export-control requirements. AMD's AI GPU position mirrors Nvidia's dual-use profile at smaller scale."
+    },
+    "Harm Channel": {
+      "value": "Cyber/bio/financial",
+      "memo": "AMD hardware enables the same AI harm channels as Nvidia, providing compute infrastructure for systems with cyber and scientific capability.",
+      "detail": "GPU compute enables AI systems with potential cyber, scientific, and financial applications. AMD does not create harms but provides enabling compute infrastructure. The harm-channel exposure is indirect and equivalent to any GPU vendor. Infrastructure-level enabling is structurally similar regardless of GPU vendor."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "AMD GPU capability diffuses through commercial sales with export controls gating distribution to authorized markets and customers.",
+      "detail": "AMD sells GPUs through standard commercial channels to authorized customers worldwide. Export controls create a licensing gate for sales to restricted destinations. Licensed diffusion through commercial channels is the standard hardware-distribution model. The proliferation pattern mirrors Nvidia's hardware distribution dynamics."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "AMD is behind Nvidia in AI GPU market position, but the gap is narrowing with each MI-series generation release.",
+      "detail": "Nvidia holds overwhelming market share in AI accelerators. AMD's MI-series is competitive on hardware but trails significantly in ecosystem maturity. The behind position is structural but not permanent as the gap closes each generation. Being behind drives AMD's strategy: the value proposition is creating optionality, not leading."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "AMD faces competitive pressure from Nvidia's rapid GPU iteration and custom-silicon programs from Google, Amazon, and Microsoft.",
+      "detail": "Nvidia's annual architecture improvements create constant competitive pressure. Hyperscaler custom silicon (TPU, Trainium, Maia) adds competition from a different direction. The multi-front competitive landscape motivates rapid AMD product development. Race pressure drives the investment required to narrow the ecosystem gap."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "AMD operates as a single firm making independent strategic decisions about its AI GPU market positioning.",
+      "detail": "AMD's AI strategy is determined by corporate leadership without external coordination. No coalition or national project directs AMD's hardware development. The single-firm structure enables focused competitive positioning against Nvidia. AMD's independence is both a strength and a scale constraint."
+    },
+    "Nonproliferation Regime": {
+      "value": "Enforced regime",
+      "memo": "US export controls create an enforced nonproliferation regime for AMD's frontier AI GPUs, paralleling Nvidia's controls.",
+      "detail": "Export controls specifically target AMD frontier GPUs based on compute-performance thresholds. Violations carry criminal penalties mirroring those for Nvidia GPU export violations. The enforced regime applies equivalently to both merchant GPU vendors. Export controls on AMD hardware are part of the broader AI compute nonproliferation framework."
+    },
+    "Data Value Dynamics": {
+      "value": "Rivalrous",
+      "memo": "AMD GPU supply is rivalrous: scarce fabrication and packaging capacity creates zero-sum allocation across customers.",
+      "detail": "Physical GPU supply is limited by TSMC fabrication and CoWoS packaging capacity. Each GPU allocated to one customer is unavailable to others. The rivalrous supply dynamic creates competition for AMD hardware during constrained periods. Physical scarcity makes hardware allocation a strategic concern."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "AMD GPU prices are fixed at purchase, with no revenue sharing or usage-based pricing for hardware sales.",
+      "detail": "GPUs are sold at fixed prices through purchase orders or cloud-provider agreements. AMD captures value at the hardware-sales point rather than through downstream participation. Fixed pricing is the standard model for merchant semiconductor hardware. The pricing model matches Nvidia's approach."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "AMD retains hardware-sales revenue with no claim on AI outputs produced by systems running on its GPUs.",
+      "detail": "AMD captures value through GPU sales without participating in downstream AI commercial outcomes. No revenue-sharing or output-allocation mechanism connects AMD to customer AI applications. The retained-value model is standard for hardware vendors in the AI value chain. AMD benefits indirectly from customer success through increased GPU demand."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "AMD captures value as the hardware processor but does not participate in derived AI output value from customer applications.",
+      "detail": "AMD's revenue comes from hardware sales rather than AI application value. The processor-captures dynamic applies to AMD's compute-processing hardware revenue. Downstream derived value flows to model developers and deployers. AMD's value capture operates at the infrastructure layer."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "AMD disclaims liability for AI outcomes produced by systems running on its hardware through standard hardware-sales terms.",
+      "detail": "Standard GPU sales terms disclaim responsibility for downstream AI applications. No warranty or insurance covers AI-specific risks at the hardware layer. Liability for AI harm sits with model developers and deployers, not hardware vendors. The disclaimed-risk posture is standard for computing hardware."
+    },
+    "Capital": {
+      "value": "Strategic build",
+      "memo": "AMD invests strategic-build capital in MI-series GPU development, competing for AI market share against Nvidia's dominant position.",
+      "detail": "Multi-billion-dollar R&D investment targets competitive GPU architectures and the ROCm ecosystem. The investment is strategic because AI compute is AMD's highest-growth market opportunity. Capital commitment spans years from design through fabrication to market delivery. Strategic-build investment reflects the high barriers to entry in AI accelerators."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "AMD's GPU development commits to multi-year architecture and fabrication roadmaps that determine competitive positioning years ahead.",
+      "detail": "GPU architectures require multi-year development cycles from design to market. TSMC fabrication agreements commit capacity years in advance. Multi-year commitments create roadmap stability but lock in design decisions. The long development cycle means today's architecture choices affect competitiveness three-to-five years out."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "AI GPU revenue is a rapidly growing product line for AMD but not yet the majority of company revenue.",
+      "detail": "Data-center GPU revenue is AMD's fastest-growing segment but PC processors remain significant. AI GPU is becoming an important product line but AMD is not yet dependent on it for survival. The product-line dependency is increasing as AI compute demand grows. AMD's diversified revenue base provides strategic resilience."
+    },
+    "Switching Cost": {
+      "value": "Low",
+      "memo": "AMD's switching costs are deliberately low: ROCm's open-source approach reduces the barrier to adopting or discarding AMD GPUs.",
+      "detail": "ROCm's HIP compatibility layer reduces code-porting effort from CUDA. Open-source software eliminates licensing lock-in. The low switching cost is AMD's competitive argument against Nvidia's captive ecosystem. Easy adoption and easy exit are features of the second-source positioning."
+    },
+    "Exit": {
+      "value": "Exportable",
+      "memo": "Exit from AMD GPU deployment is exportable: workloads can migrate to Nvidia or other hardware with moderate re-optimization effort.",
+      "detail": "AI code developed for AMD GPUs can be ported to CUDA through systematic translation. Workload migration requires re-optimization but not complete architectural redesign. The exportable-exit posture contrasts with Nvidia's capability-entangled lock-in. Easy exit is a deliberate feature of AMD's competitive positioning."
+    },
+    "Acceptance Basis": {
+      "value": "Market-validated",
+      "memo": "AMD's second-source role validates through price-performance competition and enterprise demand for supply diversification.",
+      "detail": "Customer adoption of AMD accelerators validates through procurement decisions driven by cost and availability. Enterprises seeking Nvidia alternatives create market pull that serves as the acceptance signal. No formal process certifies AMD as an adequate substitute. Market behaviour and competitive pricing determine whether the second-source strategy succeeds."
+    }
+  }
+}

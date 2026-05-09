@@ -1,0 +1,367 @@
+{
+  "id": "custody-confidential-compute",
+  "name": "Sealed Use",
+  "desc": "Confidential compute and multi-party computation separate use from custody: computation happens on data no party fully sees. Processing without possession — the envelope is sealed, but the answer comes out.",
+  "picks": {
+    "Capability Class": {
+      "value": "Tool-grade",
+      "memo": "Confidential compute applies to tool-grade systems where the use-without-custody architecture matters more than frontier capability levels.",
+      "detail": "Tool-grade capability is the baseline because the confidential compute argument is about custody architecture, not capability frontiers. The separation of use from custody works regardless of whether the underlying system is narrow or superhuman. What matters is the architectural principle that processing can occur without the processor possessing the data. Tool-grade keeps the stance focused on the custody innovation rather than capability dynamics."
+    },
+    "Domain Breadth": {
+      "value": "Single-domain",
+      "memo": "Confidential compute is illustrated in single-domain contexts where the use-without-custody architecture can be cleanly demonstrated without cross-domain complexity.",
+      "detail": "Single-domain focus keeps the confidential compute demonstration architecturally clean and practically comprehensible. The principle of use without custody applies across domains but is most clearly illustrated in bounded contexts. Domain breadth does not affect the fundamental architectural claim that processing can be separated from possession. Single-domain picks emphasize the custody innovation without introducing unnecessary analytical complexity."
+    },
+    "Capability Trajectory": {
+      "value": "Incremental",
+      "memo": "Confidential compute operates under incremental trajectory because the custody architecture is independent of capability acceleration dynamics entirely.",
+      "detail": "Incremental trajectory means the use-without-custody architecture does not depend on rapid capability improvement for relevance. Confidential compute works the same whether the underlying technology improves slowly or quickly. The architectural innovation is structural, not temporal, making trajectory a secondary consideration. Incremental trajectory signals that this is an architecture argument, not a capability race argument."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "Confidential compute operates in human-led research contexts where the architecture question is about custody separation, not research automation dynamics.",
+      "detail": "Human-led research is the baseline because confidential compute's custody innovation does not depend on AI research automation. The separation of use from custody is a cryptographic and architectural achievement, not an AI capability achievement. Human researchers design and implement the confidential compute environments that enable custody separation. Research automation level is orthogonal to the fundamental custody architecture argument."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Confidential compute applies to tool-using systems where the processing tools operate within the secure enclave without accessing data outside the boundary.",
+      "detail": "Tool-using unhobbling means the system accesses computational tools within the secure enclave that processes data without exposing it. The tools operate on encrypted or enclave-protected data without the tool operator gaining custody of the underlying content. Tool-using level demonstrates that practical computation is possible within the confidential compute custody separation. The unhobbling level shows that use-without-custody is operationally real, not merely theoretically possible."
+    },
+    "Replication Scale": {
+      "value": "Single instance",
+      "memo": "Confidential compute is demonstrated with single-instance deployment where the custody separation architecture is most clearly and cleanly visible.",
+      "detail": "Single instance simplifies the confidential compute demonstration by showing custody separation for one specific computation context. Multiple instances would introduce distributed trust complexity that would obscure the fundamental custody architecture argument. The single-instance focus makes the use-without-custody principle concrete and practically understandable. Single instance is the clearest setting for demonstrating that processing does not require data possession."
+    },
+    "Operating Speed": {
+      "value": "Human-speed",
+      "memo": "Confidential compute operates at human-speed where the cryptographic overhead of custody separation is manageable within normal processing timelines.",
+      "detail": "Human-speed operation means the cryptographic protocols that enable use without custody operate within normal interactive timelines. The computational overhead of homomorphic encryption, secure enclaves, or MPC protocols is absorbed within acceptable latency bounds. Human-speed processing demonstrates that confidential compute is practically deployable, not merely a theoretical construction. The operating speed pick grounds the custody architecture in real-world operational feasibility."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Confidential compute is cognitive-only, operating entirely in the digital computation domain where custody separation through cryptography is architecturally achievable.",
+      "detail": "Cognitive-only extension means confidential compute operates in the digital computation domain where cryptographic custody separation works. The separation of use from custody is specifically a digital architecture capability that does not extend to physical possession. Physical-world data ultimately requires physical custody, but digital data can be processed without possession through cryptographic means. Cognitive-only focus demonstrates the specific domain where use without custody is architecturally possible."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "The confidential compute system functions as a tool that processes data within a secure boundary without the tool operator gaining custody of inputs.",
+      "detail": "Tool role means the system performs computation as directed without exercising independent agency over the data it processes. The operator directs the computation but the confidential compute architecture prevents them from accessing the underlying data. Tool role emphasizes that the system is a processing instrument, not a custodian of the data it processes. This role distinction is the operational expression of the use-without-custody principle."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Confidential compute actuates through digital computation channels where the processing produces results without exposing input data to the processor.",
+      "detail": "Digital action means the system performs computation that produces outputs without exposing the input data to the operator. The actuation is computational transformation within a secure boundary that maintains custody separation throughout processing. Digital action within confidential compute demonstrates that consequential data processing does not require data access. The actuation channel is where the use-without-custody principle becomes operationally and commercially meaningful."
+    },
+    "Autonomy": {
+      "value": "Stateless task",
+      "memo": "Confidential compute operates as stateless tasks where each computation is independently secured without persistent state that could compromise custody separation.",
+      "detail": "Stateless task means each computation within the confidential compute environment starts fresh without carrying forward state from previous interactions. This prevents accumulation of data access beyond what each individual computation authorizes within the secure boundary. Stateless operation ensures that the custody separation is maintained across interactions, not just within a single computation. The stateless character means use-without-custody is continuously enforced rather than granted once."
+    },
+    "Delegated Authority": {
+      "value": "Limited mandate",
+      "memo": "Confidential compute receives a precisely limited computational mandate where authority is bounded by what the secure enclave permits without exposing data.",
+      "detail": "Limited mandate means the computation is authorized to perform specific operations on data without gaining access to the data itself. The mandate is architecturally enforced by the confidential compute environment rather than merely contractually bounded. This architectural enforcement is what makes use-without-custody practically reliable rather than merely legally asserted. Limited mandate through architectural enforcement demonstrates custody separation that is stronger than any contractual delegation."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Confidential compute gates tool access through the secure enclave boundary, allowing computation tools to operate on data without the tools exposing data externally.",
+      "detail": "Gated tools means computational functions are available within the secure boundary but cannot move data outside the enclave. The gates are architecturally enforced by hardware attestation, encryption, or MPC protocols rather than by policy. Tool access within confidential compute demonstrates that useful computation can occur within architecturally enforced custody separation. Gated tool access is the practical mechanism through which use without custody becomes computationally useful."
+    },
+    "Response / Intervention Capability": {
+      "value": "Kill switch",
+      "memo": "Confidential compute provides kill switch capability through enclave termination that immediately destroys the processing state and enforces custody separation irreversibly.",
+      "detail": "Kill switch through enclave termination means the computation can be immediately halted and all processing state destroyed within the secure boundary. This is faster and more complete than physical intervention because cryptographic state destruction is instant and verifiable. The kill switch operates within the custody architecture, maintaining separation even during termination. Enclave termination demonstrates that confidential compute provides intervention capabilities that physical custody arrangements cannot match."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Confidential compute command resides with the enterprise that commissions the computation, maintaining authority without requiring custody of the processed data.",
+      "detail": "Enterprise command means the organization that commissions the confidential computation directs it without possessing the data being processed. This separation of command from custody is the defining characteristic of the use-without-custody architecture. The enterprise can direct computation, receive results, and maintain authority without ever accessing the underlying data. Enterprise command without data custody is the commercial expression of the architectural principle."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Confidential compute operates at product-cycle decision tempo where enclave design, attestation verification, and computation planning follow normal institutional timelines.",
+      "detail": "Product cycle tempo means confidential compute environments are designed, certified, and operated through normal institutional processes. Attestation verification, enclave configuration, and computation authorization follow planned governance timelines. The tempo is appropriate because confidential compute is a steady-state architectural capability rather than a crisis response. Product-cycle governance enables the careful design and verification that confidential compute architecture requires."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Confidential compute design tradeoffs between computation efficiency and custody separation are made by product teams implementing the secure architecture.",
+      "detail": "Product team authority means the engineers who design the confidential compute environment make practical tradeoffs between performance and custody separation. These tradeoffs include encryption overhead, enclave size, attestation frequency, and protocol selection. Product team authority is appropriate because confidential compute is an enterprise architecture decision, not a national security determination. The tradeoff decisions determine the practical strength of the use-without-custody guarantee."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Confidential compute grants conditional permission for data use where the conditions are architecturally enforced by the secure enclave rather than merely contractual.",
+      "detail": "Conditional permission means data use is permitted only within the specific boundaries that the confidential compute architecture enforces. The conditions include what computations can run, what outputs are permitted, and what attestation evidence is required. Architectural enforcement makes the conditions more reliable than contractual conditions because the technology prevents violation. Conditional permission through confidential compute demonstrates the most reliable form of data use authorization available."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Confidential compute operates under conditional regulatory posture where the custody separation architecture must meet data protection and processing compliance requirements.",
+      "detail": "Conditional regulation means confidential compute must demonstrate that its custody separation satisfies data protection requirements for the data being processed. Regulatory frameworks increasingly recognize confidential compute as a legitimate means of achieving processing without custody transfer. The conditions include attestation standards, audit requirements, and certification of the secure enclave technology. Conditional regulatory posture reflects the emerging recognition of architectural custody as a regulatory compliance mechanism."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "In confidential compute, data availability is licensed for computation but never for possession, with the architecture enforcing the distinction between use and custody.",
+      "detail": "Licensed availability means the data owner licenses specific computational use while retaining full custody through the confidential compute architecture. The licence permits processing but architecturally prevents the processor from accessing the underlying data directly. This is the most precise form of data licensing because the terms are enforced by technology rather than contract alone. Licensed availability with architectural enforcement demonstrates the commercial potential of use-without-custody arrangements."
+    },
+    "Provenance": {
+      "value": "Verifiable",
+      "memo": "Confidential compute enables verifiable provenance through hardware attestation that proves computation occurred within the secure enclave under specified conditions.",
+      "detail": "Verifiable provenance means hardware attestation provides cryptographic evidence that computation occurred within the certified secure environment. The attestation proves what code ran, on what hardware, within what enclave configuration, producing what outputs. This verification is mathematically rigorous and independently checkable without trusting the computation operator. Verifiable provenance through attestation is the strongest available evidence that processing occurred without custody transfer."
+    },
+    "Model-Weight Rights": {
+      "value": "Dedicated instance",
+      "memo": "Confidential compute protects model weights within a dedicated instance where the enclave prevents the infrastructure operator from accessing the weights directly.",
+      "detail": "Dedicated instance within confidential compute means model weights exist exclusively within the secure enclave, inaccessible to the infrastructure operator. The weights can be used for computation without being exposed to any party other than the weight owner. This creates a form of model hosting where the hosting provider cannot copy, inspect, or steal the model weights. Dedicated instance with enclave protection demonstrates the strongest practical form of model weight custody available."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Confidential compute enables cross-border data processing by maintaining custody separation regardless of which jurisdiction houses the processing infrastructure.",
+      "detail": "Cross-border operation demonstrates that confidential compute can satisfy data residency requirements even when processing occurs in another jurisdiction. The data remains encrypted and inaccessible to the processing jurisdiction's authorities because custody never transfers. This cross-border capability is commercially valuable because it enables computation on data that cannot legally leave its home jurisdiction. Cross-border confidential compute demonstrates that use without custody can solve jurisdictional data flow problems."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "Confidential compute commonly protects ordinary personal data by enabling analysis and processing without exposing the personal data to the processing party.",
+      "detail": "Ordinary personal data is the baseline exposure where confidential compute demonstrates practical value for privacy-preserving analytics. The architecture enables aggregate analysis, model training, and pattern detection without the processor seeing individual records. This directly addresses data protection requirements by separating processing from access to personal information. Ordinary personal data protection through confidential compute is the most commercially relevant demonstration of use without custody."
+    },
+    "Data Sensitivity": {
+      "value": "Sensitive/regulated",
+      "memo": "Confidential compute is most valuable for sensitive and regulated data where processing without custody transfer satisfies regulatory requirements that custody transfer would violate.",
+      "detail": "Sensitive/regulated data is where confidential compute provides maximum commercial and regulatory value as a custody architecture. Health data, financial data, and other regulated categories can be processed without violating data protection transfer restrictions. The custody separation architecture satisfies regulatory requirements that would otherwise prohibit the processing entirely. Sensitive/regulated sensitivity is the commercial sweet spot where use-without-custody creates value that no alternative architecture can match."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Confidential compute at the enterprise level typically involves no export control issues, enabling the custody separation architecture without controlled-item complexity.",
+      "detail": "No control issue keeps the confidential compute stance focused on the fundamental custody separation principle. The architecture applies equally to controlled items but the core argument is cleaner without export control overlay. No control exposure means the commercial value of use without custody can be demonstrated without regulatory complexity. The absence of control issues makes confidential compute commercially accessible to a broad range of enterprise applications."
+    },
+    "Processing Mode": {
+      "value": "Inference",
+      "memo": "Confidential compute enables inference processing where the model computes on encrypted data, producing results without the processor ever seeing the input data.",
+      "detail": "Inference processing within confidential compute means the model produces outputs from data it processes but never accesses in plaintext. The processor obtains results without gaining knowledge of the specific inputs that produced them. This separation is the most commercially relevant application of the use-without-custody principle for AI systems. Inference within confidential compute demonstrates that productive AI use does not require data custody transfer."
+    },
+    "Derivation": {
+      "value": "Direct output",
+      "memo": "Confidential compute produces direct outputs where derived results are released through the enclave boundary without exposing the source data used to generate them.",
+      "detail": "Direct output means computation results exit the secure enclave without revealing the input data that produced them. The output is a derived product that carries no residual access to the underlying data within the confidential compute environment. Each output can be specifically authorized, audited, and controlled through the enclave's output policy. Direct output through confidential compute demonstrates that useful derivation can occur without custody compromise."
+    },
+    "Retention / Persistence": {
+      "value": "Ephemeral/stateless",
+      "memo": "Confidential compute operates with ephemeral stateless processing where data exists within the secure enclave only during computation and is destroyed afterward.",
+      "detail": "Ephemeral/stateless retention means no data persists within the secure enclave after computation completes. The data enters encrypted, is processed within the enclave, outputs are produced, and all internal state is destroyed. This ephemeral character is the strongest possible custody separation because no residual data can be recovered. Ephemeral processing within confidential compute demonstrates the most complete form of use without custody."
+    },
+    "Execution / Residency Environment": {
+      "value": "Controlled",
+      "memo": "Confidential compute executes in controlled environments with hardware-attested secure enclaves that architecturally enforce custody separation during processing.",
+      "detail": "Controlled environment means the execution infrastructure provides hardware security modules, trusted execution environments, and attestation capabilities. The control is architectural through hardware-enforced enclave boundaries rather than merely policy-based access restrictions. Controlled execution environments are the physical foundation that makes confidential compute custody separation technically achievable. The environment determines whether the custody separation guarantee is hardware-backed or merely software-asserted."
+    },
+    "Boundary": {
+      "value": "Isolated",
+      "memo": "Confidential compute operates within an isolated boundary that architecturally prevents data leakage outside the processing enclave environment.",
+      "detail": "Isolated boundary means the computation occurs within a hardware-enforced isolation boundary that no external party can penetrate. The enclave prevents the infrastructure operator, adjacent tenants, and even the operating system from accessing processed data. This boundary enforcement is hardware-backed rather than software-enforced, providing stronger guarantees than any policy mechanism. Isolated boundary is the architectural foundation that makes use without custody technically credible and independently verifiable."
+    },
+    "Deployment Surface": {
+      "value": "Internal/embedded",
+      "memo": "Confidential compute deploys as an internal embedded processing capability within larger systems, providing custody-separated computation as an architectural component.",
+      "detail": "Internal/embedded deployment means confidential compute operates as a processing layer within broader application architectures. The custody separation capability is embedded in the system rather than exposed as a standalone service. This embedding makes confidential compute a foundational architectural component for privacy-preserving data processing. Internal embedded deployment demonstrates that use without custody can be a standard architectural building block."
+    },
+    "Physical Infrastructure": {
+      "value": "Dedicated cluster",
+      "memo": "Confidential compute ideally runs on dedicated cluster infrastructure where hardware attestation and enclave security can be independently verified and controlled.",
+      "detail": "Dedicated cluster means the confidential compute environment runs on infrastructure specifically provisioned and configured for secure enclave operation. Hardware attestation, trusted platform modules, and enclave configuration are all under the data owner's verification authority. Dedicated infrastructure provides the strongest foundation for verifiable custody separation through confidential compute. The dedicated cluster pick reflects the practical infrastructure requirements for maximum-assurance use without custody."
+    },
+    "Model Sourcing": {
+      "value": "Single-provider",
+      "memo": "Confidential compute typically processes using a single model provider's capability within the secure enclave, keeping the trust boundary architecturally clean.",
+      "detail": "Single-provider sourcing keeps the confidential compute trust boundary simple by limiting the enclave to one model provider's code and weights. Multi-provider orchestration within a single enclave would introduce additional trust relationships and potential information leakage paths. Single-provider focus enables the cleanest demonstration of use without custody for the model computation. The sourcing simplicity reinforces the architectural clarity of the custody separation principle."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Confidential compute operates on committed compute capacity where the secure enclave hardware is pre-provisioned and attested for custody-separated processing.",
+      "detail": "Committed capacity means the confidential compute infrastructure is pre-provisioned with attested hardware security modules and enclave environments. Spot or shared capacity would introduce attestation complexity and potential side-channel exposure risks. Committed capacity provides the stable infrastructure foundation that confidential compute attestation and verification require. The compute source reflects the practical investment needed for reliable hardware-backed custody separation."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Confidential compute can operate with a preferred cloud partner whose infrastructure provides attested secure enclaves while custody separation prevents partner data access.",
+      "detail": "Preferred partner dependency means the data owner uses a specific cloud provider's confidential compute infrastructure. The custody separation architecture prevents the cloud partner from accessing the processed data despite hosting the computation. This demonstrates that confidential compute can maintain custody separation even within a cloud dependency relationship. Preferred partner with custody separation shows that use without custody can operate within standard cloud arrangements."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Confidential compute on standard merchant GPUs enables custody-separated processing without requiring specialized hardware beyond standard accelerator infrastructure.",
+      "detail": "Nvidia GPU merchant hardware is the standard accelerator platform where confidential compute capabilities are increasingly available. GPU-based confidential compute enables AI inference and training within secure boundaries on standard commercial hardware. The custody separation does not require exotic or custom silicon beyond standard security features. Merchant GPU-based confidential compute makes use without custody practically accessible on widely available infrastructure."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Confidential compute operates with standard market access to compute supply because the custody separation architecture is independent of privileged supply position.",
+      "detail": "Market access means confidential compute infrastructure can be procured through normal commercial channels without special allocation. The custody separation properties come from the architecture and attestation, not from privileged hardware access. Standard market access makes confidential compute deployable by any organization with appropriate budget. Market access supply demonstrates that use without custody does not require strategic supply control."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Confidential compute faces standard accelerator supply constraints but the custody separation properties are independent of specific hardware availability dynamics.",
+      "detail": "Accelerator supply constraints affect confidential compute deployments the same way they affect any AI workload. The custody separation architecture works on whatever hardware is available that supports the necessary security features. Supply constraints may limit deployment scale but do not affect the fundamental custody separation properties. The silicon bottleneck is a practical constraint rather than an architectural limitation of the use-without-custody principle."
+    },
+    "Substitutability": {
+      "value": "Expensive switch",
+      "memo": "Confidential compute creates moderate switching costs because enclave configurations, attestation infrastructure, and integration require significant reimplementation effort.",
+      "detail": "Expensive switch means migrating confidential compute to a different platform requires re-establishing enclave environments, attestation chains, and application integration. The custody separation principles are portable but the specific implementation is platform-dependent. Switching cost is meaningful but not captive because the architectural patterns transfer even when implementation details do not. Expensive switching reflects the practical investment in confidential compute infrastructure rather than fundamental lock-in."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "Confidential compute operates at the application layer, providing custody separation through architectural design without requiring control of the underlying hardware stack.",
+      "detail": "Application-only integration means the confidential compute custody separation operates above the hardware layer using available security features. The use-without-custody architecture does not require vertical integration into silicon, firmware, or hardware manufacturing. Application-layer operation makes confidential compute accessible to organizations without hardware engineering capability. Application-only integration demonstrates that custody separation can be achieved through software architecture on standard infrastructure."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "Confidential compute distributes custody-separated processing through API interfaces where computation requests and results flow without data custody transfer.",
+      "detail": "API/app distribution means clients submit computation requests to the secure enclave and receive results without their data leaving the protected boundary. The API interface is the point where use without custody becomes operationally real for client applications. Each API interaction is independently custody-separated, attested, and auditable through the enclave infrastructure. API distribution with custody separation demonstrates that standard software interfaces can maintain the use-without-custody property."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "Confidential compute infrastructure typically resides in domestic jurisdiction though the custody separation properties theoretically transcend any particular territorial location.",
+      "detail": "Domestic jurisdiction means the confidential compute hardware is physically located within the data owner's home jurisdiction. While custody separation should work regardless of location, domestic placement provides additional assurance and regulatory compliance confidence. Physical location within domestic jurisdiction enables local attestation verification and regulatory oversight. Domestic supply jurisdiction is a practical choice that supplements the architectural custody separation with jurisdictional alignment."
+    },
+    "Observability": {
+      "value": "Independently verifiable",
+      "memo": "Confidential compute enables independently verifiable observability through hardware attestation proving that computation occurred within the secure enclave as specified.",
+      "detail": "Independently verifiable observability means any party can confirm through hardware attestation that the computation ran within the certified enclave boundary. The verification is cryptographic and does not require trusting the computation operator or infrastructure provider. Attestation provides mathematical evidence of custody separation that cannot be forged or retroactively fabricated. Independent verifiability through attestation is the strongest assurance that use without custody was actually maintained."
+    },
+    "Evaluation": {
+      "value": "Benchmarked",
+      "memo": "Confidential compute architectures can be benchmarked against established enclave security standards and attestation protocol specifications for formal evaluation.",
+      "detail": "Benchmarked evaluation means the custody separation architecture can be tested against established security standards and enclave certifications. Intel SGX, AMD SEV, and ARM CCA provide benchmarking frameworks for enclave security and attestation properties. The evaluation is more rigorous than self-declaration because enclave properties are hardware-verifiable. Benchmarked evaluation demonstrates that confidential compute custody separation can be objectively assessed and compared."
+    },
+    "Interpretability": {
+      "value": "Legible trace",
+      "memo": "Confidential compute produces legible attestation traces documenting what code ran, on what hardware, within what enclave configuration, and what outputs were released.",
+      "detail": "Legible trace means the attestation infrastructure produces detailed, human-readable and machine-verifiable records of all enclave operations. The trace includes hardware identity, enclave configuration, code measurements, and output authorization at each step. This legibility enables audit and compliance verification without compromising the custody separation itself. Legible attestation traces provide transparency about the processing while maintaining opacity about the processed data."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Confidential compute relies on human review of enclave design, attestation policies, and output authorization to maintain appropriate custody separation governance.",
+      "detail": "Human review means responsible humans verify enclave configurations, attestation policies, and output authorization rules before computation proceeds. The review ensures that the confidential compute architecture correctly implements the intended custody separation properties. Human review of architectural design is more structured than runtime behavioral monitoring because it occurs at design time. Human review of confidential compute design is the governance mechanism that ensures the use-without-custody guarantee is correctly implemented."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Confidential compute requires enterprise-grade security posture with hardware attestation, enclave management, and operational security for the custody separation architecture.",
+      "detail": "Enterprise-grade security means professional management of the confidential compute infrastructure including attestation, key management, and enclave operations. This posture is appropriate for commercial and regulated data processing that benefits from use-without-custody architecture. Enterprise-grade provides strong custody separation without the cost and complexity of national-defense-grade investment. The security posture matches the data sensitivity and commercial context of typical confidential compute deployments."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Confidential compute defends against criminal and state-adjacent adversaries whose attack capability is bounded by the hardware security properties of the enclave.",
+      "detail": "Criminal/state-adjacent adversary model means the custody separation must resist sophisticated attackers but not full state-level capability. Hardware enclave security provides strong protection against this threat level through architectural enforcement. Side-channel attacks and hardware vulnerabilities remain potential concerns but are bounded by attacker resources. Criminal/state-adjacent is the realistic adversary model where enterprise-grade confidential compute provides meaningful custody separation."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Confidential compute provides monitored weight security where model weight access within the enclave is logged, attested, and restricted to authorized computation only.",
+      "detail": "Monitored weight security means model weights within the confidential compute enclave are protected by access logging and attestation. The enclave prevents unauthorized weight access, copying, or extraction through hardware-enforced boundaries. Monitoring provides audit evidence that weights were used only for authorized computation within the enclave. Monitored weight security through confidential compute demonstrates architectural weight protection stronger than administrative controls."
+    },
+    "Access Control": {
+      "value": "Least privilege",
+      "memo": "Confidential compute enforces least-privilege access where each computation receives only the minimum data and capability needed within the enclave boundary.",
+      "detail": "Least privilege means the enclave architecture restricts each computation to accessing only the specific data and functions authorized for that operation. The least-privilege enforcement is architectural through enclave memory isolation rather than policy-based access lists. This is stronger than administrative least privilege because the restriction is hardware-enforced and cannot be bypassed by elevated credentials. Least-privilege access within confidential compute is the most precise form of data access restriction available."
+    },
+    "Monitoring Scope": {
+      "value": "Tool activity",
+      "memo": "Confidential compute monitors tool activity within the enclave through attestation logs that record what computations were performed without exposing processed data.",
+      "detail": "Tool activity monitoring means every computation within the enclave is logged and attested without revealing the data being processed. The monitoring provides accountability for what was computed while maintaining the custody separation for the data itself. This balance between transparency about processing and opacity about content is unique to confidential compute architecture. Tool activity monitoring within enclaves demonstrates that accountability and privacy can coexist architecturally."
+    },
+    "Containment": {
+      "value": "Dedicated enclave",
+      "memo": "Confidential compute containment uses a dedicated hardware-attested enclave that creates an architecturally enforced boundary preventing any data leakage during processing.",
+      "detail": "Dedicated enclave containment means the computation occurs within a hardware-enforced isolation boundary that prevents data leakage to any external party. The enclave is dedicated to a specific computation, not shared across tenants or workloads. Hardware attestation verifies the enclave integrity before any data enters the processing boundary. Dedicated enclave containment is the architectural foundation that makes the use-without-custody guarantee technically credible and verifiable."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Confidential compute enables targeted capability restriction where the enclave architecture precisely controls what computations and outputs are permitted.",
+      "detail": "Targeted restriction means the enclave architecture limits computation to specific authorized operations with specific permitted output types. This restriction is hardware-enforced rather than policy-filtered, making it more reliable than application-layer limitations. The enclave code measurement ensures only approved computations run, preventing unauthorized capability expansion. Targeted restriction through enclave architecture demonstrates the most precise computational control available for custody-separated processing."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Confidential compute operates in civilian use class where the custody separation architecture enables privacy-preserving processing for commercial and personal data.",
+      "detail": "Civilian use class means confidential compute is applied to commercial, healthcare, financial, and personal data processing applications. This is where use without custody creates its greatest commercial and regulatory value. The civilian context makes the stance broadly relevant to enterprise data processing across regulated industries. Civilian use class demonstrates that advanced custody architecture is valuable for everyday data processing, not just national security."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Confidential compute protects against information-channel harm by preventing data exposure that would occur without the custody separation architecture.",
+      "detail": "Information harm channel means the primary risk that confidential compute mitigates is unauthorized data disclosure or privacy violation. The custody separation architecture prevents the processor from accessing data that would create information harm if exposed. Confidential compute transforms the risk profile from information harm to computation-output harm, which is more containable. Information harm prevention through architectural custody separation is the primary value proposition of confidential compute."
+    },
+    "Proliferation": {
+      "value": "Contained",
+      "memo": "Confidential compute contains data proliferation by enabling processing without data copying, preventing the spread of sensitive information beyond the enclave boundary.",
+      "detail": "Contained proliferation means data is processed within the enclave without being copied to the processor's systems or storage. The custody separation prevents the data duplication that normally accompanies data sharing for processing purposes. Contained proliferation through confidential compute demonstrates that useful computation can occur without creating additional copies of sensitive data. This containment is architecturally enforced rather than contractually promised, making it more reliable."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Confidential compute is typically deployed by a single firm seeking to process third-party data without taking custody, maintaining clean organizational boundaries.",
+      "detail": "Single firm coalition means one organization deploys confidential compute to process data it does not own or wish to possess. The single-firm structure keeps the trust model simple with a clear data owner and a clear processor operating within the enclave. Multi-party computation extends the pattern but single-firm deployment is the clearest illustration. Single-firm deployment demonstrates use without custody in its most commercially common configuration."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "Confidential compute in civilian contexts operates without formal nonproliferation obligations, relying on the architecture itself for data protection.",
+      "detail": "No nonproliferation regime means the custody separation is self-enforcing through architecture rather than depending on external regulatory mechanisms. The enclave architecture prevents data proliferation regardless of any external compliance framework. This self-enforcing character is a strength because it does not depend on institutional compliance monitoring. No regime demonstrates that architectural custody separation can operate independently of external governance frameworks."
+    },
+    "Data Value Dynamics": {
+      "value": "Use-specific",
+      "memo": "Confidential compute enables use-specific data value dynamics where the same data can be licensed for different computational uses with different value profiles.",
+      "detail": "Use-specific value means the data's value depends on what computation is performed, and the enclave can authorize different uses separately. Different computations on the same data can have different value profiles, and the enclave can enforce value-appropriate access for each. This use-specific granularity is only possible when computation and custody are architecturally separated. Use-specific value dynamics demonstrate the commercial flexibility that use without custody enables."
+    },
+    "Input Price": {
+      "value": "Usage-based",
+      "memo": "Confidential compute enables usage-based input pricing where data owners charge per computation rather than per data transfer or per custody arrangement.",
+      "detail": "Usage-based pricing means the data owner charges for each computation performed within the enclave rather than for data access or custody transfer. This pricing model is only possible when use can be separated from custody and metered at the computation level. Usage-based pricing aligns economic incentives because the data owner captures value from each use without losing custody. Usage-based input pricing demonstrates the commercial model that use without custody enables."
+    },
+    "Output Allocation": {
+      "value": "Shared",
+      "memo": "Confidential compute enables shared output allocation where computation results are distributed to authorized parties while input data custody remains with the owner.",
+      "detail": "Shared output allocation means computation results can be provided to the processor while input data custody remains fully with the data owner. The enclave architecture enables this sharing by separating output access from input custody at the architectural level. Shared outputs without shared inputs is the defining commercial proposition of the use-without-custody architecture. Shared output allocation demonstrates that value can be extracted from data without transferring data custody."
+    },
+    "Derived Value Capture": {
+      "value": "Joint/reciprocal",
+      "memo": "Confidential compute enables joint value capture where both data owner and processor benefit from computation without either party surrendering their respective assets.",
+      "detail": "Joint/reciprocal value capture means the data owner retains data custody while the processor gains computational outputs. Both parties benefit from the computation without either surrendering their core asset. The data owner captures value through usage fees while the processor captures value through computation results. Joint value capture is the commercial model that makes use without custody economically attractive for both parties."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Allocated",
+      "memo": "Confidential compute enables explicit risk allocation where the enclave architecture creates clear boundaries determining who bears responsibility for data protection.",
+      "detail": "Allocated risk means the enclave architecture creates precise, verifiable boundaries that determine custody and processing responsibility. The data owner retains custody risk while the processor bears computation quality risk, with the enclave enforcing the boundary. This architectural risk separation is more precise than contractual risk allocation because the boundary is hardware-enforced. Allocated risk through confidential compute demonstrates that architectural custody separation enables clearer liability determination."
+    },
+    "Capital": {
+      "value": "Project",
+      "memo": "Confidential compute requires project-level capital investment in enclave infrastructure, attestation systems, and integration engineering for custody separation capability.",
+      "detail": "Project capital means the confidential compute infrastructure requires dedicated investment in hardware, attestation systems, and application integration. This is more than routine operating expenditure but accessible to enterprises serious about privacy-preserving data processing. The project investment creates reusable infrastructure that can serve multiple custody-separated computation use cases. Project-level capital makes confidential compute commercially accessible while providing meaningful custody separation."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "Confidential compute requires multi-year commitment because enclave infrastructure, attestation chains, and integration partnerships take time to establish and mature.",
+      "detail": "Multi-year commitment means the confidential compute infrastructure operates over extended timescales with planned hardware refresh and attestation chain maintenance. Enclave security properties need ongoing verification as hardware vulnerabilities are discovered and mitigated over time. The multi-year tenor reflects that custody separation is an institutional capability requiring sustained investment and governance. Long-term commitment ensures the use-without-custody architecture remains technically sound as threats evolve."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "Confidential compute typically supports product-line revenue by enabling privacy-preserving data processing that creates specific business value through custody-separated computation.",
+      "detail": "Product-line dependency means the confidential compute infrastructure supports specific revenue-generating products or data processing services. The custody separation architecture enables products that could not exist without privacy-preserving computation capabilities. Product-line dependency justifies the investment in enclave infrastructure and operational security. Revenue dependency at product-line level matches the project-capital investment scale typical of confidential compute deployments."
+    },
+    "Switching Cost": {
+      "value": "Data migration cost",
+      "memo": "Confidential compute creates data migration switching costs because re-establishing enclave configurations, attestation chains, and integrations requires significant effort.",
+      "detail": "Data migration cost means switching confidential compute platforms requires re-establishing enclave environments, attestation infrastructure, and application integrations. The custody separation principles are portable but the specific implementation is platform-dependent. The migration cost is meaningful but manageable with planning, making it a real but not captive switching barrier. Data migration cost for confidential compute reflects practical infrastructure investment rather than fundamental architectural lock-in."
+    },
+    "Exit": {
+      "value": "Clean",
+      "memo": "Confidential compute enables clean exit because ephemeral enclave processing means no data persists with the processor after computation terminates.",
+      "detail": "Clean exit means the data owner can terminate the confidential compute arrangement with no residual data remaining with the processor. Ephemeral enclave processing ensures that computation state is destroyed when the enclave terminates. No weight entanglement, derived artifacts, or persistent traces remain after exit because the architecture enforces complete cleanup. Clean exit demonstrates that use without custody provides the strongest possible exit posture of any AI data processing arrangement."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "Confidential compute technology is behind the frontier of general AI capability but advancing steadily as hardware security and enclave technology mature.",
+      "detail": "Behind strategic lead reflects that confidential compute technology is still maturing relative to the frontier of AI capability it aims to protect. Hardware enclave performance overhead, limited model size support, and attestation complexity constrain current deployment scale. The technology is advancing but has not yet achieved parity with unconstrained processing for frontier workloads. Behind status is a realistic assessment that motivates continued investment in confidential compute architecture."
+    },
+    "Race Pressure": {
+      "value": "Low",
+      "memo": "Confidential compute faces low race pressure because the technology develops on privacy and regulatory timelines rather than capability competition dynamics.",
+      "detail": "Low race pressure means confidential compute advances at the pace of hardware security innovation and regulatory demand. There is no existential competitive pressure to deploy before the technology is ready. This lower pressure enables more careful development, testing, and standardization of the custody separation architecture. Low race pressure is an advantage because it allows the technology to mature without the safety shortcuts that race dynamics create."
+    },
+    "Acceptance Basis": {
+      "value": "Process-required",
+      "memo": "Confidential compute validates through cryptographic attestation that computation proceeded correctly without exposing data.",
+      "detail": "The entire value proposition of confidential compute is verifiable process through cryptographic attestation. Clients accept the system because they can verify that data remained encrypted during processing. Process-legitimacy is not an add-on but the product itself. Without demonstrable process integrity, the confidential compute offering has no commercial reason to exist."
+    }
+  }
+}

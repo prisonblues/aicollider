@@ -1,0 +1,362 @@
+{
+  "id": "audit-illusion",
+  "name": "Verification Gap",
+  "desc": "Declared compliance substitutes for technical observability. The arrangement appears governed, but data use and economics remain unverified.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "The gap matters at frontier scale where unverified compliance declarations cover substantial and growing commercial value extraction.",
+      "detail": "Frontier models process data at a scale where unverified claims conceal significant value flows between parties. The gap between declaration and reality is commercially material and grows with model capability. At smaller scales the gap might be harmless or inconsequential to the parties involved. At frontier scale it constitutes a meaningful governance gap with real commercial consequences."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Multi-domain use means the unverified compliance claim covers data processing across contexts that no single auditor can fully inspect.",
+      "detail": "Data flows across multiple domains and use cases without domain-specific verification of compliance with applicable terms. The auditor cannot inspect how data moves between use cases or how processing changes across contexts and applications. Multi-domain breadth makes the verification problem exponentially harder than single-domain compliance checking would be. Each additional domain adds another area where the declarations must substitute for genuine evidence-based verification."
+    },
+    "Capability Trajectory": {
+      "value": "Compressed",
+      "memo": "Compressed development consistently outpaces audit cycles, so compliance declarations are stale before any verification process can actually occur.",
+      "detail": "The system evolves and changes faster than audit processes can keep up with through their standard review cycles. By the time an audit occurs, the system has already changed in ways the audit cannot capture retrospectively. Compressed capability trajectories make point-in-time audits structurally inadequate for governing a continuously evolving system. The audit captures a historic snapshot of a system that has already moved on to different behaviour."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted research changes the system between scheduled audit cycles, making prior compliance declarations unreliable for assessing current state.",
+      "detail": "Research automation means the model improves and changes between scheduled audit review cycles through ongoing development work. Each improvement may alter data handling, model behaviour, or processing patterns in ways the prior audit did not anticipate. The audit certifies a version that no longer exists in production when the certification is actually relied upon. AI-assisted development makes any static compliance declaration inherently unreliable as a description of the current system."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Tool-using capability creates data flows through tool integrations that declared audits do not trace or verify at the technical level.",
+      "detail": "When models call external tools, data moves through channels and pathways the compliance audit does not cover or examine. Tool interactions create new data processing pathways with their own privacy, rights, and governance implications outside audit scope. Declared compliance covers the core model but not the expanding tool chain and its data handling characteristics. The unhobbling extends the system's data processing footprint well beyond the audit's verified reach and documentation."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Many deployed instances mean the declared audit applies to a reference configuration while divergent production configurations may exist elsewhere.",
+      "detail": "The audit covers a reference deployment configuration, not every running instance in the production fleet across all environments. Individual copies may be configured differently, serve different data populations, or operate under different operational parameters in practice. Many-copy deployment makes comprehensive verification of every instance impractical within any reasonable audit budget or timeline. The audit's verified scope is structurally smaller than the deployment's actual operational reality across the fleet."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Machine-speed operation generates more data-processing events between audit cycles than any retrospective audit could possibly verify afterwards.",
+      "detail": "Between scheduled audit cycles, millions of data processing events occur at machine speed across all deployed instances continuously. No retrospective audit methodology can verify each processing event or confirm compliance for the entire inter-audit period comprehensively. The operational speed makes continuous comprehensive verification impossible within any practical audit framework or resource allocation. Declared compliance substitutes for the actual verification that machine-speed operation makes practically and economically infeasible."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Cognitive-only scope means the audit gap concerns information processing governance rather than physical safety compliance verification requirements.",
+      "detail": "The verification gap operates in the information and data processing domain rather than in physical safety or industrial control systems. No physical safety verification, equipment certification, or kinetic risk assessment is at stake in this compliance gap. The cognitive scope means the gap is about data rights, processing terms, and commercial governance rather than bodily harm prevention. This keeps the pattern below the urgency threshold that triggers mandatory physical safety audits with technical verification."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "Tool-level role designation keeps the system below governance thresholds where more rigorous independent technical verification would typically be required.",
+      "detail": "A tool designation suggests bounded use with limited autonomy that needs only basic compliance oversight and standard audit procedures. This framing reduces the perceived need for deep, independent technical audit by stakeholders and regulators who set verification requirements. More autonomous roles such as workflow owners or agents would trigger stricter verification requirements under most governance frameworks. The tool framing helps sustain the appearance of adequate governance by lowering the expected standard of verification."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "Informational actuation means the audit gap affects data governance verification rather than physical action or financial transaction compliance checks.",
+      "detail": "The system produces information, analysis, and recommendations rather than executing binding transactions or physical operations directly. This informational scope shapes what the audit looks for, focusing on output quality and safety rather than training data compliance. Auditors check for harmful outputs and content policy violations rather than verifying the rights status of underlying training data. The actuation level determines both what the audit examines and what it systematically misses in its scope."
+    },
+    "Autonomy": {
+      "value": "Human-in-loop",
+      "memo": "Human-in-loop supervision provides visible governance activity that reinforces the appearance of adequate oversight despite the underlying verification gap.",
+      "detail": "Users review and approve individual outputs, creating a visible and documentable impression of active human control over the system. This supervision covers output quality and appropriateness for each interaction but not data governance or training rights compliance. The human-in-loop posture is part of the gap's visible governance surface that auditors cite as evidence of responsible operation. Visible human oversight on one dimension effectively masks the absent oversight on the data governance dimension."
+    },
+    "Delegated Authority": {
+      "value": "Recommend only",
+      "memo": "Recommend-only authority means the system advises without binding commitments, reducing the perceived institutional need for rigorous independent technical audit.",
+      "detail": "Because the system only recommends actions rather than executing them, the consequences of audit failure appear limited and manageable. This framing makes stakeholders, regulators, and governance bodies less demanding about the depth and technical rigour of verification. Recommend-only authority reduces the political and institutional pressure for genuine technical observability of data handling and rights compliance. The low-authority posture makes the appearance of adequate compliance governance more sustainable and harder to challenge."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Gated tool access creates controlled-looking boundaries that audit reports cite as governance evidence without technically verifying their effectiveness.",
+      "detail": "Tool gates look like meaningful governance controls when described in an audit report's findings and recommendations section. The gates restrict which tools are available to the model but do not verify how data actually moves through them during operation. Auditors cite the presence of tool gates as evidence of controlled data handling without testing the effectiveness of the controls. The gates are real architectural features but the verification of their data governance effectiveness is not part of standard audits."
+    },
+    "Response / Intervention Capability": {
+      "value": "Defined escalation",
+      "memo": "Defined escalation procedures appear as governance mechanisms in audit documentation but are never stress-tested against actual data-rights violations.",
+      "detail": "Escalation paths exist in documented procedures for handling data incidents, breaches, and compliance failures during operation. These procedures have not been tested against real data-rights disputes or challenged by actual termination or rights enforcement actions. The existence of a documented escalation plan satisfies the audit's procedural requirements without demonstrating operational effectiveness under stress. Defined escalation procedures are part of the compliance surface that the audit verifies exists without testing whether it works."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Enterprise command means the processor defines its own audit scope, selects the auditor, and controls what the audit process can inspect.",
+      "detail": "The processor commissions the audit, defines its scope and objectives, selects the auditing firm, and determines what systems and data the auditor can access. The auditor examines what the processor permits within the terms of reference that the processor established and approved. Enterprise command over the entire audit process fundamentally limits the audit's independence, objectivity, and ability to discover inconvenient findings. The party being audited effectively controls the audit's boundaries, depth, and access to evidence."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Product-cycle tempo means compliance declarations are refreshed on commercial release schedules, not when actual data governance practices change materially.",
+      "detail": "Compliance certifications and audit refreshes follow product launch and release milestones rather than continuous monitoring of governance changes. Data handling practices, training data composition, and processing methods may change between certification renewal events without triggering review. The product-cycle cadence creates structural gaps between actual system state and the compliance declaration that stakeholders rely on. Declarations become progressively stale between update cycles while the system continues evolving in production."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Product teams decide how much verification investment to make, consistently choosing minimum viable compliance documentation over deep genuine observability.",
+      "detail": "The team shipping the product controls the compliance investment budget, scope, and depth within the overall product development allocation. Deep, independent technical audit is expensive, time-consuming, and may reveal findings that slow product development or deployment timelines. Product teams rationally choose the minimum level of compliance that satisfies external expectations and regulatory requirements without exceeding them. This tradeoff authority produces surface compliance documentation rather than genuine, deep verification of actual data governance practices."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Conditional permission implies specific compliance obligations, but the declared-only audit cannot verify whether those conditions are actually being met.",
+      "detail": "The data licence imposes specific conditions on how data may be used, processed, retained, and handled during the agreement term. The compliance audit claims these conditions are being met based on documentation review and management representations from the processor. No technical mechanism independently verifies the claim at the processing level where conditions actually apply and can be violated. Conditional permission creates specific obligations that the audit purports to verify but does not actually confirm through technical evidence."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Conditional regulation requires demonstrable compliance with specific rules, but declared-only observability substitutes documentation for genuine technical demonstration.",
+      "detail": "Regulators require evidence of compliance with data processing conditions, rights obligations, and handling requirements under applicable law. Declared compliance documents are accepted as evidence by regulators who lack the technical expertise or access to verify them independently. The conditional regulatory posture creates a compliance obligation that requires demonstration, not merely documentation of intent or policy. The verification gap meets the obligation's formal documentary requirements without providing its substantive technical demonstration."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "Licensed data access creates contractual compliance obligations whose fulfilment the audit claims to verify but cannot technically confirm at scale.",
+      "detail": "Data is formally licensed under negotiated agreements with stated terms, conditions, permitted uses, and handling requirements between the parties. The audit reports compliance with these licence terms based on procedural review and management representations from the data processor. No technical mechanism confirms that actual data processing matches the licence scope at the scale and speed of production operations. Licensed availability creates specific contractual obligations that the declared-only audit obscures rather than verifies."
+    },
+    "Provenance": {
+      "value": "Mixed/declared",
+      "memo": "Mixed and declared provenance means the audit relies entirely on the processor's own claims about data origins, composition, and handling practices.",
+      "detail": "Provenance is stated by the processor through internal documentation rather than independently verified through technical data lineage tracking. The audit accepts declared provenance information at face value without independent confirmation through data fingerprinting or lineage tools. Mixed sources from multiple origins make independent verification through technical means significantly more difficult and expensive. The provenance claim is itself part of the unverified declaration that constitutes and sustains the compliance gap."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Hosted-only access architecturally prevents data contributors from independently verifying any audit claims about how their data was processed.",
+      "detail": "The auditor examines what the processor shows in a controlled review environment with processor-managed access to systems and documentation. Data contributors themselves cannot inspect the model, its weights, or its processing logs to verify the audit's conclusions independently. Hosted-only access means all verification depends entirely on the processor's cooperation, transparency, and willingness to provide honest access. Independent verification by the parties most affected by the compliance gap is architecturally impossible under hosted-only arrangements."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "Domestic territory means a single regulatory framework applies, but the audit still cannot technically verify compliance within that framework.",
+      "detail": "Operating in one jurisdiction simplifies the regulatory landscape by applying only one set of compliance requirements and audit standards. The audit addresses one set of rules and one regulator's expectations rather than harmonising across multiple conflicting regimes. Domestic simplicity makes the audit easier to prepare and the gap easier to sustain with fewer contradictory requirements to manage. Fewer jurisdictions mean fewer independent regulators demanding separate verification and creating cross-checking opportunities that might expose gaps."
+    },
+    "Data Subject Exposure": {
+      "value": "Low-identifiability",
+      "memo": "Low-identifiability data avoids triggering privacy-specific audit regimes that would demand deeper and more technically rigorous verification of data handling.",
+      "detail": "Data falls below the identifiability threshold that would trigger mandatory privacy impact assessments and enhanced technical audit requirements. This avoids the stricter, more technically grounded verification that processing of clearly personal data would require under most data protection frameworks. The low-identifiability classification reduces the expected technical depth and rigour of compliance audits for this specific system. Less sensitive data classification justifies less rigorous verification, widening the gap that this pattern exploits."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Commercially confidential data requires real verification of handling practices, but the declared-only audit provides only documentary assurance without technical proof.",
+      "detail": "The data has real commercial value that contractually requires protective handling, access controls, and use restrictions during the licence term. The compliance audit declares that handling meets contractual standards based on policy review rather than technical verification of actual processing. No technical verification confirms that the declared handling practices are actually implemented and enforced in the production environment. Confidential data makes the verification gap commercially consequential because real competitive value is at stake behind the declaration."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Absence of export control classifications reduces the external governmental scrutiny that might independently demand deeper technical compliance verification.",
+      "detail": "No strategic or export control classification triggers government-grade audit requirements, security clearances, or independent technical verification mandates. The system sits below the classification threshold that brings government auditors with independent access authority and technical verification tools. Without control exposure, compliance audit standards remain at commercial enterprise levels rather than escalating to governmental defence standards. Lower external scrutiny standards enable the lighter audit methodology that produces and sustains the compliance gap."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "Training-mode processing makes audit verification hardest because data is absorbed into weights rather than stored in individually inspectable records.",
+      "detail": "Training converts data into weight-level statistical patterns that cannot be individually inspected, traced, or verified by external auditors. An auditor can verify data ingestion logs and documented procedures but not what the weights actually contain or how data was processed. Training mode creates the maximum possible gap between declared compliance documentation and technically observable actual compliance state. The processing mode is what makes the audit inherently unable to provide genuine verification of data governance."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Derived outputs cannot be reliably traced back to specific training inputs, making the audit's claims about compliant derivation technically unverifiable.",
+      "detail": "Outputs are derived from the entire training corpus without attribution mechanisms that could support derivation compliance claims. No technical mechanism traces which data contributed to which output or verifies that derivation followed licensed terms and conditions. The audit cannot verify derivation chains because no derivation tracking infrastructure exists at the scale and speed of production inference. Claimed compliance with derivation rules is inherently unverifiable at the technical level where derivation actually occurs."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Weight-entangled persistence means data deletion claims in audit reports cannot be technically verified because learned patterns persist invisibly in weights.",
+      "detail": "The audit may report compliance with data deletion obligations through evidence of source file removal from storage systems. Weight-entangled persistence means deletion of source files does not delete the learned statistical patterns that persist in model parameters. The retention is technical and invisible to document-level audit methods that verify file existence rather than model composition. Declared deletion compliance is the clearest and most consequential expression of how the verification gap operates in practice."
+    },
+    "Execution / Residency Environment": {
+      "value": "Controlled",
+      "memo": "A controlled execution environment creates the appearance of governed data handling that audit reports cite as evidence without technically verifying processing compliance.",
+      "detail": "The execution environment has documented access controls, security policies, and activity logging that look like robust data governance infrastructure. The audit cites these environmental controls as evidence that data handling complies with contractual and regulatory requirements within the boundary. Controlled environments demonstrably govern access to the system but do not govern or verify what data processing occurs within the controlled perimeter. The environment is genuinely governed at the access level; the data use within it may not be compliant."
+    },
+    "Boundary": {
+      "value": "Dedicated tenant",
+      "memo": "Dedicated tenancy appears as strong boundary isolation in audit reports but does not verify that data processing within the boundary complies with terms.",
+      "detail": "The deployment runs in its own dedicated tenant with architectural isolation from other customers and workloads on shared infrastructure. The audit cites tenant isolation as a meaningful governance control that protects data handling integrity within the boundary. Isolation prevents cross-tenant data leakage and comingling but does not prevent non-compliant processing within the tenant's own boundary. The boundary is architecturally real but the compliance claim about processing inside it extends well beyond what isolation alone can guarantee."
+    },
+    "Deployment Surface": {
+      "value": "Internal/embedded",
+      "memo": "Internal deployment limits the visible external user surface, which reduces external stakeholder pressure for independent and technically rigorous verification.",
+      "detail": "The system serves internal users or is embedded in internal products and workflows without direct external customer exposure or visibility. Internal deployment reduces external visibility, media scrutiny, and the number of stakeholders who might demand independent audit verification. Fewer external stakeholders with access or awareness means fewer parties applying political pressure for genuine technical verification of compliance. The deployment surface reduces the institutional and commercial pressure for the kind of rigorous verification that would expose the gap."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Commercial cloud infrastructure provides standard security certifications that audit reports cite as data governance evidence despite covering different concerns.",
+      "detail": "Cloud providers maintain SOC 2, ISO 27001, and other security certifications that demonstrate infrastructure-level security controls and operational practices. The compliance audit references these infrastructure certifications as part of the overall data governance evidence supporting the compliance claim. Cloud security certifications address infrastructure security, availability, and access control rather than application-level data-rights compliance or training governance. The infrastructure certifications are real and meaningful but address fundamentally different concerns from training data compliance."
+    },
+    "Model Sourcing": {
+      "value": "Single-provider",
+      "memo": "Single-provider sourcing means one entity's compliance declarations cover the entire model without any independent cross-verification from other parties.",
+      "detail": "One provider makes all compliance claims about the model's data handling, rights compliance, and governance practices without external validation. No second party, consortium member, or independent monitor independently verifies or challenges the compliance declarations that are made. The single-provider structure concentrates both the declaration authority and the commercial interest in maintaining the declaration's credibility. Self-certification by the sole beneficiary is inherently and structurally conflicted regardless of the individuals' good intentions."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Committed compute creates continuous ongoing processing that the initial point-in-time audit does not continuously monitor, track, or reverify.",
+      "detail": "Compute commitments mean the system runs continuously processing data between scheduled audit events without ongoing verification or monitoring. No continuous compliance monitoring system bridges the gap between periodic scheduled audit cycles for the processing that occurs continuously. Committed capacity creates sustained data processing activity over months or years that a periodic audit cannot comprehensively verify after the fact. The audit was a point-in-time exercise for a system that operates continuously between verification events."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Preferred cloud partnership creates bilateral commercial interests that discourage either party from demanding or conducting deeper independent technical audit.",
+      "detail": "The cloud provider and the processor are commercial partners with aligned financial interests in the relationship's continuation and commercial success. Neither party benefits commercially from exposing compliance gaps that might disrupt the partnership or create reputational risk for either side. The preferred partnership creates aligned bilateral incentives against rigorous independent verification that might produce uncomfortable or disruptive findings. Bilateral commercial interests and mutual dependency sustain the pattern by removing the adversarial dynamic that makes independent audit effective."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Market-level supply access means no strategic stakeholder demands the enhanced verification standards that strategic or government-controlled infrastructure would require.",
+      "detail": "The system operates on commercially available infrastructure procured through standard market transactions without strategic classification. No government agency, strategic oversight body, or national security stakeholder imposes enhanced audit requirements or verification standards on the system. Market access avoids the level of scrutiny that strategically controlled infrastructure would attract from government auditors with independent access authority. The supply arrangement does not trigger the enhanced verification that would be required for strategically significant or government-classified infrastructure."
+    },
+    "Substitutability": {
+      "value": "Expensive switch",
+      "memo": "Expensive switching means data contributors accept declared compliance because challenging it risks losing model access that they now commercially depend on.",
+      "detail": "Data contributors who question the adequacy of compliance verification risk having their licence not renewed or their access restricted by the processor. The switching cost and commercial dependency make data contributors reluctant to push for deeper, more rigorous verification of the processor's claims. Expensive substitution creates a power dynamic where the cost of demanding real audit exceeds the perceived commercial benefit of obtaining it."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "API distribution mediates all external access through a controlled interface layer while hiding the data-processing reality that the audit describes but cannot verify.",
+      "detail": "Users and data contributors interact through APIs that reveal nothing about internal data handling, processing methods, or compliance status. The audit describes the interface-level controls, access management, and documented procedures visible through the API's managed surface layer. Behind the API, actual data processing may not match the declared compliance that the audit report describes and the interface projects. The distribution channel creates a controlled surface that systematically masks what happens at the processing level beneath it."
+    },
+    "Observability": {
+      "value": "Declared",
+      "memo": "Declared observability is the defining characteristic: compliance is stated through documentation rather than technically demonstrated or independently verified by third parties.",
+      "detail": "The processor declares its compliance posture through policy documents, management representations, and procedural documentation provided to auditors. No independent technical mechanism verifies the declaration through data lineage tracking, processing monitoring, or weight-level composition analysis. Declared observability is the minimum governance level that creates the surface appearance of adequate oversight and responsible data management. The gap between what is declared in documents and what is technically observable in production is the verification gap itself."
+    },
+    "Evaluation": {
+      "value": "Benchmarked",
+      "memo": "Benchmarked evaluation tests model capability and performance, not data-rights compliance, but audit reports cite benchmark results as governance evidence.",
+      "detail": "Benchmark results demonstrate model performance, accuracy, and capability across standard evaluation tasks and comparison frameworks. They do not evaluate data governance practices, rights compliance, or whether processing followed the terms of data licences. Audit reports include benchmark data as evidence of a well-managed, high-quality system that operates with appropriate rigour and discipline. The evaluation addresses capability and performance questions but is presented as evidence for governance questions it does not answer."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "Behavioural evidence shows what the model outputs in testing but cannot verify what data it was trained on or how that data was actually handled.",
+      "detail": "Behavioural testing examines model outputs and response patterns through structured evaluation protocols and test suites. It cannot reverse-engineer data provenance, processing compliance, or whether training followed the specific terms of applicable data licences. The audit cites behavioural evidence as data governance assurance because it demonstrates competent system management to a non-technical reader. Behaviour tells you about deployed capability and output quality, but nothing about the rights compliance of the underlying training process."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Human review of outputs creates visible, documentable governance activity that audit reports cite without assessing whether underlying data use was compliant.",
+      "detail": "Human reviewers check model outputs for quality, safety, and appropriateness, creating a visible and documentable oversight process for audit purposes. This visible review process appears prominently in audit documentation as evidence of responsible, governed AI operation with active human oversight. Human review addresses output quality and safety risk rather than training data governance, rights compliance, or data handling verification. The alignment method provides governnance theatre that the audit report presents as substantive evidence of comprehensive compliance."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Enterprise-grade security certifications satisfy standard audit requirements for infrastructure protection without verifying application-level data-rights compliance practices.",
+      "detail": "The system meets enterprise security standards with formal certifications, documented controls, and regular penetration testing against standard frameworks. Auditors verify these security controls against recognised frameworks and report compliance with infrastructure security requirements. Security certifications address infrastructure protection, access control, and data confidentiality rather than training data governance or rights compliance. Enterprise-grade security is real and valuable but covers a fundamentally different concern from the data governance question."
+    },
+    "Adversary Model": {
+      "value": "Casual misuse",
+      "memo": "Casual-misuse threat modelling addresses external risks to end users while the internal data governance compliance gap goes entirely unmodelled and unaudited.",
+      "detail": "The threat model covers user-side misuse scenarios including prompt injection, jailbreaking, and generation of harmful content by malicious users. Internal data governance gaps, rights compliance gaps, and training data handling violations are not modelled as threats or risks in the security framework. The adversary model looks exclusively outward at external user threats while the verification gap operates inward at the data governance level. This framing keeps the audit focused on externally visible risk surfaces while missing the internal compliance gap entirely."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Monitored weight security tracks access patterns and potential exfiltration but not whether the weights themselves comply with applicable data-rights obligations.",
+      "detail": "Weight access is logged, monitored, and alerted on for unauthorised access attempts and unusual exfiltration patterns by the security team. The monitoring detects security threats to the processor's intellectual property in the weights, not rights-compliance characteristics of the weights themselves. It does not assess, report, or flag whether the weights contain data processed in compliance with applicable licences and contractual terms. Monitoring scope addresses weight security threats comprehensively but is entirely blind to weight composition compliance questions."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "Role-based access controls appear in audit reports as governance mechanisms governing system access without verifying data-level compliance within those access boundaries.",
+      "detail": "RBAC restricts who can access the system at various permission levels and what operations they can perform within those defined roles. The audit documents these role-based controls as evidence of governance and controlled access to the AI system and its data. Access controls govern user permissions and operational authority but not the data processing legality or rights compliance within the access boundary."
+    },
+    "Monitoring Scope": {
+      "value": "Prompts and outputs",
+      "memo": "Prompt-and-output monitoring creates audit-ready evidence for usage patterns but entirely misses the training-data compliance layer where the verification gap operates.",
+      "detail": "Monitoring captures what users ask the model and what the model returns in response, creating detailed interaction logs for review and analysis. This creates a comprehensive record for safety compliance, usage analysis, and quality monitoring of the deployed production system. No monitoring addresses training data handling, rights compliance, processing governance, or whether data use followed applicable contractual terms during training. The monitoring scope covers the user interaction layer comprehensively but is architecturally blind to the training governance layer."
+    },
+    "Containment": {
+      "value": "Policy-only",
+      "memo": "Policy-only containment relies on documented written rules that the audit verifies exist in documentation but does not verify are technically enforced.",
+      "detail": "Containment is defined by policy documents, acceptable use guidelines, and procedural manuals rather than by technical enforcement mechanisms in code. The audit checks that policies exist, are documented, are version-controlled, and have been communicated to relevant personnel through training. No verification confirms that the documented policies are actually implemented as technical controls and enforced in the production system consistently. Policy-only containment is governance-by-document where the document's existence is verified but its technical implementation is assumed."
+    },
+    "Capability Limitation": {
+      "value": "Policy filters",
+      "memo": "Policy filters appear as active governance controls in audit reports without addressing whether the underlying training data use was compliant with licence terms.",
+      "detail": "Content filters and policy layers restrict certain categories of model output, creating visible and testable governance controls at the interface layer. The audit documents these filters as evidence of responsible risk management and active governance of the deployed AI system's behaviour. Filters address output safety risk effectively but are entirely irrelevant to the question of whether training data input was handled compliantly. The capability limitation is real and valuable for output safety but provides zero evidence for data governance compliance."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Civilian use classification subjects the system to commercial audit standards rather than the deeper independent verification that regulated or strategic use would demand.",
+      "detail": "The system is classified as a civilian commercial product subject to standard commercial audit frameworks and voluntary industry practices. Commercial audit standards are significantly less rigorous, technically demanding, and independently resourced than military or safety-critical verification standards. Civilian classification avoids the verification depth, independent access authority, and technical rigour that other use classes would demand from auditors. The classification enables the lighter, less technically demanding audit methodology that produces and sustains the compliance gap."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Information-channel harm means the audit gap affects data governance and commercial risk rather than physical safety, substantially reducing institutional verification urgency.",
+      "detail": "The potential harms flow through information channels including competitive displacement and rights erosion rather than kinetic or physical channels. Information-level harm generates significantly less institutional urgency and regulatory attention than physical safety risks with potential for bodily injury. The audit gap is treated as a commercial compliance matter rather than a safety matter requiring immediate technical investigation and remediation. Lower perceived urgency translates directly into less institutional pressure for the genuine, expensive technical verification that would expose the gap."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "Licensed diffusion means models spread under commercial terms that reference the unverified audit report as authoritative evidence of training data compliance.",
+      "detail": "The model is distributed to customers and partners under commercial licences that cite the compliance audit as evidence of responsible data governance. Downstream licensees and users rely on the audit's published conclusions without conducting independent verification of the underlying claims. Licensed diffusion propagates the unverified compliance claim through the commercial supply chain, multiplying its reach and the reliance placed on it. Each licensee inherits and further propagates the unverified compliance declaration to their own customers and stakeholders."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Accretive data value means the unverified compliance declaration covers an increasingly valuable and commercially significant data asset as the model improves.",
+      "detail": "Each training iteration and model improvement makes the underlying training data more commercially valuable as the model's capability and market reach grow. The compliance claim covers a growing asset base whose commercial significance increases with each improvement cycle and capability upgrade. Accretive value dynamics mean the commercial stakes of the verification gap increase progressively over time as value compounds. The gap covers more commercial value with each improvement cycle, making eventual exposure increasingly consequential for all parties."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Fixed input pricing was negotiated based on declared compliance assumptions that neither party has the technical capability to independently verify.",
+      "detail": "The data licence fee was set based on claimed and documented data handling practices presented during commercial negotiations between the parties. Neither party independently verified these practices through technical means at the time of agreement or subsequently during the licence term. Fixed pricing locks in commercial terms based on unverified compliance assumptions that may not reflect actual processing reality in production. The price does not adjust retrospectively if the declared compliance ultimately turns out to be illusory or inaccurate."
+    },
+    "Output Allocation": {
+      "value": "Unallocated",
+      "memo": "Output value remains unallocated because the audit cannot determine what specific data contributed to which outputs or measure their respective value.",
+      "detail": "No technical mechanism traces output value to specific data contributions with the precision needed for fair allocation between parties. The audit cannot allocate output value to individual data sources because it cannot trace the derivation chain from training input to commercial output. Unallocated output value is the direct commercial consequence of the verification gap that this pattern creates and sustains."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "The processor captures all derived value while the declared-only audit cannot verify whether the underlying derivation actually complied with applicable licence terms.",
+      "detail": "Derived products, applications, fine-tuned models, and downstream commercial ecosystems generate substantial ongoing value for the processor. The compliance audit cannot verify that the derivation process followed licence terms because no derivation tracking infrastructure exists at production scale. Processor capture of derived value proceeds unchecked because genuine verification of derivation compliance is absent from the audit framework. The derived value flows entirely to the processor regardless of whether actual processing matched the declared compliance posture."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "Risk is disclaimed through terms referencing the audit as governance evidence, transferring liability based on a compliance verification that did not actually verify.",
+      "detail": "Terms of service and commercial contracts reference the compliance audit as evidence of responsible data handling and governance practices. This documentation shifts liability to downstream users and data contributors who relied on the audit's published conclusions in good faith. Risk is disclaimed by pointing to a verification process that did not actually verify compliance at the technical level where it matters. The disclaimer rests on and derives its apparent legitimacy from the appearance of adequate verification."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "Operating-budget treatment means no capital-structure governance or investor due diligence demands the deeper independent verification that project finance would require.",
+      "detail": "The system runs as an operating expense without project-level governance, capital-market scrutiny, or structured financing requirements attached. Capital-market due diligence for project finance or securitisation would typically demand independent, technically rigorous verification of key compliance claims. Operating-budget framing avoids the external due diligence requirements and investor scrutiny that more structured capital arrangements would naturally impose. The capital structure enables and sustains the lighter audit standard that produces the compliance gap."
+    },
+    "Commitment Tenor": {
+      "value": "Annual",
+      "memo": "Annual renewal cycles mean compliance is declared once per year while continuous data processing occurs between review events without ongoing verification.",
+      "detail": "The compliance audit occurs annually as part of licence renewal, regulatory reporting, or standard governance calendar activities on a fixed schedule. Twelve months of continuous data processing at machine speed occur between scheduled audit events without any compliance monitoring or verification. No continuous monitoring system, real-time compliance tracking, or automated verification bridges the gap between annual audit events effectively. Annual cadence makes the audit inherently retrospective, incomplete, and structurally unable to govern continuous production processing."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "Product-line revenue dependency creates institutional reluctance to invest in deeper audit verification that might reveal compliance problems requiring expensive remediation.",
+      "detail": "AI products generate significant and growing revenue that is strategically important to the processor's commercial performance and market valuation. Deeper, more technically rigorous audit verification might reveal uncomfortable findings that require expensive remediation, retraining, or commercial renegotiation. Revenue dependency creates strong institutional incentives to keep the audit at the declared, documentary level rather than pushing for technical verification. The commercial stakes of potential audit findings discourage investment in the genuine verification that might uncover them."
+    },
+    "Switching Cost": {
+      "value": "Contractual friction",
+      "memo": "Contractual friction makes it commercially costly for data contributors to demand deeper verification or switch to providers who offer genuine technical audit.",
+      "detail": "Challenging the adequacy of the compliance audit means renegotiating contracts, potentially losing access to the model, and bearing substantial legal costs. Contractual friction and commercial dependency discourage data contributors from pushing for real, technically grounded verification of compliance claims. The cost of demanding better, more rigorous audit exceeds the perceived commercial benefit of obtaining it for most data contributors. Friction sustains the status quo of declared compliance by making the alternative commercially impractical for the weaker contracting party."
+    },
+    "Exit": {
+      "value": "Derived artifacts survive",
+      "memo": "Derived artifacts survive any exit because the audit cannot account for what derivative works were created during the period of unverified compliance.",
+      "detail": "If the commercial relationship ends, all derivative works, models, and data artifacts created during the unverified compliance period persist. The audit cannot retrospectively account for what was derived because it never verified the derivation process or tracked derivative creation during the term. Surviving artifacts mean the exit cannot be clean because an unverified and undocumented legacy of derived works persists beyond the relationship. The compliance gap leaves a permanent, unquantifiable legacy of artifacts whose compliance status is forever uncertain."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "Allied supply jurisdiction means enforcement would occur in cooperative legal systems that function well but still lack the technical capacity for weight-level audit.",
+      "detail": "The processor operates in a jurisdiction with strong legal institutions, independent courts, and reliable commercial enforcement mechanisms for contract disputes. Courts in allied jurisdictions could order deeper verification but currently lack the technical expertise, tools, and trained personnel to conduct it. Allied jurisdiction provides robust legal process and institutional credibility for enforcement but no technical audit infrastructure for AI compliance. The gap between legal enforcement authority and technical audit capability sustains the pattern even in the strongest legal systems."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "Application-only integration means the audit focuses narrowly on the application layer without examining the underlying model composition or infrastructure-level compliance.",
+      "detail": "The compliance audit examines the application, its user interface controls, and its documented governance procedures at the application layer only. It does not reach into model composition, training data handling, weight-level data governance, or infrastructure-level processing compliance beneath. Application-level audit structurally misses the deeper layers where data governance compliance actually matters most and violations would occur. Vertical scope limitation to the application layer is a fundamental part of the audit's structural weakness and inability to verify."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Single-firm operation means the compliance declaration comes from the same entity that commercially benefits from keeping verification at the minimum declared level.",
+      "detail": "The processor self-declares compliance without external consortium oversight, independent monitoring, or multi-party verification of its claims. No independent external body validates, cross-checks, or challenges the compliance claims with technical evidence or independent access to systems. The single-firm structure means the compliance declaration and the commercial interest in maintaining it are concentrated in one conflicted entity. Self-certification by the sole commercial beneficiary is inherently conflicted regardless of the good faith of the individuals involved."
+    },
+    "Nonproliferation Regime": {
+      "value": "Norms",
+      "memo": "Norms-based governance relies on voluntary commitments and aspirational standards that the audit report cites without independent enforcement or technical verification.",
+      "detail": "Industry norms and voluntary frameworks call for responsible AI practices, ethical data handling, and transparent governance as aspirational commitments. The audit report cites adherence to these voluntary norms and frameworks as evidence of responsible operation and good governance intent. No enforcement mechanism validates the citation, tests actual compliance, or penalises non-adherence to the voluntary normative commitments. Norms-based governance produces norm-level verification: aspirational, procedural, documented, and fundamentally unverified at the technical level."
+    },
+    "Strategic Lead": {
+      "value": "Neck-and-neck",
+      "memo": "Competitive pressure discourages unilateral investment in deeper audit because rigorous verification might slow development relative to less scrupulous competitors.",
+      "detail": "Competing labs and AI companies face the same compliance verification challenges and the same market pressure to ship quickly without delay. None has a commercial incentive to invest in deeper audit unilaterally because the cost falls on one party while competitors benefit from cheaper compliance. The competitive dynamic creates a race to the bottom in verification rigour where minimum viable compliance becomes the industry standard."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Competitive race pressure means every resource invested in genuine technical audit is a resource diverted from capability advancement and competitive positioning.",
+      "detail": "Deep technical verification competes directly for engineering resources, budget, and management attention with capability development and competitive improvement. In a competitive race between frontier labs, capability investment wins the resource allocation decision every time it conflicts with compliance verification. The structural trade-off between audit depth and development speed consistently and predictably favours speed over genuine compliance verification. Race pressure systematically underfunds genuine technical verification across the entire competitive frontier AI industry."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Merchant GPU dependency means audit verification competes with training priorities for the same scarce and expensive accelerator compute capacity resources.",
+      "detail": "Any technical verification of training data compliance would require compute resources from the same scarce GPU pool used for model training. Audit-grade verification at scale would consume expensive accelerator capacity that the processor needs for competitive capability development activities. The scarcity and cost of merchant GPUs make comprehensive technical audit prohibitively expensive relative to the declared-compliance alternative that costs almost nothing. The accelerator bottleneck makes genuine technical audit economically irrational compared to the cheap alternative of declared compliance."
+    },
+    "Acceptance Basis": {
+      "value": "Process-required",
+      "memo": "Audit rights create a process-legitimacy expectation, but no technical observability exists to fulfil it.",
+      "detail": "This stance exemplifies the supply-demand gap in assurance. The deployment context demands process-legitimacy through contractual audit rights and compliance frameworks. However, the technical infrastructure cannot supply meaningful observability into model behaviour. The result is a legitimacy mismatch where formal process exists on paper but delivers no substantive assurance."
+    }
+  }
+}

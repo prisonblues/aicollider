@@ -1,0 +1,367 @@
+{
+  "id": "openai-msft",
+  "name": "OpenAI / Microsoft",
+  "desc": "A structural partnership moving from captive exclusivity toward preferred-partner optionality, while the compute dependency, revenue-sharing, and distribution ties create mutual lock-in that neither side can cleanly unwind.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "The partnership produces and distributes frontier-class models that define the leading edge of commercial AI capability.",
+      "detail": "OpenAI operates at the frontier of model capability with GPT-series and successor models. Microsoft distributes this frontier capability through Azure, Office, and enterprise channels. The partnership's competitive position depends on maintaining frontier-class output. Capability leadership drives the strategic value of the relationship for both parties."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "OpenAI's general-purpose foundation models serve every domain through Microsoft's enterprise and consumer distribution channels.",
+      "detail": "GPT-series models are domain-agnostic, applicable to code, text, analysis, and reasoning across sectors. Microsoft embeds this general capability into Office, Azure, GitHub, and Bing. General breadth maximizes the addressable market for the partnership. No domain restriction limits the commercial scope of the combined offering."
+    },
+    "Capability Trajectory": {
+      "value": "Compressed",
+      "memo": "OpenAI's rapid model releases and Microsoft's distribution speed compress capability improvement cycles to months rather than years.",
+      "detail": "New model generations and capability improvements ship multiple times per year. The partnership's combined resources accelerate both research and deployment timelines. Compressed trajectory creates competitive pressure on rivals and governance frameworks simultaneously. The pace reflects both competitive urgency and mutual commercial incentive."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "OpenAI uses its own models to accelerate research, creating a human-machine improvement loop within the lab.",
+      "detail": "Frontier models assist with code generation, experiment design, and evaluation within OpenAI's research process. This creates a feedback loop where model capability accelerates the next generation's development. The automation remains human-directed in research strategy and evaluation. AI-assisted research is a competitive advantage enabled by frontier model access."
+    },
+    "Unhobbling": {
+      "value": "Agentic",
+      "memo": "The partnership is moving toward agentic AI with autonomous task completion, tool use, and multi-step workflow execution.",
+      "detail": "OpenAI's product direction increasingly emphasizes autonomous agents that complete tasks independently. Microsoft's Copilot platform provides the enterprise context for agentic deployment. Agentic capability represents a category change from assistance to delegated work. The unhobbling trajectory is a core strategic bet for both companies."
+    },
+    "Replication Scale": {
+      "value": "Population-scale",
+      "memo": "Microsoft's distribution through Office, Azure, and consumer products creates population-scale model deployment across billions of users.",
+      "detail": "Microsoft 365 serves hundreds of millions of enterprise users, each potentially accessing AI features. Azure provides model access to thousands of enterprise customers and ISVs. Consumer products like Bing and Copilot add hundreds of millions more. Population-scale replication is the distribution advantage Microsoft brings to the partnership."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Cloud-served models compress knowledge-work cycles from hours to seconds across enterprise and developer workflows.",
+      "detail": "Code generation, document drafting, and data analysis complete in seconds via API or Copilot. This faster-than-human speed transforms productivity economics for enterprises. Batch processing and multi-agent workflows compound the speed advantage. The operating speed drives the ROI case for enterprise AI adoption."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "The partnership focuses on cognitive AI through text, code, and analysis rather than physical-world actuation or robotics.",
+      "detail": "OpenAI's product line is entirely cognitive: language, code, vision, and reasoning models. Microsoft's AI deployment is similarly focused on knowledge-work productivity. No physical-world actuation or robotics capability is part of the core partnership. Cognitive-only positioning keeps the partnership in the highest-margin, lowest-complexity AI segment."
+    },
+    "Role": {
+      "value": "Agent",
+      "memo": "The partnership positions AI as an agent that can autonomously complete delegated tasks across enterprise workflows.",
+      "detail": "OpenAI's agent-focused products and Microsoft Copilot's task-completion features push toward full agent role. The agent positioning represents the most ambitious role assignment in commercial AI. Autonomous task completion changes the liability and governance requirements fundamentally. The agent role is a strategic bet on enterprise willingness to delegate work."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "OpenAI models connected through Microsoft's enterprise platform execute consequential digital actions across documents, code, and systems.",
+      "detail": "Copilot can modify documents, send emails, update databases, and execute code within enterprise systems. These digital actions cross the threshold from advice to consequential system changes. The actuation channel leverages Microsoft's deep enterprise-system integration. Digital action through the enterprise platform is the primary value proposition."
+    },
+    "Autonomy": {
+      "value": "Human-on-loop",
+      "memo": "Enterprise agents operate with human-on-loop supervision, executing tasks while humans monitor outputs periodically.",
+      "detail": "Copilot-style agents complete multi-step tasks with periodic human review rather than per-step approval. This supervisory model balances productivity gains with oversight requirements. The human-on-loop posture is a commercial compromise between user convenience and control. Enterprise customers increasingly accept supervisory rather than approval-based oversight."
+    },
+    "Delegated Authority": {
+      "value": "Limited mandate",
+      "memo": "Enterprise AI agents receive limited mandates to act within defined scopes, spending budgets, and system boundaries.",
+      "detail": "Copilot agents can modify files, send communications, and update records within enterprise-defined boundaries. The limited mandate allows useful automation without unbounded authority. Boundary definition is a deployment configuration rather than a model capability. Limited-mandate delegation is the current ceiling for enterprise comfort with AI autonomy."
+    },
+    "Tool Access": {
+      "value": "Broad toolchain",
+      "memo": "The Microsoft platform connects OpenAI models to a broad toolchain spanning Office, Azure, GitHub, and third-party integrations.",
+      "detail": "Enterprise deployment connects AI to email, calendars, documents, databases, code repositories, and CRM systems. This broad toolchain creates the richest action environment for any commercial AI platform. Tool access is gated by enterprise permissions but the total scope is extensive. The broad toolchain is Microsoft's primary differentiator in the partnership."
+    },
+    "Response / Intervention Capability": {
+      "value": "War-room protocol",
+      "memo": "Frontier AI incidents trigger war-room response protocols coordinating OpenAI safety teams and Microsoft enterprise incident management.",
+      "detail": "Both companies maintain escalation procedures for AI safety incidents affecting enterprise customers. Joint response coordination is necessary because incidents can originate in models or in deployment. War-room capability reflects the strategic importance and risk of frontier deployment at scale. The response infrastructure exceeds standard enterprise incident management."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Enterprise customers and corporate leadership hold practical command over AI deployment, with safety teams advisory.",
+      "detail": "Microsoft enterprise customers configure AI deployment within their organizations. OpenAI and Microsoft corporate leadership set product strategy and safety thresholds. Internal safety teams advise but do not hold veto authority over commercial decisions. Enterprise command reflects the commercial nature of the partnership."
+    },
+    "Decision Tempo": {
+      "value": "Crisis tempo",
+      "memo": "Frontier competition compresses partnership and deployment decisions to crisis tempo, with rival releases forcing rapid responses.",
+      "detail": "Competitive releases from Anthropic, Google, and Chinese labs create urgency for rapid response. Product and partnership decisions that would normally take months compress to weeks. This crisis tempo affects safety review timelines and deployment testing depth. The fast decision pace is a structural feature of frontier AI competition."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Product teams make speed-versus-safety tradeoffs under competitive pressure, with safety teams providing input but not veto power.",
+      "detail": "Product leadership at both OpenAI and Microsoft determine release timing and capability deployment. Safety teams conduct evaluations and flag concerns but lack binding authority. The product-team tradeoff authority reflects commercial competitive incentives. The tension between safety review depth and competitive release pressure is structural to frontier AI partnerships."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "OpenAI's data use operates under conditional permission, with training governed by terms of service and licensing agreements.",
+      "detail": "Training data access is conditioned on terms of service, copyright fair-use arguments, and licensing deals. Enterprise customer data processing is governed by strict contractual terms prohibiting training on customer content. The conditional permission framework manages different data sources under different rules. Permission complexity increases as the partnership expands into more data-sensitive domains."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "The partnership navigates conditional regulatory requirements across US, EU, and global markets without a single permissive baseline.",
+      "detail": "EU AI Act compliance requirements apply to model deployment in European markets. US regulatory engagement is voluntary but increasingly substantive. Global deployment means navigating multiple conditional regulatory regimes simultaneously. The multi-jurisdictional posture adds compliance complexity to every product decision."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "OpenAI increasingly relies on licensed data partnerships alongside web-scraped training data with contested provenance.",
+      "detail": "Publisher licensing deals with AP, Axel Springer, and others supplement web-scraped training data. The shift toward licensed data reflects both litigation pressure and quality requirements. Licensed data provides clearer provenance and reduced legal risk than scraping alone. The mixed-source approach creates a transitional data-availability posture."
+    },
+    "Provenance": {
+      "value": "Mixed/declared",
+      "memo": "Training data provenance is mixed: some licensed with clear chains, some scraped with contested or undeclared origins.",
+      "detail": "Licensed data partnerships provide documented provenance for a growing share of training data. Web-scraped data retains uncertain provenance despite system-card declarations. The mixed-declared posture reflects the transitional state of the industry's data practices. Full provenance verification remains aspirational rather than achieved."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "OpenAI models are hosted-only through API access, with no weight transfer even to Microsoft for most deployment scenarios.",
+      "detail": "Enterprise customers access models through API endpoints without receiving or controlling model weights. Even Microsoft's deep partnership does not grant full weight control for all model generations. Hosted-only access maintains OpenAI's intellectual-property position. The weight-access structure is a key governance mechanism for the partnership."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "The partnership operates cross-border, with models trained in the US and served globally through Azure's international infrastructure.",
+      "detail": "Models are trained in US data centers and served through Azure regions worldwide. Cross-border data flows trigger different regulatory obligations in each jurisdiction. The partnership must manage territorial compliance across dozens of countries. Cross-border territory creates regulatory complexity that single-jurisdiction deployment avoids."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "Enterprise deployment processes ordinary personal data in emails, documents, and communications, triggering data-protection obligations.",
+      "detail": "Copilot features access employee emails, documents, and calendar data containing personal information. This personal-data exposure triggers GDPR, UK GDPR, and other privacy obligations. Enterprise-data processing is governed by strict terms prohibiting training on customer data. Personal-data handling is a primary compliance concern for enterprise AI deployment."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Enterprise AI deployment handles commercially confidential information across finance, legal, and strategy workloads.",
+      "detail": "Copilot and Azure AI process trade secrets, financial projections, legal analyses, and strategic plans. This commercially confidential data requires enhanced protection beyond ordinary data handling. Confidentiality obligations flow from enterprise contracts and professional standards. Data sensitivity drives enterprise demand for dedicated tenancy and enhanced security."
+    },
+    "Control Exposure": {
+      "value": "Potentially controlled",
+      "memo": "Frontier model capability creates potential control exposure as model weights and training approach dual-use thresholds.",
+      "detail": "As models approach strategic capability, export-control and dual-use classification questions arise. The partnership's frontier position means it is closest to potential control triggers. Current commercial deployment is below control thresholds but the trajectory points toward them. Potential control exposure is a strategic planning consideration for both companies."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "OpenAI's core activity is large-scale model training, consuming massive compute resources on Microsoft Azure infrastructure.",
+      "detail": "Pre-training and post-training runs are the compute-dominant activities driving the partnership's Azure consumption. Training is the processing mode that creates the frontier capability both companies commercialize. The training-centric mode drives the compute demand that anchors the Azure relationship. Inference at enterprise scale is commercially important but training is the strategic activity."
+    },
+    "Derivation": {
+      "value": "Recursive derivation",
+      "memo": "OpenAI's training loop creates recursive derivation: user interactions generate feedback data that improves the next model generation.",
+      "detail": "RLHF, preference data, and usage patterns flow from deployed models back into training improvement. Reasoning traces and chain-of-thought outputs may be more valuable than final answers. This recursive derivation creates a data flywheel that strengthens competitive position. The derived-data feedback loop is one of OpenAI's most valuable strategic assets."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Training data contributions persist as weight-entangled capability, creating the termination-trap problem for data suppliers.",
+      "detail": "Once data is trained into model weights, specific contributions cannot be extracted or deleted. License termination does not remove the trained capability from existing models. This weight entanglement is the structural basis of the termination-trap stance. The persistence problem is inherent to neural-network training, not a contract design flaw."
+    },
+    "Execution / Residency Environment": {
+      "value": "Public cloud",
+      "memo": "The partnership runs on Azure public cloud, with dedicated capacity for OpenAI training but shared infrastructure for enterprise inference.",
+      "detail": "OpenAI's training runs on dedicated Azure clusters, but enterprise inference uses standard Azure infrastructure. Public cloud execution provides scale and flexibility but shared infrastructure concerns. Data residency is managed through Azure region selection rather than dedicated infrastructure. The public-cloud default reflects the partnership's cloud-native architecture."
+    },
+    "Boundary": {
+      "value": "Dedicated tenant",
+      "memo": "Enterprise customers increasingly demand dedicated tenancy for AI workloads to protect confidential data from cross-tenant exposure.",
+      "detail": "Azure AI Enterprise offers dedicated compute instances for sensitive workloads. Dedicated tenancy addresses enterprise concerns about data proximity in multi-tenant environments. The cost premium for dedicated tenancy is justified by confidentiality and compliance requirements. Dedicated-tenant demand reflects enterprise security expectations for AI deployment."
+    },
+    "Deployment Surface": {
+      "value": "Public-facing",
+      "memo": "The partnership serves both public-facing consumer products and enterprise deployments, creating maximum exposure breadth.",
+      "detail": "ChatGPT serves hundreds of millions of public users without access restrictions. Microsoft Copilot is embedded in enterprise products serving additional hundreds of millions. The combined public-facing surface creates the largest AI exposure in the industry. Broad deployment drives revenue but maximizes the blast radius of safety failures."
+    },
+    "Physical Infrastructure": {
+      "value": "Dedicated cluster",
+      "memo": "OpenAI's training runs on dedicated Azure GPU clusters, representing one of the largest single-customer cloud deployments.",
+      "detail": "Microsoft has committed billions to GPU clusters dedicated to OpenAI's training workloads. These dedicated clusters represent a significant fraction of global frontier GPU capacity. The infrastructure investment creates physical lock-in beyond contractual terms. Dedicated-cluster infrastructure is the tangible anchor of the partnership."
+    },
+    "Model Sourcing": {
+      "value": "Single-provider",
+      "memo": "Microsoft's primary AI model source is OpenAI, creating single-provider dependency despite Microsoft's smaller internal models.",
+      "detail": "Microsoft depends on OpenAI for frontier model capability across its commercial products. Microsoft's Phi-series models provide lightweight alternatives but not frontier substitutes. The single-provider dependency is the partnership's greatest strategic vulnerability for Microsoft. Loosening exclusivity partially addresses this but the primary dependency remains."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "The partnership operates on multi-billion-dollar committed compute capacity agreements anchoring OpenAI to Azure infrastructure.",
+      "detail": "Microsoft has committed over $10 billion in Azure compute capacity for OpenAI workloads. This committed capacity provides OpenAI with guaranteed GPU access for frontier training. The commitment creates mutual financial lock-in extending years into the future. Committed-capacity agreements are the financial foundation of the partnership."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "OpenAI and Microsoft operate as preferred partners, moving from exclusive dependency toward optionality while retaining deep structural ties.",
+      "detail": "The original relationship was effectively exclusive with OpenAI entirely dependent on Azure. Recent restructuring creates opportunities for OpenAI to use other cloud providers. However, the committed capacity, financial investment, and integration depth maintain a preferred-partner dynamic. The dependency is loosening but remains structurally significant."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Frontier training runs predominantly on Nvidia H100 and successor GPUs, creating merchant-silicon dependency within the partnership.",
+      "detail": "Azure's GPU fleet for OpenAI workloads consists primarily of Nvidia accelerators. CUDA dependency locks training workflows to the Nvidia software ecosystem. Microsoft and OpenAI both invest in custom silicon programs as potential alternatives. The current Nvidia dependency is a shared strategic concern for both companies."
+    },
+    "Supply Control": {
+      "value": "Allocation rights",
+      "memo": "Microsoft's scale with Nvidia provides allocation-rights access to scarce frontier GPUs, a key partnership asset for OpenAI.",
+      "detail": "Microsoft's hyperscaler purchasing power secures priority GPU allocation from Nvidia. This allocation-rights position is one of Microsoft's most valuable contributions to the partnership. GPU availability directly determines OpenAI's training timelines and competitive position. Supply access through Microsoft is a structural dependency for OpenAI."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "GPU supply is the binding constraint for the partnership's training ambitions, with demand consistently exceeding available allocation.",
+      "detail": "Frontier training runs require thousands of GPUs for months-long training campaigns. Available GPU supply limits the number of concurrent training experiments and model iterations. The accelerator-supply bottleneck affects competitive position relative to Google's TPU self-supply. Resolving the bottleneck motivates both companies' custom-silicon investments."
+    },
+    "Substitutability": {
+      "value": "Expensive switch",
+      "memo": "Switching the partnership would be expensive for both sides: compute migration for OpenAI, frontier capability for Microsoft.",
+      "detail": "OpenAI faces enormous migration costs to move training workloads to a different cloud provider. Microsoft faces capability gap risk if OpenAI's frontier models become unavailable. Neither switching cost is infinite but both are measured in billions of dollars and years of disruption. The expensive-switch dynamic sustains the partnership despite growing tensions."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "The partnership creates stack integration spanning model training, cloud hosting, enterprise distribution, and consumer products.",
+      "detail": "OpenAI provides model capability; Microsoft provides cloud infrastructure and enterprise distribution. Together they span from training to end-user deployment without controlling chip fabrication. The stack integration provides competitive advantage but creates mutual dependency. Neither company controls the full stack independently."
+    },
+    "Distribution Channel": {
+      "value": "Platform default",
+      "memo": "OpenAI models are the platform default in Microsoft's enterprise and consumer products, embedded throughout the Microsoft ecosystem.",
+      "detail": "Copilot features powered by OpenAI models are becoming default capabilities in Office, Teams, and Windows. This platform-default distribution creates massive usage without requiring separate user decisions. The embedded-default position is one of the most valuable distribution channels in AI. Platform-default status drives adoption at a pace API-only distribution cannot match."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "The partnership's core infrastructure is domestically anchored in US Azure data centers and US-based OpenAI research labs.",
+      "detail": "Training occurs in US data centers with US-based researchers and engineers. Global inference serving extends through Azure's worldwide region network. The domestic anchor provides regulatory simplicity for the core partnership operations. International deployment adds jurisdictional complexity at the distribution layer."
+    },
+    "Observability": {
+      "value": "Declared",
+      "memo": "Partnership governance provides declared observability through system cards, safety reports, and voluntary transparency commitments.",
+      "detail": "OpenAI publishes system cards and safety evaluations for major model releases. Microsoft provides enterprise deployment documentation and compliance attestations. These declarations provide visibility but are not independently verified. Declared observability satisfies current market expectations but may not meet future regulatory requirements."
+    },
+    "Evaluation": {
+      "value": "Red-team tested",
+      "memo": "Frontier model releases undergo red-team testing through internal teams, external contractors, and government-coordinated evaluations.",
+      "detail": "OpenAI conducts internal and external red-team testing for major model releases. Government engagement through AISI and NIST adds external evaluation perspectives. Red-team testing exceeds standard benchmarking but falls short of certified evaluation. The evaluation standard reflects the partnership's frontier position and public scrutiny."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "Model behavior is assessed through extensive testing and behavioral evaluation rather than mechanistic access to internal representations.",
+      "detail": "Red-team testing and benchmark evaluations provide behavioral evidence of model capabilities and limitations. Chain-of-thought outputs provide some reasoning visibility but are not mechanistically faithful. No production deployment uses internal interpretability tools for real-time monitoring. Behavioral evidence is the practical interpretability ceiling for current frontier models."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "The partnership relies on RLHF, constitutional AI, and system prompting as primary alignment methods for deployed models.",
+      "detail": "Reinforcement learning from human feedback remains the core alignment technique. System prompts and instruction tuning provide additional behavioral guardrails. These methods work at current capability levels but face known scaling challenges. Alignment research is active but has not yet produced methods suitable for more capable systems."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Security meets enterprise standards for commercial deployment but may lag defense-grade requirements for strategic model weights.",
+      "detail": "Azure provides enterprise-grade security controls for AI workloads and data protection. OpenAI's internal security has improved but public incidents have highlighted gaps. The enterprise-grade posture is appropriate for current commercial use but may be insufficient as models become strategic assets. Security investment is increasing but trails the pace of capability advancement."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Frontier models attract organized criminal misuse and state-adjacent espionage targeting model weights and training processes.",
+      "detail": "OpenAI has disclosed attempts by state-affiliated actors to use its platforms for influence operations. Model weights represent high-value intelligence targets for multiple state actors. Criminal actors use the platform for fraud, social engineering, and content generation. The adversary model exceeds casual misuse but full state-actor defense is not yet standard."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Frontier model weights are access-monitored within Azure infrastructure but not airgapped or subject to multi-key control.",
+      "detail": "Model weights are stored in Azure environments with access logging and monitoring. Weights are not physically airgapped and travel across Azure infrastructure for deployment. Monitoring detects some unauthorized access but cannot prevent sophisticated exfiltration. The monitored posture reflects commercial deployment priorities over maximum security."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "Enterprise AI deployment uses role-based access control through Azure AD and OpenAI's API management layer.",
+      "detail": "Azure Active Directory provides enterprise-grade RBAC for AI service access. API management layers add usage tracking and rate limiting. The access-control stack is enterprise-standard but not defense-grade. RBAC provides adequate control for commercial use but may be insufficient for strategic weight protection."
+    },
+    "Monitoring Scope": {
+      "value": "Code/tool/network activity",
+      "memo": "Enterprise deployment monitoring covers code execution, tool calls, and network activity across the integrated platform.",
+      "detail": "Microsoft's enterprise security platform monitors AI-related activity across the tool chain. Code execution, API calls, and data flows are logged within the Azure security framework. This monitoring scope exceeds output-only surveillance by capturing the action context. Full cluster telemetry is available for dedicated training infrastructure."
+    },
+    "Containment": {
+      "value": "Policy-only",
+      "memo": "Model behavior containment relies on usage policies, content filtering, and terms of service rather than technical isolation.",
+      "detail": "Content moderation, safety classifiers, and usage policies define behavioral boundaries. No technical sandbox limits model capability beyond policy-based filtering. The policy-only containment is standard for commercial cloud AI services. Technical containment would limit the flexibility and capability that drives commercial adoption."
+    },
+    "Capability Limitation": {
+      "value": "Policy filters",
+      "memo": "Capability restrictions use policy-based output filters that can be circumvented through prompt engineering rather than targeted removal.",
+      "detail": "Safety filters and refusal training restrict specific content categories and use cases. These policy filters operate at the output layer and can be worked around by determined users. No targeted capability restriction removes specific dangerous knowledge from deployed models. The filter-based approach is the commercial standard that balances safety with broad utility."
+    },
+    "Use Class": {
+      "value": "Dual-use",
+      "memo": "Frontier capability creates dual-use classification as models approach capability thresholds relevant to both civilian and defense applications.",
+      "detail": "The same frontier models serve civilian productivity and can enable defense-relevant analysis. OpenAI's policy evolution now explicitly allows certain defense and national-security applications. Microsoft's defense contracts add explicit dual-use deployment pathways. The dual-use classification reflects the reality of frontier capability's strategic relevance."
+    },
+    "Harm Channel": {
+      "value": "Cyber/bio/financial",
+      "memo": "Frontier models create harm potential beyond information, enabling capabilities in cyber offense, biological research assistance, and financial manipulation.",
+      "detail": "Code-generation capability can assist with cyber-attack development and vulnerability discovery. Scientific reasoning capability can accelerate dual-use biological research. Financial analysis capability could enable market manipulation at scale. These harm channels exceed informational risks and create frontier-specific security concerns."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "Capability spreads through licensed API access with terms of service governing downstream use, plus selective model partnerships.",
+      "detail": "API access provides broad capability distribution under commercial licensing terms. Enterprise agreements provide more controlled access with enhanced usage restrictions. The partnership distributes capability widely but maintains commercial and policy-based controls. Licensed diffusion balances commercial reach with governance responsibility."
+    },
+    "Strategic Lead": {
+      "value": "Decisive lead",
+      "memo": "The partnership holds a decisive strategic lead in frontier AI through combined model capability and distribution scale.",
+      "detail": "OpenAI models are at or near the frontier across most capability dimensions. Microsoft's distribution scale provides the broadest commercial deployment of frontier capability. The combined lead in capability and distribution is decisive relative to individual competitors. Maintaining this lead drives the partnership's strategic decision-making."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Competitive pressure from Google, Anthropic, and Chinese labs compresses the partnership's development and deployment timelines.",
+      "detail": "Google's Gemini and Anthropic's Claude provide competitive frontier alternatives. Chinese frontier models are closing the capability gap. This multi-front competition creates pressure to release capabilities faster than safety review might prefer. The competitive race is the primary driver of the partnership's crisis-tempo decision-making."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "The partnership operates as a two-company alliance making commercial decisions, not a national project or coalition coordination.",
+      "detail": "OpenAI and Microsoft make joint strategic decisions through commercial partnership governance. No government, industry coalition, or international body directs the partnership's AI development. The two-company structure provides decision speed but concentrates frontier AI governance in private hands. Government engagement is advisory rather than directive."
+    },
+    "Nonproliferation Regime": {
+      "value": "Norms",
+      "memo": "The partnership operates under voluntary safety norms and commitments rather than an enforced nonproliferation framework.",
+      "detail": "Voluntary safety commitments to the White House and international bodies establish behavioral norms. No binding nonproliferation regime constrains the partnership's capability development or distribution. Export controls provide some hard constraints at the hardware and model-weight transfer layer. The norms-based approach is the lightest governance consistent with the current political environment."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "The partnership's data value is accretive: each model generation builds on prior data, and interaction exhaust fortifies competitive position.",
+      "detail": "Training data compounds in value across model generations. User interaction data from hundreds of millions of users creates a proprietary feedback signal. This accretive dynamic makes the partnership progressively harder to challenge. The data flywheel is one of the most valuable strategic assets in the relationship."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Training data is acquired at fixed prices through licensing deals and web-scraping infrastructure costs, not revenue-sharing terms.",
+      "detail": "Data licensing agreements pay fixed fees regardless of downstream commercial value created. Web-scraping infrastructure has fixed operational costs. This fixed input pricing lets the partnership capture uncapped upside from training investments. The pricing asymmetry may not be sustainable as rights-holder awareness grows."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "Output value is retained by the partnership with no automatic mechanism sharing value with data suppliers or training-data subjects.",
+      "detail": "OpenAI and Microsoft capture the commercial value of trained models and AI-powered products. No contractual mechanism shares output value with data suppliers beyond fixed licensing fees. The retained-output posture maximizes partnership revenue but creates the structural tension driving litigation. Output allocation may shift as regulatory and legal pressure increases."
+    },
+    "Derived Value Capture": {
+      "value": "Revenue share",
+      "memo": "Derived value is shared between OpenAI and Microsoft through revenue-sharing provisions in their partnership agreement.",
+      "detail": "Microsoft receives a share of OpenAI's commercial revenue through their partnership terms. OpenAI benefits from Azure credits and distribution access in return. The revenue-sharing structure aligns incentives while creating mutual dependency. This internal revenue share does not extend to external data suppliers or training-data subjects."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "AI liability is largely disclaimed through terms of service, with no insurance or government backstop for AI-caused harm.",
+      "detail": "Standard API terms disclaim liability for output accuracy and consequential damages. Enterprise agreements provide somewhat stronger protections but still limit liability significantly. No insurance product or government backstop specifically covers frontier AI risks. The disclaimed-risk posture may prove unsustainable as AI is embedded in critical enterprise workflows."
+    },
+    "Capital": {
+      "value": "Strategic build",
+      "memo": "The partnership represents strategic-build capital commitment, with Microsoft investing billions in AI-specific infrastructure and capability.",
+      "detail": "Microsoft's multi-billion-dollar Azure AI investment exceeds normal operating-budget or project-finance scales. The capital commitment reflects a strategic bet that AI will transform Microsoft's business. Infrastructure spending rivals national-project scales in some dimensions. Strategic-build capital creates deep lock-in that operating-budget spending would not."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "Partnership commitments span multi-year horizons with compute, revenue-sharing, and exclusivity provisions extending years ahead.",
+      "detail": "The partnership agreement extends years into the future with financial and operational commitments. Compute reservations, revenue-sharing provisions, and distribution agreements have multi-year terms. Long commitment tenors create stability but reduce flexibility for both parties. The multi-year structure reflects the infrastructure-scale nature of the investment."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "AI is a rapidly growing product line for both companies but has not yet become the core revenue dependency for either.",
+      "detail": "Microsoft's Copilot and Azure AI revenue is growing but remains a fraction of total Microsoft revenue. OpenAI's revenue is entirely AI-derived and growing rapidly toward profitability. For Microsoft, AI is a product-line enhancement; for OpenAI, it is the entire business. The asymmetric revenue dependency shapes partnership power dynamics."
+    },
+    "Switching Cost": {
+      "value": "High",
+      "memo": "Switching costs for either partner are high, measured in billions of dollars, years of disruption, and competitive-position risk.",
+      "detail": "OpenAI would face massive compute-migration costs and capability disruption from changing cloud providers. Microsoft would lose frontier model access and competitive differentiation from changing model partners. Integration depth across products and infrastructure compounds the switching costs. High switching costs sustain the partnership even as tensions grow."
+    },
+    "Exit": {
+      "value": "Transitional",
+      "memo": "Exit from the partnership requires a managed transition, not a clean break, due to intertwined infrastructure, revenue, and distribution.",
+      "detail": "No clean separation is possible given the depth of infrastructure, financial, and product integration. Any exit would require a multi-year transition period to untangle dependencies. Ongoing obligations from revenue-sharing, compute commitments, and customer contracts would persist. Transitional exit is the realistic ceiling; clean exit is not achievable."
+    },
+    "Acceptance Basis": {
+      "value": "Market-validated",
+      "memo": "The OpenAI-Microsoft partnership validates through commercial traction, developer adoption, and enterprise revenue growth.",
+      "detail": "Partnership value is measured by Azure AI revenue, API consumption, and enterprise seat expansion. Developer adoption of the API platform creates a self-reinforcing validation loop. No external process requirement gates deployment beyond voluntary safety commitments. Market traction is the acceptance basis that justifies continued capital commitment."
+    }
+  }
+}

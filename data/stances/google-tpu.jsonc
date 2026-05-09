@@ -1,0 +1,367 @@
+{
+  "id": "google-tpu",
+  "name": "Google TPU",
+  "desc": "Vertical integration through custom silicon: Google designed TPUs to escape Nvidia dependency, control its own training infrastructure, and create a self-supplied compute platform unavailable to competitors.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "Google trains frontier Gemini models on TPU infrastructure, proving custom silicon can match GPU-based frontier training.",
+      "detail": "Gemini and successor models train on TPU v5 and later architectures. Google demonstrates that frontier capability does not require Nvidia hardware. Custom silicon enables training runs optimized for Google's specific model architecture. TPU-trained frontier models validate the vertical-integration strategy."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "TPUs support general-purpose AI across Google's product portfolio from search to cloud to consumer applications.",
+      "detail": "TPU infrastructure powers Google Search, YouTube recommendations, Workspace AI, and Cloud AI. The general-purpose application matches Nvidia's domain breadth on Google's own infrastructure. No domain limitation constrains what can run on TPU clusters. Domain breadth validates TPU as a general replacement for merchant GPUs within Google."
+    },
+    "Capability Trajectory": {
+      "value": "Compute-scaling",
+      "memo": "Google's TPU strategy enables compute scaling on its own terms, removing Nvidia allocation as a bottleneck for training scale.",
+      "detail": "Each TPU generation provides more compute per pod and enables larger training runs. Self-supplied scaling means Google's training capacity is limited by fabrication, not GPU allocation. This compute-scaling trajectory is independent of Nvidia's roadmap and availability. Self-supplied compute scaling is the strategic purpose of the TPU program."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "Google DeepMind uses AI-assisted research methods on TPU infrastructure, with models accelerating architecture and algorithm development.",
+      "detail": "DeepMind researchers use AI tools for experiment design, hyperparameter optimization, and code generation. The AI-assisted loop accelerates research without fully automating it. TPU infrastructure provides the compute substrate for this research acceleration. Human researchers retain direction-setting and evaluation authority."
+    },
+    "Unhobbling": {
+      "value": "Agentic",
+      "memo": "Google deploys agentic AI through Gemini models on TPU infrastructure, pushing toward autonomous task completion in enterprise and consumer products.",
+      "detail": "Gemini-powered agents can browse, write code, manage workflows, and interact with external services. TPU infrastructure provides the inference compute for agentic deployment at Google scale. Agentic capability is the frontier of Google's AI product ambition. The TPU strategy ensures Google does not depend on Nvidia to power its agentic future."
+    },
+    "Replication Scale": {
+      "value": "Population-scale",
+      "memo": "Google serves billions of users through TPU-powered AI in Search, Gmail, YouTube, and Workspace, achieving population-scale replication.",
+      "detail": "Google's core products serve billions of daily users, many now powered by AI inference on TPUs. Population-scale deployment justifies the massive fixed investment in custom silicon. The replication scale creates demand that fills TPU fabrication capacity. Self-supplied infrastructure at population scale is the ultimate validation of the TPU strategy."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "TPU-powered inference delivers faster-than-human response across Google's product suite, matching GPU-based competitors on latency.",
+      "detail": "Search, Workspace, and Cloud AI products serve AI responses in subsecond timeframes. TPU inference optimization provides competitive latency for real-time applications. The operating speed matches GPU-based alternatives, removing speed as a switching argument. Faster-than-human operation validates TPU as a full GPU substitute for inference."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Google's TPU deployment focuses on cognitive AI workloads: language, vision, and reasoning rather than physical-world actuation.",
+      "detail": "TPU infrastructure powers Google's cognitive AI products rather than robotics or physical systems. Google's robotics research exists separately and does not define the TPU strategy. Cognitive-only focus keeps the TPU investment concentrated on the highest-volume workloads. Physical-world extension may come but is not the current strategic priority."
+    },
+    "Role": {
+      "value": "Agent",
+      "memo": "Google positions Gemini as an agent capable of autonomous task completion, powered by TPU inference infrastructure.",
+      "detail": "Gemini agents can browse the web, write and execute code, manage workflows, and interact with services. The agent role represents Google's most ambitious product positioning for AI. TPU infrastructure must support agentic workloads with low latency and high reliability. Agent deployment on self-supplied infrastructure is a competitive differentiator."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Google's AI performs digital actions through Workspace integrations, code execution, and web browsing on TPU-powered infrastructure.",
+      "detail": "Gemini can modify documents, send emails, execute code, and perform web actions. These digital actions cross the threshold from advice to consequential system interaction. TPU infrastructure provides the compute for these action-oriented workloads. Digital actuation through Google's ecosystem leverages both AI capability and platform reach."
+    },
+    "Autonomy": {
+      "value": "Human-on-loop",
+      "memo": "Google's AI products operate with human-on-loop supervision, enabling productivity while maintaining oversight channels.",
+      "detail": "Workspace AI and Gemini agents complete tasks with periodic user review rather than per-step approval. This supervisory model balances productivity benefits with oversight requirements. Human-on-loop is the practical supervision level for enterprise AI deployment. The autonomy level reflects commercial deployment standards across the industry."
+    },
+    "Delegated Authority": {
+      "value": "Limited mandate",
+      "memo": "Google's enterprise AI agents receive limited mandates to act within defined scopes on behalf of enterprise users.",
+      "detail": "Workspace AI can modify documents, schedule meetings, and manage inbox within enterprise permissions. The limited mandate allows useful automation without unbounded authority. Boundary definition follows enterprise IT governance standards. Limited-mandate delegation reflects enterprise customer comfort with AI autonomy."
+    },
+    "Tool Access": {
+      "value": "Broad toolchain",
+      "memo": "Google connects Gemini to a broad toolchain spanning Search, Workspace, Cloud, code execution, and third-party integrations.",
+      "detail": "Google's AI accesses search results, email, documents, calendars, code environments, and external APIs. This broad toolchain leverages Google's platform ecosystem for AI-powered actions. Tool access is gated by user permissions and enterprise policies. The toolchain breadth is a competitive advantage of Google's integrated platform."
+    },
+    "Response / Intervention Capability": {
+      "value": "Kill switch",
+      "memo": "Google can rapidly disable AI features through server-side configuration, providing kill-switch capability for TPU-powered services.",
+      "detail": "Server-side feature flags can disable AI functionality across Google's product suite instantly. TPU infrastructure is fully controlled by Google, enabling immediate intervention at the hardware level. Google's operational maturity provides rapid incident response for production AI. Kill-switch capability at both software and hardware layers exceeds industry standards."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Google corporate leadership commands TPU strategy and AI product direction with enterprise-level authority.",
+      "detail": "Google's leadership determines TPU investment, model development, and product deployment. No external body has binding authority over Google's AI infrastructure decisions. The enterprise command structure enables unified strategy across silicon, models, and products. Alphabet's corporate governance provides the ultimate decision-making authority."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Google's AI development follows product-cycle tempo with regular model releases and infrastructure upgrades.",
+      "detail": "Gemini model releases and TPU generation launches follow planned development schedules. Competitive pressure creates urgency but Google's infrastructure scale allows planned releases. The product-cycle tempo enables quality control across the vertically integrated stack. Google's decision pace balances competitive pressure with product maturity."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Google's product teams and DeepMind leadership make speed-versus-safety tradeoffs for AI capability deployment.",
+      "detail": "Product teams at Google and DeepMind determine what capabilities ship and when. Internal safety teams provide evaluations and recommendations. External engagement through AISI and other bodies is voluntary. Product-team tradeoff authority reflects Google's commercial governance structure."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Google's AI data use operates under conditional permission frameworks spanning copyright, privacy, and platform terms.",
+      "detail": "Training data access is governed by Google's terms of service, licensing agreements, and legal interpretations. User data processing is conditioned on privacy policies and consent mechanisms. The conditional permission framework manages diverse data sources under varied rules. Permission complexity increases with the breadth of Google's data access."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Google navigates conditional regulatory requirements across global markets, complying with jurisdiction-specific AI and privacy rules.",
+      "detail": "EU AI Act, GDPR, and jurisdiction-specific rules create varied compliance obligations. Google's global deployment requires navigating multiple conditional regulatory regimes. The regulatory posture is conditionally compliant rather than uniformly permissive or restrictive. Multi-jurisdictional compliance is a significant operational overhead for Google's AI deployment."
+    },
+    "Data Availability": {
+      "value": "Proprietary owned",
+      "memo": "Google owns or controls vast proprietary data assets from Search, YouTube, Gmail, and Maps that power AI training.",
+      "detail": "Google's products generate enormous proprietary datasets across web content, video, email, and location. This proprietary data ownership provides a training-data advantage unavailable to competitors. First-party data with clear Google-controlled terms reduces licensing and provenance complications. Proprietary data assets are a strategic complement to the TPU infrastructure investment."
+    },
+    "Provenance": {
+      "value": "Mixed/declared",
+      "memo": "Google's training data has mixed provenance: proprietary first-party data with clear chains alongside web-crawled content with contested origins.",
+      "detail": "First-party data from Google products has documented provenance and controlled terms. Web-crawled training data has less certain provenance similar to other frontier labs. Google provides system-card declarations but not fully independent provenance verification. The mixed-declared status reflects the transitional state of industry data practices."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Google's frontier models are hosted-only through API access, with TPU-trained weights remaining under Google's control.",
+      "detail": "Enterprise and developer access to Gemini occurs through API endpoints. Model weights trained on TPU infrastructure remain within Google's data centers. Hosted-only access maintains Google's intellectual-property position over TPU-trained models. The weight-access model is standard across frontier providers."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Google operates cross-border with TPU training in the US and inference served through global Cloud regions.",
+      "detail": "TPU training clusters operate primarily in US data centers. Google Cloud's global region network serves AI inference worldwide. Cross-border deployment creates varied regulatory obligations across jurisdictions. The territorial pattern matches Google's global cloud operations."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "Google's AI products process ordinary personal data from Gmail, Search, and Workspace, triggering privacy obligations globally.",
+      "detail": "AI features in Gmail, Search, and Workspace access personal messages, queries, and documents. This personal-data processing triggers GDPR, CCPA, and other privacy obligations. Google's privacy infrastructure manages personal-data exposure across its product suite. Personal-data handling is a primary compliance concern for Google AI deployment."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Google Cloud AI handles commercially confidential enterprise data alongside consumer personal information.",
+      "detail": "Enterprise customers process trade secrets, financial data, and strategic information through Google Cloud AI. Consumer products handle personal communications and search histories. The combination creates heightened sensitivity requirements across the AI platform. Data sensitivity drives enterprise demand for enhanced security and isolation."
+    },
+    "Control Exposure": {
+      "value": "Potentially controlled",
+      "memo": "Google's frontier AI capability creates potential control exposure as models approach strategic-significance thresholds.",
+      "detail": "Frontier Gemini models may trigger dual-use or export-control considerations. TPU hardware design itself may face future control classification. Current commercial deployment is below active control thresholds. Potential control exposure is a strategic planning consideration for Google's AI program."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "TPU infrastructure's primary strategic value is enabling large-scale training independent of Nvidia GPU supply constraints.",
+      "detail": "Training is the compute-intensive activity that TPU infrastructure was designed to support. Self-supplied training compute eliminates the Nvidia allocation bottleneck for Google's model development. Training on TPUs is the processing mode that validates the vertical-integration strategy. Inference on TPUs provides additional economic benefit but training is the strategic driver."
+    },
+    "Derivation": {
+      "value": "Recursive derivation",
+      "memo": "Google's training loop creates recursive derivation: user interactions across products generate feedback data for model improvement.",
+      "detail": "Search behavior, email interactions, and document editing provide feedback signals for model training. This recursive derivation creates a data flywheel across Google's product portfolio. The derived data from billions of interactions is a competitive advantage specific to Google's scale. Recursive derivation on TPU infrastructure strengthens both the model and the infrastructure investment."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Training data contributions persist as weight-entangled capability in TPU-trained models, creating the same persistence as GPU-trained models.",
+      "detail": "Neural network training on TPUs produces the same weight-entangled persistence as training on GPUs. Data contributions cannot be extracted from trained weights regardless of the hardware used. Weight entanglement is a property of neural-network training, not the accelerator architecture. The persistence problem is hardware-agnostic."
+    },
+    "Execution / Residency Environment": {
+      "value": "Controlled",
+      "memo": "TPU infrastructure runs in Google-controlled data centers with physical and logical security managed by Google's operations teams.",
+      "detail": "Google designs, builds, and operates the data centers housing TPU clusters. Physical and logical security are under Google's direct control rather than delegated to third parties. The controlled execution environment provides security and compliance advantages. Google's operational maturity ensures high reliability for TPU-dependent workloads."
+    },
+    "Boundary": {
+      "value": "Dedicated tenant",
+      "memo": "TPU pods provide dedicated compute boundaries for training, with enterprise cloud customers receiving logical isolation for inference.",
+      "detail": "Large training runs occupy dedicated TPU pod slices with physical compute isolation. Enterprise cloud customers receive logically isolated inference endpoints. Dedicated boundaries for training provide the security required for frontier model development. The boundary model balances security with infrastructure efficiency."
+    },
+    "Deployment Surface": {
+      "value": "Public-facing",
+      "memo": "Google deploys TPU-powered AI across public-facing consumer products serving billions of users globally.",
+      "detail": "Search, Gmail, YouTube, and other public-facing products use TPU-powered AI features. Public-facing deployment creates the largest possible exposure surface for TPU-served AI. The deployment surface drives the volume that justifies TPU infrastructure investment. Public-facing deployment carries the highest reputational and safety stakes."
+    },
+    "Physical Infrastructure": {
+      "value": "Dedicated cluster",
+      "memo": "TPU infrastructure consists of purpose-built dedicated clusters with custom networking, cooling, and power systems.",
+      "detail": "TPU pods are custom-designed compute clusters with proprietary interconnect and power delivery. These dedicated clusters represent physical infrastructure optimized specifically for Google's AI workloads. The infrastructure investment creates a physical moat against cloud-only competitors. Dedicated-cluster infrastructure reflects the capital intensity of the vertical-integration strategy."
+    },
+    "Model Sourcing": {
+      "value": "In-house/orchestrated",
+      "memo": "Google develops frontier models in-house on TPU infrastructure, controlling the entire chain from silicon to trained model.",
+      "detail": "DeepMind and Google research develop Gemini and other models entirely on Google-controlled TPU infrastructure. No external model provider is needed for Google's frontier AI capability. In-house model development on in-house silicon is the purest vertical-integration position. This self-supply eliminates both model and compute dependencies."
+    },
+    "Compute Source": {
+      "value": "Owned/custom",
+      "memo": "Google owns its AI compute through custom-designed TPU silicon, eliminating dependency on merchant GPU suppliers.",
+      "detail": "TPU ASICs are designed by Google and fabricated through dedicated TSMC allocation. Google owns the chip designs and controls architecture decisions independently. Owned compute eliminates the GPU allocation dependency that constrains other frontier labs. Custom silicon ownership is the foundational layer of Google's vertical-integration strategy."
+    },
+    "Cloud Dependency": {
+      "value": "Captive/exclusive",
+      "memo": "TPU infrastructure is captive to Google Cloud, available only through Google's own platform and not portable to other providers.",
+      "detail": "TPUs are exclusively available through Google Cloud and Google's internal infrastructure. External customers must use Google Cloud to access TPU compute. This captive-exclusive position creates cloud lock-in for TPU-dependent workloads. The captivity is intentional: TPU access is a Google Cloud differentiation strategy."
+    },
+    "Accelerator Stack": {
+      "value": "Custom ASIC/TPU",
+      "memo": "Google's TPU is a custom ASIC designed specifically for machine learning workloads, not a general-purpose GPU.",
+      "detail": "TPU architecture is optimized for matrix operations central to neural-network training and inference. Custom design trades general-purpose flexibility for workload-specific efficiency. Each TPU generation improves the price-performance ratio for Google's target workloads. The custom-ASIC approach differentiates from both merchant GPU and FPGA alternatives."
+    },
+    "Supply Control": {
+      "value": "Strategic control",
+      "memo": "Google exercises strategic control over TPU supply, determining production volume, allocation, and access for internal and cloud customers.",
+      "detail": "Google decides how many TPUs to fabricate, how to allocate between internal and cloud use, and who gets priority access. This strategic control over self-supplied compute is the core benefit of vertical integration. No external party constrains Google's compute availability for its own model training. Strategic supply control eliminates the scarcity-dependence that constrains GPU-dependent labs."
+    },
+    "Silicon Bottleneck": {
+      "value": "Foundry concentration",
+      "memo": "Google's TPU silicon bottleneck is foundry concentration: all fabrication depends on TSMC's advanced process nodes.",
+      "detail": "TPU fabrication requires TSMC's leading-edge process technology. Foundry concentration in Taiwan creates geopolitical and natural-disaster vulnerability. No alternative foundry can produce TPUs at comparable process nodes. The foundry bottleneck is the one dependency that vertical integration does not eliminate."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "Google's internal workloads are locked in to TPU: model architectures, training code, and optimization are TPU-specific.",
+      "detail": "Google's internal ML frameworks are optimized for TPU hardware characteristics. Model architectures incorporate TPU-specific design choices in attention patterns and memory layout. Migrating to GPU infrastructure would require significant re-engineering effort. The lock-in is intentional and bidirectional: Google chose it to escape Nvidia lock-in."
+    },
+    "Vertical Integration": {
+      "value": "Full-stack",
+      "memo": "Google is fully vertically integrated from custom silicon through ML frameworks, models, cloud platform, to consumer applications.",
+      "detail": "The stack spans TPU hardware, JAX/TensorFlow software, Gemini models, Google Cloud distribution, and consumer products. No other company except Apple matches this degree of AI vertical integration. Full-stack integration provides optimization opportunities unavailable to horizontally structured competitors. The integration is the strategic purpose of the TPU program."
+    },
+    "Distribution Channel": {
+      "value": "Platform default",
+      "memo": "TPU-trained AI is the platform default across Google's product suite, reaching users through Google's existing distribution channels.",
+      "detail": "Gemini features powered by TPU inference are default capabilities in Google Search, Workspace, and Android. Platform-default distribution provides massive reach without separate user acquisition. Google's existing product channels provide the distribution layer for TPU-powered AI. Default-platform status is the distribution advantage of vertical integration."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "Google's TPU supply chain runs through allied jurisdictions: US design, Taiwanese fabrication, and US-operated data centers.",
+      "detail": "TPU design occurs in US Google offices with fabrication at TSMC in Taiwan. Data centers operating TPU infrastructure are in the US and allied countries. The allied supply-jurisdiction provides security of access without adversary exposure. Foundry concentration in Taiwan creates the primary geopolitical vulnerability."
+    },
+    "Observability": {
+      "value": "Observable",
+      "memo": "Full-stack ownership gives Google deep observability into TPU performance, model behavior, and system health across the infrastructure.",
+      "detail": "Google monitors TPU hardware, networking, model behavior, and application performance end to end. Full-stack ownership enables telemetry depth unavailable to companies using third-party infrastructure. Observable infrastructure supports rapid debugging, optimization, and incident response. Deep observability is a technical benefit of vertical integration."
+    },
+    "Evaluation": {
+      "value": "Benchmarked",
+      "memo": "TPU performance is evaluated through internal benchmarks and MLPerf submissions demonstrating competitive capabilities.",
+      "detail": "Google publishes TPU performance data through MLPerf and internal technical publications. Benchmark results demonstrate TPU competitiveness against Nvidia GPUs for key workloads. Internal evaluation metrics drive TPU architecture decisions across generations. Benchmarked performance validates the strategic investment in custom silicon."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "Google assesses AI model behavior through extensive testing on TPU infrastructure rather than mechanistic internal access.",
+      "detail": "Model evaluation focuses on behavioral testing, red-teaming, and benchmark performance. No production deployment uses mechanistic interpretability tools for real-time monitoring. Behavioral evidence provides practical safety information without requiring model-internals access. The interpretability approach matches industry standards for frontier model evaluation."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "Google uses standard RLHF and instruction-tuning alignment methods for Gemini models trained on TPU infrastructure.",
+      "detail": "Reinforcement learning from human feedback is the primary alignment technique for Gemini models. The alignment method is the same regardless of whether training occurs on TPU or GPU hardware. RLHF effectiveness does not depend on the accelerator architecture. Alignment is a model-layer concern that the TPU strategy does not directly address."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Google maintains enterprise-grade security for TPU infrastructure, leveraging decades of cloud-security investment and operational maturity.",
+      "detail": "Google's security infrastructure protects TPU clusters, model weights, and training data. BeyondCorp zero-trust architecture applies to AI infrastructure access. Enterprise-grade security reflects Google's operational maturity and cloud-security heritage. Security investment scales with the strategic value of TPU-trained model weights."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Google's AI infrastructure faces criminal and state-adjacent threats targeting model weights, training data, and proprietary TPU designs.",
+      "detail": "Frontier model weights trained on TPU infrastructure are high-value intelligence targets. TPU architecture details are commercially and strategically sensitive. Criminal actors target Google's AI platforms for fraud and abuse. The adversary model matches Google's existing enterprise security threat landscape."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Google monitors access to TPU-trained model weights within its controlled infrastructure but does not physically airgap them.",
+      "detail": "Model weights are stored within Google's infrastructure with access logging and monitoring. Weights are not physically airgapped and are accessible through Google's internal systems. Monitoring detects unauthorized access but cannot prevent all sophisticated exfiltration. The monitored posture reflects commercial deployment requirements."
+    },
+    "Access Control": {
+      "value": "Least privilege",
+      "memo": "Google applies least-privilege access control to TPU infrastructure, model weights, and AI service endpoints.",
+      "detail": "BeyondCorp principles enforce least-privilege access across Google's AI infrastructure. Access to TPU clusters, training data, and model weights is scoped to necessary roles. Least-privilege enforcement reflects Google's security maturity and zero-trust architecture. The access-control standard exceeds the industry API-keys default."
+    },
+    "Monitoring Scope": {
+      "value": "Full cluster telemetry",
+      "memo": "Google monitors TPU clusters through full telemetry covering hardware health, network traffic, model behavior, and access patterns.",
+      "detail": "TPU pod monitoring captures hardware performance, inter-chip communication, and thermal data. Application-layer monitoring tracks model behavior, query patterns, and output quality. Full cluster telemetry provides the observability needed for frontier training operations. The monitoring depth is a benefit of owning and operating the entire infrastructure stack."
+    },
+    "Containment": {
+      "value": "Sandboxed",
+      "memo": "Google sandboxes AI workloads within its infrastructure through hardware isolation, network segmentation, and access controls.",
+      "detail": "Training and inference workloads operate within defined security boundaries. Network segmentation separates TPU clusters from general corporate infrastructure. Hardware-level isolation prevents cross-workload data access. The sandboxed containment reflects Google's infrastructure security capabilities."
+    },
+    "Capability Limitation": {
+      "value": "Policy filters",
+      "memo": "Google applies policy-based content filters to Gemini outputs, similar to other frontier providers regardless of training hardware.",
+      "detail": "Safety filters and content policies restrict Gemini outputs for harmful or prohibited content. These policy filters operate at the model and application layer, independent of TPU hardware. The capability-limitation approach matches the industry standard for frontier model deployment. Policy filters are a model-layer concern that TPU infrastructure enables but does not determine."
+    },
+    "Use Class": {
+      "value": "Dual-use",
+      "memo": "TPU-powered frontier AI creates dual-use capability relevant to both civilian products and defense applications.",
+      "detail": "The same Gemini models serve consumer search and potentially defense analysis. Google Cloud contracts with government and defense customers add explicit dual-use pathways. TPU infrastructure enables capability with both civilian and strategic applications. Dual-use classification reflects the inherent nature of frontier AI capability."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Google's TPU-powered AI primarily creates harm exposure through informational channels: misinformation, bias, and privacy leakage.",
+      "detail": "The dominant harm channel for Google AI is informational: search results, generated content, and decision inputs. Misinformation through AI-modified search and content generation is the highest-visibility concern. Privacy leakage from personal-data processing adds a secondary harm channel. The informational harm focus reflects the cognitive nature of Google's AI products."
+    },
+    "Proliferation": {
+      "value": "Contained",
+      "memo": "TPU-trained model capability is contained within Google's ecosystem, with weights not transferable to external infrastructure.",
+      "detail": "TPU-trained models are served through Google Cloud APIs without weight release. The contained-proliferation posture keeps frontier capability within Google's controlled distribution. No open-weight release of frontier TPU-trained models has occurred. Containment reflects Google's IP protection strategy rather than safety considerations alone."
+    },
+    "Strategic Lead": {
+      "value": "Decisive lead",
+      "memo": "Google holds a decisive lead in custom AI silicon with no competitor matching TPU's combination of performance, scale, and integration.",
+      "detail": "No other company has achieved Google's scale of custom AI accelerator deployment. TPU v5 and successors compete effectively with Nvidia's best merchant GPUs. The vertical-integration lead compounds over time as each generation builds on prior investment. Google's custom-silicon position is unmatched outside of Apple's device-focused program."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Google faces competitive pressure from both Nvidia's GPU ecosystem and Amazon/Microsoft's custom-silicon programs.",
+      "detail": "Nvidia's rapid GPU improvement cycle creates constant performance benchmarking pressure. Amazon's Trainium and Microsoft's Maia add custom-silicon competition. The competitive pressure motivates rapid TPU architecture iteration. Race dynamics in custom silicon mirror the broader AI capability competition."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Google's TPU strategy is a single-firm vertical-integration decision, not a coalition or national project.",
+      "detail": "Alphabet's leadership determines TPU investment and strategy unilaterally. No government or industry partnership directs the TPU program. The single-firm structure enables rapid strategic pivots and unified decision-making. Google's scale makes TPU investment viable as a single-firm infrastructure program."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No nonproliferation regime applies to TPU because the hardware is not sold commercially and the capability is contained within Google.",
+      "detail": "TPUs are not available for purchase, eliminating the export-control concern that applies to merchant GPUs. Contained distribution means TPU capability does not proliferate to external actors. No international regime governs captive-use custom silicon. The nonproliferation question is rendered moot by the captive-distribution model."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Google's proprietary data and TPU infrastructure create mutually reinforcing accretive value: better data trains better models on owned compute.",
+      "detail": "Google's first-party data improves models trained on TPU infrastructure. Better models improve Google products, generating more data in a virtuous cycle. The accretive dynamic is amplified by vertical integration across data, compute, and products. This self-reinforcing loop is the strategic logic of the TPU investment."
+    },
+    "Input Price": {
+      "value": "Structural",
+      "memo": "Google's AI input costs are structural: silicon R&D, fabrication, and data-center capital rather than per-use licensing fees.",
+      "detail": "TPU costs are fixed capital expenditure for design, fabrication, and deployment. Training data comes from proprietary sources without per-use licensing costs. The structural cost model is fundamentally different from the variable-cost model of GPU rental. Structural pricing creates high fixed costs but low marginal costs at scale."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "Google retains all output value from TPU-trained models within its product ecosystem without external value sharing.",
+      "detail": "AI output value flows to Google through improved product engagement and advertising revenue. No mechanism shares output value with external data suppliers or training-data subjects. The retained-output posture maximizes Google's return on TPU infrastructure investment. Output retention is standard for vertically integrated platform companies."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "Google captures derived value as both the compute processor and the model deployer, internalizing the entire value chain.",
+      "detail": "Google processes compute on owned TPUs, trains models in-house, and deploys through its own products. The entire derived-value chain is internal to Google's operations. No external party participates in the derived-value capture. Full-chain internalization is the ultimate form of processor-captures dynamics."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "Google disclaims AI liability through terms of service, with no specific insurance or government backstop for AI-caused harm.",
+      "detail": "Standard terms of service disclaim liability for AI output accuracy and consequential damages. Google's cloud enterprise agreements provide somewhat stronger terms but still limit liability. No insurance product or government backstop specifically covers Google AI risks. The disclaimed-risk posture matches industry standards for commercial AI."
+    },
+    "Capital": {
+      "value": "Strategic build",
+      "memo": "TPU represents strategic-build capital: multi-billion-dollar investment in custom silicon that defines Google's AI infrastructure for decades.",
+      "detail": "TPU investment spans chip design, fabrication agreements, data-center construction, and software ecosystem. The capital commitment is measured in tens of billions over multiple hardware generations. Strategic-build scale creates barriers to entry and exit simultaneously. The investment horizon extends decades as each generation builds on prior infrastructure."
+    },
+    "Commitment Tenor": {
+      "value": "Infrastructure-life",
+      "memo": "TPU infrastructure commits Google to infrastructure-life tenors: data centers and fabrication agreements span decades of operation.",
+      "detail": "Data centers housing TPU clusters are designed for 20-30 year operational lifespans. Fabrication agreements with TSMC commit capacity years in advance. The infrastructure-life commitment creates strategic stability but reduces flexibility. Long-tenor commitments reflect the physical-infrastructure nature of the TPU investment."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "AI powered by TPU infrastructure is becoming core to Google's business, with AI-enhanced Search and Cloud driving majority revenue.",
+      "detail": "AI features in Search directly affect Google's advertising revenue, its primary business. Cloud AI services represent the fastest-growing revenue segment. TPU infrastructure enables both Search and Cloud AI at the quality and scale Google requires. Core-business dependency means TPU investment failure would threaten Google's competitive position."
+    },
+    "Switching Cost": {
+      "value": "Ecosystem lock-in",
+      "memo": "Google's internal TPU ecosystem creates lock-in: JAX code, TPU-optimized models, and infrastructure all depend on continued TPU investment.",
+      "detail": "Google's ML codebase is extensively optimized for TPU hardware characteristics. Model architectures incorporate TPU-specific design decisions. Infrastructure tools and deployment pipelines assume TPU availability. Switching to GPU infrastructure would require massive re-engineering effort, creating ecosystem lock-in."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Exit from TPU is capability-entangled: TPU-optimized models, code, and infrastructure would degrade if migrated to alternative hardware.",
+      "detail": "Models trained and optimized on TPU may not perform identically on GPU or other hardware. Code optimizations and infrastructure tooling are TPU-specific. Years of TPU-specific engineering investment would be partially stranded. Exit would require capability rebuilding rather than simple migration."
+    },
+    "Acceptance Basis": {
+      "value": "Market-validated",
+      "memo": "TPU strategy validates through internal performance benchmarks, inference cost reduction, and competitive model quality.",
+      "detail": "Google measures TPU success by training efficiency, inference cost per query, and model quality on internal benchmarks. Custom silicon justifies itself through cost-performance metrics rather than external certification. The validation runs through competitive positioning against Nvidia-dependent rivals. Market outcomes in cloud revenue and model capability are the acceptance test."
+    }
+  }
+}

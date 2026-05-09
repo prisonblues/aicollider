@@ -1,0 +1,332 @@
+{
+  "id": "custody-interception",
+  "name": "Phantom Custody",
+  "desc": "The named custodian holds the system, but another actor has practical access through architectural interception, state compulsion, or harvest-now-decrypt-later. Custody on paper; access in practice. Rights without enforceable custody are phantom rights.",
+  "picks": {
+    "Capability Class": {
+      "value": "Tool-grade",
+      "memo": "The interception pattern applies to tool-grade systems where the custody failure matters more than the system's own capability level.",
+      "detail": "Tool-grade capability sets the baseline because the interception argument is about custody architecture failure, not about frontier capability. The same custody defeat applies whether the system is narrow or superhuman. What matters is that nominal custody is meaningless when architectural access exists for a state adversary. The capability level is secondary to the custody and access control dimensions in this stance."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "State interception captures data across multiple domains simultaneously, making multi-domain breadth the natural scope of the custody defeat.",
+      "detail": "Multi-domain breadth reflects that state interception programmes capture communications, financial, personal, and commercial data simultaneously. The interception is not domain-specific but sweeps across whatever the target system processes. This breadth multiplies the custody defeat because compromise in one domain exposes all co-located data. Multi-domain collection is the realistic scope of state-level interception capabilities."
+    },
+    "Capability Trajectory": {
+      "value": "Incremental",
+      "memo": "The interception pattern operates under incremental trajectory because state access defeats custody regardless of how quickly capability improves.",
+      "detail": "Incremental trajectory reflects that the custody defeat does not depend on rapid capability change. State interception capabilities improve incrementally through sustained intelligence investment over decades. The harvest-now-decrypt-later pattern specifically bets on incremental advances in cryptanalysis and compute over long timescales. The custody failure is structural, not dependent on any particular pace of technological advancement."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "State interception operates through human-led intelligence programmes where the custody defeat comes from institutional access, not automated research.",
+      "detail": "Human-led research reflects that state interception capabilities are developed through traditional intelligence R&D processes. The custody defeat comes from institutional access to infrastructure, not from AI-recursive research capability. Human intelligence analysts and cryptanalysts drive the interception capability development. The research automation level does not change the fundamental argument about nominal versus practical custody."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Interception operates through tool-using intelligence systems that process captured data using automated analysis and pattern-matching capabilities.",
+      "detail": "Tool-using unhobbling reflects that state interception programmes use sophisticated analytical tools to process captured data. These tools include automated traffic analysis, pattern matching, and bulk data processing systems. The tool-using level is appropriate because the interception is a structured institutional capability, not an autonomous agent. The tools enable the state to exploit the custody defeat at scale across many targets simultaneously."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "State interception operates at scale across many targets simultaneously, replicating the custody defeat pattern across entire populations and networks.",
+      "detail": "Many copies reflects that state interception is not targeted at single systems but operates across entire communication networks simultaneously. The PRISM-style programme captures data from multiple providers, services, and networks in parallel. This scale means the custody defeat is systemic rather than individual, affecting entire populations. Many-copy interception is what makes the custody failure a structural problem rather than an individual security incident."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "State interception captures and processes data at machine speed, outpacing any human ability to detect, respond to, or prevent the custody compromise.",
+      "detail": "Faster-than-human speed means intercepted data is captured, processed, and analysed before the nominal custodian is aware of the compromise. Automated bulk collection operates continuously at speeds that make real-time detection by the target practically impossible. The speed differential between collection and detection is itself a custody defeat mechanism. Faster-than-human interception means practical custody was never held even when nominal custody appeared intact."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "The interception pattern is cognitive-only, focusing on data capture and analysis rather than physical-world actuation or kinetic effects.",
+      "detail": "Cognitive-only extension means the interception is about information capture and intelligence analysis, not physical actuation. The custody defeat occurs entirely in the digital domain through data interception, copying, and decryption. Physical access to infrastructure enables the interception but the exploitation is cognitive and analytical. Cognitive-only focus keeps the stance cleanly about the custody argument without introducing physical security dimensions."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "State interception systems function as intelligence tools directed by human analysts, with the custody defeat arising from institutional access rather than autonomous agency.",
+      "detail": "Tool role means the interception capability is directed by human intelligence analysts rather than operating autonomously. The custody defeat comes from the state's institutional access to infrastructure, not from autonomous system action. Human analysts decide what to target, what to retain, and how to exploit captured data. Tool role reflects that the interception is a directed intelligence operation, not an autonomous custody compromise."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "State interception executes through digital action channels, capturing data through infrastructure access, legal compulsion, and technical exploitation.",
+      "detail": "Digital action means the interception operates through network taps, legal data requests, provider compulsion, and technical exploitation. The actuation channel is entirely digital, working through the infrastructure that carries the nominal custodian's data. Digital action is the natural channel for custody defeat because data interception is inherently a digital operation. The actuation channel demonstrates that custody defeat occurs through the same infrastructure the custodian trusts."
+    },
+    "Autonomy": {
+      "value": "Exception-supervised",
+      "memo": "State interception operates with exception-supervised autonomy where bulk collection runs automatically with human review triggered by detection algorithms.",
+      "detail": "Exception-supervised autonomy means bulk data collection and processing runs continuously with human analysts reviewing flagged items. The collection operates automatically across networks while humans supervise through dashboards and alerts. This autonomy level enables the scale of interception that individual-approval models could not achieve. Exception supervision is the practical operating mode for mass surveillance programmes."
+    },
+    "Delegated Authority": {
+      "value": "Operational mandate",
+      "memo": "State interception operates under broad operational mandates from intelligence authorization frameworks that grant sweeping collection and analysis authorities.",
+      "detail": "Operational mandate means the interception programme operates under broad legal authorities like FISA, national security letters, or equivalent frameworks. These mandates delegate collection authority across entire categories of targets and data types. The operational mandate is typically classified and its scope unknown to the nominal data custodians being intercepted. Broad operational mandates are what enable the systematic custody defeat that individual warrants could not achieve."
+    },
+    "Tool Access": {
+      "value": "Privileged tools",
+      "memo": "State interception uses privileged tools including infrastructure taps, provider compulsion mechanisms, and cryptanalytic capabilities not available commercially.",
+      "detail": "Privileged tools means the state possesses access mechanisms that no commercial entity can replicate or defend against. These include backbone network taps, legal compulsion of infrastructure providers, and advanced cryptanalytic capabilities. The privileged access is what makes the custody defeat architectural rather than merely a security failure. Privileged tool access demonstrates that the state operates in a different capability class from the adversaries that enterprise custody is designed to resist."
+    },
+    "Response / Intervention Capability": {
+      "value": "No effective override",
+      "memo": "The nominal custodian has no effective override against state-level interception because the access occurs below the custodian's visibility and control boundary.",
+      "detail": "No effective override means the nominal custodian cannot detect, prevent, or stop state-level interception of their data. The interception occurs at infrastructure layers below the custodian's monitoring capability and outside their legal authority. Even discovering the interception is typically impossible without whistleblower disclosure or legal challenge. No effective override is the defining characteristic that makes nominal custody meaningless against state access."
+    },
+    "Command Actor": {
+      "value": "State/coalition",
+      "memo": "The interception is commanded by state or coalition intelligence authority, operating through sovereign power that private custody cannot resist or override.",
+      "detail": "State/coalition command means the interception operates under sovereign intelligence authority with legal powers to compel access. The nominal custodian faces an adversary that can compel infrastructure providers, issue secret orders, and operate with classified legal authority. State command is what makes this custody defeat qualitatively different from criminal hacking or corporate espionage. The command actor determines that the custody failure is structural and institutional, not merely technical."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "The interception programme operates at sustained product-cycle tempo, continuously collecting data through established infrastructure access over years and decades.",
+      "detail": "Product cycle tempo means the interception is not a crisis operation but a sustained long-term intelligence programme. Collection infrastructure is built, maintained, and upgraded over multi-year cycles through normal institutional processes. The tempo reflects that state interception is an ongoing institutional capability, not an episodic response. Product-cycle tempo enables the harvest-now-decrypt-later strategy that extends the custody defeat indefinitely into the future."
+    },
+    "Tradeoff Authority": {
+      "value": "National command",
+      "memo": "National command authority makes the tradeoff between intelligence collection value and the custody rights of private parties, typically favouring collection.",
+      "detail": "National command means sovereign authority decides how to balance intelligence needs against private custody claims and civil liberties. This tradeoff is typically classified and made without input from the parties whose custody is being defeated. National command authority enables collection decisions that no other actor has the legal power to authorize. The tradeoff authority demonstrates that private custody exists only to the extent that sovereign authority chooses to respect it."
+    },
+    "Permission": {
+      "value": "Broad",
+      "memo": "State interception operates under broadly permissive authorization frameworks that grant sweeping collection authority with minimal per-target judicial oversight.",
+      "detail": "Broad permission reflects the reality that intelligence collection authorization frameworks grant expansive authority rather than narrow conditional access. Bulk collection programmes operate under general warrants, national security directives, or executive orders. The broad permission is typically classified and unknown to the parties whose data is being collected. Broad permission demonstrates that the legal framework enables rather than constrains the custody defeat."
+    },
+    "Regulatory Posture": {
+      "value": "Permissive",
+      "memo": "State interception operates under permissive regulatory posture where intelligence authorization frameworks override data protection regulations for national security purposes.",
+      "detail": "Permissive regulation means national security exceptions in data protection law create a permissive environment for state interception. GDPR national security carve-outs, FISA authorities, and equivalent frameworks permit collection that would otherwise violate data protection rules. The regulatory posture is permissive from the state's perspective even when it appears protective from the data subject's perspective. Permissive regulation for intelligence collection is the legal architecture that enables systematic custody defeat."
+    },
+    "Data Availability": {
+      "value": "Technically accessible",
+      "memo": "State interception exploits data that is technically accessible through infrastructure taps even when nominal custody frameworks claim restricted availability.",
+      "detail": "Technically accessible means the data flows through infrastructure that the state can access regardless of the custodian's access control intentions. Cloud storage, network communications, and service provider databases are all technically accessible to state interception. The gap between the custodian's intended access restriction and the state's actual technical access is the custody defeat. Technically accessible data demonstrates that nominal custody is meaningless when the adversary has infrastructure access."
+    },
+    "Provenance": {
+      "value": "Unknown",
+      "memo": "From the nominal custodian's perspective, the interception provenance is unknown because the data capture occurs invisibly below their monitoring boundary.",
+      "detail": "Unknown provenance reflects that the nominal custodian does not know their data has been intercepted, copied, or compromised. The state's copy of the data has no visible provenance trail in the custodian's systems. This invisibility is what makes the custody defeat particularly insidious compared to overt data theft. Unknown provenance means the nominal custodian cannot even assess the scope of the custody compromise."
+    },
+    "Model-Weight Rights": {
+      "value": "Shared access",
+      "memo": "State interception creates de facto shared access to model weights because the state possesses copies that the nominal custodian does not know exist.",
+      "detail": "Shared access reflects the practical reality that intercepted model weights are held by both the nominal custodian and the intercepting state. The custodian believes they have exclusive custody while the state holds undisclosed copies. This creates shared access in practice even when exclusive custody exists on paper. De facto shared access through interception demonstrates the gap between nominal and practical custody that the stance highlights."
+    },
+    "Territory": {
+      "value": "Extraterritorial",
+      "memo": "State interception operates extraterritorially, capturing data that crosses borders and exploiting infrastructure access in foreign jurisdictions without territorial limitation.",
+      "detail": "Extraterritorial reach means state interception is not limited to domestic data or domestic infrastructure. Programmes like PRISM and upstream collection capture data flowing through infrastructure in multiple jurisdictions. The extraterritorial character means no single jurisdiction's custody protections can prevent interception by a capable foreign state. Extraterritorial operation demonstrates that custody defeat transcends the jurisdictional boundaries that data protection law assumes."
+    },
+    "Data Subject Exposure": {
+      "value": "Special-category/systemic",
+      "memo": "State interception creates systemic personal data exposure across entire populations, capturing communications, financial, health, and intimate personal information indiscriminately.",
+      "detail": "Special-category/systemic exposure reflects that bulk collection programmes capture personal data across every category from every person in the collection scope. The exposure is not targeted but systemic, affecting entire populations rather than specific individuals. Special-category data including health, financial, and intimate communications is captured alongside routine data. Systemic exposure is what makes state interception a custody defeat of a different order from any targeted security breach."
+    },
+    "Data Sensitivity": {
+      "value": "Sensitive/regulated",
+      "memo": "The intercepted data includes sensitive and regulated categories that the nominal custodian is legally obligated to protect but cannot against state-level access.",
+      "detail": "Sensitive/regulated data means the intercepted information includes data subject to legal protection obligations that the custodian cannot fulfil. The custodian remains legally liable for data protection while lacking practical ability to prevent state interception. This creates a structural gap between legal obligation and practical custody that the interception stance highlights. Sensitive/regulated data exposure through state interception demonstrates the limits of rights-based data protection."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "The intercepted data typically has no export control status, making the custody defeat a privacy and commercial confidentiality concern rather than a national security one.",
+      "detail": "No control issue means the interception targets commercial, personal, and communication data rather than formally controlled items. The custody defeat occurs in the civilian data protection domain rather than the export control domain. This makes the interception stance primarily about privacy rights and commercial confidentiality rather than national security. No control exposure keeps the stance focused on the fundamental custody argument without adding regulatory complexity."
+    },
+    "Processing Mode": {
+      "value": "Inference",
+      "memo": "State interception processes captured data through inference and analysis, extracting intelligence value without the nominal custodian's knowledge or participation.",
+      "detail": "Inference processing means the state analyses intercepted data to extract intelligence, patterns, and insights for operational use. The processing occurs entirely within the state's own analytical infrastructure without any interaction with the nominal custodian. This separation between custody and processing demonstrates the practical divorce between nominal data rights and actual data use. Inference on intercepted data is the processing mode that generates intelligence value from the custody defeat."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "State interception generates derived intelligence products from captured data, creating analytical outputs that the nominal custodian cannot trace or audit.",
+      "detail": "Derived outputs include intelligence assessments, target profiles, communication analysis, and pattern-of-life data created from intercepted material. These derivatives have intelligence value independent of the raw intercepted data and can be shared more broadly within intelligence communities. The nominal custodian has no visibility into or control over these derived products. Derived output generation demonstrates how custody defeat enables uncontrolled value extraction from nominally protected data."
+    },
+    "Retention / Persistence": {
+      "value": "Archival",
+      "memo": "State interception retains captured data in archival storage for potential future exploitation, including harvest-now-decrypt-later strategies against encrypted material.",
+      "detail": "Archival retention means captured data is stored indefinitely for future analysis, re-processing, and potential decryption as capabilities advance. The harvest-now-decrypt-later strategy specifically relies on retaining encrypted data until future compute or cryptanalytic advances enable access. Archival retention means the custody defeat extends indefinitely into the future beyond any present-day risk assessment. Archival storage transforms today's encrypted data into tomorrow's accessible intelligence as technology advances."
+    },
+    "Execution / Residency Environment": {
+      "value": "Sovereign",
+      "memo": "State interception infrastructure resides in sovereign environments under intelligence agency control, entirely beyond the nominal custodian's visibility or jurisdiction.",
+      "detail": "Sovereign execution means the interception processing occurs in state-controlled facilities with no external oversight or access. The nominal custodian has no visibility into these environments and no legal or practical means of inspection. Sovereign residency is what enables the state to process intercepted data with complete impunity and secrecy. The execution environment demonstrates that the state's practical custody is architecturally impregnable from the nominal custodian's perspective."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "State interception exploits shared infrastructure boundaries where data traverses networks and systems that the intercepting state can access alongside legitimate traffic.",
+      "detail": "Shared boundary reflects that data flows through shared network infrastructure that provides interception access points. The boundary between the custodian's data and the interceptor's access is architecturally porous at the infrastructure level. Shared infrastructure is the fundamental weakness that enables custody defeat through interception. The boundary pick demonstrates that nominal custody fails when the underlying infrastructure is shared with the adversary."
+    },
+    "Deployment Surface": {
+      "value": "Public-facing",
+      "memo": "State interception targets public-facing services and infrastructure where data exposure through normal operation creates the interception opportunity.",
+      "detail": "Public-facing deployment surface means the target system communicates through networks accessible to state interception capabilities. Internet-facing services, cloud platforms, and communication networks all present interception surfaces to capable state actors. The public-facing character is what makes interception technically feasible without requiring physical intrusion. Public-facing deployment is the necessary condition for bulk interception at the infrastructure level."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "State interception exploits commercial cloud infrastructure where legal compulsion and technical access enable state agencies to capture nominally private data.",
+      "detail": "Commercial cloud infrastructure is the primary target for state interception because legal frameworks enable compelled provider access. Cloud providers can be legally required to provide data, install monitoring, or enable access without informing the customer. The commercial cloud is where the custody defeat is most systematic because providers are subject to sovereign legal authority. Commercial cloud infrastructure demonstrates that outsourced custody is outsourced to an entity that can be compelled by the state."
+    },
+    "Model Sourcing": {
+      "value": "Single-provider",
+      "memo": "The interception pattern applies to single-provider model arrangements where the provider can be compelled to provide state access to the customer's data.",
+      "detail": "Single-provider sourcing creates a single compulsion point where the state can compel the provider to enable access to customer data. The customer's nominal custody depends on the provider's resistance to state compulsion, which is typically insufficient. Single-provider dependency concentrates the custody defeat risk in one entity subject to one jurisdiction's legal compulsion. The sourcing model determines the compulsion surface area that state interception can exploit."
+    },
+    "Compute Source": {
+      "value": "Rented/spot",
+      "memo": "Rented compute creates custody vulnerability because the compute provider can be compelled to provide state access to data processed on shared infrastructure.",
+      "detail": "Rented/spot compute means the customer processes data on infrastructure owned and controlled by a third-party provider. The provider controls physical access, network configuration, and operating system layers below the customer's application. State compulsion of the provider defeats the customer's nominal custody at the infrastructure level. Rented compute is the compute expression of the shared-infrastructure custody vulnerability that state interception exploits."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Preferred cloud partner dependency concentrates custody vulnerability because the partner can be legally compelled to enable state access to customer workloads.",
+      "detail": "Preferred partner dependency means the customer relies on a specific cloud provider subject to a specific jurisdiction's compulsion authority. The preference relationship creates trust that the interception pattern systematically violates. The cloud partner may comply with state access requests without ability to inform the customer due to gag orders. Preferred partner dependency demonstrates that commercial trust relationships cannot resist sovereign compulsion authority."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "The interception-exposed customer is locked in because migrating away from compromised infrastructure would require detecting the interception first.",
+      "detail": "Locked-in substitutability means the customer cannot escape the custody defeat by switching providers because they do not know the compromise exists. Even if they suspected interception, migration requires moving to infrastructure that may be equally compromised. The lock-in is informational rather than contractual because the customer lacks the knowledge needed to make an informed switching decision. Locked-in status through information asymmetry is a uniquely insidious form of custody defeat."
+    },
+    "Supply Jurisdiction": {
+      "value": "Adversary/exposed",
+      "memo": "The nominal custodian's supply chain passes through adversary-exposed jurisdictions where state compulsion authority enables systematic infrastructure-level access.",
+      "detail": "Adversary/exposed jurisdiction means the infrastructure the custodian depends on is subject to compulsion by a potentially adversarial state. The custodian may not recognize the adversary exposure because the infrastructure appears commercially neutral. Exposed jurisdiction is the supply-chain dimension of the custody defeat that makes interception architecturally possible. Adversary-exposed supply jurisdiction demonstrates that custody vulnerability is embedded in infrastructure choice."
+    },
+    "Observability": {
+      "value": "Opaque",
+      "memo": "From the nominal custodian's perspective, state interception is completely opaque because the access occurs invisibly and is protected by classification.",
+      "detail": "Opaque observability means the custodian has zero visibility into the state's interception of their data. The interception is classified, the legal authorities are secret, and the provider is typically gagged from disclosure. This opacity is the defining feature that makes nominal custody meaningless in practice. Opaque observability demonstrates that custody without visibility is custody without control."
+    },
+    "Evaluation": {
+      "value": "Untested",
+      "memo": "The nominal custodian's custody architecture is effectively untested against state-level interception because the threat is invisible and unfalsifiable.",
+      "detail": "Untested evaluation means the custodian's security controls have never been evaluated against the actual threat of state interception. Penetration testing and security audits do not test for legal compulsion or classified infrastructure access. The custodian's security certifications are meaningless against an adversary operating at a different architectural layer. Untested evaluation demonstrates that commercial security assessment provides no assurance against sovereign interception capability."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Enterprise-grade security posture is insufficient against state interception because enterprise controls defend against threats below the state-actor capability level.",
+      "detail": "Enterprise-grade security means the nominal custodian has implemented professional security controls that are inadequate against state actors. Firewalls, encryption, and access controls protect against criminal and opportunistic threats but not against infrastructure-level state access. Enterprise-grade is the diagnostic pick because it shows the gap between the custodian's investment and the actual threat. The security posture demonstrates that even well-protected enterprise custody fails against sovereign interception."
+    },
+    "Adversary Model": {
+      "value": "State actor",
+      "memo": "The actual adversary is a state actor with intelligence agency capabilities that fundamentally exceed what enterprise security architecture is designed to resist.",
+      "detail": "State actor adversary means the threat includes national intelligence services with legal compulsion authority and infrastructure access. This adversary class operates at a qualitatively different level from the criminal or state-adjacent threats that enterprise security addresses. The gap between the actual adversary capability and the enterprise security posture is the custody defeat mechanism. State actor adversary model is the central pick that defines why nominal custody fails in the interception scenario."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "The nominal custodian's RBAC access controls are irrelevant because state interception operates below the application layer where access control policies apply.",
+      "detail": "RBAC access control means the custodian has implemented role-based access controls that are architecturally bypassed by infrastructure-level interception. The access controls operate at the application layer while the interception occurs at the network or provider layer below. RBAC is effective against unauthorized internal users but meaningless against infrastructure-level state access. The RBAC pick demonstrates that application-layer access control cannot defend against infrastructure-layer custody defeat."
+    },
+    "Monitoring Scope": {
+      "value": "Outputs",
+      "memo": "The nominal custodian monitors only outputs while state interception operates below the monitoring boundary, making the custody compromise invisible to all controls.",
+      "detail": "Output monitoring means the custodian tracks what their system produces but cannot see the data being copied at the infrastructure layer. The monitoring scope is too narrow to detect interception that occurs below the application boundary. This limitation is fundamental, not a configuration error, because the custodian does not control the infrastructure layer. Output-only monitoring demonstrates that custody requires monitoring at every layer, not just the application."
+    },
+    "Containment": {
+      "value": "Policy-only",
+      "memo": "The nominal custodian's containment is policy-only, relying on contractual and legal frameworks that state interception authority systematically overrides.",
+      "detail": "Policy-only containment means the custodian relies on provider contracts, data processing agreements, and legal frameworks for data protection. These policy mechanisms are overridden by classified state intelligence authorities that compel provider cooperation. The custodian's containment boundary exists on paper but not in architectural practice. Policy-only containment demonstrates that legal and contractual custody is meaningless against sovereign compulsion authority."
+    },
+    "Weight Security": {
+      "value": "Copyable",
+      "memo": "In the interception scenario, model weights are effectively copyable because state infrastructure access enables duplication without the custodian's knowledge or consent.",
+      "detail": "Copyable weight security means the intercepting state can copy model weights through infrastructure access without leaving any trace. The custodian believes weights are secure while copies exist in sovereign intelligence facilities. Copyable weights demonstrate the most acute form of custody defeat because digital assets can be duplicated without diminishing the original. Weight copying without detection is the digital custody analogue of the traditional intelligence concept of access without attribution."
+    },
+    "Capability Limitation": {
+      "value": "None",
+      "memo": "There is no effective capability limitation the nominal custodian can apply against state-level interception because the access occurs outside their control boundary.",
+      "detail": "No capability limitation means the custodian has no architectural mechanism to restrict state interception of their data. Application-layer restrictions, policy filters, and access controls all operate above the interception layer. The state can capture and process data regardless of any capability limitations the custodian has implemented. No effective capability limitation against state access is the architectural reality that makes nominal custody illusory."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "The nominal custodian relies on basic alignment methods that are irrelevant to the interception threat because alignment operates at the application layer.",
+      "detail": "Prompting/RLHF alignment means the system's alignment controls operate at the application layer above the interception point. These controls govern system behavior but cannot prevent infrastructure-level data capture by state actors. The alignment method is diagnostically irrelevant to the custody defeat but included to show the gap between application-layer governance and infrastructure-layer reality. Basic alignment methods demonstrate that custody defeat is an infrastructure problem, not an application problem."
+    },
+    "Interpretability": {
+      "value": "Reasoning hidden",
+      "memo": "The state's interception reasoning is completely hidden from the nominal custodian, who cannot access the classification, legal authority, or targeting rationale.",
+      "detail": "Reasoning hidden means the nominal custodian has no visibility into why their data was targeted, what legal authority was invoked, or what intelligence purpose it serves. The entire interception rationale is classified and protected by state secrecy provisions. This hidden reasoning is the intelligence-process analogue of black-box opacity in AI systems. Reasoning hidden demonstrates that the custody defeat includes not just loss of control but loss of knowledge about the compromise."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "The intercepted data is civilian in use class, demonstrating that state custody defeat applies to ordinary commercial and personal data, not just military targets.",
+      "detail": "Civilian use class means the intercepted data belongs to ordinary commercial and personal activities, not military or intelligence operations. The custody defeat applies to everyday data processed by normal businesses and individuals. This civilian focus demonstrates that state interception is not limited to national security targets but sweeps broadly. Civilian use class makes the custody defeat more consequential because it affects everyone, not just military or intelligence targets."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "State interception operates through the information harm channel where captured data enables surveillance, intelligence targeting, and knowledge advantage.",
+      "detail": "Information harm channel means the damage from interception flows through surveillance, intelligence analysis, and knowledge asymmetry. The harm includes loss of commercial confidentiality, privacy violation, and potential for intelligence exploitation of captured data. Information harm from state interception is often invisible to the victim, compounding the custody defeat with ignorance of the compromise. The information harm channel demonstrates that custody defeat creates persistent, invisible, and potentially irreversible damage."
+    },
+    "Proliferation": {
+      "value": "Leaky",
+      "memo": "State interception creates leaky proliferation because captured data and derived intelligence may spread through intelligence-sharing arrangements with allied states.",
+      "detail": "Leaky proliferation means intercepted data may flow through intelligence-sharing frameworks like Five Eyes to additional state actors. The nominal custodian has no visibility into or control over this secondary proliferation of their data. Intelligence sharing means the custody defeat multiplies across multiple states, each with their own analytical capabilities. Leaky proliferation through intelligence sharing demonstrates that custody defeat in one jurisdiction can create exposure in many."
+    },
+    "Coalition Structure": {
+      "value": "Allied bloc",
+      "memo": "State interception operates through allied intelligence blocs like Five Eyes where multiple states share intercepted data through established frameworks.",
+      "detail": "Allied bloc coalition means the interception capability and captured data are shared across multiple cooperating intelligence services. Five Eyes, Nine Eyes, and bilateral intelligence-sharing agreements create a coalition that multiplies the custody defeat. The nominal custodian faces not one intercepting state but an entire intelligence alliance. Allied bloc structure demonstrates that custody defeat through interception is a multi-state, multi-jurisdictional institutional pattern."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "There is no nonproliferation regime constraining state interception of civilian data because intelligence collection operates outside any effective international control framework.",
+      "detail": "No nonproliferation regime means state interception of civilian data operates in a governance vacuum with no international enforcement mechanism. Intelligence collection is explicitly carved out from most international agreements and human rights frameworks. The absence of any effective constraint on state interception capability is part of the structural custody defeat. No regime demonstrates that nominal data protection rights exist only to the extent that sovereign power chooses to respect them."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Intercepted data has accretive value for intelligence agencies, with each additional capture strengthening analytical models and intelligence assessments over time.",
+      "detail": "Accretive/fortifying dynamics mean each piece of intercepted data adds to the intelligence agency's analytical capability over time. Pattern-of-life data, communication networks, and behavioral profiles all strengthen with additional collection. The accretive character means the custody defeat compounds over time as more data is captured and cross-referenced. Accretive value dynamics demonstrate that state interception becomes more valuable and more damaging with each passing year."
+    },
+    "Input Price": {
+      "value": "Structural",
+      "memo": "State interception operates at structural cost embedded in intelligence budgets, making the custody defeat a permanent feature of sovereign infrastructure investment.",
+      "detail": "Structural pricing means interception infrastructure is funded through intelligence budgets as a permanent institutional capability. The cost is embedded in sovereign spending decisions rather than driven by market dynamics or per-target economics. This structural investment ensures that interception capability persists regardless of any particular target's commercial value. Structural cost demonstrates that the custody defeat is a permanent feature of state intelligence infrastructure."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "State interception retains all captured outputs within intelligence classification, with no allocation to or acknowledgment toward the nominal data custodian.",
+      "detail": "Retained output means the state captures and retains all intercepted data and derived intelligence entirely within its own classified holdings. The nominal custodian receives nothing, knows nothing, and has no allocation claim over their own intercepted data. Retention is indefinite and protected by classification, making the custody defeat permanent and irreversible. Retained output allocation demonstrates the most complete form of value extraction through custody defeat."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "The intercepting state as processor captures all derived intelligence value from nominally private data, with zero value flowing back to the data custodian.",
+      "detail": "Processor captures means the state extracts all analytical and intelligence value from intercepted data with no benefit to the nominal custodian. The intelligence derived from captured data serves state objectives that may be adverse to the custodian's interests. Zero value return to the custodian is the economic expression of total custody defeat. Processor capture demonstrates that custody defeat enables complete one-sided value extraction from nominally protected data."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "The intercepting state disclaims all risk and liability for custody defeat, operating under sovereign immunity with no accountability to the nominal data custodian.",
+      "detail": "Disclaimed risk means the intercepting state bears no legal, financial, or reputational consequence for the custody defeat. Sovereign immunity, classification, and secrecy protect the state from any accountability to the nominal custodian. The custodian bears all risk of the data compromise while the state disclaims all responsibility. Disclaimed risk demonstrates the most extreme risk asymmetry possible in any custody arrangement."
+    },
+    "Capital": {
+      "value": "Strategic build",
+      "memo": "State interception infrastructure represents strategic build capital invested over decades in sustained intelligence collection capability and analytical systems.",
+      "detail": "Strategic build capital means the interception infrastructure represents decades of sovereign stake in collection and analysis capability. This includes undersea cable taps, satellite interception, provider relationships, and massive analytical data centers. The capital investment is sustained across political administrations as a permanent state capability. Strategic build demonstrates that the custody defeat is backed by institutional investment that private custodians cannot match."
+    },
+    "Commitment Tenor": {
+      "value": "Infrastructure-life",
+      "memo": "State interception commitments extend to infrastructure-life timescales because intelligence collection capability is maintained as permanent sovereign infrastructure.",
+      "detail": "Infrastructure-life commitment means interception infrastructure operates for decades as a permanent feature of state intelligence capability. Collection systems, analytical platforms, and institutional knowledge persist across administrations and generations. The infrastructure-life tenor means the custody defeat is permanent, not episodic or campaign-specific. The commitment length demonstrates that nominal custodians face an adversary with indefinite patience and persistence."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "Intelligence collection is core business for state agencies, creating permanent institutional incentive to maintain and expand interception capabilities against private custody.",
+      "detail": "Core business dependency means intelligence agencies depend on interception capability for their institutional mission and relevance. This creates permanent institutional incentive to maintain and expand collection against nominal private custody arrangements. The agency's existence and budget justification depend on the intelligence produced through interception. Core business dependency demonstrates that custody defeat is driven by permanent institutional incentive, not transient policy choice."
+    },
+    "Switching Cost": {
+      "value": "Captive",
+      "memo": "The nominal custodian is effectively captive because they cannot practically migrate away from infrastructure subject to state interception without knowing the compromise exists.",
+      "detail": "Captive switching cost means the nominal custodian cannot escape the custody defeat because they do not know it exists. Even if they suspected interception, alternative infrastructure may be equally compromised by the same or different state actors. The captivity is informational and structural, not merely contractual, making it uniquely difficult to escape. Captive switching demonstrates that custody defeat through state access creates the most complete form of information-asymmetric lock-in."
+    },
+    "Exit": {
+      "value": "Derived artifacts survive",
+      "memo": "Even if the interception is discovered and nominal custody is restored, derived intelligence artifacts survive in state classified holdings indefinitely and irreversibly.",
+      "detail": "Derived artifacts survive means intelligence products, analytical profiles, and derived insights persist in state holdings after any custody restoration. The state retains everything it learned from the intercepted data regardless of any subsequent legal or technical remediation. This permanence means the custody defeat cannot be meaningfully reversed once it has occurred. Derived artifact survival demonstrates that custody defeat through state interception creates irreversible information asymmetry."
+    },
+    "Acceptance Basis": {
+      "value": "Outcome-sufficient",
+      "memo": "The intercepting party operates on outcome logic; access is the goal and method is irrelevant to the exercising party.",
+      "detail": "State actors and adversaries pursuing interception do not require process-legitimacy to act. Access is the objective, and the means of achieving it are secondary to the party exercising the capability. This creates an asymmetry where the target demands process-legitimacy but the interceptor operates purely on outcomes. The acceptance basis is inherently adversarial and does not seek external validation."
+    }
+  }
+}

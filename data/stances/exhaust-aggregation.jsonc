@@ -1,0 +1,352 @@
+{
+  "id": "exhaust-aggregation",
+  "name": "Aggregation paradox",
+  "desc": "Aggregation creates monopoly even when regulation intended openness, because platform-scale combination of data from many sources creates market power that individual data access rights cannot counteract.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "Aggregation paradox operates at frontier capability where scale-driven processing creates aggregate intelligence that smaller systems cannot produce.",
+      "detail": "Frontier capability enables the sophisticated aggregation that creates market power through superior analytical combination of diverse inputs. The scale of processing required to aggregate effectively demands frontier-level compute and model capability. Frontier systems can detect patterns across aggregated datasets that smaller models miss entirely. The capability level determines whether aggregation creates genuine market power or merely collects data."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "General domain breadth enables the aggregation paradox because cross-domain data combination creates insights unavailable from any single domain or source.",
+      "detail": "General breadth means the aggregator combines data across every domain, creating comprehensive intelligence that domain-specific actors cannot match. Cross-domain aggregation is where the paradox emerges: mandated openness in each domain enables monopoly through combination. The general breadth creates the comprehensive view that makes the aggregated product more valuable than any individual contribution. Domain breadth determines the scope and severity of the aggregation-driven monopoly."
+    },
+    "Capability Trajectory": {
+      "value": "Rapid",
+      "memo": "Rapid capability trajectory strengthens the aggregation paradox because improving analytical capability continuously extracts more value from the same aggregated datasets.",
+      "detail": "Rapid trajectory means each model improvement discovers new aggregation value from existing datasets without requiring new data sources. The acceleration compounds aggregation advantage because better models produce better aggregate intelligence from unchanged inputs. Rapid improvement widens the gap between the aggregator's analytical capability and individual data contributors. The trajectory determines how quickly aggregation power concentrates and how fast competitive positions become unassailable."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted research enables the aggregator to discover new combination patterns and cross-source insights that human analysis alone could not identify.",
+      "detail": "AI-assisted research means models help identify aggregation opportunities and cross-source combination strategies that create maximum value. Human strategists guide the aggregation direction while AI discovers specific patterns and value extraction methods. The combination enables aggregation at sophistication and scale that neither humans nor machines alone could achieve. AI assistance in aggregation compounds the market power that the paradox describes."
+    },
+    "Unhobbling": {
+      "value": "Workflow agent",
+      "memo": "Workflow-agent unhobbling enables automated aggregation pipelines that continuously collect, combine, and distribute aggregate intelligence across multiple data sources.",
+      "detail": "Workflow agent means the system coordinates multi-step aggregation processes across diverse data sources and analytical tasks. The agent manages the complete aggregation workflow from data collection through combination to product distribution. Workflow-level automation enables the scale of aggregation that creates market power. The unhobbling level determines the operational capability and throughput of the aggregation engine."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Many copies of aggregation systems operate in parallel across different data domains and geographies, building comprehensive coverage that creates market dominance.",
+      "detail": "Many copies means aggregation systems run simultaneously across different data domains, markets, and geographic regions. This parallel operation enables comprehensive data coverage that individual or regional actors cannot match. The replication scale is what transforms aggregation from useful tool into market-dominant platform. Many-copy aggregation is the mechanism through which the paradox of regulated openness creating monopoly emerges."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Faster-than-human aggregation speed means the platform processes, combines, and distributes aggregate intelligence before individual data producers can respond.",
+      "detail": "Faster-than-human speed means the aggregator processes and combines data faster than individual contributors can monitor or counteract. By the time data producers recognise the aggregation dynamic, the platform has already established market dominance. Speed asymmetry between aggregation and producer response is a key mechanism of market power accumulation. The speed advantage means the aggregation paradox compounds before any regulatory or competitive response can form."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "The aggregation paradox operates in the cognitive domain where data combination and analytical processing create the market power that physical assets cannot match.",
+      "detail": "Cognitive-only means the monopoly power comes from information aggregation and analysis rather than physical asset control. The paradox is specifically about how information combination creates market power that physical-world competition cannot erode. Cognitive-only focus demonstrates that the aggregation paradox is an information economics phenomenon. The market power is created through data processing, not through physical infrastructure dominance."
+    },
+    "Role": {
+      "value": "Workflow owner",
+      "memo": "The aggregation platform functions as a workflow owner that controls the complete data collection, combination, analysis, and distribution pipeline creating market power.",
+      "detail": "Workflow owner role means the aggregator controls the entire aggregation process from data collection through combination to product distribution. The platform does not merely assist with aggregation but owns and operates the complete analytical workflow. Workflow ownership is what creates the market power because the aggregator controls access to the combined intelligence. The role determines whether aggregation serves individual users or creates platform-dominant market positions."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Aggregation operates through digital action channels where platform-scale data combination and distribution creates market dominance through information processing.",
+      "detail": "Digital action means the aggregator creates market power through computational combination and distribution of information. The actuation is entirely through data processing and analytical product distribution channels. Digital aggregation at platform scale creates market dominance that physical distribution networks could not achieve. The actuation channel is where the aggregation paradox manifests as real economic market power."
+    },
+    "Autonomy": {
+      "value": "Exception-supervised",
+      "memo": "Aggregation systems operate with exception supervision where automated collection and combination runs continuously with human oversight for quality and compliance anomalies.",
+      "detail": "Exception-supervised autonomy means aggregation pipelines operate continuously with human analysts reviewing flagged quality and compliance issues. The automation enables the scale and speed of aggregation that creates market dominance. Exception supervision balances operational throughput with compliance and quality governance. The autonomy level enables sustained platform-scale aggregation without requiring human approval for each data combination."
+    },
+    "Delegated Authority": {
+      "value": "Operational mandate",
+      "memo": "Aggregation platforms receive operational mandates through regulatory open-access requirements that grant broad authority to collect and combine data from mandated sources.",
+      "detail": "Operational mandate means the aggregator operates under regulatory frameworks that mandate data access for specified purposes. The mandate provides legitimate authority for data collection that individual negotiations could not achieve. Regulatory mandates intended to promote competition instead provide the aggregation authority that creates monopoly. Operational mandate through regulation is the mechanism that creates the paradox of openness enabling concentration."
+    },
+    "Tool Access": {
+      "value": "Broad toolchain",
+      "memo": "Aggregation platforms access broad toolchains spanning data collection APIs, analytical processing engines, distribution systems, and cross-source combination capabilities.",
+      "detail": "Broad toolchain means the aggregator accesses diverse data sources, analytical tools, and distribution channels across the entire data ecosystem. The breadth of access enables the comprehensive aggregation that creates market dominance. Each additional tool and data source strengthens the platform's aggregate intelligence and market position. Broad toolchain access is the operational infrastructure of the aggregation paradox."
+    },
+    "Response / Intervention Capability": {
+      "value": "Defined escalation",
+      "memo": "Aggregation platforms have defined escalation procedures for handling data quality issues, source disputes, and compliance challenges through structured governance processes.",
+      "detail": "Defined escalation means clear procedures exist for handling data quality problems, source access disputes, and regulatory compliance questions. The escalation paths assign responsibility and timeline for resolution through institutional governance processes. Defined escalation demonstrates that aggregation operates within institutional governance even when creating market power. The escalation framework manages the operational challenges of platform-scale data aggregation."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Enterprise command means the aggregation platform's corporate leadership determines aggregation scope, market strategy, and how regulatory openness is commercially exploited.",
+      "detail": "Enterprise command means corporate strategy drives decisions about what data to aggregate, how to combine it, and how to distribute the result. The enterprise decides which mandated access rights to exploit and how aggressively to pursue aggregation-driven market power. Enterprise command determines whether aggregation serves broad market benefit or narrow platform enrichment. Corporate strategy over aggregation is what converts regulatory openness into commercial monopoly."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Aggregation strategy follows product-cycle tempo as the platform develops new combination products and expands its aggregation scope through normal business planning.",
+      "detail": "Product cycle tempo means aggregation strategy evolves through normal corporate planning and product development cycles. New aggregation products are developed, tested, and launched according to standard product management timelines. The tempo reflects that aggregation monopoly develops gradually through sustained commercial execution rather than sudden breakthrough. Product-cycle governance enables strategic development of the aggregation capability and market position."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Product teams make the tradeoffs between aggregation scope, competitive impact, regulatory compliance, and market strategy that shape the paradox dynamics.",
+      "detail": "Product team authority means engineers and product managers make practical tradeoffs in aggregation strategy. These include decisions about what sources to combine, how aggressively to exploit mandated access, and how to position aggregate products. Product team decisions determine whether aggregation produces broad market benefit or concentrated platform power. The tradeoff authority shapes how the aggregation paradox manifests in specific market contexts."
+    },
+    "Permission": {
+      "value": "Broad",
+      "memo": "Aggregation platforms operate under broad permission granted by open-access regulations that mandate data availability without anticipating aggregation-driven monopoly consequences.",
+      "detail": "Broad permission means regulatory frameworks grant extensive data access rights intended to promote competition and market openness. The broad permission was designed to enable individual access but inadvertently enables platform-scale aggregation. The permission is legally sound because the regulations mandated exactly this kind of open access. Broad permission through regulation is the legal foundation that makes the aggregation paradox possible."
+    },
+    "Regulatory Posture": {
+      "value": "Mandated open",
+      "memo": "Aggregation exploits mandated-open regulatory posture where forced data sharing creates the input availability that enables platform-scale monopolistic combination.",
+      "detail": "Mandated open regulation means data availability is legally required to promote competition, access, and market function. The mandated openness provides the aggregator with guaranteed access to data from multiple sources without negotiation friction. The paradox emerges because mandated openness enables aggregation that concentrates rather than distributes market power. Mandated-open regulation creating monopoly through aggregation is the regulatory failure the stance highlights."
+    },
+    "Data Availability": {
+      "value": "Open/available",
+      "memo": "Data availability is open because regulation mandates it, creating the paradoxical condition where mandated openness enables aggregation-driven market concentration.",
+      "detail": "Open/available data means anyone can access the data, including platform-scale aggregators. The openness was intended to enable individual competition but platform-scale players can combine open data far more effectively than individual actors. Open availability is the necessary precondition for the aggregation paradox because it eliminates access barriers. The openness that was meant to prevent monopoly through data hoarding instead enables monopoly through data combination."
+    },
+    "Provenance": {
+      "value": "Mixed/declared",
+      "memo": "Aggregated data has mixed provenance combining inputs from diverse mandated, licensed, and public sources into products whose origins are difficult to untangle.",
+      "detail": "Mixed/declared provenance means the aggregated product combines data from many sources with varying levels of attribution and origin documentation. The mixed character makes it difficult for individual data producers to trace their contribution to aggregate products. Declared provenance at the source level does not translate to verifiable provenance at the aggregate product level. Mixed provenance in aggregate products obscures the individual contributions that regulation intended to empower."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Aggregation platform access is hosted-only, ensuring users interact through the platform's interface where the aggregation creates market power through controlled access.",
+      "detail": "Hosted-only access means users access aggregate intelligence through the platform's controlled interface rather than downloading raw data. The hosting arrangement enables the platform to control access, pricing, and presentation of aggregate products. Hosted-only access prevents users from replicating the aggregation independently. Model-weight rights determine whether the aggregation capability can be replicated by competitors."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Aggregation operates cross-border because data mandates in one jurisdiction enable global aggregation that creates market power across multiple jurisdictions simultaneously.",
+      "detail": "Cross-border territory means aggregation combines data from multiple jurisdictions where different mandated-access regulations apply. The platform exploits the most permissive jurisdiction's access mandates to build aggregate products with global market relevance. Cross-border aggregation creates market power that no single jurisdiction can effectively regulate alone. The territorial complexity makes regulatory response to the aggregation paradox jurisdictionally challenging."
+    },
+    "Data Subject Exposure": {
+      "value": "Low-identifiability",
+      "memo": "Aggregated products typically have low individual identifiability because the combination process creates pattern-level intelligence from individual-level inputs.",
+      "detail": "Low-identifiability means aggregate products abstract individual-level data into pattern and statistical representations. The aggregation process itself acts as a form of de-identification even when individual inputs contain personal data. This low identifiability in aggregate products complicates individual data protection claims and regulatory enforcement. Low identifiability makes the aggregation paradox harder for data protection frameworks to address."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Aggregated intelligence has commercial confidential sensitivity because combined market data reveals competitive dynamics invisible from any individual data source alone.",
+      "detail": "Commercial confidential sensitivity means the aggregate product contains valuable competitive intelligence that the aggregator protects as proprietary. The combined market view reveals dynamics that individual data producers cannot see from their own data alone. This informational advantage is what creates the market power that the paradox describes. Commercial confidential aggregate intelligence is the product that makes aggregation-driven monopoly commercially valuable."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Aggregation of mandated-open data typically involves no export control issues because the inputs are publicly or regulatorily available commercial data.",
+      "detail": "No control exposure means the aggregated data falls outside export control regimes because it consists of commercially available mandated-open inputs. The absence of control obligations simplifies cross-border aggregation and global product distribution. No control issue keeps the stance focused on the market-power paradox rather than regulatory compliance complexity. The uncontrolled character of inputs enables the frictionless aggregation that creates the paradox."
+    },
+    "Processing Mode": {
+      "value": "Retrieval/embedding",
+      "memo": "Aggregation uses retrieval and embedding processing to combine diverse data sources into unified analytical representations that create market-dominant intelligence products.",
+      "detail": "Retrieval/embedding processing means diverse inputs are transformed into unified analytical representations that enable cross-source intelligence. The processing mode creates the combined analytical view that makes aggregate products more valuable than individual sources. Embedding-based combination enables semantic cross-referencing that simple data collection cannot achieve. The processing mode is the technical mechanism that transforms mandated openness into aggregation-driven market power."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Aggregation creates derived outputs where the combined product has independent market value that exceeds the sum of its individually mandated open-access inputs.",
+      "detail": "Derived outputs from aggregation have independent commercial value that no individual input source can claim or replicate. The derivation is through combination and cross-referencing rather than through transformation of individual inputs. Derived aggregate outputs are where the monopoly power manifests as a product that competitors cannot match. The derived character of aggregate products is what makes them defensible against individual-source competition."
+    },
+    "Retention / Persistence": {
+      "value": "Persistent memory/traces",
+      "memo": "Aggregated data is persistently retained as the platform's proprietary intelligence asset, accumulating value over time through continuous addition of newly mandated inputs.",
+      "detail": "Persistent retention means the aggregated dataset grows continuously as new mandated data becomes available and is incorporated. The persistent corpus becomes more valuable with each addition because cross-referencing opportunities multiply with data volume. Persistence enables longitudinal analysis and trend detection that ephemeral access cannot support. The retained aggregate corpus is the platform asset that creates and sustains the monopoly position."
+    },
+    "Execution / Residency Environment": {
+      "value": "Public cloud",
+      "memo": "Aggregation operates on public cloud infrastructure where scalable compute enables cost-effective combination of large-scale mandated-open data from multiple sources.",
+      "detail": "Public cloud provides the scalable compute needed for platform-scale aggregation without dedicated infrastructure investment. Cloud elasticity enables the platform to scale aggregation processing with data volume growth. The cloud environment provides the economics that make platform-scale aggregation commercially viable. Public cloud execution keeps aggregation costs manageable relative to the monopoly value being created."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Shared service boundary enables the aggregation paradox because all mandated-open data flows through the platform's infrastructure where combination creates monopoly value.",
+      "detail": "Shared boundary means the platform processes all mandated-open data through its combined analytical infrastructure. The sharing enables cross-source combination that creates products individual sources cannot replicate. The shared boundary is the architectural foundation of the aggregation paradox. All mandated-open data flowing through one platform is what converts regulated openness into platform-controlled monopoly."
+    },
+    "Deployment Surface": {
+      "value": "Public-facing",
+      "memo": "Aggregation platforms deploy as public-facing services where anyone can access aggregate intelligence, creating the market dominance that the paradox describes.",
+      "detail": "Public-facing deployment means the aggregated intelligence is available to any customer through the platform's commercial interface. The public surface maximises the market reach and commercial value of the aggregated product. Public deployment demonstrates that the monopoly operates through market dominance rather than access restriction. The public-facing character is what makes the aggregation paradox a market-structure problem rather than a data-access problem."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Commercial cloud infrastructure provides the cost-effective platform for aggregation at the scale that creates market dominance from mandated-open data sources.",
+      "detail": "Commercial cloud means the aggregation platform uses standard cloud infrastructure for both processing and distribution. Cloud economics enable the scale of aggregation that creates market power without requiring platform-specific infrastructure investment. Commercial cloud keeps the cost basis low relative to the monopoly value of aggregate products. The infrastructure economics determine the commercial viability of platform-scale aggregation."
+    },
+    "Model Sourcing": {
+      "value": "In-house/orchestrated",
+      "memo": "In-house model sourcing ensures the aggregator controls the combination methodology, keeping the analytical techniques that create market power proprietary and exclusive.",
+      "detail": "In-house/orchestrated sourcing means the aggregator controls the models and algorithms that perform the combination and cross-referencing. Proprietary aggregation methodology is part of the competitive advantage because it determines what combination value can be extracted. In-house control prevents competitors from replicating the specific analytical techniques that create monopoly value. The sourcing model protects the aggregation capability that creates the market-dominant position."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Committed compute capacity supports sustained aggregation operations that continuously process and combine mandated-open data at platform-dominant commercial scale.",
+      "detail": "Committed capacity means the platform maintains dedicated compute for continuous aggregation pipeline operation. The commitment ensures reliable aggregation throughput for the commercial products that sustain the platform's market position. Committed capacity economics amortize across the aggregation product revenue stream. The compute commitment enables the sustained platform-scale operation that maintains market dominance."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "Preferred cloud partner dependency provides the stable infrastructure platform for sustained aggregation operations and market-dominant product distribution channels.",
+      "detail": "Preferred partner dependency means the aggregator uses a specific cloud platform for aggregation infrastructure and product distribution. The partnership provides stability, pricing, and integration needed for sustained platform-scale aggregation operations. Preferred partner status enables infrastructure optimization for aggregation workloads. Cloud dependency for aggregation is an infrastructure choice supporting the platform's market-dominant position."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "Standard merchant Nvidia GPUs provide the processing power for platform-scale aggregation and analytical combination of mandated-open data sources.",
+      "detail": "Nvidia GPU merchant hardware provides the standard processing platform for large-scale data aggregation and analytical combination. The aggregation workload is computationally intensive but does not require custom silicon for competitive advantage. Standard GPUs keep infrastructure costs manageable relative to the market value of aggregate intelligence products. The accelerator stack is a cost factor rather than a strategic differentiator for the aggregation platform."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Aggregation faces standard accelerator supply constraints that may limit processing scale but do not fundamentally affect the market-power concentration dynamics.",
+      "detail": "Accelerator supply constraints may limit the pace of aggregation scaling but do not change the fundamental market dynamics. The aggregation paradox operates through data combination logic rather than raw compute advantage. Supply constraints affect processing speed but not the structural market power that aggregation creates. The silicon bottleneck is a scaling constraint rather than a viability constraint for aggregation-driven monopoly."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "Customers become locked into the aggregation platform because no alternative can replicate the comprehensive combined intelligence the platform-scale aggregator provides.",
+      "detail": "Locked-in substitutability means customers depend on the platform's aggregate intelligence with no viable alternative available. Individual data sources cannot replicate the combined analytical view that platform-scale aggregation creates. The lock-in is created by the aggregation itself, not by contractual or technical restrictions. Locked-in customers demonstrate the market power that the aggregation paradox creates from mandated openness."
+    },
+    "Vertical Integration": {
+      "value": "Stack-integrated",
+      "memo": "Stack-integrated aggregation controls the complete pipeline from mandated data collection through analytical combination to aggregate product distribution and customer access.",
+      "detail": "Stack-integrated means the aggregator operates both the data collection infrastructure and the aggregate product distribution channels. This integration enables seamless operation from mandated-data ingestion through combination to customer-facing delivery. Vertical integration captures value at both the aggregation and distribution stages of the value chain. Stack integration is the organizational architecture that maximises aggregation-driven market power."
+    },
+    "Distribution Channel": {
+      "value": "Platform default",
+      "memo": "Platform default distribution means the aggregate intelligence becomes the standard market resource, creating dependency that individual data sources cannot counteract.",
+      "detail": "Platform default distribution means customers access aggregated intelligence as the standard market resource rather than accessing individual sources. The platform becomes the default access point for information that regulation intended to be openly distributed. Default platform status creates the market dominance that the aggregation paradox describes. Platform default distribution demonstrates how aggregation converts regulated openness into platform-controlled market structure."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "Aggregation platform infrastructure typically resides in a single domestic jurisdiction even when aggregating data from mandated sources across multiple territories.",
+      "detail": "Domestic jurisdiction means the aggregation processing occurs within the platform's home jurisdiction. This simplifies regulatory compliance for the aggregation process itself even when mandated inputs come from multiple jurisdictions. Domestic processing of cross-jurisdictional mandated data creates the jurisdictional asymmetry that complicates regulatory response. The supply jurisdiction determines which legal framework governs the aggregation operation."
+    },
+    "Observability": {
+      "value": "Declared",
+      "memo": "Aggregation observability is declared by the platform but not independently verifiable, with the aggregator describing methodology without enabling external verification.",
+      "detail": "Declared observability means the platform describes its aggregation methodology and data handling practices without external verification. Individual data producers and regulators must take the platform's declarations on trust without independent access. Declared observability is more transparent than opaque but still insufficient for effective regulatory oversight. The gap between declared and verifiable observability shields the aggregation methodology from scrutiny."
+    },
+    "Evaluation": {
+      "value": "Domain evals",
+      "memo": "Aggregation quality is assessed through domain-specific evaluations comparing aggregate products against individual sources and market information requirements.",
+      "detail": "Domain evaluations mean the aggregated products are assessed against domain-specific quality standards and market requirements. The evaluation compares aggregate product quality against individual source alternatives and customer needs. Domain-specific evaluation provides meaningful quality assessment without exposing proprietary aggregation methodology. Domain evals demonstrate that aggregate products can be objectively assessed for market fitness."
+    },
+    "Interpretability": {
+      "value": "Reasoning hidden",
+      "memo": "The aggregation platform's combination reasoning is hidden, with customers receiving aggregate products without visibility into how individual sources contributed.",
+      "detail": "Reasoning hidden means customers see aggregate intelligence products without understanding how individual data sources were combined. The combination methodology, weighting decisions, and cross-referencing logic are all proprietary and opaque. Hidden reasoning prevents competitors from replicating the aggregation and prevents data producers from assessing their contribution. Reasoning opacity is a competitive moat that protects the aggregation methodology creating the monopoly."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Enterprise-grade security protects the aggregation platform's combined datasets and proprietary combination methodology as commercially valuable competitive assets.",
+      "detail": "Enterprise-grade security means the aggregate datasets and combination methodology receive professional protection as proprietary assets. The security investment protects against competitor theft of the combined intelligence and aggregation techniques. Enterprise-grade is appropriate because the data is commercially valuable but not classified or defence-grade. Security investment scales with the market value of the aggregate product portfolio."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Aggregation platforms face criminal and state-adjacent adversaries who would value comprehensive market intelligence that cross-source aggregation uniquely provides.",
+      "detail": "Criminal/state-adjacent adversary model means the aggregate intelligence portfolio is a target for sophisticated theft or espionage. The comprehensive market view from cross-source aggregation has significant intelligence value to adversaries. State-adjacent actors may seek access for economic intelligence or market manipulation purposes. The adversary model determines security investment to protect the market-dominant aggregate position."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "Role-based access control governs internal access to aggregate datasets and combination methodology, limiting who within the platform can access monopoly-creating assets.",
+      "detail": "RBAC access control means internal access to aggregate datasets and combination techniques is governed by role-based permissions. The controls protect the combination methodology from internal leakage and ensure aggregate products are accessed by authorized teams only. RBAC provides basic governance while maintaining operational flexibility for platform-scale aggregation. Role-based controls balance operational needs with protection of the assets creating market power."
+    },
+    "Monitoring Scope": {
+      "value": "Tool activity",
+      "memo": "Monitoring covers tool activity across the aggregation pipeline, tracking collection, combination, and distribution to ensure quality and regulatory compliance.",
+      "detail": "Tool activity monitoring means the platform tracks data collection, combination processing, and product distribution across the aggregation pipeline. The monitoring ensures quality standards and regulatory compliance across the entire aggregation operation. Activity-level monitoring provides the operational visibility needed for platform governance at scale. Tool activity monitoring supports both internal quality management and external regulatory compliance."
+    },
+    "Containment": {
+      "value": "Policy-only",
+      "memo": "Aggregation containment is policy-only, with the platform's own policies governing data combination scope rather than architectural limits on aggregation activity.",
+      "detail": "Policy-only containment means the platform's corporate policies determine what aggregation is performed rather than technical enforcement. No architectural barriers prevent the platform from expanding aggregation scope beyond initial mandated data sources. Policy containment enables the flexibility to exploit new mandated-access opportunities as regulations expand. The policy-only character means aggregation scope is limited only by corporate decision and regulatory mandate."
+    },
+    "Capability Limitation": {
+      "value": "None",
+      "memo": "No capability limitation constrains aggregation because mandated open access provides unlimited authority to collect and combine available data from all mandated sources.",
+      "detail": "No capability limitation means the platform can aggregate any mandated-open data without architectural restriction on combination scope. The absence of limitation is enabled by broad regulatory mandates that grant comprehensive data access rights. No technical or regulatory mechanism limits how many sources can be combined or what patterns can be extracted. Unlimited aggregation capability from mandated access is the technical expression of the openness-to-monopoly paradox."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "The aggregation paradox operates in civilian use class where commercial data markets and regulatory mandates create the conditions for platform-scale monopoly formation.",
+      "detail": "Civilian use class means the aggregation paradox manifests in commercial markets regulated by open-access mandates. The analysis is about market structure and competitive dynamics rather than military or national security applications. Civilian context determines the regulatory framework and competitive dynamics that create the paradox. Civilian use class demonstrates that monopoly through aggregation is a commercial market-structure phenomenon."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "The aggregation paradox creates information-channel market harm where platform-scale combination concentrates analytical power and distorts competitive market dynamics.",
+      "detail": "Information harm channel means the primary effect is through market power concentration and competitive distortion rather than physical harm. The harm operates through information asymmetry between the aggregator and individual market participants. Platform-scale aggregate intelligence creates market advantages that individual participants cannot counteract through their own data. Information-channel market harm is how the aggregation paradox manifests as anti-competitive market structure."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "Aggregate intelligence proliferates through licensed commercial distribution from the platform, with the aggregator controlling the diffusion rate, terms, and pricing.",
+      "detail": "Licensed diffusion means aggregate products spread to customers through commercial licensing controlled by the platform. The aggregator determines access terms, pricing, and distribution scope as a commercial monopolist. Licensed diffusion enables monetisation while maintaining control over who accesses the aggregate intelligence. The distribution model determines how the aggregation monopoly is commercially exploited across the market."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "The aggregation paradox is typically a single-firm phenomenon where one platform captures aggregation value from many mandated-open data sources without rival competition.",
+      "detail": "Single firm coalition means one platform dominates the aggregation market through scale advantages that competitors cannot match. The single-firm structure is the monopoly outcome that the paradox describes. Network effects and data combination advantages create winner-take-most dynamics in aggregation markets. Single-firm dominance through aggregation is the market outcome that regulation intended to prevent but inadvertently enabled."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No nonproliferation regime governs data aggregation markets, leaving the concentration of analytical market power entirely unregulated by specific control frameworks.",
+      "detail": "No nonproliferation regime means there are no specific controls on the concentration of analytical market power through data aggregation. General competition law may eventually apply but no specific framework addresses aggregation-driven monopoly. The regulatory vacuum enables unrestricted aggregation market power concentration. No regime is the governance failure that allows the aggregation paradox to persist."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Aggregated data has accretive dynamics where each additional mandated source strengthens the platform's market position and widens the gap against potential competitors.",
+      "detail": "Accretive/fortifying dynamics mean each new data source added to the aggregation strengthens the platform's monopoly position. The cross-referencing value increases super-linearly with each additional source because combination opportunities multiply. The accretive character means the first-mover aggregator builds advantages that compound over time. Accretive dynamics drive the winner-take-most market structure that the aggregation paradox produces."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Mandated-open data has fixed zero or minimal access cost, providing the aggregator with free inputs that it transforms into monopoly-priced aggregate products.",
+      "detail": "Fixed minimal input price means the aggregator accesses mandated-open data at near-zero marginal cost. The gap between free mandated inputs and monopoly-priced aggregate outputs is the economic measure of the paradox. Mandated openness intended to reduce market power instead provides free inputs for monopoly product creation. Fixed near-zero input cost from mandated access is the economic foundation of the aggregation paradox."
+    },
+    "Output Allocation": {
+      "value": "Claimed derivatives",
+      "memo": "The aggregator claims all aggregate products as proprietary derivatives, asserting ownership over combinations created from data that regulation mandated be openly available.",
+      "detail": "Claimed derivatives means the aggregator asserts proprietary ownership of all products created by combining mandated-open data. Individual data producers receive no share of the aggregate product value despite their data being a mandated contribution. The claimed-derivative allocation is the ownership mechanism of the aggregation paradox. Proprietary claims over combinations of open data is the legal expression of the openness-to-monopoly dynamic."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "The aggregation platform captures all derived value from combining mandated-open data, returning nothing to the individual data producers whose inputs created the aggregate.",
+      "detail": "Processor captures means all commercial value from aggregate intelligence products accrues to the platform with no return to data producers. This one-sided capture is the economic centre of the aggregation paradox that the stance describes. The capture is enabled by mandated-open access, proprietary combination methodology, and market dominance operating together. Processor capture of aggregate value is the defining economic outcome of the aggregation paradox."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "The aggregation platform disclaims risk for aggregate products while data producers bear the competitive consequences of having their data aggregated against them.",
+      "detail": "Disclaimed risk means the aggregator accepts no liability for competitive harm that aggregate products create for individual data producers. Data producers bear the risk that their mandated-open data is aggregated into products that compete with their own market position. The risk asymmetry mirrors the value asymmetry of the aggregation paradox. Disclaimed risk demonstrates the complete absence of reciprocity in the aggregation relationship."
+    },
+    "Capital": {
+      "value": "Project",
+      "memo": "Aggregation platform development requires project-level capital investment in collection infrastructure, combination systems, and market-dominant product distribution channels.",
+      "detail": "Project capital means the aggregation platform requires dedicated investment in data collection, analytical combination, and distribution infrastructure. This investment is more than operating expenditure but creates the platform capability that generates monopoly value. Project capital covers data pipeline development, analytical engine construction, and customer-facing distribution systems. The capital investment creates the platform that converts mandated openness into commercial monopoly."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "Aggregation platforms require multi-year commitment because building market-dominant aggregate products and customer relationships takes sustained investment and operation.",
+      "detail": "Multi-year commitment means the aggregation platform develops its market-dominant position over extended commercial timescales. Customer relationships, aggregate product quality, and comprehensive data coverage all require sustained investment. The multi-year tenor reflects that monopoly through aggregation develops gradually through compounding advantage. Long-term commitment enables the accumulation and customer relationship building that creates durable market dominance."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "Aggregate intelligence becomes core revenue for the platform, creating total dependency on the aggregation monopoly position for commercial viability and institutional survival.",
+      "detail": "Core business dependency means the platform's entire revenue model depends on the aggregation-driven market position. The platform exists to aggregate and has no alternative business model if the monopoly position is challenged. Core dependency creates institutional incentive to defend and extend the aggregation monopoly through every available means. Revenue dependency on aggregation monopoly demonstrates how firmly the paradox becomes embedded in market structure."
+    },
+    "Switching Cost": {
+      "value": "Ecosystem lock-in",
+      "memo": "Customers face ecosystem lock-in because analytical tools, integrations, and workflows are built around the aggregation platform's proprietary intelligence products and formats.",
+      "detail": "Ecosystem lock-in means customers have invested in tools, integrations, and workflows that depend on the platform's specific aggregate products. Switching would require replacing not just the data source but the entire analytical infrastructure built around it. The lock-in extends beyond data access to the complete analytical ecosystem the aggregator has created. Ecosystem lock-in is the market-power expression of how aggregation converts regulated openness into commercial dependency."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Exit from aggregation dependency is capability-entangled because customer workflows, analytical tools, and business processes are built around the platform's proprietary aggregate intelligence.",
+      "detail": "Capability entangled exit means customers cannot cleanly exit the aggregation relationship because their analytical capabilities depend on it. Business processes, analytical tools, and decision frameworks are all built around the platform's aggregate products. Exiting would require rebuilding analytical capability from individual sources at enormous cost and quality loss. Capability entanglement demonstrates how aggregation monopoly creates irreversible market dependency."
+    },
+    "Strategic Lead": {
+      "value": "Decisive lead",
+      "memo": "First-mover aggregators build decisive market leads because accumulated data coverage, analytical methodology, and customer relationships create insurmountable competitive barriers.",
+      "detail": "Decisive lead means the first platform to achieve comprehensive aggregation builds an advantage that competitors cannot practically replicate. The combination of data coverage, analytical sophistication, and customer lock-in creates barriers that new entrants cannot overcome. Decisive lead is self-reinforcing because dominant position attracts more data sources and customers. First-mover aggregation advantage is the market-structure expression of the paradox."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Aggregation markets create competitive race pressure as platforms compete to achieve dominant coverage and market position before regulatory intervention addresses the paradox.",
+      "detail": "Competitive pressure means platforms race to achieve comprehensive aggregation coverage before competitors or regulators can respond. The competition is for data source coverage, analytical capability, and customer relationships that create market dominance. Competitive pressure drives aggressive platform expansion strategies. The race dynamic is commercial but creates real urgency to establish aggregation monopoly before the paradox attracts regulatory attention."
+    },
+    "Acceptance Basis": {
+      "value": "Market-validated",
+      "memo": "Aggregation monopoly validates through market dominance and network effects that confirm structural position.",
+      "detail": "The paradox is that regulation intended to promote openness produced market structures that validate through monopoly. Network effects and market dominance become the acceptance basis for aggregated exhaust data. Clients accept the aggregator not because its process is transparent but because its market position is unassailable. Market validation here is self-reinforcing: dominance begets data volume, which begets further dominance."
+    }
+  }
+}

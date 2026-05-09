@@ -1,0 +1,367 @@
+{
+  "id": "exhaust-manufactured",
+  "name": "Synthetic Exhaust",
+  "desc": "Once exhaust becomes valuable, actors manufacture it deliberately: synthetic data, content farms, click farms, and preference manipulation. The byproduct becomes a product, and the provenance questions that follow undermine the original data market.",
+  "picks": {
+    "Capability Class": {
+      "value": "Tool-grade",
+      "memo": "Synthetic exhaust uses tool-grade systems because the manufacturing process relies on scalable automation rather than frontier analytical capability.",
+      "detail": "Tool-grade capability is sufficient for exhaust manufacturing because the process depends on volume and automation, not analytical sophistication. Content farms and synthetic interaction generators do not need frontier models to produce plausible exhaust at scale. The tool-grade baseline demonstrates that synthetic exhaust is an accessibility problem, not a capability frontier problem. Lower capability systems can produce synthetic exhaust cheaply and at enormous volume."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "Synthetic exhaust spans general domains because content farms and synthetic generators produce data across every topic to maximize coverage and market value.",
+      "detail": "General breadth means synthetic exhaust covers every domain where genuine exhaust has market value. The manufacturers produce synthetic interaction data across topics to match the coverage profile of authentic exhaust datasets. General coverage makes synthetic exhaust harder to distinguish from genuine exhaust through domain-specific analysis. Domain breadth in synthetic exhaust mirrors the general character of the genuine exhaust it imitates."
+    },
+    "Capability Trajectory": {
+      "value": "Rapid",
+      "memo": "Rapid capability trajectory makes synthetic exhaust harder to detect because improving generation quality outpaces improving detection and verification methods.",
+      "detail": "Rapid trajectory means synthetic content generation improves faster than authenticity detection capabilities. Each generation of language models makes synthetic exhaust more convincing and harder to distinguish from genuine interaction data. The rapid improvement creates an arms race between manufacturers and authenticators that manufacturers are currently winning. Rapid trajectory is what makes synthetic exhaust a persistent and worsening problem rather than a temporary challenge."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted generation enables synthetic exhaust at scale, with models producing synthetic interactions that closely mimic genuine human-AI conversation patterns.",
+      "detail": "AI-assisted generation means language models produce the synthetic interactions that constitute synthetic exhaust. The AI tools create plausible conversation patterns, preference signals, and feedback data that resemble authentic user interactions. AI assistance enables exhaust manufacturing at scale and quality levels that human content farms alone could not achieve. AI-generated synthetic exhaust is the self-referential irony where AI tools undermine the data market they created."
+    },
+    "Unhobbling": {
+      "value": "Agentic",
+      "memo": "Exhaust manufacturing uses agentic systems that autonomously generate synthetic interactions, manage accounts, and produce fake preference signals at industrial scale.",
+      "detail": "Agentic unhobbling means the manufacturing systems autonomously operate accounts, generate interactions, and produce synthetic preference signals. The agents manage the complete lifecycle of synthetic exhaust from account creation through interaction to data delivery. Agentic operation enables the scale and persistence that makes synthetic exhaust economically viable. The agentic character transforms exhaust manufacturing from manual fraud to industrial-scale data production."
+    },
+    "Replication Scale": {
+      "value": "Population-scale",
+      "memo": "Synthetic exhaust operates at population-scale replication with thousands of synthetic agents producing fake interactions that contaminate genuine data markets.",
+      "detail": "Population-scale replication means thousands or millions of synthetic agents generate synthetic exhaust simultaneously across platforms. The scale is necessary to produce volumes that are commercially significant in the exhaust market. Population-scale operation makes the synthetic exhaust indistinguishable from genuine data through volume-based statistical blending. The replication scale determines how effectively synthetic exhaust contaminates authentic data streams."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Synthetic exhaust is produced at machine speed, generating synthetic interactions far faster than genuine human-AI interactions naturally accumulate.",
+      "detail": "Faster-than-human speed means synthetic exhaust production outpaces natural interaction data generation. This speed advantage allows manufacturers to flood markets with synthetic data before authenticity verification can keep pace. The speed differential between manufacturing and verification is a key advantage for exhaust manufacturers. Machine-speed production is what makes synthetic exhaust economically competitive with genuine interaction data."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Synthetic exhaust is a cognitive-only phenomenon where synthetic data generation and market contamination occur entirely in the information domain.",
+      "detail": "Cognitive-only means synthetic exhaust exists entirely as information artifacts without physical-world production or distribution. The generation, distribution, and market impact all occur in the digital information domain. Cognitive-only focus demonstrates that the synthetic exhaust problem is purely about information authenticity and provenance. The challenge is information quality, not physical production or distribution."
+    },
+    "Role": {
+      "value": "Agent",
+      "memo": "Synthetic exhaust systems function as autonomous agents operating fake accounts and generating synthetic interactions that mimic genuine users across platforms.",
+      "detail": "Agent role means the manufacturing systems operate independently, managing accounts and producing interactions without per-action human direction. The agents create plausible user personas, generate contextually appropriate conversations, and produce realistic preference signals. Agent role is necessary for the scale and persistence that commercially viable exhaust manufacturing requires. The autonomous agency enables manufacturing operations that human operators could not manually sustain."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Synthetic exhaust operates through digital action channels where synthetic agents create fake accounts, generate interactions, and submit manufactured preference data.",
+      "detail": "Digital action means the manufacturing process operates through platform APIs, web interfaces, and automated account management. The actuation creates digital artifacts that mimic genuine user interactions and are captured by platforms as authentic data. Digital action through manufactured accounts and synthetic interactions is the delivery mechanism for contaminating genuine datasets. The actuation channel determines how synthetic exhaust enters and contaminates real data streams."
+    },
+    "Autonomy": {
+      "value": "Human-out-of-loop",
+      "memo": "Exhaust manufacturing operates with humans out of the loop as automated farms generate synthetic interactions continuously without per-interaction human oversight.",
+      "detail": "Human-out-of-loop autonomy means manufacturing systems produce synthetic exhaust continuously without human involvement in individual interactions. Humans design the manufacturing strategy and systems but the production runs autonomously at scale. The autonomy enables the volume and persistence that makes synthetic exhaust commercially significant. Out-of-loop operation is what distinguishes industrial exhaust manufacturing from artisanal content creation."
+    },
+    "Delegated Authority": {
+      "value": "None",
+      "memo": "Synthetic exhaust operates without legitimate authority because the manufacturing deliberately circumvents platform terms and data authenticity requirements.",
+      "detail": "No delegated authority means the manufacturing operates outside any legitimate authorization framework. The manufacturers do not have permission to create synthetic accounts, generate fake interactions, or contaminate data markets. Operating without authority is the defining characteristic that makes synthetic exhaust a fraud rather than a legitimate data product. The absence of authority distinguishes synthetic exhaust from other forms of synthetic data generation."
+    },
+    "Tool Access": {
+      "value": "Broad toolchain",
+      "memo": "Exhaust manufacturing uses broad toolchains including language models, account generators, proxy networks, browser automation, and payment systems for scaled operation.",
+      "detail": "Broad toolchain means manufacturers access diverse tools for account creation, interaction generation, identity management, and delivery logistics. The toolchain includes AI models, automation frameworks, proxy services, and platform-specific exploitation tools. Broad tool access enables the sophisticated manufacturing operations that produce convincing synthetic exhaust. The toolchain breadth determines the quality and scale of the manufacturing operation."
+    },
+    "Response / Intervention Capability": {
+      "value": "Best-efforts",
+      "memo": "Platform response to synthetic exhaust is best-efforts because detection is imperfect, manufacturing adapts to countermeasures, and complete prevention is infeasible.",
+      "detail": "Best-efforts response means platforms attempt to detect and remove synthetic exhaust but cannot achieve complete prevention. Detection algorithms catch some synthetic content but manufacturers continuously adapt to evade new countermeasures. The response is reactive rather than preventive because manufacturing methods evolve faster than detection. Best-efforts response is the realistic intervention capability against an adversary that continually adapts."
+    },
+    "Command Actor": {
+      "value": "User/informal",
+      "memo": "Synthetic exhaust is commanded by informal user-level actors including content farms, data brokers, and competitive intelligence operations without institutional authority.",
+      "detail": "User/informal command means manufacturing operations are directed by individuals, small firms, and informal organisations. There is no institutional authority or legitimate governance behind the manufacturing operations. The informal command structure makes synthetic exhaust difficult to regulate because there is no accountable institution. User-level command demonstrates that synthetic exhaust is a bottom-up market failure rather than an institutional one."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Synthetic exhaust operations follow product-cycle tempo as manufacturers develop new generation techniques and adapt to evolving platform countermeasures over time.",
+      "detail": "Product cycle tempo means manufacturing methods evolve through iterative development as platforms deploy new detection capabilities. Manufacturers upgrade generation quality, account management, and evasion techniques on regular development cycles. The tempo reflects that manufacturing is a sustained business operation, not a one-time attack. Product-cycle development enables the continuous adaptation that keeps synthetic exhaust commercially viable."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Manufacturing tradeoffs between volume, quality, evasion, and cost are made by production teams optimizing the economics of synthetic exhaust generation.",
+      "detail": "Product team authority means the manufacturing operation's technical team makes tradeoffs between output quality and production economics. These include decisions about generation quality versus volume, evasion sophistication versus cost, and platform targeting strategy. Product team decisions determine the commercial viability and market impact of the synthetic exhaust. The tradeoff authority operates like a normal production business despite the fraudulent nature of the product."
+    },
+    "Permission": {
+      "value": "Excluded",
+      "memo": "Synthetic exhaust is explicitly excluded by platform terms of service and data market rules, making the manufacturing operation a terms-of-service violation by design.",
+      "detail": "Excluded permission means the manufacturing operates in explicit violation of platform terms and data market authenticity requirements. The exclusion is clear and documented in every platform's terms of service and data quality standards. Manufacturing continues despite the exclusion because enforcement is imperfect and the economic incentive is strong. Excluded permission demonstrates that the problem persists despite clear legal and contractual prohibition."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Synthetic exhaust faces conditional regulatory posture where emerging data integrity and AI training data quality regulations increasingly address synthetic contamination.",
+      "detail": "Conditional regulation means emerging regulatory frameworks are beginning to address synthetic data contamination in AI training datasets. The conditions include data provenance requirements, synthetic content labeling mandates, and platform accountability rules. Regulatory response is still developing and enforcement remains weak relative to the scale of manufacturing. Conditional posture reflects the transitional state where regulation is emerging but not yet effective."
+    },
+    "Data Availability": {
+      "value": "Technically accessible",
+      "memo": "Synthetic exhaust is technically accessible through the same channels as genuine data, making it impossible for buyers to distinguish authentic from synthetic without verification.",
+      "detail": "Technically accessible means synthetic exhaust enters data markets through the same channels and formats as genuine interaction data. Buyers cannot distinguish manufactured from authentic data without sophisticated provenance verification capabilities. The technical accessibility of manufactured data is what makes it a market contamination problem. Indistinguishable accessibility demonstrates that data availability without provenance is commercially dangerous."
+    },
+    "Provenance": {
+      "value": "Synthetic/owned",
+      "memo": "Synthetic exhaust has synthetic provenance by definition, but the manufacturing conceals this origin to pass the data as genuine organic human-AI interaction.",
+      "detail": "Synthetic/owned provenance reflects that the data is deliberately created rather than naturally generated through authentic interaction. The manufacturing process conceals the synthetic origin to make the data appear genuine and pass market quality checks. Provenance concealment is the defining deception of synthetic exhaust. The gap between actual synthetic provenance and presented genuine provenance is the fraud that contaminates data markets."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "Manufacturing operations typically use hosted-only model access through platform APIs to generate synthetic interactions that mimic genuine user behavior patterns.",
+      "detail": "Hosted-only access means manufacturers interact with target platforms through the same interfaces as genuine users. The hosted access is what enables manufacturers to generate synthetic interactions that are captured as genuine by the platform. Hosted-only model access provides the manufacturing infrastructure without requiring model weight possession. The hosting arrangement determines the quality and authenticity of the manufactured interactions."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Synthetic exhaust operates cross-border because manufacturing farms locate in permissive jurisdictions while targeting platforms and data markets in regulated territories.",
+      "detail": "Cross-border operation means manufacturing occurs in jurisdictions where enforcement is weak while contaminating data markets in jurisdictions where data has high value. The jurisdictional arbitrage enables manufacturing to continue despite platform prohibitions and emerging regulation. Cross-border operation complicates enforcement because no single jurisdiction can effectively address the complete manufacturing supply chain. Territorial complexity is a strategic advantage for exhaust manufacturers."
+    },
+    "Data Subject Exposure": {
+      "value": "No personal data",
+      "memo": "Synthetic exhaust contains no genuine personal data because the interactions are synthetic, though it may imitate personal data patterns to appear authentic.",
+      "detail": "No personal data exposure reflects that synthetic exhaust is entirely synthetic and contains no actual personal information from real individuals. The manufacturing process may create data that resembles personal information but it is computationally generated rather than collected from real people. This creates an unusual data protection situation where the content looks personal but is actually synthetic. No genuine personal data makes synthetic exhaust a data quality problem rather than a privacy problem."
+    },
+    "Data Sensitivity": {
+      "value": "Ordinary",
+      "memo": "Synthetic exhaust has ordinary sensitivity because the synthetic data itself is not sensitive, even though its market contamination effects are commercially significant.",
+      "detail": "Ordinary sensitivity means the manufactured data itself has no special sensitivity classification or protection requirement. The harm from synthetic exhaust comes from market contamination and model degradation rather than from the sensitivity of the synthetic content. Ordinary sensitivity classification means standard data protection frameworks do not specifically address synthetic exhaust. The mismatch between ordinary sensitivity and significant market harm is part of the regulatory gap."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Synthetic exhaust involves no export control issues because synthetic interaction data is not a controlled technology or sensitive material under any export regime.",
+      "detail": "No control exposure means synthetic exhaust falls entirely outside export control frameworks. The synthetic data is not derived from controlled technology, classified information, or restricted material. No control issue means the manufacturing operates without any export-control friction on production or distribution. The uncontrolled character allows synthetic exhaust to flow freely across borders and markets."
+    },
+    "Processing Mode": {
+      "value": "Inference",
+      "memo": "Synthetic exhaust is produced through inference processing where language models generate synthetic conversations and preference signals that mimic genuine interaction.",
+      "detail": "Inference processing means manufacturers use language model inference to generate the synthetic interactions that constitute synthetic exhaust. Each inference call produces a synthetic conversation, preference signal, or feedback response that mimics genuine user behavior. Inference is the production mechanism that converts compute into synthetic exhaust at marginal cost. The processing mode determines the quality, speed, and cost of synthetic exhaust production."
+    },
+    "Derivation": {
+      "value": "Direct output",
+      "memo": "Synthetic exhaust produces direct synthetic outputs designed to pass as genuine interaction data when incorporated into authentic datasets without detection.",
+      "detail": "Direct output means the manufacturing process produces complete synthetic interactions ready for market without further processing. Each output is a standalone manufactured data point designed to be indistinguishable from genuine organic interaction data. The direct output character means synthetic exhaust enters data markets as finished product. Direct production of market-ready synthetic data is the manufacturing efficiency that makes the operation commercially viable."
+    },
+    "Retention / Persistence": {
+      "value": "Persistent memory/traces",
+      "memo": "Synthetic exhaust persists in contaminated datasets indefinitely because once mixed with genuine data, synthetic content is extremely difficult to retroactively identify and remove.",
+      "detail": "Persistent retention means synthetic exhaust remains in contaminated datasets long after the manufacturing operation ends. Once mixed with genuine data, the synthetic content becomes practically impossible to identify and remove retroactively. Persistence means the contamination is permanent even if the manufacturing is eventually detected and stopped. Persistent contamination demonstrates that synthetic exhaust creates irreversible damage to data market integrity."
+    },
+    "Execution / Residency Environment": {
+      "value": "Distributed",
+      "memo": "Synthetic exhaust operations use distributed infrastructure across multiple jurisdictions and providers to evade detection and maintain operational resilience.",
+      "detail": "Distributed execution means manufacturing operations run across multiple cloud providers, jurisdictions, and infrastructure configurations. The distribution provides operational resilience against platform countermeasures and law enforcement action. Distributed infrastructure makes it harder to shut down manufacturing operations because there is no single point of failure. The execution environment is designed for evasion and persistence rather than for performance optimization."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Synthetic exhaust exploits shared platform boundaries by injecting synthetic data through the same interfaces that genuine users access for authentic interactions.",
+      "detail": "Shared boundary means synthetic exhaust enters platforms through the same shared infrastructure as genuine user interactions. The shared boundary makes it difficult to distinguish manufactured from genuine data at the platform level. Shared infrastructure is the attack surface that enables synthetic exhaust to contaminate authentic datasets. The shared boundary demonstrates that platform architecture designed for genuine users is vulnerable to synthetic injection."
+    },
+    "Deployment Surface": {
+      "value": "Public-facing",
+      "memo": "Synthetic exhaust targets public-facing AI platforms where the open access that enables genuine interaction also enables synthetic injection at scale.",
+      "detail": "Public-facing deployment surface means the target platforms accept interactions from any user including synthetic agents. The public surface that enables broad genuine user access also enables synthetic exhaust injection. Public-facing platforms cannot restrict access sufficiently to prevent synthetic injection without also blocking genuine users. The deployment surface tension between accessibility and authenticity is central to the synthetic exhaust problem."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Manufacturing operations use commodity commercial cloud infrastructure to maintain low production costs and operational flexibility for synthetic exhaust generation.",
+      "detail": "Commercial cloud means manufacturers use standard cloud infrastructure for cost-effective synthetic data production. Cloud elasticity enables scaling manufacturing operations up and down based on market demand and enforcement pressure. Commercial cloud keeps production costs low relative to the market value of the manufactured product. The infrastructure economics determine whether synthetic exhaust is commercially viable at any given market price."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "Manufacturing operations source models from multiple providers to diversify production quality and reduce dependence on any single language model for synthetic generation.",
+      "detail": "Multi-provider sourcing means manufacturers use different language models from various providers for synthetic exhaust generation. Diversification prevents any single model's output patterns from becoming a detectable manufacturing signature. Multiple model sources improve the variety and authenticity of manufactured output. Multi-provider sourcing is the manufacturing strategy that makes synthetic detection through model fingerprinting more difficult."
+    },
+    "Compute Source": {
+      "value": "Rented/spot",
+      "memo": "Manufacturing uses rented spot compute to minimize production costs and maintain operational flexibility for scaling synthetic exhaust generation up and down.",
+      "detail": "Rented/spot compute means manufacturers use the cheapest available compute for synthetic data production. Spot pricing minimises production costs, making synthetic exhaust economically competitive with genuine data at market prices. Rented compute provides operational flexibility to scale production based on market demand without capital commitment. The cost advantage of cheap compute is what makes synthetic exhaust economically viable as a data product."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "Manufacturing operations maintain portable cloud dependency to enable rapid migration between providers when detected and blocked on any specific platform.",
+      "detail": "Portable cloud dependency means manufacturers can move operations between cloud providers without significant switching cost. Portability enables operational resilience against provider-level blocking and enforcement actions. The ability to migrate quickly between providers is an evasion strategy that sustains manufacturing operations. Portable dependency demonstrates that manufacturing operations are designed for persistence despite adversarial pressure."
+    },
+    "Accelerator Stack": {
+      "value": "Alternative GPU (second-source)",
+      "memo": "Manufacturing operations use cheaper alternative GPUs and second-source accelerators to minimise production costs for synthetic exhaust generation at scale.",
+      "detail": "Alternative GPU usage means manufacturers seek the cheapest available accelerator hardware rather than the highest performance. Second-source GPUs provide adequate inference capability for synthetic data generation at lower cost than premium Nvidia hardware. The cost optimization reflects that manufacturing is a cost-sensitive production operation rather than a frontier capability pursuit. Alternative accelerators demonstrate that synthetic exhaust does not require frontier compute infrastructure."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Manufacturing operates with standard market access to compute supply because the production process uses commodity infrastructure without requiring privileged allocation.",
+      "detail": "Market access means manufacturers procure compute through normal commercial channels without special allocation rights. The manufacturing process uses commodity infrastructure that is widely available through standard cloud marketplaces. Market access is sufficient because synthetic exhaust production does not require frontier compute capability. Standard supply access demonstrates that synthetic exhaust is an accessible economic activity, not a capability-constrained one."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Manufacturing faces standard accelerator supply constraints but the low compute requirements mean supply bottlenecks do not materially limit production capacity.",
+      "detail": "Accelerator supply constraints affect synthetic exhaust production less than frontier AI training because the compute requirements are modest. Standard inference hardware is sufficient and widely available for synthetic data generation workloads. Supply bottlenecks may slow scaling but do not create material production limitations for synthetic exhaust. The silicon bottleneck is a minor constraint for manufacturing operations that use commodity infrastructure."
+    },
+    "Substitutability": {
+      "value": "Replaceable",
+      "memo": "Synthetic exhaust producers are individually replaceable because the manufacturing methodology is not proprietary and can be replicated by any actor with basic technical capability.",
+      "detail": "Replaceable substitutability means individual manufacturing operations can be substituted by others with equivalent technical capability. The manufacturing methodology is not proprietary and the tools are widely available. Shutting down one manufacturing operation merely shifts production to replacements. Replaceability demonstrates that synthetic exhaust is a structural market problem, not an individual bad-actor problem."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "Manufacturing operates at the application layer using available tools and infrastructure without requiring any vertical integration into hardware or platform layers.",
+      "detail": "Application-only integration means manufacturing uses commercially available tools and infrastructure at the application level. No vertical integration into hardware, platforms, or infrastructure is needed for synthetic exhaust production. Application-only operation makes manufacturing accessible to small operators without capital for infrastructure investment. The low integration requirement contributes to the ease and proliferation of manufacturing operations."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "Synthetic exhaust is injected through the same API and app channels that genuine users access, making synthetic data indistinguishable from authentic at the entry point.",
+      "detail": "API/app distribution means synthetic exhaust enters platforms through the same programmatic interfaces as genuine interactions. The distribution channel is designed for genuine users but provides equal access to synthetic injection. API-level injection makes synthetic exhaust architecturally indistinguishable from authentic data at the entry point. The distribution channel's inability to distinguish genuine from synthetic is the technical vulnerability manufacturing exploits."
+    },
+    "Supply Jurisdiction": {
+      "value": "Adversary/exposed",
+      "memo": "Manufacturing operations locate in adversary or exposed jurisdictions where weak enforcement and permissive regulation enable sustained synthetic data production operations.",
+      "detail": "Adversary/exposed jurisdiction means manufacturing locates where enforcement against synthetic data production is weakest or nonexistent. Jurisdictional arbitrage enables sustained operations by exploiting weak enforcement in production locations while targeting high-value data markets. The adversary/exposed character makes enforcement against manufacturing a cross-jurisdictional coordination challenge. Exposed supply jurisdiction is a strategic choice that enables persistent manufacturing operations."
+    },
+    "Observability": {
+      "value": "Opaque",
+      "memo": "Synthetic exhaust production is opaque to platforms and data buyers because the synthetic origin is deliberately concealed through evasion and imitation techniques.",
+      "detail": "Opaque observability means the manufacturing process is invisible to the platforms and markets that the synthetic data contaminates. The manufacturers deliberately conceal their operations through evasion techniques, distributed infrastructure, and convincing imitation. Opacity is a designed feature of the manufacturing operation, not an accidental characteristic. Opaque production is the operational security that enables synthetic exhaust to contaminate markets undetected."
+    },
+    "Evaluation": {
+      "value": "Internal tests",
+      "memo": "Manufacturing quality is assessed through internal testing where producers evaluate synthetic data convincingness against genuine interaction samples before market release.",
+      "detail": "Internal tests mean manufacturers evaluate their synthetic output against genuine data samples for convincingness and detectability. The testing is adversarial, specifically designed to ensure the synthetic exhaust passes platform detection systems. Internal evaluation is optimized for evasion rather than data quality or accuracy. Internal testing demonstrates that manufacturers operate as sophisticated adversaries with quality assurance processes."
+    },
+    "Interpretability": {
+      "value": "Reasoning hidden",
+      "memo": "Manufacturing operations hide their reasoning and methodology from platforms, making it difficult to develop targeted detection against specific production techniques.",
+      "detail": "Reasoning hidden means the specific manufacturing techniques, model prompts, and generation strategies are concealed from platforms and buyers. Hidden reasoning prevents platforms from developing targeted countermeasures against specific manufacturing methods. The opacity creates an information asymmetry that favours manufacturers over platform detection teams. Hidden manufacturing reasoning is the adversarial counterpart to the black-box opacity of legitimate AI systems."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "Manufacturing ironically uses the same RLHF-trained models that genuine exhaust was designed to improve, creating a recursive contamination loop in data quality.",
+      "detail": "Prompting/RLHF alignment means manufacturers use commercially available RLHF-trained models to produce the synthetic exhaust. The same alignment method that creates genuine model quality is exploited to produce convincing synthetic imitations of genuine interactions. This creates a recursive contamination loop where improved models enable better manufacturing which degrades future training data quality. The alignment method exploitation is the self-undermining irony of the synthetic exhaust problem."
+    },
+    "Security Posture": {
+      "value": "Startup-grade",
+      "memo": "Manufacturing operations run with startup-grade security because the operators are small-scale actors prioritising production economics over operational security investment.",
+      "detail": "Startup-grade security means manufacturing operations invest minimally in security because the operators are cost-sensitive and small-scale. The manufacturing priority is production efficiency and evasion rather than comprehensive security. Startup-grade security is appropriate because the manufactured product has low intrinsic sensitivity even though its market impact is significant. Low security investment keeps production costs low and contributes to the economic viability of manufacturing."
+    },
+    "Adversary Model": {
+      "value": "Casual misuse",
+      "memo": "Manufacturing operations face casual misuse level adversaries because the operators themselves are the adversaries attacking data market integrity from outside.",
+      "detail": "Casual misuse adversary model reflects that the manufacturing operation itself is the adversary rather than defending against one. The manufacturers face platform detection systems as their adversary but their own security needs are minimal. Casual misuse is the appropriate internal adversary model because the manufactured data has no inherent value worth stealing. The adversary model is inverted because the manufacturing operation is the attack, not the target."
+    },
+    "Weight Security": {
+      "value": "Copyable",
+      "memo": "Manufacturing methodology and tools are freely copyable because the techniques use publicly available models and widely known synthetic data generation approaches.",
+      "detail": "Copyable weight security means the manufacturing capability can be freely replicated by any actor with basic technical skills. The models used for generation are commercially available and the manufacturing techniques are widely documented. Copyability ensures that synthetic exhaust is a structural problem that cannot be solved by shutting down individual operations. The freely replicable nature of manufacturing is what makes the contamination problem persistent."
+    },
+    "Access Control": {
+      "value": "API keys",
+      "memo": "Manufacturing operations use standard API key access to target platforms, exploiting the same authentication mechanisms that genuine users employ for legitimate interactions.",
+      "detail": "API key access means manufacturers use the same authentication mechanisms as genuine users to access target platforms. Platform API keys do not distinguish between genuine and synthetic interaction sources. The standard access control infrastructure provides no barrier to synthetic exhaust injection. API key access demonstrates that current authentication architectures are insufficient to prevent synthetic data contamination."
+    },
+    "Monitoring Scope": {
+      "value": "Outputs",
+      "memo": "Platform monitoring covers only outputs from user interactions, missing the manufacturing origin of synthetic inputs that contaminate the genuine interaction dataset.",
+      "detail": "Output monitoring means platforms track what interactions produce but do not effectively verify whether the inputs were genuine. The monitoring gap between output observation and input authentication is the vulnerability that manufacturing exploits. Output-only monitoring cannot distinguish manufactured from genuine interactions because the outputs look identical. The monitoring scope limitation is the technical vulnerability at the heart of the synthetic exhaust problem."
+    },
+    "Containment": {
+      "value": "None",
+      "memo": "There is no effective containment against synthetic exhaust because the production uses open tools, distributed infrastructure, and standard platform access mechanisms.",
+      "detail": "No containment means there are no effective barriers preventing synthetic exhaust from entering and contaminating data markets. Open tools, commodity infrastructure, and standard platform access create no architectural containment boundary. The absence of containment is what makes synthetic exhaust a market-wide integrity problem rather than an isolated security incident. No containment demonstrates that current data market architecture lacks authenticity enforcement."
+    },
+    "Capability Limitation": {
+      "value": "None",
+      "memo": "No capability limitation constrains synthetic exhaust production because the generation tools and techniques are openly available without any effective access restriction.",
+      "detail": "No capability limitation means anyone with access to language models and basic automation can produce synthetic exhaust. There is no architectural restriction on synthetic data generation capability. The absence of limitation is what makes synthetic exhaust a persistent and scalable market contamination problem. No capability constraint on production ensures the synthetic exhaust problem grows with the overall AI ecosystem."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Synthetic exhaust operates in civilian commercial use class where data market contamination affects AI training quality and commercial data integrity broadly.",
+      "detail": "Civilian use class means synthetic exhaust contamination is a commercial market-integrity problem. The impact is on AI model training quality, data market reliability, and commercial data integrity. Civilian context determines the regulatory framework for addressing synthetic data contamination. Civilian use class keeps the stance focused on commercial data economics and market integrity."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Synthetic exhaust creates information-channel harm where synthetic data contamination degrades model training quality and undermines data market integrity.",
+      "detail": "Information harm channel means the primary damage is through data quality degradation and market integrity erosion. Contaminated training data produces lower-quality models that deliver worse results to end users. Market integrity harm undermines trust in data products and increases costs for authenticity verification. Information-channel harm from synthetic exhaust is the mechanism through which synthetic contamination affects the broader AI ecosystem."
+    },
+    "Proliferation": {
+      "value": "Uncontrolled",
+      "memo": "Synthetic exhaust proliferates uncontrollably because the production techniques are openly available and the economic incentive drives continuous expansion of manufacturing operations.",
+      "detail": "Uncontrolled proliferation means synthetic exhaust production spreads without any effective control mechanism limiting its growth. The tools are open, the techniques are documented, and the economic incentive drives new entrants continuously. Uncontrolled proliferation is what transforms synthetic exhaust from a nuisance into a systemic data market threat. The proliferation rate exceeds any current capacity for detection, enforcement, or prevention."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "Genuine data producers are behind because synthetic exhaust detection technology lags behind generation capability, giving manufacturers persistent quality advantage.",
+      "detail": "Behind strategic lead means authenticity verification technology lags behind synthetic generation capability. Each improvement in language models makes synthetic exhaust more convincing while detection remains behind. The detection deficit means genuine data markets are structurally disadvantaged against manufactured alternatives. Behind status for detection relative to generation is the technological dynamic that sustains the synthetic exhaust market."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Synthetic exhaust creates competitive race pressure between generators improving synthetic quality and platforms developing detection against an adversary that continuously adapts.",
+      "detail": "Competitive pressure means an ongoing arms race between exhaust manufacturers and platform detection systems. Each detection improvement prompts manufacturing adaptation, and each generation improvement challenges existing detection methods. The competitive dynamic ensures neither side achieves decisive advantage. Competitive race pressure between manufacturing and detection is the dynamic that makes synthetic exhaust a persistent problem."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Synthetic exhaust operations are typically single-firm or individual efforts, with many independent producers competing in a fragmented illicit data market.",
+      "detail": "Single firm coalition means individual manufacturing operations compete independently without coordinated industry structure. The fragmented producer landscape makes the synthetic exhaust market harder to address through targeted enforcement. Many independent producers ensure that shutting down individual operations has minimal impact on total market contamination. Single-firm fragmentation demonstrates that synthetic exhaust is a structural market problem rather than an organized crime problem."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No nonproliferation regime governs synthetic exhaust production, leaving the market contamination problem entirely unaddressed by specific international control frameworks.",
+      "detail": "No nonproliferation regime means there are no international agreements or enforcement mechanisms addressing synthetic data market contamination. The regulatory vacuum enables unrestricted manufacturing and cross-border distribution of synthetic data. No framework specifically addresses the authenticity and provenance requirements that would constrain synthetic exhaust. The absence of any regime means synthetic exhaust contamination is a governance gap in the AI data ecosystem."
+    },
+    "Data Value Dynamics": {
+      "value": "Elastic/synthetic",
+      "memo": "Synthetic exhaust exhibits elastic synthetic value dynamics where production can scale infinitely, depressing genuine data market prices through oversupply.",
+      "detail": "Elastic/synthetic dynamics mean synthetic exhaust production can expand without natural limit, creating infinite supply that depresses data market prices. The elastic character means genuine data producers face price competition from unlimited synthetic alternatives. Elastic supply dynamics are what make synthetic exhaust a structural threat to genuine data market economics. Synthetic elasticity demonstrates how manufacturing undermines the scarcity value that genuine exhaust originally possessed."
+    },
+    "Input Price": {
+      "value": "Usage-based",
+      "memo": "Synthetic exhaust production has usage-based input costs determined by compute inference pricing for language model calls used to generate synthetic content.",
+      "detail": "Usage-based input price means manufacturing costs are determined by per-inference compute charges for the language models used for generation. Each synthetic interaction costs a small amount in compute, making the marginal production cost extremely low. Usage-based pricing enables manufacturers to calibrate production volume precisely to market demand and pricing. Low usage-based costs are what make synthetic exhaust economically competitive with genuine interaction data."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "Synthetic exhaust outputs are retained by the manufacturing operation for sale into data markets or direct injection into target platforms as contaminating data.",
+      "detail": "Retained output means manufacturers hold all produced synthetic data for commercial distribution through data markets or direct platform injection. The manufactured product is the operator's inventory, produced for sale or strategic deployment against target platforms. Retained allocation reflects that synthetic exhaust is a commercial production operation with inventory management. The manufactured product is distributed through whatever channels offer the best economic return."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "Synthetic exhaust producers capture all value from synthetic data production, with no return to the genuine data ecosystem their synthetic products contaminate and erode.",
+      "detail": "Processor captures means manufacturers extract all value from synthetic production while imposing negative externalities on genuine data markets. The value capture is entirely one-sided, with manufacturers profiting while data market integrity degrades for everyone else. The genuine data ecosystem bears the contamination costs while manufacturers retain all production revenue. Processor capture of value from manufacturing demonstrates the externality structure of the synthetic exhaust market."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "Manufacturing operations disclaim all risk for data market contamination, operating outside legitimate accountability frameworks without any liability for quality degradation.",
+      "detail": "Disclaimed risk means manufacturers accept no responsibility for the data quality degradation and market contamination their products cause. Operating outside legitimate frameworks means there is no accountability mechanism for the harm synthetic exhaust creates. Risk falls entirely on data buyers, platform operators, and AI developers who train on contaminated datasets. Disclaimed risk demonstrates the complete absence of accountability in the synthetic exhaust market."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "Synthetic exhaust requires only operating capital because the production uses commodity tools and cloud compute with no dedicated capital infrastructure investment needed.",
+      "detail": "Operating capital means manufacturing requires only variable operating expenditure on compute, accounts, and tools. No dedicated capital investment in infrastructure or research is needed to begin and sustain manufacturing operations. Operating-level capital makes synthetic exhaust production accessible to anyone with modest resources. The low capital barrier ensures synthetic exhaust remains a persistent and widespread market problem."
+    },
+    "Commitment Tenor": {
+      "value": "Short-term",
+      "memo": "Synthetic exhaust operates on short-term commitment because operations can start, scale, and cease rapidly without long-term infrastructure or contractual obligations.",
+      "detail": "Short-term commitment means manufacturing operations can begin and end without lasting obligations or infrastructure. The ability to start and stop quickly enables operators to respond to market conditions and enforcement pressure agilely. Short-term tenor makes manufacturing operations resilient because they can reconstitute quickly after disruption. Short commitment enables the operational flexibility that sustains manufacturing despite adversarial enforcement pressure."
+    },
+    "Revenue Dependency": {
+      "value": "Experimental",
+      "memo": "Synthetic exhaust revenue is experimental because the illicit data market is fragmented, volatile, and subject to sudden disruption from platform countermeasures.",
+      "detail": "Experimental revenue means manufacturing income is unreliable and dependent on volatile market conditions and enforcement dynamics. The illicit character of the market means revenue can be disrupted suddenly by platform detection improvements or legal action. Experimental revenue reflects the precarious commercial position of manufacturing operations. Revenue uncertainty limits the scale of individual operations but does not eliminate the market-wide contamination problem."
+    },
+    "Switching Cost": {
+      "value": "Low",
+      "memo": "Synthetic exhaust buyers face low switching costs because synthetic data is commodity-grade and interchangeable between manufacturing operations and sources.",
+      "detail": "Low switching cost means buyers of synthetic exhaust can easily switch between producers or cease purchasing entirely. The manufactured product is commodity-grade and functionally interchangeable regardless of the specific producer. Low switching cost reflects the undifferentiated nature of synthetic exhaust production. The low switching cost means no individual manufacturer has market power, even as the aggregate market causes significant harm."
+    },
+    "Exit": {
+      "value": "Derived artifacts survive",
+      "memo": "Synthetic exhaust contamination survives in training data and model weights even after the manufacturing operation ceases, creating permanent data quality damage.",
+      "detail": "Derived artifacts survive means synthetic contamination persists in datasets and trained model weights after the manufacturing stops. Models trained on contaminated data retain the quality degradation even if the synthetic data is later identified and removed from training sets. The persistence means synthetic exhaust creates permanent damage to data quality and model performance. Derived artifact survival demonstrates that synthetic exhaust contamination is practically irreversible."
+    },
+    "Acceptance Basis": {
+      "value": "Outcome-sufficient",
+      "memo": "Synthetic exhaust validates through commercial value, but the authenticity question hints that process-legitimacy may need to arrive.",
+      "detail": "The commercial value of synthetic exhaust data provides the initial acceptance basis through outcome logic. However, the legitimacy question of whether the exhaust is authentic exposes the limits of pure outcome-sufficiency. As synthetic exhaust scales, buyers will increasingly demand process verification of provenance and methodology. This stance sits at the transition point where outcome-sufficiency begins to require process-legitimacy reinforcement."
+    }
+  }
+}

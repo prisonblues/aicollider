@@ -1,0 +1,347 @@
+{
+  "id": "ai-slop",
+  "name": "AI Slop",
+  "desc": "Near-zero marginal cost of AI-generated content floods information channels, degrades signal quality, contaminates training data, and drives a market-for-lemons dynamic that pushes human creators out while eroding the economic basis of open web publishing.",
+  "picks": {
+    "Capability Class": {
+      "value": "Tool-grade",
+      "memo": "Tool-grade capability is sufficient to produce slop at scale; the economic threat does not require frontier intelligence.",
+      "detail": "Blog posts, product reviews, stock images, and SEO filler need only baseline generative quality. The threshold for flooding a channel is far below the threshold for replacing expert work. This is what makes slop structurally dangerous: the capability floor is already met by cheap, widely available models. Frontier systems are irrelevant to the dynamic."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "General-purpose generation means slop appears simultaneously across text, image, video, audio, and code channels.",
+      "detail": "A single model family can produce articles, product descriptions, social media posts, stock photography, music, and academic papers. Domain breadth determines the attack surface: every content market is a candidate for flooding. Specialisation would contain the damage; generality ensures it spreads everywhere at once."
+    },
+    "Capability Trajectory": {
+      "value": "Rapid",
+      "memo": "Rapid improvement expands the domains where machine-generated content crosses the good-enough-to-fool threshold.",
+      "detail": "Each model generation raises the quality floor for slop. Content that was obviously synthetic six months ago passes casual inspection today. Rapid trajectory means platform defences and detection methods face a moving target. The gap between detectable and passable closes faster than institutions can adapt their filters."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "Slop production is a human-directed content farming operation, not an AI-driven research loop.",
+      "detail": "Operators choose topics, configure prompts, select distribution channels, and optimise for ad revenue or SEO placement. The AI is a production tool, not a decision-maker. Human-led direction keeps strategic choices with the operator while delegating only the mechanical act of writing."
+    },
+    "Unhobbling": {
+      "value": "Chatbot",
+      "memo": "Basic chatbot prompting is the primary slop production method — no tool access or agentic capability required.",
+      "detail": "Most AI slop is generated through simple prompt-response cycles via API or chat interface. Operators paste templates, receive output, and publish. No multi-step planning, tool calling, or persistent state is needed. The chatbot unhobbling level is precisely why slop scales so easily: the barrier to entry is a browser tab."
+    },
+    "Replication Scale": {
+      "value": "Population-scale",
+      "memo": "Millions of concurrent generation instances produce content across the web, turning capability into mass parallel output.",
+      "detail": "API access allows unlimited concurrent generation. A single operator can run thousands of parallel requests; thousands of operators compound the effect. NewsGuard tracks over 3,000 AI content farm sites across 16 languages. Population-scale replication converts cheap capability into ecosystem-level damage."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Machine-speed generation compresses hours of human writing into seconds, inverting the economics of content production.",
+      "detail": "A 2,000-word article takes a human writer hours; an API call returns it in seconds. This speed advantage is the core economic driver. When production time approaches zero, the only remaining cost is distribution. Volume is limited by publishing capacity, not creation capacity."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "AI slop is entirely digital — no physical-world actuation is involved in its production or distribution.",
+      "detail": "Content is generated, published, and consumed entirely online. No robotic or physical component is needed. The absence of physical-world constraints is why slop scales so fast and cheaply. The entire dynamic plays out in software on existing cloud infrastructure."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "The AI operates as a directed production tool; operators control every aspect of topic selection, volume, and distribution.",
+      "detail": "Slop production does not require the AI to act autonomously. The operator sets the prompt template, chooses the output format, decides the publishing schedule, and manages the monetisation channel. The AI's role is mechanical generation, not independent action. Tool-level role is sufficient to cause ecosystem damage at scale."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "Effects are limited to information channels — content, persuasion, attention capture, and signal degradation.",
+      "detail": "AI slop operates through text, images, and media published to the open web. It does not execute digital transactions, trigger legal obligations, or affect physical systems. The harm channel is informational: flooding search results, degrading marketplace signal quality, contaminating training corpora, and eroding trust in published content."
+    },
+    "Autonomy": {
+      "value": "Stateless task",
+      "memo": "Each generation request is a stateless task with no persistent objective or accumulated context.",
+      "detail": "Slop production is prompt-in, content-out. The model retains no memory between requests, pursues no durable goal, and accumulates no leverage across sessions. Statelessness makes each instance trivially controllable. The danger is not autonomy but volume: millions of trivially controllable instances sum to an uncontrollable phenomenon."
+    },
+    "Delegated Authority": {
+      "value": "None",
+      "memo": "The AI has no delegated authority — all publishing, monetisation, and distribution decisions remain with the human operator.",
+      "detail": "No binding commitment, financial action, or legal effect is delegated to the model. The operator retains full control over what gets published, where, and how it is monetised. The absence of delegated authority means each instance is individually harmless. The structural problem is aggregation, not delegation."
+    },
+    "Tool Access": {
+      "value": "No tools",
+      "memo": "Slop production requires no tool access — raw text and image generation via API is sufficient.",
+      "detail": "The model does not need to browse the web, call external APIs, or interact with databases. A bare generation endpoint is enough. This minimal tool surface means capability restrictions around tool use are irrelevant to the slop dynamic. The damage comes from the output itself, not from what the model can access."
+    },
+    "Response / Intervention Capability": {
+      "value": "Best-efforts",
+      "memo": "Platform responses to slop are improvised and reactive — detection, filtering, and labelling under commercial pressure.",
+      "detail": "Google adjusts ranking signals, Amazon caps publishing rates, Meta labels AI content. These are best-efforts interventions: improvised, unevenly enforced, and perpetually behind the production curve. Detection tools are unreliable and easy to evade. No coordinated mechanism exists to interrupt the aggregate phenomenon across the open web."
+    },
+    "Command Actor": {
+      "value": "User/informal",
+      "memo": "Slop production is commanded by distributed individual operators with no formal authority chain.",
+      "detail": "Content farms, SEO operators, affiliate marketers, and hobbyists generate slop independently. There is no corporate hierarchy, state directive, or coordinated command structure. User/informal command distributes agency across thousands of uncoordinated actors. This distribution is what makes the phenomenon resistant to intervention: there is no single actor to regulate."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Slop production operates at normal product-cycle tempo — no crisis urgency or war-speed pressure.",
+      "detail": "Content farms publish on daily or weekly schedules optimised for SEO crawl cycles and ad revenue. There is no emergency or compressed decision timeline. The tempo is mundane. The damage comes from sustained volume at normal speed, not from any acceleration of decision-making."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Individual operators and small teams make all speed-versus-quality tradeoffs, consistently favouring volume over quality.",
+      "detail": "No safety body, editorial board, or regulatory authority governs the speed-quality tradeoff in slop production. The operator is the sole decision-maker and the incentive structure is clear: more content means more ad impressions. Product-team authority with a volume incentive is the mechanism that ensures quality always loses."
+    },
+    "Permission": {
+      "value": "Broad",
+      "memo": "AI service terms broadly permit commercial content generation — producing slop is an explicitly allowed use case.",
+      "detail": "Major API providers grant broad rights to use generated content commercially. There is no contractual barrier to mass-producing articles, reviews, or images for publication. Slop production is not a terms-of-service violation; it is a core permitted use. The permission structure enables the phenomenon by design."
+    },
+    "Regulatory Posture": {
+      "value": "Permissive",
+      "memo": "Most jurisdictions impose no meaningful restriction on AI content generation or publication at scale.",
+      "detail": "The EU AI Act requires transparency labelling for AI-generated content, but enforcement is delayed and limited. The US has no federal content-generation regulation. Most jurisdictions treat AI-generated content identically to human content. The permissive regulatory environment means slop production faces no legal friction beyond platform-specific rules."
+    },
+    "Data Availability": {
+      "value": "Open/available",
+      "memo": "Models producing slop were trained on open web data; slop producers themselves need no special data access.",
+      "detail": "The training data for generative models was assembled from the open web at scale. Slop producers need only an API key or downloaded weights — no proprietary dataset, no special licence, no negotiated access. Open availability of both models and training data makes slop production a zero-barrier activity."
+    },
+    "Provenance": {
+      "value": "Unknown",
+      "memo": "AI-generated content carries no verifiable chain of custody — consumers cannot confirm origin or authorship.",
+      "detail": "Published slop typically has no attribution, no declared AI origin, and no provenance metadata. Detection tools are unreliable and increasingly evadable. C2PA watermarking exists but is not widely adopted and trivially stripped. The provenance gap is the structural enabler of the lemons dynamic: consumers cannot distinguish machine from human output."
+    },
+    "Model-Weight Rights": {
+      "value": "Open-stack",
+      "memo": "Open-weight models make slop production impossible to gate — anyone can run generation locally without platform controls.",
+      "detail": "Llama, Mistral, and other open-weight models provide full generation capability outside any provider's terms of service or rate limits. Even if every hosted provider restricted slop production, open-stack alternatives fill the gap. Weight diffusion is the reason platform controls cannot solve the problem."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "AI slop is produced and published globally, crossing every jurisdiction simultaneously.",
+      "detail": "A content farm in one country can target search results and marketplaces in any other. Cross-border production means no single regulator can address the phenomenon. EU transparency requirements do not bind operators in jurisdictions without equivalent rules. The territorial mismatch between regulation and production is a structural barrier to intervention."
+    },
+    "Data Subject Exposure": {
+      "value": "Low-identifiability",
+      "memo": "Most slop does not directly process personal data, but fake reviews and deepfakes create peripheral identity exposure.",
+      "detail": "The core dynamic — mass content generation — involves no personal data processing. SEO articles, stock images, and product descriptions are impersonal. Deepfakes and fake social media personas involve real identities, but these are a subset. Low-identifiability captures the general posture while acknowledging edge cases."
+    },
+    "Data Sensitivity": {
+      "value": "Ordinary",
+      "memo": "AI-generated content carries no special sensitivity classification or regulated-domain constraint.",
+      "detail": "Slop is generic commercial content: articles, images, reviews, listings. It is not health data, financial records, or classified material. Ordinary sensitivity means no data-handling regime applies. The absence of sensitivity classification is part of why slop faces no regulatory friction — it falls outside every framework designed for sensitive data."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Content generation has no export-control or controlled-technology implications.",
+      "detail": "AI-generated text, images, and media are not controlled items under any export regime. The models themselves face compute-tier export restrictions in some cases, but the outputs do not. No control issue means the content flows freely across borders without triggering technology-transfer review."
+    },
+    "Processing Mode": {
+      "value": "Inference",
+      "memo": "Slop is produced via inference against existing models — no training, fine-tuning, or model modification required.",
+      "detail": "The entire slop production pipeline is inference-only. Operators send prompts to pretrained models and publish the outputs. No weight modification, no RLHF, no fine-tuning is involved. Inference-only processing means the barrier to entry is an API call, not a training run."
+    },
+    "Derivation": {
+      "value": "Direct output",
+      "memo": "The slop IS the direct output — generated text, image, or media is the final product with no downstream derivative chain.",
+      "detail": "Unlike training pipelines where inputs create durable model adjustments, slop production creates only the immediate output. The article, image, or review is published as-is. There is no embedding, no fine-tune delta, no recursive loop at the individual operation level. The derivative chain exists only at the ecosystem level, where published slop contaminates future training corpora."
+    },
+    "Retention / Persistence": {
+      "value": "Ephemeral/stateless",
+      "memo": "Each generation request is stateless — no data persists in the production system beyond the immediate response.",
+      "detail": "The model retains nothing between requests. No session state, no memory, no accumulated context survives. The generation system is a stateless function. The paradox is that while production is ephemeral, the published output persists indefinitely on the web and eventually enters future training sets — creating durability the production system never intended."
+    },
+    "Execution / Residency Environment": {
+      "value": "Distributed",
+      "memo": "Slop production spans cloud APIs, local open-model instances, and consumer hardware across every jurisdiction.",
+      "detail": "Some operators use hosted APIs from US cloud providers. Others run quantised open models on consumer GPUs. Content farms distribute production across multiple providers and locations. This distributed execution environment means no single jurisdiction, cloud provider, or infrastructure operator can observe or control the full production surface."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "Slop producers share multi-tenant cloud infrastructure with all other API consumers.",
+      "detail": "Most slop is generated through shared API endpoints serving millions of users. There is no dedicated tenancy, no isolation boundary, and no special access tier. Shared infrastructure means slop production is indistinguishable from legitimate use at the infrastructure level. The provider sees API calls; it cannot see intent."
+    },
+    "Deployment Surface": {
+      "value": "Public-facing",
+      "memo": "AI slop is published directly to the open web, where the general public encounters it in search results and feeds.",
+      "detail": "The output reaches consumers through Google Search, Amazon marketplace, social media feeds, and open web publishing. There is no access control, no restricted audience, and no gated deployment. Public-facing deployment means every internet user is exposed. The deployment surface is the entire open web."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "Slop production runs on standard commercial cloud compute — no dedicated or specialised infrastructure required.",
+      "detail": "API-based slop production uses the provider's existing cloud infrastructure. Local open-model production uses consumer hardware. No dedicated clusters, no capacity reservations, no specialised compute is needed. Commercial cloud dependency means slop production scales with standard cloud economics: marginal cost approaches zero."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "Slop producers route across whichever model is cheapest — no single-provider dependency.",
+      "detail": "Operators switch freely between ChatGPT, Claude, Llama, Mistral, and dozens of smaller models. The choice is driven purely by cost-per-token and output quality for the specific content type. Multi-provider sourcing means no single model provider can stop slop production by restricting access. Cut off one source and operators move to the next."
+    },
+    "Compute Source": {
+      "value": "Rented/spot",
+      "memo": "Slop producers rent API access or spot compute with no long-term capacity commitment.",
+      "detail": "Pay-per-token API pricing means operators pay only for what they generate with no reservation or commitment. Local inference on consumer hardware costs only electricity. Rented/spot compute means production scales up or down instantly with demand. There is no infrastructure investment to amortise and no sunk cost to recover."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "Slop production is trivially portable — any model provider or local setup produces equivalent output.",
+      "detail": "Switching from one API to another requires changing a single endpoint URL. Switching from API to local inference requires downloading open weights. The content is fungible: a blog post from one model is interchangeable with one from another. Portability means no cloud provider has leverage over slop producers and no provider can be held responsible for aggregate effects."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Anyone can access generation capability through open market channels — no allocation rights or strategic control needed.",
+      "detail": "API keys are available to anyone with a credit card. Open weights are available to anyone with a download link. There is no waitlist, no allocation queue, no strategic gating. Market access to generation capability is as frictionless as any consumer software product. Universal access is the structural precondition for population-scale slop production."
+    },
+    "Substitutability": {
+      "value": "Replaceable",
+      "memo": "Every model in the slop production pipeline is fully substitutable — no provider has irreplaceable capability.",
+      "detail": "The quality threshold for slop is low enough that any competent model meets it. Replacing one model with another changes nothing about the output's commercial viability. Full substitutability means no leverage exists at the model layer. Providers cannot charge premium prices or enforce usage restrictions that competitors do not also impose."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "Slop producers operate at the application layer only — they control no models, infrastructure, or distribution platforms.",
+      "detail": "Content farms are pure application-layer operators. They consume APIs, generate content, and publish to platforms they do not own. No slop producer controls a model, a cloud region, or a search algorithm. Application-only positioning means they extract value from the stack without contributing to or controlling any of it."
+    },
+    "Distribution Channel": {
+      "value": "Platform default",
+      "memo": "Slop reaches consumers through platform algorithm defaults — Google Search ranking, Amazon listings, social media feeds.",
+      "detail": "AI-generated content succeeds because platform algorithms historically reward volume, freshness, and keyword density. Slop producers optimise for these signals. Platform default placement captures attention without the consumer choosing AI-generated content. The distribution channel is the structural vulnerability: algorithms designed for human content cannot distinguish it from machine output."
+    },
+    "Observability": {
+      "value": "Opaque",
+      "memo": "Whether content is AI-generated cannot be reliably determined — detection tools are unreliable and provenance metadata is absent.",
+      "detail": "AI content detectors produce false positives and false negatives at rates that make them unreliable for any consequential decision. C2PA watermarking exists but is not widely adopted, easily stripped, and absent from open-model outputs. Opacity is the core assurance failure: consumers, platforms, and regulators cannot observe the true state of the content ecosystem."
+    },
+    "Evaluation": {
+      "value": "Untested",
+      "memo": "AI slop is published without any evaluation — no quality gate, accuracy check, or fitness-for-purpose assessment exists.",
+      "detail": "Slop goes directly from generation to publication. There is no editorial review, no fact-checking, no domain evaluation, and no benchmark. Untested output is the default because evaluation would add cost and delay to a volume-optimised pipeline. The absence of evaluation is why AI-generated mushroom guides list poisonous species as safe and AI medical articles contain fabricated citations."
+    },
+    "Interpretability": {
+      "value": "Black box",
+      "memo": "Consumers have no evidence about how or why the content was generated — reasoning and sourcing are invisible.",
+      "detail": "Published slop offers no chain of reasoning, no source attribution, and no methodology. The consumer sees a finished article or image with no window into the generation process. Black-box interpretability means there is no basis for assessing reliability. Readers must take content at face value, which is precisely the condition that enables the market-for-lemons dynamic."
+    },
+    "Acceptance Basis": {
+      "value": "Market-validated",
+      "memo": "Slop succeeds or fails based on traffic, clicks, and ad revenue — no formal assurance standard governs acceptance.",
+      "detail": "The only acceptance criterion is commercial performance. If AI-generated content attracts search traffic and generates ad impressions, it is accepted by the market. No editorial board, certification body, or regulatory authority stands between generation and consumption. Market validation without quality assurance is the mechanism that makes slop commercially viable despite being informationally worthless."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "Base model alignment prevents violent or illegal content but does nothing to prevent mass production of mediocre output.",
+      "detail": "RLHF training makes models refuse harmful requests. It does not make them refuse to write a bad article, a fake review, or a generic stock image. Slop is aligned content — it is polite, grammatically correct, and superficially helpful. The alignment method addresses safety, not quality. This gap between safety alignment and quality assurance is where slop thrives."
+    },
+    "Security Posture": {
+      "value": "Startup-grade",
+      "memo": "Slop operations have minimal security — small teams, no vetting, no formal controls.",
+      "detail": "Content farms are small businesses or solo operators with consumer-grade infrastructure. There is no security team, no access control framework, and no personnel vetting. Startup-grade security is irrelevant to the aggregate dynamic because there is no single operation to target."
+    },
+    "Adversary Model": {
+      "value": "Casual misuse",
+      "memo": "Slop producers are opportunistic commercial operators, not sophisticated adversaries — casual misuse at industrial scale.",
+      "detail": "The threat is not criminal hacking or state espionage. It is ordinary people using AI tools for low-effort profit. Casual misuse is the adversary model because the damage does not require sophistication. The 4.7x cost advantage over human content creates sufficient incentive for millions of casual operators to degrade the information ecosystem without any malicious intent."
+    },
+    "Weight Security": {
+      "value": "Copyable",
+      "memo": "Open-weight models are freely copyable, making capability control impossible at the weight layer.",
+      "detail": "Llama, Mistral, and other open-weight models circulate freely. Anyone can download, copy, quantise, and run them. Even if model providers implemented perfect usage monitoring, the open-weight pathway remains entirely uncontrolled. Weight security is irrelevant when the capability is already in the wild."
+    },
+    "Access Control": {
+      "value": "API keys",
+      "memo": "Basic API key access is the only gate between a slop producer and population-scale generation capability.",
+      "detail": "Sign up, enter payment details, receive API key. This is the entire access control mechanism. There is no identity verification, no use-case review, no rate-limiting based on content type. API keys provide basic billing and usage tracking but no meaningful capability restriction. The mechanism is designed for metering, not governance."
+    },
+    "Monitoring Scope": {
+      "value": "Outputs",
+      "memo": "Platforms can only review published output — the generation process and operator intent are invisible.",
+      "detail": "Google sees the published page. Amazon sees the listed product. Neither sees the prompt, the generation process, or the operator's intent. Output-only monitoring means detection must work backwards from finished content to infer its origin. This is structurally harder than monitoring the production pipeline, which no platform has access to."
+    },
+    "Containment": {
+      "value": "None",
+      "memo": "No technical isolation exists around slop production — generated content flows freely from API to open web.",
+      "detail": "There is no sandbox, no network boundary, no enclave, and no airgap between the generation system and the publishing channel. Content moves from API response to WordPress post to Google index with no containment barrier at any stage. The absence of containment is by design: the entire value proposition of generative AI APIs is frictionless output."
+    },
+    "Capability Limitation": {
+      "value": "None",
+      "memo": "No capability restriction prevents slop production — safety filters target harmful content, not low-quality content.",
+      "detail": "Model providers restrict violent, sexual, and illegal content generation. They do not restrict mediocre blog posts, generic stock images, or vapid product descriptions. Slop falls entirely outside the scope of capability limitations. Producing low-quality content at scale is a permitted, unrestricted use of every major generative AI system."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "AI slop is entirely civilian commercial activity — no military, dual-use, or national-security dimension exists.",
+      "detail": "Content farming is a commercial operation motivated by ad revenue, affiliate income, and marketplace arbitrage. There is no strategic, military, or security application. Civilian use class means the phenomenon falls outside every governance framework designed for sensitive or strategic AI use. The damage is collateral, not targeted."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Harm travels exclusively through information channels — signal degradation, trust erosion, and training data contamination.",
+      "detail": "AI slop does not enable cyber attacks, biological threats, or financial system manipulation. The harm is informational: degraded search quality, unreliable product reviews, contaminated academic literature, and eroded public trust in published content. Information-channel harm is diffuse, cumulative, and hard to attribute — which is why it escapes every framework designed for acute threats."
+    },
+    "Proliferation": {
+      "value": "Uncontrolled",
+      "memo": "AI-generated content circulates beyond any meaningful restriction — there is no gate, licence, or control on published slop.",
+      "detail": "Once published, AI-generated content enters the open web, gets indexed by search engines, scraped by training pipelines, and replicated across aggregator sites. There is no recall mechanism, no diffusion control, and no licensing regime. Uncontrolled proliferation is the default state: content published to the open web cannot be unpublished at ecosystem scale."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "Slop producers use commodity capability far behind the frontier — no strategic lead is needed to cause ecosystem damage.",
+      "detail": "Content farms run on last-generation models, small open-weight variants, and the cheapest API tiers. They are not frontier labs pushing capability boundaries. The structural insight is that strategic irrelevance does not prevent strategic-scale damage. Being behind the frontier is the normal condition for slop production, and it is sufficient."
+    },
+    "Race Pressure": {
+      "value": "Low",
+      "memo": "Individual slop producers face no survival pressure — they can stop at any time without existential consequence.",
+      "detail": "Content farming is a low-stakes commercial activity. No operator faces bankruptcy, strategic defeat, or competitive elimination from pausing production. Low race pressure means the phenomenon is not driven by competitive urgency but by individually rational economic incentives aggregating into a tragedy of the commons."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "No international regime limits the production or spread of AI-generated content.",
+      "detail": "There is no treaty, no export control, no multilateral agreement governing AI content production. The EU AI Act mandates transparency labelling but does not restrict generation itself. No equivalent of nuclear nonproliferation or chemical weapons conventions applies. Slop production is governed only by platform terms of service and local law."
+    },
+    "Data Value Dynamics": {
+      "value": "Elastic/synthetic",
+      "memo": "Content supply is infinitely elastic — AI generation can produce unlimited volume at near-zero marginal cost.",
+      "detail": "Human content supply is constrained by time, skill, and labour cost. AI content supply is effectively unlimited. This infinite elasticity is the structural driver of the lemons dynamic: when supply is unbounded, price collapses to marginal cost, and human creators who cannot match that cost exit the market. Elastic supply turns content into a commodity."
+    },
+    "Input Price": {
+      "value": "Usage-based",
+      "memo": "Slop production is priced per-token or per-image — pure usage-based economics with no fixed commitment.",
+      "detail": "API pricing charges per input and output token. Image generation charges per image. There is no subscription minimum, no volume commitment, and no upfront cost beyond a credit card. Usage-based pricing means production scales linearly with demand. The cost advantage over human content persists at every volume level."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "Slop producers retain all output value — ad revenue, affiliate income, and marketplace proceeds accrue entirely to the operator.",
+      "detail": "AI service terms grant the user full commercial rights to generated content. The model provider captures value through API fees; everything downstream belongs to the operator. Retained output allocation means the incentive structure is simple and powerful: every generated article is pure upside for the operator minus a fraction of a cent in API costs."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "All derivative value — traffic, ad revenue, marketplace position — accrues to the slop producer, not the model provider or public.",
+      "detail": "The model provider earns per-token fees. The slop producer earns ad impressions, affiliate commissions, and marketplace royalties on the published output. No revenue sharing, no public benefit allocation, and no return flow to the data sources that trained the model. Processor-captures describes unidirectional value extraction from the content ecosystem."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Disclaimed",
+      "memo": "AI providers disclaim liability for generated content; slop producers bear no liability for ecosystem degradation.",
+      "detail": "Every major AI API terms of service disclaims warranty and limits liability to fees paid. Slop producers publish under pseudonyms or disposable entities with no insurance, no indemnity, and no financial backstop. Risk is pushed onto consumers who rely on degraded information and onto platforms that bear moderation costs."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "Slop production is funded from ordinary operating cash flow — no project financing or strategic investment required.",
+      "detail": "A content farm needs a credit card for API access and a domain for publishing. Monthly costs range from tens to hundreds of dollars. Operating-level capital means there is no investment to protect, no financing to service, and no sunk cost to recover. The low capital requirement is why slop production is accessible to anyone and resistant to economic pressure."
+    },
+    "Commitment Tenor": {
+      "value": "Short-term",
+      "memo": "Slop producers have no long-term commitments — API billing is monthly, publishing can stop at any time.",
+      "detail": "There are no annual contracts, no capacity reservations, and no take-or-pay obligations. Operators can start or stop production on any given day. Short-term commitment means slop production is perfectly elastic: it expands when profitable and contracts when not. This flexibility makes the phenomenon responsive to incentives but resistant to regulatory pressure."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "For content farms, AI-generated output IS the business — a product line structurally dependent on generation capability.",
+      "detail": "Content farms built around AI generation have no alternative revenue source. If generation capability becomes unavailable or unprofitable, the business ceases to exist. Product-line dependency means operators are strongly motivated to maintain and expand production. The dependency runs one direction: the farm depends on AI, but no AI provider depends on any individual farm."
+    },
+    "Switching Cost": {
+      "value": "Low",
+      "memo": "Slop producers face near-zero switching costs — moving between models or providers is trivial.",
+      "detail": "Changing from one API to another requires updating an endpoint URL and API key. Generated content is not model-specific; a blog post from one model is interchangeable with one from another. Low switching cost means no provider can impose conditions, raise prices, or restrict usage without losing the customer to a competitor."
+    },
+    "Exit": {
+      "value": "Clean",
+      "memo": "Slop producers can exit cleanly — no residual artifacts, entanglements, or obligations survive termination.",
+      "detail": "Stopping API access leaves no derivative chain, no weight entanglement, and no contractual tail. Published content remains on the web but has no connection to the generation system. Clean exit means the relationship between slop producer and AI provider is purely transactional. The only residue is the content already published and the ecosystem damage already done."
+    }
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "id": "apple-hedge",
+  "name": "Apple hedge",
+  "desc": "Platform-control strategy: Apple orchestrates UX, privacy, device/cloud routing, and model selection to absorb frontier AI without surrendering the platform to any single model provider.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "Apple routes to external frontier models for complex tasks while running on-device models for routine ones.",
+      "detail": "Apple Intelligence uses a tiered model architecture spanning on-device and cloud-hosted models. Frontier capability is accessed through partnerships rather than internal development. This routing strategy lets Apple offer frontier-grade features without building frontier models. The capability level is inherited from partners but controlled through Apple's orchestration layer."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Device-level AI assistance spans writing, images, search, app actions, and system control across the Apple ecosystem.",
+      "detail": "Apple Intelligence operates across messages, email, photos, Siri, and third-party app integrations. The multi-domain breadth reflects the device platform's position as a universal user interface. Each domain uses the routing layer to select appropriate model capability. The breadth is a platform feature rather than a model-training outcome."
+    },
+    "Capability Trajectory": {
+      "value": "Rapid",
+      "memo": "Apple's capability trajectory is rapid through partner integration, adding frontier features each OS release cycle.",
+      "detail": "Annual OS releases incorporate new AI capabilities from both internal and external model improvements. The partner-integration model allows Apple to absorb capability improvements without bearing research costs. This creates rapid capability growth at the product level without proportional R&D investment. The trajectory is product-driven rather than research-driven."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "Apple's AI research is human-led, focusing on on-device optimization and privacy-preserving techniques rather than frontier models.",
+      "detail": "Apple's ML research teams focus on efficient on-device models and privacy technologies. Research direction is set by product requirements rather than frontier capability goals. No automated research loop drives Apple's AI development. The human-led approach reflects Apple's product-engineering culture rather than a research-lab mentality."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "Apple Intelligence uses App Intents and system APIs as bounded tools, performing delegated actions within Apple's permission framework.",
+      "detail": "The App Intents framework lets AI perform actions within apps like sending messages or creating events. These tool uses are bounded by Apple-defined permission scopes and user confirmation. The unhobbling level matches enterprise tool-using but operates through Apple's proprietary integration layer. Tool access is a platform-design choice enforced at the OS level."
+    },
+    "Replication Scale": {
+      "value": "Population-scale",
+      "memo": "Apple's device installed base distributes AI to over a billion users, creating population-scale replication through hardware.",
+      "detail": "Every compatible iPhone, iPad, and Mac runs Apple Intelligence features locally. Cloud-routed requests extend this to frontier model access for the same user base. Population-scale distribution through owned hardware is structurally different from API-based distribution. The device layer provides a distribution moat that API providers cannot replicate."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "On-device inference delivers faster-than-human response for routine tasks, with cloud routing adding latency for complex ones.",
+      "detail": "Local model inference on Apple Neural Engine provides near-instant results for text and image tasks. Cloud-routed frontier requests operate at standard API response speeds. The hybrid architecture optimizes speed for the most frequent interactions. Faster-than-human operation at the device layer preserves the responsive UX Apple requires."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Apple Intelligence is cognitive-only, operating through screen and voice interfaces without physical-world actuation.",
+      "detail": "AI features operate through text, image, and voice channels on Apple devices. No Apple Intelligence feature controls physical hardware or robotic systems. Vision Pro adds spatial computing context but remains in the cognitive-information domain. Physical-world extension would require robotics capabilities Apple has not yet shipped."
+    },
+    "Role": {
+      "value": "Assistant",
+      "memo": "Apple positions AI as a personal assistant that supports the user without owning workflows or making autonomous decisions.",
+      "detail": "Siri and Apple Intelligence features produce suggestions, drafts, and summaries for user review. The assistant role preserves user agency and aligns with Apple's privacy-first brand positioning. No Apple AI feature autonomously completes tasks without user confirmation for consequential actions. The assistant role is a deliberate product and brand choice."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Apple Intelligence performs bounded digital actions through App Intents, sending messages, creating events, and modifying content.",
+      "detail": "App Intents enable AI to execute actions within apps under user-confirmed permissions. These digital actions modify device state and communicate with external services. The actuation channel is constrained by Apple's permission framework rather than technical limitation. Digital action through the OS layer is structurally different from API-mediated action."
+    },
+    "Autonomy": {
+      "value": "Human-in-loop",
+      "memo": "Apple keeps human confirmation as the control gate, requiring user approval before AI executes consequential actions.",
+      "detail": "Consequential actions like sending messages or making purchases require explicit user confirmation. This human-in-loop design preserves user agency and limits liability for AI-initiated actions. The confirmation requirement is enforced at the OS level rather than relying on model behavior. Human-in-loop is a platform-architecture decision, not a model-alignment technique."
+    },
+    "Delegated Authority": {
+      "value": "Recommend only",
+      "memo": "Apple Intelligence recommends actions and generates drafts but does not bind the user to commitments without explicit confirmation.",
+      "detail": "AI-generated suggestions, text completions, and summaries are presented for user review and acceptance. No Apple Intelligence feature can independently commit the user to purchases, messages, or legal actions. The recommend-only posture protects Apple from AI-decision liability. It aligns with the platform-control strategy of keeping the user as the final decision authority."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Apple Intelligence accesses app functionality through Apple-controlled permission gates enforced at the operating-system level.",
+      "detail": "App Intents and SiriKit provide structured, permission-gated interfaces between AI and app functionality. Each tool access requires developer registration and user authorization. The gating mechanism is enforced by the OS rather than by the model or cloud provider. This platform-level tool gating is Apple's primary control mechanism for AI actions."
+    },
+    "Response / Intervention Capability": {
+      "value": "Kill switch",
+      "memo": "Apple can remotely disable AI features through OS updates and server-side configuration, providing a rapid shutdown path.",
+      "detail": "Apple controls the software update channel to every device running Apple Intelligence. Server-side feature flags can disable cloud-routed AI functionality instantly. On-device models can be updated or disabled through OS patches. This kill-switch capability is a structural advantage of platform ownership."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Apple exercises enterprise-level command over AI features through platform governance, partner contracts, and OS control.",
+      "detail": "Apple determines which AI features ship, which models are routed to, and what permissions apply. Partner providers like OpenAI operate under Apple-defined terms rather than their own platform rules. The enterprise command structure reflects Apple's vertically integrated governance model. No external regulator or safety body has binding authority over Apple's AI feature decisions."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Apple AI features ship on annual OS release cycles with mid-cycle updates, following product rather than crisis tempo.",
+      "detail": "Major AI features launch with iOS, macOS, and iPadOS annual releases each September. Mid-cycle point releases add incremental improvements and partner integrations. This product-cycle tempo is slower than competitor API releases but provides more polished experiences. The cadence reflects Apple's hardware-software integration requirements."
+    },
+    "Tradeoff Authority": {
+      "value": "Product team",
+      "memo": "Apple product teams hold tradeoff authority over AI features, balancing privacy, UX, and capability within Apple's values framework.",
+      "detail": "Product teams decide what capabilities ship based on Apple's internal quality and privacy standards. No external safety body reviews Apple AI features before release. Tradeoff decisions reflect Apple's brand values more than regulatory requirements. The product-team authority is consistent with Apple's historically centralized product governance."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "Apple conditions AI data use on user consent, device-level privacy controls, and strict partner data-handling requirements.",
+      "detail": "Users must opt in to AI features and can control which data is processed on-device versus in cloud. Partner providers receive queries under Apple-defined data-handling restrictions. Apple's conditional-permission framework is self-imposed rather than regulation-driven. The conditions are part of the privacy brand strategy."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Apple's regulatory posture is conditionally compliant, meeting jurisdiction-specific requirements while maintaining global product consistency.",
+      "detail": "Apple complies with EU AI Act, GDPR, and jurisdiction-specific regulations on a market-by-market basis. Product features may ship differently in regulated versus unregulated markets. This conditional posture manages compliance without surrendering product-design authority. Apple's scale gives it leverage to shape regulatory outcomes."
+    },
+    "Data Availability": {
+      "value": "Proprietary owned",
+      "memo": "Apple trains on-device models on proprietary and licensed data it controls, avoiding the provenance problems of web scraping.",
+      "detail": "On-device models are trained on Apple-controlled and licensed datasets with clear provenance. This avoids the copyright and scraping controversies that affect competitors. Proprietary data ownership supports the privacy narrative and reduces legal risk. The data-availability posture is a competitive differentiator rather than a constraint."
+    },
+    "Provenance": {
+      "value": "Licensed",
+      "memo": "Apple's training data provenance is licensed and documented, supporting compliance and the privacy-first brand positioning.",
+      "detail": "Apple maintains documented provenance for training data used in on-device models. Licensed data with clear rights chains reduces litigation and regulatory risk. This provenance discipline extends to requirements imposed on partner model providers. Licensed provenance is a brand asset for Apple's privacy-differentiated positioning."
+    },
+    "Model-Weight Rights": {
+      "value": "Dedicated instance",
+      "memo": "Apple uses dedicated model instances: on-device weights owned by Apple, and private cloud compute instances isolated per user.",
+      "detail": "On-device models run as Apple-owned weights on the user's hardware. Private Cloud Compute creates dedicated processing instances with cryptographic attestation. This dedicated-instance model provides stronger isolation than shared cloud APIs. Weight governance is a platform-architecture decision enforced through hardware and software design."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Apple Intelligence operates cross-border, serving users in multiple jurisdictions with device-level and cloud-routed processing.",
+      "detail": "Apple devices travel across borders, creating cross-border processing regardless of cloud location. Private Cloud Compute operates from data centers in multiple jurisdictions. Regulatory compliance must address multiple territorial obligations simultaneously. The cross-border territory reflects Apple's global hardware distribution model."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "Apple Intelligence processes personal messages, photos, and contacts, creating ordinary personal-data exposure managed through privacy controls.",
+      "detail": "Device-level AI features access the user's personal data including messages, emails, and photos. This creates personal-data processing that triggers data-protection obligations globally. Apple's privacy architecture mitigates exposure through on-device processing and differential privacy. Personal-data handling is the core privacy challenge for device-level AI."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "Apple handles commercially confidential user data through device AI, with privacy architecture designed to prevent Apple's own access.",
+      "detail": "User messages, documents, and photos contain commercially and personally sensitive information. Apple's privacy architecture is designed to prevent Apple itself from accessing user content. On-device processing keeps sensitive data on the user's hardware. This architectural approach to sensitivity is a competitive differentiator."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Apple's consumer AI products sit below export-control thresholds with no active dual-use or munitions-list concerns.",
+      "detail": "Consumer AI features do not trigger export-control or dual-use classifications. Apple's hardware export compliance is separate from AI feature governance. No AI-specific control exposure affects Apple Intelligence product distribution. The consumer positioning keeps Apple AI outside national-security control frameworks."
+    },
+    "Processing Mode": {
+      "value": "Inference",
+      "memo": "Apple Intelligence is inference-only at the user level, with training performed internally on Apple-controlled infrastructure.",
+      "detail": "Users interact with pre-trained models through inference rather than contributing to training. On-device models run inference locally with no data returning to Apple for training. This inference-only user experience is a privacy guarantee enforced through architecture. Training happens internally at Apple, separated from the user-facing processing mode."
+    },
+    "Derivation": {
+      "value": "Direct output",
+      "memo": "Apple Intelligence produces direct outputs like summaries and drafts without recursive derivation or feedback training loops.",
+      "detail": "AI features generate text, images, and suggestions as direct outputs consumed by the user. No user interaction data feeds back into training loops or derivative model improvements. This no-derivation commitment is a core privacy promise enforced architecturally. Direct-output processing avoids the exhaust-capture dynamics of cloud AI platforms."
+    },
+    "Retention / Persistence": {
+      "value": "Ephemeral/stateless",
+      "memo": "Apple's Private Cloud Compute processes requests ephemerally with cryptographic attestation that data is not retained.",
+      "detail": "Private Cloud Compute provides cryptographic proof that user data is processed ephemerally. No query data is retained after processing completes. On-device processing maintains local context but does not send data to Apple. The ephemeral-stateless posture is architecturally enforced rather than policy-based."
+    },
+    "Execution / Residency Environment": {
+      "value": "Edge/device",
+      "memo": "Apple Intelligence runs primarily at the device edge, with cloud routing to Private Cloud Compute for tasks exceeding local capability.",
+      "detail": "The primary execution environment is the user's own device hardware. Complex queries route to Private Cloud Compute in Apple-controlled data centers. This edge-first architecture minimizes cloud dependency and data exposure. The device-level execution environment is Apple's primary privacy and control mechanism."
+    },
+    "Boundary": {
+      "value": "Isolated",
+      "memo": "Apple enforces isolated processing boundaries: on-device models are hardware-isolated, cloud compute uses cryptographic attestation.",
+      "detail": "On-device models run in hardware-isolated compute spaces with no cross-process data access. Private Cloud Compute uses custom silicon and cryptographic attestation for isolation. The isolation boundary is enforced by hardware design, not just software policy. This architectural isolation provides stronger guarantees than logical multi-tenant separation."
+    },
+    "Deployment Surface": {
+      "value": "Customer-facing",
+      "memo": "Apple Intelligence is customer-facing by design, integrated into the consumer products that define Apple's business.",
+      "detail": "AI features are embedded directly in consumer products used by hundreds of millions of people. The customer-facing surface creates maximum exposure but also maximum brand impact. Every AI interaction reflects on Apple's brand reputation and user trust. The deployment surface drives Apple's conservative approach to AI feature quality."
+    },
+    "Physical Infrastructure": {
+      "value": "Dedicated cluster",
+      "memo": "Apple runs Private Cloud Compute on dedicated clusters using Apple-designed silicon, not shared commercial cloud.",
+      "detail": "Private Cloud Compute runs on Apple-designed M-series chips in Apple-operated data centers. This dedicated infrastructure avoids dependency on third-party cloud providers for AI processing. Custom silicon enables hardware-level security features unavailable on commercial cloud. The dedicated-cluster approach is expensive but provides supply-chain and security independence."
+    },
+    "Model Sourcing": {
+      "value": "In-house/orchestrated",
+      "memo": "Apple orchestrates multiple model sources: in-house on-device models, in-house cloud models, and external frontier partnerships.",
+      "detail": "Apple develops its own small and medium models for on-device and cloud deployment. External partnerships with OpenAI and potentially others provide frontier capability. The orchestration layer routes queries to the appropriate model based on task complexity and privacy. In-house orchestration is the strategic control mechanism that preserves platform independence."
+    },
+    "Compute Source": {
+      "value": "Owned/custom",
+      "memo": "Apple owns its AI compute through custom-designed silicon in both devices and data centers, reducing external dependency.",
+      "detail": "Apple Neural Engine in consumer devices provides owned on-device AI compute. Apple-designed server chips power Private Cloud Compute in Apple-operated data centers. This owned-compute model eliminates dependency on GPU vendors for core AI processing. Custom compute is a structural advantage of Apple's vertically integrated hardware business."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "Apple's multi-provider model sourcing and owned infrastructure make frontier AI partnerships portable rather than captive.",
+      "detail": "Apple can add, remove, or switch external model providers through its orchestration layer. No single partner has exclusive access or irreplaceable positioning. The ChatGPT integration is one option among potential alternatives, not a captive dependency. Portable cloud dependency is a deliberate architectural choice preserving Apple's negotiating leverage."
+    },
+    "Accelerator Stack": {
+      "value": "Custom ASIC/TPU",
+      "memo": "Apple uses custom-designed neural-engine ASICs in devices and servers, avoiding Nvidia GPU dependency for core AI processing.",
+      "detail": "Apple Neural Engine is a custom ASIC integrated into every M-series and A-series chip. Server-side compute runs on Apple-designed chips rather than merchant GPUs. This custom-ASIC strategy eliminates Nvidia dependency for Apple's own AI workloads. The custom silicon investment is affordable only at Apple's device-volume scale."
+    },
+    "Supply Control": {
+      "value": "Allocation rights",
+      "memo": "Apple secures AI compute through TSMC allocation rights for custom silicon, controlling its own supply rather than competing for GPUs.",
+      "detail": "Apple holds priority TSMC allocation for its custom chip designs. This allocation-rights position provides supply certainty independent of GPU market dynamics. The arrangement leverages Apple's existing semiconductor procurement relationship. Supply control through owned design and reserved fabrication is a structural moat."
+    },
+    "Silicon Bottleneck": {
+      "value": "Advanced packaging/HBM",
+      "memo": "Apple's custom silicon bottleneck is advanced packaging and memory bandwidth rather than GPU availability.",
+      "detail": "Apple's AI chips depend on TSMC advanced packaging and high-bandwidth memory. These packaging technologies are capacity-constrained across the semiconductor industry. The bottleneck differs from competitors who face GPU-supply constraints. Advanced packaging availability may limit Apple's ability to scale Private Cloud Compute."
+    },
+    "Substitutability": {
+      "value": "Replaceable",
+      "memo": "Apple's external model partners are individually replaceable because the orchestration layer abstracts provider dependencies.",
+      "detail": "The routing and orchestration architecture means any external model provider can be substituted. Apple's on-device models provide baseline capability independent of any partner. Switching external providers requires integration work but not architectural changes. The replaceable-partner posture preserves Apple's negotiating power and strategic independence."
+    },
+    "Vertical Integration": {
+      "value": "Full-stack",
+      "memo": "Apple is fully vertically integrated from custom silicon through OS to application UX, controlling every layer of the AI experience.",
+      "detail": "Apple designs chips, operating systems, frameworks, applications, and user interfaces for AI. No other company controls as many layers of the AI stack from hardware to user experience. This full-stack integration enables architectural decisions impossible for API-only providers. Vertical integration is Apple's primary structural advantage in AI deployment."
+    },
+    "Distribution Channel": {
+      "value": "OS/device layer",
+      "memo": "Apple distributes AI through the OS and device layer, reaching users through hardware they already own rather than web APIs.",
+      "detail": "AI features are integrated into iOS, macOS, and iPadOS as native operating-system capabilities. Users access AI through built-in apps and system-level interfaces rather than separate applications. OS-level distribution creates a structural advantage that API providers cannot match. The device layer is the ultimate distribution moat for AI capability."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "Apple's AI supply chain runs through allied jurisdictions: US design, Taiwanese fabrication, global assembly.",
+      "detail": "Chip design occurs in the US with fabrication at TSMC in Taiwan. Data centers operate in allied jurisdictions under Apple's direct control. The allied supply-jurisdiction posture provides commercial access without adversary exposure. Geographic concentration of fabrication in Taiwan creates a known but managed vulnerability."
+    },
+    "Observability": {
+      "value": "Auditable",
+      "memo": "Apple makes Private Cloud Compute auditable through cryptographic attestation and published security architecture documentation.",
+      "detail": "Private Cloud Compute provides cryptographic proof of code running on servers. Security researchers can verify the software stack through Apple's published attestation mechanisms. This auditable posture exceeds the industry standard for cloud AI services. Auditability is a technical achievement supporting Apple's privacy claims."
+    },
+    "Evaluation": {
+      "value": "Domain evals",
+      "memo": "Apple evaluates AI features through domain-specific testing across writing, images, Siri, and app integration quality.",
+      "detail": "AI feature quality is assessed through domain-specific evaluation metrics for each use case. Writing assistance, image generation, and Siri accuracy each have dedicated evaluation frameworks. This domain-eval approach reflects Apple's product-quality culture. Evaluation serves product decisions rather than regulatory compliance."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "Apple AI interpretability relies on behavioral testing and quality evaluation rather than mechanistic access to model internals.",
+      "detail": "Apple tests AI behavior through extensive QA and user-experience evaluation. No mechanistic interpretability is applied to production Apple Intelligence models. Behavioral evidence from testing and user feedback guides product decisions. The interpretability level reflects practical product engineering rather than research ambition."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Apple aligns AI features through human review in product development, QA testing, and user-confirmation design patterns.",
+      "detail": "Product teams review AI output quality through extensive internal testing and QA processes. User-confirmation design patterns provide a structural alignment mechanism at the UX layer. Apple's alignment approach is product-engineering rather than research-based. Human review at the product level complements technical alignment in the underlying models."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Apple applies enterprise-grade security to AI infrastructure, enhanced by custom silicon security features and hardware attestation.",
+      "detail": "Apple's security architecture leverages hardware-based isolation and cryptographic attestation. Custom silicon provides security features unavailable on commercial cloud infrastructure. Enterprise-grade security is the baseline, with hardware enhancement raising it further. The security posture benefits from Apple's decades of consumer-hardware security investment."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Apple AI systems face criminal and state-adjacent threats targeting user data, with device-level attacks adding physical vectors.",
+      "detail": "Apple devices are targets for criminal data theft and state surveillance tools like Pegasus. AI features that process personal data inherit these existing threat models. Device-level attacks add physical access vectors that cloud-only services do not face. Apple's adversary model reflects its existing consumer-security threat landscape."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Apple monitors on-device model weights through code signing and attestation but weights ship with every device sold.",
+      "detail": "On-device model weights are code-signed and integrity-verified but physically present on user devices. Determined actors can extract weights from consumer hardware. Private Cloud Compute weights are better protected through data-center security. The monitored-but-extractable status reflects the consumer-device distribution model."
+    },
+    "Access Control": {
+      "value": "Least privilege",
+      "memo": "Apple enforces least-privilege access control for AI features, with each capability requiring explicit user and app permission.",
+      "detail": "AI features request specific permissions through iOS privacy prompts and App Intents declarations. Each access grant is scoped to the minimum data needed for the specific function. Least-privilege enforcement is embedded in the operating-system permission architecture. This access-control posture reflects Apple's privacy-by-design philosophy."
+    },
+    "Monitoring Scope": {
+      "value": "Tool activity",
+      "memo": "Apple monitors AI tool activity through system-level logging of App Intent executions and permission grants.",
+      "detail": "The OS logs AI-initiated actions including which app intents were invoked and what data was accessed. This tool-activity monitoring exceeds output-only monitoring by capturing action context. Monitoring is local to the device rather than reported to Apple's servers. The monitoring scope reflects the device-centric privacy architecture."
+    },
+    "Containment": {
+      "value": "Sandboxed",
+      "memo": "Apple AI features operate within OS-enforced sandboxes that limit data access and system interaction to declared permissions.",
+      "detail": "iOS app sandboxing constrains AI feature access to authorized data and system resources. On-device models run in isolated compute contexts with hardware-enforced boundaries. The sandbox containment is architectural rather than policy-based. This provides stronger containment guarantees than cloud-based policy controls."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Apple applies targeted capability restrictions, declining to ship specific AI features that conflict with privacy or quality standards.",
+      "detail": "Apple restricts AI capabilities based on privacy impact, quality standards, and brand risk. Specific feature categories are excluded rather than filtered through general content policies. This targeted-restriction approach reflects product-curation rather than regulatory compliance. Apple's willingness to not ship features is a distinctive capability-limitation posture."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Apple Intelligence serves civilian consumer use exclusively, with no dual-use or military AI applications in the product line.",
+      "detail": "All Apple Intelligence features serve consumer productivity and personal-assistant use cases. Apple does not pursue defense or intelligence AI contracts through its consumer products. The civilian use class is a brand and business-strategy choice. Consumer focus keeps Apple AI outside military and dual-use regulatory frameworks."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "Apple AI harm exposure is informational: hallucinated summaries, misleading drafts, and privacy leakage through AI features.",
+      "detail": "The primary harm channel for Apple Intelligence is inaccurate or misleading text generation. Notification summaries that misrepresent message content have caused public concern. Privacy leakage through AI processing of personal data is a secondary harm channel. The informational harm focus matches the cognitive-only deployment pattern."
+    },
+    "Proliferation": {
+      "value": "Contained",
+      "memo": "Apple AI capability is contained within the Apple ecosystem, with no open-weight releases or model distribution to third parties.",
+      "detail": "Apple does not release model weights or provide model access outside its own products. AI capability is locked to Apple hardware and cannot be extracted for independent deployment. This contained proliferation contrasts with open-weight and API-distribution models. The containment is enforced by the hardware-software integration rather than licensing terms."
+    },
+    "Strategic Lead": {
+      "value": "Neck-and-neck",
+      "memo": "Apple is neck-and-neck with Google and Samsung in device-AI integration but behind frontier labs in model capability.",
+      "detail": "Apple's device-AI integration competes directly with Google's Pixel and Samsung's Galaxy AI. In raw model capability, Apple trails OpenAI, Anthropic, and Google DeepMind significantly. The competitive position depends on which dimension matters: platform integration or model frontier. Apple bets that platform control matters more than model capability leadership."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Apple faces competitive pressure from Google and Samsung integrating AI into devices, compressing feature-release timelines.",
+      "detail": "Google's Gemini integration into Android and Samsung's Galaxy AI create direct competitive pressure. This pressure compressed Apple's AI development timeline, leading to rapid feature launches. The competition is for device-AI user experience rather than model capability. Competitive pressure may force Apple to compromise on quality or privacy standards."
+    },
+    "Coalition Structure": {
+      "value": "Single firm",
+      "memo": "Apple operates as a single firm making unilateral AI strategy decisions without coalition or national-project coordination.",
+      "detail": "Apple's AI strategy is determined internally by Apple leadership and product teams. No government, industry coalition, or partner has binding authority over Apple's AI direction. The single-firm structure enables fast strategic pivots but concentrates risk. Apple's scale makes it a significant AI actor despite the single-firm approach."
+    },
+    "Nonproliferation Regime": {
+      "value": "None",
+      "memo": "Apple operates outside nonproliferation frameworks because its AI capability is contained within consumer products, not transferable.",
+      "detail": "Apple does not release model weights or frontier capabilities that could proliferate. No nonproliferation framework applies to consumer device AI features. The contained-distribution model makes nonproliferation irrelevant rather than managed. Apple's AI has no proliferation consequence because the capability is locked to Apple hardware."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Apple's device-level data access creates accretive value as AI features improve through ecosystem-level learning signals.",
+      "detail": "Aggregate privacy-preserving signals from billions of devices improve model quality over time. This accretive dynamic fortifies Apple's AI quality without compromising individual privacy. The device ecosystem generates learning signals unavailable to cloud-only providers. Data value grows with the installed base rather than depleting with use."
+    },
+    "Input Price": {
+      "value": "Fixed",
+      "memo": "Apple pays fixed costs for internal training data and partner model access, absorbing AI costs within device margins.",
+      "detail": "Internal training data costs are fixed R&D expenses within Apple's operating budget. Partner model access is negotiated at fixed or volume-based rates rather than revenue-sharing terms. AI costs are absorbed into device pricing rather than charged separately to users. Fixed input pricing preserves Apple's margin structure."
+    },
+    "Output Allocation": {
+      "value": "Retained",
+      "memo": "Apple retains all output value from AI features as part of the device value proposition, sharing nothing with model partners.",
+      "detail": "AI-generated outputs belong to the user and enhance the device experience Apple sells. No revenue-sharing mechanism allocates AI output value to model partners or data suppliers. The retained-value posture is consistent with Apple's hardware-margins business model. Output value enhances device desirability rather than generating standalone AI revenue."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "Apple captures all derived value from AI features through device sales and ecosystem engagement, not AI-specific revenue streams.",
+      "detail": "AI features drive device sales, services adoption, and ecosystem loyalty. The derived value flows to Apple through hardware margins and services revenue. No external party captures derived value from Apple Intelligence features. This processor-captures dynamic reinforces Apple's vertically integrated business model."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Limited indemnity",
+      "memo": "Apple provides limited indemnity for AI features through product warranties and consumer-protection obligations, not unlimited backstop.",
+      "detail": "Consumer-protection law and product warranties create baseline liability for AI feature failures. Apple's terms of service limit liability while providing more accountability than pure disclaimer. The limited-indemnity posture reflects consumer-product regulatory requirements. No government backstop or insurance framework covers AI-specific risks in Apple products."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "Apple funds AI development from operating revenue, treating it as R&D within the world's most profitable consumer-technology business.",
+      "detail": "AI investment comes from Apple's $100B+ annual R&D and capital expenditure budgets. No special financing, project funding, or external investment supports Apple's AI program. The operating-budget approach reflects Apple's financial self-sufficiency. AI is one investment priority among many rather than a strategic build requiring external capital."
+    },
+    "Commitment Tenor": {
+      "value": "Annual",
+      "memo": "Apple's AI commitments follow annual product cycles, with partner agreements renewable and adjustable each year.",
+      "detail": "AI feature roadmaps align with annual OS release cycles. Partner agreements can be renewed, expanded, or terminated at regular intervals. This annual tenor preserves flexibility to switch providers or change strategy. The commitment length reflects Apple's product-cycle-driven planning horizon."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "AI is becoming a product-line differentiator for Apple devices but is not yet a standalone revenue source or core business dependency.",
+      "detail": "Apple Intelligence enhances device value and drives upgrade cycles. AI features are a significant product-line differentiator but Apple's core business remains hardware margins and services. Product-line dependency means AI failure would hurt competitiveness but not threaten Apple's survival. The dependency level may increase as AI becomes expected in all devices."
+    },
+    "Switching Cost": {
+      "value": "Ecosystem lock-in",
+      "memo": "Apple AI features contribute to ecosystem lock-in, adding AI-specific switching costs to Apple's existing hardware-services moat.",
+      "detail": "AI features that work across iPhone, Mac, iPad, and Watch create cross-device dependencies. Personal AI context and learned preferences are not portable to competing platforms. This ecosystem lock-in adds AI-specific switching costs to Apple's existing moat. The lock-in is architectural rather than contractual, making it harder to regulate."
+    },
+    "Exit": {
+      "value": "Clean",
+      "memo": "Exit from Apple AI is clean at the provider level: Apple can swap model partners through its orchestration layer without user disruption.",
+      "detail": "The routing architecture means Apple can replace any external model provider transparently. User data is not entangled in external partner weights due to the inference-only processing mode. Clean exit from individual partnerships is a designed feature of the orchestration strategy. However, user exit from Apple's ecosystem remains subject to broader platform lock-in."
+    },
+    "Acceptance Basis": {
+      "value": "Market-validated",
+      "memo": "Apple validates its AI strategy through consumer adoption, market share retention, and device ecosystem stickiness.",
+      "detail": "Apple Intelligence succeeds or fails based on whether users buy devices and engage with on-device features. No regulatory process or formal benchmark determines acceptability. Market share, upgrade rates, and ecosystem retention serve as the acceptance test. The validation loop runs through consumer behaviour rather than compliance documentation."
+    }
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "id": "uk",
+  "name": "UK",
+  "desc": "Structural tension: strong rights-holder language and copyright posture sit on top of US-style cloud infrastructure, enforcement gaps, and unresolved exit — the posture pulls in two directions.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "UK copyright and regulatory posture is most consequential for frontier-scale training where data exposure is highest.",
+      "detail": "The UK's rights-holder protections matter because frontier training consumes internet-scale copyrighted data. Smaller or domain-specific models can navigate licensing more easily. The frontier focus is where the structural tension becomes visible. Strong rights language meets practical inability to enforce against offshore frontier labs."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "UK copyright protections apply across domains, creating broad friction for any multi-domain training corpus.",
+      "detail": "Copyright applies uniformly across text, code, music, and visual domains in the UK. No sector-specific exemption narrows the rights-holder protection to particular content types. This multi-domain scope means any broad training corpus faces UK rights challenges. The breadth amplifies the tension between legal ambition and practical enforcement."
+    },
+    "Capability Trajectory": {
+      "value": "Incremental",
+      "memo": "Unresolved rights and regulatory uncertainty slow UK AI capability growth toward cautious, incremental deployment.",
+      "detail": "Legal uncertainty around training rights discourages bold investment in UK-based AI capability. Companies proceed cautiously, preferring incremental feature additions over large-scale training runs. This trajectory is not a technology constraint but a regulatory-posture consequence. Incremental progress is the rational response to unresolved rights frameworks."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "UK AI research uses models to assist human-led programs but lacks the scale for recursive automation.",
+      "detail": "UK AI labs like DeepMind use AI assistance within human-directed research frameworks. The UK does not have domestic compute or data access for fully automated research loops. AI-assisted research operates within the governance constraints the UK framework imposes. The research-automation level reflects both capability and regulatory realities."
+    },
+    "Unhobbling": {
+      "value": "Tool-using",
+      "memo": "UK-deployed AI uses bounded tools within enterprise workflows, comparable to US unhobbling levels.",
+      "detail": "Enterprise AI deployment in the UK connects models to search, code execution, and business tools. The tool-using level matches US commercial practice rather than reflecting UK-specific constraints. Rights-holder protections do not directly limit tool access at the deployment layer. The tension appears at the data-training layer, not the tool-use layer."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "UK-market AI serves many enterprise and consumer users through platform deployments from US-based providers.",
+      "detail": "UK users access AI through the same platforms serving global markets. The replication scale reflects platform distribution rather than UK-specific deployment choices. Many copies operate under UK law but are served from US or EU-resident infrastructure. The scale is inherited from the US deployment pattern rather than domestically determined."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "UK AI deployment operates at the same faster-than-human speed as US services, with no UK-specific speed constraint.",
+      "detail": "Cloud-served inference operates at identical speeds regardless of UK regulatory posture. No UK regulation specifically constrains AI operating speed or processing throughput. The speed matches the US default because the infrastructure is the same. Operating speed is where the UK inherits US-style defaults rather than imposing its own."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "UK AI deployment is predominantly cognitive, with physical-world extension handled through separate industrial frameworks.",
+      "detail": "The UK AI deployment pattern mirrors the US cognitive-only default. Robotics and physical automation face separate regulatory frameworks under health and safety law. AI's primary UK use case remains text, code, and analysis. Physical-world extension is emerging but does not define the current UK posture."
+    },
+    "Role": {
+      "value": "Copilot/worker",
+      "memo": "UK commercial AI operates as a copilot receiving delegated tasks, matching the US role positioning.",
+      "detail": "Enterprise AI in the UK follows the same copilot product pattern as US deployments. The role is defined by product design rather than UK-specific regulatory requirements. No UK regulation specifically mandates or constrains the AI role assignment. The copilot default is inherited from the US product paradigm."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "UK-deployed AI performs digital actions through tool integrations, matching the US actuation pattern.",
+      "detail": "Enterprise AI in the UK executes digital actions through the same platform integrations as US deployments. The actuation channel is determined by product features rather than UK regulatory constraints. No UK regulation specifically limits AI to informational outputs. The digital-action level reflects US product defaults operating in the UK market."
+    },
+    "Autonomy": {
+      "value": "Human-on-loop",
+      "memo": "UK enterprise AI runs with human-on-loop supervision matching US commercial practice rather than EU-mandated human-in-loop.",
+      "detail": "UK deployments follow the US supervisory model without the EU's mandated human-in-loop requirements. This is a key divergence point: the UK rights posture resembles the EU but the supervision default resembles the US. No UK regulation mandates specific human oversight levels for commercial AI. The autonomy level is one of the clearest US-default inheritance points."
+    },
+    "Delegated Authority": {
+      "value": "Recommend only",
+      "memo": "UK AI systems recommend rather than bind, following commercial practice rather than specific UK regulatory mandate.",
+      "detail": "The recommend-only posture follows standard enterprise product design. UK law does not specifically restrict AI from binding authority in the way GDPR Article 22 does. The limitation is commercial rather than regulatory. This creates a gap where the rights-language ambition is not matched by delegation-specific rules."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "UK AI tool access follows platform-defined permission gates matching global enterprise security practice.",
+      "detail": "Tool gating in UK deployments reflects platform vendor policies rather than UK-specific requirements. Enterprise security standards apply uniformly across US and UK deployments. No UK regulation mandates specific tool-access controls beyond general data-protection obligations. The gated-tools posture is inherited from the vendor ecosystem."
+    },
+    "Response / Intervention Capability": {
+      "value": "Best-efforts",
+      "memo": "UK AI incident response relies on best-efforts vendor processes without mandated response frameworks or verified rollback.",
+      "detail": "No UK regulation mandates specific AI incident-response procedures for commercial systems. Vendor-provided support processes are the default intervention capability. This best-efforts posture matches the US default rather than the EU's defined-escalation requirement. The gap between rights-holder protection language and incident-response capability is a key divergence."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "UK AI command sits with enterprise deployers, reflecting US-style corporate governance rather than state-level authority.",
+      "detail": "Enterprise customers determine AI deployment and governance in the UK market. The UK government sets policy direction but does not exercise operational command over commercial AI. This enterprise-level command mirrors the US rather than the EU's state-coalition approach. The command structure is another point where UK defaults follow US patterns."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "UK AI deployment follows product-release cadence set by US-based vendors rather than UK regulatory timelines.",
+      "detail": "New AI capabilities reach the UK market on the same product cycles as global releases. UK regulatory processes do not gate product releases for commercial AI. The product-cycle tempo is inherited from US vendor practices. No UK-specific compliance assessment adds delay to the deployment timeline."
+    },
+    "Tradeoff Authority": {
+      "value": "Safety body",
+      "memo": "The UK positions AISI and safety institutions as tradeoff authorities, but their enforcement power remains advisory.",
+      "detail": "The AI Safety Institute conducts evaluations and publishes guidance on frontier AI risks. However, AISI lacks binding regulatory authority over commercial deployment decisions. Product teams at US-based providers retain practical tradeoff authority for UK-market releases. The safety-body aspiration without enforcement power is a key divergence."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "UK training permission is conditional on copyright compliance, with no broad fair-use equivalent for commercial AI training.",
+      "detail": "UK copyright law does not provide a fair-use defense comparable to the US. The text and data mining exception for non-commercial research does not extend to commercial training. Rights-holder consent is required for commercial AI training on copyrighted works. This conditional permission is the strongest EU-style element of the UK posture."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "UK regulatory posture is conditionally permissive: pro-innovation rhetoric but copyright and data protection create real constraints.",
+      "detail": "The UK government promotes a pro-innovation AI framework through sector regulators. However, copyright law and UK GDPR create binding conditions on AI development. The conditional posture sits between US permissive and EU comprehensive-regulation approaches. This middle ground contributes to uncertainty rather than resolving it."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "UK data for AI training requires licensing from rights holders, creating a negotiated-access rather than open-access environment.",
+      "detail": "Copyright obligations mean UK-located training data must be licensed for commercial use. Publishers, creators, and media companies negotiate licensing terms for AI training access. This licensed-data posture matches the EU rather than the US open-availability default. The licensing requirement is the most direct expression of UK rights-holder protection."
+    },
+    "Provenance": {
+      "value": "Mixed/declared",
+      "memo": "UK AI training data has mixed provenance: some licensed, some scraped, with growing but incomplete declaration requirements.",
+      "detail": "The UK transparency agenda pushes toward data-source disclosure without comprehensive mandate. Training corpora mix properly licensed and ambiguously sourced content. This mixed provenance reflects the transitional state of UK AI governance. Full verifiability remains an aspiration rather than an enforced standard."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "UK-market AI is predominantly hosted-only through US provider APIs, with no UK-specific weight-access regime.",
+      "detail": "UK enterprises access AI through the same hosted API model as global customers. No UK regulation mandates or restricts weight access for domestic deployment. The hosted-only default is inherited from the US provider ecosystem. Weight-access terms are set by commercial agreement rather than UK-specific rules."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "UK AI regulation applies domestically without the EU's extraterritorial reach, limiting enforcement to UK-based activities.",
+      "detail": "Post-Brexit UK AI governance applies within UK borders without automatic international reach. Copyright enforcement against offshore training is practically difficult. This domestic territorial scope limits the effectiveness of rights-holder protections. The territorial constraint is where strong rights language meets enforcement reality."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "UK AI deployments commonly process ordinary personal data, triggering UK GDPR's data-subject rights and obligations.",
+      "detail": "UK GDPR applies to AI processing involving identifiable individuals. Personal data exposure triggers access, rectification, and erasure rights. The data-subject regime mirrors the EU framework post-Brexit with minor divergences. Personal data is a significant compliance trigger for UK AI deployment."
+    },
+    "Data Sensitivity": {
+      "value": "Commercial confidential",
+      "memo": "UK enterprise AI frequently handles commercially confidential data, creating sensitivity obligations beyond ordinary data handling.",
+      "detail": "UK financial services, legal, and professional services deploy AI on client-confidential information. Commercial confidentiality creates obligations beyond basic data-protection requirements. This sensitivity level is a feature of the UK's services-economy focus. Confidential data handling requires controls that the US ordinary-data default does not mandate."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Most UK commercial AI deployment sits outside export-control triggers, matching the US and EU commercial defaults.",
+      "detail": "UK export controls apply to specific defense and dual-use technologies but not most commercial AI. The primary UK AI regulatory burden comes from copyright and data protection rather than export controls. Control exposure becomes relevant for frontier model transfers and defense programs. Commercial AI deployment generally faces no active control constraints."
+    },
+    "Processing Mode": {
+      "value": "Inference",
+      "memo": "UK AI deployment is inference-dominant, with domestic training discouraged by data-availability constraints and compute limitations.",
+      "detail": "Copyright restrictions on training data make UK-based large-scale training unattractive. Limited domestic compute capacity reinforces the inference-only default. UK enterprises consume externally trained models through API inference rather than training their own. This processing mode is a direct consequence of the rights-holder protection posture."
+    },
+    "Derivation": {
+      "value": "Direct output",
+      "memo": "UK AI systems produce direct outputs under documented processing purposes, with limited recursive derivation.",
+      "detail": "UK GDPR purpose limitation constrains how AI outputs can be reused for further processing. Direct outputs are the cleanest compliance posture under the UK data-protection framework. Recursive derivation chains face scrutiny under data-protection impact assessments. The direct-output mode reflects the governance posture's emphasis on purpose limitation."
+    },
+    "Retention / Persistence": {
+      "value": "Persistent memory/traces",
+      "memo": "UK AI systems retain session context and interaction traces, creating persistence that copyright and GDPR obligations do not cleanly address.",
+      "detail": "Enterprise AI deployments maintain conversation history and user preference data. This persistence sits between ephemeral inference and weight-entangled training. UK GDPR storage-limitation principles apply but enforcement is inconsistent. The persistent-memory default is another area where US-style practice overrides UK-aspired governance."
+    },
+    "Execution / Residency Environment": {
+      "value": "Public cloud",
+      "memo": "UK AI runs on public cloud infrastructure from US hyperscalers, matching US residency defaults rather than EU sovereign requirements.",
+      "detail": "AWS, Azure, and GCP UK regions host most commercial AI workloads. The infrastructure is public cloud with logical rather than physical isolation. No UK mandate requires sovereign residency or dedicated infrastructure for commercial AI. The public-cloud default is a key point where UK infrastructure mirrors US rather than EU patterns."
+    },
+    "Boundary": {
+      "value": "Shared",
+      "memo": "UK AI deployments share infrastructure boundaries with other tenants, following US commercial defaults rather than EU dedicated-tenancy.",
+      "detail": "Multi-tenant cloud hosting is the UK enterprise default for AI workloads. Shared boundaries reduce cost but rely on logical isolation for data protection. No UK regulation mandates dedicated tenancy for commercial AI. The shared-boundary default is inherited from the US cloud-infrastructure model."
+    },
+    "Deployment Surface": {
+      "value": "Customer-facing",
+      "memo": "UK AI deployment commonly serves customer-facing enterprise applications in financial services and professional services.",
+      "detail": "UK enterprises deploy AI in client-facing contexts more than internal-only use. Financial services, legal, and professional services applications serve external clients. This customer-facing surface increases regulatory scrutiny and liability exposure. The deployment surface reflects the UK's services-economy structure."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "UK AI infrastructure relies on commercial cloud from US hyperscalers operating UK-region data centers.",
+      "detail": "Microsoft, Amazon, and Google operate UK-region data centers serving AI workloads. No UK-owned cloud alternative provides competitive AI infrastructure at scale. This creates an infrastructure dependency on US providers that the sovereignty rhetoric does not address. The commercial-cloud default is the most visible US-style inheritance."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "UK enterprises source models from multiple US-based providers, with limited domestic frontier-model alternatives.",
+      "detail": "UK enterprises evaluate OpenAI, Anthropic, Google, and open-weight options like other markets. DeepMind operates as a Google division rather than an independent UK provider. No independent UK frontier lab offers competitive commercial model access. Multi-provider sourcing is the pragmatic response to absent domestic alternatives."
+    },
+    "Compute Source": {
+      "value": "Rented/spot",
+      "memo": "UK AI compute is predominantly rented from cloud providers, with government-backed compute initiatives still limited in scale.",
+      "detail": "UK enterprises rent compute through standard cloud agreements. Government-backed compute initiatives like UKRI resources provide research capacity but not commercial scale. The rented-compute posture limits the UK's ability to support domestic frontier training. This is a structural constraint, not just a budget issue."
+    },
+    "Cloud Dependency": {
+      "value": "Preferred partner",
+      "memo": "UK AI deployment depends on preferred cloud partnerships with US hyperscalers, creating structural dependency without sovereignty.",
+      "detail": "UK government and enterprise AI runs primarily on Azure and AWS through preferred-partner agreements. These relationships provide priority access and co-development benefits. However, they create dependency on US-controlled infrastructure for sovereign-sensitive workloads. The preferred-partner posture is tighter than portable but not formally captive."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "UK AI infrastructure runs on Nvidia merchant GPUs with no domestic accelerator alternative.",
+      "detail": "UK cloud regions and research clusters depend entirely on Nvidia hardware. No UK or European company produces competitive AI accelerators. This merchant-GPU dependency mirrors the global default but compounds UK infrastructure vulnerability. The accelerator gap reinforces overall supply-chain dependency."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "The UK procures AI infrastructure through market access rather than controlling supply allocation or strategic positioning.",
+      "detail": "UK AI supply strategy relies on purchasing available capacity from global providers. No UK entity controls GPU allocation or has strategic supply agreements. This market-access posture means the UK is a price-taker in AI infrastructure. Supply availability depends on decisions made by Nvidia and US hyperscalers."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "UK AI faces the global accelerator-supply bottleneck with no domestic mitigation or alternative silicon strategy.",
+      "detail": "GPU supply constraints affect UK AI ambitions as they do other markets. The UK has no domestic semiconductor fabrication for AI accelerators. No UK policy initiative addresses the accelerator-supply bottleneck specifically. The bottleneck reinforces the inference-only deployment pattern."
+    },
+    "Substitutability": {
+      "value": "Expensive switch",
+      "memo": "Switching UK AI providers is possible but expensive due to data migration, workflow integration, and cloud lock-in.",
+      "detail": "UK enterprises face the same switching costs as US counterparts for AI provider changes. Data gravity, prompt engineering investment, and platform integration create friction. The expensive-switch dynamic sustains incumbent relationships. No UK portability requirement reduces these switching costs like EU regulations attempt."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "UK AI companies are predominantly application-layer players without infrastructure, model, or silicon layer control.",
+      "detail": "UK AI firms build applications on US-provided models and cloud infrastructure. No UK company controls a meaningful portion of the AI stack below the application layer. This application-only positioning limits UK strategic leverage and value capture. DeepMind's integration into Google removes the UK's main model-layer asset from domestic control."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "UK AI distribution follows the API and application pattern set by US providers serving the global market.",
+      "detail": "AI capability reaches UK users through the same API endpoints serving global customers. No UK-specific distribution channel or requirement differentiates the UK market. The API/app distribution model is inherited from the US provider ecosystem. Distribution governance is set by platform terms rather than UK regulation."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "UK AI supply chains run through allied jurisdictions, primarily US cloud providers and Taiwanese semiconductor manufacturing.",
+      "detail": "The UK's AI supply chain depends on US hyperscalers and Nvidia for compute infrastructure. Semiconductor supply flows through allied but geographically concentrated Taiwanese fabrication. This allied-jurisdiction supply provides commercial access but not sovereign control. The Five Eyes intelligence relationship adds a security-cooperation dimension to the allied supply posture."
+    },
+    "Observability": {
+      "value": "Declared",
+      "memo": "UK AI observability relies on vendor declarations and voluntary transparency commitments rather than mandated audit access.",
+      "detail": "AISI and the UK government promote voluntary transparency commitments from frontier labs. These create declared visibility rather than independently verified observability. No UK regulation mandates auditability for commercial AI systems. The declared-but-unverified posture is weaker than the EU's auditable standard."
+    },
+    "Evaluation": {
+      "value": "Benchmarked",
+      "memo": "UK AI evaluation follows the global benchmark standard, with AISI adding voluntary pre-release evaluation for frontier models.",
+      "detail": "AISI conducts pre-release evaluations of frontier models through voluntary agreements. These evaluations use benchmarks and red-team testing but have no binding authority. The benchmarked-plus-voluntary-review standard exceeds the US default but lacks EU enforcement. Evaluation rigor depends on voluntary cooperation rather than legal mandate."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "UK AI interpretability relies on behavioral evidence from evaluation outputs rather than mechanistic access to model internals.",
+      "detail": "AISI evaluations assess model behavior through testing rather than examining internal mechanisms. This behavioral-evidence approach provides practical safety information without requiring model access. It exceeds the US black-box default but falls short of legible-trace requirements. The interpretability level reflects available methods rather than regulatory mandate."
+    },
+    "Alignment Method": {
+      "value": "Prompting/RLHF",
+      "memo": "UK-deployed AI uses standard RLHF and prompting alignment methods set by US providers without UK-specific requirements.",
+      "detail": "Alignment methods are determined by model providers rather than UK-specific obligations. Standard RLHF and constitutional AI approaches apply uniformly across markets. No UK regulation mandates specific alignment methodologies or standards. The alignment method is inherited from the US provider ecosystem."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "UK AI security follows enterprise-grade cloud standards set by US providers operating UK-region infrastructure.",
+      "detail": "Security controls for UK AI deployments match global enterprise cloud standards. UK-specific requirements come from financial-services regulation and data protection rather than AI-specific rules. The security posture is enterprise-grade but not defense-grade for commercial applications. NCSC guidance adds advisory security recommendations without binding requirements."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "UK AI systems face criminal and state-adjacent threats, with Five Eyes intelligence providing additional threat awareness.",
+      "detail": "UK-market AI platforms face similar criminal and espionage threats to US counterparts. Five Eyes intelligence cooperation provides enhanced threat awareness for UK government AI deployments. Commercial systems rely on vendor security rather than state-provided protection. The adversary model matches the US commercial default."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "UK-deployed model weights receive standard monitoring from US providers without UK-specific weight-security requirements.",
+      "detail": "Model weight security follows the provider's global security posture with UK-region hosting. No UK regulation mandates enhanced weight protection for commercial AI deployments. Monitored access provides logging and alerting without airgapping or physical isolation. Weight security governance is set by the vendor rather than UK regulators."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "UK enterprise AI deployments use role-based access control meeting data-protection and financial-services requirements.",
+      "detail": "UK GDPR and financial-services regulation require access controls proportionate to data sensitivity. Role-based access control is the practical standard for enterprise AI deployments. This exceeds the US API-keys default but does not reach least-privilege enforcement. RBAC implementation reflects UK enterprise security maturity."
+    },
+    "Monitoring Scope": {
+      "value": "Outputs",
+      "memo": "UK AI monitoring typically covers outputs only, matching the US default rather than the EU's broader scope.",
+      "detail": "Commercial AI monitoring in the UK focuses on output content and quality. Internal reasoning, tool activity, and infrastructure behavior are rarely monitored externally. This output-only scope matches the US default rather than the EU's prompt-and-output requirement. The monitoring gap is part of the infrastructure-level US-default inheritance."
+    },
+    "Containment": {
+      "value": "Policy-only",
+      "memo": "UK AI containment relies on usage policies and terms of service, matching US practice rather than EU sandboxing.",
+      "detail": "Acceptable-use policies define prohibited applications but enforcement is reactive. No UK regulation mandates technical containment measures for commercial AI. The policy-only containment mirrors the US default rather than the EU's sandboxed approach. This is another infrastructure-level inheritance point."
+    },
+    "Capability Limitation": {
+      "value": "Policy filters",
+      "memo": "UK AI capability restrictions follow US-provider policy filters with no UK-specific targeted restrictions beyond standard content rules.",
+      "detail": "Content filters and refusal training are applied uniformly across markets by US providers. No UK regulation mandates specific capability limitations or targeted restrictions. Online Safety Act content obligations may add UK-specific filters for certain harms. The capability-limitation approach is inherited from the US provider ecosystem."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Dominant UK AI use is civilian commercial, with defense and intelligence applications handled through separate procurement.",
+      "detail": "Most UK AI deployment serves financial services, professional services, and enterprise productivity. Defense and intelligence AI operates under MOD and intelligence-community procurement frameworks. The civilian default keeps most commercial AI outside defense-specific requirements. Dual-use concerns are managed through export controls rather than AI-specific regulation."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "UK AI harm concerns focus on informational channels: misinformation, bias, privacy, and financial-services harm.",
+      "detail": "The UK's primary AI harm concerns are informational and decision-making related. Financial services, employment, and media applications create the most scrutinized harm channels. The Online Safety Act addresses AI-generated harmful content through informational channels. Physical and kinetic harm channels are addressed through separate safety frameworks."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "UK AI capability spreads through licensed access from US providers, with no distinctive UK proliferation dynamic.",
+      "detail": "AI capability reaches the UK through the same licensed-access channels as other markets. No UK-specific proliferation dynamic differentiates the UK from other allied consumer markets. The licensed-diffusion pattern is inherited from the US provider ecosystem. UK copyright protections do not affect downstream model proliferation."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "The UK is behind in frontier AI capability despite hosting DeepMind, which operates as a Google subsidiary.",
+      "detail": "No independent UK entity operates at the frontier of AI model capability. DeepMind is a Google subsidiary with limited UK sovereign-control implications. UK AI strength lies in research talent and safety expertise rather than model capability. The behind position drives the emphasis on governance and safety leadership."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "UK faces competitive pressure to attract and retain AI investment while maintaining its rights-holder protection stance.",
+      "detail": "The UK competes with the US and EU for AI investment and talent. Rights-holder protections create friction that may discourage domestic training investment. This competitive pressure creates tension between governance ambition and economic pragmatism. The race is for investment attraction rather than frontier capability."
+    },
+    "Coalition Structure": {
+      "value": "National project",
+      "memo": "UK AI governance operates as a national project with AISI, DSIT, and sector regulators coordinating government-led strategy.",
+      "detail": "The UK government coordinates AI policy through DSIT and AISI at the national level. Sector regulators implement AI governance within their domains. This national-project structure provides strategic coherence without EU-style bloc coordination. It is more coordinated than the US single-firm default but narrower than the EU allied-bloc approach."
+    },
+    "Nonproliferation Regime": {
+      "value": "Norms",
+      "memo": "UK AI governance relies on voluntary norms, safety commitments, and Bletchley-process agreements rather than enforced regulation.",
+      "detail": "The Bletchley Declaration and subsequent summits establish international AI safety norms. AISI conducts voluntary evaluations under cooperative rather than mandatory frameworks. These norms-based mechanisms lack enforcement power compared to the EU's regulatory regime. The UK positions itself as a norms convener rather than a regulator."
+    },
+    "Data Value Dynamics": {
+      "value": "Use-specific",
+      "memo": "UK copyright and data protection make data value use-specific, with each training use requiring its own permission basis.",
+      "detail": "Copyright consent requirements mean data value depends on the specific use being licensed. UK GDPR purpose limitation further constrains data reuse across different processing activities. This use-specific dynamic matches the EU pattern and contrasts with the US accretive model. Each new use case requires fresh negotiation rather than building on existing rights."
+    },
+    "Input Price": {
+      "value": "Variable",
+      "memo": "UK data licensing creates variable input pricing tied to use scope, volume, and rights-holder negotiating power.",
+      "detail": "Licensed data in the UK carries costs that vary with processing scope and exclusivity terms. Publisher and creator organizations negotiate from UK copyright's strong rights-holder position. Variable pricing reflects the negotiated nature of UK data access. Input costs are less predictable than the US fixed-price training-data default."
+    },
+    "Output Allocation": {
+      "value": "Unallocated",
+      "memo": "UK output allocation is unresolved: rights-holder claims exist in principle but no framework determines how outputs divide.",
+      "detail": "UK copyright creates theoretical rights-holder claims on AI-generated outputs using their works. However, no practical mechanism allocates output value between data suppliers and model developers. This unallocated status is a key divergence point. Strong rights language coexists with absent allocation infrastructure."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "Despite strong UK rights language, derived value is captured by US-based model processors with no effective UK sharing mechanism.",
+      "detail": "Model developers retain derived value from UK-originated training data. No contractual or regulatory mechanism forces value sharing with UK rights holders. Copyright protection creates theoretical claims but enforcement is practically difficult against offshore processors. The processor-captures default persists despite the UK's rights-holder rhetoric."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Uninsured",
+      "memo": "UK AI liability sits in an uninsured gap: disclaimers apply but no insurance or backstop framework has developed.",
+      "detail": "Standard AI service terms disclaim liability in the UK market as elsewhere. No UK-specific insurance product or government backstop covers AI-caused harm. Product liability reform to cover AI is under discussion but not yet enacted. The uninsured status means risk sits with users and affected parties."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "UK enterprise AI is funded from operating budgets, treating AI as subscription software rather than strategic infrastructure.",
+      "detail": "UK enterprises budget AI as operating expenditure through cloud subscriptions. This operating-budget approach matches the US default rather than the EU's project-finance pattern. Government AI spending through DSIT and UKRI adds public investment but at research rather than commercial scale. The operating-budget framing limits commitment depth."
+    },
+    "Commitment Tenor": {
+      "value": "Annual",
+      "memo": "UK AI commitments are typically annual cloud contracts, preserving switching flexibility in an uncertain regulatory environment.",
+      "detail": "Annual contracts are the enterprise default, reflecting cloud-subscription commercial models. The uncertain regulatory environment further discourages longer-term AI infrastructure commitments. Annual tenor preserves optionality but limits provider investment in UK-specific capability. The short commitment matches the cautious, incremental deployment posture."
+    },
+    "Revenue Dependency": {
+      "value": "Experimental",
+      "memo": "UK enterprise AI revenue dependency is experimental, enhancing existing services rather than constituting core business lines.",
+      "detail": "Most UK companies treat AI as an experimental productivity enhancement. AI revenue is rarely a standalone line item for UK enterprises or professional services firms. This experimental dependency means AI disruption would be manageable rather than existential. The early revenue stage reflects the UK market's cautious adoption curve."
+    },
+    "Switching Cost": {
+      "value": "Contractual friction",
+      "memo": "UK AI switching costs are moderate contractual friction from integration and migration, matching the US commercial default.",
+      "detail": "Switching between AI providers in the UK involves the same integration and migration costs as globally. No UK regulation reduces or increases these switching costs relative to other markets. Contractual friction sustains incumbent relationships without creating hard lock-in. The switching-cost level is inherited from the global cloud AI market."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "UK exit from AI training relationships faces capability entanglement despite strong copyright: termination does not remove trained capability.",
+      "detail": "If a UK rights holder terminates a training license, the trained capability remains in model weights. This is the core tension: strong rights language cannot produce clean exit from neural-network training. No UK legal or technical mechanism extracts specific contributions from trained models. Exit is capability-entangled regardless of the strength of the underlying rights."
+    },
+    "Acceptance Basis": {
+      "value": "Hybrid",
+      "memo": "Strong rights-holder language demands process, but practical enforcement and infrastructure sit closer to outcome-acceptance.",
+      "detail": "UK copyright and data protection frameworks articulate process requirements that mirror EU standards in aspiration. Practical enforcement capacity and political appetite for innovation create an outcome-tolerant gap. Rights holders demand process legitimacy while deployers operate on outcome evidence. The tension runs through the legitimacy basis, creating regulatory uncertainty on both sides."
+    }
+  }
+}

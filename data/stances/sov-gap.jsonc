@@ -1,0 +1,367 @@
+{
+  "id": "sov-gap",
+  "name": "Sovereign Gap",
+  "desc": "The arrangement governs data inputs through residency, permission, and regulatory controls but fails to govern what comes out. Model outputs, derived value, and trained capability escape the sovereign perimeter once processing is complete.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "Sovereign gap arrangements typically involve frontier models because only frontier capability justifies the sovereign data governance investment that creates the gap.",
+      "detail": "Narrow models do not generate outputs valuable enough to create a meaningful sovereignty gap. Frontier capability produces outputs with independent strategic and commercial value that can escape sovereign control. The gap is proportional to capability: stronger models produce more valuable outputs that are harder to contain. Frontier capability is what makes the gap consequential."
+    },
+    "Domain Breadth": {
+      "value": "General",
+      "memo": "General-purpose models create the widest sovereign gap because outputs span every domain and cannot be contained by domain-specific governance controls.",
+      "detail": "A general model trained on sovereign data produces outputs across all domains that data covered. Healthcare insights, economic analysis, defence intelligence, and cultural knowledge all flow through the same output channel. Domain-specific governance cannot contain a general-purpose model's outputs. General breadth means the sovereign gap is as wide as the model's capability."
+    },
+    "Capability Trajectory": {
+      "value": "Rapid",
+      "memo": "Rapid capability improvement widens the sovereign gap because output value grows faster than governance mechanisms can adapt to contain it.",
+      "detail": "Each capability improvement makes the model's outputs more valuable and more difficult to govern. Governance frameworks designed for one capability level become inadequate as the model improves. Rapid trajectory means the gap between governed inputs and ungoverned outputs widens continuously. The faster the capability grows, the wider the sovereignty gap becomes."
+    },
+    "Research Automation": {
+      "value": "AI-assisted",
+      "memo": "AI-assisted research conducted using sovereign data produces research outputs that may escape the sovereign perimeter while the input data remains governed.",
+      "detail": "Research outputs derived from sovereign data carry intellectual value that originated within the sovereign domain. AI-assisted research accelerates the production of these outputs. The research findings themselves may not be classified or controlled, allowing them to cross borders freely. AI assistance widens the gap by increasing the volume and quality of outputs that escape sovereign governance."
+    },
+    "Unhobbling": {
+      "value": "Workflow agent",
+      "memo": "Workflow-agent capability allows the model to produce complex, multi-step outputs that carry more sovereign-data-derived value than simple single-turn responses.",
+      "detail": "Agent-level capability produces substantive work products, not just informational answers. Each workflow execution synthesises sovereign data into reports, analyses, and recommendations. These complex outputs carry more of the sovereign data's value than simple queries. Agentic workflows increase both the volume and the sophistication of outputs that can escape the sovereign perimeter."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Many model copies deployed across government and domestic industry multiply the points at which sovereign-data-derived outputs can escape the governance perimeter.",
+      "detail": "Each deployed copy produces outputs that may leave the sovereign domain through user actions, exports, or downstream distribution. More copies mean more leakage points. The governance framework may control the model centrally but cannot control every output from every copy. Replication scale multiplies the sovereign gap proportionally. This dynamic illustrates the fundamental asymmetry between comprehensive input governance and incomplete output governance that defines the sovereign gap."
+    },
+    "Operating Speed": {
+      "value": "Faster-than-human",
+      "memo": "Faster-than-human output generation means the model produces sovereign-data-derived outputs faster than governance mechanisms can review or contain them.",
+      "detail": "Machine-speed output production outpaces human governance review. By the time an output is assessed for sovereignty implications, the model has produced thousands more. Speed asymmetry between output generation and governance review is a structural cause of the sovereign gap. Slowing the model to human speed would negate the capability investment."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "The sovereign gap is a cognitive and informational problem where knowledge and analytical capability escape the sovereign perimeter through digital channels.",
+      "detail": "The gap does not require physical extension to be consequential. Knowledge and analytical capability flow through digital channels. A model trained on sovereign health data produces diagnostic insights accessible globally through APIs. Physical containment of data does not contain the cognitive capability derived from it. The sovereign gap is fundamentally an informational escape, not a physical one."
+    },
+    "Role": {
+      "value": "Copilot/worker",
+      "memo": "The model serves as copilot to sovereign users, producing substantial work products that carry sovereign-data-derived value beyond the governance perimeter.",
+      "detail": "Copilot-level integration means the model produces outputs that become part of users' work products. These work products circulate through normal business channels that may cross sovereign boundaries. Copilot outputs are more substantive and more portable than simple tool responses. The copilot role creates higher-value outputs that carry more of the sovereign data's value when they escape."
+    },
+    "Actuation": {
+      "value": "Digital action",
+      "memo": "Digital actions produce persistent artifacts including documents, analyses, and datasets that carry sovereign-data-derived value across the governance perimeter.",
+      "detail": "Digital actions create files, reports, and structured data that persist beyond the model interaction. Each persistent artifact is a potential carrier of sovereign-data-derived value. Digital actions are more dangerous to sovereignty than informational responses because they create exportable objects. The sovereign gap widens with each digital action that produces a portable output."
+    },
+    "Autonomy": {
+      "value": "Human-on-loop",
+      "memo": "Human-on-loop supervision cannot prevent sovereign gap because supervisors monitor aggregate patterns rather than reviewing every output for sovereignty-escaping value.",
+      "detail": "On-loop supervision means humans watch for anomalies but do not inspect every output. Sovereign-data-derived value in individual outputs is invisible at the aggregate monitoring level. Supervisors cannot identify which specific outputs carry sovereignty-relevant value because the value is embedded in the analytical content. On-loop supervision is structurally insufficient for sovereign gap prevention."
+    },
+    "Delegated Authority": {
+      "value": "Limited mandate",
+      "memo": "Limited mandate governs what the model may do within the sovereign perimeter but does not address what happens to outputs after they leave the governed.",
+      "detail": "The mandate defines the model's operational scope but not the outputs' lifecycle. Once an output is produced within the mandate, it enters the user's workflow and may travel anywhere. Limited mandate governs the input side effectively but is silent on the output side. The sovereign gap sits precisely in this silence between mandated processing and ungoverned output distribution."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Gated tool access controls which sovereign data the model can reach but does not control what the model produces from that access or where outputs.",
+      "detail": "Gates control input access effectively. The model cannot reach data it is not authorised to access. However, authorised access produces outputs that carry the data's analytical value. Gated access is input governance; the sovereign gap is an output governance problem. The gates work perfectly on the input side while the output side remains ungoverned."
+    },
+    "Response / Intervention Capability": {
+      "value": "Manual stop",
+      "memo": "Manual intervention can halt model operations but cannot recall outputs that have already escaped the sovereign perimeter through normal usage channels.",
+      "detail": "Stopping the model prevents future output generation but does not address outputs already produced and distributed. Manual stop is a future-oriented control that cannot solve a retrospective problem. The sovereign gap accumulates with every output produced. Intervention after the fact is damage limitation, not gap prevention. The gap exists in the outputs already in circulation."
+    },
+    "Command Actor": {
+      "value": "State/coalition",
+      "memo": "State command governs the model's deployment and operation within the sovereign domain but lacks jurisdiction over outputs once they reach foreign users or systems.",
+      "detail": "State authority is comprehensive within sovereign territory. The government controls data access, model deployment, and operational parameters. But sovereignty ends at the border. Outputs that cross into foreign jurisdictions are beyond state command. The sovereign gap is the difference between comprehensive domestic authority and absent extraterritorial reach over cognitive outputs."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Governance decisions follow product-cycle tempo while outputs escape continuously, ensuring the governance framework always lags behind the accumulating sovereign gap.",
+      "detail": "Governance reviews occur periodically. Outputs flow continuously. The tempo mismatch means governance always addresses yesterday's gap while today's gap grows. Product-cycle decisions cannot keep pace with continuous output generation. The sovereign gap is a tempo problem as much as a control problem: governance is too slow for the speed of value escape."
+    },
+    "Tradeoff Authority": {
+      "value": "National command",
+      "memo": "National command authority governs the tradeoff between open model deployment for domestic benefit and restrictive deployment to prevent sovereign value escape.",
+      "detail": "The fundamental tradeoff is between maximising domestic model utility and minimising sovereign value leakage. Restrictive deployment reduces the gap but also reduces the model's value to domestic users. National command must decide how much leakage to accept in exchange for domestic capability. This tradeoff has no technical solution: it is a policy decision about acceptable sovereignty erosion."
+    },
+    "Permission": {
+      "value": "Broad",
+      "memo": "Broad data permission enables the model to process sovereign data comprehensively, which maximises both domestic value and the volume of valuable outputs that can escape.",
+      "detail": "Broad permission means the model absorbs the full breadth of sovereign data. Greater absorption means richer outputs. Richer outputs carry more sovereign value when they escape. Broad permission on the input side directly amplifies the sovereign gap on the output side. Restricting permission would narrow the gap but also narrow the model's domestic utility."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Conditional regulation governs data processing within the sovereign domain but lacks effective extraterritorial mechanisms to control model outputs beyond national borders.",
+      "detail": "Domestic regulation sets conditions for data access and processing. These conditions are enforceable within the jurisdiction. However, model outputs that cross borders enter jurisdictions where the sovereign's regulation does not apply. Conditional regulation is comprehensive domestically and unenforceable extraterritorially. The regulatory posture creates a well-governed input side and an ungoverned output side."
+    },
+    "Data Availability": {
+      "value": "Proprietary owned",
+      "memo": "The sovereign controls proprietary data as an input but cannot maintain proprietary control over the analytical capability and outputs derived from that data.",
+      "detail": "State-owned data enters the model under full sovereign control. The model processes it into outputs that carry the data's analytical value in a different form. Proprietary control over the input does not extend to control over the output. The sovereign gap is the transformation from controlled input to uncontrolled output. Proprietary ownership governs the data, not the knowledge derived from it."
+    },
+    "Provenance": {
+      "value": "Verifiable",
+      "memo": "Input data provenance is verifiable within the sovereign domain, but outputs lose their provenance link as they pass through the model and exit the governance.",
+      "detail": "The sovereign can verify exactly which data entered the model. However, model outputs do not carry provenance markers linking them to specific input data. Once processed, the output's connection to sovereign data is analytically real but technically invisible. Verifiable input provenance does not produce verifiable output provenance. The provenance chain breaks at the model boundary."
+    },
+    "Model-Weight Rights": {
+      "value": "Transferable weights",
+      "memo": "The sovereign holds transferable weight rights but model weights contain the sovereign data's value in a form that produces uncontrolled outputs wherever the weights are.",
+      "detail": "Transferable weights mean the sovereign can distribute the model domestically or to allies. Each recipient deploys the weights and produces outputs. The sovereign gap multiplies with each weight transfer because each deployment creates new uncontrolled output streams. Transferable rights amplify both the model's reach and the sovereign gap's width. This dynamic illustrates the fundamental asymmetry between comprehensive input governance and incomplete output governance that defines the sovereign gap."
+    },
+    "Territory": {
+      "value": "Domestic",
+      "memo": "Data governance is domestic and effective, but model outputs cross territorial boundaries through digital channels that sovereignty cannot practically control.",
+      "detail": "Domestic territorial control governs data residency, processing, and access. The sovereign perimeter is well-defined for data. But model outputs are digital information that crosses borders through APIs, email, messaging, and file sharing. Territorial governance was designed for data, not for cognitive outputs derived from data. The sovereign gap is where data governance meets its territorial limit."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "Models trained on sovereign personal data produce outputs that may reveal patterns about citizens to foreign actors, even though individual records remain within sovereign control.",
+      "detail": "Personal data stays within the sovereign perimeter. But model outputs can reveal population-level patterns, health trends, and economic indicators derived from that personal data. The outputs do not identify individuals but expose aggregate patterns that foreign actors could exploit. Personal data governance protects individuals but does not protect the aggregate intelligence derived from the population's data."
+    },
+    "Data Sensitivity": {
+      "value": "Sensitive/regulated",
+      "memo": "Sensitive data is carefully governed on input but the model's outputs carry the data's analytical value in a form that falls outside the sensitivity classification.",
+      "detail": "Sensitivity classifications govern data access, storage, and processing. Model outputs derived from sensitive data may carry equivalent analytical value but are not automatically classified at the same sensitivity level. The classification framework was designed for data, not for AI-derived insights. Sensitive input governance creates a false confidence that output governance is equally robust."
+    },
+    "Control Exposure": {
+      "value": "Potentially controlled",
+      "memo": "Model outputs derived from sovereign data could potentially constitute controlled items if they convey strategic intelligence, but most current control regimes do not cover AI-derived.",
+      "detail": "Export control frameworks were designed for physical goods and technical data. AI-derived analytical outputs exist in a grey area that most control regimes do not specifically address. Outputs carrying strategic intelligence may be potentially controlled but enforcement depends on recognising them as such. The control regime has a gap that mirrors the sovereign gap: inputs are controlled, outputs may not be."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "Training on sovereign data creates the deepest sovereign gap because the model permanently absorbs the data's analytical value into weights that produce uncontrolled outputs indefinitely.",
+      "detail": "Training permanently embeds sovereign data's value in model weights. Every subsequent inference produces outputs influenced by sovereign data. The gap persists for the model's entire lifetime. Inference-only processing would create a narrower gap because outputs derive from the query, not from absorbed training knowledge. Training is where sovereign value is most deeply and permanently captured."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "Derived outputs are the mechanism through which sovereign value escapes: the model transforms governed input data into ungoverned analytical products.",
+      "detail": "Every model output is a derived product of sovereign training data. The derivation transforms data from a governed form into an ungoverned form. Derived outputs carry the data's analytical value without carrying its governance obligations. Derivation is the chemical reaction that converts controlled inputs into uncontrolled outputs. The sovereign gap is, fundamentally, a derivation problem."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Sovereign data's value persists in model weights permanently, meaning the sovereign gap continues producing escaped value for as long as the model operates.",
+      "detail": "Weight entanglement means the sovereign gap is not a one-time event but an ongoing condition. Every inference draws on sovereign-data-influenced weights. The gap produces escaped value continuously and indefinitely. Deleting the original sovereign data does not close the gap because the model's capabilities persist. Weight entanglement makes the sovereign gap permanent."
+    },
+    "Execution / Residency Environment": {
+      "value": "Sovereign",
+      "memo": "Execution within sovereign infrastructure controls the processing environment perfectly while failing to control the outputs that leave through authorised usage channels.",
+      "detail": "Sovereign execution environment is the showcase of the gap: the input side is perfectly governed. Data resides on sovereign infrastructure. Processing occurs within sovereign borders. Access is controlled by sovereign authority. And yet the outputs, produced legitimately within this controlled environment, escape sovereign control through normal usage. Sovereign residency governs everything except what matters most."
+    },
+    "Boundary": {
+      "value": "Isolated",
+      "memo": "Isolated processing boundaries protect the training environment but outputs must eventually reach users, and the boundary between isolated processing and user delivery is where sovereignty.",
+      "detail": "Isolation protects against unauthorized data access. The boundary prevents external parties from reaching sovereign data. But legitimate users inside the boundary receive model outputs and carry them outside through their normal work. Isolation is designed to keep bad actors out, not to keep good outputs in. The sovereignty leak occurs at the authorised output delivery point, not at the security boundary."
+    },
+    "Deployment Surface": {
+      "value": "Customer-facing",
+      "memo": "Customer-facing deployment maximises both the model's value and the sovereign gap because every customer interaction produces outputs that can escape the governance perimeter.",
+      "detail": "Customer-facing deployment means the model's outputs reach the widest audience. Each customer interaction produces derived outputs carrying sovereign-data value. Customer-facing deployment is the output channel through which the sovereign gap realises itself. Internal-only deployment would narrow the gap but reduce the domestic economic benefit. Customer-facing deployment maximises both value and value escape."
+    },
+    "Physical Infrastructure": {
+      "value": "National industrial build",
+      "memo": "National industrial infrastructure investment governs the physical layer comprehensively while the informational layer above it produces outputs that escape through digital channels.",
+      "detail": "The national build controls every physical component: data centres, power, networking, security. Physical infrastructure sovereignty is complete. But the informational outputs produced by this infrastructure are digital and portable. National industrial build creates sovereign capability whose outputs are inherently non-sovereign. The infrastructure investment governs the substrate while the value escapes through the product."
+    },
+    "Model Sourcing": {
+      "value": "In-house/orchestrated",
+      "memo": "In-house model development gives the sovereign full control over training but does not give control over how outputs are used once they reach authorised domestic.",
+      "detail": "In-house sourcing means the sovereign controls every aspect of model creation. No foreign provider has access to sovereign data or weights. The model is completely sovereign in its creation. But its outputs are completely non-sovereign in their distribution. In-house sourcing is input sovereignty. The sovereign gap is output non-sovereignty. They coexist in the same model."
+    },
+    "Compute Source": {
+      "value": "Owned/custom",
+      "memo": "Owned compute infrastructure eliminates foreign cloud dependency but does not prevent sovereign-data-derived outputs from reaching foreign systems through downstream usage.",
+      "detail": "Compute sovereignty ensures no foreign provider touches sovereign data during processing. Owned infrastructure is the strongest possible compute governance. But compute sovereignty governs the processing environment, not the output distribution. Owned compute produces the same sovereign gap as rented compute would, because the gap is in the outputs, not the infrastructure."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "Cloud portability ensures no foreign provider gains leverage over sovereign AI operations, but portability does not address the output-side sovereign gap.",
+      "detail": "Portable cloud architecture prevents vendor lock-in and foreign dependency. The sovereign can operate independently of any commercial cloud provider. Cloud independence is an input-side achievement. Output-side governance remains unaddressed regardless of cloud dependency posture. Portability solves the supply dependency problem while the sovereign gap remains an output governance problem. This dynamic illustrates the fundamental asymmetry between comprehensive input governance and incomplete output governance that defines the sovereign gap."
+    },
+    "Accelerator Stack": {
+      "value": "Multi-stack",
+      "memo": "Multi-stack hardware strategy reduces single-supplier dependency but hardware diversification does not address the sovereign gap in model outputs.",
+      "detail": "Hardware sovereignty through multi-stack procurement protects against supply disruption. Multiple accelerator options ensure the sovereign programme cannot be cut off. But hardware sovereignty is another input-side control that leaves the output side open. Multi-stack strategy governs what the model runs on, not what the model produces. Hardware diversification closes supply gaps, not sovereignty gaps."
+    },
+    "Supply Control": {
+      "value": "Strategic control",
+      "memo": "Strategic supply control ensures continuous model operation but does not extend to controlling the strategic value that model outputs carry beyond sovereign borders.",
+      "detail": "Strategic control over compute supply guarantees the sovereign programme can train and deploy without disruption. Supply control is comprehensive on the infrastructure side. But controlling the supply of model capability does not control the demand for model outputs. Strategic supply control governs production capacity, not output distribution. The sovereign gap persists because output governance is a different problem."
+    },
+    "Silicon Bottleneck": {
+      "value": "Foundry concentration",
+      "memo": "Foundry concentration creates input-side supply vulnerability while the sovereign gap creates output-side governance vulnerability, producing a doubly exposed sovereign programme.",
+      "detail": "The sovereign programme faces risk on both sides. Input-side risk comes from foundry concentration threatening hardware supply. Output-side risk comes from sovereign value escaping through model outputs. These are independent vulnerabilities that compound the programme's exposure. Addressing foundry concentration through supply diversification does not address sovereign gap, and vice versa. Both must be managed simultaneously."
+    },
+    "Substitutability": {
+      "value": "Locked-in",
+      "memo": "The sovereign programme is locked into its model architecture because switching would require retraining from scratch, while the sovereign gap persists regardless of which model.",
+      "detail": "Lock-in at the infrastructure and model level means the sovereign programme cannot easily change course. But the sovereign gap is model-independent: any sufficiently capable model trained on sovereign data will produce valuable outputs that can escape. Substitutability does not affect the gap because the gap is structural, not model-specific. Locked-in infrastructure serves a programme whose fundamental output governance challenge persists across any model choice."
+    },
+    "Vertical Integration": {
+      "value": "Full-stack",
+      "memo": "Full-stack sovereign integration controls every layer of the technology stack but the output layer where model products reach users remains the ungoverned layer that creates.",
+      "detail": "Full-stack control from silicon procurement through training to deployment is comprehensive. The sovereign controls hardware, software, data, models, and infrastructure. The one layer that full-stack integration cannot fully control is the output distribution layer. Users legitimately access outputs and carry them beyond sovereign reach. Full-stack integration is nearly complete sovereignty, but the output gap in the final layer undermines the entire structure."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "API and application distribution channels deliver model outputs to authorised users who can then share, export, or redistribute outputs beyond the sovereign governance perimeter.",
+      "detail": "Distribution channels are the mechanism through which the sovereign gap operates. APIs deliver outputs to authorised users. Applications package outputs into shareable formats. Each distribution event produces a potential leakage point. The sovereign can control who accesses the API but cannot control what authorised users do with the outputs they receive. Distribution channels are the gap's operational infrastructure."
+    },
+    "Supply Jurisdiction": {
+      "value": "Domestic",
+      "memo": "Domestic supply jurisdiction achieves complete input-side sovereignty but model outputs enter global information flows that no single domestic jurisdiction can govern.",
+      "detail": "Domestic supply means every component of the input side is under sovereign control. No foreign supply dependency exists. The input side is jurisdictionally complete. But model outputs, once delivered to users, enter information flows that cross jurisdictions freely. Domestic supply jurisdiction creates the strongest possible input governance alongside the weakest possible output governance. This contrast defines the sovereign gap."
+    },
+    "Observability": {
+      "value": "Observable",
+      "memo": "The sovereign can observe everything within its perimeter, including model operations and output generation, but cannot observe what happens to outputs after they leave.",
+      "detail": "Observability within the sovereign domain is comprehensive. Every model operation, every output generated, every user access is logged and observable. But observability ends at the sovereign boundary. Once outputs reach authorised users, their subsequent distribution is invisible to the sovereign. Observable input processing combined with invisible output distribution is the observability manifestation of the sovereign gap."
+    },
+    "Evaluation": {
+      "value": "Domain evals",
+      "memo": "Domain evaluations assess model performance within sovereign use cases but do not evaluate the sovereignty risk of outputs escaping the governance perimeter.",
+      "detail": "Evaluation focuses on whether the model serves its intended purpose well. Domain evals measure accuracy, relevance, and utility. No evaluation framework measures the sovereignty exposure of model outputs. Evaluation is capability-focused, not governance-focused. The sovereign gap is invisible to standard evaluation because evaluation measures what the model does, not what happens to its outputs."
+    },
+    "Interpretability": {
+      "value": "Legible trace",
+      "memo": "Legible reasoning traces within the sovereign perimeter make model operations transparent domestically, but outputs reaching foreign actors need not carry this transparency.",
+      "detail": "Internal legibility is a governance asset within the sovereign domain. Officials can examine how the model reached its conclusions. But the conclusions themselves, stripped of reasoning traces, carry the analytical value. Foreign recipients receive the output without the trace. Internal transparency does not prevent external value escape. Legibility governs the process domestically while outputs carry ungoverned value externally."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Human review aligns the model with sovereign values and policies domestically, but sovereign-aligned outputs carry sovereign-derived value wherever they travel.",
+      "detail": "Alignment ensures the model behaves according to sovereign policy within its operational domain. Human reviewers verify that outputs serve domestic interests. But sovereign-aligned outputs that escape carry the analytical capability with them. Alignment makes the model a better servant of sovereignty, which means its outputs are more valuable, which widens the gap when those outputs escape."
+    },
+    "Security Posture": {
+      "value": "National-defense-grade",
+      "memo": "National-defence-grade security protects the input side comprehensively but the sovereign gap is not a security breach; it is value leakage through authorised channels.",
+      "detail": "Defence-grade security prevents unauthorised access, exfiltration, and compromise. The input side is protected to the highest standard. But the sovereign gap does not require a security breach. Value escapes through authorised, legitimate usage. Security protects against adversaries; the sovereign gap occurs through allies and citizens using the model as intended. Defence-grade security cannot close a gap that operates through authorised channels."
+    },
+    "Adversary Model": {
+      "value": "State actor",
+      "memo": "State actors may deliberately exploit the sovereign gap by accessing model outputs through commercial channels, legally obtaining sovereign-data-derived intelligence.",
+      "detail": "A foreign state actor need not hack the sovereign programme. They can access model outputs through legitimate commercial channels if the model serves foreign customers, or through domestic intermediaries. The sovereign gap means that state-actor adversaries can obtain sovereign-data-derived value without committing espionage. The adversary model is unusual because the threat operates through authorised channels, not through security breaches."
+    },
+    "Weight Security": {
+      "value": "Airgapped/controlled",
+      "memo": "Airgapped weight security prevents model theft but the sovereign gap operates through legitimate model outputs, not through weight exfiltration.",
+      "detail": "Controlled weights mean no adversary can steal the model. The weights are physically secured. But weight security protects the model itself, not the outputs the model produces. The sovereign gap requires only API access to the model, not access to the weights. Airgapped weight security is necessary for sovereignty but insufficient to close the output-side gap."
+    },
+    "Access Control": {
+      "value": "Least privilege",
+      "memo": "Least-privilege access control limits who can use the model and what data they can reach, but even minimum authorised access produces outputs that can escape.",
+      "detail": "Least privilege ensures users access only what they need. This minimises unnecessary data exposure within the sovereign perimeter. But every authorised access, no matter how minimal, produces outputs. Least privilege reduces the volume of the sovereign gap but cannot eliminate it. As long as any authorised user receives any output, the gap exists. Least privilege narrows the gap without closing it."
+    },
+    "Monitoring Scope": {
+      "value": "Code/tool/network activity",
+      "memo": "Comprehensive monitoring of internal activity tracks everything within the sovereign perimeter but cannot monitor what authorised users do with outputs after delivery.",
+      "detail": "Internal monitoring covers all model activity, data access, and system operations. The sovereign sees everything that happens inside the perimeter. But monitoring scope ends at the output delivery point. What users do with delivered outputs is beyond monitoring scope. Comprehensive internal monitoring creates the illusion of complete governance while the sovereign gap operates in the unmonitored space beyond delivery."
+    },
+    "Containment": {
+      "value": "Dedicated enclave",
+      "memo": "Dedicated-enclave containment protects the processing environment but the enclave must deliver outputs to users, and the delivery channel is where sovereign value escapes.",
+      "detail": "Enclave containment isolates the model and its data from external systems. The containment perimeter is strong and well-defined. But the enclave exists to serve users, which requires delivering outputs. Every output delivery crosses the containment boundary by design. Containment prevents unauthorised access while authorised output delivery creates the sovereign gap. The gap is in the enclave's intended output, not in its security failure."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "Targeted capability restrictions prevent the model from producing specific types of sensitive outputs, but general analytical outputs still carry sovereign-derived value.",
+      "detail": "Restrictions can prevent the model from producing classified content or specific sensitive categories. Targeted limitation reduces the most acute sovereignty risks. But general analytical outputs still carry value derived from sovereign data. Capability restriction is a partial mitigation that addresses the worst cases while leaving the structural gap intact. The gap persists in every unrestricted output."
+    },
+    "Use Class": {
+      "value": "Dual-use",
+      "memo": "Dual-use classification means the sovereign gap spans both civilian and defence outputs, with military-derived analytical capability potentially escaping alongside commercial outputs.",
+      "detail": "Dual-use models trained on both civilian and defence data produce outputs that may carry defence-derived insights without being classified. The sovereign gap is most dangerous in the dual-use zone where defence intelligence bleeds into civilian outputs. Dual-use classification means the gap operates across the full sensitivity spectrum, with the most damaging leakage occurring where defence and civilian outputs are indistinguishable."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "The sovereign gap's harm channel is informational: strategic intelligence and analytical capability leak through digital information channels that sovereignty cannot seal.",
+      "detail": "Harm flows through information channels. Strategic insights, economic intelligence, and population-level analytics escape as information. The informational harm channel is the hardest to control because information is non-rivalrous and replicable. Every copy of an output carries the same sovereign-derived value. Sealing information channels would require restricting legitimate use to the point of negating the model's value."
+    },
+    "Proliferation": {
+      "value": "Leaky",
+      "memo": "Sovereign-data-derived capability proliferates through model outputs that leak beyond the sovereign perimeter through legitimate usage, making containment structurally incomplete.",
+      "detail": "Proliferation occurs not through weight theft but through output distribution. Every model interaction potentially transfers sovereign-derived capability to the user. Leaky proliferation is structural because the model's purpose is to provide valuable outputs. Containing the outputs would eliminate the model's utility. Leaky proliferation is the sovereign gap described as a proliferation dynamic."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "Sovereign programmes that start behind frontier labs invest in catching up, but the sovereign gap means their data's strategic value may escape before they can.",
+      "detail": "Starting behind means the sovereign programme must extract maximum value from its data advantage before frontier labs close the gap through other means. If sovereign-data-derived outputs escape before the programme achieves its strategic objectives, the data advantage is diluted. Being behind makes the sovereign gap more consequential because the data is one of the programme's few competitive advantages."
+    },
+    "Race Pressure": {
+      "value": "Competitive",
+      "memo": "Competitive pressure pushes sovereign programmes to deploy models broadly for domestic benefit, which widens the sovereign gap by increasing the volume of outputs that can.",
+      "detail": "Competition incentivises rapid, broad deployment to maximise domestic advantage. Broader deployment means more users, more outputs, and more potential leakage points. Competitive pressure creates a tension between deploying quickly for domestic benefit and restricting deployment to minimise the sovereign gap. The pressure to compete usually wins, widening the gap as a consequence of deployment urgency."
+    },
+    "Coalition Structure": {
+      "value": "National project",
+      "memo": "National project structure gives the sovereign programme centralised authority to govern inputs but the gap persists because outputs escape through distributed domestic usage.",
+      "detail": "National project governance provides strong central authority over the programme's operations. Input governance is centralised and effective. But output governance requires controlling distributed user behaviour across every deployment. Centralised input authority and distributed output leakage create the structural asymmetry that defines the sovereign gap. National project governance is necessary but insufficient."
+    },
+    "Nonproliferation Regime": {
+      "value": "Norms",
+      "memo": "Nonproliferation norms address model weights and hardware but do not cover the sovereign gap's mechanism of value leakage through legitimate model outputs.",
+      "detail": "Existing nonproliferation norms focus on controlling the model and the infrastructure. Weight distribution, hardware exports, and research sharing are covered. But legitimate model outputs are not covered because they are the intended product of authorised use. Nonproliferation norms have a gap that mirrors the sovereign gap: they govern the capability but not the capability's output."
+    },
+    "Data Value Dynamics": {
+      "value": "Rivalrous",
+      "memo": "Sovereign data's strategic value becomes rivalrous once model outputs carry that value to foreign actors, diminishing the sovereign's exclusive informational advantage.",
+      "detail": "Sovereign data starts as an exclusive asset. Once model outputs carry its analytical value beyond the sovereign perimeter, the exclusivity diminishes. Foreign actors gain insights derived from data they could not directly access. The data itself remains sovereign but its value becomes shared through output distribution. Rivalrous dynamics mean the sovereign gap actively erodes the data's strategic value."
+    },
+    "Input Price": {
+      "value": "Structural",
+      "memo": "The sovereign invested structural capital in data collection, infrastructure, and institutional capacity, but the gap means output value escapes without structural return.",
+      "detail": "Structural investment in sovereign AI includes decades of data collection, billions in infrastructure, and institutional capacity development. The structural cost is comprehensive. But the sovereign gap means some of this investment's return leaks to foreign actors through output distribution. Structural input cost combined with leaking output value creates a poor return on sovereign stake."
+    },
+    "Output Allocation": {
+      "value": "Unallocated",
+      "memo": "Outputs escape the sovereign perimeter because no allocation mechanism governs where model-derived value flows once outputs reach authorised domestic users.",
+      "detail": "Within the sovereign domain, outputs are allocated to authorised users and agencies. Beyond the sovereign domain, output allocation is undefined. No mechanism tracks or governs where outputs go after initial delivery. Unallocated output value is the sovereign gap expressed as an allocation failure. The sovereign governed every input allocation decision but omitted output allocation from the governance framework."
+    },
+    "Derived Value Capture": {
+      "value": "Processor captures",
+      "memo": "The processor of sovereign data captures derived value through model outputs that may serve foreign interests, while the sovereign that provided the data captures no.",
+      "detail": "If the model serves foreign customers or if domestic users share outputs externally, derived value flows to parties outside the sovereign domain. The processor captures commercial value from sovereign data while the sovereign captures only domestic utility. Processor capture in the sovereign gap context means the model operator benefits from foreign usage while the sovereign bears the governance cost. Value capture is asymmetric."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Government backstop",
+      "memo": "The government backstops all sovereign programme risks including the strategic consequences of the sovereign gap, bearing costs that no private insurer would cover.",
+      "detail": "Government backstop means the state absorbs the strategic risk of sovereign value leakage. If the sovereign gap causes strategic harm, the government bears the consequence. No private insurance covers strategic intelligence loss through legitimate model outputs. Government backstop is the risk allocation for a risk category that only exists because the state chose sovereign build. The gap's risk is the sovereign's to bear."
+    },
+    "Capital": {
+      "value": "Strategic build",
+      "memo": "Strategic capital investment created the sovereign programme, but the sovereign gap means some of that strategic investment's return leaks beyond sovereign control.",
+      "detail": "Strategic build capital was allocated to create sovereign AI capability. The capital investment is justified by strategic and domestic economic returns. The sovereign gap diverts some of that return to foreign actors through output leakage. Strategic capital with leaking returns creates a governance problem that financial controls alone cannot solve. The return leakage is informational, not financial."
+    },
+    "Commitment Tenor": {
+      "value": "Infrastructure-life",
+      "memo": "Infrastructure-life commitment means the sovereign gap persists for decades because the model and its outputs will operate for the lifetime of the sovereign stake.",
+      "detail": "Twenty-to-thirty-year infrastructure commitments mean the sovereign gap is not a temporary problem. As long as the infrastructure operates and models serve users, outputs will carry sovereign-derived value beyond the governance perimeter. Infrastructure-life tenor means the sovereign gap is a permanent feature of the sovereign programme, not a phase to be resolved. Governance must account for decades of value leakage."
+    },
+    "Revenue Dependency": {
+      "value": "Core business",
+      "memo": "As the sovereign programme becomes core government business, the sovereign gap becomes a core governance challenge that cannot be sidelined as secondary.",
+      "detail": "Core-business dependency means the sovereign gap is not a minor side effect but a central governance issue. As government operations depend more on the sovereign model, more outputs carry sovereign-derived value, and more value potentially escapes. Core dependency amplifies the gap proportionally. The sovereign gap grows in importance as the sovereign programme succeeds in its primary mission."
+    },
+    "Switching Cost": {
+      "value": "Captive",
+      "memo": "The sovereign programme is captive to its architecture, meaning the sovereign gap cannot be eliminated by switching models or infrastructure without abandoning the sovereign stake.",
+      "detail": "Captive switching costs mean the sovereign cannot change course to close the gap. The investment in infrastructure, institutional capacity, and model development cannot be redirected. The sovereign gap is a permanent feature of the chosen architecture, not a bug that can be fixed by switching. Accepting the gap is the cost of sovereignty. The alternative is not building sovereign AI at all."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "There is no exit from the sovereign gap because the model's capability is permanently entangled with sovereign data, and the gap persists for as long.",
+      "detail": "Capability entanglement means the sovereign gap cannot be closed by terminating the programme. The model's capabilities, shaped by sovereign data, persist in weights. Any deployment of those weights produces outputs carrying sovereign-derived value. Exit from the programme does not exit the gap because the capability survives the programme. Entangled exit means the sovereign gap outlasts any governance decision to end it."
+    },
+    "Acceptance Basis": {
+      "value": "Institutional",
+      "memo": "Institutional authority legitimises input governance but fails to extend to the escaped capability on the output side.",
+      "detail": "The sovereign gap stance relies on institutional authority to govern the input side of the arrangement. State mandate and regulatory frameworks control data contribution and initial access terms. However, this institutional legitimacy does not extend to the trained capability that escapes through model weights. The acceptance basis covers inputs but structurally cannot reach outputs."
+    }
+  }
+}

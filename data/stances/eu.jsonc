@@ -1,0 +1,367 @@
+{
+  "id": "eu",
+  "name": "EU",
+  "desc": "Coherent governance posture: conditional rights, extraterritorial reach, controlled residency, transparency mandates, shared value, and project-level sovereignty all push toward managed architecture.",
+  "picks": {
+    "Capability Class": {
+      "value": "Frontier",
+      "memo": "EU governance targets frontier systems where transparency, accountability, and risk management matter most.",
+      "detail": "The AI Act's tiered approach focuses obligations on high-risk and general-purpose AI systems. Frontier models trigger the most demanding compliance requirements including risk assessments and incident reporting. This regulatory focus shapes which systems are practically deployable in EU markets. The governance framework assumes frontier capability is the primary object of concern."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "EU rules apply extraterritorially across domains, requiring compliance wherever AI systems affect EU subjects or markets.",
+      "detail": "The AI Act covers AI systems across all sectors that affect EU residents. Sector-specific rules in finance, healthcare, and employment add layered obligations. Multi-domain breadth means compliance teams must address diverse regulatory requirements simultaneously. The extraterritorial scope extends these obligations to non-EU providers serving EU markets."
+    },
+    "Capability Trajectory": {
+      "value": "Incremental",
+      "memo": "Conditional rights and compliance burdens slow capability deployment toward governable, incremental progress.",
+      "detail": "Mandatory risk assessments and conformity procedures add deployment lag for new capabilities. Each capability increment triggers fresh compliance evaluation before market release. This creates incremental deployment cadence even when underlying capability advances rapidly. The regulatory friction is intentional, trading speed for governance resilience."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "EU AI research remains human-led, with automated research loops constrained by transparency and oversight requirements.",
+      "detail": "Regulatory emphasis on human oversight and explainability favors human-directed research programs. Automated research loops face scrutiny under risk-management and transparency obligations. European AI labs operate with more conservative deployment practices than US counterparts. The human-led posture aligns with the governance framework's emphasis on accountability."
+    },
+    "Unhobbling": {
+      "value": "Tool-call enabled",
+      "memo": "EU-deployed AI systems access bounded tools within permission frameworks mandated by the AI Act's risk tiers.",
+      "detail": "Tool access in EU deployments requires documented risk assessment and human oversight mechanisms. This limits unhobbling to structured, permission-gated tool interactions rather than open-ended agency. The regulatory framework discourages agentic autonomy in high-risk contexts. Tool-call enablement is the practical ceiling for most compliant EU deployments."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "EU-market AI serves many users across member states but faces deployment constraints that limit population-scale spread.",
+      "detail": "AI services reach millions of EU users through platform deployments. Compliance requirements create deployment friction that constrains some use cases. The scale is substantial but moderated by regulatory gatekeeping compared to the US. Many copies operate under documented risk-management frameworks."
+    },
+    "Operating Speed": {
+      "value": "Human-speed",
+      "memo": "EU oversight requirements keep AI deployment at human-reviewable speed, with compliance checks gating fast operation.",
+      "detail": "Human oversight mandates in high-risk systems require reviewable decision pacing. Automated decisions affecting individuals must allow meaningful human intervention. This governance requirement constrains operating speed to human-compatible levels. The trade-off favors accountability and rights protection over throughput."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "EU AI regulation focuses on cognitive systems; physical-world AI faces additional product-safety and machinery directive constraints.",
+      "detail": "Most EU AI deployment remains cognitive: analysis, content, and decision support. Robotic and physical AI triggers additional regulatory layers under machinery and product-safety directives. This regulatory stacking discourages rapid physical-world AI extension. The cognitive-only default reflects both market maturity and regulatory complexity."
+    },
+    "Role": {
+      "value": "Assistant",
+      "memo": "EU regulatory posture favors AI as an assistant producing reviewable support, not an autonomous agent owning outcomes.",
+      "detail": "Human oversight requirements push AI toward the assistant role rather than autonomous operation. High-risk AI must allow meaningful human review before consequential decisions take effect. This regulatory preference shapes product design toward advisory rather than agentic configurations. The assistant role is a governance choice embedded in the legal framework."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "EU AI systems predominantly provide informational outputs with human intermediation required before consequential action.",
+      "detail": "Regulatory oversight requirements insert human decision-makers between AI analysis and real-world action. This limits the actuation channel to informational outputs that humans then act upon. Automated decision-making affecting individuals requires specific legal bases under GDPR. The informational actuation default is a direct consequence of the governance framework."
+    },
+    "Autonomy": {
+      "value": "Human-in-loop",
+      "memo": "EU AI governance mandates human-in-the-loop oversight for high-risk systems, preserving approval before consequential steps.",
+      "detail": "The AI Act requires effective human oversight proportionate to system risk. High-risk applications must allow operators to override or reverse AI decisions. This creates a structural preference for human-in-loop rather than human-on-loop operation. The mandate applies regardless of the deployer's own risk appetite."
+    },
+    "Delegated Authority": {
+      "value": "Recommend only",
+      "memo": "EU rules constrain AI to recommending rather than binding, requiring human intermediation for consequential decisions.",
+      "detail": "Automated individual decision-making faces restrictions under GDPR Article 22 and the AI Act. AI systems can analyze, rank, and recommend but should not bind principals without human approval. This recommend-only posture is legally mandated rather than commercially chosen. It preserves individual rights at the cost of automation speed."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "EU AI tool access operates through documented permission gates with risk assessment and audit requirements.",
+      "detail": "Tool integrations for high-risk AI require documented risk management and monitoring. Permission gates must be auditable and proportionate to the processing activity. This creates a structured tool-access environment compared to the US's more permissive defaults. Gated tools are the practical ceiling for compliant EU AI deployments."
+    },
+    "Response / Intervention Capability": {
+      "value": "Defined escalation",
+      "memo": "EU AI governance requires defined escalation paths with documented incident-response procedures for high-risk systems.",
+      "detail": "The AI Act mandates serious incident reporting to national competent authorities. Deployers must establish documented procedures for handling system failures and harmful outputs. Defined escalation is a legal requirement rather than a best-practice recommendation. This creates a more structured response capability than the US best-efforts default."
+    },
+    "Command Actor": {
+      "value": "State/coalition",
+      "memo": "EU AI governance is state- and coalition-level, with regulatory authority vesting in member states and EU institutions.",
+      "detail": "The AI Act creates a governance framework where EU institutions and member-state authorities hold command. National competent authorities supervise compliance within their jurisdictions. The European AI Board coordinates cross-border governance matters. This coalition command structure contrasts with the US's enterprise-level command default."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "EU AI deployment follows product-cycle tempo, with compliance assessments gating release schedules rather than crisis response.",
+      "detail": "Conformity assessments and risk evaluations add time to product release cycles. The regulatory process operates on administrative rather than crisis timelines. This product-cycle tempo ensures governance keeps pace with deployment but slows innovation. Providers must build compliance into their development schedules."
+    },
+    "Tradeoff Authority": {
+      "value": "Safety body",
+      "memo": "EU AI tradeoff authority sits with safety and regulatory bodies rather than product teams, mandating external review.",
+      "detail": "National competent authorities and the European AI Board hold ultimate authority over safety-speed tradeoffs. Product teams cannot unilaterally decide to ship capability that crosses regulatory thresholds. This external tradeoff authority contrasts with the US product-team default. It slows deployment but ensures externalities are addressed before market release."
+    },
+    "Permission": {
+      "value": "Conditional",
+      "memo": "EU training permission is conditional on compliance with copyright, GDPR, and AI Act transparency requirements.",
+      "detail": "The text and data mining exception requires rights-holder opt-out mechanisms for commercial use. GDPR restricts processing of personal data for AI training without lawful basis. AI Act transparency obligations add further conditions on training data documentation. Permission exists but is heavily conditioned compared to the US broad default."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "The EU regulatory posture conditions AI deployment on risk classification, conformity assessment, and ongoing compliance.",
+      "detail": "The AI Act creates a risk-based framework with prohibited, high-risk, and general-purpose categories. Each category carries specific obligations from outright bans to documentation and monitoring requirements. Conditional deployment means capability is permitted only when compliance conditions are met. This is a fundamentally different posture from US permissive-by-default."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "EU data for AI training is available primarily through licensing, with opt-out rights and GDPR constraints limiting open scraping.",
+      "detail": "Rights-holder opt-out mechanisms and GDPR consent requirements create a licensed-data environment. Open web scraping faces legal challenges from copyright and data protection enforcement. This forces training data acquisition through negotiated licensing arrangements. The licensed-data posture increases cost but improves provenance and accountability."
+    },
+    "Provenance": {
+      "value": "Verifiable",
+      "memo": "EU transparency requirements push toward verifiable data provenance with documented training data sources and processing records.",
+      "detail": "The AI Act requires general-purpose AI providers to document training data including copyright compliance. GDPR mandates records of processing activities for personal data used in training. These requirements create a verifiable provenance chain from source to training. Verifiability is a regulatory mandate rather than a market-driven choice."
+    },
+    "Model-Weight Rights": {
+      "value": "Hosted only",
+      "memo": "EU-deployed AI is predominantly hosted-only, with model weights controlled by providers behind API interfaces.",
+      "detail": "Most EU AI deployment accesses models through cloud APIs rather than local weight deployment. The hosted-only model keeps weights under provider control and simplifies compliance monitoring. Open-weight deployment within the EU faces additional obligations under the AI Act. The hosted-only default aligns with the governance posture's emphasis on provider accountability."
+    },
+    "Territory": {
+      "value": "Extraterritorial",
+      "memo": "EU AI regulation applies extraterritorially, reaching any AI system whose outputs affect EU residents or markets.",
+      "detail": "The AI Act follows the GDPR's extraterritorial reach model. Non-EU providers must comply when their systems produce effects within the EU. This creates compliance obligations for US and Asian AI companies serving EU markets. Extraterritorial jurisdiction is the EU's primary mechanism for governing globally deployed AI."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "EU AI deployments commonly process ordinary personal data, triggering GDPR's full suite of data-subject rights and obligations.",
+      "detail": "GDPR applies to any AI processing that involves identified or identifiable individuals. This triggers rights to access, rectification, erasure, and explanation for automated decisions. Personal data exposure is the primary regulatory trigger in the EU framework. Even ordinary personal data activates constraints that US deployments largely avoid."
+    },
+    "Data Sensitivity": {
+      "value": "Sensitive/regulated",
+      "memo": "EU data governance treats many AI use cases as involving sensitive or regulated data, triggering heightened protection obligations.",
+      "detail": "Special category data under GDPR and sector-specific regulations create heightened sensitivity classifications. Healthcare, biometric, and employment data frequently involved in AI trigger additional safeguards. The sensitive-data default raises compliance costs and constrains processing options. This classification reflects the EU's precautionary approach to data governance."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Most EU commercial AI deployment sits outside export-control triggers, with dual-use concerns handled through separate regimes.",
+      "detail": "EU dual-use export controls apply to specific technologies but most commercial AI is unaffected. The primary regulatory burden comes from the AI Act and GDPR rather than export controls. Control exposure becomes relevant for frontier model transfers and defense applications. For standard commercial deployment, export controls are not the binding constraint."
+    },
+    "Processing Mode": {
+      "value": "Inference",
+      "memo": "EU AI deployment emphasizes inference-time use of externally trained models rather than domestic large-scale training.",
+      "detail": "European enterprises predominantly consume AI through API inference rather than training their own models. Limited domestic compute capacity and restrictive data rules discourage large-scale training within the EU. This inference-centric mode reduces data-entanglement risk but increases dependency on external providers. The processing-mode default reflects both regulatory and infrastructure realities."
+    },
+    "Derivation": {
+      "value": "Direct output",
+      "memo": "EU AI systems produce direct outputs under documented processing purposes rather than recursive derivation chains.",
+      "detail": "GDPR's purpose limitation principle constrains how AI outputs can be reused and combined. Recursive derivation chains face scrutiny under data protection impact assessments. This limits the derived-value chains that US providers build from interaction data. Direct output is the cleanest compliance posture under EU data governance."
+    },
+    "Retention / Persistence": {
+      "value": "Deletion-required",
+      "memo": "EU data governance mandates deletion when processing purposes are fulfilled, constraining persistent data retention.",
+      "detail": "GDPR's storage limitation principle requires data deletion when processing purposes expire. The right to erasure creates individual deletion obligations that conflict with model training persistence. This deletion-required posture contrasts sharply with US weight-entangled retention. The legal requirement creates practical tension with neural-network training's irreversible nature."
+    },
+    "Execution / Residency Environment": {
+      "value": "Sovereign",
+      "memo": "EU data sovereignty requirements push AI execution toward controlled European residency environments.",
+      "detail": "Data-localization preferences and Schrems II transfer restrictions favor EU-resident infrastructure. Cloud providers offer EU-only regions to meet sovereign residency requirements. This creates a sovereign execution environment distinct from the US public-cloud default. The sovereignty push reflects both data-protection and strategic-autonomy objectives."
+    },
+    "Boundary": {
+      "value": "Dedicated tenant",
+      "memo": "EU compliance and data-sovereignty requirements push AI deployments toward dedicated tenancy rather than shared infrastructure.",
+      "detail": "Data protection requirements favor logical or physical isolation between tenants. Dedicated tenancy provides clearer compliance boundaries for data residency and access control. This contrasts with the US shared-boundary default driven by cost optimization. The dedicated-tenant preference adds cost but simplifies regulatory compliance."
+    },
+    "Deployment Surface": {
+      "value": "Restricted users",
+      "memo": "EU AI deployment often restricts user access to authorized internal or enterprise users rather than fully public-facing release.",
+      "detail": "High-risk AI obligations increase with wider deployment, creating incentives for restricted user access. Enterprise-internal deployments face lighter regulatory burdens than public-facing consumer services. This restricted-user default reduces compliance costs and exposure surface. The deployment surface choice is shaped by regulatory economics."
+    },
+    "Physical Infrastructure": {
+      "value": "Commercial cloud",
+      "memo": "EU AI runs on commercial cloud infrastructure, predominantly from US hyperscalers operating EU-region data centers.",
+      "detail": "AWS, Azure, and GCP operate dedicated EU regions to meet data-residency requirements. European cloud alternatives exist but lack the scale and capability of US hyperscalers. This creates an infrastructure dependency that the EU's sovereignty ambitions have not yet resolved. The commercial cloud default is a pragmatic compromise between sovereignty and capability."
+    },
+    "Model Sourcing": {
+      "value": "Multi-provider",
+      "memo": "EU sovereignty and portability objectives favor multi-provider model sourcing to reduce single-vendor dependency.",
+      "detail": "Interoperability and portability principles encourage enterprises to use multiple model providers. This reduces dependency on any single frontier lab or cloud platform. Multi-provider sourcing aligns with the EU's competitive-markets and digital-sovereignty agendas. It adds integration complexity but preserves strategic optionality."
+    },
+    "Compute Source": {
+      "value": "Rented/spot",
+      "memo": "European AI compute is predominantly rented from cloud providers, with limited owned or committed frontier-scale capacity.",
+      "detail": "European enterprises and researchers typically use on-demand cloud compute. Few European organizations have committed to frontier-scale reserved capacity. This rented-compute posture limits training ambition but maintains financial flexibility. It reflects both capital constraints and the inference-centric deployment model."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "EU digital-sovereignty policy promotes cloud portability, aiming to prevent captive dependency on any single provider.",
+      "detail": "EU data governance and interoperability rules discourage exclusive cloud dependencies. Portability requirements under the Data Act reinforce the ability to switch providers. This portable posture is policy-driven rather than market-driven. Practical switching costs remain but the regulatory framework pushes toward genuine portability."
+    },
+    "Accelerator Stack": {
+      "value": "Nvidia GPU (merchant)",
+      "memo": "EU AI infrastructure depends on Nvidia merchant GPUs, with no European alternative accelerator at competitive scale.",
+      "detail": "European cloud regions and research clusters run on Nvidia hardware like the rest of the world. No European chip company produces competitive AI accelerators at scale. This creates a supply dependency that the EU's sovereignty ambitions have not addressed. The accelerator gap is one of the most significant European AI infrastructure weaknesses."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "EU AI supply strategy focuses on market access and interoperability rather than strategic control of the compute stack.",
+      "detail": "European policy seeks fair access to AI infrastructure through competition and regulation. No European entity controls frontier compute allocation or accelerator supply. This market-access approach contrasts with the US allocation-rights and Nvidia's strategic-control postures. It reflects the EU's position as a rule-setter rather than a stack-owner."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Europe faces the same global accelerator-supply bottleneck with the added constraint of no domestic chip fabrication.",
+      "detail": "EU access to frontier GPUs depends on global allocation decisions by Nvidia and cloud providers. The European Chips Act aims to increase domestic semiconductor capacity but has not reached AI accelerators. This dual bottleneck of global supply constraints and domestic production gaps limits European AI infrastructure. The silicon bottleneck reinforces dependency on US and Asian supply chains."
+    },
+    "Substitutability": {
+      "value": "Replaceable",
+      "memo": "EU portability regulation and multi-provider strategy make AI components more replaceable than in locked-in ecosystems.",
+      "detail": "Portability requirements and multi-provider sourcing reduce switching costs between AI services. Standardized API interfaces and open-source alternatives support practical replaceability. This regulatory-driven substitutability contrasts with the expensive-switch dynamics in US deployments. The replaceable posture preserves buyer power but may reduce deep provider commitment."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "European AI companies are predominantly application-layer players without infrastructure or model-layer control.",
+      "detail": "European AI firms build applications on top of US-provided models and cloud infrastructure. No European company controls the full stack from silicon to application. This application-only positioning limits strategic leverage and value capture. It reflects the structural gap in European AI infrastructure investment."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "EU AI distribution follows the API and application pattern, with regulatory compliance requirements at the distribution point.",
+      "detail": "AI capability reaches EU users through regulated API endpoints and application integrations. Distribution channels must comply with AI Act transparency and disclosure requirements. This adds regulatory overhead to the distribution layer compared to US deployments. The API/app channel is the practical distribution model for compliance-gated capability."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "EU AI supply chains run through allied jurisdictions, primarily US cloud and Taiwanese semiconductor manufacturing.",
+      "detail": "The EU's AI supply chain depends on US hyperscalers and Nvidia for compute infrastructure. Semiconductor fabrication runs through TSMC in allied but geographically exposed Taiwan. This allied-jurisdiction supply provides commercial access but not sovereign control. The dependency creates strategic vulnerability despite the governance framework's sovereignty ambitions."
+    },
+    "Observability": {
+      "value": "Auditable",
+      "memo": "EU transparency mandates create auditable AI systems with documented risk assessments, data records, and processing logs.",
+      "detail": "The AI Act requires technical documentation, risk-management records, and logging of system operation. GDPR mandates data-processing records and impact assessments for high-risk processing. These requirements create an auditable evidence base that the US opaque default lacks. Auditable observability is a core feature of the EU governance model."
+    },
+    "Evaluation": {
+      "value": "Domain evals",
+      "memo": "EU high-risk AI requirements push evaluation toward domain-specific assessments rather than generic benchmarks alone.",
+      "detail": "Conformity assessment for high-risk AI requires domain-specific testing against defined standards. Generic benchmarks are insufficient to demonstrate compliance with sector-specific obligations. This drives evaluation toward more rigorous domain-specific methodologies. The evaluation standard is higher than the US benchmarked default."
+    },
+    "Interpretability": {
+      "value": "Legible trace",
+      "memo": "EU transparency requirements push toward legible decision traces that humans can review and understand.",
+      "detail": "GDPR's right to explanation and AI Act transparency requirements demand interpretable outputs. This creates pressure for legible traces of reasoning rather than black-box outputs. The requirement applies even when the underlying model is technically opaque. Legible traces are a compliance necessity rather than a research achievement."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "EU governance relies on human review as the primary alignment and oversight mechanism for AI system behavior.",
+      "detail": "Human oversight requirements in the AI Act mandate meaningful human review of AI decisions. This creates a human-review alignment method layered on top of technical approaches like RLHF. The regulatory framework treats human review as a necessary complement to technical alignment. This approach scales better for accountability than for capability growth."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "EU AI security requirements mandate enterprise-grade controls proportionate to system risk and data sensitivity.",
+      "detail": "GDPR's security requirements and AI Act risk-management obligations mandate robust security measures. Enterprise-grade controls are the minimum compliance standard for high-risk AI deployments. This exceeds the US API-keys default but falls short of defense-grade for most commercial use. Security posture is a regulatory requirement rather than a market choice."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "EU AI systems face criminal and state-adjacent threats, with cross-border deployment increasing the attack surface.",
+      "detail": "EU-market AI platforms face similar criminal and espionage threats to US counterparts. Cross-border deployment across 27 member states increases the attack surface. State-adjacent actors target personal data and strategic information in EU-hosted systems. The threat model is comparable to the US but the governance response is more structured."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "EU-deployed model weights are monitored under provider security controls but not airgapped or specially protected.",
+      "detail": "Model weights in EU cloud regions receive standard enterprise monitoring and access controls. No EU-specific requirement mandates airgapping or enhanced weight security measures. Weight protection follows the provider's global security posture with EU-region residency. The monitored-but-accessible status matches the hosted-only deployment model."
+    },
+    "Access Control": {
+      "value": "Least privilege",
+      "memo": "EU data-protection principles mandate least-privilege access controls, restricting AI system access to necessary data only.",
+      "detail": "GDPR's data minimization and purpose limitation principles require least-privilege access design. AI systems should access only the personal data necessary for the documented processing purpose. This creates a more restrictive access-control default than the US API-keys baseline. Least privilege is a legal requirement enforced through accountability and audit mechanisms."
+    },
+    "Monitoring Scope": {
+      "value": "Prompts and outputs",
+      "memo": "EU logging and transparency requirements extend monitoring to both prompts and outputs, not outputs alone.",
+      "detail": "AI Act logging requirements mandate recording of input-output pairs for high-risk systems. GDPR audit trails must capture processing activities including the data provided to AI systems. This prompt-and-output monitoring exceeds the US output-only scope. The broader monitoring enables better incident investigation and compliance verification."
+    },
+    "Containment": {
+      "value": "Sandboxed",
+      "memo": "EU regulatory sandboxes and risk-management requirements favor sandboxed AI deployment with controlled testing environments.",
+      "detail": "The AI Act creates regulatory sandboxes for controlled AI experimentation. High-risk systems require testing in managed environments before wider deployment. This sandboxed approach limits blast radius and enables iterative compliance verification. The containment posture reflects the precautionary governance philosophy."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "EU AI regulation imposes targeted restrictions on prohibited use cases rather than relying on general policy filters.",
+      "detail": "The AI Act bans specific AI applications including social scoring and certain biometric uses. These targeted restrictions remove capability for defined use cases rather than filtering outputs. The approach is more precise than general policy filters but less flexible for novel risks. Targeted restrictions are the EU's preferred mechanism for capability governance."
+    },
+    "Use Class": {
+      "value": "Civilian regulated",
+      "memo": "EU AI deployment is predominantly civilian but regulated, with compliance obligations that the US civilian class avoids.",
+      "detail": "The AI Act creates a civilian-regulated category between the US unregulated civilian and defense contexts. Regulated civilian use triggers conformity assessment, monitoring, and incident-reporting obligations. This classification reflects the EU's view that civilian AI merits governance proportionate to risk. The regulated posture applies even when no dual-use or defense concern exists."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "EU AI harm concerns focus on informational channels: bias, discrimination, privacy violation, and manipulation of individuals.",
+      "detail": "The AI Act and GDPR target harms flowing through informational and decision-making channels. Discrimination in hiring, credit, and law enforcement are primary regulatory concerns. Physical and kinetic harm channels are addressed through separate product-safety frameworks. The informational harm focus reflects the cognitive-only deployment pattern."
+    },
+    "Proliferation": {
+      "value": "Licensed diffusion",
+      "memo": "EU AI capability diffuses through licensed access with regulatory conditions governing downstream deployment and use.",
+      "detail": "AI providers serving EU markets must comply with distribution and transparency requirements. This creates a licensed-diffusion pattern where capability spreads under regulatory conditions. Open-weight models face additional obligations under the AI Act's general-purpose provisions. The regulated diffusion is more controlled than the US market-driven default."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "The EU is behind the US and China in frontier AI capability, focusing on governance leadership rather than model development.",
+      "detail": "No European lab operates at the frontier of model capability or scale. European competitive advantage lies in regulatory standards rather than AI capability. This behind-on-capability position shapes the EU's strategy toward rule-setting and market regulation. The governance lead compensates partially for the capability gap."
+    },
+    "Race Pressure": {
+      "value": "Low",
+      "memo": "EU AI race pressure is low because the competitive strategy is governance leadership rather than capability competition.",
+      "detail": "The EU is not racing to build frontier models and does not face direct capability competition. Competitive pressure exists in AI adoption and application but not in foundational model development. This low race pressure allows the EU to prioritize governance quality over deployment speed. The posture is sustainable only if governance leadership retains strategic value."
+    },
+    "Coalition Structure": {
+      "value": "Allied bloc",
+      "memo": "EU AI governance operates as an allied bloc, coordinating across 27 member states through shared institutions.",
+      "detail": "The AI Act creates a unified regulatory framework across the European Union. Member states implement through national competent authorities coordinated by the European AI Board. This allied-bloc structure provides scale and coherence that individual states could not achieve. It contrasts with the US single-firm and China's national-project structures."
+    },
+    "Nonproliferation Regime": {
+      "value": "Enforced regime",
+      "memo": "The EU AI Act creates an enforced regulatory regime with penalties, not just voluntary norms or guidelines.",
+      "detail": "AI Act violations carry fines up to 35 million euros or 7% of global annual turnover. National competent authorities have inspection and enforcement powers. This creates an enforced regime with real compliance consequences. The penalty structure mirrors GDPR's enforcement model and exceeds any US federal equivalent."
+    },
+    "Data Value Dynamics": {
+      "value": "Use-specific",
+      "memo": "EU data governance makes data value use-specific, with lawful basis and purpose limitation constraining reuse across contexts.",
+      "detail": "GDPR purpose limitation prevents data collected for one purpose from being freely reused for AI training. Each new use requires its own lawful basis and potentially new consent. This makes data value context-dependent rather than freely accretive. The use-specific dynamic is a fundamental difference from the US accretive model."
+    },
+    "Input Price": {
+      "value": "Variable",
+      "memo": "EU data licensing costs vary with use scope, volume, and regulatory compliance burden, creating variable input pricing.",
+      "detail": "Licensed data in the EU carries costs that scale with processing scope and data-subject rights obligations. Compliance costs for GDPR and copyright add variable overhead to data acquisition. This variable pricing contrasts with the US fixed-price training-data default. Input prices reflect the regulatory cost of conditional permission."
+    },
+    "Output Allocation": {
+      "value": "Shared",
+      "memo": "EU governance frameworks push toward shared output allocation, with rights-holder interests recognized alongside developer claims.",
+      "detail": "Copyright and data protection frameworks create claims by input providers on downstream outputs. Licensing negotiations increasingly include output-allocation provisions for EU-governed data. This shared allocation contrasts with the US retained-value default. The sharing reflects the EU's emphasis on balanced stakeholder value distribution."
+    },
+    "Derived Value Capture": {
+      "value": "Revenue share",
+      "memo": "EU licensing and regulatory frameworks push derived-value capture toward revenue-sharing arrangements rather than pure processor capture.",
+      "detail": "Data licensing agreements in EU markets increasingly include revenue-sharing provisions. Rights-holder advocacy and regulatory pressure create expectations of fair value distribution. This revenue-share model contrasts with the US processor-captures default. The derived-value framework reflects EU policy on fair digital-economy value distribution."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Allocated",
+      "memo": "EU AI liability rules allocate risk to providers and deployers through documented responsibility frameworks rather than disclaiming it.",
+      "detail": "The AI Act assigns specific obligations and liabilities to providers and deployers respectively. Product-liability reform extends strict liability to AI-caused harm in certain contexts. This allocated-risk posture contrasts with the US disclaimed-liability default. Risk allocation is built into the governance framework rather than left to market negotiation."
+    },
+    "Capital": {
+      "value": "Project",
+      "memo": "EU AI investment follows project-finance patterns, with defined scopes tied to sovereignty objectives and industrial policy.",
+      "detail": "European AI investment flows through defined programs like IPCEI, Horizon Europe, and national AI strategies. Project-finance structures tie capital to specific outcomes and governance requirements. This contrasts with the US operating-budget approach to AI adoption. The project-finance model reflects the EU's strategic-investment orientation toward AI."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "EU AI programs operate on multi-year commitment horizons aligned with regulatory implementation and strategic-autonomy timelines.",
+      "detail": "AI Act implementation spans years of phase-in for different risk categories. National AI strategies and IPCEI programs commit multi-year funding and governance resources. This longer commitment tenor reflects the institutional decision-making pace. Multi-year commitments enable strategic planning but reduce adaptive flexibility."
+    },
+    "Revenue Dependency": {
+      "value": "Experimental",
+      "memo": "European AI remains at experimental revenue dependency, enhancing existing business rather than constituting core business lines.",
+      "detail": "Most European companies treat AI as an experimental enhancement to existing operations. AI revenue is rarely a standalone business line for European firms. This experimental dependency means AI failure would be inconvenient but not existential. The early revenue stage reflects the EU's later adoption curve."
+    },
+    "Switching Cost": {
+      "value": "Low",
+      "memo": "EU portability rules and multi-provider strategy keep switching costs low, preserving buyer optionality across AI services.",
+      "detail": "Data portability rights and interoperability requirements reduce provider lock-in. Multi-provider sourcing and API standardization further lower switching friction. Low switching costs are a policy objective of the EU digital-market framework. This preserves competition and buyer power in the AI service market."
+    },
+    "Exit": {
+      "value": "Exportable",
+      "memo": "EU data governance creates exportable exit conditions, with data portability rights enabling cleaner separation from AI providers.",
+      "detail": "GDPR data portability rights allow individuals and organizations to retrieve their data from AI services. The inference-centric processing mode avoids the weight-entanglement problem that makes US exits messy. This creates a cleaner exit path than the capability-entangled US default. Exportable exit is a designed feature of the EU governance framework."
+    },
+    "Acceptance Basis": {
+      "value": "Process-required",
+      "memo": "GDPR right to explanation and AI Act transparency obligations demand articulable process as the basis for acceptance.",
+      "detail": "The AI Act mandates risk assessments, conformity procedures, and human oversight documentation before deployment. GDPR requires data-processing justification that goes beyond outcome quality. Regulatory posture demands that the deployer can explain how the system works, not just that it works. Process legitimacy is the price of market access in the EU."
+    }
+  }
+}

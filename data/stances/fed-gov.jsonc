@@ -1,0 +1,367 @@
+{
+  "id": "fed-gov",
+  "name": "Split Ledger",
+  "desc": "Data stays local but learning aggregates centrally, creating two ledgers that do not reconcile: one for input governance and one for output value. The structural tension is that local data controllers cannot govern the collective capability their contributions produce.",
+  "picks": {
+    "Capability Class": {
+      "value": "Tool-grade",
+      "memo": "Federated learning typically deploys tool-grade models because each contributor's data alone cannot support frontier-scale training runs.",
+      "detail": "The federated approach trades peak capability for governance control. Each local node trains or fine-tunes against a shared architecture but limited local data. The aggregated model may approach higher capability but remains constrained by the weakest contributor's data quality. This structural ceiling is accepted as the cost of distributed governance."
+    },
+    "Domain Breadth": {
+      "value": "Multi-domain",
+      "memo": "Federation draws from multiple contributors across domains, each bringing distinct data types that the aggregated model must reconcile.",
+      "detail": "The value proposition of federation depends on breadth. Each contributor holds domain-specific data that would be insufficient alone. The aggregation protocol must handle schema differences, quality variance, and representational gaps across contributors. Multi-domain breadth is the structural reason federation exists rather than single-source licensing. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Capability Trajectory": {
+      "value": "Incremental",
+      "memo": "Federated model improvement is incremental because each aggregation round depends on coordinating multiple independent contributors' update cycles.",
+      "detail": "Progress is gated by the slowest contributor and the governance overhead of each aggregation round. Unlike centralised training where data scales continuously, federated updates arrive in discrete batches governed by committee processes. The trajectory is steady but never explosive. Governance friction is a deliberate design choice, not an accident. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Research Automation": {
+      "value": "Human-led",
+      "memo": "Research coordination across federated contributors remains human-led because no single party controls the full experimental pipeline.",
+      "detail": "Each contributor retains authority over their local training environment and data preparation. Research decisions about architecture, hyperparameters, and evaluation criteria require multi-party agreement. Automating research would require trust in a central coordinator that the governance structure is specifically designed to avoid. Human committees make the research calls. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Unhobbling": {
+      "value": "Tool-call enabled",
+      "memo": "Federated models typically serve as tool-call-enabled systems rather than autonomous agents because governance limits the autonomy any single model can exercise.",
+      "detail": "The governance structure restricts what the aggregated model can do unilaterally. Tool-call capability lets each contributor's deployment invoke the shared model for specific tasks. Agentic behaviour would require authority that no single contributor has granted. The model responds to requests rather than initiating actions independently. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Replication Scale": {
+      "value": "Many copies",
+      "memo": "Each federated contributor runs a local copy of the model, creating many parallel instances governed by a shared aggregation protocol.",
+      "detail": "The federation architecture requires distributed copies by design. Each contributor hosts their own instance for local inference and training. The copies diverge between aggregation rounds and reconverge when updates are merged. This replication is structural, not optional, and creates custody and version-control challenges unique to federation. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Operating Speed": {
+      "value": "Human-speed",
+      "memo": "Split ledger operates at human speed because each aggregation round requires multi-party review and approval before model updates propagate.",
+      "detail": "The governance cadence sets the operating tempo. Contributors must review proposed updates, validate against local policies, and approve before merging. This deliberate pace is the mechanism that preserves local control. Faster operation would require delegating authority to the central coordinator, undermining the federation's structural purpose. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Physical World Extension": {
+      "value": "Cognitive-only",
+      "memo": "Split ledger arrangements typically process data and produce analytical outputs without extending into physical systems or robotics.",
+      "detail": "The governance complexity of federation is already substantial without adding physical-world actuation. Contributors share data for cognitive tasks like prediction, classification, and recommendation. Physical-world extension would require safety and liability coordination that federation governance is not designed to handle. The scope stays analytical. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Role": {
+      "value": "Tool",
+      "memo": "The federated model serves as a shared analytical tool that each contributor queries within their own workflows and governance boundaries.",
+      "detail": "No single contributor grants the model authority to act independently. Each party uses the aggregated model as an input to their own decision processes. The tool role preserves the governance boundary: the model informs but does not decide. Elevating to agent or workflow owner would require authority that federation deliberately distributes."
+    },
+    "Actuation": {
+      "value": "Informational",
+      "memo": "Federated model outputs remain informational because no contributor has authorised the shared model to take binding actions on behalf of the collective.",
+      "detail": "The federation agreement typically limits the aggregated model to producing predictions, scores, and recommendations. Binding actions would require a governance mechanism for liability that federation structures rarely include. Each contributor retains the right to act on or ignore the model's outputs. Informational output preserves contributor autonomy. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Autonomy": {
+      "value": "Human-in-loop",
+      "memo": "Every federated model output passes through human review at the contributor level before any action is taken on results.",
+      "detail": "Local governance requires that each contributor's team reviews and approves actions based on model outputs. The federation agreement does not grant the model independent decision authority. Human-in-loop is both a governance requirement and a trust mechanism. Contributors who cannot verify outputs locally would not participate in the federation. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Delegated Authority": {
+      "value": "Recommend only",
+      "memo": "The federated model recommends but each contributor's governance retains all decision authority, preventing the shared model from binding any party.",
+      "detail": "Recommendation-only authority is the structural compromise that makes federation possible. If the model could bind contributors, the governance body would need enforcement powers that undermine local sovereignty. Each party takes the model's recommendations into their own approval processes. The authority boundary is where federation governance lives. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Tool Access": {
+      "value": "Gated tools",
+      "memo": "Each contributor gates the federated model's access to local tools and data through contributor-controlled permissions and access policies.",
+      "detail": "Tool access is mediated by each contributor's local infrastructure. The federated model cannot reach into a contributor's systems without explicit permission grants. These gates are reviewed and revocable at each aggregation cycle. Gated access is how contributors maintain practical control even while participating in collective learning. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Response / Intervention Capability": {
+      "value": "Defined escalation",
+      "memo": "Federation agreements include defined escalation procedures so any contributor can raise concerns and trigger review of model outputs or updates.",
+      "detail": "The governance charter specifies how concerns escalate from local observation to federation-wide response. Individual contributors can flag problematic outputs and request aggregation freezes. The escalation path runs from local admin through the governance committee to full federation pause. This structure exists because no single party controls the whole system. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Command Actor": {
+      "value": "Enterprise",
+      "memo": "Each federated contributor is typically an enterprise-level organisation with its own governance, legal, and compliance structure governing participation.",
+      "detail": "Federation membership requires institutional capacity to manage local data, run local training, and participate in governance decisions. Individual users do not join federations. Enterprise-level participants bring their own legal, compliance, and technical teams. The governance structure assumes peer organisations negotiating as equals. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Decision Tempo": {
+      "value": "Product cycle",
+      "memo": "Split ledger decisions follow product-cycle tempo because multi-party coordination cannot sustain crisis-speed decision-making across contributors.",
+      "detail": "The governance committee meets on a regular cadence to review updates, approve changes, and resolve disputes. Emergency procedures exist but are slow because they require multi-party coordination. Product-cycle tempo is the natural speed of consensus governance. Faster tempo would require delegating authority that federation deliberately withholds. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Tradeoff Authority": {
+      "value": "Safety body",
+      "memo": "The federation governance committee functions as a collective safety body that arbitrates tradeoffs between speed, accuracy, and contributor risk.",
+      "detail": "No single product team can override the governance committee's decisions about model updates or deployment parameters. The committee weighs competing interests across contributors when tradeoffs arise. This collective authority is slower than product-team decisions but reflects the multi-stakeholder reality. Safety-body authority is the governance price of collective benefit. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Permission": {
+      "value": "Purpose-limited",
+      "memo": "Each contributor grants purpose-limited permission to use their data for the federation's stated objectives, retaining rights for all other uses.",
+      "detail": "The federation agreement specifies permitted purposes precisely. Contributors do not grant broad licences because data may be competitively sensitive. Purpose limitation is the mechanism that makes contribution politically possible within each organisation. Expanding permitted purposes requires a governance vote that any contributor can block. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Regulatory Posture": {
+      "value": "Conditional",
+      "memo": "Federated arrangements operate under conditional regulatory posture because multi-jurisdictional participation triggers varying and overlapping compliance requirements.",
+      "detail": "Each contributor may operate under different regulatory regimes. The federation must satisfy the most restrictive applicable regime to maintain participation from all contributors. Conditional compliance is structural, not optional. The governance charter typically adopts the highest common denominator across contributing jurisdictions. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Data Availability": {
+      "value": "Licensed",
+      "memo": "Data remains with each contributor under licence terms that permit federated learning but prohibit direct data sharing or centralised aggregation.",
+      "detail": "The federation model is specifically designed to learn from data without moving it. Each contributor licences computational access to their data through the training protocol. The licence terms prevent raw data extraction or transfer. This licensed-but-local structure is the fundamental architecture that distinguishes federation from centralised data pooling. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Provenance": {
+      "value": "Mixed/declared",
+      "memo": "Each contributor declares the provenance of their contributed data, but the federation cannot independently verify every source across all participants.",
+      "detail": "The governance charter requires provenance declarations as a condition of participation. Contributors attest to data sources, collection methods, and rights basis. However, the federation governance body cannot audit every contributor's internal data pipeline. Mixed provenance is an honest description of what multi-party declaration actually delivers. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Model-Weight Rights": {
+      "value": "Shared access",
+      "memo": "Federated model weights are shared across contributors but not individually owned, creating collective custody without individual transferability.",
+      "detail": "Each contributor can access and deploy the aggregated weights within the federation terms. No single contributor can transfer or sublicence the weights independently. Shared access reflects the collective investment: every contributor's data shaped the weights. Departure from the federation typically means losing access to the aggregated model. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Territory": {
+      "value": "Cross-border",
+      "memo": "Split ledger typically spans multiple jurisdictions because the value of federation depends on combining geographically distributed data contributors.",
+      "detail": "Cross-border operation is often the reason federation exists. Contributors in different jurisdictions cannot centralise data due to residency or transfer restrictions. Federation offers a protocol that keeps data local while sharing learning globally. The cross-border dimension makes governance harder but is the structural driver of the architecture choice. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Data Subject Exposure": {
+      "value": "Ordinary personal data",
+      "memo": "Federated contributors often process ordinary personal data, using the federation protocol specifically to avoid centralising identifiable records.",
+      "detail": "Privacy preservation is a primary motivation for choosing federation over centralised processing. Each contributor handles personal data locally under their own privacy regime. The aggregation protocol is designed to transmit model updates rather than personal records. However, gradient leakage and model inversion attacks mean personal data exposure is reduced, not eliminated."
+    },
+    "Data Sensitivity": {
+      "value": "Sensitive/regulated",
+      "memo": "Federation is commonly chosen precisely because the underlying data is sensitive or regulated and cannot be pooled in a central repository.",
+      "detail": "Healthcare, financial services, and public-sector federations exist because the data is too sensitive to move. Regulation prohibits centralisation, making federation the only viable multi-party learning architecture. The sensitivity level drives the governance complexity. Less sensitive data would simply be pooled, making federation unnecessary. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Control Exposure": {
+      "value": "No control issue",
+      "memo": "Federated data-deal structures typically involve commercial or regulated data rather than export-controlled technology or classified materials.",
+      "detail": "Federation is a data governance architecture, not a national security construct. The participating data is usually healthcare records, financial transactions, or commercial datasets. Export control applies to the models or chips, not typically to the contributed data itself. Control exposure at the data level remains inactive in most federation arrangements."
+    },
+    "Processing Mode": {
+      "value": "Training",
+      "memo": "The federation protocol distributes training across contributors, with each node performing local training rounds before aggregating gradients or weights centrally.",
+      "detail": "Federated learning is fundamentally a distributed training protocol. Each contributor trains locally on their own data and sends model updates to the aggregator. The central model improves through iterated aggregation of these distributed training runs. The processing mode is training by definition, distinguishing federation from inference-time retrieval approaches like RAG."
+    },
+    "Derivation": {
+      "value": "Derived outputs",
+      "memo": "The aggregated model produces derived outputs that reflect learning from all contributors without exposing any single contributor's raw data.",
+      "detail": "Every output of the federated model is derived from the collective training data of all contributors. No single contributor can trace a specific output to their specific data contribution. This derivation is the intended feature: collective intelligence without data disclosure. However, it also means no contributor can fully verify what the model learned from them."
+    },
+    "Retention / Persistence": {
+      "value": "Weight-entangled",
+      "memo": "Each contributor's data influence persists in the aggregated model weights, making it impossible to surgically remove any single contributor's contribution.",
+      "detail": "Once training rounds aggregate, each contributor's data shapes the model weights irreversibly. A departing contributor cannot demand extraction of their influence from the collective model. Weight entanglement is the structural consequence of distributed training. This creates exit problems identical to centralised training but distributed across a governance structure designed to preserve local control."
+    },
+    "Execution / Residency Environment": {
+      "value": "Distributed",
+      "memo": "The federation architecture requires distributed execution by design, with training nodes at each contributor's premises and aggregation at a coordinated point.",
+      "detail": "Distribution is the defining characteristic of federated execution. Each contributor runs training locally, and the aggregator operates at a governance-approved location. The distributed environment creates network, synchronisation, and version-control challenges. Centralising execution would destroy the governance properties that justify choosing federation. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Boundary": {
+      "value": "Federated",
+      "memo": "The boundary is explicitly federated, with each contributor maintaining their own data boundary while sharing model updates through a governed aggregation protocol.",
+      "detail": "Federated boundary is the structural core of the architecture. Each contributor's data stays within their own security perimeter. Model updates cross boundaries through a controlled protocol. The federation boundary is neither fully shared nor fully isolated, creating a novel trust model that requires its own governance, security, and audit mechanisms."
+    },
+    "Deployment Surface": {
+      "value": "Internal/embedded",
+      "memo": "Each contributor deploys the federated model internally, embedding it within their own workflows rather than exposing it to external users.",
+      "detail": "The federation agreement typically restricts deployment to internal contributor use. Each party embeds the model within their existing decision-support systems. External-facing deployment would require liability and quality agreements that federation governance rarely covers. Internal embedding preserves the governance boundary between collective learning and individual application. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Physical Infrastructure": {
+      "value": "Dedicated cluster",
+      "memo": "Each contributor runs local training on dedicated infrastructure, and the aggregation node requires its own governed compute environment.",
+      "detail": "Federation requires dedicated compute at each contributor site for local training runs. The aggregation node needs secure, governed infrastructure that all contributors trust. Shared commercial cloud for the aggregator raises sovereignty concerns. Dedicated clusters at each level of the federation preserve the governance boundaries that justify the architecture. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Model Sourcing": {
+      "value": "In-house/orchestrated",
+      "memo": "The federated model is collectively built by participating contributors rather than sourced from a single external provider.",
+      "detail": "Federation creates a collectively owned model through orchestrated training. No external provider supplies the model. The architecture, training protocol, and aggregation method are designed by the governance body. In-house orchestration is what distinguishes federation from simply licensing a pre-trained model from a vendor. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Compute Source": {
+      "value": "Committed capacity",
+      "memo": "Each contributor commits compute capacity to the federation, with minimum resource commitments specified in the governance charter.",
+      "detail": "Federation requires reliable compute availability at each node for training rounds to proceed on schedule. Spot or interruptible compute would disrupt the aggregation cadence. Committed capacity is a participation requirement. Contributors who cannot sustain their compute commitment cannot maintain their governance rights in the federation. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Cloud Dependency": {
+      "value": "Portable",
+      "memo": "The federation protocol is designed to be cloud-portable so that contributors on different infrastructure providers can participate without lock-in.",
+      "detail": "Interoperability across contributors requires cloud portability. If the federation were captive to a single cloud provider, contributors on other platforms would be excluded. Portable design is a governance requirement, not just a technical preference. The aggregation protocol abstracts away infrastructure differences to maintain broad participation. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Accelerator Stack": {
+      "value": "Multi-stack",
+      "memo": "Federated contributors typically run heterogeneous hardware, requiring the training protocol to accommodate different accelerator architectures.",
+      "detail": "Each contributor brings their existing infrastructure. Some may run Nvidia GPUs, others custom ASICs or alternative hardware. The federation protocol must produce compatible model updates across these differences. Multi-stack support is a practical necessity of distributed governance, not an architectural preference. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Supply Control": {
+      "value": "Market access",
+      "memo": "Each contributor sources their own compute infrastructure through market access, with no federation-level supply agreements or strategic allocations.",
+      "detail": "The federation does not procure infrastructure collectively. Each participant is responsible for their own compute, storage, and networking. Market access is the default because centralised procurement would require governance authority and financial commitments that federation charters rarely include. Supply diversity is a consequence of governance distribution. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Silicon Bottleneck": {
+      "value": "Accelerator supply",
+      "memo": "Any contributor constrained by accelerator supply becomes a bottleneck for the entire federation's aggregation cycle and model improvement cadence.",
+      "detail": "The federation's training speed is limited by its slowest participant. If one contributor cannot secure adequate accelerator capacity, the entire aggregation round stalls. This creates a supply-chain vulnerability distributed across multiple independent procurement processes. The federation governance body has no mechanism to resolve individual contributors' supply constraints. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Substitutability": {
+      "value": "Expensive switch",
+      "memo": "Leaving a federation and rebuilding equivalent capability independently requires expensive recreation of the collective dataset and training investment.",
+      "detail": "Each contributor's switching cost includes losing access to the aggregated model and the collective training investment. Rebuilding equivalent capability independently would require licensing data from every other contributor separately. The switching cost is high but not absolute because the contributor retains their own data. The expense is in the collective learning, not the infrastructure."
+    },
+    "Vertical Integration": {
+      "value": "Application-only",
+      "memo": "Each contributor integrates the federated model at the application layer without owning or controlling the underlying training stack collectively.",
+      "detail": "Contributors use the model within their own applications but do not individually control the training pipeline or aggregation infrastructure. Vertical integration stops at the application boundary. The federation governance body manages the stack below. This separation between application-level use and stack-level control is the governance architecture's defining tension. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Distribution Channel": {
+      "value": "API/app",
+      "memo": "Contributors access the federated model through APIs or local application integration, with no platform-level or OS-level distribution across the federation.",
+      "detail": "The model is consumed through standard integration interfaces within each contributor's existing technology stack. There is no consumer-facing distribution channel. API access is controlled by the governance charter's authentication and authorisation requirements. The distribution channel reflects the enterprise-to-enterprise nature of federation. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Supply Jurisdiction": {
+      "value": "Allied",
+      "memo": "Federation participants are typically from allied jurisdictions because the governance trust required for collective learning presupposes baseline alignment.",
+      "detail": "Effective federation requires participants who can legally share model updates across borders. Allied jurisdictions provide the regulatory compatibility needed for cross-border aggregation protocols. Participants from non-allied jurisdictions would create data-leakage and security concerns that federation governance cannot resolve. Allied status is a prerequisite, not a bonus. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Observability": {
+      "value": "Auditable",
+      "memo": "The federation governance charter grants each contributor audit rights over the aggregation process, model updates, and governance decisions.",
+      "detail": "Auditability is a governance requirement, not a technical feature alone. Each contributor must be able to verify that the aggregation protocol operated as specified. Audit rights extend to the central aggregator's logs, update histories, and governance records. Without auditability, contributors would have no basis for trusting the collective output. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Evaluation": {
+      "value": "Domain evals",
+      "memo": "Each contributor evaluates the federated model against their own domain-specific benchmarks before accepting aggregated updates into local deployment.",
+      "detail": "The federation cannot impose a single evaluation standard across diverse contributors. Each party runs domain-specific evaluations to verify that aggregated updates improve or at least do not degrade performance on their use cases. Evaluation is local and contributor-controlled. The governance body may set minimum evaluation standards but cannot override local assessment."
+    },
+    "Interpretability": {
+      "value": "Behavioral evidence",
+      "memo": "Federated model interpretability relies on behavioral evidence because no single contributor has full visibility into how all training data shaped the model.",
+      "detail": "Each contributor can observe the model's behaviour on their own test cases. Internal mechanistic analysis would require access to the full training dataset, which federation specifically prevents. Behavioural evidence is the highest interpretability level achievable under federation's privacy constraints. Contributors judge the model by what it does, not how it learned."
+    },
+    "Alignment Method": {
+      "value": "Human review",
+      "memo": "Alignment in federation relies on human review at each contributor site because no centralised alignment mechanism spans the entire governance structure.",
+      "detail": "Each contributor's team reviews model outputs for alignment with their own values and requirements. The federation governance body may set alignment principles, but enforcement is local. Centralised RLHF would require centralised data that federation prohibits. Human review at the edges is the alignment method that federation's architecture permits. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Security Posture": {
+      "value": "Enterprise-grade",
+      "memo": "Federation governance requires enterprise-grade security at every contributor node because a single compromised participant threatens the entire aggregated model.",
+      "detail": "The security of the federated model depends on the weakest participant's security. Governance charters specify minimum security standards for participation. Enterprise-grade is the practical minimum because startup-grade security at any node creates poisoning and extraction risks for all. Security requirements are a participation condition enforced by the governance body. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Adversary Model": {
+      "value": "Criminal/state-adjacent",
+      "memo": "Federated systems face criminal and state-adjacent adversaries because the aggregation protocol creates a novel attack surface for model poisoning and data extraction.",
+      "detail": "The distributed training surface expands the attack perimeter beyond any single organisation's boundary. Gradient inversion attacks, poisoned updates, and compromised aggregation nodes are federation-specific threats. Criminal actors seeking data and state-adjacent actors seeking model influence both find federation's distributed architecture an attractive target. The adversary model must account for insider threats from compromised contributors."
+    },
+    "Weight Security": {
+      "value": "Monitored",
+      "memo": "Aggregated model weights are monitored across the federation to detect unauthorised distribution, extraction attempts, or anomalous update patterns.",
+      "detail": "The governance body monitors weight distribution and access across all contributor nodes. Monitoring detects if a contributor extracts more than their authorised access permits. Weight security in federation is harder than in centralised systems because legitimate copies exist at every node. Monitored weights are the feasible security level when copies are structurally required."
+    },
+    "Access Control": {
+      "value": "RBAC",
+      "memo": "Federation access control uses role-based permissions to distinguish contributor administrators, data scientists, governance officers, and aggregation operators.",
+      "detail": "The governance structure maps to RBAC roles across the federation. Contributor admins control local data access. Governance officers approve aggregation rounds. Aggregation operators execute the technical protocol. Role-based control is the natural fit for multi-party governance where different participants have different authorities and responsibilities. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Monitoring Scope": {
+      "value": "Tool activity",
+      "memo": "Federation monitoring covers tool activity including training pipelines, aggregation operations, and API access patterns across all contributor nodes.",
+      "detail": "Monitoring extends beyond model outputs to the tools and pipelines that produce and consume the federated model. Training run parameters, aggregation timing, and access patterns are all within scope. Full cluster telemetry at each contributor site would exceed the governance body's authority. Tool activity monitoring is the negotiated middle ground."
+    },
+    "Containment": {
+      "value": "Network-isolated",
+      "memo": "The federation aggregation protocol operates over network-isolated channels to prevent model updates from leaking outside the governed perimeter.",
+      "detail": "Aggregation traffic is isolated from general network traffic at each contributor site. The central aggregator runs in a network-isolated environment accessible only to authenticated federation participants. Network isolation prevents gradient-leakage attacks and unauthorised observation of the training process. This containment level is a governance requirement for sensitive-data federations. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Capability Limitation": {
+      "value": "Targeted restriction",
+      "memo": "The governance charter imposes targeted restrictions on model capabilities that could expose contributor data or exceed the federation's authorised purpose.",
+      "detail": "Capability limitations are governance decisions, not technical accidents. The federation may restrict the model from generating verbatim text, memorising training examples, or performing tasks outside the agreed purpose. Targeted restrictions protect contributors whose data might be recoverable through unrestricted model capabilities. Limitation is a trust mechanism. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Use Class": {
+      "value": "Civilian",
+      "memo": "Federated data governance arrangements in the commercial sector serve civilian analytical purposes without military or national security applications.",
+      "detail": "The federation agreement specifies civilian use to keep governance manageable. Military or dual-use classification would trigger export controls, security clearance requirements, and oversight obligations that federation governance is not structured to handle. Civilian classification is a scope decision that keeps the governance proportionate to the commercial purpose. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Harm Channel": {
+      "value": "Information",
+      "memo": "The primary harm channel in federation is information leakage, where the aggregation protocol inadvertently exposes contributor data through model updates.",
+      "detail": "Federation's specific risk is not the model's outputs but the training process itself leaking information. Gradient inversion and membership inference attacks can extract contributor data from model updates. The harm channel is informational rather than physical or financial. Governance controls, differential privacy, and secure aggregation exist to mitigate this specific channel."
+    },
+    "Proliferation": {
+      "value": "Contained",
+      "memo": "The federated model's distribution is contained within the federation membership, with governance controls preventing weights from reaching non-participants.",
+      "detail": "Containment is enforced by the governance charter's membership and exit provisions. Departing contributors lose access to the aggregated model. Non-members cannot obtain the weights through any authorised channel. Containment is credible because the governance body controls the aggregation process and can exclude non-compliant participants. The model does not leak because the federation controls distribution."
+    },
+    "Strategic Lead": {
+      "value": "Behind",
+      "memo": "Federated models typically lag behind centralised frontier models because governance overhead, data fragmentation, and distributed training reduce achievable capability.",
+      "detail": "The governance cost of federation trades capability for control. Centralised labs with unrestricted data access and concentrated compute will produce stronger models. Federation accepts being behind on raw capability because the alternative is not having access to the combined dataset at all. Being behind is the structural price of distributed governance."
+    },
+    "Race Pressure": {
+      "value": "Low",
+      "memo": "Federation operates under low race pressure because the participants prioritise governance integrity over speed and accept slower capability development.",
+      "detail": "Competitive pressure is deliberately dampened by the governance structure. Contributors chose federation because centralised alternatives were unacceptable, not because federation is faster. Low race pressure is a feature, not a failure. The governance body can resist pressure to cut corners because participants value the governance properties over raw speed. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Coalition Structure": {
+      "value": "Allied bloc",
+      "memo": "Federation is structurally an allied bloc: multiple independent organisations cooperating under a governance charter while retaining individual sovereignty.",
+      "detail": "The federation is neither a single firm nor a national project but a voluntary coalition of independent parties. Allied-bloc structure means decisions require consensus or qualified majority. Each contributor retains exit rights and local sovereignty. The governance charter is a treaty among peers, not a corporate hierarchy. This structure determines the federation's strengths and limitations."
+    },
+    "Nonproliferation Regime": {
+      "value": "Norms",
+      "memo": "Federation governance relies on norms and charter commitments rather than enforceable nonproliferation regimes to prevent model or data leakage.",
+      "detail": "The governance charter establishes norms for acceptable conduct, data handling, and model distribution. These norms are enforced through membership conditions and reputational mechanisms, not through legal or regulatory nonproliferation regimes. Norms work when participants are committed but may fail under adversarial pressure. The governance body's enforcement power is limited to membership expulsion."
+    },
+    "Data Value Dynamics": {
+      "value": "Accretive/fortifying",
+      "memo": "Each aggregation round adds contributor data influence to the collective model, creating accretive value that strengthens the federation's competitive position.",
+      "detail": "The federated model becomes more valuable with each training round as more contributor data shapes its capabilities. This accretive dynamic creates increasing switching costs: the longer a contributor participates, the more collective value they would lose by departing. Accretion also means latecomers benefit from earlier contributors' data without having contributed equivalently. Value asymmetry is a structural governance challenge."
+    },
+    "Input Price": {
+      "value": "Structural",
+      "memo": "Federation pricing is structural because each contributor pays through compute, data access, and governance participation rather than simple licence fees.",
+      "detail": "There is no simple input price in federation. Each contributor's cost includes local compute infrastructure, staff time for governance participation, data preparation, and compliance overhead. Structural pricing means the economics are embedded in the participation arrangement rather than captured in a single commercial term. Comparing federation costs to simple licensing requires accounting for all structural elements."
+    },
+    "Output Allocation": {
+      "value": "Shared",
+      "memo": "The federated model's outputs are shared among all contributors, with each party able to use model predictions within the scope of the governance charter.",
+      "detail": "Every contributor receives equal access to the aggregated model's capabilities. Output allocation is shared by design because the model reflects collective investment. No single contributor can claim exclusive rights to outputs derived from collective training. Shared allocation is the governance principle that sustains participation: every contributor benefits from every other contributor's data."
+    },
+    "Derived Value Capture": {
+      "value": "Joint/reciprocal",
+      "memo": "Value derived from the federated model is captured jointly because each contributor's downstream applications generate value from the collective investment.",
+      "detail": "The federation creates a reciprocal value structure: each contributor's data improves the model for all, and each contributor captures value through their own applications. Joint value capture means no single party can monopolise the derived value. However, contributors with better applications or larger markets may capture disproportionate value from the same model. Reciprocity is in access, not necessarily in outcomes."
+    },
+    "Risk Allocation / Backstop": {
+      "value": "Allocated",
+      "memo": "The governance charter allocates risks among contributors, specifying each party's liability for data quality, model failures, and governance breaches.",
+      "detail": "Risk allocation is negotiated as part of the governance charter. Each contributor bears liability for their own data quality and compliance. The governance body may carry collective liability for aggregation failures. Allocated risk is necessary because federation distributes both benefit and harm across multiple parties. Without explicit allocation, liability defaults would be unpredictable and jurisdiction-dependent."
+    },
+    "Capital": {
+      "value": "Operating",
+      "memo": "Federation participation is funded through each contributor's operating budget rather than through project finance or strategic capital allocations.",
+      "detail": "Each contributor treats federation costs as an operational expense alongside other IT and data infrastructure spending. Operating-budget funding means federation competes for resources against other operational priorities within each contributor organisation. Project-level or strategic capital would require board-level approval that most federation participants have not obtained. Operating budget keeps participation reversible."
+    },
+    "Commitment Tenor": {
+      "value": "Multi-year",
+      "memo": "Effective federation requires multi-year commitment because the value of collective learning compounds over time and early withdrawal wastes investment.",
+      "detail": "The governance charter typically specifies a multi-year term with renewal provisions. Short-term commitments would not justify the setup cost of federation infrastructure and governance. Multi-year tenor creates the stability needed for accretive model improvement. However, it also creates lock-in because contributors' influence on the model increases with duration, raising departure costs over time."
+    },
+    "Revenue Dependency": {
+      "value": "Product-line",
+      "memo": "For most contributors, the federated model supports a specific product line rather than constituting the entire business or remaining merely experimental.",
+      "detail": "Contributors join federations because the collective model materially improves a specific product or service offering. The model is embedded in a product line that generates revenue. Product-line dependency means the federation is commercially significant but not existential. Contributors can survive federation failure, though the affected product line would suffer. This structural characteristic shapes every governance decision within the federation and constrains what participants can achieve collectively."
+    },
+    "Switching Cost": {
+      "value": "Data migration cost",
+      "memo": "Leaving a federation does not require data migration, but rebuilding equivalent model capability independently imposes costs analogous to data migration.",
+      "detail": "The contributor's data never left their premises, so there is no data to migrate back. However, the capability embedded in the aggregated model cannot be taken with a departing contributor. Rebuilding equivalent capability requires finding alternative data sources or training independently. The switching cost is in capability loss and replacement, not in physical data movement."
+    },
+    "Exit": {
+      "value": "Capability entangled",
+      "memo": "Exiting a federation means losing access to the aggregated model while the departing contributor's data influence remains entangled in the collective weights.",
+      "detail": "Exit is structurally asymmetric. The departing contributor loses the model but the model retains their contribution. The federation cannot remove a contributor's data influence from the weights. Remaining participants continue to benefit from the departed party's historical data contribution. Entangled exit is the fundamental governance problem of collective learning: you can leave, but your contribution cannot."
+    },
+    "Acceptance Basis": {
+      "value": "Process-required",
+      "memo": "Split ledger across multiple contributors requires articulable process so each participant can verify constraint compliance.",
+      "detail": "Split ledger structures bring together multiple contributors with distinct constraints and expectations. Each participant needs to verify that their specific requirements are respected within the shared system. This demands articulable, auditable process as the primary acceptance basis. Without transparent procedural mechanisms, no single contributor can trust the federated arrangement."
+    }
+  }
+}
